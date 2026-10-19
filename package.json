@@ -1,0 +1,13 @@
+{
+  "name": "salle-attente",
+  "version": "0.1.0",
+  "description": "Urgences du Grand Montréal classées de la moins à la plus remplie, avec les données ouvertes du MSSS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
