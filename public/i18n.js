@@ -1,0 +1,321 @@
+// Salle d'attente — langues (français, anglais)
+// Le site est écrit en français. En anglais, chaque texte affiché est traduit au moment où il
+// apparaît (dictionnaire + modèles pour les textes avec des chiffres). Les données officielles (noms d'hôpitaux,
+// adresses, services, notes des cliniques) restent en français, comme dans leurs sources.
+(function () {
+  let lang = "fr";
+  try { lang = localStorage.getItem("sa-lang") || (navigator.language || "fr").slice(0, 2); } catch (e) {}
+  if (!["fr", "en"].includes(lang)) lang = "fr";
+  window.SA_LANG = lang;
+  document.documentElement.lang = lang === "fr" ? "fr-CA" : "en-CA";
+
+  // [français, anglais]
+  const D = [
+    // En-tête, aide
+    ["Salle d'attente", "Salle d'attente"],
+    ["Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal et la région de Québec.", "Find the least crowded emergency room, or a clinic for today, in Greater Montréal and the Québec City region."],
+    ["Douleur thoracique, AVC, difficulté à respirer", "Chest pain, stroke, trouble breathing"],
+    ["Info-Santé : une infirmière vous oriente", "Info-Santé: a nurse will guide you"],
+    ["Taille du texte", "Text size"],
+    ["Langue", "Language"],
+    ["Texte normal", "Normal text"],
+    ["Grand texte", "Large text"],
+    ["Très grand texte", "Extra large text"],
+    ["Les noms, adresses et services viennent des sources officielles et restent en français.", "Names, addresses and services come from official sources and stay in French."],
+    // Onglets, régions, position
+    ["🏥 Urgences", "🏥 ERs"],
+    ["🩺 Cliniques", "🩺 Clinics"],
+    ["💲 Privées", "💲 Private"],
+    ["Que cherchez-vous ?", "What are you looking for?"],
+    ["Tout", "All"],
+    ["Région", "Region"],
+    ["Région et position", "Region and location"],
+    ["📍 Trier selon ma position", "📍 Sort by my location"],
+    ["Effacer la position", "Clear location"],
+    ["Recherche de votre position…", "Finding your location…"],
+    ["Votre position reste sur votre téléphone : elle n'est jamais envoyée.", "Your location stays on your phone: it is never sent."],
+    ["Acceptez la demande de votre téléphone pour voir les distances.", "Accept your phone's request to see distances."],
+    ["Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.", "Straight-line distances from your location. It stays on your phone."],
+    ["Position refusée. Vous pouvez l'autoriser dans les réglages de votre navigateur, puis réessayer.", "Location denied. You can allow it in your browser settings, then try again."],
+    ["Position introuvable pour le moment. Réessayez dans un instant.", "Location not available right now. Try again in a moment."],
+    ["Votre navigateur ne permet pas la localisation.", "Your browser does not support location."],
+    ["ou une adresse, ou un code postal (ex. G1V 4G2)", "or an address or postal code"],
+    ["Adresse ou code postal", "Address or postal code"],
+    ["Chercher", "Search"],
+    ["L'adresse cherchée sert seulement à trouver sa position (OpenStreetMap). Elle n'est pas conservée.", "The address you search is only used to find its location (OpenStreetMap). It is not kept."],
+    ["Recherche de l'adresse…", "Looking up the address…"],
+    ["Recherche impossible pour le moment.", "Search unavailable right now."],
+    ["Entrez une adresse ou un code postal.", "Enter an address or a postal code."],
+    ["Adresse introuvable. Essayez avec le numéro, la rue et la ville, ou un code postal.", "Address not found. Try with the number, street and city, or a postal code."],
+    ["Trop de recherches. Réessayez dans un moment.", "Too many searches. Try again in a moment."],
+    ["Recherche d'adresse indisponible pour le moment.", "Address search unavailable right now."],
+    // Urgences : filtres
+    ["Filtres des urgences", "Emergency room filters"],
+    ["Trier", "Sort"],
+    ["Proche et peu remplie", "Close and not crowded"],
+    ["Plus proche d'abord", "Closest first"],
+    ["Moins remplie d'abord", "Least crowded first"],
+    ["Moins de gens en attente", "Fewest people waiting"],
+    ["Séjour le plus court", "Shortest stay"],
+    ["Pédiatrique seulement", "Children only"],
+    ["Urgences psychiatriques", "Psychiatric ERs"],
+    ["Actualiser", "Refresh"],
+    ["Chargement des données…", "Loading data…"],
+    ["Données indisponibles pour le moment. Réessayez dans quelques minutes ou consultez quebec.ca/SituationUrgences.", "Data unavailable right now. Try again in a few minutes or see quebec.ca/SituationUrgences."],
+    ["Détresse psychologique ?", "Psychological distress?"],
+    ["Info-Social : composez le", "Info-Social: dial"],
+    [", 24 h sur 24.", ", 24 hours a day."],
+    ["Idées suicidaires :", "Suicidal thoughts:"],
+    [", par téléphone ou texto. Danger immédiat :", ", by phone or text. Immediate danger:"],
+    ["Meilleur choix selon la dernière mise à jour", "Best choice based on the latest update"],
+    ["Meilleur choix près de vous", "Best choice near you"],
+    ["Occupation inconnue", "Occupancy unknown"],
+    ["Fluide", "Light"],
+    ["Chargée", "Busy"],
+    ["Débordée", "Overcrowded"],
+    ["Inconnu", "Unknown"],
+    ["inconnu", "unknown"],
+    ["Enfants", "Children"],
+    ["Psychiatrie", "Psychiatry"],
+    ["Cardiologie", "Cardiology"],
+    ["Services pédiatriques", "Pediatric services"],
+    ["Unités pédiatriques sur place", "Pediatric units on site"],
+    ["en attente d'un médecin", "waiting for a doctor"],
+    ["séjour moyen, sans civière (hier)", "average stay, without stretcher (yesterday)"],
+    ["Itinéraire :", "Directions:"],
+    ["Voir la fiche ›", "See details ›"],
+    ["Aucune urgence pour ce filtre.", "No emergency room for this filter."],
+    ["Meilleurs moments pour y aller", "Best times to go"],
+    ["Prochaines heures (occupation habituelle)", "Next hours (usual occupancy)"],
+    ["C'est habituellement le moment le plus calme des 12 prochaines heures.", "This is usually the quietest time of the next 12 hours."],
+    ["Meilleurs créneaux de la semaine", "Best times of the week"],
+    ["Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. « Meilleurs moments » : moyennes des semaines passées, par jour et par heure ; c'est une estimation, pas une garantie. En cas d'urgence grave, n'attendez pas : appelez le 911. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.",
+     "Bar: stretchers in use compared with available stretchers. The line marks 100%. “Waiting” = people not yet seen by a doctor. “Best times”: averages of past weeks, by day and hour; it is an estimate, not a guarantee. In a serious emergency, do not wait: call 911. Data is published every hour and can change quickly if several patients arrive at once."],
+    // Fiche d'une urgence
+    ["‹ Retour à la liste", "‹ Back to the list"],
+    ["En ce moment", "Right now"],
+    ["des civières occupées", "of stretchers in use"],
+    ["personnes présentes à l'urgence", "people in the ER"],
+    ["civières occupées / fonctionnelles", "stretchers in use / available"],
+    ["sur civière depuis plus de 24 h", "on a stretcher for over 24 h"],
+    ["sur civière depuis plus de 48 h", "on a stretcher for over 48 h"],
+    ["séjour moyen sans civière (hier)", "average stay without stretcher (yesterday)"],
+    ["séjour moyen sur civière (hier)", "average stay on stretcher (yesterday)"],
+    ["Y aller", "Getting there"],
+    ["Dernières 24 heures", "Last 24 hours"],
+    ["Chargement…", "Loading…"],
+    ["Historique indisponible pour le moment.", "History unavailable right now."],
+    ["Pas encore assez de mesures pour cette urgence. L'historique se construit chaque heure.", "Not enough measurements yet for this ER. The history builds up every hour."],
+    ["L'historique se construit chaque heure. Les meilleurs moments s'afficheront ici après 7 jours de données.", "The history builds up every hour. Best times will appear here after 7 days of data."],
+    ["Semaine type (occupation habituelle)", "Typical week (usual occupancy)"],
+    ["Le contour marque l'heure actuelle. Heures du Québec.", "The outline marks the current hour. Québec time."],
+    ["Pas de données", "No data"],
+    ["Partager cette fiche", "Share this page"],
+    ["Copier le lien de cette fiche", "Copy the link to this page"],
+    ["Lien copié", "Link copied"],
+    ["Cette urgence ne figure pas dans les données actuelles du ministère.", "This ER is not in the ministry's current data."],
+    ["En cas d'urgence grave (douleur thoracique, AVC, difficulté à respirer), n'attendez pas : appelez le 911. En cas de doute, le 811 vous oriente. Les chiffres viennent du ministère de la Santé et peuvent changer vite.",
+     "In a serious emergency (chest pain, stroke, trouble breathing), do not wait: call 911. If in doubt, 811 will guide you. Figures come from the Ministry of Health and can change quickly."],
+    // Cliniques
+    ["Consultation le jour même, surtout sur rendez-vous.", "Same-day visits, mostly by appointment."],
+    ["Ces cliniques (GMF-A/R, les anciennes « super-cliniques ») soignent les problèmes urgents mineurs. Réservez avant d'y aller : les places sont limitées et il n'y a pas de nombre de places en temps réel.",
+     "These clinics (GMF-A/R, formerly “super-clinics”) treat minor urgent problems. Book before you go: spots are limited and there is no real-time count of available spots."],
+    ["Sans médecin de famille ?", "No family doctor?"],
+    ["Le Guichet d'accès à la première ligne vous trouve une consultation :", "The Primary Care Access Point (GAP) will find you an appointment:"],
+    [", ou", ", or"],
+    ["en ligne", "online"],
+    ["Filtres des cliniques", "Clinic filters"],
+    ["Ouvertes maintenant", "Open now"],
+    ["Pour tous (sans médecin de famille)", "For everyone (no family doctor)"],
+    ["Urgences pour enfants", "Children's urgent care"],
+    ["Chargement des cliniques…", "Loading clinics…"],
+    ["Liste des cliniques indisponible pour le moment. Réessayez dans quelques minutes.", "Clinic list unavailable right now. Try again in a few minutes."],
+    ["Horaire à vérifier", "Hours to be confirmed"],
+    ["Fermée aujourd'hui", "Closed today"],
+    ["Fermée pour aujourd'hui", "Closed for today"],
+    ["Fermée", "Closed"],
+    ["Rendez-vous le jour même : pour tous", "Same-day appointments: for everyone"],
+    [", même sans médecin de famille.", ", even without a family doctor."],
+    [", même sans médecin de famille (la fiche indique que des frais sont exigés).", ", even without a family doctor (the official listing says fees apply)."],
+    ["Rendez-vous le jour même : patients inscrits", "Same-day appointments: registered patients"],
+    ["à cette clinique. Sinon, appelez pour savoir s'il reste des places.", "at this clinic. Otherwise, call to ask if spots are left."],
+    ["Par téléphone :", "By phone:"],
+    ["en tout temps", "anytime"],
+    ["voir la fiche", "see the listing"],
+    ["Horaire des prochains jours", "Hours for the next few days"],
+    ["Fiche officielle (Santé Québec)", "Official listing (Santé Québec)"],
+    ["Site de la clinique", "Clinic website"],
+    ["Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3.", "No clinic for these filters. Try another region, or call 811, option 3."],
+    ["Horaires, téléphones et façons de réserver : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Ils peuvent changer sans préavis : téléphonez avant de vous déplacer. Les « Rendez-vous le jour même » réservés aux patients inscrits sont pour les personnes suivies à cette clinique. En cas d'urgence grave, appelez le 911.",
+     "Hours, phone numbers and ways to book: official listings from Santé Québec's resource directory, checked every morning. They can change without notice: call before you go. “Same-day appointments” for registered patients are for people followed at that clinic. In a serious emergency, call 911."],
+    ["Rendez-vous santé Québec", "Rendez-vous santé Québec"],
+    // Privées
+    ["Cliniques privées : consultation payante.", "Private clinics: you pay for the visit."],
+    ["Les médecins de ces cliniques ne sont pas payés par la RAMQ. Vous payez la consultation, et les frais varient selon la clinique et le service : informez-vous auprès de la clinique avant d'y aller.",
+     "Doctors at these clinics are not paid by the RAMQ (Québec health insurance). You pay for the visit, and fees vary by clinic and service: ask the clinic before you go."],
+    ["Sans moyen de payer ? Les cliniques de l'onglet « Cliniques » et le 811 sont gratuits. En cas d'urgence grave, appelez le 911.",
+     "Can't pay? The clinics in the “Clinics” tab and 811 are free. In a serious emergency, call 911."],
+    ["Filtres des cliniques privées", "Private clinic filters"],
+    ["Service ou spécialité", "Service or specialty"],
+    ["Tous les services et spécialités", "All services and specialties"],
+    ["Chargement des cliniques privées…", "Loading private clinics…"],
+    ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
+    ["💲 Payant", "💲 Paid"],
+    ["Heures et tous les services", "Hours and all services"],
+    ["Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service.", "No private clinic for these filters. Try another region or service."],
+    ["Adresses, téléphones, heures et services : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Seules les cliniques dont la fiche est complète sont affichées. Cliniques repérées grâce à la liste des médecins non participants de la RAMQ (septembre 2026). Les heures peuvent changer : téléphonez avant de vous déplacer.",
+     "Addresses, phone numbers, hours and services: official listings from Santé Québec's resource directory, checked every morning. Only clinics with a complete listing are shown. Clinics found using the RAMQ list of non-participating doctors (September 2026). Hours can change: call before you go."],
+    // Commentaires
+    ["Une erreur ? Une idée ?", "Spotted an error? Have an idea?"],
+    ["Signalez une information inexacte, un problème avec le site ou une suggestion. Chaque message est lu et sert à corriger le site. N'écrivez pas d'information médicale personnelle. Pour une urgence, appelez le 911.",
+     "Report wrong information, a problem with the site or a suggestion. Every message is read and used to fix the site. Do not write personal medical information. For an emergency, call 911."],
+    ["Type de commentaire", "Type of comment"],
+    ["Information inexacte (heures, adresse, service…)", "Wrong information (hours, address, service…)"],
+    ["Problème avec le site", "Problem with the site"],
+    ["Suggestion", "Suggestion"],
+    ["Autre", "Other"],
+    ["Votre commentaire", "Your comment"],
+    ["Ex. : la clinique X est fermée le samedi, contrairement à ce qui est affiché.", "E.g. clinic X is closed on Saturdays, unlike what is shown."],
+    ["Courriel (facultatif, pour une réponse)", "Email (optional, for a reply)"],
+    ["Courriel facultatif", "Optional email"],
+    ["Envoyer", "Send"],
+    ["Envoi…", "Sending…"],
+    ["Merci ! Votre commentaire a été envoyé.", "Thank you! Your comment has been sent."],
+    ["Écrivez votre commentaire avant d'envoyer.", "Write your comment before sending."],
+    ["Envoi impossible pour le moment.", "Cannot send right now."],
+    ["Écrivez votre commentaire (au moins quelques mots).", "Write your comment (at least a few words)."],
+    ["Trop d'envois. Réessayez dans une heure.", "Too many messages. Try again in an hour."],
+    ["Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.",
+     "Source: Québec Ministry of Health and Social Services, hourly emergency room data file, Données Québec (CC BY 4.0 license). Clinics: Santé Québec health and social services resource directory. This app does not replace medical advice. If in doubt, call 811."],
+  ];
+    const DICT = new Map(D.map((r) => [r[0], r[1]]));
+
+  const MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+  const M_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const M_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+  const DAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+  const D_EN = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const D_ES = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+  const SHORT = { dim: 0, lun: 1, mar: 2, mer: 3, jeu: 4, ven: 5, sam: 6 };
+  const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  const day = (fr) => { const i = DAYS.indexOf(fr.toLowerCase()); return i < 0 ? fr : (lang === "en" ? D_EN[i] : D_ES[i]); };
+  const month = (fr) => { const i = MONTHS.indexOf(fr.toLowerCase()); return i < 0 ? fr : (lang === "en" ? M_EN[i] : M_ES[i]); };
+  // « 20 h 30 » -> « 8:30 p.m. » (anglais) ou « 20:30 » (espagnol)
+  const hour = (h, m) => {
+    h = +h; m = m ? +m : 0;
+    if (lang === "es") return h + ":" + String(m).padStart(2, "0");
+    const hh = h % 12 === 0 ? 12 : h % 12, ap = h < 12 || h === 24 ? "a.m." : "p.m.";
+    return hh + (m ? ":" + String(m).padStart(2, "0") : "") + " " + ap;
+  };
+  const H = "(\\d{1,2}) h(?: (\\d{2}))?";
+  const L = (en) => en; // les seconds arguments (espagnol) ne sont plus utilisés
+
+  // Modèles pour les textes qui contiennent des chiffres, des heures ou des noms.
+  const P = [
+    [new RegExp("^" + H + " à " + H + "$"), (m) => L(hour(m[1], m[2]) + " to " + hour(m[3], m[4]), hour(m[1], m[2]) + " a " + hour(m[3], m[4]))],
+    [new RegExp("^" + H + "$"), (m) => hour(m[1], m[2])],
+    [/^à moins de 1 km$/, () => L("less than 1 km away", "a menos de 1 km")],
+    [/^à ([\d  ]+) km$/, (m) => L(m[1] + " km away", "a " + m[1] + " km")],
+    [new RegExp("^Ouverte · ferme à " + H + "$"), (m) => L("Open · closes at " + hour(m[1], m[2]), "Abierta · cierra a las " + hour(m[1], m[2]))],
+    [new RegExp("^Ouvre à " + H + "$"), (m) => L("Opens at " + hour(m[1], m[2]), "Abre a las " + hour(m[1], m[2]))],
+    [/^(Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi) (\d{1,2}) (\S+)$/, (m) => L(day(m[1]) + ", " + month(m[3]) + " " + m[2], cap(day(m[1])) + " " + m[2] + " de " + month(m[3]))],
+    [new RegExp("^(Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi) vers " + H + "$"), (m) => L(day(m[1]) + " around " + hour(m[2], m[3]), cap(day(m[1])) + " hacia las " + hour(m[2], m[3]))],
+    [/^(dim|lun|mar|mer|jeu|ven|sam)$/, (m) => (lang === "en" ? D_EN : D_ES)[SHORT[m[1]]].slice(0, 3)],
+    [/^\+ (\d+) autres$/, (m) => L("+ " + m[1] + " more", "+ " + m[1] + " más")],
+    [/^(\d+) % occupé$/, (m) => L(m[1] + "% in use", m[1] + " % ocupado")],
+    [/^(\d+) % des civières occupées$/, (m) => L(m[1] + "% of stretchers in use", m[1] + " % de las camillas ocupadas")],
+    [/^([\d,]+|—) en attente$/, (m) => L(m[1] + " waiting", m[1] + " esperando")],
+    [/^civières occupées \((.+)\)$/, (m) => L("stretchers in use (" + m[1] + ")", "camillas ocupadas (" + m[1] + ")")],
+    [/^([\d,]+) sur civière depuis plus de 24 h$/, (m) => L(m[1] + " on a stretcher for over 24 h", m[1] + " en camilla desde hace más de 24 h")],
+    [/^(\d+)(?:re|e) sur (\d+)$/, (m) => L("#" + m[1] + " of " + m[2], "n.º " + m[1] + " de " + m[2])],
+    [/^moins remplie, (.+)$/, (m) => L("least crowded, " + m[1], "menos llena, " + m[1])],
+    [/^Données de (\d{1,2}) h (\d{2})$/, (m) => L("Data from " + hour(m[1], m[2]), "Datos de las " + hour(m[1], m[2]))],
+    [/^Données du (.+)$/, (m) => L("Data from " + m[1], "Datos del " + m[1])],
+    [/^source : (.+)$/, (m) => L("source: " + m[1], "fuente: " + m[1])],
+    [/^Mise à jour du ministère : (\d{1,2}) h (\d{2})$/, (m) => L("Ministry update: " + hour(m[1], m[2]), "Actualización del ministerio: " + hour(m[1], m[2]))],
+    [/^(\d+) cliniques$/, (m) => L(m[1] + " clinics", m[1] + " clínicas")],
+    [/^(\d+) cliniques privées$/, (m) => L(m[1] + " private clinics", m[1] + " clínicas privadas")],
+    [/^fiches officielles relues le (\d{1,2}) (\S+)$/, (m) => L("official listings checked on " + month(m[2]) + " " + m[1], "fichas oficiales revisadas el " + m[1] + " de " + month(m[2]))],
+    [/^fiche mise à jour le (\d{1,2}) (\S+) (\d{4})$/, (m) => L("listing updated on " + month(m[2]) + " " + m[1] + ", " + m[3], "ficha actualizada el " + m[1] + " de " + month(m[2]) + " de " + m[3])],
+    [/^Réserver : (.+)$/, (m) => L("Book: " + m[1], "Reservar: " + m[1])],
+    [/^En ligne(?: \((.+)\))? :$/, (m) => L("Online" + (m[1] ? " (" + m[1] + ")" : "") + ":", "En línea" + (m[1] ? " (" + m[1] + ")" : "") + ":")],
+    [/^Distances à vol d'oiseau depuis : (.+?)( \(secteur du code postal, position approximative\))?\.$/, (m) => L("Straight-line distances from: " + m[1] + (m[2] ? " (postal code area, approximate location)" : "") + ".", "Distancias en línea recta desde: " + m[1] + (m[2] ? " (zona del código postal, ubicación aproximada)" : "") + ".")],
+    [new RegExp("^Plus calme d'habitude vers " + H + "(?: \\((\\S+)\\))?\\.$"), (m) => L("Usually quieter around " + hour(m[1], m[2]) + (m[3] ? " (" + day(m[3]) + ")" : "") + ".", "Suele estar más tranquila hacia las " + hour(m[1], m[2]) + (m[3] ? " (" + day(m[3]) + ")" : "") + ".")],
+    [/^Estimation préliminaire basée sur (\d+) jours de données\. Elle deviendra plus fiable chaque semaine\.$/, (m) => L("Preliminary estimate based on " + m[1] + " days of data. It will become more reliable every week.", "Estimación preliminar basada en " + m[1] + " días de datos. Será más fiable cada semana.")],
+    [/^Moyenne de (\d+) jours de données \(depuis le (.+)\)\. Estimation, pas une garantie\.$/, (m) => L("Average of " + m[1] + " days of data (since " + m[2] + "). An estimate, not a guarantee.", "Promedio de " + m[1] + " días de datos (desde el " + m[2] + "). Una estimación, no una garantía.")],
+    [/^Bientôt : les meilleurs moments pour aller à chaque urgence\. L'historique se construit chaque heure \((\d+) jours? sur (\d+) minimum\)\.$/, (m) => L("Coming soon: the best times to go to each ER. The history builds up every hour (" + m[1] + " of " + m[2] + " days minimum).", "Próximamente: los mejores momentos para ir a cada urgencia. El historial se construye cada hora (" + m[1] + " de " + m[2] + " días mínimo).")],
+    [/^L'historique se construit chaque heure : (\d+) jours? sur (\d+) minimum\. Les meilleurs moments s'afficheront ensuite ici\.$/, (m) => L("The history builds up every hour: " + m[1] + " of " + m[2] + " days minimum. Best times will then appear here.", "El historial se construye cada hora: " + m[1] + " de " + m[2] + " días mínimo. Luego los mejores momentos aparecerán aquí.")],
+    [new RegExp("^Plus bas : (\\d+) % vers " + H + "\\. Plus haut : (\\d+) % vers " + H + "\\. Une barre par heure, de la plus ancienne à la plus récente\\.$"), (m) => L("Lowest: " + m[1] + "% around " + hour(m[2], m[3]) + ". Highest: " + m[4] + "% around " + hour(m[5], m[6]) + ". One bar per hour, oldest to newest.", "Más bajo: " + m[1] + " % hacia las " + hour(m[2], m[3]) + ". Más alto: " + m[4] + " % hacia las " + hour(m[5], m[6]) + ". Una barra por hora, de la más antigua a la más reciente.")],
+    [new RegExp("^" + H + " : (\\d+) % occupé(?:, (\\S+) en attente)?$"), (m) => hour(m[1], m[2]) + ": " + L(m[3] + "% in use" + (m[4] ? ", " + m[4] + " waiting" : ""), m[3] + " % ocupado" + (m[4] ? ", " + m[4] + " esperando" : ""))],
+    [new RegExp("^" + H + " : inconnu$"), (m) => hour(m[1], m[2]) + ": " + L("unknown", "desconocido")],
+    [new RegExp("^(\\S+) " + H + " : (\\d+) % occupé$"), (m) => L(day(m[1]) + " " + hour(m[2], m[3]) + ": " + m[4] + "% in use", day(m[1]) + " " + hour(m[2], m[3]) + ": " + m[4] + " % ocupado")],
+    [new RegExp("^(\\S+) " + H + " : inconnu$"), (m) => day(m[1]) + " " + hour(m[2], m[3]) + ": " + L("unknown", "desconocido")],
+    [/^Appeler (.+?)( \(ligne des rendez-vous le jour même\))?$/, (m) => L("Call " + m[1] + (m[2] ? " (same-day appointment line)" : ""), "Llamar a " + m[1] + (m[2] ? " (línea de citas el mismo día)" : ""))],
+    [/^Itinéraire vers (.+) avec (.+)$/, (m) => L("Directions to " + m[1] + " with " + m[2], "Cómo llegar a " + m[1] + " con " + m[2])],
+    [/^Voir la fiche de (.+)$/, (m) => L("See details for " + m[1], "Ver la ficha de " + m[1])],
+    [/^(.+) · Salle d'attente$/, (m) => m[1] + " · Salle d'attente"],
+    [/^(.+) à vol d'oiseau$/, (m) => L(tr(m[1]) + " in a straight line", tr(m[1]) + " en línea recta")],
+    [/^(.+) \((\d+)\)$/, (m) => { const t = tr(m[1]); return t === m[1] ? null : t + " (" + m[2] + ")"; }],
+  ];
+
+  function tr(s) {
+    if (lang === "fr" || !s) return s;
+    const lead = s.match(/^\s*/)[0], trail = s.match(/\s*$/)[0], core = s.trim();
+    if (!core) return s;
+    if (DICT.has(core)) return lead + DICT.get(core) + trail;
+    // Séparateur « · » collé au début ou à la fin d'un morceau de texte
+    if (/ ·$/.test(core)) { const t = tr(core.slice(0, -2)); if (t !== core.slice(0, -2)) return lead + t + " ·" + trail; }
+    if (/^· /.test(core)) { const t = tr(core.slice(2)); if (t !== core.slice(2)) return lead + "· " + t + trail; }
+    for (const [re, fn] of P) {
+      const m = core.match(re);
+      if (m) { const out = fn(m); if (out != null) return lead + out.replace(/([ap]\.m\.)\./g, "$1") + trail; }
+    }
+    // Textes composés : « 38 % des civières occupées · 0 en attente · à 9 km · Verdun »
+    if (core.includes(" · ")) {
+      const parts = core.split(" · "), t = parts.map(tr);
+      if (t.some((x, i) => x !== parts[i])) return lead + t.join(" · ") + trail;
+    }
+    return s;
+  }
+  window.SA_T = tr;
+  if (lang === "fr") return;
+
+  // Traduit un nœud et tout ce qu'il contient : textes et attributs lus par les lecteurs d'écran.
+  const done = new WeakMap();
+  const ATTRS = ["placeholder", "aria-label", "title"];
+  function textNode(n) {
+    const p = n.parentElement;
+    if (!p || p.closest("script,style")) return;
+    if (done.get(n) === n.nodeValue) return;
+    const t = tr(n.nodeValue);
+    if (t !== n.nodeValue) n.nodeValue = t;
+    done.set(n, n.nodeValue);
+  }
+  function walk(root) {
+    if (root.nodeType === 3) return textNode(root);
+    if (root.nodeType !== 1) return;
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    let n; while ((n = w.nextNode())) textNode(n);
+    const els = [root, ...root.querySelectorAll("[placeholder],[aria-label],[title]")];
+    els.forEach((e) => ATTRS.forEach((a) => { const v = e.getAttribute && e.getAttribute(a); if (v) { const t = tr(v); if (t !== v) e.setAttribute(a, t); } }));
+  }
+  let pending = new Set(), scheduled = false;
+  const obs = new MutationObserver((list) => {
+    for (const m of list) {
+      if (m.type === "characterData") pending.add(m.target);
+      else if (m.type === "attributes") pending.add(m.target);
+      else m.addedNodes.forEach((n) => pending.add(n));
+    }
+    if (!scheduled) { scheduled = true; queueMicrotask(flush); }
+  });
+  function flush() {
+    scheduled = false;
+    const nodes = pending; pending = new Set();
+    obs.disconnect();
+    nodes.forEach((n) => { if (n.isConnected) walk(n); });
+    const t = tr(document.title); if (t !== document.title) document.title = t;
+    start();
+  }
+  function start() { obs.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ATTRS }); }
+  document.addEventListener("DOMContentLoaded", () => { walk(document.body); start(); });
+})();

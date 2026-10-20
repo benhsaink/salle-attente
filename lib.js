@@ -342,12 +342,13 @@ function ranges(s) {
 
 // Nom d'un service, sans les mentions de frais, de clientèle ni de rendez-vous ajoutées par la clinique.
 function cleanService(line) {
-  return String(line)
-    .replace(/\s*\((des frais sont exigés|pour tous|pour les patients inscrits)[^)]*\)/gi, "")
+  const base = String(line).replace(/\s*\((des frais sont exigés|pour tous|pour les patients inscrits)[^)]*\)/gi, "");
+  let out = base
     .replace(/\s+(Avec|Sans) rendez-vous\b.*$/i, "")
-    .replace(/\s+Pour tous les services\b.*$/i, "")
-    .replace(/\(\s+/g, "(").replace(/\s+\)/g, ")")
-    .replace(/\s{2,}.*/, "").trim();
+    .replace(/\s+Pour tous les services\b.*$/i, "");
+  // Ne pas couper au milieu d'une parenthèse (ex. « Urgence mineure (présentation sur place sans rendez-vous) »)
+  if ((out.match(/\(/g) || []).length !== (out.match(/\)/g) || []).length) out = base;
+  return out.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")").replace(/\s{2,}.*/, "").trim();
 }
 // Lignes de la section qui ne sont pas des services.
 // (y compris les phrases de présentation que certaines cliniques y écrivent : listes à tirets, phrases finissant par « : » ou « ; »).

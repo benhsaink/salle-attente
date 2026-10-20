@@ -107,3 +107,10 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 
 - `/api/adresse?q=…` : le serveur demande la position à Nominatim (OpenStreetMap), au plus 1 requête par seconde, résultats gardés en mémoire, 30 recherches par heure et par personne. L'adresse n'est pas écrite dans les journaux.
 - Si Nominatim ne connaît pas un code postal complet, on prend le secteur (3 premiers caractères) et le site l'indique.
+
+## Langues (français / anglais)
+
+- Bouton « English / Français » en haut de la page ; le choix est gardé dans le navigateur.
+- `public/i18n.js` traduit l'interface au moment de l'affichage : un dictionnaire (texte français → anglais) et des modèles pour les textes avec des chiffres, des heures (« 8 h à 20 h » → « 8 a.m. to 8 p.m. ») et des dates.
+- Les données officielles (noms d'hôpitaux et de cliniques, adresses, services, notes des fiches) restent en français, et le site le signale.
+- Pour un nouveau texte en français dans la page : ajouter sa traduction dans le dictionnaire de `i18n.js`, sinon il reste en français.

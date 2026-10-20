@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Salle d'attente</title>
+<script src="/i18n.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
 <style>
@@ -152,6 +153,9 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .addr input{flex:1 1 auto;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
 .geo .addr button{flex:none}
 .addr-note{color:var(--muted);font-size:.74rem;flex:1 1 100%}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
+.langnote{color:var(--muted);font-size:.8rem;margin:4px 0 0}
 /* Fiche par urgence */
 .head h3 a{color:inherit;text-decoration:none}
 .head h3 a:hover{text-decoration:underline}
@@ -185,8 +189,12 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 <body>
 <div class="wrap">
   <header>
-    <h1>Salle d'attente</h1>
+    <div class="topbar">
+      <h1>Salle d'attente</h1>
+      <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
+    </div>
     <p class="sub">Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal et la région de Québec.</p>
+    <p class="langnote" id="langnote" hidden>Les noms, adresses et services viennent des sources officielles et restent en français.</p>
   </header>
 
   <div class="sos">
@@ -1120,6 +1128,15 @@ document.getElementById("fb-form").addEventListener("submit", async e => {
   } catch (err) { st.textContent = err.message; }
   btn.disabled = false;
 });
+// Langue : français ou anglais (traduction dans i18n.js). Le choix est gardé sur le téléphone.
+(function () {
+  const btn = document.getElementById("lang-btn"), en = window.SA_LANG === "en";
+  btn.textContent = en ? "Français" : "English";
+  btn.setAttribute("lang", en ? "fr" : "en");
+  btn.setAttribute("aria-label", en ? "Afficher le site en français" : "Show the site in English");
+  document.getElementById("langnote").hidden = !en;
+  btn.addEventListener("click", () => { try { localStorage.setItem("sa-lang", en ? "fr" : "en"); } catch (e) {} location.reload(); });
+})();
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();
