@@ -497,7 +497,7 @@ function tagsFor(h) {
   const out = [];
   if (h.kids) out.push(tag("Enfants"));
   if (h.psy) out.push(tag("Psychiatrie", "psy"));
-  if (h.peds && !h.kids) out.push(tag("Services pédiatriques"));
+  if (h.peds && !h.kids) out.push(tag(h.pedsLabel || "Services pédiatriques"));
   if (h.cardio) out.push(tag("Cardiologie"));
   return out;
 }

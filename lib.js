@@ -70,11 +70,14 @@ const PLACES = [
 const KIDS = ["sainte-justine", "enfants", "children"];
 // Hôpitaux généraux avec une section pédiatrique à l'urgence. N'ajouter une ligne que si c'est
 // confirmé par une source officielle (site de l'hôpital ou du CISSS/CIUSSS), avec le lien et la date :
-//   ["mot-cle du nom", "https://source-officielle", "AAAA-MM-JJ"],
+//   ["mot-cle du nom", "https://source-officielle", "AAAA-MM-JJ", "étiquette affichée"],
 // Toutes les urgences générales soignent les enfants : cette liste ne sert qu'à signaler une section dédiée.
 const PEDS = [
   // « Dirigez-vous vers l'urgence de l'Hôpital Maisonneuve-Rosemont qui offre des services en pédiatrie. » (page Urgence du CIUSSS de l'Est, mise à jour le 2026-06-13)
-  ["maisonneuve-rosemont", "https://ciusss-estmtl.gouv.qc.ca/informations-pratiques/urgence", "2026-10-20"],
+  ["maisonneuve-rosemont", "https://ciusss-estmtl.gouv.qc.ca/informations-pratiques/urgence", "2026-10-20", "Services pédiatriques"],
+  // Unité de médecine pédiatrique (0-17 ans) et soins intensifs pédiatriques au CHUL, aile Centre mère-enfant Soleil (pages du CHU de Québec).
+  // Ce n'est pas une confirmation d'urgence pédiatrique : l'étiquette dit seulement ce qui est vérifié.
+  ["centre hospitalier de l universite laval", "https://www.chudequebec.ca/patient/maladies-soins-et-services/m-informer-sur-les-soins-et-services/unite-de-medecine-pediatrique.aspx", "2026-10-20", "Unités pédiatriques sur place"],
 ];
 // Urgences psychiatriques : gardées, mais affichées seulement avec le filtre « Psychiatrie ».
 const PSY = ["sante mentale", "psychiatri", "albert-prevost", "albert prevost", "louis-h", "douglas", "pinel"];
@@ -189,6 +192,7 @@ function build(records, everywhere) {
       psy: PSY.some((k) => norm(name).includes(k)),
       cardio: norm(name).includes("cardiologie"),
       peds: PEDS.some(([k]) => norm(name).includes(k)),
+      pedsLabel: (PEDS.find(([k]) => norm(name).includes(k)) || [])[3] || null,
       stretchers, occ,
       rate: stretchers && occ !== null ? occ / stretchers : null,
       over24: num(r[c.over24]), over48: num(r[c.over48]),
