@@ -62,6 +62,11 @@ const PLACES = [
   ["pierre-boucher", "rs", "Longueuil", 45.5430, -73.4720, "1333 boulevard Jacques-Cartier Est, Longueuil"],
   ["anna-laberge", "rs", "Châteauguay", 45.3510, -73.7280, "200 boulevard Brisebois, Châteauguay"],
   ["haut-richelieu", "rs", "Saint-Jean-sur-Richelieu", 45.3240, -73.2760, "920 boulevard du Séminaire Nord, Saint-Jean-sur-Richelieu"],
+  // Ajoutés le 20 octobre 2026 : adresses des sites de Santé Québec (Montérégie, Laurentides, Lanaudière), coordonnées OpenStreetMap
+  ["suroit", "rs", "Salaberry-de-Valleyfield", 45.25086, -74.13005, "150 rue Saint-Thomas, Salaberry-de-Valleyfield"],
+  ["barrie memorial", "rs", "Ormstown", 45.12564, -74.00005, "28 rue Gale, Ormstown"],
+  ["argenteuil", "rn", "Lachute", 45.66187, -74.35251, "145 avenue de la Providence, Lachute"],
+  ["hopital de lanaudiere", "rn", "Joliette (Saint-Charles-Borromée)", 46.03938, -73.45533, "1000 boulevard Sainte-Anne, Saint-Charles-Borromée"],
   // Rive-Nord
   ["saint-eustache", "rn", "Saint-Eustache", 45.5590, -73.9030, "520 boulevard Arthur-Sauvé, Saint-Eustache"],
   ["le gardeur", "rn", "Terrebonne", 45.7140, -73.4870, "911 montée des Pionniers, Terrebonne"],

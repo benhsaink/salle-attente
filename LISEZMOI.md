@@ -125,3 +125,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Les ressources sont dans la liste NOCOV de public/index.html, ajoutées à la main avec leur source officielle et la date de vérification.
 - Médecins du Monde, Clinique pour les personnes migrantes à statut précaire : 6235, rue Saint-Hubert, Montréal, 514 281-8998. Source : https://medecinsdumonde.ca/clinique-migrante/ (vérifiée le 20 octobre 2026). Coordonnées : OpenStreetMap.
 - Région de Québec : aucune ressource vérifiée pour l'instant.
+
+## Grand Montréal élargi (20 octobre 2026)
+- Ajout de 4 urgences dans la zone de Saint-Jérôme à Saint-Jean-sur-Richelieu et de Valleyfield à Joliette : Hôpital du Suroît (Valleyfield) et Barrie Memorial (Ormstown) dans Rive-Sud ; Argenteuil (Lachute) et Hôpital de Lanaudière (Joliette) dans Rive-Nord.
+- Toujours hors du site : Honoré-Mercier (Saint-Hyacinthe), Hôtel-Dieu de Sorel, Sainte-Agathe, Mont-Laurier, Rivière-Rouge.
