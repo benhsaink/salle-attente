@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T06:50:54.817Z",
+ "generatedAt": "2026-10-20T06:58:15.966Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -9734,6 +9734,2175 @@
    "lon": -73.88789,
    "site": null,
    "reservation": {}
+  },
+  {
+   "nom": "GMF-A Clinique Proximité Saint-Roch",
+   "nofiche": 45032,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45032",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF PROXIMITÉ SAINT-ROCH (CLINIQUE PROXIMITÉ SAINT-ROCH) (ACCÈS)",
+   "adresse": "400, boulevard Jean-Lesage, bureau 38, 3e étage Hall Ouest",
+   "ville": "Québec",
+   "codePostal": "G1K 8W1",
+   "telephone": "418 781-0022",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "16 octobre 2026, 12 h 10",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": "Rendez-vous d'urgence pour patients inscrits à la clinique pris par téléphone ou par le portail patient.",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cessation tabagisme",
+    "Contraception",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Médecine sportive",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Pédiatrie",
+    "Périnatalité",
+    "Salle d'allaitement",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Travail social",
+    "Visites à domicile"
+   ],
+   "lat": 46.81687,
+   "lon": -71.21618,
+   "site": "http://proximite.co",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-R MAclinique Lebourgneuf",
+   "nofiche": 829978,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=829978",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MACLINIQUE LEBOURGNEUF (MACLINIQUE LEBOURGNEUF) (RÉSEAU)",
+   "adresse": "725, boulevard Lebourgneuf, bureau 220",
+   "ville": "Québec",
+   "codePostal": "G2J 0C4",
+   "telephone": "581 814-2701",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "22 octobre 2025, 12 h 52",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous via site Web",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cardiologie",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception orale d'urgence",
+    "Dermatologie",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Endocrinologie",
+    "Hématologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Médecine familiale",
+    "Médecine interne",
+    "Néphrologie",
+    "Obstétrique",
+    "Omnipratique",
+    "Oncologie",
+    "Orthopédie",
+    "Physiatrie",
+    "Pneumologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychiatrie",
+    "Pédiatrie",
+    "Périnatalité",
+    "Radiologie",
+    "Retrait de points de suture",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Test Pap"
+   ],
+   "lat": 46.84264,
+   "lon": -71.27978,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-R MAclinique Lebourgneuf 2",
+   "nofiche": 1164679,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1164679",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MACLINIQUE LEBOURGNEUF 2 (MACLINIQUE LEBOURGNEUF 2) (RÉSEAU)",
+   "adresse": "725, boulevard Lebourgneuf, bureau 120",
+   "ville": "Québec",
+   "codePostal": "G2J 0C4",
+   "telephone": "581 814-2701",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre",
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Autre"
+       ],
+       "notes": [
+        "Urgence mineure ou rendez-vous rapide",
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Autre"
+       ],
+       "notes": [
+        "Urgence mineure ou rendez-vous rapide",
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre",
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Autre"
+       ],
+       "notes": [
+        "Urgence mineure ou rendez-vous rapide",
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre",
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre",
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Autre",
+    "RVSQ"
+   ],
+   "miseAJour": "22 octobre 2025, 12 h 54",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous via le site Web",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cardiologie",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception orale d'urgence",
+    "Dermatologie",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Endocrinologie",
+    "Hématologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Médecine familiale",
+    "Médecine interne",
+    "Néphrologie",
+    "Obstétrique",
+    "Omnipratique",
+    "Oncologie",
+    "Orthopédie",
+    "Physiatrie",
+    "Pneumologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychiatrie",
+    "Pédiatrie",
+    "Périnatalité",
+    "Radiologie",
+    "Retrait d'agrafes",
+    "Retrait de points de suture",
+    "Salle d'allaitement",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Test Pap"
+   ],
+   "lat": 46.84264,
+   "lon": -71.27978,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-A La Cité Médicale",
+   "nofiche": 213455,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=213455",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF LA CITÉ MÉDICALE (LA CITÉ MÉDICALE DE SAINTE-FOY) (ACCÈS)",
+   "adresse": "2600, boulevard Laurier, bureau 295, 2e étage",
+   "ville": "Québec",
+   "codePostal": "G1V 4T3",
+   "telephone": "418 781-0480",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails",
+        "Les plages horaires AVEC rendez-vous sont réservées pour la clientèle inscrite à la clinique seulement.",
+        "Les plages horaires SANS rendez-vous - rapide / dépannage sont pour tous les types de clientèles (inscrits ou non inscrits).",
+        "Pour le SANS rendez-vous - rapide / dépannage clientèle non inscrite, veuillez vous inscrire à partir de 12 h la veille pour un rendez-vous le lendemain matin ; à partir de 18 h la veille pour un rendez-vous le lendemain après-midi ; à partir de 8 h le matin pour un rendez-vous le soir même via le site Web : www.lacitemedicale.com",
+        "Clientèle non inscrite : Seules les personnes sans carte d'assurance maladie peuvent se présenter sur place pour prendre un rendez-vous rapide / dépannage. Les personnes ayant une carte de la RAMQ doivent prendre leur rendez-vous via le site Web : www.lacitemedicale.com",
+        "Lors des jours fériés, les plages horaires SANS rendez-vous - rapide / dépannage sont disponibles pour tous les types de clientèles.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails",
+        "Les plages horaires AVEC rendez-vous sont réservées pour la clientèle inscrite à la clinique seulement.",
+        "Les plages horaires SANS rendez-vous - rapide / dépannage sont pour tous les types de clientèles (inscrits ou non inscrits).",
+        "Pour le SANS rendez-vous - rapide / dépannage clientèle non inscrite, veuillez vous inscrire à partir de 12 h la veille pour un rendez-vous le lendemain matin ; à partir de 18 h la veille pour un rendez-vous le lendemain après-midi ; à partir de 8 h le matin pour un rendez-vous le soir même via le site Web : www.lacitemedicale.com",
+        "Clientèle non inscrite : Seules les personnes sans carte d'assurance maladie peuvent se présenter sur place pour prendre un rendez-vous rapide / dépannage. Les personnes ayant une carte de la RAMQ doivent prendre leur rendez-vous via le site Web : www.lacitemedicale.com",
+        "Lors des jours fériés, les plages horaires SANS rendez-vous - rapide / dépannage sont disponibles pour tous les types de clientèles.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Autre"
+   ],
+   "miseAJour": "27 mai 2026, 14 h 25",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous de dépannage / rapide",
+   "frais": false,
+   "nonParticipant": true,
+   "services": [
+    "Cardiologie",
+    "Changement et/ou suivi de pansement AVEC ou",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dermatologie",
+    "Doppler",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Hématologie",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire GMF",
+    "Inhalothérapie",
+    "Lavage d'oreilles",
+    "Microbiologie médicale et infectiologie",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Médecine du travail",
+    "Médecine esthétique",
+    "Médecine familiale",
+    "Neurologie",
+    "Neuropsychologie",
+    "Nutrition",
+    "Omnipratique",
+    "Orthopédie expertise seulement",
+    "Pilule abortive / interruption volontaire de grossesse médicale",
+    "Pose et/ou retrait d'un stérilet",
+    "PrEP - Prophylaxie préexposition",
+    "Prélèvement et traitement de la mycose des ongles Avec ou",
+    "Prélèvements",
+    "Psychiatrie",
+    "Psychologie",
+    "Retrait de points de suture",
+    "Rhumatologie",
+    "Santé voyage",
+    "Soins de plaies",
+    "Soins infirmiers GMF",
+    "Suivi CNESST",
+    "Test Pap",
+    "Traitement au laser",
+    "Traitement de l'infection urinaire AVEC ou",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG) AVEC et",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.77213,
+   "lon": -71.28238,
+   "site": "https://lacitemedicale.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-A Le Mesnil",
+   "nofiche": 52622,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52622",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF LE MESNIL (CENTRE MÉDICAL LE MESNIL) (ACCÈS)",
+   "adresse": "1300, boulevard Lebourgneuf, bureau 300, 3e étage",
+   "ville": "Québec",
+   "codePostal": "G2K 2N1",
+   "telephone": "418 624-1800",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h 30",
+     "heures": [
+      [
+       480,
+       750
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h 30",
+     "heures": [
+      [
+       480,
+       750
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "19 octobre 2026, 13 h 56",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous : Rapide",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Adaptation sociale",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dermatologie",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infiltration cortisone",
+    "Médecine familiale",
+    "Médecine interne",
+    "Neurologie",
+    "Omnipratique",
+    "Psychiatrie",
+    "Retrait de points de suture",
+    "Rhumatologie",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers Évaluation, triage",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Travail social",
+    "Vaccination Cas exceptionnel",
+    "Électrocardiogramme (ECG)",
+    "Électromyogramme (EMG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.83621,
+   "lon": -71.29741,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-A Du Carrefour",
+   "nofiche": 213131,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=213131",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF DU CARREFOUR (CLINIQUE MÉDICALE DES PROMENADES) (ACCÈS)",
+   "adresse": "3333, rue du Carrefour, bureau A222, portes 4 ou 5 à l'extérieur",
+   "ville": "Québec",
+   "codePostal": "G1C 5R9",
+   "telephone": "418 663-6345",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille",
+        "Pour le SANS rendez-vous - rapide / dépannage, clientèle inscrite et non inscrite, veuillez-vous inscrire à partir de 17 h la veille via le site Web RVSQ www.rvsq.gouv.qc.ca. À noter, des plages horaires peuvent se libérer le jour même. Entrez par la porte 4 ou 5 à l'extérieur des Promenades Beauport et la clinique se situe à l'étage.",
+        "L'heure de préinscription n'est pas une heure fixe de rendez-vous, mais la réservation d'une place pour une consultation. Il est impossible pour le personnel de prévoir le temps d'attente.",
+        "Pour prendre rendez-vous Régulier ou SANS rendez-vous - rapide / dépannage, clientèle inscrite, avec Dr Charles David Hendriks, Dre Geneviève Côté, Dre Chantal Filteau, Dre Catherine Deschênes, Dre Caroline Rhéaume, Dre Audrey Morin-Robitaille, Dr Léandre Asselin, Dre Mélanie Allard, Dre Anne Létourneau, Dr Marc Samson, Dr Éric Beauchemin, Dr Claude Morin, Dre Sandrine Bourgault, Dre Maria Teresa, Dre Brigitte Blouin et Dre Marie-Laurence Prévost, vous pouvez soit appeler à la clinique, soit vous rendre sur le site Web https://gmfducarrefour.portail.medfarsolutions.com",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "27 mars 2026, 11 h 35",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous : Rapide / dépannage",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Audiologie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Pose de sutures / agrafes",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Test Pap",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.86053,
+   "lon": -71.21782,
+   "site": null,
+   "reservation": {
+    "RVSQ": "http://www.rvsq.gouv.qc.ca"
+   }
+  },
+  {
+   "nom": "GMF-A Val-Bélair – Valcartier – Sainte-Catherine",
+   "nofiche": 35205,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35205",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF VAL-BÉLAIR - VALCARTIER - SAINTE-CATHERINE (CLINIQUE MÉDICALE VAL-BÉLAIR) (ACCÈS)",
+   "adresse": "1147, boulevard Pie-XI Nord, bureau 202",
+   "ville": "Québec",
+   "codePostal": "G3K 2P8",
+   "telephone": "418 843-2473",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "27 avril 2026, 17 h 15",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous : Rapide / dépannage",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychologie",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Travail social"
+   ],
+   "lat": 46.85721,
+   "lon": -71.42208,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-A Clinique Maizerets",
+   "nofiche": 270097,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=270097",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-U CLINIQUE MAIZERETS (CLINIQUE MAIZERETS) (ACCÈS)",
+   "adresse": "1825, boulevard Henri-Bourassa, bureau 301",
+   "ville": "Québec",
+   "codePostal": "G1J 0H4",
+   "telephone": "418 661-1413",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 45 à 20 h",
+     "heures": [
+      [
+       465,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "7 h 45 à 20 h",
+       "plages": [
+        [
+         465,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 45 à 20 h",
+     "heures": [
+      [
+       465,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "7 h 45 à 20 h",
+       "plages": [
+        [
+         465,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 45 à 20 h",
+     "heures": [
+      [
+       465,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "7 h 45 à 20 h",
+       "plages": [
+        [
+         465,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 45 à 19 h",
+     "heures": [
+      [
+       465,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 12 h",
+       "plages": [
+        [
+         480,
+         720
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 12 h",
+       "plages": [
+        [
+         480,
+         720
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 45 à 20 h",
+     "heures": [
+      [
+       465,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "7 h 45 à 20 h",
+       "plages": [
+        [
+         465,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "14 octobre 2026, 19 h 41",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": "AVEC rendez-vous : Rapide / dépannage",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Adaptation sociale",
+    "Aide aux aînés victimes d'abus",
+    "Cardiologie",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Ergothérapie",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Intervenant psychosocial",
+    "Médecine familiale",
+    "Obstétrique",
+    "Omnipratique",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prévention de dépendance en toxicomanie (alcool, drogues, médicaments)",
+    "Psychologie",
+    "Pédiatrie",
+    "Périnatalité",
+    "Retrait de points de suture",
+    "Salle d'allaitement",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile"
+   ],
+   "lat": 46.83612,
+   "lon": -71.22704,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
   }
  ]
 }

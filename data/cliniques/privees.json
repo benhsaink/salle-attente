@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T06:51:55.964Z",
+ "generatedAt": "2026-10-20T06:59:32.999Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -5097,6 +5097,1200 @@
    "lat": 45.53318,
    "lon": -73.65399,
    "site": "https://excellemd.com/clinique-privee-excellemd-de-montreal-lacadie/",
+   "reservation": {}
+  },
+  {
+   "nom": "Lacroix Sainte-Foy",
+   "nofiche": 1188767,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1188767",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (SAINTE-FOY)",
+   "adresse": "1035, avenue Wilfrid-Pelletier, bureau 200",
+   "ville": "Québec",
+   "codePostal": "G1W 0C5",
+   "telephone": "418 871-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 octobre 2026, 15 h 01",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Dépistage streptocoque groupe A / strep test sans ordonnance",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Omnipratique",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Test Pap"
+   ],
+   "lat": 46.76908,
+   "lon": -71.303,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "Lacroix Montcalm",
+   "nofiche": 1188763,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1188763",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (MONTCALM)",
+   "adresse": "1000, chemin Sainte-Foy, bureau 303",
+   "ville": "Québec",
+   "codePostal": "G1S 2L6",
+   "telephone": "418 871-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "04 juin 2026, 17 h 35",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Gynécologie",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière clinicienne",
+    "Inhalothérapie",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Neurologie",
+    "Orthopédie",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Retrait de points de suture",
+    "Santé sexuelle",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Test Pap",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Vaccination contre la rage",
+    "Vaccination contre le zona"
+   ],
+   "lat": 46.79953,
+   "lon": -71.24431,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "Lacroix Cap-Rouge",
+   "nofiche": 553536,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=553536",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (CAP-ROUGE)",
+   "adresse": "810, route Jean-Gauvin, bureau 203",
+   "ville": "Québec",
+   "codePostal": "G1X 0B6",
+   "telephone": "418 871-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 19 h",
+     "heures": [
+      [
+       480,
+       1140
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 octobre 2026, 15 h 15",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Dépistage",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infiltration cortisone",
+    "Lavage d'oreilles",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Rhumatologie",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 46.76358,
+   "lon": -71.37008,
+   "site": "http://www.cliniquesmedicaleslacroix.com",
+   "reservation": {}
+  },
+  {
+   "nom": "Lacroix Duberger",
+   "nofiche": 1138353,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1138353",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (DUBERGER)",
+   "adresse": "2810, boulevard Père-Lelièvre, 1re étage",
+   "ville": "Québec",
+   "codePostal": "G1P 2Y1",
+   "telephone": "418 841-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 octobre 2026, 15 h 19",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Allergologie",
+    "Cardiologie",
+    "Changement et/ou suivi de pansement",
+    "Dépistage",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infiltration cortisone",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Omnipratique",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Rhumatologie",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Test Pap",
+    "Urologie",
+    "Vaccination"
+   ],
+   "lat": 46.81298,
+   "lon": -71.30924,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique Aurelia",
+   "nofiche": 1149319,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1149319",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE AURELIA",
+   "adresse": "1305, boulevard Lebourgneuf, bureau 330, 3e étage",
+   "ville": "Québec",
+   "codePostal": "G2K 2E4",
+   "telephone": "581 628-8166",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "13 août 2026, 15 h 03",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": "AVEC rendez-vous",
+   "frais": true,
+   "nonParticipant": false,
+   "services": [
+    "Bilan santé / Examen annuel",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Cholestérol – Consultation pour le suivi",
+    "Colle tissulaire",
+    "Consultation d'une infirmière",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Dépistage Covid-19",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Dépistage du cancer colorectal",
+    "Dépistage grippe / influenza",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Dépistage streptocoque groupe A / strep test sans ordonnance",
+    "Hormonothérapie",
+    "Hypertension – Consultation pour le suivi",
+    "Hypertension – Mesure de la pression artérielle",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Massothérapie",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose de sutures / agrafes",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvement et traitement de la mycose des ongles",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Prélèvements urinaires et selles",
+    "Retrait d'agrafes",
+    "Retrait de points de suture",
+    "Soins de plaies",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test PAP sans prescription",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Traitement de l'infection urinaire",
+    "Traitement des verrues / Cryothérapie",
+    "Urgence mineure (présentation sur place",
+    "Vaccination",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 46.83494,
+   "lon": -71.29584,
+   "site": "https://cliniqueaurelia.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Securimed Plus Québec",
+   "nofiche": 1118409,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1118409",
+   "lu": "2026-10-20",
+   "nomOfficiel": "SECURIMED PLUS (QUÉBEC)",
+   "adresse": "1180, rue des Soeurs-du-Bon-Pasteur, bureau 210",
+   "ville": "Québec",
+   "codePostal": "G1S 0B1",
+   "telephone": "819 299-3157",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 avril 2026, 14 h 26",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cardiologie",
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Infirmier/Infirmière auxiliaire",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Médecine du travail",
+    "Médecine musculosquelettique",
+    "Orthopédie",
+    "Pose de sutures / agrafes",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Service de prise de tension artérielle",
+    "Soins de plaies",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Vaccination",
+    "Électrocardiogramme (ECG)",
+    "Bilan de santé",
+    "Expertises médicales",
+    "Examens médicaux SAAQ",
+    "Examens médicaux Immigration",
+    "Examens pré-embauche (médecine du travail)",
+    "Examens Hydro Québec",
+    "Traitement de plasma riche en plaquettes"
+   ],
+   "lat": 46.79711,
+   "lon": -71.25044,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Securimed Québec",
+   "nofiche": 184239,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=184239",
+   "lu": "2026-10-20",
+   "nomOfficiel": "SECURIMED (QUÉBEC)",
+   "adresse": "1180, rue des Soeurs-du-Bon-Pasteur, bureau 210",
+   "ville": "Québec",
+   "codePostal": "G1S 0B1",
+   "telephone": "418 654-3268",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "01 juin 2026, 18 h 56",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Cardiologie",
+    "Infiltration de cortisone sous échographie",
+    "Omnipratique",
+    "Orthopédie",
+    "PFSI – Programme Fédéral de Santé Intérimaire",
+    "Prélèvements",
+    "Psychiatrie",
+    "Psychologie",
+    "Effectuer les examens médicaux pour immigration Canada",
+    "Orthopédiste au privé",
+    "Examen de pré embauche"
+   ],
+   "lat": 46.79711,
+   "lon": -71.25044,
+   "site": "https://www.securimed.ca",
+   "reservation": {}
+  },
+  {
+   "nom": "Medic Axion Lebourgneuf",
+   "nofiche": 756217,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=756217",
+   "lu": "2026-10-20",
+   "nomOfficiel": "MEDIC AXION (LEBOURGNEUF)",
+   "adresse": "1020, rue Bouvier, bureau 200",
+   "ville": "Québec",
+   "codePostal": "G2K 0K9",
+   "telephone": "418 688-0331",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h 30",
+     "heures": [
+      [
+       450,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 juillet 2026, 15 h 35",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": "AVEC rendez-vous",
+   "frais": true,
+   "nonParticipant": true,
+   "services": [
+    "Bilan sanguin AVEC ou",
+    "Bilan santé / Examen annuel",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Chirurgie pour ongle incarné",
+    "Cholestérol – Consultation pour le suivi",
+    "Colle tissulaire",
+    "Conseil en cessation du tabagisme et du vapotage",
+    "Consultation d'une infirmière",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Dépistage des troubles neurocognitifs légers",
+    "Dépistage du cancer colorectal",
+    "Dépistage grippe / influenza",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Dépistage streptocoque groupe A / strep test sans ordonnance",
+    "Hormonothérapie",
+    "Hypertension – Consultation pour le suivi",
+    "Hypertension – Mesure de la pression artérielle",
+    "Infiltration cortisone",
+    "Infiltration de cortisone sous échographie",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Information sur la sexualité",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Médecine musculosquelettique",
+    "Omnipratique",
+    "Pose de sutures / agrafes",
+    "Pose et/ou retrait d'un stérilet",
+    "PrEP - Prophylaxie préexposition",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvement et traitement de la mycose des ongles",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Pédiatrie",
+    "Retrait d'agrafes",
+    "Retrait de points de suture",
+    "Rééducation périnéale et pelvienne",
+    "Santé sexuelle",
+    "Santé voyage",
+    "Service de prise de tension artérielle AVEC ou",
+    "Soins de plaies",
+    "Soins infirmiers",
+    "Soins à domicile",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi maladie chronique",
+    "Test PAP sans prescription",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Test du virus du papillome humain (VPH)",
+    "Traitement de l'infection urinaire",
+    "Traitement des verrues / Cryothérapie",
+    "Traitement des verrues plantaires",
+    "Téléconsultation",
+    "Urgence mineure (présentation sur place",
+    "Vaccination AVEC ou",
+    "Vaccination contre la grippe",
+    "Vaccination contre la rougeole AVEC ou",
+    "Vaccination contre le pneumocoque AVEC ou",
+    "Vaccination contre le zona AVEC ou",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG)",
+    "Équipement spécialisé Traitement de multiples symptômes génito-urinaire"
+   ],
+   "lat": 46.83088,
+   "lon": -71.28325,
+   "site": "https://medicaxion.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique de santé M Québec",
+   "nofiche": 1124316,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1124316",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE DE SANTÉ M QUÉBEC",
+   "adresse": "2500, rue Beaurevoir, bureau 155",
+   "ville": "Québec",
+   "codePostal": "G2C 0M4",
+   "telephone": "418 476-4750",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 septembre 2026, 12 h 09",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "AVEC rendez-vous",
+   "frais": true,
+   "nonParticipant": false,
+   "services": [
+    "Cessation tabagisme",
+    "Cessation vapotage",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Cholestérol – Consultation pour le suivi",
+    "Conseil en cessation du tabagisme et du vapotage",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dermatologie",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Dépistage streptocoque groupe A / strep test sans ordonnance",
+    "Hormonothérapie",
+    "Hypertension – Consultation pour le suivi",
+    "Hypertension – Mesure de la pression artérielle",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Médecine familiale",
+    "Omnipratique",
+    "Phlébologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Santé communautaire",
+    "Santé voyage",
+    "Soins de plaies",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Séance d'information",
+    "Test Pap",
+    "Traitement des verrues / Cryothérapie",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Vaccination contre le pneumocoque",
+    "Vaccination contre le zona",
+    "Vasectomie",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.83793,
+   "lon": -71.32013,
+   "site": "https://cliniquem.com/",
    "reservation": {}
   }
  ]
