@@ -1,0 +1,1210 @@
+{
+ "source": "Fichiers cartographiques M02 des installations et établissements, ministère de la Santé et des Services sociaux, Données Québec (CC BY 4.0)",
+ "url": "https://www.donneesquebec.ca/recherche/dataset/51998b55-7d4c-4381-8c20-0ac1cd9c1b87/resource/2aa06e66-c1d0-4e2f-bf3c-c2e413c3f84d/download/installationscsv.csv",
+ "consulte": "2026-10-20",
+ "urgences": {
+  "CENTRE DE SANTÉ DE CHIBOUGAMAU": {
+   "lat": 49.916,
+   "lon": -74.3492,
+   "adresse": "51, 3e Rue",
+   "ville": "Chibougamau",
+   "codePostal": "G8P1N1",
+   "rss": "10",
+   "rssNom": "Nord-du-Québec",
+   "nomM02": "CENTRE DE SANTÉ DE CHIBOUGAMAU"
+  },
+  "CENTRE DE SANTÉ DE RADISSON": {
+   "lat": 53.7918,
+   "lon": -77.6196,
+   "adresse": "199, rue Jolliet",
+   "ville": "Eeyou Istchee Baie-James",
+   "codePostal": "J0Y2X0",
+   "rss": "10",
+   "rssNom": "Nord-du-Québec",
+   "nomM02": "CENTRE DE SANTÉ DE RADISSON"
+  },
+  "CENTRE DE SANTÉ ISLE-DIEU": {
+   "lat": 49.7568,
+   "lon": -77.6283,
+   "adresse": "130, boulevard  Matagami",
+   "ville": "Matagami",
+   "codePostal": "J0Y2A0",
+   "rss": "10",
+   "rssNom": "Nord-du-Québec",
+   "nomM02": "CENTRE DE SANTÉ ISLE-DIEU"
+  },
+  "CENTRE DE SANTÉ LEBEL": {
+   "lat": 49.0561,
+   "lon": -76.9833,
+   "adresse": "950, boulevard Quévillon Nord",
+   "ville": "Lebel-sur-Quévillon",
+   "codePostal": "J0Y1X0",
+   "rss": "10",
+   "rssNom": "Nord-du-Québec",
+   "nomM02": "CENTRE DE SANTÉ LEBEL"
+  },
+  "CENTRE DE SANTÉ RENÉ-RICARD": {
+   "lat": 49.7808,
+   "lon": -74.8544,
+   "adresse": "32, 3e Avenue",
+   "ville": "Chapais",
+   "codePostal": "G0W1H0",
+   "rss": "10",
+   "rssNom": "Nord-du-Québec",
+   "nomM02": "CENTRE DE SANTÉ RENÉ-RICARD"
+  },
+  "CENTRE HOSPITALIER DE L'UNIVERSITÉ DE MONTRÉAL": {
+   "lat": 45.5118,
+   "lon": -73.5563,
+   "adresse": "1000, rue Saint-Denis",
+   "ville": "Montréal",
+   "codePostal": "H2X0A9",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "CENTRE HOSPITALIER DE L'UNIVERSITÉ DE MONTRÉAL"
+  },
+  "CENTRE HOSPITALIER DE L'UNIVERSITÉ LAVAL": {
+   "lat": 46.7679,
+   "lon": -71.2823,
+   "adresse": "2705, boulevard Laurier",
+   "ville": "Québec",
+   "codePostal": "G1V4G2",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE HOSPITALIER DE L'UNIVERSITÉ LAVAL"
+  },
+  "CENTRE HOSPITALIER DE ST. MARY": {
+   "lat": 45.4949,
+   "lon": -73.6241,
+   "adresse": "3830, avenue Lacombe",
+   "ville": "Montréal",
+   "codePostal": "H3T1M5",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "CENTRE HOSPITALIER DE ST. MARY"
+  },
+  "CENTRE HOSPITALIER RÉGIONAL DU GRAND-PORTAGE": {
+   "lat": 47.8187,
+   "lon": -69.5403,
+   "adresse": "75, rue Saint-Henri",
+   "ville": "Rivière-du-Loup",
+   "codePostal": "G5R2A4",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "CENTRE HOSPITALIER RÉGIONAL DU GRAND-PORTAGE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX AVELLIN-DALCOURT": {
+   "lat": 46.2546,
+   "lon": -72.929,
+   "adresse": "450, 2e Rue",
+   "ville": "Louiseville",
+   "codePostal": "J5V1V3",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX AVELLIN-DALCOURT"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX CHAUVEAU": {
+   "lat": 46.8532,
+   "lon": -71.37,
+   "adresse": "11999, rue de l'Hôpital",
+   "ville": "Québec",
+   "codePostal": "G2A2T7",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX CHAUVEAU"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX CHRIST-ROI": {
+   "lat": 46.8108,
+   "lon": -71.2582,
+   "adresse": "900, boulevard Wilfrid-Hamel",
+   "ville": "Québec",
+   "codePostal": "G1M2R9",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX CHRIST-ROI"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX D'ARGENTEUIL": {
+   "lat": 45.6619,
+   "lon": -74.3521,
+   "adresse": "145, avenue de la Providence",
+   "ville": "Lachute",
+   "codePostal": "J8H4C7",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX D'ARGENTEUIL"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE BAIE-SAINT-PAUL": {
+   "lat": 47.4398,
+   "lon": -70.5121,
+   "adresse": "88, rue Racine",
+   "ville": "Baie-Saint-Paul",
+   "codePostal": "G3Z0K3",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE BAIE-SAINT-PAUL"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FERMONT": {
+   "lat": 52.7967,
+   "lon": -67.0904,
+   "adresse": "1, rue Aquilon",
+   "ville": "Fermont",
+   "codePostal": "G0G1J0",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FERMONT"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORESTVILLE": {
+   "lat": 48.7372,
+   "lon": -69.0742,
+   "adresse": "2, 7e rue",
+   "ville": "Forestville",
+   "codePostal": "G0T1E0",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORESTVILLE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORTIERVILLE": {
+   "lat": 46.4864,
+   "lon": -72.0304,
+   "adresse": "216, rue Principale",
+   "ville": "Fortierville",
+   "codePostal": "G0S1J0",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORTIERVILLE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE GRANDE-VALLÉE": {
+   "lat": 49.2272,
+   "lon": -65.1044,
+   "adresse": "71, rue Saint-François-Xavier Ouest",
+   "ville": "Grande-Vallée",
+   "codePostal": "G0E1K0",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE GRANDE-VALLÉE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA BASSE-CÔTE-NORD": {
+   "lat": 51.4116,
+   "lon": -57.2032,
+   "adresse": "1070, boulevard Docteur-Camille-Marcoux",
+   "ville": "Blanc-Sablon",
+   "codePostal": "G0G1W0",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA BASSE-CÔTE-NORD"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA MINGANIE": {
+   "lat": 50.2377,
+   "lon": -63.6047,
+   "adresse": "1035, promenade des Anciens",
+   "ville": "Havre-Saint-Pierre",
+   "codePostal": "G0G1P0",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA MINGANIE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA MRC DE COATICOOK": {
+   "lat": 45.135,
+   "lon": -71.8123,
+   "adresse": "138, rue Jeanne-Mance",
+   "ville": "Coaticook",
+   "codePostal": "J1A1W3",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA MRC DE COATICOOK"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA SARRE": {
+   "lat": 48.7864,
+   "lon": -79.1985,
+   "adresse": "679, 2e Rue Est",
+   "ville": "La Sarre",
+   "codePostal": "J9Z2X7",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE LA SARRE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MANSFIELD-ET-PONTEFRACT": {
+   "lat": 45.8475,
+   "lon": -76.7297,
+   "adresse": "160, Chemin de la Chute",
+   "ville": "Mansfield-et-Pontefract",
+   "codePostal": "J0X1R0",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MANSFIELD-ET-PONTEFRACT"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MEMPHRÉMAGOG": {
+   "lat": 45.2651,
+   "lon": -72.1451,
+   "adresse": "50, rue Saint-Patrice Est",
+   "ville": "Magog",
+   "codePostal": "J1X3X3",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MEMPHRÉMAGOG"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE PORT-CARTIER": {
+   "lat": 50.0238,
+   "lon": -66.894,
+   "adresse": "3, rue De Shelter Bay",
+   "ville": "Port-Cartier",
+   "codePostal": "G5B2W9",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE PORT-CARTIER"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE RIVIÈRE-ROUGE": {
+   "lat": 46.4208,
+   "lon": -74.8847,
+   "adresse": "1525, rue de L'Annonciation Nord",
+   "ville": "Rivière-Rouge",
+   "codePostal": "J0T1T0",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE RIVIÈRE-ROUGE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINT-MARC-DES-CARRIÈRES": {
+   "lat": 46.6809,
+   "lon": -72.0497,
+   "adresse": "1045, boulevard Bona-Dussault",
+   "ville": "Saint-Marc-des-Carrières",
+   "codePostal": "G0A4B0",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINT-MARC-DES-CARRIÈRES"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINT-RAYMOND": {
+   "lat": 46.8952,
+   "lon": -71.8224,
+   "adresse": "700, rue Saint-Cyrille",
+   "ville": "Saint-Raymond",
+   "codePostal": "G3L1W1",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINT-RAYMOND"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-AGATHE": {
+   "lat": 46.0554,
+   "lon": -74.2888,
+   "adresse": "234, rue Saint-Vincent",
+   "ville": "Sainte-Agathe-des-Monts",
+   "codePostal": "J8C2B8",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-AGATHE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-ANNE-DE-BEAUPRÉ": {
+   "lat": 47.0427,
+   "lon": -70.9002,
+   "adresse": "11000, rue des Montagnards",
+   "ville": "Beaupré",
+   "codePostal": "G0A1E0",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-ANNE-DE-BEAUPRÉ"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE TÉMISCAMING-KIPAWA": {
+   "lat": 46.7257,
+   "lon": -79.0941,
+   "adresse": "180, rue Anvik",
+   "ville": "Témiscaming",
+   "codePostal": "J0Z3R0",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE TÉMISCAMING-KIPAWA"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE TROIS-PISTOLES": {
+   "lat": 48.1327,
+   "lon": -69.1593,
+   "adresse": "550, rue Notre-Dame Est",
+   "ville": "Trois-Pistoles",
+   "codePostal": "G0L4K0",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE TROIS-PISTOLES"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE VILLE-MARIE": {
+   "lat": 47.3329,
+   "lon": -79.4444,
+   "adresse": "22, rue Notre-Dame Nord",
+   "ville": "Ville-Marie",
+   "codePostal": "J9V1W8",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE VILLE-MARIE"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DES ESCOUMINS": {
+   "lat": 48.3521,
+   "lon": -69.4071,
+   "adresse": "4, rue de l'Hôpital",
+   "ville": "Les Escoumins",
+   "codePostal": "G0T1K0",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DES ESCOUMINS"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DES SOURCES": {
+   "lat": 45.7718,
+   "lon": -71.9261,
+   "adresse": "475, 3e Avenue",
+   "ville": "Val-des-Sources",
+   "codePostal": "J1T1X6",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DES SOURCES"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU GRANIT": {
+   "lat": 45.5886,
+   "lon": -70.9058,
+   "adresse": "3569, rue Laval",
+   "ville": "Lac-Mégantic",
+   "codePostal": "G6B1A5",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU GRANIT"
+  },
+  "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU HAUT-SAINT-MAURICE": {
+   "lat": 47.4285,
+   "lon": -72.7857,
+   "adresse": "885, boulevard Ducharme",
+   "ville": "La Tuque",
+   "codePostal": "G9X3C1",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU HAUT-SAINT-MAURICE"
+  },
+  "CHSLD ET HÔPITAL PAUL-GILBERT": {
+   "lat": 46.7254,
+   "lon": -71.2594,
+   "adresse": "9330, boulevard du Centre-Hospitalier",
+   "ville": "Lévis",
+   "codePostal": "G6X1L6",
+   "rss": "12",
+   "rssNom": "Chaudière-Appalaches",
+   "nomM02": "CHSLD ET HÔPITAL PAUL-GILBERT"
+  },
+  "CHU SAINTE-JUSTINE": {
+   "lat": 45.5032,
+   "lon": -73.6249,
+   "adresse": "3175, chemin de la Côte-Sainte-Catherine",
+   "ville": "Montréal",
+   "codePostal": "H3T1C5",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "CHU SAINTE-JUSTINE"
+  },
+  "CHUS - HÔPITAL FLEURIMONT": {
+   "lat": 45.4478,
+   "lon": -71.869,
+   "adresse": "3001, 12e Avenue Nord",
+   "ville": "Sherbrooke",
+   "codePostal": "J1H5N4",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CHUS - HÔPITAL FLEURIMONT"
+  },
+  "CHUS - HÔTEL-DIEU DE SHERBROOKE": {
+   "lat": 45.3984,
+   "lon": -71.8779,
+   "adresse": "580, rue Bowen Sud",
+   "ville": "Sherbrooke",
+   "codePostal": "J1G2E8",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "CHUS - HÔTEL-DIEU DE SHERBROOKE"
+  },
+  "CLSC DE POHÉNÉGAMOOK": {
+   "lat": 47.4898,
+   "lon": -69.2813,
+   "adresse": "1922, rue Saint-Vallier",
+   "ville": "Pohénégamook",
+   "codePostal": "G0L1J0",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "CLSC DE POHÉNÉGAMOOK"
+  },
+  "CLSC ET CENTRE D'HÉBERGEMENT DE LA PETITE-NATION": {
+   "lat": 45.7225,
+   "lon": -75.0585,
+   "adresse": "14, rue Saint-André",
+   "ville": "Saint-André-Avellin",
+   "codePostal": "J0V1W0",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "CLSC ET CENTRE D'HÉBERGEMENT DE LA PETITE-NATION"
+  },
+  "CLSC ET CENTRE DE SERVICES AMBULATOIRES DE MURDOCHVILLE": {
+   "lat": 48.9613,
+   "lon": -65.4935,
+   "adresse": "600, avenue William-May",
+   "ville": "Murdochville",
+   "codePostal": "G0E1W0",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "CLSC ET CENTRE DE SERVICES AMBULATOIRES DE MURDOCHVILLE"
+  },
+  "CLSC ET CENTRE DE SERVICES AMBULATOIRES DE PASPÉBIAC": {
+   "lat": 48.022,
+   "lon": -65.2868,
+   "adresse": "273, boulevard Gérard-D.-Levesque",
+   "ville": "Paspébiac",
+   "codePostal": "G0C2K0",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "CLSC ET CENTRE DE SERVICES AMBULATOIRES DE PASPÉBIAC"
+  },
+  "CLSC ET HÔPITAL LE ROYER": {
+   "lat": 49.1902,
+   "lon": -68.2525,
+   "adresse": "635, boulevard Jolliet",
+   "ville": "Baie-Comeau",
+   "codePostal": "G5C1P1",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "CLSC ET HÔPITAL LE ROYER"
+  },
+  "HÔPITAL ANNA-LABERGE": {
+   "lat": 45.3457,
+   "lon": -73.7634,
+   "adresse": "200, boulevard Brisebois",
+   "ville": "Châteauguay",
+   "codePostal": "J6K4W8",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL ANNA-LABERGE"
+  },
+  "HÔPITAL BARRIE MEMORIAL / BARRIE MEMORIAL HOSPITAL": {
+   "lat": 45.1263,
+   "lon": -73.9999,
+   "adresse": "28, rue Gale",
+   "ville": "Ormstown",
+   "codePostal": "J0S1K0",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL BARRIE MEMORIAL / BARRIE MEMORIAL HOSPITAL"
+  },
+  "HÔPITAL BROME-MISSISQUOI-PERKINS": {
+   "lat": 45.2071,
+   "lon": -72.7144,
+   "adresse": "950, rue Principale",
+   "ville": "Cowansville",
+   "codePostal": "J2K1K3",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "HÔPITAL BROME-MISSISQUOI-PERKINS"
+  },
+  "HÔPITAL CHARLES-LE MOYNE": {
+   "lat": 45.4973,
+   "lon": -73.4864,
+   "adresse": "3120, boulevard Taschereau",
+   "ville": "Longueuil",
+   "codePostal": "J4V2H1",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL CHARLES-LE MOYNE"
+  },
+  "HÔPITAL D'ALMA": {
+   "lat": 48.5506,
+   "lon": -71.6651,
+   "adresse": "300, boulevard Champlain Sud",
+   "ville": "Alma",
+   "codePostal": "G8B5W3",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL D'ALMA"
+  },
+  "HÔPITAL D'AMOS": {
+   "lat": 48.5745,
+   "lon": -78.1255,
+   "adresse": "622, 4e Rue Ouest",
+   "ville": "Amos",
+   "codePostal": "J9T2S2",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "HÔPITAL D'AMOS"
+  },
+  "HÔPITAL D'AMQUI": {
+   "lat": 48.4685,
+   "lon": -67.4193,
+   "adresse": "135, avenue Gaëtan-Archambault",
+   "ville": "Amqui",
+   "codePostal": "G5J2K5",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "HÔPITAL D'AMQUI"
+  },
+  "HÔPITAL DE CHANDLER": {
+   "lat": 48.3548,
+   "lon": -64.6717,
+   "adresse": "451, rue Monseigneur-Ross Est",
+   "ville": "Chandler",
+   "codePostal": "G0C1K0",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "HÔPITAL DE CHANDLER"
+  },
+  "HÔPITAL DE CHICOUTIMI": {
+   "lat": 48.426,
+   "lon": -71.0486,
+   "adresse": "305, rue Saint-Vallier,",
+   "ville": "Saguenay",
+   "codePostal": "G7H5H6",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL DE CHICOUTIMI"
+  },
+  "HÔPITAL DE DOLBEAU-MISTASSINI": {
+   "lat": 48.8858,
+   "lon": -72.2394,
+   "adresse": "2000, boulevard Sacré-Coeur",
+   "ville": "Dolbeau-Mistassini",
+   "codePostal": "G8L2R5",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL DE DOLBEAU-MISTASSINI"
+  },
+  "HÔPITAL DE GASPÉ": {
+   "lat": 48.8129,
+   "lon": -64.4966,
+   "adresse": "215, boulevard de York Ouest",
+   "ville": "Gaspé",
+   "codePostal": "G4X2W2",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "HÔPITAL DE GASPÉ"
+  },
+  "HÔPITAL DE GATINEAU": {
+   "lat": 45.4933,
+   "lon": -75.6911,
+   "adresse": "909, boulevard La Vérendrye Ouest",
+   "ville": "Gatineau",
+   "codePostal": "J8P7H2",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL DE GATINEAU"
+  },
+  "HÔPITAL DE GRANBY": {
+   "lat": 45.4106,
+   "lon": -72.723,
+   "adresse": "205, boulevard Leclerc Ouest",
+   "ville": "Granby",
+   "codePostal": "J2G1T7",
+   "rss": "05",
+   "rssNom": "Estrie",
+   "nomM02": "HÔPITAL DE GRANBY"
+  },
+  "HÔPITAL DE HULL": {
+   "lat": 45.4449,
+   "lon": -75.746,
+   "adresse": "116, boulevard Lionel-Émond",
+   "ville": "Gatineau",
+   "codePostal": "J8Y1W7",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL DE HULL"
+  },
+  "HÔPITAL DE L'ARCHIPEL": {
+   "lat": 47.3756,
+   "lon": -61.8688,
+   "adresse": "430, chemin Principal",
+   "ville": "Les Îles-de-la-Madeleine",
+   "codePostal": "G4T1R9",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "HÔPITAL DE L'ARCHIPEL"
+  },
+  "HÔPITAL DE L'ENFANT-JÉSUS": {
+   "lat": 46.8372,
+   "lon": -71.2255,
+   "adresse": "1401, 18e Rue",
+   "ville": "Québec",
+   "codePostal": "G1J1Z4",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "HÔPITAL DE L'ENFANT-JÉSUS"
+  },
+  "HÔPITAL DE LA BAIE": {
+   "lat": 48.3439,
+   "lon": -70.8832,
+   "adresse": "1000, rue du Docteur-Desgagné",
+   "ville": "Saguenay",
+   "codePostal": "G7B2Y6",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL DE LA BAIE"
+  },
+  "HÔPITAL DE LA CITÉ-DE-LA-SANTÉ": {
+   "lat": 45.6033,
+   "lon": -73.7108,
+   "adresse": "1755, boulevard René-Laennec",
+   "ville": "Laval",
+   "codePostal": "H7M3L9",
+   "rss": "13",
+   "rssNom": "Laval",
+   "nomM02": "HÔPITAL DE LA CITÉ-DE-LA-SANTÉ"
+  },
+  "HÔPITAL DE LACHINE": {
+   "lat": 45.4408,
+   "lon": -73.677,
+   "adresse": "650, 16e Avenue",
+   "ville": "Montréal",
+   "codePostal": "H8S3N5",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL DE LACHINE"
+  },
+  "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND": {
+   "lat": 46.0393,
+   "lon": -73.457,
+   "adresse": "1000, boulevard Sainte-Anne",
+   "ville": "Saint-Charles-Borromée",
+   "codePostal": "J6E6J2",
+   "rss": "14",
+   "rssNom": "Lanaudière",
+   "nomM02": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND"
+  },
+  "HÔPITAL DE LASALLE": {
+   "lat": 45.4208,
+   "lon": -73.6234,
+   "adresse": "8585, terrasse Champlain",
+   "ville": "Montréal",
+   "codePostal": "H8P1C1",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL DE LASALLE"
+  },
+  "HÔPITAL DE MANIWAKI": {
+   "lat": 46.3909,
+   "lon": -75.9794,
+   "adresse": "309, boulevard Desjardins",
+   "ville": "Maniwaki",
+   "codePostal": "J9E2E7",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL DE MANIWAKI"
+  },
+  "HÔPITAL DE MATANE": {
+   "lat": 48.8436,
+   "lon": -67.5244,
+   "adresse": "333, rue Thibault",
+   "ville": "Matane",
+   "codePostal": "G4W2W5",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "HÔPITAL DE MATANE"
+  },
+  "HÔPITAL DE MONT-LAURIER": {
+   "lat": 46.5492,
+   "lon": -75.5177,
+   "adresse": "2561, chemin de la Lièvre Sud",
+   "ville": "Mont-Laurier",
+   "codePostal": "J9L3G3",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "HÔPITAL DE MONT-LAURIER"
+  },
+  "HÔPITAL DE MONTMAGNY": {
+   "lat": 46.9764,
+   "lon": -70.5967,
+   "adresse": "350, boulevard Taché Ouest",
+   "ville": "Montmagny",
+   "codePostal": "G5V3R8",
+   "rss": "12",
+   "rssNom": "Chaudière-Appalaches",
+   "nomM02": "HÔPITAL DE MONTMAGNY"
+  },
+  "HÔPITAL DE NOTRE-DAME-DU-LAC": {
+   "lat": 47.6124,
+   "lon": -68.7993,
+   "adresse": "58, rue de l'Église",
+   "ville": "Témiscouata-sur-le-Lac",
+   "codePostal": "G0L1X0",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "HÔPITAL DE NOTRE-DAME-DU-LAC"
+  },
+  "HÔPITAL DE ROUYN-NORANDA": {
+   "lat": 48.2438,
+   "lon": -79.0193,
+   "adresse": "4, 9e Rue",
+   "ville": "Rouyn-Noranda",
+   "codePostal": "J9X2B2",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "HÔPITAL DE ROUYN-NORANDA"
+  },
+  "HÔPITAL DE SAINT-EUSTACHE": {
+   "lat": 45.5713,
+   "lon": -73.9137,
+   "adresse": "520, boulevard Arthur-Sauvé",
+   "ville": "Saint-Eustache",
+   "codePostal": "J7R5B1",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "HÔPITAL DE SAINT-EUSTACHE"
+  },
+  "HÔPITAL DE SAINT-GEORGES": {
+   "lat": 46.1097,
+   "lon": -70.6852,
+   "adresse": "1515, 17e rue",
+   "ville": "Saint-Georges",
+   "codePostal": "G5Y4T8",
+   "rss": "12",
+   "rssNom": "Chaudière-Appalaches",
+   "nomM02": "HÔPITAL DE SAINT-GEORGES"
+  },
+  "HÔPITAL DE SAINT-JÉRÔME": {
+   "lat": 45.7656,
+   "lon": -74.0002,
+   "adresse": "290, rue Montigny",
+   "ville": "Saint-Jérôme",
+   "codePostal": "J7Z5T3",
+   "rss": "15",
+   "rssNom": "Laurentides",
+   "nomM02": "HÔPITAL DE SAINT-JÉRÔME"
+  },
+  "HÔPITAL DE THETFORD": {
+   "lat": 46.1095,
+   "lon": -71.2785,
+   "adresse": "1717, rue Notre-Dame Est",
+   "ville": "Thetford Mines",
+   "codePostal": "G6G2V4",
+   "rss": "12",
+   "rssNom": "Chaudière-Appalaches",
+   "nomM02": "HÔPITAL DE THETFORD"
+  },
+  "HÔPITAL DE VAL-D'OR": {
+   "lat": 48.0961,
+   "lon": -77.7968,
+   "adresse": "725, 6e Rue",
+   "ville": "Val-d'Or",
+   "codePostal": "J9P3Y1",
+   "rss": "08",
+   "rssNom": "Abitibi-Témiscamingue",
+   "nomM02": "HÔPITAL DE VAL-D'OR"
+  },
+  "HÔPITAL DE VERDUN": {
+   "lat": 45.4641,
+   "lon": -73.564,
+   "adresse": "4000, boulevard LaSalle",
+   "ville": "Montréal",
+   "codePostal": "H4G2A3",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL DE VERDUN"
+  },
+  "HÔPITAL DOUGLAS": {
+   "lat": 45.4421,
+   "lon": -73.5844,
+   "adresse": "6875, boulevard Lasalle",
+   "ville": "Montréal",
+   "codePostal": "H4H1R3",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL DOUGLAS"
+  },
+  "HÔPITAL DU CENTRE-DE-LA-MAURICIE": {
+   "lat": 46.5256,
+   "lon": -72.7434,
+   "adresse": "50, 119e Rue",
+   "ville": "Shawinigan",
+   "codePostal": "G9P5K1",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "HÔPITAL DU CENTRE-DE-LA-MAURICIE"
+  },
+  "HÔPITAL DU HAUT-RICHELIEU": {
+   "lat": 45.3325,
+   "lon": -73.2702,
+   "adresse": "920, boulevard du Séminaire Nord",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "codePostal": "J3A1B7",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL DU HAUT-RICHELIEU"
+  },
+  "HÔPITAL DU SACRÉ-COEUR-DE-MONTRÉAL": {
+   "lat": 45.5326,
+   "lon": -73.714,
+   "adresse": "5400, boulevard Gouin Ouest",
+   "ville": "Montréal",
+   "codePostal": "H4J1C5",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL DU SACRÉ-COEUR-DE-MONTRÉAL"
+  },
+  "HÔPITAL DU SAINT-SACREMENT": {
+   "lat": 46.7994,
+   "lon": -71.2464,
+   "adresse": "1050, chemin Sainte-Foy",
+   "ville": "Québec",
+   "codePostal": "G1S4L8",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "HÔPITAL DU SAINT-SACREMENT"
+  },
+  "HÔPITAL DU SUROÎT": {
+   "lat": 45.2509,
+   "lon": -74.1307,
+   "adresse": "150, rue Saint-Thomas",
+   "ville": "Salaberry-de-Valleyfield",
+   "codePostal": "J6T6C1",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL DU SUROÎT"
+  },
+  "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST": {
+   "lat": 45.529,
+   "lon": -73.729,
+   "adresse": "6555, boulevard Gouin Ouest",
+   "ville": "Montréal",
+   "codePostal": "H4K1B3",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST"
+  },
+  "HÔPITAL ET CENTRE D'HÉBERGEMENT DE ROBERVAL": {
+   "lat": 48.5077,
+   "lon": -72.219,
+   "adresse": "450, rue Brassard",
+   "ville": "Roberval",
+   "codePostal": "G8H1B9",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL ET CENTRE D'HÉBERGEMENT DE ROBERVAL"
+  },
+  "HÔPITAL ET CENTRE DE RÉADAPTATION DE JONQUIÈRE": {
+   "lat": 48.4136,
+   "lon": -71.2351,
+   "adresse": "2230, rue de l'Hôpital",
+   "ville": "Saguenay",
+   "codePostal": "G7X7X2",
+   "rss": "02",
+   "rssNom": "Saguenay–Lac-Saint-Jean",
+   "nomM02": "HÔPITAL ET CENTRE DE RÉADAPTATION DE JONQUIÈRE"
+  },
+  "HÔPITAL ET CHSLD DE PAPINEAU": {
+   "lat": 45.5886,
+   "lon": -75.4115,
+   "adresse": "155, rue Maclaren Est",
+   "ville": "Gatineau",
+   "codePostal": "J8L0C2",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL ET CHSLD DE PAPINEAU"
+  },
+  "HÔPITAL ET CHSLD DU PONTIAC": {
+   "lat": 45.606,
+   "lon": -76.484,
+   "adresse": "200, rue Argue",
+   "ville": "Shawville",
+   "codePostal": "J0X2Y0",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL ET CHSLD DU PONTIAC"
+  },
+  "HÔPITAL ET CHSLD MÉMORIAL DE WAKEFIELD / WAKEFIELD MEMORIAL HOSPITAL": {
+   "lat": 45.6486,
+   "lon": -75.9326,
+   "adresse": "101, chemin Burnside",
+   "ville": "La Pêche",
+   "codePostal": "J0X3G0",
+   "rss": "07",
+   "rssNom": "Outaouais",
+   "nomM02": "HÔPITAL ET CHSLD MÉMORIAL DE WAKEFIELD / WAKEFIELD MEMORIAL HOSPITAL"
+  },
+  "HÔPITAL ET CLSC DE LA MALBAIE": {
+   "lat": 47.6562,
+   "lon": -70.1517,
+   "adresse": "303, rue Saint-Étienne",
+   "ville": "La Malbaie",
+   "codePostal": "G5A1T1",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "HÔPITAL ET CLSC DE LA MALBAIE"
+  },
+  "HÔPITAL ET CLSC DE SAINTE-ANNE-DES-MONTS": {
+   "lat": 49.1186,
+   "lon": -66.4828,
+   "adresse": "50, rue du Belvédère",
+   "ville": "Sainte-Anne-des-Monts",
+   "codePostal": "G4V1X4",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "HÔPITAL ET CLSC DE SAINTE-ANNE-DES-MONTS"
+  },
+  "HÔPITAL ET CLSC DE SEPT-ÎLES": {
+   "lat": 50.2098,
+   "lon": -66.384,
+   "adresse": "45, rue du Père-Divet",
+   "ville": "Sept-Îles",
+   "codePostal": "G4R3N7",
+   "rss": "09",
+   "rssNom": "Côte-Nord",
+   "nomM02": "HÔPITAL ET CLSC DE SEPT-ÎLES"
+  },
+  "HÔPITAL ET GROUPE DE MÉDECINE DE FAMILLE UNIVERSITAIRE DE MARIA": {
+   "lat": 48.1692,
+   "lon": -65.9935,
+   "adresse": "419, boulevard Perron",
+   "ville": "Maria",
+   "codePostal": "G0C1Y0",
+   "rss": "11",
+   "rssNom": "Gaspésie–Îles-de-la-Madeleine",
+   "nomM02": "HÔPITAL ET GROUPE DE MÉDECINE DE FAMILLE UNIVERSITAIRE DE MARIA"
+  },
+  "HÔPITAL FLEURY": {
+   "lat": 45.5718,
+   "lon": -73.6504,
+   "adresse": "2180, rue Fleury Est",
+   "ville": "Montréal",
+   "codePostal": "H2B1K3",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL FLEURY"
+  },
+  "HÔPITAL GÉNÉRAL DE MONTRÉAL": {
+   "lat": 45.497,
+   "lon": -73.589,
+   "adresse": "1650, avenue Cedar",
+   "ville": "Montréal",
+   "codePostal": "H3G1A4",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL GÉNÉRAL DE MONTRÉAL"
+  },
+  "HÔPITAL GÉNÉRAL DU LAKESHORE": {
+   "lat": 45.4486,
+   "lon": -73.8337,
+   "adresse": "160, avenue Stillview",
+   "ville": "Pointe-Claire",
+   "codePostal": "H9R2Y2",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL GÉNÉRAL DU LAKESHORE"
+  },
+  "HÔPITAL GÉNÉRAL JUIF": {
+   "lat": 45.4958,
+   "lon": -73.6306,
+   "adresse": "4335, chemin de la Côte-Sainte-Catherine",
+   "ville": "Montréal",
+   "codePostal": "H3T1E4",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL GÉNÉRAL JUIF"
+  },
+  "HÔPITAL HONORÉ-MERCIER": {
+   "lat": 45.6348,
+   "lon": -72.9595,
+   "adresse": "2750, boulevard Laframboise",
+   "ville": "Saint-Hyacinthe",
+   "codePostal": "J2S4Y8",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL HONORÉ-MERCIER"
+  },
+  "HÔPITAL JEAN-TALON": {
+   "lat": 45.5459,
+   "lon": -73.6095,
+   "adresse": "1385, rue Jean-Talon Est",
+   "ville": "Montréal",
+   "codePostal": "H2E1S6",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL JEAN-TALON"
+  },
+  "HÔPITAL MAISONNEUVE-ROSEMONT": {
+   "lat": 45.5742,
+   "lon": -73.5585,
+   "adresse": "5415, boulevard de l'Assomption",
+   "ville": "Montréal",
+   "codePostal": "H1T2M4",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL MAISONNEUVE-ROSEMONT"
+  },
+  "HÔPITAL NOTRE-DAME": {
+   "lat": 45.5254,
+   "lon": -73.5636,
+   "adresse": "1560, rue Sherbrooke Est",
+   "ville": "Montréal",
+   "codePostal": "H2L4M1",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL NOTRE-DAME"
+  },
+  "HÔPITAL NOTRE-DAME-DE-FATIMA": {
+   "lat": 47.3718,
+   "lon": -70.0262,
+   "adresse": "1201, 6e Avenue Pilote",
+   "ville": "La Pocatière",
+   "codePostal": "G0R1Z0",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "HÔPITAL NOTRE-DAME-DE-FATIMA"
+  },
+  "HÔPITAL PIERRE-BOUCHER": {
+   "lat": 45.5383,
+   "lon": -73.4588,
+   "adresse": "1333, boulevard Jacques-Cartier Est",
+   "ville": "Longueuil",
+   "codePostal": "J4M2A5",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔPITAL PIERRE-BOUCHER"
+  },
+  "HÔPITAL PIERRE-LE GARDEUR": {
+   "lat": 45.724,
+   "lon": -73.5105,
+   "adresse": "911, montée des Pionniers",
+   "ville": "Terrebonne",
+   "codePostal": "J6V2H2",
+   "rss": "14",
+   "rssNom": "Lanaudière",
+   "nomM02": "HÔPITAL PIERRE-LE GARDEUR"
+  },
+  "HÔPITAL RÉGIONAL DE RIMOUSKI": {
+   "lat": 48.447,
+   "lon": -68.5305,
+   "adresse": "150, avenue Rouleau",
+   "ville": "Rimouski",
+   "codePostal": "G5L5T1",
+   "rss": "01",
+   "rssNom": "Bas-Saint-Laurent",
+   "nomM02": "HÔPITAL RÉGIONAL DE RIMOUSKI"
+  },
+  "HÔPITAL ROYAL VICTORIA": {
+   "lat": 45.4727,
+   "lon": -73.6011,
+   "adresse": "1001, boulevard Décarie",
+   "ville": "Montréal",
+   "codePostal": "H4A3J1",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL ROYAL VICTORIA"
+  },
+  "HÔPITAL SAINT-FRANÇOIS D'ASSISE": {
+   "lat": 46.8278,
+   "lon": -71.2366,
+   "adresse": "10, rue de l'Espinay",
+   "ville": "Québec",
+   "codePostal": "G1L3L5",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "HÔPITAL SAINT-FRANÇOIS D'ASSISE"
+  },
+  "HÔPITAL SAINTE-CROIX": {
+   "lat": 45.88,
+   "lon": -72.4773,
+   "adresse": "570, rue Heriot",
+   "ville": "Drummondville",
+   "codePostal": "J2B1C1",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "HÔPITAL SAINTE-CROIX"
+  },
+  "HÔPITAL SANTA CABRINI": {
+   "lat": 45.5801,
+   "lon": -73.5717,
+   "adresse": "5655, rue Saint-Zotique Est",
+   "ville": "Montréal",
+   "codePostal": "H1T1P7",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "HÔPITAL SANTA CABRINI"
+  },
+  "HÔTEL-DIEU D'ARTHABASKA": {
+   "lat": 46.0406,
+   "lon": -71.915,
+   "adresse": "5, rue des Hospitalières",
+   "ville": "Victoriaville",
+   "codePostal": "G6P6N2",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "HÔTEL-DIEU D'ARTHABASKA"
+  },
+  "HÔTEL-DIEU DE LÉVIS": {
+   "lat": 46.815,
+   "lon": -71.1773,
+   "adresse": "143, rue Wolfe",
+   "ville": "Lévis",
+   "codePostal": "G6V3Z1",
+   "rss": "12",
+   "rssNom": "Chaudière-Appalaches",
+   "nomM02": "HÔTEL-DIEU DE LÉVIS"
+  },
+  "HÔTEL-DIEU DE SOREL": {
+   "lat": 46.0458,
+   "lon": -73.0956,
+   "adresse": "400, avenue de l'Hôtel-Dieu",
+   "ville": "Sorel-Tracy",
+   "codePostal": "J3P1N5",
+   "rss": "16",
+   "rssNom": "Montérégie",
+   "nomM02": "HÔTEL-DIEU DE SOREL"
+  },
+  "INSTITUT DE CARDIOLOGIE DE MONTRÉAL": {
+   "lat": 45.5738,
+   "lon": -73.5778,
+   "adresse": "5000, rue Bélanger",
+   "ville": "Montréal",
+   "codePostal": "H1T1C8",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "INSTITUT DE CARDIOLOGIE DE MONTRÉAL"
+  },
+  "INSTITUT UNIVERSITAIRE DE CARDIOLOGIE ET DE PNEUMOLOGIE DE QUÉBEC": {
+   "lat": 46.7791,
+   "lon": -71.2977,
+   "adresse": "2725, chemin Sainte-Foy",
+   "ville": "Québec",
+   "codePostal": "G1V4G5",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "INSTITUT UNIVERSITAIRE DE CARDIOLOGIE ET DE PNEUMOLOGIE DE QUÉBEC"
+  },
+  "INSTITUT UNIVERSITAIRE EN SANTÉ MENTALE DE MONTRÉAL": {
+   "lat": 45.5886,
+   "lon": -73.529,
+   "adresse": "7401, rue Hochelaga",
+   "ville": "Montréal",
+   "codePostal": "H1N3M5",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "INSTITUT UNIVERSITAIRE EN SANTÉ MENTALE DE MONTRÉAL"
+  },
+  "L'HÔPITAL DE MONTRÉAL POUR ENFANTS": {
+   "lat": 45.4723,
+   "lon": -73.6013,
+   "adresse": "1001, boulevard Décarie",
+   "ville": "Montréal",
+   "codePostal": "H4A3J1",
+   "rss": "06",
+   "rssNom": "Montréal",
+   "nomM02": "L'HÔPITAL DE MONTRÉAL POUR ENFANTS"
+  },
+  "L'HÔTEL-DIEU DE QUÉBEC": {
+   "lat": 46.8154,
+   "lon": -71.211,
+   "adresse": "11, Côte du Palais",
+   "ville": "Québec",
+   "codePostal": "G1R2J6",
+   "rss": "03",
+   "rssNom": "Capitale-Nationale",
+   "nomM02": "L'HÔTEL-DIEU DE QUÉBEC"
+  },
+  "PAVILLON SAINTE-MARIE": {
+   "lat": 46.3544,
+   "lon": -72.5632,
+   "adresse": "1991, boulevard du Carmel",
+   "ville": "Trois-Rivières",
+   "codePostal": "G8Z3R9",
+   "rss": "04",
+   "rssNom": "Mauricie et Centre-du-Québec",
+   "nomM02": "PAVILLON SAINTE-MARIE"
+  }
+ },
+ "nonTrouvees": [
+  "Ensemble du Québec"
+ ]
+}
