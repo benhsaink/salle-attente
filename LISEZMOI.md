@@ -135,3 +135,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Nouvelle région « tr » (Trois-Rivières) : urgence du pavillon Sainte-Marie du CHAUR (1991 boulevard du Carmel).
 - Cliniques GMF-A/R ajoutées depuis Québec.ca : GMF MAclinique Lévis (29382), Clinique réseau de Trois-Rivières (854870), GMF-A/R du Cap (606386).
 - Pas encore de cliniques privées pour ces deux secteurs.
+
+## Urgences de tout le Québec (20 octobre 2026)
+- installations.js (Action « Adresses des urgences (M02) », chaque mois et à la main) lit la « Liste des installations » du ministère (fichiers cartographiques M02, Données Québec, CC BY 4.0) et écrit data/installations.json : adresse, municipalité, coordonnées et région sociosanitaire de chaque urgence. Le serveur relaie le fichier (/api/installations.csv) si GitHub n'y a pas accès.
+- lib.js : les urgences hors de PLACES prennent leur région du code RSS (r01 Bas-Saint-Laurent… r18 Terres-Cries) ; 03 → qc, 06 → mtl, 13 → lav.
+- Menu « Autres régions du Québec (urgences) » sous les boutons. Cliniques et Privées : pas offertes dans ces régions (message).
+- Avec « Tout » : pas de « Meilleur choix » sans position ; avec la position, seulement une urgence à 75 km ou moins.

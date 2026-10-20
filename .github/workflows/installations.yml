@@ -1,0 +1,38 @@
+name: Adresses des urgences (M02)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 10 1 * *" # le 1er de chaque mois : nouvelle version de la liste des installations
+  push:
+    branches: [main]
+    paths:
+      - installations.js
+
+permissions:
+  contents: write
+
+concurrency:
+  group: installations
+  cancel-in-progress: false
+
+jobs:
+  installations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Lire la liste des installations du ministère
+        run: node installations.js
+      - name: Sauvegarder dans le dépôt
+        run: |
+          git config user.name "salle-attente-collecte"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/installations.json
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Adresses des urgences (liste M02 du ministère)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

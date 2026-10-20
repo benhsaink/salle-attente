@@ -156,10 +156,22 @@ function columns(keys) {
   };
 }
 
+// Toutes les autres urgences du Québec : adresse et coordonnées de la liste des installations
+// du ministère (M02, Données Québec), lue par installations.js dans data/installations.json.
+// La région vient du code de région sociosanitaire (RSS) : r01 = Bas-Saint-Laurent, etc.
+let M02 = {};
+try { M02 = JSON.parse(fs.readFileSync(require("path").join(__dirname, "data", "installations.json"), "utf8")).urgences || {}; } catch (e) {}
+const RSS_REGION = { "03": "qc", "06": "mtl", "13": "lav" };
+
 function region(etab, inst) {
   const n = norm(inst), e = norm(etab);
   for (const [key, reg, area, lat, lon, address] of PLACES)
     if (key.startsWith("=") ? n === key.slice(1) : n.includes(key)) return { reg, area, lat, lon, address };
+  const m = M02[String(inst || "").trim()];
+  if (m && m.rss) {
+    const ville = m.ville.replace(/^(.)/, (c) => c.toUpperCase());
+    return { reg: RSS_REGION[m.rss] || "r" + m.rss, area: ville, lat: m.lat, lon: m.lon, address: [m.adresse, ville].filter(Boolean).join(", ") };
+  }
   // Les hôpitaux de Québec (CHU de Québec – Université Laval) ne sont pas à Laval !
   if (e.includes("universite laval") || e.includes("de quebec")) return null;
   if (/\blaval\b/.test(e)) return { reg: "lav", area: "Laval" };

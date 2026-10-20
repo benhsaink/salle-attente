@@ -323,6 +323,20 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", "
 
 http.createServer(async (req, res) => {
   const url = new URL(req.url, "http://x");
+  // Relais de la liste des installations (M02, Données Québec) pour installations.js sur GitHub
+  if (url.pathname === "/api/installations.csv") {
+    try {
+      const r = await fetch("https://www.donneesquebec.ca/recherche/dataset/51998b55-7d4c-4381-8c20-0ac1cd9c1b87/resource/2aa06e66-c1d0-4e2f-bf3c-c2e413c3f84d/download/installationscsv.csv", { headers: { "User-Agent": "SalleAttente/1.0 (donnees ouvertes)" }, signal: AbortSignal.timeout(60e3) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      res.writeHead(200, { "Content-Type": "text/csv", "Cache-Control": "public, max-age=86400" });
+      res.end(Buffer.from(await r.arrayBuffer()));
+    } catch (err) {
+      console.error("Installations :", err.message);
+      res.writeHead(502, { "Content-Type": "text/plain; charset=utf-8" });
+      res.end("Liste des installations indisponible");
+    }
+    return;
+  }
   if (url.pathname === "/api/source.csv") {
     try {
       const body = await getRaw();

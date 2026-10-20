@@ -46,6 +46,8 @@ h2{font-size:1.15rem;font-weight:600}
 .seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px;overflow-x:auto;scrollbar-width:none}
 .seg button{flex:1 0 auto;white-space:nowrap;border:0;background:transparent;color:var(--muted);font:inherit;font-weight:700;padding:9px 6px;border-radius:9px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+#r-more{font:inherit;font-weight:700;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:9px 10px;width:100%;min-width:0}
+#r-more.on{color:var(--surface);background:var(--accent);border-color:var(--accent)}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
 select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px}
 label.chk{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.9rem}
@@ -202,7 +204,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
       <h1>Salle d'attente</h1>
       <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
     </div>
-    <p class="sub">Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal, à Québec–Lévis et à Trois-Rivières.</p>
+    <p class="sub">Trouvez l'urgence la moins remplie partout au Québec, ou une clinique pour aujourd'hui dans le Grand Montréal, à Québec–Lévis et à Trois-Rivières.</p>
     <p class="langnote" id="langnote" hidden>Les noms, adresses et services viennent des sources officielles et restent en français.</p>
   </header>
 
@@ -230,6 +232,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
       <button id="r-qc" data-r="qc" aria-pressed="false">Québec–Lévis</button>
       <button id="r-tr" data-r="tr" aria-pressed="false">Trois-Rivières</button>
     </div>
+    <select id="r-more" aria-label="Autres régions du Québec"><option value="">Autres régions du Québec (urgences)…</option></select>
     <div class="geo" id="geo">
       <button id="geo-btn" type="button">📍 Trier selon ma position</button>
       <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée.</span>
@@ -560,7 +563,13 @@ function goLinks(h) {
 }
 
 // ---------- Fiche par urgence (adresse #fiche=Nom, qu'on peut partager) ----------
-const REGIONS = { mtl: "Montréal", rs: "Rive-Sud", lav: "Laval", rn: "Rive-Nord", qc: "Québec et Lévis", tr: "Trois-Rivières" };
+const REGIONS = { mtl: "Montréal", rs: "Rive-Sud", lav: "Laval", rn: "Rive-Nord", qc: "Québec et Lévis", tr: "Trois-Rivières",
+  // Autres régions du Québec (urgences seulement), d'après le code de région sociosanitaire
+  r01: "Bas-Saint-Laurent", r02: "Saguenay–Lac-Saint-Jean", r04: "Mauricie et Centre-du-Québec (hors Trois-Rivières)", r05: "Estrie",
+  r07: "Outaouais", r08: "Abitibi-Témiscamingue", r09: "Côte-Nord", r10: "Nord-du-Québec", r11: "Gaspésie–Îles-de-la-Madeleine",
+  r12: "Chaudière-Appalaches (hors Lévis)", r14: "Lanaudière (hors Rive-Nord)", r15: "Laurentides (hors Rive-Nord)", r16: "Montérégie (hors Rive-Sud)",
+  r17: "Nunavik", r18: "Terres-Cries-de-la-Baie-James",
+};
 const ficheHref = h => "#fiche=" + encodeURIComponent(h.name);
 const ficheName = () => { const m = location.hash.match(/^#fiche=(.+)$/); if (!m) return null; try { return decodeURIComponent(m[1]); } catch (e) { return null; } };
 let listScroll = 0, shownFiche = null;
@@ -845,7 +854,7 @@ function renderPrivates() {
   if (openOnly) rows = rows.filter(c => st.get(c)[2]);
   rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted)));
-  if (!rows.length) list.appendChild(el("li", "legend", "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
+  if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques privées ne sont pas encore offertes dans cette région. L'onglet Urgences couvre tout le Québec." : "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
 }
 
 function renderClinics() {
@@ -873,7 +882,7 @@ function renderClinics() {
   rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999)
     : (st.get(b)[2] - st.get(a)[2]) || ((b.acces === "tous") - (a.acces === "tous")) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(clinicCard(c, i)));
-  if (!rows.length) list.appendChild(el("li", "legend", "Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3."));
+  if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques ne sont pas encore offertes dans cette région. Pour une consultation : 811, option 3. L'onglet Urgences couvre tout le Québec." : "Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3."));
 }
 
 // ---------- Sans couverture médicale (statut migratoire précaire) ----------
@@ -1108,6 +1117,7 @@ async function load() {
     const json = await res.json();
     if (!res.ok) throw new Error(json.error || "Erreur");
     data = json.hospitals;
+    fillMoreRegions();
     trend = json.trend || null;
     const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
     up.textContent = "Données " + (latest ? (/^\d{1,2}:\d{2}/.test(latest) ? "de " + latest.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : "du " + latest) : "du " + new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
@@ -1118,8 +1128,19 @@ async function load() {
   render();
 }
 
+function fillMoreRegions() {
+  const sel = document.getElementById("r-more");
+  const have = new Set(data.map(h => h.region));
+  sel.length = 1;
+  Object.keys(REGIONS).filter(r => /^r\d/.test(r) && have.has(r)).sort((a, b) => REGIONS[a].localeCompare(REGIONS[b], "fr"))
+    .forEach(r => { const o = document.createElement("option"); o.value = r; o.textContent = REGIONS[r]; sel.appendChild(o); });
+  if (/^r\d/.test(region) && !have.has(region) && data.length) region = "all";
+}
 function render() {
   document.querySelectorAll(".seg button[data-r]").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
+  const more = document.getElementById("r-more");
+  more.value = /^r\d/.test(region) ? region : "";
+  more.classList.toggle("on", !!more.value);
   const kids = document.getElementById("kids").checked;
   const psy = document.getElementById("psy").checked;
   document.getElementById("psynote").hidden = !psy;
@@ -1132,8 +1153,12 @@ function render() {
   const best = document.getElementById("best");
   // La bannière ne recommande pas une urgence spécialisée (enfants, cardiologie) à tout le monde :
   // seulement si le filtre correspondant est choisi.
-  const b = rows.find(h => (kids || !h.kids) && !h.cardio) || null; // h.peds : hôpital général, recommandable à tous
-  best.hidden = !b;
+  // Avec « Tout » (tout le Québec), on ne recommande une urgence qu'à moins de 75 km de la personne :
+  // jamais une urgence d'une autre région parce qu'elle est peu remplie.
+  const far = region === "all" && !pos;
+  const b = far ? null : rows.find(h => (kids || !h.kids) && !h.cardio && (region !== "all" || (km(h) ?? 999) <= 75)) || null; // h.peds : hôpital général, recommandable à tous
+  best.hidden = !b && !far;
+  if (far) best.innerHTML = `<small>Meilleur choix</small><p>Choisissez une région, ou triez selon votre position, pour voir l'urgence la moins remplie près de chez vous.</p>`;
   if (b) {
     best.innerHTML = `<small>Meilleur choix selon la dernière mise à jour</small><h3></h3><p></p>`;
     best.querySelector("h3").textContent = b.name;
@@ -1188,6 +1213,9 @@ function render() {
   if (view === "privees") renderPrivates();
 }
 
+document.getElementById("r-more").addEventListener("change", e => {
+  region = e.target.value || "all"; try { localStorage.setItem("sa-region", region); } catch (err) {} render();
+});
 document.querySelectorAll(".seg button[data-r]").forEach(b => b.addEventListener("click", () => {
   region = b.dataset.r; try { localStorage.setItem("sa-region", region); } catch (e) {} render();
 }));
