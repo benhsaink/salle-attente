@@ -436,6 +436,29 @@ http.createServer(async (req, res) => {
   }
   // Relais d'une fiche du Répertoire des ressources (Santé Québec), pour la mise à jour des cliniques
   // sur GitHub. Seulement des numéros de fiche ; résultat gardé 1 jour.
+  // Relais de la recherche par nom du Répertoire (pour trouver les numéros de fiche à ajouter aux listes).
+  if (url.pathname === "/api/repertoire-nom") {
+    const q = (url.searchParams.get("q") || "").trim().slice(0, 60);
+    const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=3600" }); res.end(JSON.stringify(body)); };
+    if (q.length < 2) return json(400, { error: "Nom manquant" });
+    const qs = "?ch_nom=" + encodeURIComponent(q).replace(/%20/g, "+") + "&bt_rechNom=&ch_choixReg=&ch_rayon=0&ch_code=";
+    const paths = ["/repertoire-ressources/resultats-recherche/", "/repertoire-ressources/resultats/", "/repertoire-ressources/"];
+    const essais = [];
+    for (const pth of paths) {
+      try {
+        const r = await fetch("https://sante.gouv.qc.ca" + pth + qs, { headers: { "User-Agent": "SalleAttente/1.0 (donnees publiques)" }, signal: AbortSignal.timeout(30e3) });
+        const html = r.ok ? await r.text() : "";
+        const txt = (x) => x.replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ").replace(/&amp;/g, "&").replace(/&#39;|&rsquo;/g, "'").replace(/\s+/g, " ").trim();
+        const out = [], seen = new Set();
+        const re = /nofiche=(\d+)[^>]*>([\s\S]{0,300}?)<\/a>([\s\S]{0,500}?)(?=nofiche=|$)/g;
+        let m;
+        while ((m = re.exec(html))) { if (!seen.has(m[1])) { seen.add(m[1]); out.push({ nofiche: Number(m[1]), nom: txt(m[2]), apres: txt(m[3]).slice(0, 200) }); } }
+        essais.push({ chemin: pth, statut: r.status, longueur: html.length, resultats: out.length });
+        if (out.length) return json(200, { q, chemin: pth, resultats: out });
+      } catch (err) { essais.push({ chemin: pth, erreur: err.message }); }
+    }
+    return json(200, { q, resultats: [], essais });
+  }
   if (url.pathname === "/api/repertoire") {
     const n = url.searchParams.get("nofiche") || "";
     if (!/^\d{1,9}$/.test(n)) { res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Numéro de fiche invalide"); }
