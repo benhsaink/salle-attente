@@ -13,7 +13,9 @@
   const D = [
     // En-tête, aide
     ["Salle d'attente", "Salle d'attente"],
-    ["Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal et la région de Québec.", "Find the least crowded emergency room, or a clinic for today, in Greater Montréal and the Québec City region."],
+    ["Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal, à Québec–Lévis et à Trois-Rivières.", "Find the least crowded emergency room, or a clinic for today, in Greater Montréal, Québec City–Lévis and Trois-Rivières."],
+    ["Québec–Lévis", "Québec City–Lévis"],
+    ["Québec et Lévis", "Québec City and Lévis"],
     ["Douleur thoracique, AVC, difficulté à respirer", "Chest pain, stroke, trouble breathing"],
     ["Info-Santé : une infirmière vous oriente", "Info-Santé: a nurse will guide you"],
     ["Taille du texte", "Text size"],

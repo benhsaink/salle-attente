@@ -67,6 +67,11 @@ const PLACES = [
   ["barrie memorial", "rs", "Ormstown", 45.12564, -74.00005, "28 rue Gale, Ormstown"],
   ["argenteuil", "rn", "Lachute", 45.66187, -74.35251, "145 avenue de la Providence, Lachute"],
   ["hopital de lanaudiere", "rn", "Joliette (Saint-Charles-Borromée)", 46.03938, -73.45533, "1000 boulevard Sainte-Anne, Saint-Charles-Borromée"],
+  // Lévis (avec la région de Québec) : adresses de la liste des établissements de la RAMQ (15 juillet 2024)
+  ["hotel-dieu de levis", "qc", "Lévis", 46.81468, -71.17718, "143 rue Wolfe, Lévis"],
+  ["paul-gilbert", "qc", "Lévis (Charny)", 46.72514, -71.25915, "9330 boulevard du Centre-Hospitalier, Lévis"],
+  // Trois-Rivières : Centre hospitalier affilié universitaire régional (CHAUR), pavillon Sainte-Marie
+  ["=pavillon sainte-marie", "tr", "Trois-Rivières (CHAUR)", 46.35493, -72.56269, "1991 boulevard du Carmel, Trois-Rivières"],
   // Rive-Nord
   ["saint-eustache", "rn", "Saint-Eustache", 45.5590, -73.9030, "520 boulevard Arthur-Sauvé, Saint-Eustache"],
   ["le gardeur", "rn", "Terrebonne", 45.7140, -73.4870, "911 montée des Pionniers, Terrebonne"],

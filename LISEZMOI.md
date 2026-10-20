@@ -129,3 +129,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 ## Grand Montréal élargi (20 octobre 2026)
 - Ajout de 4 urgences dans la zone de Saint-Jérôme à Saint-Jean-sur-Richelieu et de Valleyfield à Joliette : Hôpital du Suroît (Valleyfield) et Barrie Memorial (Ormstown) dans Rive-Sud ; Argenteuil (Lachute) et Hôpital de Lanaudière (Joliette) dans Rive-Nord.
 - Toujours hors du site : Honoré-Mercier (Saint-Hyacinthe), Hôtel-Dieu de Sorel, Sainte-Agathe, Mont-Laurier, Rivière-Rouge.
+
+## Québec–Lévis et Trois-Rivières (20 octobre 2026)
+- Lévis est dans la région « qc » (bouton Québec–Lévis) : Hôtel-Dieu de Lévis (143 rue Wolfe) et Paul-Gilbert (9330 boulevard du Centre-Hospitalier, Charny). Adresses : liste des établissements de la RAMQ (15 juillet 2024).
+- Nouvelle région « tr » (Trois-Rivières) : urgence du pavillon Sainte-Marie du CHAUR (1991 boulevard du Carmel).
+- Cliniques GMF-A/R ajoutées depuis Québec.ca : GMF MAclinique Lévis (29382), Clinique réseau de Trois-Rivières (854870), GMF-A/R du Cap (606386).
+- Pas encore de cliniques privées pour ces deux secteurs.

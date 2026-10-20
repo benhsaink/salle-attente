@@ -1,7 +1,7 @@
 {
  "source": "https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "consulte": "2026-10-20",
- "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord. Les entrées marquées « enfants » sont des cliniques d'urgence pédiatrique repérées dans le Répertoire des ressources (20 octobre 2026).",
+ "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord. Les entrées marquées « enfants » sont des cliniques d'urgence pédiatrique repérées dans le Répertoire des ressources (20 octobre 2026). Lévis est classé avec Québec (qc) ; Trois-Rivières a sa propre région (tr).",
  "cliniques": [
   {
    "nom": "GMF Brunswick",
@@ -300,6 +300,21 @@
    "nom": "GMF-A Clinique Maizerets",
    "nofiche": 270097,
    "region": "qc"
+  },
+  {
+   "nom": "GMF MAclinique Lévis",
+   "nofiche": 29382,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A/R Clinique réseau de Trois-Rivières",
+   "nofiche": 854870,
+   "region": "tr"
+  },
+  {
+   "nom": "GMF-A/R du Cap",
+   "nofiche": 606386,
+   "region": "tr"
   }
  ]
 }
