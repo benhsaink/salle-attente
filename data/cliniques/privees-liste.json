@@ -1,0 +1,202 @@
+{
+ "source": "Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
+ "consulte": "2026-10-20",
+ "prive": true,
+ "cliniques": [
+  {
+   "nom": "RocklandMD",
+   "nofiche": 114688,
+   "region": "mtl"
+  },
+  {
+   "nom": "UnionMD centre-ville",
+   "nofiche": 800727,
+   "region": "mtl"
+  },
+  {
+   "nom": "UnionMD Jean-Talon",
+   "nofiche": 1086111,
+   "region": "mtl"
+  },
+  {
+   "nom": "UnionMD Laval",
+   "nofiche": 1044470,
+   "region": "lav"
+  },
+  {
+   "nom": "Lacroix Laval",
+   "nofiche": 1047504,
+   "region": "lav"
+  },
+  {
+   "nom": "LeBlanc + Savaria Laval",
+   "nofiche": 1047968,
+   "region": "lav"
+  },
+  {
+   "nom": "Lacroix Boucherville",
+   "nofiche": 1017678,
+   "region": "rs"
+  },
+  {
+   "nom": "PrivaMED Boucherville",
+   "nofiche": 667294,
+   "region": "rs"
+  },
+  {
+   "nom": "PrivaMED Brossard",
+   "nofiche": 608534,
+   "region": "rs"
+  },
+  {
+   "nom": "Service médical privé",
+   "nofiche": 671829,
+   "region": "rs"
+  },
+  {
+   "nom": "LeBlanc + Savaria Blainville",
+   "nofiche": 162972,
+   "region": "rn"
+  },
+  {
+   "nom": "Médicym",
+   "nofiche": 281429,
+   "region": "rn"
+  },
+  {
+   "nom": "Praxis Blainville",
+   "nofiche": 1031026,
+   "region": "rn"
+  },
+  {
+   "nom": "Accès MD",
+   "nofiche": 409652,
+   "region": "rn"
+  },
+  {
+   "nom": "Clinique 360",
+   "nofiche": 739205,
+   "region": "mtl"
+  },
+  {
+   "nom": "PointSanté",
+   "nofiche": 1039349,
+   "region": "mtl"
+  },
+  {
+   "nom": "ExcelleMD Sanctuaire",
+   "nofiche": 1007204,
+   "region": "mtl"
+  },
+  {
+   "nom": "MD-Plus Montréal",
+   "nofiche": 52196,
+   "region": "mtl"
+  },
+  {
+   "nom": "Priveo Santé Montréal",
+   "nofiche": 1206731,
+   "region": "mtl"
+  },
+  {
+   "nom": "Priveo Santé Laval",
+   "nofiche": 1127445,
+   "region": "lav"
+  },
+  {
+   "nom": "MD-Plus Laval",
+   "nofiche": 1120805,
+   "region": "lav"
+  },
+  {
+   "nom": "ExcelleMD Saint-Eustache",
+   "nofiche": 978640,
+   "region": "rn"
+  },
+  {
+   "nom": "Services Santé Rosemère",
+   "nofiche": 653821,
+   "region": "rn"
+  },
+  {
+   "nom": "Humani",
+   "nofiche": 662414,
+   "region": "rn"
+  },
+  {
+   "nom": "Praxis La Prairie",
+   "nofiche": 945627,
+   "region": "rs"
+  },
+  {
+   "nom": "Praxis Terrebonne",
+   "nofiche": 798878,
+   "region": "rn"
+  },
+  {
+   "nom": "CMIE",
+   "nofiche": 671861,
+   "region": "rs"
+  },
+  {
+   "nom": "Avenue Médic",
+   "nofiche": 1159063,
+   "region": "rs"
+  },
+  {
+   "nom": "MD Signature",
+   "nofiche": 506659,
+   "region": "rs"
+  },
+  {
+   "nom": "Clinique MD3",
+   "nofiche": 671699,
+   "region": "rs"
+  },
+  {
+   "nom": "REMD Solutions",
+   "nofiche": 872678,
+   "region": "mtl"
+  },
+  {
+   "nom": "Cardiogenix",
+   "nofiche": 558023,
+   "region": "mtl"
+  },
+  {
+   "nom": "MD Centropolis",
+   "nofiche": 127357,
+   "region": "lav"
+  },
+  {
+   "nom": "Racicot",
+   "nofiche": 671723,
+   "region": "rs"
+  },
+  {
+   "nom": "PrivaMED DIX30",
+   "nofiche": 1170491,
+   "region": "rs"
+  },
+  {
+   "nom": "MédiNord",
+   "nofiche": 766243,
+   "region": "rn"
+  },
+  {
+   "nom": "TELUS Santé centre-ville",
+   "nofiche": 1009733,
+   "region": "mtl"
+  },
+  {
+   "nom": "Créa-Med",
+   "nofiche": 420792,
+   "region": "mtl"
+  },
+  {
+   "nom": "ExcelleMD Marché Central",
+   "nofiche": 846325,
+   "region": "mtl"
+  }
+ ]
+}

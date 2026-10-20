@@ -11,8 +11,11 @@ const fs = require("fs");
 const path = require("path");
 const { htmlText, parseFiche, ficheLinks } = require("./lib");
 
-const LIST = path.join(__dirname, "data", "cliniques", "liste.json");
-const OUT = path.join(__dirname, "data", "cliniques", "cliniques.json");
+// Deux listes : les GMF-A/R (publics) et les cliniques privées.
+const JOBS = [
+  { list: "liste.json", out: "cliniques.json" },
+  { list: "privees-liste.json", out: "privees.json" },
+].map((j) => ({ list: path.join(__dirname, "data", "cliniques", j.list), out: path.join(__dirname, "data", "cliniques", j.out) }));
 const FICHE = (n) => "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n;
 const RELAY = (n) => (process.env.RELAY || "https://salle-attente.onrender.com/api/repertoire?nofiche=") + n;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -39,7 +42,8 @@ async function fetchFiche(n) {
   throw new Error("inaccessible");
 }
 
-async function main() {
+async function run(LIST, OUT) {
+  if (!fs.existsSync(LIST)) return;
   const list = JSON.parse(fs.readFileSync(LIST, "utf8"));
   let previous = {};
   try { previous = Object.fromEntries(JSON.parse(fs.readFileSync(OUT, "utf8")).cliniques.map((c) => [c.nofiche, c])); } catch (e) {}
@@ -60,13 +64,17 @@ async function main() {
     }
     await sleep(1500); // poli envers le site du gouvernement
   }
-  if (!ok) throw new Error("aucune fiche lue");
+  if (!ok) throw new Error(path.basename(LIST) + " : aucune fiche lue");
   fs.writeFileSync(OUT, JSON.stringify({
     generatedAt: new Date().toISOString(),
     source: "Répertoire des ressources en santé et services sociaux (Santé Québec), " + list.source,
     cliniques: out,
   }, null, 1));
-  console.log(`${ok} fiches lues sur ${list.cliniques.length}`);
+  console.log(`${path.basename(OUT)} : ${ok} fiches lues sur ${list.cliniques.length}`);
+}
+
+async function main() {
+  for (const j of JOBS) await run(j.list, j.out);
 }
 
 main().catch((err) => { console.error("Lecture des fiches échouée :", err.message); process.exit(1); });

@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - data/cliniques/liste.json
+      - data/cliniques/privees-liste.json
       - repertoire.js
       - lib.js
 

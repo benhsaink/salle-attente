@@ -385,6 +385,13 @@ function parseFiche(text) {
     }
   }
   out.systemes = [...new Set(out.jours.flatMap((j) => j.rdvJour.flatMap((e) => e.systemes)))];
+  // Services et spécialités, tels que listés dans la fiche (sans les mentions de frais).
+  const iS = at(/^Services offerts et spécialités$/), iA = at(/^Accessibilité$/, iS + 1);
+  out.services = [];
+  for (let i = iS + 1; iS >= 0 && i < (iA < 0 ? L.length : iA); i++) {
+    const s = L[i].replace(/\s*\((des frais sont exigés|pour tous|pour les patients inscrits)[^)]*\)/gi, "").replace(/\s{2,}.*/, "").trim();
+    if (s && s.length < 90 && !out.services.includes(s)) out.services.push(s);
+  }
   return out;
 }
 
