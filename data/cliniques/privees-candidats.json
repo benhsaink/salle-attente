@@ -1,0 +1,856 @@
+{
+ "source": "Liste RAMQ des omnipraticiens non participants (15 septembre 2026) : adresses sans clinique dans privees-liste.json",
+ "candidats": [
+  {
+   "region": "lav",
+   "codePostal": "H7V3Y7",
+   "adresse": "1515 BOUL CHOMEDEY",
+   "ville": "LAVAL",
+   "noms": [
+    "CENTRE DE SERVICE AMBULATOIRE DE LAVAL"
+   ]
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7S2M5",
+   "adresse": "1895-1875 MAURICE-GAUVIN",
+   "ville": "LAVAL",
+   "noms": [
+    "CLINIQUE MEDICALE MAURICE-GAUVIN"
+   ]
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7P2P1",
+   "adresse": "200-352 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "CMIL"
+   ]
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7P0H9",
+   "adresse": "308-3230 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "AVENIR MD",
+    "CLINIQUE MEDICALE PRIVEE AVENIR MD",
+    "CLINIQUE MEDICALE PRIVEE AVENIR MD - LAVAL"
+   ]
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7T2Z8",
+   "adresse": "4650 DESSERTE SUD AUTOROUTE LAVAL O",
+   "ville": "LAVAL",
+   "noms": [
+    "CENTRE DE MEDECINE SPORTIVE DE LAVAL"
+   ]
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7V2T1",
+   "adresse": "610 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "MEDI-CENTRE CHOMEDEY"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9G3B9",
+   "adresse": "215-3883 BOUL SAINT-JEAN",
+   "ville": "DOLLARD-DES-ORMEAUX",
+   "noms": [
+    "CLINIQUE REMD SOLUTIONS INC",
+    "REMD SOLUTIONS"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9B1Z9",
+   "adresse": "3700 BOUL DES SOURCES",
+   "ville": "DOLLARD-DES-ORMEAUX",
+   "noms": [
+    "CLINIQUE PLACE DU MARCHE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H0A7",
+   "adresse": "200-17001 AUT FELIX-LECLERC",
+   "ville": "KIRKLAND",
+   "noms": [
+    "ACCESSMED"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H5J1",
+   "adresse": "200-17001 RTE TRANS-CANADA",
+   "ville": "KIRKLAND",
+   "noms": [
+    "ACCESS MED",
+    "CLINIQUE ACCESS MED"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H5B9",
+   "adresse": "405-3535 BOUL SAINT-CHARLES",
+   "ville": "KIRKLAND",
+   "noms": [
+    "CLINIQUE 360",
+    "CLINIQUE MEDICALE 360"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3R3L5",
+   "adresse": "200-3333 BOUL GRAHAM",
+   "ville": "MONT-ROYAL",
+   "noms": [
+    "CLINIQUE SANTE MEDIC",
+    "SMPRIVE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3P1J7",
+   "adresse": "30 AV JASPER",
+   "ville": "MONT-ROYAL",
+   "noms": [
+    "ALLODOCTEUR.CA"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4L3M8",
+   "adresse": "1-1077 BOUL DECARIE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CITE SANTE SAINT-LAURENT"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1Y3L1",
+   "adresse": "101-4101 RUE MOLSON",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE ANGUS"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2J1L3",
+   "adresse": "1141 BOUL SAINT-JOSEPH E",
+   "ville": "MONTREAL",
+   "noms": [
+    "MCIM"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3B3C4",
+   "adresse": "1191 AV UNION",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE MONTREAL"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4T1Z9",
+   "adresse": "121-6363 RTE TRANSCANADIENNE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CENTRE MEDICALE PHYSIMED",
+    "CLINIQUE PHYSIMED",
+    "GROUPE SANTE PHYSIMED",
+    "PHYSIMED"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3G1K4",
+   "adresse": "1444 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "SM PRIVE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1L9",
+   "adresse": "1665 RUE SAINTE-CATHERINE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CMIPQ"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3K3G9",
+   "adresse": "1697 RUE SAINT-PATRICK",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE CHLOE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1E8",
+   "adresse": "1980 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICELLE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1E3",
+   "adresse": "1980 RUE SHERBROOKE O SUITE 500",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDIC ELLE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2C2K3",
+   "adresse": "200-10690 AV PELOQUIN",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE VARICES & D'OBESITE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3A1Y7",
+   "adresse": "2055 RUE MANSFIELD",
+   "ville": "MONTREAL",
+   "noms": [
+    "CREA-MED CLINIQUE MEDICALE PRIVEE",
+    "CRÉA-MED"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1M3E6",
+   "adresse": "211-6275 RUE BEAUBIEN E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE ECHOVENA - MONTREAL"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4Z1C3",
+   "adresse": "2700-800 RUE DU SQUARE VICTORIA C.P. 155",
+   "ville": "MONTREAL",
+   "noms": [
+    "QUATUORMD"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4R2M6",
+   "adresse": "312-5255 BOUL HENRI-BOURASSA O",
+   "ville": "MONTREAL",
+   "noms": [
+    "GROUPE MEDICAL JEAN TALON"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4C1H1",
+   "adresse": "3451 RUE SAINT-JACQUES",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE FACE MD"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2V2R3",
+   "adresse": "383 RUE VILLENEUVE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE VERSAMD"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3E1J6",
+   "adresse": "40 PLACE DU COMMERCE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE LE VILLAGE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3Z2Z3",
+   "adresse": "420-4060 SAINTE-CATHERINE OUEST",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE CABOT SQUARE",
+    "CLOUDMED CLINIQUE MEDICALE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3A3C6",
+   "adresse": "500 RUE SHERBROOKE O 11E ETAGE",
+   "ville": "MONTREAL",
+   "noms": [
+    "MEDISYS",
+    "MEDISYS HEALTH GROUP",
+    "SAAQ"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3G1L5",
+   "adresse": "500-1538 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "ROCKLAND MD"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1T1N6",
+   "adresse": "5055 RUE SAINT-ZOTIQUE E",
+   "ville": "MONTREAL",
+   "noms": [
+    "PLANISAN- EPIC"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4R0M6",
+   "adresse": "5570 BOUL HENRI BOURASSA SO",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE PRIVEE UNI-MED"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2S3C4",
+   "adresse": "6300 BOUL SAINT-LAURENT",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE EUREKA"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4A1S9",
+   "adresse": "660-5025 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "SAINTE-CATHERINE MED GROUP"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2L1N9",
+   "adresse": "808 RUE ONTARIO E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE LA LICORNE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2S1Y1",
+   "adresse": "908 RUE DE BELLECHASSE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE VARICES DE MONTREAL"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2J1K6",
+   "adresse": "916 BOUL SAINT-JOSEPH E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CENTRE DE PHLEBOLOGIE"
+   ]
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3Z2Y5",
+   "adresse": "403-4150 RUE STE CATHERINE OUEST",
+   "ville": "WESTMOUNT",
+   "noms": [
+    "CURAMED"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S2L5",
+   "adresse": "1000 CH SAINTE-FOY",
+   "ville": "QUEBEC",
+   "noms": [
+    "CENTRE MÉDICAL BERGER"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1E7E5",
+   "adresse": "102 RUE ARMAND-BUTEAU",
+   "ville": "QUEBEC",
+   "noms": [
+    "SANS RENDEZ-VOUS BEAUPORT PLUS"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1X4T9",
+   "adresse": "1147 CHARLES-ALBANEL",
+   "ville": "QUEBEC",
+   "noms": [
+    "MON DOC"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1T1Z2",
+   "adresse": "1363 AV MAGUIRE SUITE 300",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE DE SILLERY"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S3X6",
+   "adresse": "200-945 AV MARGUERITE-BOURGEOYS",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE MARGUERITE-BOURGEOYS"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S1T8",
+   "adresse": "211-915 BOUL RENE-LEVESQUE O",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MED. DR G. PAINCHAUD"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1G5X1",
+   "adresse": "250-8500 BOUL HENRI-BOURASSA",
+   "ville": "QUEBEC",
+   "noms": [
+    "CITE MEDICALE"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G2M0E4",
+   "adresse": "300-795 BOUL DU LAC",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE LACROIX"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S2L3",
+   "adresse": "303-1000 CHEMIN SAINTE-FOY",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICAL LACROIX"
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1V5C7",
+   "adresse": "305-2954 BOUL LAURIER G1V 4T2",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE M.Q."
+   ]
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1V3V3",
+   "adresse": "985 ROUTE DE L'EGLISE",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE M"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7C0W7",
+   "adresse": "596 RANG SAINT-FRANCOIS",
+   "ville": "BLAINVILLE",
+   "noms": [
+    "CLINIQUE DR. YVES BELZIL"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7G2E6",
+   "adresse": "333 MONTEE SANCHE",
+   "ville": "BOISBRIAND",
+   "noms": [
+    "DRS TREMBLAY ET OLIVIER CLINIQUE DE VARICE"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7R4Z2",
+   "adresse": "1304 BOUL DU LAC",
+   "ville": "DEUX-MONTAGNES",
+   "noms": [
+    "VASECTOMIE 450"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7J2K8",
+   "adresse": "13714 BOUL DU CURE-LABELLE",
+   "ville": "MIRABEL",
+   "noms": [
+    "CLINIQUE MEDICALE DE MIRABEL"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7J0T8",
+   "adresse": "300-11800 RUE DE CHAUMONT",
+   "ville": "MIRABEL",
+   "noms": [
+    "CLINIQUE MEDICALE CITE MIRABEL"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J8E3H4",
+   "adresse": "447 RUE CHARBONNEAU",
+   "ville": "MONT-TREMBLANT",
+   "noms": [
+    "CLINIQUE LEBLANC + SAVARIA TREMBLANT"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7R1Y2",
+   "adresse": "136 RUE SAINT-LOUIS",
+   "ville": "SAINT-EUSTACHE",
+   "noms": [
+    "CLINIQUE MÉDICALE DU VIEUX SAINT-EUSTACHE"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0K2N0",
+   "adresse": "131 RUE SAINTE-ANNE",
+   "ville": "SAINT-GABRIEL-DE-BRANDON",
+   "noms": [
+    "CLINIQUE MEDICALE"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7Z7E2",
+   "adresse": "211-200 RUE DURAND",
+   "ville": "SAINT-JEROME",
+   "noms": [
+    "POLYCLINIQUE SAINT-JEROME"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0R1R6",
+   "adresse": "154 RUE PRINCIPALE",
+   "ville": "SAINT-SAUVEUR",
+   "noms": [
+    "CLINIQUE OSTEO SPORT"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0R1R0",
+   "adresse": "C.P.189",
+   "ville": "SAINT-SAUVEUR",
+   "noms": [
+    "CENTRE MEDICAL PLEXUS",
+    "CLINIQUE MEDICALE LACROIX"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J8A1H1",
+   "adresse": "201-780 CHEMIN DES HAUTEURS",
+   "ville": "ST-HIPPOLYTE",
+   "noms": [
+    "CLINIQUE MEDICALE ST-HIPPOLYTE"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J6X4P7",
+   "adresse": "3195 BOUL DE LA PINIERE O BUREAU 101",
+   "ville": "TERREBONNE",
+   "noms": [
+    "EXCELLEMD"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7M1T7",
+   "adresse": "5661 BOUL LAURIER",
+   "ville": "TERREBONNE",
+   "noms": [
+    "CENTRE MEDICAL LAURIER"
+   ]
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0T2N0",
+   "adresse": "1362 RUE DE L'ACADEMIE J0T 2N0",
+   "ville": "VAL-DAVID",
+   "noms": [
+    "CLINIQUE CMIE"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J6K3C3",
+   "adresse": "108-237 BOUL SAINT-JEAN-BAPTISTE",
+   "ville": "CHATEAUGUAY",
+   "noms": [
+    "CENTRE MEDICAL MERCIER-CHATEAUGUAY"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J5R2L2",
+   "adresse": "675 CH DE SAINT-JEAN",
+   "ville": "LA PRAIRIE",
+   "noms": [
+    "COOP SANTE SOLIDARITE LAPRAIRIE"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4G2M6",
+   "adresse": "203-505 RUE ADONCOUR",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "CLINIQUE MD PSY"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4K0B9",
+   "adresse": "250-1225 RUE SAINT-CHARLES OUEST",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "CLINIQUE PRIVEE MEDIKA"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4V2H3",
+   "adresse": "3200 BOUL TASCHEREAU",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "UNIONMD"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J6R2B1",
+   "adresse": "101-464 BOUL SAINT-JEAN-BAPTISTE",
+   "ville": "MERCIER",
+   "noms": [
+    "CLINIQUE MEDICALE MERCIER"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J7W5K7",
+   "adresse": "88 5E AVENUE",
+   "ville": "PINCOURT",
+   "noms": [
+    "CENTRE DE SANTE MEDICENTRE PINCOURT"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3N1V6",
+   "adresse": "101-275 BOUL SIR-WILFRID-LAURIER",
+   "ville": "SAINT-BASILE-LE-GRAND",
+   "noms": [
+    "CENTRE MEDICAL SAINT-BASILE"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J0J1W0",
+   "adresse": "765 RUE PRINCIPALE",
+   "ville": "SAINT-BLAISE-SUR-RICHELIEU",
+   "noms": [
+    "COOP SOLIDARITE SANTE ST-BLAISE-SUR-RICHEL"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3T5",
+   "adresse": "1362 RUE DE MONTARVILLE",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "CMIE ST-BRUNO"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3P7",
+   "adresse": "1435 RUE ROBERVAL",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "CENTRE MD PRIVE ST-BRUNO"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3V8",
+   "adresse": "1979 RUE MONTARVILLE",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "MGH CONSULTANT INC."
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3Y3K7",
+   "adresse": "206-5125 BOULEVARD COUSINEAU",
+   "ville": "SAINT-HUBERT",
+   "noms": [
+    "CENTRE MEDICALE ST.HUBERT"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4R2L1",
+   "adresse": "200 BOUL SIR-WILFRID-LAURIER",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "CLINIQUE PRIVEE BLOUIN-VALOIS"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4P1M8",
+   "adresse": "289 BOUL DESAULNIERS",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "CLINIQUE MEDISALUS"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4P2K8",
+   "adresse": "597 AV NOTRE-DAME",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "MEDECINE PRIVEE NOTRE DAME"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3G0R2",
+   "adresse": "210-4605 CH DU CREPUSCULE",
+   "ville": "SAINT-MATHIEU-DE-BELOEIL",
+   "noms": [
+    "ELNA SAINT-MATHIEU-DE-BELOEIL"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3E1Y9",
+   "adresse": "104A-1991 RUE LEONARD-DE VINCI",
+   "ville": "SAINTE-JULIE",
+   "noms": [
+    "PHLEBOCENTRE DEVINCI"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3A1B5",
+   "adresse": "220-870 BOUL DU SEMINAIRE N",
+   "ville": "ST-JEAN-SUR-RICHELIEU",
+   "noms": [
+    "CLINIQUE MARIE-CHANTAL MENARD MD"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4S1H1",
+   "adresse": "309-2035 AV VICTORIA",
+   "ville": "ST-LAMBERT",
+   "noms": [
+    "514 DOCTEUR"
+   ]
+  },
+  {
+   "region": "rs",
+   "codePostal": "J7V0N3",
+   "adresse": "106-11 BOULEVARD CITE DES JEUNES EST",
+   "ville": "VAUDREUIL-DORION",
+   "noms": [
+    "CLINIQUE MEDICALE SANTE +"
+   ]
+  },
+  {
+   "region": "tr",
+   "codePostal": "G8Z1T7",
+   "adresse": "1543 BOUL DES FORGES",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE PRO MD"
+   ]
+  },
+  {
+   "region": "tr",
+   "codePostal": "G8T3Z8",
+   "adresse": "155 TOUPIN",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CM CLOUTIER"
+   ]
+  },
+  {
+   "region": "tr",
+   "codePostal": "G9A0A7",
+   "adresse": "201-7110 RUE MARION",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE XO 2"
+   ]
+  },
+  {
+   "region": "tr",
+   "codePostal": "G9C0L8",
+   "adresse": "6535 RUE DES ALPES-SUITE 201",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE DE SANTE M"
+   ]
+  }
+ ]
+}
