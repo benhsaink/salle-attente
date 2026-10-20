@@ -401,6 +401,8 @@ function parseFiche(text) {
     }
   }
   out.systemes = [...new Set(out.jours.flatMap((j) => j.rdvJour.flatMap((e) => e.systemes)))];
+  // Médecins non participants à la RAMQ (le patient paie) : écrit dans la fiche.
+  out.nonParticipant = L.some((l) => /^Médecin non participant à la RAMQ/i.test(l));
   // Services et spécialités, tels que listés dans la fiche (sans les mentions de frais).
   const iS = at(/^Services offerts et spécialités$/), iA = at(/^Accessibilité$/, iS + 1);
   out.services = [];

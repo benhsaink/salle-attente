@@ -249,6 +249,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
       <div class="row">
         <label class="chk"><input type="checkbox" id="c-open"> Ouvertes maintenant</label>
         <label class="chk"><input type="checkbox" id="c-all"> Pour tous (sans médecin de famille)</label>
+        <label class="chk"><input type="checkbox" id="c-kids"> Urgences pour enfants</label>
       </div>
       <div class="meta"><span id="c-updated">Chargement des cliniques…</span></div>
     </section>
@@ -586,7 +587,12 @@ function clinicCard(c, i) {
   const li = el("li", "card");
   li.appendChild(el("div", "rank", String(i + 1)));
   const head = el("div", "head");
-  head.append(el("h3", "", c.nom), el("span", "pill " + cls, label));
+  const h3 = el("h3", "", c.nom);
+  if (c.enfants) h3.appendChild(tag("Enfants"));
+  const pills = el("div", "pills");
+  if (c.nonParticipant) pills.appendChild(el("span", "pill pay", "💲 Payant"));
+  pills.appendChild(el("span", "pill " + cls, label));
+  head.append(h3, pills);
   li.appendChild(head);
   const where = el("div", "where"), d = km(c);
   if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
@@ -772,7 +778,8 @@ function renderClinics() {
   list.innerHTML = "";
   if (!clinics) return;
   const openOnly = document.getElementById("c-open").checked, allOnly = document.getElementById("c-all").checked;
-  let rows = clinics.filter(c => (region === "all" || c.region === region) && (!allOnly || c.acces === "tous"));
+  const kidsOnly = document.getElementById("c-kids").checked;
+  let rows = clinics.filter(c => (region === "all" || c.region === region) && (!allOnly || c.acces === "tous") && (!kidsOnly || c.enfants));
   const st = new Map(rows.map(c => [c, openState(c)]));
   if (openOnly) rows = rows.filter(c => st.get(c)[2]);
   // Avec la position : plus proche d'abord. Sinon : ouvertes d'abord, puis pour tous, puis par nom.
@@ -1055,6 +1062,7 @@ document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click
 }));
 document.getElementById("c-open").addEventListener("change", renderClinics);
 document.getElementById("c-all").addEventListener("change", renderClinics);
+document.getElementById("c-kids").addEventListener("change", renderClinics);
 document.getElementById("p-open").addEventListener("change", renderPrivates);
 document.getElementById("p-service").addEventListener("change", () => { try { localStorage.setItem("sa-pservice", document.getElementById("p-service").value); } catch (e) {} renderPrivates(); });
 // Commentaires : envoyés au propriétaire du site

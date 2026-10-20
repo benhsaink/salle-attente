@@ -1,7 +1,7 @@
 {
  "source": "https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "consulte": "2026-10-20",
- "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord.",
+ "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord. Les entrées marquées « enfants » sont des cliniques d'urgence pédiatrique repérées dans le Répertoire des ressources (20 octobre 2026).",
  "cliniques": [
   {
    "nom": "GMF Brunswick",
@@ -242,6 +242,24 @@
    "nom": "GMF Polyclinique Pierre-Le Gardeur",
    "nofiche": 55847,
    "region": "rn"
+  },
+  {
+   "nom": "UP Centre d'urgences pédiatriques (Brossard)",
+   "nofiche": 939234,
+   "region": "rs",
+   "enfants": true
+  },
+  {
+   "nom": "UP Centre d'urgences pédiatriques (Saint-Eustache)",
+   "nofiche": 1121326,
+   "region": "rn",
+   "enfants": true
+  },
+  {
+   "nom": "Clinique Urgences pédiatriques de Blainville",
+   "nofiche": 980800,
+   "region": "rn",
+   "enfants": true
   }
  ]
 }

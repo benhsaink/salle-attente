@@ -152,7 +152,7 @@ function clinicSource(file, extra) {
         nofiche: c.nofiche, nom: c.nom, nomOfficiel: c.nomOfficiel, region: c.region, url: c.url, lu: c.lu, miseAJour: c.miseAJour,
         adresse: c.adresse, ville: c.ville, codePostal: c.codePostal, lat: c.lat, lon: c.lon,
         telephone: c.telephone, telephoneSansRdv: c.telephoneSansRdv, site: c.site, reservation: c.reservation,
-        acces: c.acces, accesNote: c.accesNote, frais: c.frais,
+        acces: c.acces, accesNote: c.accesNote, frais: c.frais, enfants: !!c.enfants, nonParticipant: !!c.nonParticipant,
         jours: (c.jours || []).filter((j) => j.date >= today),
         ...extra(c),
       })).filter(Boolean),
