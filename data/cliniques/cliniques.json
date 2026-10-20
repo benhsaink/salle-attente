@@ -1,0 +1,7813 @@
+{
+ "generatedAt": "2026-10-20T05:07:28.492Z",
+ "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
+ "cliniques": [
+  {
+   "nom": "GMF Brunswick",
+   "nofiche": 29414,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=29414",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MACLINIQUE BRUNSWICK (CENTRE MÉDICAL BRUNSWICK)",
+   "adresse": "955, boulevard Saint-Jean, bureau 401",
+   "ville": "Pointe-Claire",
+   "codePostal": "H9R 5K3",
+   "telephone": "514 426-6677",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "30 septembre 2026, 13 h 32",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.46914,
+   "lon": -73.82963,
+   "site": "https://www.cmbmed.com/fr/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Reine Elizabeth",
+   "nofiche": 365598,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=365598",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF REINE ÉLIZABETH (QUEEN ELISABETH - URGENT CARE)",
+   "adresse": "2111, avenue Northcliffe, bureau 165",
+   "ville": "Montréal",
+   "codePostal": "H4A 3K6",
+   "telephone": "514 481-4343",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 juillet 2026, 20 h 11",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.47404,
+   "lon": -73.60625,
+   "site": "https://www.gmfqe.ca/clinique_urgence_reine_elizabeth.php",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Métro-Médic Centre Ville",
+   "nofiche": 32208,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32208",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MÉTRO-MÉDIC CENTRE VILLE (CLINIQUE MÉDICALE MÉTRO-MÉDIC)",
+   "adresse": "2020, boulevard Robert-Bourassa, bureau MA01",
+   "ville": "Montréal",
+   "codePostal": "H3A 2A5",
+   "telephone": "514 932-2122",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "26 juin 2026, 20 h 49",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.50396,
+   "lon": -73.57234,
+   "site": "https://elnamedical.com/fr/cliniques/metro-medic",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF-R Herzl",
+   "nofiche": 534529,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=534529",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-R HERZL (CENTRE DE SOINS URGENTS HERZL / HERZL URGENT CARE CENTRE-GMF-R)",
+   "adresse": "5858, chemin de la Côte-des-Neiges, bureau 5ème étage, coin de la rue de la Peltrie",
+   "ville": "Montréal",
+   "codePostal": "H3S 1Z1",
+   "telephone": "514 340-8311",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "26 juin 2026, 21 h 02",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.49944,
+   "lon": -73.62995,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Clinique Médicale Diamant",
+   "nofiche": 55434,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=55434",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE MÉDICALE DIAMANT (CLINIQUE MÉDICALE DIAMANT)",
+   "adresse": "5885, chemin de la Côte-des-Neiges, bureau 401",
+   "ville": "Montréal",
+   "codePostal": "H3S 2T2",
+   "telephone": "514 731-5994",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 19 h",
+     "heures": [
+      [
+       480,
+       1140
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "Autre"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé",
+    "Autre"
+   ],
+   "miseAJour": "24 août 2026, 12 h 51",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.50026,
+   "lon": -73.6301,
+   "site": null,
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF 1851",
+   "nofiche": 42515,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42515",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF 1851 (CLINIQUE MÉDICALE 1851)",
+   "adresse": "1851, rue Sherbrooke Est, bureau 101",
+   "ville": "Montréal",
+   "codePostal": "H2K 4L5",
+   "telephone": "514 524-7564",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ",
+    "Bonjour-santé"
+   ],
+   "miseAJour": "28 août 2026, 14 h",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": true,
+   "lat": 45.52881,
+   "lon": -73.5641,
+   "site": "https://cliniquemedicale1851.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/",
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Métro Monk",
+   "nofiche": 30262,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=30262",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MÉTRO MONK (CENTRE MÉDICAL MÉTRO MONK)",
+   "adresse": "2529, rue Allard",
+   "ville": "Montréal",
+   "codePostal": "H4E 2L5",
+   "telephone": "514 769-9999",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "15 juillet 2026, 15 h 27",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.45101,
+   "lon": -73.59505,
+   "site": "https://www.cmmm.clinic/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Sud-Ouest",
+   "nofiche": 42021,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42021",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF SUD-OUEST (CLINIQUE MÉDICALE DU SUD-OUEST)",
+   "adresse": "4475, rue Bannantyne, bureau 103",
+   "ville": "Montréal",
+   "codePostal": "H4G 1E2",
+   "telephone": "514 765-3600",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "18 mars 2025, 20 h 23",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.46008,
+   "lon": -73.57634,
+   "site": "https://cliniquemedicaledusudouest.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Villeray",
+   "nofiche": 113767,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=113767",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE VILLERAY (CENTRE MÉDICAL MIEUX-ÊTRE VILLERAY)",
+   "adresse": "110, boulevard Crémazie Ouest, unité 4",
+   "ville": "Montréal",
+   "codePostal": "H2P 1B9",
+   "telephone": "514 787-1818",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé"
+   ],
+   "miseAJour": "17 novembre 2025, 16 h 29",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.5401,
+   "lon": -73.64177,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Cosmopolite de Saint-Laurent",
+   "nofiche": 40842,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=40842",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF COSMOPOLITE DE SAINT-LAURENT (CLINIQUE MÉDICALE LE PLEIN CIEL)",
+   "adresse": "475, boulevard de la Côte-Vertu",
+   "ville": "Montréal",
+   "codePostal": "H4L 1X7",
+   "telephone": "514 337-3171",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "14 janvier 2025, 20 h 57",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.52434,
+   "lon": -73.67249,
+   "site": "https://cliniquepleinciel.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Jarry-Lajeunesse",
+   "nofiche": 47611,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=47611",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF JARRY-LAJEUNESSE (POLYCLINIQUE DU COEUR DE L'ÎLE)",
+   "adresse": "529, rue Jarry Est, bureau 201, et bureaux 205, 302, 306.",
+   "ville": "Montréal",
+   "codePostal": "H2P 1V4",
+   "telephone": "514 277-4111",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "26 juin 2026, 20 h 38",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.54367,
+   "lon": -73.62903,
+   "site": "https://www.polycdi.net",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Villeray",
+   "nofiche": 32374,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32374",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF VILLERAY (CITÉ MÉDICALE VILLERAY)",
+   "adresse": "8560, rue Saint-Hubert, bureau 200",
+   "ville": "Montréal",
+   "codePostal": "H2P 1Z7",
+   "telephone": "514 722-0000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "02 avril 2026, 18 h 40",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.54849,
+   "lon": -73.6338,
+   "site": "https://www.cliniquecmv.com/index.php/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Centre de médecine familiale Saint-Laurent",
+   "nofiche": 41133,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=41133",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE DE MÉDECINE FAMILIALE SAINT-LAURENT (CENTRE D'URGENCE SAINT-LAURENT)",
+   "adresse": "1605, boulevard Marcel-Laurin, bureau 200",
+   "ville": "Montréal",
+   "codePostal": "H4R 0B7",
+   "telephone": "514 747-2555",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé"
+   ],
+   "miseAJour": "15 juillet 2026, 20 h 03",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.51578,
+   "lon": -73.69554,
+   "site": "https://www.centre-urgence-st-laurent.ca",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF 3000",
+   "nofiche": 37965,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37965",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF 3000 (CLINIQUE MÉDICALE 3000)",
+   "adresse": "3000, rue Bélanger, est",
+   "ville": "Montréal",
+   "codePostal": "H1Y 1A9",
+   "telephone": "514 376-7702",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages dépendent du nombre de médecins de garde et sont publiées à 7 h le matin, à midi et à 16 h, la veille pour une consultation le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "16 juin 2026, 21 h 58",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.55492,
+   "lon": -73.59568,
+   "site": "https://www.clinique3000.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Collectif Médica",
+   "nofiche": 34486,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34486",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF COLLECTIF MÉDICA (GMF COLLECTIF MÉDICA)",
+   "adresse": "5700, rue Saint-Zotique Est, bureau 102-104",
+   "ville": "Montréal",
+   "codePostal": "H1T 3Y7",
+   "telephone": "514 256-5700",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "08 septembre 2026, 20 h 01",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.57994,
+   "lon": -73.5691,
+   "site": "https://collectifmedica.com",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Clinique médicale Angus",
+   "nofiche": 462325,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=462325",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE MÉDICALE ANGUS (CLINIQUE MÉDICALE ANGUS)",
+   "adresse": "2601, rue William-Tremblay, bureau 200",
+   "ville": "Montréal",
+   "codePostal": "H1Y 0E2",
+   "telephone": "514 807-2333",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Autre"
+   ],
+   "miseAJour": "29 mai 2026, 20 h 25",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.54222,
+   "lon": -73.56561,
+   "site": "https://www.cliniqueangus.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Viau",
+   "nofiche": 35464,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35464",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF VIAU (CLINIQUE MÉDICALE VIAU)",
+   "adresse": "4750, rue Jarry Est, bureau 204",
+   "ville": "Montréal",
+   "codePostal": "H1R 1X8",
+   "telephone": "514 326-7203",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 18 h",
+       "plages": [
+        [
+         480,
+         1080
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "03 septembre 2026, 19 h 22",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.57761,
+   "lon": -73.59595,
+   "site": "http://cliniqueviau.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Maisonneuve-Rosemont",
+   "nofiche": 56984,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=56984",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MAISONNEUVE-ROSEMONT (CLINIQUE MÉDICALE MAISONNEUVE-ROSEMONT)",
+   "adresse": "5345, boulevard de l'Assomption, bureau 60, 340, 360, et rez-de-chaussée",
+   "ville": "Montréal",
+   "codePostal": "H1T 4B3",
+   "telephone": "514 257-7000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "17 juin 2026, 18 h 44",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.57329,
+   "lon": -73.55768,
+   "site": "https://cliniquemedicalemr.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Hochelaga",
+   "nofiche": 38893,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=38893",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF HOCHELAGA (CENTRE MÉDICAL HOCHELAGA)",
+   "adresse": "9080, rue Hochelaga, 2e étage",
+   "ville": "Montréal",
+   "codePostal": "H1L 2N9",
+   "telephone": "514 353-8742",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h 30",
+     "heures": [
+      [
+       450,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h 30",
+     "heures": [
+      [
+       450,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h 30",
+     "heures": [
+      [
+       450,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h 30",
+     "heures": [
+      [
+       450,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 septembre 2026, 13 h 33",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.60523,
+   "lon": -73.51729,
+   "site": "https://centremedicalhochelaga.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Clinique MedNam Lachine",
+   "nofiche": 730879,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=730879",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE MEDNAM LACHINE (CLINIQUE MEDNAM LACHINE)",
+   "adresse": "2000, rue Notre-Dame, bureau 301",
+   "ville": "Montréal",
+   "codePostal": "H8S 2G4",
+   "telephone": "514 780-1873",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé"
+   ],
+   "miseAJour": "23 juin 2026, 14 h 41",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.43519,
+   "lon": -73.68268,
+   "site": "https://cliniquemednam.com/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Clinique Désy",
+   "nofiche": 37323,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37323",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE DÉSY (CLINIQUE MÉDICALE DÉSY)",
+   "adresse": "12421, boulevard Lacordaire, bureau 203, coin Léger et Lacordaire",
+   "ville": "Montréal",
+   "codePostal": "H1G 4L5",
+   "telephone": "514 326-9060",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 octobre 2026, 18 h 07",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Aucun rendez-vous n'est accordé sur place. Présentez-vous uniquement sur rendez-vous.",
+   "frais": false,
+   "lat": 45.6157,
+   "lon": -73.62903,
+   "site": "https://cliniquedesy.com/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/",
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF En Route",
+   "nofiche": 837708,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=837708",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF EN ROUTE (CLINIQUE EN ROUTE COMPLEXE DESJARDINS)",
+   "adresse": "150, rue Sainte-Catherine Ouest, niveau 4 Tour Hyatt, C.P. 65",
+   "ville": "Montréal",
+   "codePostal": "H2X 3Y2",
+   "telephone": "514 312-7777",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "06 septembre 2024, 13 h 52",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.50746,
+   "lon": -73.56443,
+   "site": "https://www.cliniqueenroute.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF District Médical",
+   "nofiche": 988498,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=988498",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF DISTRICT MÉDICAL (DISTRICT MÉDICAL)",
+   "adresse": "9735, boulevard Saint-Laurent",
+   "ville": "Montréal",
+   "codePostal": "H3L 2N4",
+   "telephone": "514 832-3333",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Autre"
+   ],
+   "miseAJour": "17 novembre 2022, 17 h 42",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.5467,
+   "lon": -73.6578,
+   "site": "https://www.districtmedical.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Santé Mont-Royal",
+   "nofiche": 607307,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=607307",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF SANTÉ MONT-ROYAL (CLINIQUE SANTÉ MONT-ROYAL)",
+   "adresse": "4480, chemin de la Côte-de-Liesse, bureau 110, entrée située au 2435, rue Manella",
+   "ville": "Mont-Royal",
+   "codePostal": "H4N 2R1",
+   "telephone": "514 819-6649",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 14 h",
+     "heures": [
+      [
+       540,
+       840
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Autre"
+   ],
+   "miseAJour": "29 mai 2026, 20 h 51",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.50412,
+   "lon": -73.66341,
+   "site": "https://www.santemontroyal.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF ImaSanté",
+   "nofiche": 856635,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=856635",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF IMASANTÉ (CLINIQUE MÉDICALE IMASANTÉ)",
+   "adresse": "8651, rue de Grosbois",
+   "ville": "Montréal",
+   "codePostal": "H1K 2G4",
+   "telephone": "514 355-8101",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "9 h à 15 h",
+       "plages": [
+        [
+         540,
+         900
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "9 h à 15 h",
+       "plages": [
+        [
+         540,
+         900
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "07 mars 2025, 20 h 09",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.60487,
+   "lon": -73.53515,
+   "site": "https://www.imasante.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Levasseur",
+   "nofiche": 37207,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37207",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LEVASSEUR (POLYCLINIQUE LEVASSEUR)",
+   "adresse": "8000, boulevard Langelier, bureau 601",
+   "ville": "Montréal",
+   "codePostal": "H1P 3K2",
+   "telephone": "514 383-0559",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé"
+   ],
+   "miseAJour": "05 novembre 2025, 18 h 24",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.59406,
+   "lon": -73.58134,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-être – Succursale de Saint-Léonard",
+   "nofiche": 34589,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34589",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE (CENTRE MÉDICAL MIEUX-ÊTRE SAINT-LÉONARD)",
+   "adresse": "7600, boulevard Viau, bureau RP 336",
+   "ville": "Montréal",
+   "codePostal": "H1S 2P3",
+   "telephone": "514 255-7755",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 octobre 2025, 18 h 25",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.57409,
+   "lon": -73.59083,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale de Saint-Laurent",
+   "nofiche": 1056523,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1056523",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE SAINT-LAURENT (CENTRE MÉDICAL MIEUX-ÊTRE SAINT-LAURENT)",
+   "adresse": "400, avenue Sainte-Croix, bureau 1360",
+   "ville": "Montréal",
+   "codePostal": "H4N 3L4",
+   "telephone": "514 312-0333",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "26 juin 2026, 19 h 54",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.50858,
+   "lon": -73.66952,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale d'Anjou",
+   "nofiche": 1068423,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1068423",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE ANJOU (CENTRE MÉDICAL MIEUX-ÊTRE ANJOU)",
+   "adresse": "7171, rue Jean-Talon Est, bureau 200",
+   "ville": "Montréal",
+   "codePostal": "H1M 3N2",
+   "telephone": "514 316-0333",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "À partir de 17h30 pour le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "À partir de 17h30 pour le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "15 janvier 2026, 22 h 01",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.59913,
+   "lon": -73.57005,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale LaSalle",
+   "nofiche": 791352,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=791352",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LASALLE (CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LASALLE)",
+   "adresse": "2229, avenue Dollard",
+   "ville": "Montréal",
+   "codePostal": "H8N 1S2",
+   "telephone": "514 787-1818",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 janvier 2026, 22 h 04",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "lat": 45.43246,
+   "lon": -73.63645,
+   "site": "https://www.mieuxetre.ca/succursales",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Homa",
+   "nofiche": 1011327,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1011327",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE - SUCCURSALE HOMA (CENTRE MÉDICAL MIEUX-ÊTRE - SUCCURSALE HOCHELAGA)",
+   "adresse": "3841, rue Ontario Est",
+   "ville": "Montréal",
+   "codePostal": "H1W 1S5",
+   "telephone": "514 524-3731",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "15 janvier 2026, 21 h 51",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "lat": 45.54778,
+   "lon": -73.54344,
+   "site": "https://www.cmme.ca/",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Médicentre Lasalle",
+   "nofiche": 32916,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32916",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MÉDICENTRE LASALLE (MÉDICENTRE LASALLE)",
+   "adresse": "1500, avenue Dollard, bureau 201",
+   "ville": "Montréal",
+   "codePostal": "H8N 1T5",
+   "telephone": "514 366-4507",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 13 h",
+     "heures": [
+      [
+       540,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé"
+   ],
+   "miseAJour": "15 janvier 2026, 15 h 54",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.42705,
+   "lon": -73.62824,
+   "site": "https://bonjour-sante.ca/uno/clinique/medicentrelasalle?utm_source=google&utm_medium=organic&utm_campaign=bouton-bleu&hl=fr-CA&gei=LA5paYOlCLLP0PEP0NyZ4AE&rwg_token=AFd1xnEWz2RyWhv00H0NIp37fI6M0fsLXdcO63CJrUCpKgZbMlH_0U-q--7LfosH81gHleSNu7xBVn21BIw3E",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF Novomed",
+   "nofiche": 1134720,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1134720",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF NOVOMED (CLINIQUE NOVOMED)",
+   "adresse": "940, avenue Ogilvy",
+   "ville": "Montréal",
+   "codePostal": "H3N 1P4",
+   "telephone": "514 210-6161",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "10 h à 17 h",
+     "heures": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "10 h à 17 h",
+     "heures": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "08 juillet 2026, 17 h 04",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.52552,
+   "lon": -73.62703,
+   "site": "https://www.novomed.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-R Centre médical Laval",
+   "nofiche": 289949,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=289949",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-R CENTRE MÉDICAL LAVAL (CENTRE MÉDICAL LAVAL) (SUPER-CLINIQUE)",
+   "adresse": "1110, boulevard Vanier",
+   "ville": "Laval",
+   "codePostal": "H7C 2R8",
+   "telephone": "450 661-2521",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 juin 2026, 15 h 37",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.61048,
+   "lon": -73.65798,
+   "site": "http://www.centremedlaval.ca",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-R Concorde",
+   "nofiche": 278827,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=278827",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-R CONCORDE (SUPER-CLINIQUE) (POLYCLINIQUE MÉDICALE DE LA CONCORDE)",
+   "adresse": "300, boulevard de la Concorde Est, unité 1er étage",
+   "ville": "Laval",
+   "codePostal": "H7G 2E6",
+   "telephone": "450 667-5312",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "30 juin 2026, 19 h 08",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.57776,
+   "lon": -73.68138,
+   "site": "http://gmfconcorde.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-R Médi-Centre Chomedey",
+   "nofiche": 295754,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=295754",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-R MÉDI-CENTRE CHOMEDEY (SUPER-CLINIQUE)(MÉDI-CENTRE CHOMEDEY)",
+   "adresse": "610, boulevard Curé-Labelle (Chomedey)",
+   "ville": "Laval",
+   "codePostal": "H7V 2T7",
+   "telephone": "450 687-6452",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 juin 2026, 17 h 18",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.53668,
+   "lon": -73.7425,
+   "site": "http://www.medicentrechomedey.com ",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-R Sainte-Dorothée",
+   "nofiche": 293320,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=293320",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-R SAINTE-DOROTHÉE (CLINIQUE MÉDICALE SAINTE-DOROTHÉE) (SUPER-CLINIQUE)",
+   "adresse": "1, boulevard Samson, bureau 102",
+   "ville": "Laval",
+   "codePostal": "H7X 3S5",
+   "telephone": "450 689-6334",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 avril 2026, 18 h 54",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": "Priorité offerte pour clientèle inscrite",
+   "frais": false,
+   "lat": 45.52285,
+   "lon": -73.78251,
+   "site": null,
+   "reservation": {
+    "RVSQ": "http://www.rvsq.gouv.qc.ca"
+   }
+  },
+  {
+   "nom": "GMF-A Sainte-Rose",
+   "nofiche": 260245,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=260245",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-A SAINTE-ROSE (SUPER-CLINIQUE) (CLSC SAINTE-ROSE)",
+   "adresse": "280, boulevard du Roi-du-Nord",
+   "ville": "Laval",
+   "codePostal": "H7L 4L2",
+   "telephone": "450 622-5110",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 janvier 2025, 21 h 27",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.60794,
+   "lon": -73.78942,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-A Polyclinique du Centre de l’Île",
+   "nofiche": 606006,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=606006",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-A POLYCLINIQUE DU CENTRE DE L'ÎLE (SUPER CLINIQUE)",
+   "adresse": "3025, boulevard Tessier",
+   "ville": "Laval",
+   "codePostal": "H7S 2M1",
+   "telephone": "450 934-7491",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 avril 2026, 13 h 35",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.56952,
+   "lon": -73.74025,
+   "site": "https://www.gmfpci.com/prendre-rendez-vous",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-A des Boisés",
+   "nofiche": 126408,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=126408",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF-A DES BOISÉS (SUPER-CLINIQUE) - (CLINIQUE DES BOISÉS)",
+   "adresse": "1150, boulevard de l'Avenir, bureau 200",
+   "ville": "Laval",
+   "codePostal": "H7N 6L2",
+   "telephone": "450 687-8585",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "26 mai 2026, 16 h 44",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.56346,
+   "lon": -73.72438,
+   "site": "http://www.cmdesboises.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Clinique Azur",
+   "nofiche": 757507,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=757507",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE AZUR (CLINIQUE MÉDICALE AZUR)",
+   "adresse": "2984, boulevard Taschereau, unité 103",
+   "ville": "Longueuil",
+   "codePostal": "J4V 2G9",
+   "telephone": "450 878-0449",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "17 mars 2026, 15 h 45",
+   "telephoneSansRdv": true,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.49864,
+   "lon": -73.48691,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Clinique médicale Pierre-Boucher",
+   "nofiche": 49168,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=49168",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE MÉDICALE PIERRE-BOUCHER (CLINIQUE MÉDICALE PIERRE BOUCHER)",
+   "adresse": "1615, boulevard Jacques-Cartier Est, bureau 110",
+   "ville": "Longueuil",
+   "codePostal": "J4M 2X1",
+   "telephone": "450 468-6223",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "19 août 2026, 12 h 49",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "lat": 45.54079,
+   "lon": -73.45663,
+   "site": "https://www.rvsq.gouv.qc.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Vaudreuil-Dorion",
+   "nofiche": 45268,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45268",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF VAUDREUIL-DORION (POLYCLINIQUE MÉDICALE VAUDREUIL)",
+   "adresse": "600, boulevard Harwood, bureau 10",
+   "ville": "Vaudreuil-Dorion",
+   "codePostal": "J7V 6A3",
+   "telephone": "450 319-6242",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 décembre 2025, 15 h 12",
+   "telephoneSansRdv": true,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.37695,
+   "lon": -74.02306,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/accueil/index.html",
+    "Bonjour-santé": "https://bonjour-sante.ca/uno/clinique/vaudreuildorion"
+   }
+  },
+  {
+   "nom": "GMF-A/R Le Trait d'Union",
+   "nofiche": 467420,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=467420",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF ACCÈS RÉSEAU LE TRAIT D'UNION",
+   "adresse": "56, boulevard Marie-Victorin",
+   "ville": "Delson",
+   "codePostal": "J5B 1A9",
+   "telephone": "450 633-0123",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 février 2026, 15 h 15",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.4005,
+   "lon": -73.54089,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF des Trois Lacs",
+   "nofiche": 35000,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35000",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF DES TROIS LACS (CENTRE MÉDICAL DES TROIS-LACS)",
+   "adresse": "65, boulevard de la Cité-des-Jeunes, bureau 300",
+   "ville": "Vaudreuil-Dorion",
+   "codePostal": "J7V 8C1",
+   "telephone": "450 455-3322",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "21 mai 2026, 19 h 21",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.4056,
+   "lon": -74.03665,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Dix30",
+   "nofiche": 40872,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=40872",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF DIX30 (CLINIQUE D'URGENCE AVEC RENDEZ-VOUS DIX30 BROSSARD)",
+   "adresse": "1100, rue du Lux, unité 510, ancienne adresse: 9090 boul. Leduc local 510",
+   "ville": "Brossard",
+   "codePostal": "J4Y 0E2",
+   "telephone": "450 766-0881",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 45",
+     "heures": [
+      [
+       465,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 juillet 2026, 17 h 40",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.44647,
+   "lon": -73.43778,
+   "site": "http://www.santedix30.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Prévost",
+   "nofiche": 1155047,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1155047",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF PRÉVOST (CLINIQUE MÉDICALE MÈRES ET MONDE)",
+   "adresse": "2432, boulevard du Curé-Labelle, bureau 310",
+   "ville": "Prévost",
+   "codePostal": "J0R 1T0",
+   "telephone": "579 995-0789",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "30 octobre 2024, 11 h 53",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.81956,
+   "lon": -74.04646,
+   "site": "https://cliniquemeresetmonde.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Polyclinique Pierre-Le Gardeur",
+   "nofiche": 55847,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=55847",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF POLYCLINIQUE MÉDICALE PIERRE-LE GARDEUR (GMF-R)",
+   "adresse": "1000, montée des Pionniers, bureau 300",
+   "ville": "Terrebonne",
+   "codePostal": "J6V 1S8",
+   "telephone": "450 657-1313",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 juin 2026, 12 h 42",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "lat": 45.72603,
+   "lon": -73.50727,
+   "site": "http://www.polycliniquepierrelegardeur.com",
+   "reservation": {}
+  }
+ ]
+}
