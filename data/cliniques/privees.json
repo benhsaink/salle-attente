@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T13:04:30.647Z",
+ "generatedAt": "2026-10-20T13:41:30.350Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -6286,6 +6286,108 @@
    "lat": 46.34344,
    "lon": -72.58812,
    "site": "http://www.cliniquemedicale1900.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique de santé familiale Harmonie",
+   "nofiche": 1154030,
+   "region": "tr",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154030",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE DE SANTÉ FAMILIALE HARMONIE",
+   "adresse": "6500, boulevard Gene-H.-Kruger",
+   "ville": "Trois-Rivières",
+   "codePostal": "G9A 4P3",
+   "telephone": "819 693-5852",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 avril 2026, 15 h 01",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Hormonothérapie",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "lat": 46.31722,
+   "lon": -72.57131,
+   "site": "https://ca.linkedin.com/in/kim-b-provencher-9a307b265",
    "reservation": {}
   }
  ]
