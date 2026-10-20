@@ -1,0 +1,2896 @@
+{
+ "generatedAt": "2026-10-20T06:33:23.223Z",
+ "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Fiches officielles des hôpitaux, Répertoire des ressources (Santé Québec)",
+ "cliniques": [
+  {
+   "nom": "CHUM",
+   "cle": "centre hospitalier de l universite de montreal",
+   "nofiche": 1102474,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1102474",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CENTRE HOSPITALIER DE L'UNIVERSITÉ DE MONTRÉAL",
+   "adresse": "1000, rue Saint-Denis",
+   "ville": "Montréal",
+   "codePostal": "H2X 0C1",
+   "telephone": "514 890-8000",
+   "jours": [],
+   "systemes": [],
+   "miseAJour": "03 mars 2026, 21 h 47",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.51176,
+   "lon": -73.55633,
+   "site": "https://www.chumontreal.qc.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Glen (Royal Victoria)",
+   "cle": "royal victoria",
+   "nofiche": 753012,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=753012",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL GLEN",
+   "adresse": "1001, boulevard Décarie (Montréal)",
+   "ville": "Montréal",
+   "codePostal": "H4A 3J1",
+   "telephone": "514 934-1934",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 septembre 2026, 12 h 48",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.47338,
+   "lon": -73.60089,
+   "site": "https://cusm.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital général de Montréal",
+   "cle": "general de montreal",
+   "nofiche": 326,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=326",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL GÉNÉRAL DE MONTRÉAL (CUSM)",
+   "adresse": "1650, avenue Cedar",
+   "ville": "Montréal",
+   "codePostal": "H3G 1A4",
+   "telephone": "514 934-1934",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 juillet 2026, 22 h 03",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.4973,
+   "lon": -73.58853,
+   "site": "https://cusm.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital général juif",
+   "cle": "general juif",
+   "nofiche": 192,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=192",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CENTRE HOSPITALIER UNIVERSITAIRE GÉNÉRAL JUIF",
+   "adresse": "3755, chemin de la Côte-Sainte-Catherine",
+   "ville": "Montréal",
+   "codePostal": "H3T 1E2",
+   "telephone": "514 340-8222",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 23 h",
+     "heures": [
+      [
+       450,
+       1380
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 23 h",
+     "heures": [
+      [
+       450,
+       1380
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 23 h",
+     "heures": [
+      [
+       450,
+       1380
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 23 h",
+     "heures": [
+      [
+       450,
+       1380
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 23 h",
+     "heures": [
+      [
+       450,
+       1380
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 septembre 2026, 15 h 42",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.49781,
+   "lon": -73.62881,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Centre hospitalier de St. Mary",
+   "cle": "st. mary",
+   "nofiche": 289539,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=289539",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CENTRE HOSPITALIER DE ST. MARY",
+   "adresse": "3830, avenue Lacombe",
+   "ville": "Montréal",
+   "codePostal": "H3T 1M5",
+   "telephone": "514 345-3511",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "19 septembre 2025, 20 h 28",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.4953,
+   "lon": -73.62451,
+   "site": "https://www.ciusss-ouestmtl.gouv.qc.ca/installations/centres-hospitaliers-de-soins-generaux-et-specialises/centre-hospitalier-de-st-mary/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital de Verdun",
+   "cle": "hopital de verdun",
+   "nofiche": 502,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=502",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DE VERDUN",
+   "adresse": "4000, boulevard LaSalle",
+   "ville": "Montréal",
+   "codePostal": "H4G 2A3",
+   "telephone": "514 362-1000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 45",
+     "heures": [
+      [
+       420,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 45",
+     "heures": [
+      [
+       420,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 45",
+     "heures": [
+      [
+       420,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 45",
+     "heures": [
+      [
+       420,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 45",
+     "heures": [
+      [
+       420,
+       885
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 août 2026, 17 h 54",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.4641,
+   "lon": -73.56399,
+   "site": "https://www.ciusss-centresudmtl.gouv.qc.ca/etablissement/hopital-de-verdun",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Notre-Dame",
+   "cle": "=hopital notre-dame",
+   "nofiche": 869391,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=869391",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL NOTRE-DAME",
+   "adresse": "1560, rue Sherbrooke Est",
+   "ville": "Montréal",
+   "codePostal": "H2L 4M1",
+   "telephone": "514 413-8777",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "07 octobre 2026, 20 h 37",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.52554,
+   "lon": -73.56306,
+   "site": "https://ciusss-centresudmtl.gouv.qc.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Maisonneuve-Rosemont",
+   "cle": "maisonneuve-rosemont",
+   "nofiche": 341,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=341",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL MAISONNEUVE-ROSEMONT (PAVILLON MAISONNEUVE ET PAVILLON MARCEL-LAMOUREUX)",
+   "adresse": "5415, boulevard de l'Assomption",
+   "ville": "Montréal",
+   "codePostal": "H1T 2M4",
+   "telephone": "514 252-3400",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 avril 2026, 17 h 32",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.57422,
+   "lon": -73.55846,
+   "site": "https://ciusss-estmtl.gouv.qc.ca/etablissement/hopital-maisonneuve-rosemont",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Santa Cabrini",
+   "cle": "santa cabrini",
+   "nofiche": 167,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=167",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL SANTA CABRINI",
+   "adresse": "5655, rue Saint-Zotique Est",
+   "ville": "Montréal",
+   "codePostal": "H1T 1P7",
+   "telephone": "514 252-6000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "13 octobre 2026, 20 h 44",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.58014,
+   "lon": -73.57172,
+   "site": "https://ciusss-estmtl.gouv.qc.ca/etablissement/hopital-santa-cabrini-ospedale",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital du Sacré-Cœur",
+   "cle": "sacre-coeur",
+   "nofiche": 174,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=174",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DU SACRÉ-COEUR DE MONTRÉAL",
+   "adresse": "5400, boulevard Gouin Ouest",
+   "ville": "Montréal",
+   "codePostal": "H4J 1C5",
+   "telephone": "514 336-7212",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 45 à 15 h",
+     "heures": [
+      [
+       465,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 45 à 15 h",
+     "heures": [
+      [
+       465,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 45 à 15 h",
+     "heures": [
+      [
+       465,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 45 à 15 h",
+     "heures": [
+      [
+       465,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 45 à 15 h",
+     "heures": [
+      [
+       465,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "25 mai 2026, 16 h 22",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.53258,
+   "lon": -73.71404,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Fleury",
+   "cle": "hopital fleury",
+   "nofiche": 1171,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1171",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL FLEURY",
+   "adresse": "2180, rue Fleury Est",
+   "ville": "Montréal",
+   "codePostal": "H2B 1K3",
+   "telephone": "514 384-2000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 45",
+     "heures": [
+      [
+       420,
+       825
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 45",
+     "heures": [
+      [
+       420,
+       825
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 45",
+     "heures": [
+      [
+       420,
+       825
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 45",
+     "heures": [
+      [
+       420,
+       825
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 45",
+     "heures": [
+      [
+       420,
+       825
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "25 mars 2026, 15 h 38",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.57181,
+   "lon": -73.65037,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Jean-Talon",
+   "cle": "jean-talon",
+   "nofiche": 1172,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1172",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL JEAN-TALON",
+   "adresse": "1385, rue Jean-Talon Est",
+   "ville": "Montréal",
+   "codePostal": "H2E 1S6",
+   "telephone": "514 495-6767",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h",
+     "heures": [
+      [
+       450,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h",
+     "heures": [
+      [
+       450,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h",
+     "heures": [
+      [
+       450,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h",
+     "heures": [
+      [
+       450,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h",
+     "heures": [
+      [
+       450,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "07 octobre 2026, 20 h 15",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.54594,
+   "lon": -73.60954,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital de LaSalle",
+   "cle": "hopital de lasalle",
+   "nofiche": 898,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=898",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DE LASALLE",
+   "adresse": "8585, terrasse Champlain",
+   "ville": "Montréal",
+   "codePostal": "H8P 1C1",
+   "telephone": "514 362-8000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "07 juillet 2025, 22 h",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.42177,
+   "lon": -73.62206,
+   "site": "https://www.ciusss-ouestmtl.gouv.qc.ca/installations/centres-hospitaliers-de-soins-generaux-et-specialises/hopital-de-lasalle/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital général du Lakeshore",
+   "cle": "lakeshore",
+   "nofiche": 1150,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1150",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL GÉNÉRAL DU LAKESHORE",
+   "adresse": "160, avenue Stillview",
+   "ville": "Pointe-Claire",
+   "codePostal": "H9R 2Y2",
+   "telephone": "514 630-2225",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "01 juillet 2026, 1 h 55",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.44904,
+   "lon": -73.83368,
+   "site": "https://www.ciusss-ouestmtl.gouv.qc.ca/installations/centres-hospitaliers-de-soins-generaux-et-specialises/hopital-general-du-lakeshore/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital de Lachine",
+   "cle": "hopital de lachine",
+   "nofiche": 1154,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DE LACHINE (CUSM)",
+   "adresse": "650, 16e Avenue (Lachine)",
+   "ville": "Montréal",
+   "codePostal": "H8S 3N5",
+   "telephone": "514 934-1934",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "6 h 30 à 11 h",
+     "heures": [
+      [
+       390,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "6 h 30 à 11 h",
+     "heures": [
+      [
+       390,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "6 h 30 à 11 h",
+     "heures": [
+      [
+       390,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "6 h 30 à 11 h",
+     "heures": [
+      [
+       390,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "6 h 30 à 11 h",
+     "heures": [
+      [
+       390,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "30 mai 2026, 1 h 43",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.44084,
+   "lon": -73.67699,
+   "site": "https://muhc.ca/lachine",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital de la Cité-de-la-Santé",
+   "cle": "cite-de-la-sante",
+   "nofiche": 1194,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1194",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DE LA CITÉ-DE-LA-SANTÉ",
+   "adresse": "1755, boulevard René-Laennec",
+   "ville": "Laval",
+   "codePostal": "H7M 3L9",
+   "telephone": "450 668-1010",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "31 octobre 2024, 16 h 02",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.60332,
+   "lon": -73.71082,
+   "site": "http://www.lavalensante.com",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Charles-Le Moyne",
+   "cle": "charles-le moyne",
+   "nofiche": 217,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=217",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL CHARLES-LEMOYNE",
+   "adresse": "3120, boulevard Taschereau",
+   "ville": "Longueuil",
+   "codePostal": "J4V 2H1",
+   "telephone": "450 466-5434",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 30",
+     "heures": [
+      [
+       450,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 30",
+     "heures": [
+      [
+       450,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 30",
+     "heures": [
+      [
+       450,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 30",
+     "heures": [
+      [
+       450,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 30",
+     "heures": [
+      [
+       450,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 mai 2026, 19 h 14",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.49727,
+   "lon": -73.48642,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Pierre-Boucher",
+   "cle": "pierre-boucher",
+   "nofiche": 754149,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=754149",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL PIERRE-BOUCHER",
+   "adresse": "1333, boulevard Jacques-Cartier Est",
+   "ville": "Longueuil",
+   "codePostal": "J4M 2A5",
+   "telephone": "450 468-8111",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "18 mars 2026, 19 h 35",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.5383,
+   "lon": -73.45879,
+   "site": "http://www.santemonteregie.qc.ca/cssspierreboucher",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Anna-Laberge",
+   "cle": "anna-laberge",
+   "nofiche": 1233,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1233",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL ANNA-LABERGE",
+   "adresse": "200, boulevard Brisebois",
+   "ville": "Châteauguay",
+   "codePostal": "J6K 4W8",
+   "telephone": "450 699-2425",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "08 septembre 2026, 14 h 02",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.34566,
+   "lon": -73.76345,
+   "site": "https://www.santemonteregie.qc.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital du Haut-Richelieu",
+   "cle": "haut-richelieu",
+   "nofiche": 1222,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1222",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DU HAUT-RICHELIEU",
+   "adresse": "920, boulevard du Séminaire Nord",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "codePostal": "J3A 1B7",
+   "telephone": "450 359-5000",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 janvier 2026, 14 h 12",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.33252,
+   "lon": -73.27021,
+   "site": "http://www.santemonteregie.qc.ca",
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital de Saint-Eustache",
+   "cle": "saint-eustache",
+   "nofiche": 1204,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1204",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL DE SAINT-EUSTACHE",
+   "adresse": "520, boulevard Arthur-Sauvé",
+   "ville": "Saint-Eustache",
+   "codePostal": "J7R 5B1",
+   "telephone": "450 473-6811",
+   "jours": [],
+   "systemes": [],
+   "miseAJour": "02 juillet 2026, 15 h 05",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.57127,
+   "lon": -73.91374,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Hôpital Pierre-Le Gardeur",
+   "cle": "le gardeur",
+   "nofiche": 1130,
+   "region": "",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1130",
+   "lu": "2026-10-20",
+   "nomOfficiel": "HÔPITAL PIERRE-LE GARDEUR",
+   "adresse": "911, montée des Pionniers",
+   "ville": "Terrebonne",
+   "codePostal": "J6V 2H2",
+   "telephone": "450 654-7525",
+   "jours": [],
+   "systemes": [],
+   "miseAJour": "14 avril 2025, 15 h 15",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "services": [],
+   "lat": 45.72398,
+   "lon": -73.51054,
+   "site": null,
+   "reservation": {}
+  }
+ ]
+}
