@@ -119,3 +119,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Annonce la future liste de prestataires de soins privés (à domicile ou en bureau) et invite les entreprises à proposer un partenariat.
 - Le bouton « Nous contacter pour un partenariat » ouvre le formulaire de commentaires avec le type « Partenariat ».
 - Le formulaire a maintenant les champs Nom et Téléphone (facultatifs, mais obligatoires pour un partenariat). Ils arrivent dans la ligne « COMMENTAIRE » des journaux Render et, si FEEDBACK_URL est réglée, par courriel.
+
+## Filtre « Sans RAMQ ni assurance (statut migratoire précaire) » (onglet Cliniques)
+- Montre les ressources gratuites pour les personnes sans couverture médicale, avec un encadré : PFSI pour les demandeurs d'asile, RAMQ pour les enfants, 911.
+- Les ressources sont dans la liste NOCOV de public/index.html, ajoutées à la main avec leur source officielle et la date de vérification.
+- Médecins du Monde, Clinique pour les personnes migrantes à statut précaire : 6235, rue Saint-Hubert, Montréal, 514 281-8998. Source : https://medecinsdumonde.ca/clinique-migrante/ (vérifiée le 20 octobre 2026). Coordonnées : OpenStreetMap.
+- Région de Québec : aucune ressource vérifiée pour l'instant.

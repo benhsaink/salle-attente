@@ -278,8 +278,15 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
         <label class="chk"><input type="checkbox" id="c-open"> Ouvertes maintenant</label>
         <label class="chk"><input type="checkbox" id="c-all"> Pour tous (sans médecin de famille)</label>
         <label class="chk"><input type="checkbox" id="c-kids"> Urgences pour enfants</label>
+        <label class="chk"><input type="checkbox" id="c-nocov"> Sans RAMQ ni assurance (statut migratoire précaire)</label>
       </div>
       <div class="meta"><span id="c-updated">Chargement des cliniques…</span></div>
+    </section>
+    <section class="cinfo" id="nocovnote" hidden>
+      <p><b>Sans couverture médicale ?</b> Ces cliniques soignent gratuitement des personnes sans RAMQ, sans PFSI et sans assurance privée. Les places sont limitées : téléphonez d'abord.</p>
+      <p><b>Demandeurs d'asile :</b> vous êtes couverts par le PFSI (Programme fédéral de santé intérimaire).</p>
+      <p><b>Enfants :</b> selon Médecins du Monde, les enfants ont droit à la RAMQ. Renseignez-vous auprès de la RAMQ.</p>
+      <p>Région de Québec : aucune ressource vérifiée pour l'instant. En cas d'urgence grave, appelez le 911.</p>
     </section>
     <ol class="list" id="clist"></ol>
     <p class="legend">Horaires, téléphones et façons de réserver : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Ils peuvent changer sans préavis : téléphonez avant de vous déplacer. Les « Rendez-vous le jour même » réservés aux patients inscrits sont pour les personnes suivies à cette clinique. En cas d'urgence grave, appelez le 911.</p>
@@ -844,6 +851,17 @@ function renderClinics() {
   const list = document.getElementById("clist");
   if (!list) return;
   list.innerHTML = "";
+  const nocov = document.getElementById("c-nocov").checked;
+  document.getElementById("nocovnote").hidden = !nocov;
+  ["c-all", "c-kids"].forEach(id => { document.getElementById(id).disabled = nocov; });
+  if (nocov) {
+    let rows = NOCOV.slice();
+    if (document.getElementById("c-open").checked) rows = rows.filter(c => nocovState(c)[2]);
+    if (pos) rows.sort((a, b) => (km(a) ?? 999) - (km(b) ?? 999));
+    rows.forEach((c, i) => list.appendChild(nocovCard(c, i)));
+    if (!rows.length) list.appendChild(el("li", "legend", "Aucune de ces cliniques n'est ouverte en ce moment. Consultez leurs heures ci-dessous en décochant « Ouvertes maintenant »."));
+    return;
+  }
   if (!clinics) return;
   const openOnly = document.getElementById("c-open").checked, allOnly = document.getElementById("c-all").checked;
   const kidsOnly = document.getElementById("c-kids").checked;
@@ -855,6 +873,68 @@ function renderClinics() {
     : (st.get(b)[2] - st.get(a)[2]) || ((b.acces === "tous") - (a.acces === "tous")) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(clinicCard(c, i)));
   if (!rows.length) list.appendChild(el("li", "legend", "Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3."));
+}
+
+// ---------- Sans couverture médicale (statut migratoire précaire) ----------
+// Ressources gratuites ajoutées à la main, chacune avec sa source officielle et la date de vérification.
+const NOCOV = [{
+  nom: "Clinique pour les personnes migrantes à statut précaire",
+  org: "Médecins du Monde",
+  adresse: "6235, rue Saint-Hubert", ville: "Montréal", region: "mtl", lat: 45.53507, lon: -73.60041,
+  telephone: "514 281-8998",
+  site: "https://medecinsdumonde.ca/clinique-migrante/", verifie: "2026-10-20",
+  // jour : 0 = dimanche ; minutes depuis minuit, heure du Québec
+  ligne: { jour: 1, de: 17 * 60, a: 20 * 60 },
+  sansRdv: { jour: 4, de: 9 * 60 + 30, a: 12 * 60 },
+  criteres: ["aucune couverture médicale (ni RAMQ, ni PFSI, ni assurance privée)", "pas les moyens de payer une clinique privée", "sans statut ou avec un statut temporaire (ex. : sans papiers, en attente de la résidence permanente)", "vivre au Québec de façon continue (pas en visite ni de passage)"],
+  services: ["consultations médicales (première ligne, diagnostic)", "prises de sang et analyses de base, selon le besoin médical", "contraception et dépistage des ITSS, en toute confidentialité", "soutien social : évaluation, références, aide aux démarches"],
+  pasOffert: "Pas de certificats ou attestations médicales (démarches, avocat, employeur). Pas de suivi de grossesse ni d'accouchement : appelez pour des ressources.",
+}];
+function quebecWeekday() { const [y, m, d] = quebecNow().date.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d)).getUTCDay(); }
+function nocovState(c) {
+  const wd = quebecWeekday(), min = quebecNow().min;
+  if (wd === c.sansRdv.jour && min >= c.sansRdv.de && min < c.sansRdv.a) return ["s-ok", "Sans rendez-vous · jusqu'à " + hm(c.sansRdv.a) + " (ou complet)", true];
+  if (wd === c.ligne.jour && min >= c.ligne.de && min < c.ligne.a) return ["s-ok", "Ligne téléphonique ouverte · jusqu'à " + hm(c.ligne.a), true];
+  return ["s-off", "Fermée en ce moment", false];
+}
+function nocovCard(c, i) {
+  const [cls, label] = nocovState(c);
+  const li = el("li", "card");
+  li.appendChild(el("div", "rank", String(i + 1)));
+  const head = el("div", "head");
+  const h3 = el("h3", "", c.nom);
+  h3.appendChild(tag("Gratuit"));
+  const pills = el("div", "pills");
+  pills.appendChild(el("span", "pill " + cls, label));
+  head.append(h3, pills);
+  li.appendChild(head);
+  const where = el("div", "where"), d = km(c);
+  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  where.appendChild(document.createTextNode(c.org + " · " + c.adresse + ", " + c.ville));
+  li.appendChild(where);
+  const ul = el("ul", "cl-book");
+  const l1 = el("li"); l1.append(el("b", "", "Par téléphone : "), el("span", "", "lundi de 17 h à 20 h (message vocal possible, rappel en soirée). Rendez-vous le mercredi suivant."));
+  const l2 = el("li"); l2.append(el("b", "", "Sans rendez-vous : "), el("span", "", "jeudi de 9 h 30 à midi. Arrivez tôt : les places sont limitées et la clinique ferme avant midi si elle est complète."));
+  ul.append(l1, l2);
+  li.appendChild(ul);
+  li.appendChild(el("p", "cl-note", "Une consultation n'est pas garantie : chaque demande est d'abord évaluée."));
+  const who = el("details", "wk"); who.appendChild(el("summary", "", "Pour qui ? (tous ces critères)"));
+  const wl = el("ul"); c.criteres.forEach(t => wl.appendChild(el("li", "", t.charAt(0).toUpperCase() + t.slice(1)))); who.appendChild(wl);
+  li.appendChild(who);
+  const sv = el("details", "wk"); sv.appendChild(el("summary", "", "Services offerts"));
+  const sl = el("ul"); c.services.forEach(t => sl.appendChild(el("li", "", t.charAt(0).toUpperCase() + t.slice(1)))); sv.appendChild(sl);
+  sv.appendChild(el("p", "cl-note", c.pasOffert));
+  li.appendChild(sv);
+  const act = el("div", "cl-act");
+  const t = el("a", "main", "📞 " + c.telephone); t.href = "tel:+1" + c.telephone.replace(/\D/g, ""); t.setAttribute("aria-label", "Appeler " + c.org);
+  const w = el("a", "", "Site de la clinique"); w.href = c.site; w.target = "_blank"; w.rel = "noopener";
+  act.append(t, w);
+  li.appendChild(act);
+  const go = goLinks({ name: c.nom, address: c.adresse + ", " + c.ville });
+  if (go) li.appendChild(go);
+  const [y, m, dd] = c.verifie.split("-").map(Number);
+  li.appendChild(el("p", "cl-note", "Source : site de " + c.org + ", vérifié le " + new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) + "."));
+  return li;
 }
 
 function renderFiche(name) {
@@ -1137,6 +1217,7 @@ document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click
 document.getElementById("c-open").addEventListener("change", renderClinics);
 document.getElementById("c-all").addEventListener("change", renderClinics);
 document.getElementById("c-kids").addEventListener("change", renderClinics);
+document.getElementById("c-nocov").addEventListener("change", renderClinics);
 document.getElementById("p-open").addEventListener("change", renderPrivates);
 document.getElementById("p-service").addEventListener("change", () => { try { localStorage.setItem("sa-pservice", document.getElementById("p-service").value); } catch (e) {} renderPrivates(); });
 // Commentaires : envoyés au propriétaire du site
