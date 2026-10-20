@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T07:11:58.073Z",
+ "generatedAt": "2026-10-20T07:19:04.239Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -1393,7 +1393,7 @@
     "Traitement des verrues / Cryothérapie",
     "Traitement des verrues plantaires",
     "Téléconsultation",
-    "Urgence mineure (présentation sur place",
+    "Urgence mineure (présentation sur place sans rendez-vous) Avec rendez-vous",
     "Urgence psychiatrique",
     "Urgence pédiatrique",
     "Vaccination Santé voyage, saisonnière, enfants, régulière et autre",
@@ -5717,7 +5717,7 @@
     "Test de glycémie ou ajustement du glucomètre",
     "Traitement de l'infection urinaire",
     "Traitement des verrues / Cryothérapie",
-    "Urgence mineure (présentation sur place",
+    "Urgence mineure (présentation sur place sans rendez-vous)",
     "Vaccination",
     "Électrocardiogramme (ECG)"
    ],
@@ -6015,7 +6015,7 @@
     "Traitement des verrues / Cryothérapie",
     "Traitement des verrues plantaires",
     "Téléconsultation",
-    "Urgence mineure (présentation sur place",
+    "Urgence mineure (présentation sur place sans rendez-vous) AVEC rendez-vous",
     "Vaccination AVEC ou",
     "Vaccination contre la grippe",
     "Vaccination contre la rougeole AVEC ou",
