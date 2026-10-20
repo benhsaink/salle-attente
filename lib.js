@@ -87,7 +87,10 @@ const PEDS = [
   ["maisonneuve-rosemont", "https://ciusss-estmtl.gouv.qc.ca/informations-pratiques/urgence", "2026-10-20", "Services pédiatriques"],
   // Unité de médecine pédiatrique (0-17 ans) et soins intensifs pédiatriques au CHUL, aile Centre mère-enfant Soleil (pages du CHU de Québec).
   // Ce n'est pas une confirmation d'urgence pédiatrique : l'étiquette dit seulement ce qui est vérifié.
-  ["centre hospitalier de l universite laval", "https://www.chudequebec.ca/patient/maladies-soins-et-services/m-informer-sur-les-soins-et-services/unite-de-medecine-pediatrique.aspx", "2026-10-20", "Unités pédiatriques sur place"],
+  // Seule exception à la règle des sources (décision du propriétaire, 20 octobre 2026) : l'urgence pédiatrique
+  // du CHUL n'est pas confirmée par une page officielle, d'où « à confirmer ». Sources : urgence ouverte en tout temps
+  // et soins mère-enfant (chudequebec.ca), unités pédiatriques (lien ci-dessous). À vérifier au 418 525-4444.
+  ["centre hospitalier de l universite laval", "https://www.chudequebec.ca/patient/maladies-soins-et-services/m-informer-sur-les-soins-et-services/unite-de-medecine-pediatrique.aspx", "2026-10-20", "Urgence pédiatrique (à confirmer)"],
 ];
 // Urgences psychiatriques : gardées, mais affichées seulement avec le filtre « Psychiatrie ».
 const PSY = ["sante mentale", "psychiatri", "albert-prevost", "albert prevost", "louis-h", "douglas", "pinel"];

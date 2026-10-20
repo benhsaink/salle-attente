@@ -17,6 +17,7 @@
     ["Québec–Lévis", "Québec City–Lévis"],
     ["Québec et Lévis", "Québec City and Lévis"],
     ["Autres régions du Québec", "Other regions of Québec"],
+    ["Urgence pédiatrique (à confirmer)", "Pediatric ER (to be confirmed)"],
     ["Aide pour choisir", "Help choosing"],
     ["🧭 Où consulter ?", "🧭 Where should I go?"],
     ["Comment fonctionne le triage ?", "How does triage work?"],
