@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Salle d'attente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+body{margin:0}
+/* Layout: one mobile column — alert strip, region switch, ranked list of ER cards, then upcoming features */
+:root{
+  --bg:#f3f6f7; --surface:#ffffff; --ink:#132a33; --muted:#5a6f78; --line:#d9e2e5;
+  --accent:#1f5fae; --accent-soft:#e3edf9;
+  --ok:#1d7a4f; --ok-soft:#e1f2e9; --warn:#9a6400; --warn-soft:#fbf0d9; --bad:#b3261e; --bad-soft:#fbe4e2;
+  --demo:#5b3fa0; --demo-soft:#eee8fa;
+  --f-display:"Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-body:"Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1a1f; --surface:#15252c; --ink:#e6eef0; --muted:#97aab1; --line:#26393f;
+  --accent:#7fb2ef; --accent-soft:#1b2f45;
+  --ok:#5fcf97; --ok-soft:#173326; --warn:#f0bd5a; --warn-soft:#352a14; --bad:#f2857d; --bad-soft:#3a1d1b;
+  --demo:#bba6f2; --demo-soft:#2a2342; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1a1f; --surface:#15252c; --ink:#e6eef0; --muted:#97aab1; --line:#26393f;
+  --accent:#7fb2ef; --accent-soft:#1b2f45;
+  --ok:#5fcf97; --ok-soft:#173326; --warn:#f0bd5a; --warn-soft:#352a14; --bad:#f2857d; --bad-soft:#3a1d1b;
+  --demo:#bba6f2; --demo-soft:#2a2342; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h1{font-size:1.9rem;font-weight:700;letter-spacing:-.01em}
+h2{font-size:1.15rem;font-weight:600}
+.sub{color:var(--muted);margin:4px 0 0}
+.demo{background:var(--demo-soft);color:var(--demo);border-radius:10px;padding:10px 12px;font-size:.88rem}
+.demo b{display:block;text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;margin-bottom:2px}
+.sos{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sos div{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:10px 12px}
+.sos strong{font-family:var(--f-display);font-size:1.35rem;display:block}
+.sos span{color:var(--muted);font-size:.85rem}
+.controls{display:flex;flex-direction:column;gap:10px}
+.seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px;overflow-x:auto;scrollbar-width:none}
+.seg button{flex:1 0 auto;white-space:nowrap;border:0;background:transparent;color:var(--muted);font:inherit;font-weight:700;padding:9px 6px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px}
+label.chk{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.9rem}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.meta{color:var(--muted);font-size:.82rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.linkbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.82rem;border-radius:8px;padding:4px 10px;cursor:pointer}
+.best{background:var(--accent-soft);border-radius:14px;padding:14px 16px}
+.best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.72rem}
+.best h3{font-size:1.25rem;margin-top:2px}
+.best p{margin:4px 0 0;color:var(--muted)}
+ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;grid-template-columns:2rem 1fr;gap:4px 10px}
+.rank{font-family:var(--f-display);font-weight:700;color:var(--muted);font-size:1.1rem;font-variant-numeric:tabular-nums;padding-top:1px}
+.head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;min-width:0}
+.head h3{font-size:1.02rem;font-weight:600;min-width:0}
+.where{color:var(--muted);font-size:.84rem;grid-column:2}
+.pill{font-size:.75rem;font-weight:700;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.s-ok{background:var(--ok-soft);color:var(--ok)} .s-warn{background:var(--warn-soft);color:var(--warn)} .s-bad{background:var(--bad-soft);color:var(--bad)}
+.bar{grid-column:2;height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:6px;position:relative}
+.bar i{display:block;height:100%;border-radius:99px}
+.bar::after{content:"";position:absolute;left:calc(100%/1.5);top:0;bottom:0;width:2px;background:var(--surface)}
+.stats{grid-column:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px;font-variant-numeric:tabular-nums}
+.stats div{min-width:0}
+.stats b{font-family:var(--f-display);font-size:1.1rem;display:block}
+.stats span{color:var(--muted);font-size:.74rem;line-height:1.2;display:block}
+.tag{font-size:.72rem;font-weight:700;color:var(--accent);border:1px solid var(--accent-soft);border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px}
+.legend{color:var(--muted);font-size:.8rem}
+.tag.psy{color:var(--demo);border-color:var(--demo-soft)}
+.psynote{background:var(--demo-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:.9rem}
+.psynote b{color:var(--demo)}
+.psynote p{margin:0}
+.psynote p+p{margin-top:6px}
+details.fc{grid-column:2;margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:.88rem;list-style-position:inside}
+.fc-body{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.fc-title{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.hours{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;align-items:end;height:64px}
+.hours i{display:block;border-radius:4px 4px 2px 2px;min-height:4px}
+.hours i.none{background:var(--line)}
+.hours i.low{outline:2px solid var(--ink);outline-offset:1px}
+.hlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.fc-best{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.fc-best li{display:flex;justify-content:space-between;gap:8px;font-size:.9rem}
+.fc-best b{white-space:nowrap}
+.fc-best span{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+.fc-note{color:var(--muted);font-size:.78rem;margin:0}
+.soon{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.feat div{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:12px 14px}
+.feat h3{font-size:.98rem}
+.feat p{margin:4px 0 0;color:var(--muted);font-size:.86rem}
+.price{font-family:var(--f-display);font-weight:700;color:var(--accent)}
+footer{color:var(--muted);font-size:.78rem}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Salle d'attente</h1>
+    <p class="sub">Trouvez l'urgence la moins remplie dans le Grand Montréal.</p>
+  </header>
+
+  <div class="sos">
+    <div><strong>911</strong><span>Douleur thoracique, AVC, difficulté à respirer</span></div>
+    <div><strong>811</strong><span>Info-Santé : une infirmière vous oriente</span></div>
+  </div>
+
+  <section class="controls" aria-label="Filtres">
+    <div class="seg" role="group" aria-label="Région">
+      <button id="r-all" data-r="all" aria-pressed="false">Tout</button>
+      <button id="r-mtl" data-r="mtl" aria-pressed="false">Montréal</button>
+      <button id="r-rs" data-r="rs" aria-pressed="false">Rive-Sud</button>
+      <button id="r-lav" data-r="lav" aria-pressed="false">Laval</button>
+      <button id="r-rn" data-r="rn" aria-pressed="false">Rive-Nord</button>
+    </div>
+    <div class="row">
+      <select id="sort" aria-label="Trier">
+        <option value="score">Moins remplie d'abord</option>
+        <option value="pec">Moins de gens en attente</option>
+        <option value="dms">Séjour le plus court</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="kids"> Pédiatrique seulement</label>
+      <label class="chk"><input type="checkbox" id="psy"> Urgences psychiatriques</label>
+    </div>
+    <div class="meta"><span id="updated">Chargement des données…</span><button class="linkbtn" id="refresh">Actualiser</button></div>
+  </section>
+
+  <section class="psynote" id="psynote" hidden>
+    <p><b>Détresse psychologique ?</b> Info-Social : composez le <b>811, option 2</b>, 24 h sur 24.</p>
+    <p>Idées suicidaires : <b>9-8-8</b>, par téléphone ou texto. Danger immédiat : <b>911</b>.</p>
+  </section>
+
+  <section class="best" id="best" aria-live="polite"></section>
+
+  <ol class="list" id="list"></ol>
+  <p class="legend" id="trendnote" hidden></p>
+  <p class="legend">Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. « Meilleurs moments » : moyennes des semaines passées, par jour et par heure ; c'est une estimation, pas une garantie. En cas d'urgence grave, n'attendez pas : appelez le 911. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.</p>
+
+  <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
+</div>
+
+<script>
+let data = [];
+let trend = null;
+let region = "all";
+try { region = localStorage.getItem("sa-region") || "all"; } catch (e) {}
+
+const fmt = (n, d = 0) => n === null || n === undefined ? "—" : n.toLocaleString("fr-CA", { maximumFractionDigits: d, minimumFractionDigits: d });
+
+function status(r) {
+  if (r === null) return ["s-warn", "Inconnu"];
+  if (r < .9) return ["s-ok", "Fluide"];
+  if (r <= 1.3) return ["s-warn", "Chargée"];
+  return ["s-bad", "Débordée"];
+}
+const score = h => (h.rate ?? 2) * 100 + (h.pec ?? 30) * 1.5;
+
+// ---------- Meilleurs moments ----------
+const MIN_DAYS = 7; // en dessous, trop peu de mesures pour afficher des « meilleurs moments »
+const DAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+const DOW = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+const hourLabel = h => h + " h";
+
+// Jour et heure actuels au Québec, peu importe le fuseau du téléphone.
+function nowSlot() {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto", weekday: "short", hour: "numeric", hourCycle: "h23" })
+    .formatToParts(new Date()).map(p => [p.type, p.value]));
+  return (DOW[parts.weekday] ?? new Date().getDay()) * 24 + (+parts.hour % 24);
+}
+const slotScore = c => c && (c[0] !== null || c[1] !== null) ? (c[0] ?? 200) + (c[1] ?? 30) * 1.5 : null;
+
+function forecastBlock(h) {
+  if (!h.forecast || !trend || trend.days < MIN_DAYS) return null;
+  const f = h.forecast, now = nowSlot();
+  const det = document.createElement("details");
+  det.className = "fc";
+  const sum = document.createElement("summary");
+  sum.textContent = "Meilleurs moments pour y aller";
+  det.appendChild(sum);
+  const body = document.createElement("div");
+  body.className = "fc-body";
+
+  // 1) Les 12 prochaines heures
+  const next = Array.from({ length: 12 }, (_, k) => ({ slot: (now + k) % 168, c: f[(now + k) % 168] }));
+  const scored = next.filter(n => slotScore(n.c) !== null);
+  const low = scored.length ? scored.reduce((a, b) => slotScore(b.c) < slotScore(a.c) ? b : a) : null;
+  const t1 = document.createElement("div"); t1.className = "fc-title"; t1.textContent = "Prochaines heures (occupation habituelle)";
+  const bars = document.createElement("div"); bars.className = "hours";
+  const labels = document.createElement("div"); labels.className = "hlabels";
+  next.forEach((n, k) => {
+    const i = document.createElement("i");
+    const rate = n.c ? n.c[0] : null;
+    if (rate === null) { i.className = "none"; i.style.height = "4px"; }
+    else {
+      const [cls] = status(rate / 100);
+      i.style.height = Math.max(6, Math.min(100, rate / 1.5)) + "%";
+      i.style.background = "var(--" + cls.slice(2) + ")";
+      if (low && n === low) i.className = "low";
+    }
+    i.title = hourLabel(n.slot % 24) + " : " + (rate === null ? "inconnu" : rate + " % occupé") + (n.c && n.c[1] !== null ? ", " + fmt(n.c[1]) + " en attente" : "");
+    bars.appendChild(i);
+    if (k % 3 === 0) { const l = document.createElement("span"); l.textContent = hourLabel(n.slot % 24); labels.appendChild(l); }
+  });
+  body.append(t1, bars, labels);
+  if (low) {
+    const p = document.createElement("p"); p.className = "fc-note";
+    p.textContent = low.slot === now ? "C'est habituellement le moment le plus calme des 12 prochaines heures."
+      : "Plus calme d'habitude vers " + hourLabel(low.slot % 24) + (Math.floor(low.slot / 24) !== Math.floor(now / 24) ? " (" + DAYS[Math.floor(low.slot / 24)] + ")" : "") + ".";
+    body.appendChild(p);
+  }
+
+  // 2) Les meilleurs créneaux de la semaine (un par jour)
+  const byDay = new Map();
+  f.forEach((c, slot) => {
+    const s = slotScore(c); if (s === null) return;
+    const d = Math.floor(slot / 24);
+    if (!byDay.has(d) || s < byDay.get(d).s) byDay.set(d, { s, slot, c });
+  });
+  const top = [...byDay.values()].sort((a, b) => a.s - b.s).slice(0, 3);
+  if (top.length) {
+    const t2 = document.createElement("div"); t2.className = "fc-title"; t2.textContent = "Meilleurs créneaux de la semaine";
+    const ul = document.createElement("ul"); ul.className = "fc-best";
+    top.forEach(t => {
+      const li = document.createElement("li");
+      const a = document.createElement("b"); a.textContent = DAYS[Math.floor(t.slot / 24)][0].toUpperCase() + DAYS[Math.floor(t.slot / 24)].slice(1) + " vers " + hourLabel(t.slot % 24);
+      const b = document.createElement("span"); b.textContent = (t.c[0] === null ? "" : t.c[0] + " % occupé") + (t.c[1] === null ? "" : " · " + fmt(t.c[1]) + " en attente");
+      li.append(a, b); ul.appendChild(li);
+    });
+    body.append(t2, ul);
+  }
+
+  const note = document.createElement("p"); note.className = "fc-note";
+  note.textContent = trend.days < 28
+    ? "Estimation préliminaire basée sur " + trend.days + " jours de données. Elle deviendra plus fiable chaque semaine."
+    : "Moyenne de " + trend.days + " jours de données (depuis le " + trend.from + "). Estimation, pas une garantie.";
+  body.appendChild(note);
+  det.appendChild(body);
+  return det;
+}
+
+async function load() {
+  const up = document.getElementById("updated");
+  up.textContent = "Chargement des données…";
+  try {
+    const res = await fetch("/api/urgences");
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error || "Erreur");
+    data = json.hospitals;
+    trend = json.trend || null;
+    const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
+    up.textContent = "Données du " + (latest || new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
+  } catch (e) {
+    data = [];
+    up.textContent = "Données indisponibles pour le moment. Réessayez dans quelques minutes ou consultez quebec.ca/SituationUrgences.";
+  }
+  render();
+}
+
+function render() {
+  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
+  const kids = document.getElementById("kids").checked;
+  const psy = document.getElementById("psy").checked;
+  document.getElementById("psynote").hidden = !psy;
+  const sort = document.getElementById("sort").value;
+  let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? h.kids : true) && (psy ? h.psy : !h.psy));
+  const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999 : score;
+  rows.sort((a, b) => key(a) - key(b));
+
+  const best = document.getElementById("best");
+  best.hidden = !rows.length;
+  if (rows.length) {
+    const b = rows[0];
+    best.innerHTML = `<small>Meilleur choix selon la dernière mise à jour</small><h3></h3><p></p>`;
+    best.querySelector("h3").textContent = b.name;
+    best.querySelector("p").textContent =
+      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${b.area}`;
+  }
+
+  const tn = document.getElementById("trendnote");
+  tn.hidden = !(trend && trend.days < MIN_DAYS);
+  if (!tn.hidden) tn.textContent = `Bientôt : les meilleurs moments pour aller à chaque urgence. L'historique se construit chaque heure (${trend.days} jour${trend.days > 1 ? "s" : ""} sur ${MIN_DAYS} minimum).`;
+
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  rows.forEach((h, i) => {
+    const [cls, label] = status(h.rate);
+    const pct = h.rate === null ? null : Math.round(h.rate * 100);
+    const li = document.createElement("li");
+    li.className = "card";
+    li.innerHTML = `
+      <div class="rank">${i + 1}</div>
+      <div class="head"><h3></h3><span class="pill ${cls}">${label}</span></div>
+      <div class="where"></div>
+      <div class="bar"><i style="width:${pct === null ? 0 : Math.min(100, pct / 1.5)}%;background:var(--${cls.slice(2)})"></i></div>
+      <div class="stats">
+        <div><b>${pct === null ? "—" : pct + " %"}</b><span>civières occupées (${fmt(h.occ)}/${fmt(h.stretchers)})</span></div>
+        <div><b>${fmt(h.pec)}</b><span>en attente d'un médecin</span></div>
+        <div><b>${h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h"}</b><span>séjour moyen, sans civière (hier)</span></div>
+      </div>`;
+    li.querySelector("h3").textContent = h.name;
+    if (h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Enfants"; li.querySelector("h3").appendChild(t); }
+    if (h.psy) { const t = document.createElement("span"); t.className = "tag psy"; t.textContent = "Psychiatrie"; li.querySelector("h3").appendChild(t); }
+    const fc = forecastBlock(h);
+    if (fc) li.appendChild(fc);
+    li.querySelector(".where").textContent = h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "");
+    list.appendChild(li);
+  });
+  if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
+}
+
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+  region = b.dataset.r; try { localStorage.setItem("sa-region", region); } catch (e) {} render();
+}));
+document.getElementById("sort").addEventListener("change", render);
+document.getElementById("kids").addEventListener("change", render);
+document.getElementById("psy").addEventListener("change", render);
+document.getElementById("refresh").addEventListener("click", load);
+load();
+setInterval(load, 15 * 60e3);
+</script>
+</body>
+</html>
