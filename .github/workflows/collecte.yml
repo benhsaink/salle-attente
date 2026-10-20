@@ -15,14 +15,16 @@ concurrency:
 jobs:
   collecte:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
       - name: Télécharger et enregistrer les données
         run: node collect.js
+        env:
+          SOURCE_CSV: https://salle-attente.onrender.com/api/source.csv
       - name: Sauvegarder dans le dépôt
         run: |
           git config user.name "salle-attente-collecte"
