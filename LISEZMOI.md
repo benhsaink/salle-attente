@@ -114,3 +114,8 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - `public/i18n.js` traduit l'interface au moment de l'affichage : un dictionnaire (texte français → anglais) et des modèles pour les textes avec des chiffres, des heures (« 8 h à 20 h » → « 8 a.m. to 8 p.m. ») et des dates.
 - Les données officielles (noms d'hôpitaux et de cliniques, adresses, services, notes des fiches) restent en français, et le site le signale.
 - Pour un nouveau texte en français dans la page : ajouter sa traduction dans le dictionnaire de `i18n.js`, sinon il reste en français.
+
+## Onglet « Soins privés » (en développement)
+- Annonce la future liste de prestataires de soins privés (à domicile ou en bureau) et invite les entreprises à proposer un partenariat.
+- Le bouton « Nous contacter pour un partenariat » ouvre le formulaire de commentaires avec le type « Partenariat ».
+- Le formulaire a maintenant les champs Nom et Téléphone (facultatifs, mais obligatoires pour un partenariat). Ils arrivent dans la ligne « COMMENTAIRE » des journaux Render et, si FEEDBACK_URL est réglée, par courriel.

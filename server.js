@@ -277,8 +277,12 @@ async function handleFeedback(req, res) {
   if (d.site_web) return json(200, { ok: true }); // champ piège pour les robots
   const message = String(d.message || "").trim().slice(0, 2000);
   if (message.length < 5) return json(400, { error: "Écrivez votre commentaire (au moins quelques mots)." });
+  const type = ["donnees", "site", "suggestion", "partenariat", "autre"].includes(d.type) ? d.type : "autre";
+  const nom = String(d.nom || "").trim().slice(0, 120), telephone = String(d.telephone || "").trim().slice(0, 40);
+  if (type === "partenariat" && (!nom || telephone.replace(/\D/g, "").length < 10))
+    return json(400, { error: "Pour un partenariat, indiquez votre nom et un numéro de téléphone valide." });
   const item = {
-    type: ["donnees", "site", "suggestion", "autre"].includes(d.type) ? d.type : "autre",
+    type, nom, telephone,
     message, courriel: String(d.courriel || "").trim().slice(0, 200), page: String(d.page || "").slice(0, 200),
     date: new Date().toISOString(),
   };

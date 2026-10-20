@@ -109,7 +109,9 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 .price{font-family:var(--f-display);font-weight:700;color:var(--accent)}
 footer{color:var(--muted);font-size:.78rem}
 .stack{display:flex;flex-direction:column;gap:18px}
-.stack[hidden]{display:none}
+.stack[hidden],.controls[hidden]{display:none}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr)}
+@media (max-width:520px){.tabs{grid-template-columns:1fr 1fr}}
 .tabs button{font-size:.95rem;padding:11px 6px}
 .tabs button[aria-selected="true"]{background:var(--accent);color:var(--surface)}
 .cinfo{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
@@ -148,6 +150,13 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .feedback textarea{resize:vertical}
 .feedback button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:9px 16px;cursor:pointer}
 .feedback button:disabled{opacity:.6}
+.fb-two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:420px){.fb-two{grid-template-columns:1fr}}
+.devnote{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.devnote h2{margin:0;font-size:1.1rem}
+.devnote p{margin:0}
+.devnote .tag{align-self:flex-start;background:var(--warn-soft);color:var(--warn);font-weight:700;font-size:.8rem;border-radius:999px;padding:3px 10px;text-transform:uppercase;letter-spacing:.04em}
+.devnote button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:10px 16px;cursor:pointer}
 .trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .addr{display:flex;gap:8px;flex:1 1 100%;min-width:0}
 .addr input{flex:1 1 auto;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
@@ -209,8 +218,9 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
     <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
     <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques</button>
     <button role="tab" id="t-pri" data-v="privees" aria-selected="false">💲 Privées</button>
+    <button role="tab" id="t-soi" data-v="soins" aria-selected="false">🏠 Soins privés</button>
   </div>
-  <section class="controls" aria-label="Région et position">
+  <section class="controls" id="regionctl" aria-label="Région et position">
     <div class="seg" role="group" aria-label="Région">
       <button id="r-all" data-r="all" aria-pressed="false">Tout</button>
       <button id="r-mtl" data-r="mtl" aria-pressed="false">Montréal</button>
@@ -290,6 +300,17 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
     <ol class="list" id="plist"></ol>
     <p class="legend">Adresses, téléphones, heures et services : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Seules les cliniques dont la fiche est complète sont affichées. Cliniques repérées grâce à la liste des médecins non participants de la RAMQ (septembre 2026). Les heures peuvent changer : téléphonez avant de vous déplacer.</p>
   </div>
+
+  <div id="careview" class="stack" hidden>
+    <section class="devnote" aria-labelledby="care-title">
+      <span class="tag">En développement</span>
+      <h2 id="care-title">Soins privés à domicile ou en bureau</h2>
+      <p>Cette section présentera bientôt des entreprises de soins privés : soins infirmiers à domicile, prélèvements, physiothérapie, aide aux aînés, et plus. Chaque prestataire sera vérifié auprès de son ordre professionnel avant d'être affiché.</p>
+      <p><b>Vous offrez ce type de soins ?</b> Un partenariat est possible pour figurer dans cette liste. Écrivez-nous avec le formulaire de commentaires : indiquez votre nom, votre numéro de téléphone et les services que vous offrez.</p>
+      <div class="row"><button type="button" id="care-contact">Nous contacter pour un partenariat</button></div>
+      <p class="legend">En cas d'urgence grave, appelez le 911. Pour un conseil santé, appelez le 811.</p>
+    </section>
+  </div>
   </div>
 
   <section class="feedback" id="commentaires" aria-labelledby="fb-title">
@@ -300,9 +321,14 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
         <option value="donnees">Information inexacte (heures, adresse, service…)</option>
         <option value="site">Problème avec le site</option>
         <option value="suggestion">Suggestion</option>
+        <option value="partenariat">Partenariat (prestataire de soins)</option>
         <option value="autre">Autre</option>
       </select>
       <textarea id="fb-message" rows="4" maxlength="2000" placeholder="Ex. : la clinique X est fermée le samedi, contrairement à ce qui est affiché." aria-label="Votre commentaire" required></textarea>
+      <div id="fb-contact" class="fb-two">
+        <input id="fb-name" type="text" maxlength="120" placeholder="Nom (facultatif)" aria-label="Votre nom" autocomplete="name">
+        <input id="fb-phone" type="tel" maxlength="40" placeholder="Téléphone (facultatif)" aria-label="Votre numéro de téléphone" autocomplete="tel">
+      </div>
       <input id="fb-email" type="email" maxlength="200" placeholder="Courriel (facultatif, pour une réponse)" aria-label="Courriel facultatif" autocomplete="email">
       <input id="fb-site" name="site_web" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" class="trap">
       <div class="row"><button type="submit" id="fb-send">Envoyer</button><span id="fb-status" class="legend" role="status"></span></div>
@@ -543,7 +569,7 @@ function route() {
     const wasOpen = !fiche.hidden;
     fiche.hidden = true; main.hidden = false; shownFiche = null;
     document.title = "Salle d'attente";
-    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#urgences" ? "urgences" : view);
+    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view);
     if (wasOpen) window.scrollTo(0, listScroll);
     return;
   }
@@ -562,7 +588,7 @@ function closeFiche() {
 
 // ---------- Onglets : Urgences / Cliniques ----------
 let view = "urgences";
-try { const v = localStorage.getItem("sa-view"); view = v === "cliniques" || v === "privees" ? v : "urgences"; } catch (e) {}
+try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees", "soins"].includes(v) ? v : "urgences"; } catch (e) {}
 function setView(v) {
   view = v;
   try { localStorage.setItem("sa-view", v); } catch (e) {}
@@ -570,6 +596,8 @@ function setView(v) {
   document.getElementById("listview").hidden = v !== "urgences";
   document.getElementById("clinicview").hidden = v !== "cliniques";
   document.getElementById("privateview").hidden = v !== "privees";
+  document.getElementById("careview").hidden = v !== "soins";
+  document.getElementById("regionctl").hidden = v === "soins";
   if (v === "cliniques" && !clinics && !clinicsLoading) loadClinics();
   else if (v === "cliniques") renderClinics();
   if (v === "privees" && !privates && !privatesLoading) loadPrivates();
@@ -1115,18 +1143,34 @@ document.getElementById("p-service").addEventListener("change", () => { try { lo
 document.getElementById("fb-form").addEventListener("submit", async e => {
   e.preventDefault();
   const btn = document.getElementById("fb-send"), st = document.getElementById("fb-status"), msg = document.getElementById("fb-message");
+  const type = document.getElementById("fb-type").value, nom = document.getElementById("fb-name"), tel = document.getElementById("fb-phone");
   if (msg.value.trim().length < 5) { st.textContent = "Écrivez votre commentaire avant d'envoyer."; msg.focus(); return; }
+  if (type === "partenariat" && !nom.value.trim()) { st.textContent = "Pour un partenariat, indiquez votre nom."; nom.focus(); return; }
+  if (type === "partenariat" && tel.value.replace(/\D/g, "").length < 10) { st.textContent = "Pour un partenariat, indiquez un numéro de téléphone valide."; tel.focus(); return; }
   btn.disabled = true; st.textContent = "Envoi…";
   try {
     const res = await fetch("/api/commentaires", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({
-      type: document.getElementById("fb-type").value, message: msg.value, courriel: document.getElementById("fb-email").value,
+      type, message: msg.value, nom: nom.value, telephone: tel.value, courriel: document.getElementById("fb-email").value,
       site_web: document.getElementById("fb-site").value, page: view + (shownFiche ? " / " + shownFiche : ""),
     }) });
     const json = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(json.error || "Envoi impossible pour le moment.");
-    msg.value = ""; st.textContent = "Merci ! Votre commentaire a été envoyé.";
+    msg.value = ""; st.textContent = type === "partenariat" ? "Merci ! Nous vous rappellerons bientôt." : "Merci ! Votre commentaire a été envoyé.";
   } catch (err) { st.textContent = err.message; }
   btn.disabled = false;
+});
+// Partenariat : nom et téléphone obligatoires, indications adaptées
+function fbTypeChanged() {
+  const part = document.getElementById("fb-type").value === "partenariat";
+  document.getElementById("fb-name").placeholder = part ? "Nom et entreprise" : "Nom (facultatif)";
+  document.getElementById("fb-phone").placeholder = part ? "Téléphone" : "Téléphone (facultatif)";
+  document.getElementById("fb-message").placeholder = part ? "Vos services (ex. : soins infirmiers à domicile), la région desservie et votre ordre professionnel." : "Ex. : la clinique X est fermée le samedi, contrairement à ce qui est affiché.";
+}
+document.getElementById("fb-type").addEventListener("change", fbTypeChanged);
+document.getElementById("care-contact").addEventListener("click", () => {
+  document.getElementById("fb-type").value = "partenariat"; fbTypeChanged();
+  document.getElementById("commentaires").scrollIntoView({ behavior: "smooth", block: "start" });
+  setTimeout(() => document.getElementById("fb-name").focus({ preventScroll: true }), 400);
 });
 // Langue : français ou anglais (traduction dans i18n.js). Le choix est gardé sur le téléphone.
 (function () {
