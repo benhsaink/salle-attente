@@ -130,6 +130,24 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .wk li{display:flex;justify-content:space-between;gap:8px}
 .wk li span{color:var(--muted);text-align:right}
 .wk li.today{font-weight:700}
+.pinfo{background:var(--warn-soft);border-radius:12px;padding:12px 14px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
+.pinfo p{margin:0}
+.pinfo b{color:var(--warn)}
+.pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.pill.pay{background:var(--warn-soft);color:var(--warn)}
+.svc{grid-column:2;display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.svc span{font-size:.76rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.svc span.hit{border-color:var(--accent);color:var(--accent);font-weight:700}
+.wk .all{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:4px}
+.wk .all li{font-size:.76rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
+#p-service{max-width:100%;min-width:0;flex:1 1 220px}
+.feedback{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-direction:column;gap:8px}
+.feedback form{display:flex;flex-direction:column;gap:8px}
+.feedback textarea,.feedback input,.feedback select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:9px 10px;width:100%;min-width:0}
+.feedback textarea{resize:vertical}
+.feedback button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:9px 16px;cursor:pointer}
+.feedback button:disabled{opacity:.6}
+.trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 /* Fiche par urgence */
 .head h3 a{color:inherit;text-decoration:none}
 .head h3 a:hover{text-decoration:underline}
@@ -177,7 +195,8 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
   <div id="main" class="stack">
   <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
     <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
-    <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques aujourd'hui</button>
+    <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques</button>
+    <button role="tab" id="t-pri" data-v="privees" aria-selected="false">💲 Privées</button>
   </div>
   <section class="controls" aria-label="Région et position">
     <div class="seg" role="group" aria-label="Région">
@@ -236,7 +255,40 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
     <ol class="list" id="clist"></ol>
     <p class="legend">Horaires, téléphones et façons de réserver : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Ils peuvent changer sans préavis : téléphonez avant de vous déplacer. Les « Rendez-vous le jour même » réservés aux patients inscrits sont pour les personnes suivies à cette clinique. En cas d'urgence grave, appelez le 911.</p>
   </div>
+
+  <div id="privateview" class="stack" hidden>
+    <section class="pinfo">
+      <p><b>Cliniques privées : consultation payante.</b> Les médecins de ces cliniques ne sont pas payés par la RAMQ. Vous payez la consultation, et les frais varient selon la clinique et le service : informez-vous auprès de la clinique avant d'y aller.</p>
+      <p>Sans moyen de payer ? Les cliniques de l'onglet « Cliniques » et le 811 sont gratuits. En cas d'urgence grave, appelez le 911.</p>
+    </section>
+    <section class="controls" aria-label="Filtres des cliniques privées">
+      <div class="row">
+        <select id="p-service" aria-label="Service ou spécialité"><option value="">Tous les services et spécialités</option></select>
+        <label class="chk"><input type="checkbox" id="p-open"> Ouvertes maintenant</label>
+      </div>
+      <div class="meta"><span id="p-updated">Chargement des cliniques privées…</span></div>
+    </section>
+    <ol class="list" id="plist"></ol>
+    <p class="legend">Adresses, téléphones, heures et services : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Seules les cliniques dont la fiche est complète sont affichées. Cliniques repérées grâce à la liste des médecins non participants de la RAMQ (septembre 2026). Les heures peuvent changer : téléphonez avant de vous déplacer.</p>
   </div>
+  </div>
+
+  <section class="feedback" id="commentaires" aria-labelledby="fb-title">
+    <h2 id="fb-title">Une erreur ? Une idée ?</h2>
+    <p class="legend">Signalez une information inexacte, un problème avec le site ou une suggestion. Chaque message est lu et sert à corriger le site. N'écrivez pas d'information médicale personnelle. Pour une urgence, appelez le 911.</p>
+    <form id="fb-form" novalidate>
+      <select id="fb-type" aria-label="Type de commentaire">
+        <option value="donnees">Information inexacte (heures, adresse, service…)</option>
+        <option value="site">Problème avec le site</option>
+        <option value="suggestion">Suggestion</option>
+        <option value="autre">Autre</option>
+      </select>
+      <textarea id="fb-message" rows="4" maxlength="2000" placeholder="Ex. : la clinique X est fermée le samedi, contrairement à ce qui est affiché." aria-label="Votre commentaire" required></textarea>
+      <input id="fb-email" type="email" maxlength="200" placeholder="Courriel (facultatif, pour une réponse)" aria-label="Courriel facultatif" autocomplete="email">
+      <input id="fb-site" name="site_web" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" class="trap">
+      <div class="row"><button type="submit" id="fb-send">Envoyer</button><span id="fb-status" class="legend" role="status"></span></div>
+    </form>
+  </section>
 
   <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
 </div>
@@ -450,7 +502,7 @@ function route() {
     const wasOpen = !fiche.hidden;
     fiche.hidden = true; main.hidden = false; shownFiche = null;
     document.title = "Salle d'attente";
-    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#urgences" ? "urgences" : view);
+    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#urgences" ? "urgences" : view);
     if (wasOpen) window.scrollTo(0, listScroll);
     return;
   }
@@ -469,15 +521,18 @@ function closeFiche() {
 
 // ---------- Onglets : Urgences / Cliniques ----------
 let view = "urgences";
-try { view = localStorage.getItem("sa-view") === "cliniques" ? "cliniques" : "urgences"; } catch (e) {}
+try { const v = localStorage.getItem("sa-view"); view = v === "cliniques" || v === "privees" ? v : "urgences"; } catch (e) {}
 function setView(v) {
   view = v;
   try { localStorage.setItem("sa-view", v); } catch (e) {}
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
   document.getElementById("listview").hidden = v !== "urgences";
   document.getElementById("clinicview").hidden = v !== "cliniques";
+  document.getElementById("privateview").hidden = v !== "privees";
   if (v === "cliniques" && !clinics && !clinicsLoading) loadClinics();
   else if (v === "cliniques") renderClinics();
+  if (v === "privees" && !privates && !privatesLoading) loadPrivates();
+  else if (v === "privees") renderPrivates();
 }
 
 // ---------- Cliniques ----------
@@ -608,6 +663,107 @@ function clinicCard(c, i) {
     li.appendChild(det);
   }
   return li;
+}
+
+// ---------- Cliniques privées (payantes) ----------
+let privates = null, privatesLoading = false;
+
+async function loadPrivates() {
+  privatesLoading = true;
+  const up = document.getElementById("p-updated");
+  try {
+    const res = await fetch("/api/privees");
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error || "Erreur");
+    privates = json.cliniques;
+    // Liste des services offerts par au moins 2 cliniques, du plus courant au plus rare.
+    const count = new Map();
+    privates.forEach(c => new Set(c.services).forEach(x => count.set(x, (count.get(x) || 0) + 1)));
+    const sel = document.getElementById("p-service");
+    let saved = ""; try { saved = localStorage.getItem("sa-pservice") || ""; } catch (e) {}
+    [...count].filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr")).forEach(([x, n]) => {
+      const o = document.createElement("option"); o.value = x; o.textContent = x + " (" + n + ")"; sel.appendChild(o);
+    });
+    if ([...sel.options].some(o => o.value === saved)) sel.value = saved;
+    const d = json.generatedAt ? new Date(json.generatedAt).toLocaleDateString("fr-CA", { day: "numeric", month: "long", timeZone: "America/Toronto" }) : null;
+    up.textContent = privates.length + " cliniques privées" + (d ? " · fiches officielles relues le " + d : "");
+  } catch (e) {
+    privates = null;
+    up.textContent = "Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.";
+  }
+  privatesLoading = false;
+  renderPrivates();
+}
+
+function privateCard(c, i, wanted) {
+  const [cls, label] = openState(c);
+  const li = el("li", "card");
+  li.appendChild(el("div", "rank", String(i + 1)));
+  const head = el("div", "head");
+  const pills = el("div", "pills");
+  pills.append(el("span", "pill pay", "💲 Payant"), el("span", "pill " + cls, label));
+  head.append(el("h3", "", c.nom), pills);
+  li.appendChild(head);
+  const where = el("div", "where"), d = km(c);
+  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
+  li.appendChild(where);
+
+  // Services : celui qu'on cherche d'abord, puis les premiers de la fiche.
+  const svc = el("div", "svc");
+  const first = wanted ? [wanted, ...c.services.filter(x => x !== wanted)] : c.services;
+  first.slice(0, 6).forEach(x => svc.appendChild(el("span", x === wanted ? "hit" : "", x)));
+  if (c.services.length > 6) svc.appendChild(el("span", "", "+ " + (c.services.length - 6) + " autres"));
+  li.appendChild(svc);
+
+  const act = el("div", "cl-act");
+  if (c.telephone) {
+    const a = el("a", "main", "📞 " + c.telephone);
+    a.href = "tel:+1" + c.telephone.replace(/\D/g, "");
+    a.setAttribute("aria-label", "Appeler " + c.nom);
+    act.appendChild(a);
+  }
+  if (c.site) { const a = el("a", "", "Site de la clinique"); a.href = c.site; a.target = "_blank"; a.rel = "noopener"; act.appendChild(a); }
+  li.appendChild(act);
+  const go = goLinks({ name: c.nom, address: [c.adresse.replace(/,? (bureau|unité|local|niveau|suite) .*$/i, ""), c.ville].filter(Boolean).join(", ") });
+  if (go) li.appendChild(go);
+
+  const det = el("details", "wk");
+  det.appendChild(el("summary", "", "Heures et tous les services"));
+  const now = quebecNow();
+  const ul = el("ul");
+  (c.jours || []).forEach(j => {
+    const [y, m, dd] = j.date.split("-").map(Number);
+    const name = new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+    const row = el("li", j.date === now.date ? "today" : "");
+    row.append(el("b", "", name.charAt(0).toUpperCase() + name.slice(1)), el("span", "", j.ferme ? "Fermée" : j.ouverture || "—"));
+    ul.appendChild(row);
+  });
+  det.appendChild(ul);
+  const all = el("ul", "all");
+  c.services.forEach(x => all.appendChild(el("li", "", x)));
+  det.appendChild(all);
+  const src = el("p", "cl-note");
+  const a = el("a", "", "Fiche officielle (Santé Québec)");
+  a.href = c.url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "var(--accent)";
+  src.append(a, document.createTextNode(c.miseAJour ? " · fiche mise à jour le " + c.miseAJour.replace(/,.*$/, "") : ""));
+  det.appendChild(src);
+  li.appendChild(det);
+  return li;
+}
+
+function renderPrivates() {
+  const list = document.getElementById("plist");
+  if (!list) return;
+  list.innerHTML = "";
+  if (!privates) return;
+  const wanted = document.getElementById("p-service").value, openOnly = document.getElementById("p-open").checked;
+  let rows = privates.filter(c => (region === "all" || c.region === region) && (!wanted || c.services.includes(wanted)));
+  const st = new Map(rows.map(c => [c, openState(c)]));
+  if (openOnly) rows = rows.filter(c => st.get(c)[2]);
+  rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
+  rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted)));
+  if (!rows.length) list.appendChild(el("li", "legend", "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
 }
 
 function renderClinics() {
@@ -873,6 +1029,7 @@ function render() {
   if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
   if (shownFiche) renderFiche(shownFiche);
   if (view === "cliniques") renderClinics();
+  if (view === "privees") renderPrivates();
 }
 
 document.querySelectorAll(".seg button[data-r]").forEach(b => b.addEventListener("click", () => {
@@ -894,10 +1051,29 @@ document.getElementById("list").addEventListener("click", e => {
 });
 document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
   setView(b.dataset.v);
-  history.replaceState(null, "", location.pathname + location.search + (b.dataset.v === "cliniques" ? "#cliniques" : ""));
+  history.replaceState(null, "", location.pathname + location.search + (b.dataset.v === "urgences" ? "" : "#" + b.dataset.v));
 }));
 document.getElementById("c-open").addEventListener("change", renderClinics);
 document.getElementById("c-all").addEventListener("change", renderClinics);
+document.getElementById("p-open").addEventListener("change", renderPrivates);
+document.getElementById("p-service").addEventListener("change", () => { try { localStorage.setItem("sa-pservice", document.getElementById("p-service").value); } catch (e) {} renderPrivates(); });
+// Commentaires : envoyés au propriétaire du site
+document.getElementById("fb-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  const btn = document.getElementById("fb-send"), st = document.getElementById("fb-status"), msg = document.getElementById("fb-message");
+  if (msg.value.trim().length < 5) { st.textContent = "Écrivez votre commentaire avant d'envoyer."; msg.focus(); return; }
+  btn.disabled = true; st.textContent = "Envoi…";
+  try {
+    const res = await fetch("/api/commentaires", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({
+      type: document.getElementById("fb-type").value, message: msg.value, courriel: document.getElementById("fb-email").value,
+      site_web: document.getElementById("fb-site").value, page: view + (shownFiche ? " / " + shownFiche : ""),
+    }) });
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(json.error || "Envoi impossible pour le moment.");
+    msg.value = ""; st.textContent = "Merci ! Votre commentaire a été envoyé.";
+  } catch (err) { st.textContent = err.message; }
+  btn.disabled = false;
+});
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();

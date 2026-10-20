@@ -82,3 +82,16 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - On en tire seulement ce que la fiche dit : adresse, position (lien « Comment s'y rendre »), téléphone, horaire des 7 prochains jours, façons de prendre rendez-vous le jour même, et si c'est pour tous ou pour les patients inscrits.
 - Ces fiches ne parlent pas de « sans rendez-vous » au sens strict : ce sont des rendez-vous le jour même. Le site le dit clairement, et il n'y a pas de places en temps réel.
 - Ajouter une clinique : ajouter une ligne dans `liste.json` avec son numéro de fiche (le `nofiche=` de son adresse sur sante.gouv.qc.ca). La lecture se relance toute seule.
+
+## Cliniques privées (onglet « Privées »)
+
+- `data/cliniques/privees-liste.json` : les cliniques privées repérées dans la liste RAMQ des médecins non participants (septembre 2026), avec leur numéro de fiche du Répertoire des ressources.
+- `repertoire.js` lit leurs fiches officielles chaque matin et écrit `data/cliniques/privees.json` (adresse, position, téléphone, heures, services).
+- Le site n'affiche que les cliniques dont la fiche est complète (adresse, position, téléphone, heures, services). Aucun tarif n'est affiché : seulement la mention « Payant ».
+- Filtre par service ou spécialité : la liste se construit à partir des services présents dans au moins 2 fiches.
+
+## Commentaires des utilisateurs
+
+- La section « Une erreur ? Une idée ? » au bas de la page envoie les messages à `/api/commentaires` (5 envois par heure au maximum par personne, champ piège contre les robots).
+- Chaque message apparaît dans Render, onglet **Logs**, sur une ligne qui commence par `COMMENTAIRE`.
+- Pour les recevoir par courriel : créer un formulaire gratuit sur formspree.io, puis dans Render, **Environment**, ajouter la variable `FEEDBACK_URL` avec l'adresse du formulaire (ex. `https://formspree.io/f/abcdwxyz`).

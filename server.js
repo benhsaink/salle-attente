@@ -14,7 +14,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 const CACHE_MINUTES = 10;
 
-const { MSSS_CSV, build, download, snapshots, computeStats, parseCSV, num } = require("./lib");
+const { MSSS_CSV, build, download, snapshots, computeStats, parseCSV, num, cleanService, NOT_SERVICE } = require("./lib");
 
 // Tendances calculées par la collecte automatique (GitHub Actions), lues directement sur GitHub.
 const STATS_URL = process.env.STATS_URL ||
@@ -128,35 +128,57 @@ async function recentHistory(name, hours) {
   });
 }
 
-// ---------- Cliniques (data/cliniques/cliniques.json, mis à jour chaque matin sur GitHub) ----------
-const CLINIC_URL = process.env.CLINIC_URL ||
-  "https://raw.githubusercontent.com/benhsaink/salle-attente/main/data/cliniques/cliniques.json";
-let clinics = null, clinicsTime = 0;
-async function getClinics() {
-  if (clinics && Date.now() - clinicsTime < 30 * 60e3) return clinics;
-  clinicsTime = Date.now();
-  let d = null;
-  try {
-    const res = await fetch(CLINIC_URL, { headers: { "User-Agent": "SalleAttente/1.0" }, signal: AbortSignal.timeout(20e3) });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    d = await res.json();
-  } catch (err) {
-    try { d = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "cliniques", "cliniques.json"), "utf8")); }
-    catch (e) { if (!clinics) throw err; return clinics; }
-  }
-  // On garde seulement ce que la page affiche, et l'horaire à partir d'aujourd'hui.
-  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
-  clinics = {
-    generatedAt: d.generatedAt, source: d.source,
-    cliniques: d.cliniques.map((c) => ({
-      nofiche: c.nofiche, nom: c.nom, nomOfficiel: c.nomOfficiel, region: c.region, url: c.url, lu: c.lu, miseAJour: c.miseAJour,
-      adresse: c.adresse, ville: c.ville, codePostal: c.codePostal, lat: c.lat, lon: c.lon,
-      telephone: c.telephone, telephoneSansRdv: c.telephoneSansRdv, site: c.site, reservation: c.reservation,
-      acces: c.acces, accesNote: c.accesNote, frais: c.frais,
-      jours: (c.jours || []).filter((j) => j.date >= today),
-    })),
+// ---------- Cliniques (data/cliniques/*.json, mis à jour chaque matin sur GitHub) ----------
+const RAW = process.env.RAW_URL || "https://raw.githubusercontent.com/benhsaink/salle-attente/main/";
+function clinicSource(file, extra) {
+  let cache = null, time = 0;
+  return async function get() {
+    if (cache && Date.now() - time < 30 * 60e3) return cache;
+    time = Date.now();
+    let d = null;
+    try {
+      const res = await fetch(RAW + "data/cliniques/" + file, { headers: { "User-Agent": "SalleAttente/1.0" }, signal: AbortSignal.timeout(20e3) });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      d = await res.json();
+    } catch (err) {
+      try { d = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "cliniques", file), "utf8")); }
+      catch (e) { if (!cache) throw err; return cache; }
+    }
+    // On garde seulement ce que la page affiche, et l'horaire à partir d'aujourd'hui.
+    const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+    cache = {
+      generatedAt: d.generatedAt, source: d.source,
+      cliniques: d.cliniques.map((c) => ({
+        nofiche: c.nofiche, nom: c.nom, nomOfficiel: c.nomOfficiel, region: c.region, url: c.url, lu: c.lu, miseAJour: c.miseAJour,
+        adresse: c.adresse, ville: c.ville, codePostal: c.codePostal, lat: c.lat, lon: c.lon,
+        telephone: c.telephone, telephoneSansRdv: c.telephoneSansRdv, site: c.site, reservation: c.reservation,
+        acces: c.acces, accesNote: c.accesNote, frais: c.frais,
+        jours: (c.jours || []).filter((j) => j.date >= today),
+        ...extra(c),
+      })).filter(Boolean),
+    };
+    return cache;
   };
-  return clinics;
+}
+const getClinics = clinicSource("cliniques.json", () => ({}));
+// Cliniques privées : seulement celles dont la fiche officielle donne adresse, position, téléphone, horaire et services.
+const getPrivate = clinicSource("privees.json", (c) => ({
+  services: [...new Set((c.services || []).map(cleanService).filter((x) => x && !NOT_SERVICE.test(x)))],
+}));
+// Certaines cliniques ajoutent une note après le nom du service (« Cardiologie Consultation RAMQ, frais… »).
+// On ramène chaque service au nom le plus long déjà connu au début de la ligne, et on écarte les mentions de frais.
+function tidyServices(cliniques) {
+  const known = [...new Set(cliniques.flatMap((c) => c.services))];
+  const base = (x) => known.filter((k) => k !== x && x.startsWith(k + " ")).sort((a, b) => b.length - a.length)[0] || x;
+  return cliniques.map((c) => ({
+    ...c,
+    services: [...new Set(c.services.map(base).filter((x) => !/frais|RAMQ|\$/i.test(x) && !NOT_SERVICE.test(x)))],
+  }));
+}
+async function getPrivateComplete() {
+  const d = await getPrivate();
+  const complete = d.cliniques.filter((c) => c.adresse && c.lat && c.telephone && c.services.length && c.jours.some((j) => j.ferme || j.heures.length));
+  return { ...d, cliniques: tidyServices(complete) };
 }
 
 // ---------- Relais des fiches du Répertoire des ressources ----------
@@ -171,6 +193,47 @@ async function getFiche(n) {
   if (fiches.size > 200) fiches.clear();
   fiches.set(n, { html, time: Date.now() });
   return html;
+}
+
+// ---------- Commentaires des utilisateurs ----------
+// Chaque commentaire est écrit dans les journaux de Render (onglet Logs) et, si FEEDBACK_URL est défini
+// (ex. un formulaire Formspree : https://formspree.io/f/xxxxxx), envoyé par courriel au propriétaire du site.
+const FEEDBACK_URL = process.env.FEEDBACK_URL || "";
+const sent = new Map(); // adresse IP -> envois de la dernière heure
+function readBody(req, max = 8000) {
+  return new Promise((resolve, reject) => {
+    let b = "";
+    req.on("data", (c) => { b += c; if (b.length > max) { reject(new Error("trop long")); req.destroy(); } });
+    req.on("end", () => resolve(b));
+    req.on("error", reject);
+  });
+}
+async function handleFeedback(req, res) {
+  const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8" }); res.end(JSON.stringify(body)); };
+  if (req.method !== "POST") return json(405, { error: "Méthode non permise" });
+  const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
+  const now = Date.now(), recent = (sent.get(ip) || []).filter((t) => now - t < 3600e3);
+  if (recent.length >= 5) return json(429, { error: "Trop d'envois. Réessayez dans une heure." });
+  let d;
+  try { d = JSON.parse(await readBody(req)); } catch (e) { return json(400, { error: "Message illisible." }); }
+  if (d.site_web) return json(200, { ok: true }); // champ piège pour les robots
+  const message = String(d.message || "").trim().slice(0, 2000);
+  if (message.length < 5) return json(400, { error: "Écrivez votre commentaire (au moins quelques mots)." });
+  const item = {
+    type: ["donnees", "site", "suggestion", "autre"].includes(d.type) ? d.type : "autre",
+    message, courriel: String(d.courriel || "").trim().slice(0, 200), page: String(d.page || "").slice(0, 200),
+    date: new Date().toISOString(),
+  };
+  recent.push(now); sent.set(ip, recent);
+  if (sent.size > 5000) sent.clear();
+  console.log("COMMENTAIRE " + JSON.stringify(item));
+  if (FEEDBACK_URL) {
+    try {
+      const r = await fetch(FEEDBACK_URL, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...item, _subject: "Salle d'attente : " + item.type }), signal: AbortSignal.timeout(15e3) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+    } catch (err) { console.error("Envoi du commentaire :", err.message); }
+  }
+  json(200, { ok: true });
 }
 
 // ---------- Relais du fichier du ministère ----------
@@ -250,6 +313,19 @@ http.createServer(async (req, res) => {
       console.error("Cliniques :", err.message);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
       res.end(JSON.stringify({ error: "Liste des cliniques indisponible pour le moment." }));
+    }
+    return;
+  }
+  if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
+  if (url.pathname === "/api/privees") {
+    try {
+      const d = await getPrivateComplete();
+      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" });
+      res.end(JSON.stringify(d));
+    } catch (err) {
+      console.error("Cliniques privées :", err.message);
+      res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
+      res.end(JSON.stringify({ error: "Liste des cliniques privées indisponible pour le moment." }));
     }
     return;
   }

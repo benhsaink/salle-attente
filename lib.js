@@ -320,6 +320,19 @@ function ranges(s) {
   return out;
 }
 
+// Nom d'un service, sans les mentions de frais, de clientèle ni de rendez-vous ajoutées par la clinique.
+function cleanService(line) {
+  return String(line)
+    .replace(/\s*\((des frais sont exigés|pour tous|pour les patients inscrits)[^)]*\)/gi, "")
+    .replace(/\s+(Avec|Sans) rendez-vous\b.*$/i, "")
+    .replace(/\s+Pour tous les services\b.*$/i, "")
+    .replace(/\(\s+/g, "(").replace(/\s+\)/g, ")")
+    .replace(/\s{2,}.*/, "").trim();
+}
+// Lignes de la section qui ne sont pas des services.
+// (y compris les phrases de présentation que certaines cliniques y écrivent : listes à tirets, phrases finissant par « : » ou « ; »).
+const NOT_SERVICE = /^(Renseignements importants|Services spécifiques|Médecin (non participant|désengagé)|Ressources ITSS)|^[-•*]|[:;.]$|succursale|frais|coût|débourser|\$/i;
+
 // Texte d'une fiche -> informations utiles. Ne garde que ce qui est écrit dans la fiche.
 function parseFiche(text) {
   const L = String(text).split("\n").map((l) => l.trim()).filter(Boolean);
@@ -389,8 +402,8 @@ function parseFiche(text) {
   const iS = at(/^Services offerts et spécialités$/), iA = at(/^Accessibilité$/, iS + 1);
   out.services = [];
   for (let i = iS + 1; iS >= 0 && i < (iA < 0 ? L.length : iA); i++) {
-    const s = L[i].replace(/\s*\((des frais sont exigés|pour tous|pour les patients inscrits)[^)]*\)/gi, "").replace(/\s{2,}.*/, "").trim();
-    if (s && s.length < 90 && !out.services.includes(s)) out.services.push(s);
+    const s = cleanService(L[i]);
+    if (s && s.length < 90 && !NOT_SERVICE.test(s) && !out.services.includes(s)) out.services.push(s);
   }
   return out;
 }
@@ -413,7 +426,7 @@ function ficheLinks(html) {
 }
 
 module.exports = {
-  htmlText, parseFiche, ficheLinks, ranges,
+  htmlText, parseFiche, ficheLinks, ranges, cleanService, NOT_SERVICE,
   MSSS_CSV, SOURCE_CSV, SOURCE_API, fetchCSV, norm, num, decode, parseCSV, columns, region, build, download,
   parseTime, stampOf, snapshots, computeStats, HISTORY_COLUMNS,
 };
