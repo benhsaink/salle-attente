@@ -96,3 +96,14 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Chaque message apparaît dans Render, onglet **Logs**, sur une ligne qui commence par `COMMENTAIRE`.
 - Pour les recevoir par courriel : créer un formulaire gratuit sur formspree.io, puis dans Render, **Environment**, ajouter la variable `FEEDBACK_URL` avec l'adresse du formulaire (ex. `https://formspree.io/f/abcdwxyz`).
 - Vérification du 20 octobre 2026 : sites officiels des CISSS/CIUSSS et fiches du Répertoire consultés pour les 22 urgences générales. Seule Maisonneuve-Rosemont est confirmée (« offre des services en pédiatrie », page Urgence du CIUSSS de l'Est). Les fiches d'hôpitaux du Répertoire ne listent pas leurs services. Les autres pages consultées ne mentionnent pas de section pédiatrique à l'urgence : on ne les ajoute pas.
+
+## Capitale-Nationale (bouton « Québec »)
+
+- 12 urgences de la région 03 ajoutées à `PLACES` (lib.js), avec l'adresse et la position de leur fiche officielle du Répertoire (20 octobre 2026).
+- 8 GMF-A/R (liste Québec.ca) dans `liste.json` et 8 cliniques privées dans `privees-liste.json`, avec `"region": "qc"`.
+- Aucune urgence pédiatrique confirmée par une source officielle dans la région pour l'instant (CHUL non confirmé) : rien d'ajouté à `PEDS`.
+
+## Recherche par adresse ou code postal
+
+- `/api/adresse?q=…` : le serveur demande la position à Nominatim (OpenStreetMap), au plus 1 requête par seconde, résultats gardés en mémoire, 30 recherches par heure et par personne. L'adresse n'est pas écrite dans les journaux.
+- Si Nominatim ne connaît pas un code postal complet, on prend le secteur (3 premiers caractères) et le site l'indique.

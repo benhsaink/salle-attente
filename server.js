@@ -195,6 +195,64 @@ async function getFiche(n) {
   return html;
 }
 
+// ---------- Recherche d'une adresse ou d'un code postal ----------
+// Le site envoie l'adresse tapée par la personne ; on la transmet à Nominatim (OpenStreetMap) pour obtenir
+// une position, puis on ne garde que le résultat en mémoire (pas l'adresse de la personne dans des journaux).
+// Règles de Nominatim : au plus 1 requête par seconde, un User-Agent qui identifie le site, mention d'OpenStreetMap.
+const GEOCODE_URL = process.env.GEOCODE_URL || "https://nominatim.openstreetmap.org/search";
+const geoCache = new Map(), geoUse = new Map();
+let geoLast = 0, geoChain = Promise.resolve();
+const QC_BOX = "-79.8,62.6,-57.1,44.9"; // le Québec
+async function nominatim(params) {
+  const run = async () => {
+    const wait = 1100 - (Date.now() - geoLast);
+    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+    geoLast = Date.now();
+    const u = new URL(GEOCODE_URL);
+    for (const [k, v] of Object.entries({ format: "jsonv2", limit: "1", countrycodes: "ca", "accept-language": "fr", viewbox: QC_BOX, bounded: "1", ...params })) u.searchParams.set(k, v);
+    const res = await fetch(u, { headers: { "User-Agent": "SalleAttente/1.0 (salle-attente.onrender.com)" }, signal: AbortSignal.timeout(10e3) });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return (await res.json())[0] || null;
+  };
+  const p = geoChain.then(run, run);
+  geoChain = p.catch(() => {});
+  return p;
+}
+async function geocode(q) {
+  const key = q.toLowerCase();
+  if (geoCache.has(key)) return geoCache.get(key);
+  const pc = q.toUpperCase().replace(/\s+/g, "").match(/^([A-Z]\d[A-Z])(\d[A-Z]\d)?$/);
+  let hit = null, precision = "adresse";
+  if (pc) {
+    if (pc[2]) hit = await nominatim({ postalcode: pc[1] + " " + pc[2], country: "ca" });
+    if (!hit) { hit = await nominatim({ postalcode: pc[1], country: "ca" }); precision = "secteur"; }
+  } else {
+    hit = await nominatim({ q: q + ", Québec" });
+  }
+  const out = hit ? { lat: +(+hit.lat).toFixed(5), lon: +(+hit.lon).toFixed(5), label: String(hit.display_name || "").split(",").slice(0, 3).join(",").trim(), precision } : null;
+  if (geoCache.size > 1000) geoCache.clear();
+  geoCache.set(key, out);
+  return out;
+}
+async function handleGeocode(req, res, url) {
+  const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" }); res.end(JSON.stringify(body)); };
+  const q = (url.searchParams.get("q") || "").trim().replace(/\s+/g, " ");
+  if (q.length < 3 || q.length > 150) return json(400, { error: "Entrez une adresse ou un code postal." });
+  const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
+  const now = Date.now(), recent = (geoUse.get(ip) || []).filter((t) => now - t < 3600e3);
+  if (recent.length >= 30) return json(429, { error: "Trop de recherches. Réessayez dans un moment." });
+  recent.push(now); geoUse.set(ip, recent);
+  if (geoUse.size > 5000) geoUse.clear();
+  try {
+    const r = await geocode(q);
+    if (!r) return json(404, { error: "Adresse introuvable. Essayez avec le numéro, la rue et la ville, ou un code postal." });
+    json(200, r);
+  } catch (err) {
+    console.error("Recherche d'adresse :", err.message);
+    json(502, { error: "Recherche d'adresse indisponible pour le moment." });
+  }
+}
+
 // ---------- Commentaires des utilisateurs ----------
 // Chaque commentaire est écrit dans les journaux de Render (onglet Logs) et, si FEEDBACK_URL est défini
 // (ex. un formulaire Formspree : https://formspree.io/f/xxxxxx), envoyé par courriel au propriétaire du site.
@@ -317,6 +375,7 @@ http.createServer(async (req, res) => {
     return;
   }
   if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
+  if (url.pathname === "/api/adresse") return handleGeocode(req, res, url);
   if (url.pathname === "/api/privees") {
     try {
       const d = await getPrivateComplete();

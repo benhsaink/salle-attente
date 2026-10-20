@@ -19,6 +19,19 @@ const SOURCE_FILE = process.env.SOURCE_FILE;
 // Les positions servent au calcul de distance (à vol d'oiseau, précision d'environ 1 km) ;
 // l'itinéraire, lui, utilise l'adresse. Un mot-clé qui commence par « = » doit égaler le nom complet. Le plus précis d'abord (ex. « pour enfants » avant « de montreal »).
 const PLACES = [
+  // Capitale-Nationale (adresses et positions : fiches officielles du Répertoire des ressources, 20 octobre 2026)
+  ["=centre hospitalier de l universite laval", "qc", "Sainte-Foy (CHUL)", 46.76787, -71.28234, "2705 boulevard Laurier, Québec"],
+  ["l enfant-jesus", "qc", "Limoilou", 46.8372, -71.2255, "1401 18e Rue, Québec"],
+  ["saint-sacrement", "qc", "Montcalm", 46.79901, -71.24657, "1050 chemin Sainte-Foy, Québec"],
+  ["saint-francois d assise", "qc", "Limoilou", 46.8275, -71.23669, "10 rue De L'Espinay, Québec"],
+  ["l hotel-dieu de quebec", "qc", "Vieux-Québec", 46.81539, -71.211, "11 côte du Palais, Québec"],
+  ["cardiologie et de pneumologie de quebec", "qc", "Sainte-Foy", 46.77844, -71.29806, "2725 chemin Sainte-Foy, Québec"],
+  ["chauveau", "qc", "Loretteville", 46.85365, -71.3709, "11999 rue de l'Hôpital, Québec"],
+  ["de baie-saint-paul", "qc", "Baie-Saint-Paul", 47.44017, -70.51123, "88 rue Racine, Baie-Saint-Paul"],
+  ["la malbaie", "qc", "La Malbaie", 47.65619, -70.15174, "303 rue Saint-Étienne, La Malbaie"],
+  ["saint-raymond", "qc", "Saint-Raymond (Portneuf)", 46.89493, -71.82215, "700 rue Saint-Cyrille, Saint-Raymond"],
+  ["sainte-anne-de-beaupre", "qc", "Beaupré", 47.04274, -70.9002, "11000 rue des Montagnards, Beaupré"],
+  ["saint-marc-des-carrieres", "qc", "Saint-Marc-des-Carrières", 46.68055, -72.05029, "1045 boulevard Bona-Dussault, Saint-Marc-des-Carrières"],
   // Montréal
   ["centre hospitalier de l universite de montreal", "mtl", "Centre-ville", 45.5113, -73.5574, "1051 rue Sanguinet, Montréal"],
   ["sainte-justine", "mtl", "Côte-des-Neiges", 45.5030, -73.6243, "3175 chemin de la Côte-Sainte-Catherine, Montréal"],
@@ -132,10 +145,10 @@ function columns(keys) {
 
 function region(etab, inst) {
   const n = norm(inst), e = norm(etab);
-  // Les hôpitaux de Québec (CHU de Québec – Université Laval) ne sont pas à Laval !
-  if (e.includes("universite laval") || e.includes("de quebec")) return null;
   for (const [key, reg, area, lat, lon, address] of PLACES)
     if (key.startsWith("=") ? n === key.slice(1) : n.includes(key)) return { reg, area, lat, lon, address };
+  // Les hôpitaux de Québec (CHU de Québec – Université Laval) ne sont pas à Laval !
+  if (e.includes("universite laval") || e.includes("de quebec")) return null;
   if (/\blaval\b/.test(e)) return { reg: "lav", area: "Laval" };
   if (e.includes("montreal") || e.includes("mcgill") || e.includes("chum") || e.includes("cusm") ||
       e.includes("muhc") || e.includes("sainte-justine") || n.includes("montreal"))
