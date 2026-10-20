@@ -55,3 +55,11 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 2. Historique des données dans une base de données, pour les prévisions « meilleur moment pour y aller ».
 3. Comptes utilisateurs, alertes et abonnement payant (Stripe).
 4. Application mobile (iPhone et Android).
+
+## Historique et « meilleurs moments »
+
+- `collect.js` enregistre les données du ministère dans `data/historique/` (un fichier par mois) et calcule `data/stats.json`.
+- Il est lancé automatiquement toutes les 6 heures par GitHub Actions (`.github/workflows/collecte.yml`). Onglet **Actions** du dépôt : bouton **Run workflow** pour une collecte manuelle.
+- Le fichier du ministère couvre 7 jours : une collecte manquée se rattrape toute seule.
+- Le site lit `data/stats.json` sur GitHub (une fois par heure). Sans historique, il calcule les tendances à partir des 7 derniers jours.
+- Les urgences psychiatriques sont cachées par défaut et s'affichent avec la case « Urgences psychiatriques ».
