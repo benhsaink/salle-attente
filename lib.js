@@ -59,7 +59,10 @@ const KIDS = ["sainte-justine", "enfants", "children"];
 // confirmé par une source officielle (site de l'hôpital ou du CISSS/CIUSSS), avec le lien et la date :
 //   ["mot-cle du nom", "https://source-officielle", "AAAA-MM-JJ"],
 // Toutes les urgences générales soignent les enfants : cette liste ne sert qu'à signaler une section dédiée.
-const PEDS = [];
+const PEDS = [
+  // « Dirigez-vous vers l'urgence de l'Hôpital Maisonneuve-Rosemont qui offre des services en pédiatrie. » (page Urgence du CIUSSS de l'Est, mise à jour le 2026-06-13)
+  ["maisonneuve-rosemont", "https://ciusss-estmtl.gouv.qc.ca/informations-pratiques/urgence", "2026-10-20"],
+];
 // Urgences psychiatriques : gardées, mais affichées seulement avec le filtre « Psychiatrie ».
 const PSY = ["sante mentale", "psychiatri", "albert-prevost", "albert prevost", "louis-h", "douglas", "pinel"];
 

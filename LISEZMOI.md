@@ -66,7 +66,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 
 ## Section pédiatrique
 
-- La case « Pédiatrique seulement » montre les hôpitaux pour enfants, et aussi les hôpitaux généraux listés dans `PEDS` (lib.js), avec l'étiquette « Section pédiatrique ».
+- La case « Pédiatrique seulement » montre les hôpitaux pour enfants, et aussi les hôpitaux généraux listés dans `PEDS` (lib.js), avec l'étiquette « Services pédiatriques ».
 - `PEDS` est vide pour l'instant : on n'y ajoute un hôpital que s'il est confirmé par une source officielle (lien + date dans la ligne).
 
 ## Fiche par urgence
@@ -95,3 +95,4 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - La section « Une erreur ? Une idée ? » au bas de la page envoie les messages à `/api/commentaires` (5 envois par heure au maximum par personne, champ piège contre les robots).
 - Chaque message apparaît dans Render, onglet **Logs**, sur une ligne qui commence par `COMMENTAIRE`.
 - Pour les recevoir par courriel : créer un formulaire gratuit sur formspree.io, puis dans Render, **Environment**, ajouter la variable `FEEDBACK_URL` avec l'adresse du formulaire (ex. `https://formspree.io/f/abcdwxyz`).
+- Vérification du 20 octobre 2026 : sites officiels des CISSS/CIUSSS et fiches du Répertoire consultés pour les 22 urgences générales. Seule Maisonneuve-Rosemont est confirmée (« offre des services en pédiatrie », page Urgence du CIUSSS de l'Est). Les fiches d'hôpitaux du Répertoire ne listent pas leurs services. Les autres pages consultées ne mentionnent pas de section pédiatrique à l'urgence : on ne les ajoute pas.
