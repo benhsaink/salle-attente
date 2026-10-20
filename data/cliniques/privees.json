@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T06:38:41.608Z",
+ "generatedAt": "2026-10-20T06:51:55.964Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -99,6 +99,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Cardiologie",
     "Changement et/ou suivi de pansement",
@@ -341,6 +342,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Allergologie",
     "Changement et/ou suivi de pansement",
@@ -465,6 +467,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Chirurgie mineure",
     "Contraception",
@@ -586,6 +589,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -709,6 +713,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Cardiologie médecins désaffiliés de la RAMQ",
     "Changement et/ou suivi de pansement",
@@ -852,6 +857,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Contraception",
@@ -988,6 +994,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Changement et/ou suivi de pansement",
@@ -1129,6 +1136,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": true,
    "services": [
     "Cessation tabagisme",
     "Changement et/ou suivi de pansement",
@@ -1298,6 +1306,7 @@
    "acces": "inscrits",
    "accesNote": "Avec rendez-vous",
    "frais": true,
+   "nonParticipant": true,
    "services": [
     "Attelle plâtrée ou autre immobilisation nécessaire",
     "Bilan sanguin",
@@ -1502,6 +1511,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Consultations médicales le jour même ou dans les jours suivants",
     "Dépistage",
@@ -1623,6 +1633,7 @@
    "acces": "tous",
    "accesNote": "RDV en ligne de notre site web ou par téléphone.",
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Contraception",
@@ -1739,6 +1750,7 @@
    "acces": "tous",
    "accesNote": "Appeler pour avoir un rendez-vous avant de vous déplacer. Vous pouvez téléphoner entre 7h30 et 16h30.",
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Infirmier/Infirmière clinicienne",
     "Infirmier/Infirmière praticienne spécialisée",
@@ -1864,6 +1876,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Bilan sanguin",
     "Bilan santé / Examen annuel",
@@ -1985,6 +1998,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Chirurgie",
     "Chirurgie mineure",
@@ -2098,6 +2112,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Bilan santé / Examen annuel",
     "Changement et/ou suivi de pansement",
@@ -2225,6 +2240,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Chirurgie",
     "Chirurgie mineure",
@@ -2336,6 +2352,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie",
@@ -2457,6 +2474,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -2562,6 +2580,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
     "Médecine familiale",
@@ -2665,6 +2684,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Chirurgie mineure",
     "Contraception",
@@ -2777,6 +2797,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement ARV",
     "Chirurgie mineure ARV",
@@ -2898,6 +2919,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Contraception",
     "Contraception orale d'urgence",
@@ -3006,6 +3028,7 @@
    "acces": "tous",
    "accesNote": "Appelez avant de vous déplacer. Rendez-vous possible selon disponibilité de la journée.",
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Audiologie",
     "Changement et/ou suivi de pansement",
@@ -3138,6 +3161,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Audioprothésie",
     "Chirurgie Petites chirurgies",
@@ -3259,6 +3283,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -3390,6 +3415,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Adaptation sociale",
     "Changement et/ou suivi de pansement",
@@ -3518,6 +3544,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": false,
    "services": [
     "Audiologie",
     "Audioprothésie",
@@ -3646,6 +3673,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Consultation d'une infirmière",
     "Infirmier/Infirmière auxiliaire",
@@ -3761,6 +3789,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure Cryothérapie, suture",
@@ -3888,6 +3917,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -4001,6 +4031,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Changement et/ou suivi de pansement",
     "Contraception",
@@ -4185,6 +4216,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Chirurgie",
     "Dermatologie",
@@ -4295,6 +4327,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Contraception",
     "Médecine familiale",
@@ -4407,6 +4440,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chiropratique",
@@ -4530,6 +4564,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Dermatologie",
     "Dépistage ITSS avec symptômes",
@@ -4663,6 +4698,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Chirurgie",
     "Chirurgie mineure",
@@ -4769,6 +4805,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Bilan santé / Examen annuel Médecine préventive",
     "Diététique",
@@ -4883,6 +4920,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -5037,6 +5075,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": true,
    "services": [
     "Chirurgie mineure",
     "Contraception",

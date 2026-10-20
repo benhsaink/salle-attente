@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T06:36:49.683Z",
+ "generatedAt": "2026-10-20T06:50:54.817Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -95,6 +95,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Adaptation sociale",
     "Allergologie",
@@ -285,6 +286,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie",
@@ -414,6 +416,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -662,6 +665,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -833,6 +837,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Changement et/ou suivi de pansement",
@@ -1099,6 +1104,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": true,
+   "nonParticipant": true,
    "services": [
     "Allergologie",
     "Cessation tabagisme",
@@ -1359,6 +1365,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Chirurgie Générale",
     "Chirurgie mineure",
@@ -1709,6 +1716,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Audiologie",
     "Audioprothésie",
@@ -1981,6 +1989,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Acupuncture",
     "Adaptation sociale",
@@ -2250,6 +2259,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": true,
    "services": [
     "Allergologie",
     "Changement et/ou suivi de pansement",
@@ -2527,6 +2537,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Cardiologie",
@@ -2665,6 +2676,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Chirurgie",
@@ -2924,6 +2936,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie Générale",
@@ -3094,6 +3107,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Avortement- Interruption volontaire de grossesse (IVG)",
     "Béquilles (location)",
@@ -3239,6 +3253,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Changement et/ou suivi de pansement",
@@ -3503,6 +3518,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": true,
    "services": [
     "Acupuncture",
     "Allergologie",
@@ -3780,6 +3796,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Audioprothésie",
     "Cardiologie",
@@ -4059,6 +4076,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie Avec référence au via CRDS",
@@ -4194,6 +4212,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Chirurgie",
@@ -4457,6 +4476,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie Générale",
@@ -4600,6 +4620,7 @@
    "acces": "tous",
    "accesNote": "Aucun rendez-vous n'est accordé sur place. Présentez-vous uniquement sur rendez-vous.",
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement Pour les patients de la clinique seulement",
     "Chirurgie générale",
@@ -4732,6 +4753,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Adaptation sociale",
     "Cardiologie",
@@ -5007,6 +5029,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -5265,6 +5288,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Chirurgie mineure",
@@ -5512,6 +5536,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Adaptation sociale",
     "Cessation tabagisme",
@@ -5773,6 +5798,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Ajustement d'appareil",
     "Cessation tabagisme",
@@ -5917,6 +5943,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Adaptation sociale",
     "Audiologie",
@@ -6205,6 +6232,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie",
@@ -6387,6 +6415,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie",
@@ -6524,6 +6553,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Chirurgie",
     "Chirurgie mineure",
@@ -6783,6 +6813,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Audiologie",
     "Changement et/ou suivi de pansement",
@@ -7070,6 +7101,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Consultations médicales le jour même ou dans les jours suivants",
     "Médecine familiale",
@@ -7189,6 +7221,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Consultations médicales le jour même ou dans les jours suivants",
     "Dermatologie",
@@ -7311,6 +7344,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Chirurgie générale",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -7453,6 +7487,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -7577,6 +7612,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Audiologie",
     "Chirurgie",
@@ -7711,6 +7747,7 @@
    "acces": "inscrits",
    "accesNote": "Priorité offerte pour clientèle inscrite",
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Cardiologie",
@@ -7877,6 +7914,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -8010,6 +8048,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Chirurgie générale",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -8132,6 +8171,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Chirurgie",
@@ -8265,6 +8305,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Audiologie",
@@ -8412,6 +8453,7 @@
    "telephoneSansRdv": false,
    "acces": null,
    "accesNote": null,
+   "nonParticipant": false,
    "services": [
     "Allergologie Clientèle inscrite seulement",
     "Cardiologie",
@@ -8543,6 +8585,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Cardiologie",
     "Changement et/ou suivi de pansement",
@@ -8683,6 +8726,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Chirurgie",
@@ -8924,6 +8968,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Chirurgie mineure",
@@ -9049,6 +9094,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Changement et/ou suivi de pansement",
     "Consultations médicales le jour même ou dans les jours suivants",
@@ -9166,6 +9212,7 @@
    "acces": "inscrits",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Chirurgie mineure",
@@ -9301,6 +9348,7 @@
    "acces": "tous",
    "accesNote": null,
    "frais": false,
+   "nonParticipant": false,
    "services": [
     "Allergologie",
     "Changement et/ou suivi de pansement",
@@ -9341,6 +9389,350 @@
    "lat": 45.72603,
    "lon": -73.50727,
    "site": "http://www.polycliniquepierrelegardeur.com",
+   "reservation": {}
+  },
+  {
+   "nom": "UP Centre d'urgences pédiatriques (Brossard)",
+   "nofiche": 939234,
+   "region": "rs",
+   "enfants": true,
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=939234",
+   "lu": "2026-10-20",
+   "nomOfficiel": "UP CENTRE D'URGENCES PÉDIATRIQUES (BROSSARD)",
+   "adresse": "1100, rue du Lux, unité 420",
+   "ville": "Brossard",
+   "codePostal": "J4Y 0E2",
+   "telephone": "450 693-0323",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "21 août 2026, 17 h 16",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Allergologie",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Chirurgie plastique",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Médecine sportive",
+    "Oxygène",
+    "PFSI – Programme Fédéral de Santé Intérimaire",
+    "Pose de plâtre",
+    "Pédiatrie",
+    "Radiologie Radiologie simple - echographie",
+    "Soins infirmiers",
+    "Équipement spécialisé"
+   ],
+   "lat": 45.44574,
+   "lon": -73.43768,
+   "site": "https://centreup.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "UP Centre d'urgences pédiatriques (Saint-Eustache)",
+   "nofiche": 1121326,
+   "region": "rn",
+   "enfants": true,
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1121326",
+   "lu": "2026-10-20",
+   "nomOfficiel": "UP CENTRE D'URGENCES PÉDIATRIQUES ET SOINS SPÉCIALISÉS (LAURENTIDES)",
+   "adresse": "375, avenue Mathers, bureau 200",
+   "ville": "Saint-Eustache",
+   "codePostal": "J7P 4C1",
+   "telephone": "450 693-0323",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "04 avril 2024, 17 h 48",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Clientèles pédiatriques seulement",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Pédiatrie",
+    "Soins infirmiers",
+    "Urgences pédiatriques"
+   ],
+   "lat": 45.58149,
+   "lon": -73.8761,
+   "site": "https://centreup.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique Urgences pédiatriques de Blainville",
+   "nofiche": 980800,
+   "region": "rn",
+   "enfants": true,
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=980800",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE URGENCES PÉDIATRIQUES DE BLAINVILLE",
+   "adresse": "1120, boulevard du Curé-Labelle",
+   "ville": "Blainville",
+   "codePostal": "J7C 2M9",
+   "telephone": "450 818-5008",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "17 septembre 2024, 18 h 19",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 45.67913,
+   "lon": -73.88789,
+   "site": null,
    "reservation": {}
   }
  ]
