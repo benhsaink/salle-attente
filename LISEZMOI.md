@@ -68,3 +68,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 
 - La case « Pédiatrique seulement » montre les hôpitaux pour enfants, et aussi les hôpitaux généraux listés dans `PEDS` (lib.js), avec l'étiquette « Section pédiatrique ».
 - `PEDS` est vide pour l'instant : on n'y ajoute un hôpital que s'il est confirmé par une source officielle (lien + date dans la ligne).
+
+## Fiche par urgence
+
+- Chaque urgence a sa fiche : touche son nom (ou « Voir la fiche ») dans la liste. L'adresse est du type `/#fiche=NOM`, qu'on peut partager.
+- La fiche montre la situation actuelle détaillée, l'itinéraire, les 24 dernières heures (lues dans `data/historique/` par `/api/historique?nom=…`) et la semaine type dès 7 jours d'historique.
+- Aucune information de service (téléphone, horaires, spécialités) n'y est ajoutée sans source officielle.

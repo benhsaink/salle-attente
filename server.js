@@ -14,7 +14,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 const CACHE_MINUTES = 10;
 
-const { MSSS_CSV, build, download, snapshots, computeStats } = require("./lib");
+const { MSSS_CSV, build, download, snapshots, computeStats, parseCSV, num } = require("./lib");
 
 // Tendances calculées par la collecte automatique (GitHub Actions), lues directement sur GitHub.
 const STATS_URL = process.env.STATS_URL ||
@@ -87,6 +87,47 @@ async function withTrends(d, hospitals) {
   };
 }
 
+// ---------- Historique récent d'une urgence (fiche) ----------
+// Les fichiers mensuels data/historique/AAAA-MM.csv sont lus sur GitHub (copie locale en secours).
+const HIST_URL = process.env.HIST_URL ||
+  "https://raw.githubusercontent.com/benhsaink/salle-attente/main/data/historique/";
+const HIST_MINUTES = 20;
+const months = new Map(); // "AAAA-MM" -> { rows, time }
+
+async function getMonth(ym) {
+  const m = months.get(ym);
+  if (m && Date.now() - m.time < HIST_MINUTES * 60e3) return m.rows;
+  let rows = null;
+  try {
+    const res = await fetch(HIST_URL + ym + ".csv", { headers: { "User-Agent": "SalleAttente/1.0" }, signal: AbortSignal.timeout(20e3) });
+    if (res.status === 404) rows = [];
+    else if (!res.ok) throw new Error("HTTP " + res.status);
+    else rows = parseCSV(await res.text());
+  } catch (err) {
+    try { rows = parseCSV(fs.readFileSync(path.join(__dirname, "data", "historique", ym + ".csv"), "utf8")); }
+    catch (e) { rows = m ? m.rows : []; }
+  }
+  months.set(ym, { rows, time: Date.now() });
+  return rows;
+}
+
+// Mois actuel et précédent, à l'heure du Québec.
+function recentMonths() {
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Toronto" }));
+  const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+  const ym = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0");
+  return [ym(prev), ym(now)];
+}
+
+async function recentHistory(name, hours) {
+  const all = (await Promise.all(recentMonths().map(getMonth))).flat();
+  const rows = all.filter((r) => r.installation === name && r.horodatage).sort((a, b) => a.horodatage.localeCompare(b.horodatage));
+  return rows.slice(-hours).map((r) => {
+    const civ = num(r.civieres), occ = num(r.occupees);
+    return { t: r.horodatage, rate: civ && occ !== null ? Math.round((occ / civ) * 100) : null, pec: num(r.en_attente_medecin), present: num(r.presents) };
+  });
+}
+
 // ---------- Relais du fichier du ministère ----------
 // Le ministère bloque les serveurs de GitHub, mais pas Render. La collecte automatique
 // (collect.js sur GitHub Actions) lit donc le fichier brut ici : /api/source.csv
@@ -137,6 +178,17 @@ http.createServer(async (req, res) => {
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
       res.end(JSON.stringify({ error: "Les données du ministère sont indisponibles pour le moment." }));
     }
+    return;
+  }
+  if (url.pathname === "/api/historique") {
+    const name = (url.searchParams.get("nom") || "").trim();
+    const json = (code, body) => {
+      res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=600" });
+      res.end(JSON.stringify(body));
+    };
+    if (!name || name.length > 200) return json(400, { error: "Nom d'urgence manquant" });
+    try { json(200, { name, points: await recentHistory(name, 24) }); }
+    catch (err) { console.error("Historique :", err.message); json(502, { error: "Historique indisponible" }); }
     return;
   }
   // Fichiers du site

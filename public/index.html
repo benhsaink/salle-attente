@@ -107,6 +107,33 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 .feat p{margin:4px 0 0;color:var(--muted);font-size:.86rem}
 .price{font-family:var(--f-display);font-weight:700;color:var(--accent)}
 footer{color:var(--muted);font-size:.78rem}
+/* Fiche par urgence */
+.head h3 a{color:inherit;text-decoration:none}
+.head h3 a:hover{text-decoration:underline}
+.more{grid-column:2;margin-top:8px;font-size:.86rem;font-weight:700;color:var(--accent);text-decoration:none;justify-self:start}
+.fiche{display:flex;flex-direction:column;gap:14px}
+.back{align-self:flex-start;border:0;background:transparent;color:var(--accent);font:inherit;font-weight:700;padding:4px 0;cursor:pointer}
+.fh{display:flex;flex-direction:column;gap:6px}
+.fh h2{font-size:1.45rem;line-height:1.2}
+.fh .where{grid-column:auto}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.panel h3{font-size:.98rem}
+.big{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.big strong{font-family:var(--f-display);font-size:2.2rem;line-height:1;font-variant-numeric:tabular-nums}
+.big span{color:var(--muted)}
+.panel .bar{grid-column:auto;margin-top:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;font-variant-numeric:tabular-nums}
+.grid2 b{font-family:var(--f-display);font-size:1.15rem;display:block}
+.grid2 span{color:var(--muted);font-size:.8rem;line-height:1.25;display:block}
+.panel .go{grid-column:auto;margin-top:0}
+.recent .hours{height:80px;gap:2px}
+.week{display:grid;grid-template-columns:2.1rem repeat(24,1fr);gap:2px;align-items:center}
+.week i{display:block;aspect-ratio:1/1.3;border-radius:2px;background:var(--line)}
+.week i.now{outline:2px solid var(--ink);outline-offset:0}
+.week small{font-size:.7rem;color:var(--muted)}
+.wkeys{display:flex;gap:12px;flex-wrap:wrap;font-size:.76rem;color:var(--muted)}
+.wkeys span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+.share{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;border-radius:9px;padding:8px 12px;cursor:pointer;align-self:flex-start}
 </style>
 
 </head>
@@ -122,6 +149,9 @@ footer{color:var(--muted);font-size:.78rem}
     <div><strong>811</strong><span>Info-Santé : une infirmière vous oriente</span></div>
   </div>
 
+  <section class="fiche" id="fiche" hidden aria-live="polite"></section>
+
+  <div id="listview" style="display:flex;flex-direction:column;gap:18px">
   <section class="controls" aria-label="Filtres">
     <div class="seg" role="group" aria-label="Région">
       <button id="r-all" data-r="all" aria-pressed="false">Tout</button>
@@ -158,6 +188,7 @@ footer{color:var(--muted);font-size:.78rem}
   <ol class="list" id="list"></ol>
   <p class="legend" id="trendnote" hidden></p>
   <p class="legend">Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. « Meilleurs moments » : moyennes des semaines passées, par jour et par heure ; c'est une estimation, pas une garantie. En cas d'urgence grave, n'attendez pas : appelez le 911. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.</p>
+  </div>
 
   <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
 </div>
@@ -327,6 +358,228 @@ function forecastBlock(h) {
   return det;
 }
 
+// ---------- Éléments partagés (liste et fiche) ----------
+function tag(text, cls) { const t = document.createElement("span"); t.className = "tag" + (cls ? " " + cls : ""); t.textContent = text; return t; }
+function tagsFor(h) {
+  const out = [];
+  if (h.kids) out.push(tag("Enfants"));
+  if (h.psy) out.push(tag("Psychiatrie", "psy"));
+  if (h.peds && !h.kids) out.push(tag("Section pédiatrique"));
+  if (h.cardio) out.push(tag("Cardiologie"));
+  return out;
+}
+function goLinks(h) {
+  if (!h.address) return null;
+  const go = document.createElement("div");
+  go.className = "go";
+  go.appendChild(document.createTextNode("Itinéraire :"));
+  mapsApps().forEach(m => {
+    const a = document.createElement("a");
+    a.href = m.url(h.address); a.target = "_blank"; a.rel = "noopener";
+    a.textContent = m.name; a.setAttribute("aria-label", "Itinéraire vers " + h.name + " avec " + m.name);
+    if (m.id === mapsPref) a.className = "pref";
+    a.addEventListener("click", () => { mapsPref = m.id; try { localStorage.setItem("sa-maps", m.id); } catch (e) {} });
+    go.appendChild(a);
+  });
+  return go;
+}
+
+// ---------- Fiche par urgence (adresse #fiche=Nom, qu'on peut partager) ----------
+const REGIONS = { mtl: "Montréal", rs: "Rive-Sud", lav: "Laval", rn: "Rive-Nord" };
+const ficheHref = h => "#fiche=" + encodeURIComponent(h.name);
+const ficheName = () => { const m = location.hash.match(/^#fiche=(.+)$/); if (!m) return null; try { return decodeURIComponent(m[1]); } catch (e) { return null; } };
+let listScroll = 0, shownFiche = null;
+const histCache = new Map(); // nom -> { time, points }
+
+function el(tagName, cls, text) { const e = document.createElement(tagName); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+function stat(value, label) { const d = el("div"); d.append(el("b", "", value), el("span", "", label)); return d; }
+const rateColor = r => r === null ? "var(--line)" : "var(--" + status(r / 100)[0].slice(2) + ")";
+
+function route() {
+  const name = ficheName();
+  const fiche = document.getElementById("fiche"), listview = document.getElementById("listview");
+  if (!name) {
+    const wasOpen = !fiche.hidden;
+    fiche.hidden = true; listview.style.display = "flex"; shownFiche = null;
+    document.title = "Salle d'attente";
+    if (wasOpen) window.scrollTo(0, listScroll);
+    return;
+  }
+  if (fiche.hidden) listScroll = window.scrollY;
+  fiche.hidden = false; listview.style.display = "none";
+  const first = shownFiche !== name;
+  shownFiche = name;
+  renderFiche(name);
+  if (first) window.scrollTo(0, 0);
+}
+
+function closeFiche() {
+  if (history.state && history.state.fromList) history.back();
+  else { history.replaceState(null, "", location.pathname + location.search); route(); }
+}
+
+function renderFiche(name) {
+  const box = document.getElementById("fiche");
+  box.innerHTML = "";
+  const back = el("button", "back", "‹ Retour à la liste");
+  back.type = "button"; back.addEventListener("click", closeFiche);
+  box.appendChild(back);
+
+  const h = data.find(x => x.name === name);
+  if (!h) {
+    box.appendChild(el("p", "legend", data.length ? "Cette urgence ne figure pas dans les données actuelles du ministère." : "Chargement des données…"));
+    return;
+  }
+  document.title = h.name + " · Salle d'attente";
+  const [cls, label] = status(h.rate);
+  const pct = h.rate === null ? null : Math.round(h.rate * 100);
+
+  // En-tête
+  const head = el("div", "fh");
+  const h2 = el("h2", "", h.name);
+  tagsFor(h).forEach(t => h2.appendChild(t));
+  const sub = el("div", "where");
+  const d = km(h);
+  sub.textContent = [d === null ? null : kmText(d), h.area || REGIONS[h.region], h.establishment].filter(Boolean).join(" · ");
+  head.append(h2, sub);
+  box.appendChild(head);
+
+  // Maintenant
+  const now = el("section", "panel");
+  const t = el("div", "head"); t.append(el("h3", "", "En ce moment"), el("span", "pill " + cls, label));
+  const big = el("div", "big"); big.append(el("strong", "", pct === null ? "—" : pct + " %"), el("span", "", "des civières occupées"));
+  const bar = el("div", "bar"); const bi = el("i"); bi.style.width = (pct === null ? 0 : Math.min(100, pct / 1.5)) + "%"; bi.style.background = "var(--" + cls.slice(2) + ")"; bar.appendChild(bi);
+  const g = el("div", "grid2");
+  g.append(
+    stat(fmt(h.pec), "en attente d'un médecin"),
+    stat(fmt(h.present), "personnes présentes à l'urgence"),
+    stat(fmt(h.occ) + " / " + fmt(h.stretchers), "civières occupées / fonctionnelles"),
+    stat(fmt(h.over24), "sur civière depuis plus de 24 h"),
+    stat(fmt(h.over48), "sur civière depuis plus de 48 h"),
+    stat(h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h", "séjour moyen sans civière (hier)"),
+    stat(h.dmsCiv === null ? "—" : fmt(h.dmsCiv, 1) + " h", "séjour moyen sur civière (hier)"),
+  );
+  // Rang parmi les urgences du même type dans la région
+  const peers = data.filter(x => x.region === h.region && !!x.psy === !!h.psy && x.rate !== null).sort((a, b) => score(a) - score(b));
+  const rank = peers.indexOf(h);
+  if (rank >= 0 && REGIONS[h.region]) g.append(stat((rank + 1) + (rank ? "e" : "re") + " sur " + peers.length, "moins remplie, " + REGIONS[h.region]));
+  const upd = el("p", "fc-note", h.updated ? "Mise à jour du ministère : " + (/^\d{1,2}:\d{2}/.test(h.updated) ? h.updated.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : h.updated) : "");
+  now.append(t, big, bar, g, upd);
+  box.appendChild(now);
+
+  // Y aller
+  if (h.address) {
+    const go = el("section", "panel");
+    go.append(el("h3", "", "Y aller"), el("p", "fc-note", h.address + (d === null ? "" : " · " + kmText(d) + " à vol d'oiseau")));
+    go.appendChild(goLinks(h));
+    box.appendChild(go);
+  }
+
+  // Dernières 24 heures (historique enregistré par le site)
+  const recent = el("section", "panel");
+  recent.append(el("h3", "", "Dernières 24 heures"));
+  const rbody = el("div", "recent"); rbody.appendChild(el("p", "fc-note", "Chargement…"));
+  recent.appendChild(rbody);
+  box.appendChild(recent);
+  loadHistory(h.name).then(points => { if (shownFiche === h.name) drawRecent(rbody, points); });
+
+  // Semaine type et meilleurs moments
+  const wk = el("section", "panel");
+  wk.appendChild(el("h3", "", "Meilleurs moments pour y aller"));
+  if (h.forecast && trend && trend.days >= MIN_DAYS) {
+    const fc = forecastBlock(h);
+    if (fc) { fc.open = true; fc.querySelector("summary").style.display = "none"; fc.style.borderTop = "0"; fc.style.marginTop = "0"; fc.style.paddingTop = "0"; wk.appendChild(fc); }
+    wk.append(el("div", "fc-title", "Semaine type (occupation habituelle)"), weekGrid(h.forecast));
+  } else {
+    wk.appendChild(el("p", "fc-note", trend
+      ? `L'historique se construit chaque heure : ${trend.days} jour${trend.days > 1 ? "s" : ""} sur ${MIN_DAYS} minimum. Les meilleurs moments s'afficheront ensuite ici.`
+      : "L'historique se construit chaque heure. Les meilleurs moments s'afficheront ici après 7 jours de données."));
+  }
+  box.appendChild(wk);
+
+  // Partager
+  const share = el("button", "share", navigator.share ? "Partager cette fiche" : "Copier le lien de cette fiche");
+  share.type = "button";
+  share.addEventListener("click", async () => {
+    const url = location.origin + location.pathname + ficheHref(h);
+    try {
+      if (navigator.share) await navigator.share({ title: h.name + " · Salle d'attente", url });
+      else { await navigator.clipboard.writeText(url); share.textContent = "Lien copié"; }
+    } catch (e) {}
+  });
+  box.appendChild(share);
+
+  box.appendChild(el("p", "legend", "En cas d'urgence grave (douleur thoracique, AVC, difficulté à respirer), n'attendez pas : appelez le 911. En cas de doute, le 811 vous oriente. Les chiffres viennent du ministère de la Santé et peuvent changer vite."));
+}
+
+async function loadHistory(name) {
+  const c = histCache.get(name);
+  if (c && Date.now() - c.time < 10 * 60e3) return c.points;
+  try {
+    const res = await fetch("/api/historique?nom=" + encodeURIComponent(name));
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error);
+    histCache.set(name, { time: Date.now(), points: json.points });
+    return json.points;
+  } catch (e) { return null; }
+}
+
+function drawRecent(box, points) {
+  box.innerHTML = "";
+  if (!points) { box.appendChild(el("p", "fc-note", "Historique indisponible pour le moment.")); return; }
+  // Toujours 24 cases d'une heure, se terminant à la dernière mesure : les heures manquées restent vides.
+  if (points.length) {
+    const toMs = s => Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10), +s.slice(11, 13));
+    const stamp = ms => new Date(ms).toISOString().slice(0, 13).replace("T", " ") + ":00";
+    const byT = new Map(points.map(p => [p.t, p])), end = toMs(points.at(-1).t);
+    points = Array.from({ length: 24 }, (_, k) => { const t = stamp(end - (23 - k) * 3600e3); return byT.get(t) || { t, rate: null, pec: null }; });
+  }
+  const known = points.filter(p => p.rate !== null);
+  if (known.length < 2) { box.appendChild(el("p", "fc-note", "Pas encore assez de mesures pour cette urgence. L'historique se construit chaque heure.")); return; }
+  const bars = el("div", "hours"), labels = el("div", "hlabels");
+  bars.style.gridTemplateColumns = `repeat(${points.length},1fr)`;
+  const hourOf = p => +p.t.slice(11, 13);
+  points.forEach((p, k) => {
+    const i = el("i");
+    if (p.rate === null) { i.className = "none"; i.style.height = "4px"; }
+    else { i.style.height = Math.max(6, Math.min(100, p.rate / 1.5)) + "%"; i.style.background = rateColor(p.rate); }
+    i.title = hourLabel(hourOf(p)) + " : " + (p.rate === null ? "inconnu" : p.rate + " % occupé") + (p.pec === null ? "" : ", " + fmt(p.pec) + " en attente");
+    bars.appendChild(i);
+  });
+  const step = Math.max(1, Math.round(points.length / 4));
+  labels.style.gridTemplateColumns = `repeat(${Math.ceil(points.length / step)},1fr)`;
+  for (let k = 0; k < points.length; k += step) labels.appendChild(el("span", "", hourLabel(hourOf(points[k]))));
+  const peak = known.reduce((a, b) => b.rate > a.rate ? b : a), low = known.reduce((a, b) => b.rate < a.rate ? b : a);
+  box.append(bars, labels, el("p", "fc-note",
+    `Plus bas : ${low.rate} % vers ${hourLabel(hourOf(low))}. Plus haut : ${peak.rate} % vers ${hourLabel(hourOf(peak))}. Une barre par heure, de la plus ancienne à la plus récente.`));
+}
+
+function weekGrid(f) {
+  const wrap = el("div");
+  const grid = el("div", "week");
+  const now = nowSlot();
+  grid.appendChild(el("small"));
+  for (let hr = 0; hr < 24; hr++) grid.appendChild(el("small", "", hr % 6 === 0 ? String(hr) : ""));
+  [1, 2, 3, 4, 5, 6, 0].forEach(day => {
+    grid.appendChild(el("small", "", DAYS[day].slice(0, 3)));
+    for (let hr = 0; hr < 24; hr++) {
+      const slot = day * 24 + hr, c = f[slot], i = el("i");
+      const rate = c ? c[0] : null;
+      i.style.background = rateColor(rate);
+      if (slot === now) i.className = "now";
+      i.title = DAYS[day] + " " + hourLabel(hr) + " : " + (rate === null ? "inconnu" : rate + " % occupé");
+      grid.appendChild(i);
+    }
+  });
+  const keys = el("div", "wkeys");
+  [["Fluide", "var(--ok)"], ["Chargée", "var(--warn)"], ["Débordée", "var(--bad)"], ["Pas de données", "var(--line)"]].forEach(([n, c]) => {
+    const s = el("span", "", n); s.style.setProperty("--c", c); keys.appendChild(s);
+  });
+  wrap.style.display = "flex"; wrap.style.flexDirection = "column"; wrap.style.gap = "8px";
+  wrap.append(grid, keys, el("p", "fc-note", "Le contour marque l'heure actuelle. Heures du Québec."));
+  return wrap;
+}
+
 async function load() {
   const up = document.getElementById("updated");
   up.textContent = "Chargement des données…";
@@ -391,33 +644,26 @@ function render() {
         <div><b>${fmt(h.pec)}</b><span>en attente d'un médecin</span></div>
         <div><b>${h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h"}</b><span>séjour moyen, sans civière (hier)</span></div>
       </div>`;
-    li.querySelector("h3").textContent = h.name;
-    if (h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Enfants"; li.querySelector("h3").appendChild(t); }
-    if (h.psy) { const t = document.createElement("span"); t.className = "tag psy"; t.textContent = "Psychiatrie"; li.querySelector("h3").appendChild(t); }
-    if (h.peds && !h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Section pédiatrique"; li.querySelector("h3").appendChild(t); }
-    if (h.cardio) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Cardiologie"; li.querySelector("h3").appendChild(t); }
-    const fc = forecastBlock(h);
-    if (fc) li.appendChild(fc);
+    const h3 = li.querySelector("h3");
+    const title = document.createElement("a");
+    title.href = ficheHref(h); title.textContent = h.name;
+    h3.appendChild(title);
+    tagsFor(h).forEach(t => h3.appendChild(t));
     const where = li.querySelector(".where"), d = km(h);
     if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = kmText(d) + " · "; where.appendChild(k); }
     where.appendChild(document.createTextNode(h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "")));
-    if (h.address) {
-      const go = document.createElement("div");
-      go.className = "go";
-      go.appendChild(document.createTextNode("Itinéraire :"));
-      mapsApps().forEach(m => {
-        const a = document.createElement("a");
-        a.href = m.url(h.address); a.target = "_blank"; a.rel = "noopener";
-        a.textContent = m.name; a.setAttribute("aria-label", "Itinéraire vers " + h.name + " avec " + m.name);
-        if (m.id === mapsPref) a.className = "pref";
-        a.addEventListener("click", () => { mapsPref = m.id; try { localStorage.setItem("sa-maps", m.id); } catch (e) {} });
-        go.appendChild(a);
-      });
-      li.insertBefore(go, li.querySelector(".fc"));
-    }
+    const go = goLinks(h);
+    if (go) li.appendChild(go);
+    const fc = forecastBlock(h);
+    if (fc) li.appendChild(fc);
+    const more = document.createElement("a");
+    more.className = "more"; more.href = ficheHref(h); more.textContent = "Voir la fiche ›";
+    more.setAttribute("aria-label", "Voir la fiche de " + h.name);
+    li.appendChild(more);
     list.appendChild(li);
   });
   if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
+  if (shownFiche) renderFiche(shownFiche);
 }
 
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
@@ -429,6 +675,17 @@ document.getElementById("psy").addEventListener("change", render);
 document.getElementById("geo-btn").addEventListener("click", () => pos ? stopPosition() : askPosition());
 try { if (localStorage.getItem("sa-geo") === "1") askPosition(); } catch (e) {}
 document.getElementById("refresh").addEventListener("click", load);
+// Ouvrir une fiche depuis la liste : le bouton « Retour » du téléphone ramène à la liste, au même endroit.
+document.getElementById("list").addEventListener("click", e => {
+  const a = e.target.closest('a[href^="#fiche="]');
+  if (!a || e.metaKey || e.ctrlKey) return;
+  e.preventDefault();
+  history.pushState({ fromList: true }, "", a.getAttribute("href"));
+  route();
+});
+window.addEventListener("popstate", route);
+window.addEventListener("hashchange", route);
+route();
 load();
 setInterval(load, 15 * 60e3);
 </script>
