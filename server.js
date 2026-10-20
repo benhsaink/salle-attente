@@ -318,6 +318,60 @@ async function getRaw() {
   catch (err) { if (raw) return raw; throw err; }
 }
 
+
+// ---------- Temps de route (openrouteservice) ----------
+// Seulement si la personne l'active : sa position arrondie (environ 1 km) est envoyée ici, puis à
+// openrouteservice pour les 25 urgences les plus proches à vol d'oiseau. Rien n'est conservé à part
+// un cache de 30 minutes par secteur. Clé gratuite : variable ORS_KEY dans Render.
+const ORS_KEY = process.env.ORS_KEY || "";
+const routeCache = new Map(), routeAsked = new Map();
+function haversine(a, b) {
+  const R = 6371, rad = (x) => (x * Math.PI) / 180;
+  const dLat = rad(b.lat - a.lat), dLon = rad(b.lon - a.lon);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+async function handleRoute(req, res, url) {
+  const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" }); res.end(JSON.stringify(body)); };
+  if (!ORS_KEY) return json(503, { error: "Temps de route pas encore activé." });
+  const lat = Math.round(Number(url.searchParams.get("lat")) * 100) / 100, lon = Math.round(Number(url.searchParams.get("lon")) * 100) / 100;
+  if (!isFinite(lat) || !isFinite(lon) || lat < 44 || lat > 63 || lon < -80 || lon > -56) return json(400, { error: "Position hors du Québec." });
+  const key = lat + "," + lon, hit = routeCache.get(key);
+  if (hit && Date.now() - hit.t < 30 * 60e3) return json(200, hit.body);
+  const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
+  const now = Date.now(), recent = (routeAsked.get(ip) || []).filter((t) => now - t < 3600e3);
+  if (recent.length >= 30) return json(429, { error: "Trop de demandes. Réessayez dans une heure." });
+  recent.push(now); routeAsked.set(ip, recent);
+  if (routeAsked.size > 5000) routeAsked.clear();
+  try {
+    const d = await getData();
+    const origin = { lat, lon };
+    const dest = d.all.filter((h) => h.region !== "autre" && typeof h.lat === "number")
+      .map((h) => ({ h, d: haversine(origin, h) })).sort((a, b) => a.d - b.d).slice(0, 25).map((x) => x.h);
+    if (!dest.length) return json(200, { trajets: {} });
+    const r = await fetch("https://api.openrouteservice.org/v2/matrix/driving-car", {
+      method: "POST",
+      headers: { Authorization: ORS_KEY, "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ locations: [[lon, lat], ...dest.map((h) => [h.lon, h.lat])], sources: [0], destinations: dest.map((_, i) => i + 1), metrics: ["duration", "distance"], units: "km" }),
+      signal: AbortSignal.timeout(15e3),
+    });
+    if (!r.ok) throw new Error("openrouteservice HTTP " + r.status);
+    const m = await r.json();
+    const trajets = {};
+    dest.forEach((h, i) => {
+      const sec = m.durations?.[0]?.[i], dist = m.distances?.[0]?.[i];
+      if (typeof sec === "number") trajets[h.name] = { min: Math.max(1, Math.round(sec / 60)), km: Math.round(dist * 10) / 10 };
+    });
+    const body = { trajets, source: "openrouteservice.org, données © OpenStreetMap" };
+    routeCache.set(key, { t: Date.now(), body });
+    if (routeCache.size > 2000) routeCache.clear();
+    json(200, body);
+  } catch (err) {
+    console.error("Temps de route :", err.message);
+    json(502, { error: "Temps de route indisponible pour le moment." });
+  }
+}
+
 // ---------- Serveur web ----------
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".svg": "image/svg+xml" };
 
@@ -400,6 +454,7 @@ http.createServer(async (req, res) => {
   }
   if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
   if (url.pathname === "/api/adresse") return handleGeocode(req, res, url);
+  if (url.pathname === "/api/trajet") return handleRoute(req, res, url);
   if (url.pathname === "/api/privees") {
     try {
       const d = await getPrivateComplete();

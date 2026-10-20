@@ -147,3 +147,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - #triage : les 5 niveaux de l'ÉTG et les délais visés (OIIQ et Collège des médecins, Triage à l'urgence : lignes directrices, 2019), réévaluation pendant l'attente, lien avec les chiffres du site.
 - #orienter : (1) signes d'alarme officiels → 911, « pas sûr » → 911 ; (2) sinon le besoin : Centre antipoison, 9-8-8 / 811 option 2, Info-Santé 811, pharmacien, clinique / 811 option 3, urgences. N'évalue jamais la gravité.
 - Sources : Québec.ca (AVC, urgence ambulance), Canada.ca (crise cardiaque), Santé Québec Laval (911), CIUSSS de la Capitale-Nationale (Où consulter), 988.ca. Consultées le 20 octobre 2026.
+
+## Temps de route (openrouteservice)
+- Case « Temps de route en voiture » dans le panneau de position (choix retenu dans le navigateur : sa-road). Si cochée, la position arrondie à 2 décimales (environ 1 km) est envoyée à /api/trajet.
+- server.js (handleRoute) : les 25 urgences les plus proches à vol d'oiseau, une seule requête « matrix » à openrouteservice (driving-car), cache 30 min par secteur, 30 demandes par heure par IP.
+- Clé gratuite à mettre dans Render : variable ORS_KEY. Sans clé, le site garde les distances à vol d'oiseau.
+- Tris « Plus proche » et « Proche et peu remplie » : minutes de route quand elles sont connues.

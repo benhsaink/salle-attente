@@ -165,6 +165,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .addr input{flex:1 1 auto;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
 .geo .addr button{flex:none}
 .addr-note{color:var(--muted);font-size:.74rem;flex:1 1 100%}
+.road-opt{flex:1 1 100%}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
 .langnote{color:var(--muted);font-size:.8rem;margin:4px 0 0}
@@ -270,11 +271,13 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
     <select id="r-more" aria-label="Autres régions du Québec"><option value="">Autres régions du Québec (urgences)…</option></select>
     <div class="geo" id="geo">
       <button id="geo-btn" type="button">📍 Trier selon ma position</button>
-      <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée.</span>
+      <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée, sauf pour le temps de route si vous le cochez.</span>
       <form id="addr-form" class="addr" role="search">
         <input id="addr" type="search" maxlength="150" placeholder="ou une adresse, ou un code postal (ex. G1V 4G2)" aria-label="Adresse ou code postal" autocomplete="street-address">
         <button type="submit" id="addr-btn">Chercher</button>
       </form>
+      <label class="chk road-opt"><input type="checkbox" id="road-opt"> Temps de route en voiture</label>
+      <small class="addr-note" id="road-note">Si coché, votre position arrondie (environ 1 km) est envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée.</small>
       <small class="addr-note" id="addr-note">L'adresse cherchée sert seulement à trouver sa position (OpenStreetMap). Elle n'est pas conservée.</small>
     </div>
   </section>
@@ -412,6 +415,39 @@ function km(h) {
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 const kmText = d => d < 1 ? "à moins de 1 km" : "à " + Math.round(d).toLocaleString("fr-CA") + " km";
+
+// ---------- Temps de route (seulement si la case est cochée) ----------
+let road = new Map(), roadFor = "", roadOn = false;
+try { roadOn = localStorage.getItem("sa-road") === "1"; } catch (e) {}
+const roadOf = h => (pos && roadOn && road.get(h.name)) || null;
+// Texte de distance d'une urgence : temps en voiture si calculé, sinon vol d'oiseau.
+function distText(h) {
+  const r = roadOf(h);
+  if (r) return "≈ " + r.min + " min en voiture (" + (r.km < 10 ? r.km.toLocaleString("fr-CA") : Math.round(r.km)) + " km)";
+  const d = km(h);
+  return d === null ? null : kmText(d);
+}
+// Pour les tris : minutes de route, ou une estimation à partir du vol d'oiseau.
+const travel = h => { const r = roadOf(h); if (r) return r.min; const d = km(h); return d === null ? null : d * 1.2; };
+async function loadRoad() {
+  if (!pos || !roadOn) return;
+  const key = pos.lat.toFixed(2) + "," + pos.lon.toFixed(2);
+  if (key === roadFor) return;
+  roadFor = key;
+  const note = document.getElementById("road-note");
+  note.textContent = "Calcul des temps de route…";
+  try {
+    const res = await fetch("/api/trajet?lat=" + pos.lat.toFixed(2) + "&lon=" + pos.lon.toFixed(2));
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(json.error || "Temps de route indisponible pour le moment.");
+    road = new Map(Object.entries(json.trajets || {}));
+    note.textContent = "Temps de route : openrouteservice.org, carte © OpenStreetMap. Pour les urgences les plus proches ; sans circulation. Position arrondie, non conservée.";
+  } catch (err) {
+    road = new Map(); roadFor = "";
+    note.textContent = err.message + " Distances à vol d'oiseau en attendant.";
+  }
+  render();
+}
 const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
 // Applications de navigation : Plans seulement sur les appareils Apple.
 // La dernière choisie est mise en premier (retenue dans ce navigateur seulement).
@@ -443,7 +479,8 @@ function askPosition() {
   navigator.geolocation.getCurrentPosition(p => {
     pos = { lat: p.coords.latitude, lon: p.coords.longitude };
     try { localStorage.setItem("sa-geo", "1"); } catch (e) {}
-    setGeoUI("on", "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.");
+    setGeoUI("on", roadOn ? "Distances depuis votre position." : "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.");
+    loadRoad();
     const sort = document.getElementById("sort");
     if (sort.value === "score") sort.value = "mix";
     render();
@@ -468,7 +505,8 @@ async function searchAddress(q) {
     if (!res.ok) throw new Error(json.error || "Recherche impossible pour le moment.");
     pos = { lat: json.lat, lon: json.lon };
     try { localStorage.removeItem("sa-geo"); } catch (e) {}
-    setGeoUI("on", "Distances à vol d'oiseau depuis : " + json.label + (json.precision === "secteur" ? " (secteur du code postal, position approximative)" : "") + ".");
+    loadRoad();
+    setGeoUI("on", (roadOn ? "Distances depuis : " : "Distances à vol d'oiseau depuis : ") + json.label + (json.precision === "secteur" ? " (secteur du code postal, position approximative)" : "") + ".");
     const sort = document.getElementById("sort");
     if (sort.value === "score") sort.value = "mix";
     render();
@@ -480,11 +518,11 @@ async function searchAddress(q) {
 
 function stopPosition() {
   document.getElementById("addr").value = "";
-  pos = null;
+  pos = null; road = new Map(); roadFor = "";
   try { localStorage.removeItem("sa-geo"); } catch (e) {}
   const sort = document.getElementById("sort");
   if (sort.value === "mix" || sort.value === "near") sort.value = "score";
-  setGeoUI("off", "Votre position reste sur votre téléphone : elle n'est jamais envoyée.");
+  setGeoUI("off", "Votre position reste sur votre téléphone : elle n'est jamais envoyée, sauf pour le temps de route si vous le cochez.");
   render();
 }
 
@@ -1013,7 +1051,7 @@ function renderFiche(name) {
   tagsFor(h).forEach(t => h2.appendChild(t));
   const sub = el("div", "where");
   const d = km(h);
-  sub.textContent = [d === null ? null : kmText(d), h.area || REGIONS[h.region], h.establishment].filter(Boolean).join(" · ");
+  sub.textContent = [distText(h), h.area || REGIONS[h.region], h.establishment].filter(Boolean).join(" · ");
   head.append(h2, sub);
   box.appendChild(head);
 
@@ -1043,7 +1081,7 @@ function renderFiche(name) {
   // Y aller
   if (h.address) {
     const go = el("section", "panel");
-    go.append(el("h3", "", "Y aller"), el("p", "fc-note", h.address + (d === null ? "" : " · " + kmText(d) + " à vol d'oiseau")));
+    go.append(el("h3", "", "Y aller"), el("p", "fc-note", h.address + (d === null ? "" : " · " + (roadOf(h) ? distText(h) : kmText(d) + " à vol d'oiseau"))));
     go.appendChild(goLinks(h));
     box.appendChild(go);
   }
@@ -1191,7 +1229,7 @@ function render() {
   const sort = document.getElementById("sort").value;
   let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? (h.kids || h.peds) : true) && (psy ? h.psy : !h.psy));
   const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999
-    : sort === "near" ? h => km(h) ?? 999 : sort === "mix" ? h => score(h) + (km(h) ?? 60) * KM_WEIGHT : score;
+    : sort === "near" ? h => travel(h) ?? 999 : sort === "mix" ? h => score(h) + (travel(h) ?? 72) * KM_WEIGHT / 1.2 : score;
   rows.sort((a, b) => key(a) - key(b));
 
   const best = document.getElementById("best");
@@ -1209,7 +1247,7 @@ function render() {
     best.querySelector("small").textContent = (sort === "mix" || sort === "near") && pos ? "Meilleur choix près de vous" : "Meilleur choix selon la dernière mise à jour";
     const d = km(b);
     best.querySelector("p").textContent =
-      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${d === null ? b.area : kmText(d) + " · " + b.area}`;
+      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${d === null ? b.area : distText(b) + " · " + b.area}`;
   }
 
   const tn = document.getElementById("trendnote");
@@ -1239,7 +1277,7 @@ function render() {
     h3.appendChild(title);
     tagsFor(h).forEach(t => h3.appendChild(t));
     const where = li.querySelector(".where"), d = km(h);
-    if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = kmText(d) + " · "; where.appendChild(k); }
+    if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = distText(h) + " · "; where.appendChild(k); }
     where.appendChild(document.createTextNode(h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "")));
     const go = goLinks(h);
     if (go) li.appendChild(go);
@@ -1267,6 +1305,16 @@ document.getElementById("sort").addEventListener("change", render);
 document.getElementById("kids").addEventListener("change", render);
 document.getElementById("psy").addEventListener("change", render);
 document.getElementById("geo-btn").addEventListener("click", () => pos ? stopPosition() : askPosition());
+document.getElementById("road-opt").checked = roadOn;
+document.getElementById("road-opt").addEventListener("change", e => {
+  roadOn = e.target.checked;
+  try { localStorage.setItem("sa-road", roadOn ? "1" : "0"); } catch (err) {}
+  const gm = document.getElementById("geo-msg");
+  if (pos) gm.textContent = roadOn ? gm.textContent.replace("Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.", "Distances depuis votre position.").replace("Distances à vol d'oiseau depuis : ", "Distances depuis : ")
+    : gm.textContent.replace("Distances depuis votre position.", "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.").replace("Distances depuis : ", "Distances à vol d'oiseau depuis : ");
+  if (!roadOn) { road = new Map(); roadFor = ""; document.getElementById("road-note").textContent = "Si coché, votre position arrondie (environ 1 km) est envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée."; render(); }
+  else if (pos) loadRoad();
+});
 document.getElementById("addr-form").addEventListener("submit", e => {
   e.preventDefault();
   const q = document.getElementById("addr").value.trim();
