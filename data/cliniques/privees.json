@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T13:50:39.141Z",
+ "generatedAt": "2026-10-20T20:22:27.735Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -2152,6 +2152,11 @@
    "nom": "PointSanté",
    "nofiche": 1039349,
    "region": "mtl",
+   "position": {
+    "lat": 45.4998,
+    "lon": -73.63055,
+    "source": "OpenStreetMap, d'après l'adresse de la fiche (5950, chemin de la Côte-des-Neiges)"
+   },
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1039349",
    "lu": "2026-10-20",
    "nomOfficiel": "CLINIQUE MÉDICALE POINTSANTÉ",
@@ -2255,8 +2260,8 @@
     "Suivi CNESST",
     "Vaccination"
    ],
-   "lat": null,
-   "lon": null,
+   "lat": 45.4998,
+   "lon": -73.63055,
    "site": "https://cliniquepointsante.com",
    "reservation": {}
   },
@@ -6731,6 +6736,660 @@
    "lat": 46.72541,
    "lon": -71.20363,
    "site": "http://cliniquesmedicaleslacroix.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique DCS",
+   "nofiche": 1131746,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1131746",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE DCS",
+   "adresse": "1693, rue Saint-Patrick, bureau 106",
+   "ville": "Montréal",
+   "codePostal": "H3K 3G9",
+   "telephone": "514 727-6266",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 janvier 2025, 18 h 09",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Dermatologie Traitement de conditions bénignes",
+    "Gynécologie Traitement de la ménopause et pré-ménopause",
+    "Hormonothérapie Femmes en pré-ménopause et en ménopause",
+    "Santé sexuelle",
+    "Traitement au laser Médecine esthétique et traitement au laser"
+   ],
+   "lat": 45.48644,
+   "lon": -73.56277,
+   "site": "https://www.drchloesylvestre.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "RocklandMD centre-ville",
+   "nofiche": 788984,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=788984",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE MÉDICALE ROCKLANDMD (CENTRE-VILLE)",
+   "adresse": "1538, rue Sherbrooke Ouest, bureau 500",
+   "ville": "Montréal",
+   "codePostal": "H3G 1L5",
+   "telephone": "514 667-3383",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "20 novembre 2024, 20 h 49",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Gynécologie",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Test Pap",
+    "Vaccination (saisonnière, enfant régulier, voyage et autre)"
+   ],
+   "lat": 45.49658,
+   "lon": -73.58113,
+   "site": "http://www.rocklandmd.com",
+   "reservation": {}
+  },
+  {
+   "nom": "Médecine privée – La Cité médicale de Charlesbourg",
+   "nofiche": 1235049,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1235049",
+   "lu": "2026-10-20",
+   "nomOfficiel": "MÉDECINE PRIVÉE – LA CITÉ MÉDICALE DE CHARLESBOURG",
+   "adresse": "8500, boulevard Henri-Bourassa, bureau 250",
+   "ville": "Québec",
+   "codePostal": "G1G 5X1",
+   "telephone": "418 781-0965",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "7 h 30 à 19 h",
+     "heures": [
+      [
+       450,
+       1140
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 19 h",
+     "heures": [
+      [
+       450,
+       1140
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "23 juillet 2026, 13 h 25",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Bilan sanguin",
+    "Bilan santé / Examen annuel",
+    "Hormonothérapie",
+    "Omnipratique",
+    "Pédiatrie",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Suivi maladie chronique"
+   ],
+   "lat": 46.86515,
+   "lon": -71.27033,
+   "site": "https://medecineprivee.lacitemedicale.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale Lacroix – Saint-Sauveur",
+   "nofiche": 1101788,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1101788",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX -ST-SAUVEUR",
+   "adresse": "68-B, avenue de la Gare, bureau 201",
+   "ville": "Saint-Sauveur",
+   "codePostal": "J0R 1R0",
+   "telephone": "855 841-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "02 avril 2026, 17 h 57",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Endocrinologie médecins désaffiliés de la RAMQ",
+    "Gynécologie médecins désaffiliés de la RAMQ",
+    "Infiltration de cortisone sous échographie",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine d'urgence médecins désaffiliés de la RAMQ",
+    "Médecine familiale médecins désaffiliés de la RAMQ",
+    "Médecine musculosquelettique médecins désaffiliés de la RAMQ",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Prélèvements urinaires et selles",
+    "Pédiatrie",
+    "Soins infirmiers",
+    "Test d'hyperglycémie provoquée",
+    "Vaccination",
+    "Médecine générale (omnipraticiens) et médecine spécialisée"
+   ],
+   "lat": 45.89308,
+   "lon": -74.15407,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "UnionMD Taschereau",
+   "nofiche": 1154018,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154018",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE UNIONMD TASCHEREAU",
+   "adresse": "3234, boulevard Taschereau",
+   "ville": "Longueuil",
+   "codePostal": "J4V 2H3",
+   "telephone": "514 400-3291",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 avril 2026, 18 h 50",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Dermatologie",
+    "Gynécologie",
+    "Médecine familiale",
+    "ORL - Oto-rhino-laryngologie",
+    "Omnipratique",
+    "Podiatrie",
+    "Prélèvements",
+    "Vaccination",
+    "Vaccination contre la grippe"
+   ],
+   "lat": 45.49516,
+   "lon": -73.48301,
+   "site": "https://unionmd.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale Santé +",
+   "nofiche": 1091287,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1091287",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE MÉDICALE SANTÉ +",
+   "adresse": "11, boulevard de la Cité-des-Jeunes, bureau 106",
+   "ville": "Vaudreuil-Dorion",
+   "codePostal": "J7V 0N3",
+   "telephone": "450 319-0339",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "26 mars 2026, 13 h 20",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Contraception",
+    "Dépistage",
+    "Désintoxication",
+    "Gestion des traitements liés à l'usage des opiacés (Méthadone, Suboxone, Kadian, etc.)",
+    "Infirmier/Infirmière auxiliaire",
+    "Information sur la sexualité",
+    "Médecine du travail",
+    "Médecine familiale",
+    "Phlébologie",
+    "Prélèvements",
+    "Prévention de dépendance en toxicomanie (alcool, drogues, médicaments)",
+    "Réadaptation dépendance",
+    "Sexologie",
+    "Soins infirmiers",
+    "Test Pap",
+    "Vaccination",
+    "Vaccination contre la grippe"
+   ],
+   "lat": 45.41475,
+   "lon": -74.02179,
+   "site": "https://cliniquesanteplus.ca/",
    "reservation": {}
   }
  ]
