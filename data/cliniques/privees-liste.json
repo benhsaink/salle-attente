@@ -197,6 +197,51 @@
    "nom": "ExcelleMD Marché Central",
    "nofiche": 846325,
    "region": "mtl"
+  },
+  {
+   "nom": "Lacroix Sainte-Foy",
+   "nofiche": 1188767,
+   "region": "qc"
+  },
+  {
+   "nom": "Lacroix Montcalm",
+   "nofiche": 1188763,
+   "region": "qc"
+  },
+  {
+   "nom": "Lacroix Cap-Rouge",
+   "nofiche": 553536,
+   "region": "qc"
+  },
+  {
+   "nom": "Lacroix Duberger",
+   "nofiche": 1138353,
+   "region": "qc"
+  },
+  {
+   "nom": "Clinique Aurelia",
+   "nofiche": 1149319,
+   "region": "qc"
+  },
+  {
+   "nom": "Securimed Plus Québec",
+   "nofiche": 1118409,
+   "region": "qc"
+  },
+  {
+   "nom": "Securimed Québec",
+   "nofiche": 184239,
+   "region": "qc"
+  },
+  {
+   "nom": "Medic Axion Lebourgneuf",
+   "nofiche": 756217,
+   "region": "qc"
+  },
+  {
+   "nom": "Clinique de santé M Québec",
+   "nofiche": 1124316,
+   "region": "qc"
   }
  ]
 }

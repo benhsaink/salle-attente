@@ -9,6 +9,7 @@ on:
     paths:
       - data/cliniques/liste.json
       - data/cliniques/privees-liste.json
+      - data/cliniques/hopitaux-qc-liste.json
       - repertoire.js
       - lib.js
 

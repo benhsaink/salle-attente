@@ -15,6 +15,7 @@ const { htmlText, parseFiche, ficheLinks } = require("./lib");
 const JOBS = [
   { list: "liste.json", out: "cliniques.json" },
   { list: "privees-liste.json", out: "privees.json" },
+  { list: "hopitaux-qc-liste.json", out: "hopitaux-qc.json" }, // temporaire : adresses et positions officielles des urgences de Québec
 ].map((j) => ({ list: path.join(__dirname, "data", "cliniques", j.list), out: path.join(__dirname, "data", "cliniques", j.out) }));
 const FICHE = (n) => "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n;
 const RELAY = (n) => (process.env.RELAY || "https://salle-attente.onrender.com/api/repertoire?nofiche=") + n;

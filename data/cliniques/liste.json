@@ -260,6 +260,46 @@
    "nofiche": 980800,
    "region": "rn",
    "enfants": true
+  },
+  {
+   "nom": "GMF-A Clinique Proximité Saint-Roch",
+   "nofiche": 45032,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-R MAclinique Lebourgneuf",
+   "nofiche": 829978,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-R MAclinique Lebourgneuf 2",
+   "nofiche": 1164679,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A La Cité Médicale",
+   "nofiche": 213455,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A Le Mesnil",
+   "nofiche": 52622,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A Du Carrefour",
+   "nofiche": 213131,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A Val-Bélair – Valcartier – Sainte-Catherine",
+   "nofiche": 35205,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF-A Clinique Maizerets",
+   "nofiche": 270097,
+   "region": "qc"
   }
  ]
 }
