@@ -72,6 +72,25 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 .stats span{color:var(--muted);font-size:.74rem;line-height:1.2;display:block}
 .tag{font-size:.72rem;font-weight:700;color:var(--accent);border:1px solid var(--accent-soft);border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px}
 .legend{color:var(--muted);font-size:.8rem}
+.tag.psy{color:var(--demo);border-color:var(--demo-soft)}
+.psynote{background:var(--demo-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:.9rem}
+.psynote b{color:var(--demo)}
+.psynote p{margin:0}
+.psynote p+p{margin-top:6px}
+details.fc{grid-column:2;margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:.88rem;list-style-position:inside}
+.fc-body{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.fc-title{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.hours{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;align-items:end;height:64px}
+.hours i{display:block;border-radius:4px 4px 2px 2px;min-height:4px}
+.hours i.none{background:var(--line)}
+.hours i.low{outline:2px solid var(--ink);outline-offset:1px}
+.hlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.fc-best{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.fc-best li{display:flex;justify-content:space-between;gap:8px;font-size:.9rem}
+.fc-best b{white-space:nowrap}
+.fc-best span{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+.fc-note{color:var(--muted);font-size:.78rem;margin:0}
 .soon{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-direction:column;gap:10px}
 .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
 .feat div{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:12px 14px}
@@ -109,20 +128,27 @@ footer{color:var(--muted);font-size:.78rem}
         <option value="dms">Séjour le plus court</option>
       </select>
       <label class="chk"><input type="checkbox" id="kids"> Pédiatrique seulement</label>
+      <label class="chk"><input type="checkbox" id="psy"> Urgences psychiatriques</label>
     </div>
     <div class="meta"><span id="updated">Chargement des données…</span><button class="linkbtn" id="refresh">Actualiser</button></div>
+  </section>
+
+  <section class="psynote" id="psynote" hidden>
+    <p><b>Détresse psychologique ?</b> Info-Social : composez le <b>811, option 2</b>, 24 h sur 24.</p>
+    <p>Idées suicidaires : <b>9-8-8</b>, par téléphone ou texto. Danger immédiat : <b>911</b>.</p>
   </section>
 
   <section class="best" id="best" aria-live="polite"></section>
 
   <ol class="list" id="list"></ol>
-  <p class="legend">Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.</p>
+  <p class="legend">Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. « Meilleurs moments » : moyennes des semaines passées, par jour et par heure ; c'est une estimation, pas une garantie. En cas d'urgence grave, n'attendez pas : appelez le 911. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.</p>
 
   <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
 </div>
 
 <script>
 let data = [];
+let trend = null;
 let region = "all";
 try { region = localStorage.getItem("sa-region") || "all"; } catch (e) {}
 
@@ -136,6 +162,88 @@ function status(r) {
 }
 const score = h => (h.rate ?? 2) * 100 + (h.pec ?? 30) * 1.5;
 
+// ---------- Meilleurs moments ----------
+const DAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+const DOW = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+const hourLabel = h => h + " h";
+
+// Jour et heure actuels au Québec, peu importe le fuseau du téléphone.
+function nowSlot() {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto", weekday: "short", hour: "numeric", hourCycle: "h23" })
+    .formatToParts(new Date()).map(p => [p.type, p.value]));
+  return (DOW[parts.weekday] ?? new Date().getDay()) * 24 + (+parts.hour % 24);
+}
+const slotScore = c => c && (c[0] !== null || c[1] !== null) ? (c[0] ?? 200) + (c[1] ?? 30) * 1.5 : null;
+
+function forecastBlock(h) {
+  if (!h.forecast || !trend) return null;
+  const f = h.forecast, now = nowSlot();
+  const det = document.createElement("details");
+  det.className = "fc";
+  const sum = document.createElement("summary");
+  sum.textContent = "Meilleurs moments pour y aller";
+  det.appendChild(sum);
+  const body = document.createElement("div");
+  body.className = "fc-body";
+
+  // 1) Les 12 prochaines heures
+  const next = Array.from({ length: 12 }, (_, k) => ({ slot: (now + k) % 168, c: f[(now + k) % 168] }));
+  const scored = next.filter(n => slotScore(n.c) !== null);
+  const low = scored.length ? scored.reduce((a, b) => slotScore(b.c) < slotScore(a.c) ? b : a) : null;
+  const t1 = document.createElement("div"); t1.className = "fc-title"; t1.textContent = "Prochaines heures (occupation habituelle)";
+  const bars = document.createElement("div"); bars.className = "hours";
+  const labels = document.createElement("div"); labels.className = "hlabels";
+  next.forEach((n, k) => {
+    const i = document.createElement("i");
+    const rate = n.c ? n.c[0] : null;
+    if (rate === null) { i.className = "none"; i.style.height = "4px"; }
+    else {
+      const [cls] = status(rate / 100);
+      i.style.height = Math.max(6, Math.min(100, rate / 1.5)) + "%";
+      i.style.background = "var(--" + cls.slice(2) + ")";
+      if (low && n === low) i.className = "low";
+    }
+    i.title = hourLabel(n.slot % 24) + " : " + (rate === null ? "inconnu" : rate + " % occupé") + (n.c && n.c[1] !== null ? ", " + fmt(n.c[1]) + " en attente" : "");
+    bars.appendChild(i);
+    if (k % 3 === 0) { const l = document.createElement("span"); l.textContent = hourLabel(n.slot % 24); labels.appendChild(l); }
+  });
+  body.append(t1, bars, labels);
+  if (low) {
+    const p = document.createElement("p"); p.className = "fc-note";
+    p.textContent = low.slot === now ? "C'est habituellement le moment le plus calme des 12 prochaines heures."
+      : "Plus calme d'habitude vers " + hourLabel(low.slot % 24) + (Math.floor(low.slot / 24) !== Math.floor(now / 24) ? " (" + DAYS[Math.floor(low.slot / 24)] + ")" : "") + ".";
+    body.appendChild(p);
+  }
+
+  // 2) Les meilleurs créneaux de la semaine (un par jour)
+  const byDay = new Map();
+  f.forEach((c, slot) => {
+    const s = slotScore(c); if (s === null) return;
+    const d = Math.floor(slot / 24);
+    if (!byDay.has(d) || s < byDay.get(d).s) byDay.set(d, { s, slot, c });
+  });
+  const top = [...byDay.values()].sort((a, b) => a.s - b.s).slice(0, 3);
+  if (top.length) {
+    const t2 = document.createElement("div"); t2.className = "fc-title"; t2.textContent = "Meilleurs créneaux de la semaine";
+    const ul = document.createElement("ul"); ul.className = "fc-best";
+    top.forEach(t => {
+      const li = document.createElement("li");
+      const a = document.createElement("b"); a.textContent = DAYS[Math.floor(t.slot / 24)][0].toUpperCase() + DAYS[Math.floor(t.slot / 24)].slice(1) + " vers " + hourLabel(t.slot % 24);
+      const b = document.createElement("span"); b.textContent = (t.c[0] === null ? "" : t.c[0] + " % occupé") + (t.c[1] === null ? "" : " · " + fmt(t.c[1]) + " en attente");
+      li.append(a, b); ul.appendChild(li);
+    });
+    body.append(t2, ul);
+  }
+
+  const note = document.createElement("p"); note.className = "fc-note";
+  note.textContent = trend.days < 14
+    ? "Estimation préliminaire basée sur " + trend.days + " jours de données. Elle deviendra plus fiable chaque semaine."
+    : "Moyenne de " + trend.days + " jours de données (depuis le " + trend.from + "). Estimation, pas une garantie.";
+  body.appendChild(note);
+  det.appendChild(body);
+  return det;
+}
+
 async function load() {
   const up = document.getElementById("updated");
   up.textContent = "Chargement des données…";
@@ -144,6 +252,7 @@ async function load() {
     const json = await res.json();
     if (!res.ok) throw new Error(json.error || "Erreur");
     data = json.hospitals;
+    trend = json.trend || null;
     const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
     up.textContent = "Données du " + (latest || new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
   } catch (e) {
@@ -156,8 +265,10 @@ async function load() {
 function render() {
   document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
   const kids = document.getElementById("kids").checked;
+  const psy = document.getElementById("psy").checked;
+  document.getElementById("psynote").hidden = !psy;
   const sort = document.getElementById("sort").value;
-  let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? h.kids : true));
+  let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? h.kids : true) && (psy ? h.psy : !h.psy));
   const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999 : score;
   rows.sort((a, b) => key(a) - key(b));
 
@@ -190,6 +301,9 @@ function render() {
       </div>`;
     li.querySelector("h3").textContent = h.name;
     if (h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Enfants"; li.querySelector("h3").appendChild(t); }
+    if (h.psy) { const t = document.createElement("span"); t.className = "tag psy"; t.textContent = "Psychiatrie"; li.querySelector("h3").appendChild(t); }
+    const fc = forecastBlock(h);
+    if (fc) li.appendChild(fc);
     li.querySelector(".where").textContent = h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "");
     list.appendChild(li);
   });
@@ -201,6 +315,7 @@ document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click"
 }));
 document.getElementById("sort").addEventListener("change", render);
 document.getElementById("kids").addEventListener("change", render);
+document.getElementById("psy").addEventListener("change", render);
 document.getElementById("refresh").addEventListener("click", load);
 load();
 setInterval(load, 15 * 60e3);
