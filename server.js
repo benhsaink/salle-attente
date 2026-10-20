@@ -450,7 +450,7 @@ http.createServer(async (req, res) => {
       if (url.searchParams.get("debug") === "1") {
         const i = html.indexOf("nofiche");
         res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
-        return res.end(JSON.stringify({ url: u, longueur: html.length, nbNofiche: (html.match(/nofiche/g) || []).length, autour: html.slice(Math.max(0, i - 600), i + 900), formulaire: (html.match(/<form[\s\S]{0,1500}?<\/form>/) || [""])[0].replace(/\s+/g, " ").slice(0, 1500) }));
+        return res.end(JSON.stringify({ scripts: html.match(/<script[^>]*src="[^"]+"/g) || [], ajax: (html.match(/(url|action|href)\s*[:=]\s*["'][^"']*(recherche|resultat|ressource|api|json|ajax)[^"']*["']/gi) || []).slice(0, 40), fin: html.slice(-3500).replace(/\s+/g, " "), url: u, longueur: html.length, nbNofiche: (html.match(/nofiche/g) || []).length, autour: html.slice(Math.max(0, i - 600), i + 900), formulaire: (html.match(/<form[\s\S]{0,1500}?<\/form>/) || [""])[0].replace(/\s+/g, " ").slice(0, 1500) }));
       }
       // On ne renvoie que la liste : nom + numéro de fiche (+ texte voisin pour l'adresse).
       const out = [];
