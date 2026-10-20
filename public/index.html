@@ -154,6 +154,16 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .feedback button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:9px 16px;cursor:pointer}
 .feedback button:disabled{opacity:.6}
 .fb-two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.partner form{display:flex;flex-direction:column;gap:12px}
+.partner h2{margin:0;font-size:1.1rem}
+.partner fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.partner legend{font-weight:700;padding:0;margin-bottom:6px}
+.partner input:not([type=checkbox]),.partner select,.partner textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:9px 10px;width:100%;min-width:0}
+.partner textarea{resize:vertical}
+.partner button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:10px 16px;cursor:pointer}
+.partner button:disabled{opacity:.6}
+.pt-checks{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px}
+@media (max-width:420px){.pt-checks{grid-template-columns:1fr}}
 @media (max-width:420px){.fb-two{grid-template-columns:1fr}}
 .devnote{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
 .devnote h2{margin:0;font-size:1.1rem}
@@ -355,9 +365,74 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
       <span class="tag">En développement</span>
       <h2 id="care-title">Soins privés à domicile ou en bureau</h2>
       <p>Cette section présentera bientôt des entreprises de soins privés : soins infirmiers à domicile, prélèvements, physiothérapie, aide aux aînés, et plus. Chaque prestataire sera vérifié auprès de son ordre professionnel avant d'être affiché.</p>
-      <p><b>Vous offrez ce type de soins ?</b> Un partenariat est possible pour figurer dans cette liste. Écrivez-nous avec le formulaire de commentaires : indiquez votre nom, votre numéro de téléphone et les services que vous offrez.</p>
-      <div class="row"><button type="button" id="care-contact">Nous contacter pour un partenariat</button></div>
+      <p><b>Vous offrez ce type de soins ?</b> Un partenariat est possible pour figurer dans cette liste. Remplissez le formulaire ci-dessous : nous vous rappellerons pour vous présenter l'offre.</p>
+      <div class="row"><button type="button" id="care-contact">Remplir le formulaire de partenariat</button></div>
       <p class="legend">En cas d'urgence grave, appelez le 911. Pour un conseil santé, appelez le 811.</p>
+    </section>
+
+    <section class="panel partner" id="partenaire" aria-labelledby="pt-title">
+      <h2 id="pt-title">Demande de partenariat</h2>
+      <p class="legend">Pour les entreprises et professionnels de soins privés. Les champs marqués * sont obligatoires. Remplir ce formulaire ne vous engage à rien.</p>
+      <form id="pt-form" novalidate>
+        <fieldset>
+          <legend>Votre entreprise</legend>
+          <input id="pt-entreprise" maxlength="150" placeholder="Nom de l'entreprise *" aria-label="Nom de l'entreprise" autocomplete="organization" required>
+          <input id="pt-site" type="url" maxlength="200" placeholder="Site web (facultatif)" aria-label="Site web" autocomplete="url">
+          <input id="pt-neq" maxlength="20" inputmode="numeric" placeholder="NEQ, numéro d'entreprise du Québec (facultatif)" aria-label="Numéro d'entreprise du Québec">
+        </fieldset>
+        <fieldset>
+          <legend>Personne à joindre</legend>
+          <input id="pt-nom" maxlength="120" placeholder="Votre nom *" aria-label="Votre nom" autocomplete="name" required>
+          <div class="fb-two">
+            <input id="pt-tel" type="tel" maxlength="40" placeholder="Téléphone *" aria-label="Téléphone" autocomplete="tel" required>
+            <input id="pt-courriel" type="email" maxlength="200" placeholder="Courriel *" aria-label="Courriel" autocomplete="email" required>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Soins offerts *</legend>
+          <div class="pt-checks" id="pt-soins">
+            <label class="chk"><input type="checkbox" value="Soins infirmiers"> Soins infirmiers</label>
+            <label class="chk"><input type="checkbox" value="Prélèvements et analyses"> Prélèvements et analyses</label>
+            <label class="chk"><input type="checkbox" value="Physiothérapie"> Physiothérapie</label>
+            <label class="chk"><input type="checkbox" value="Ergothérapie"> Ergothérapie</label>
+            <label class="chk"><input type="checkbox" value="Inhalothérapie"> Inhalothérapie</label>
+            <label class="chk"><input type="checkbox" value="Soins des pieds"> Soins des pieds</label>
+            <label class="chk"><input type="checkbox" value="Aide et soutien à domicile"> Aide et soutien à domicile</label>
+            <label class="chk"><input type="checkbox" value="Autre"> Autre</label>
+          </div>
+          <select id="pt-lieu" aria-label="Où offrez-vous les soins ?">
+            <option value="">Où offrez-vous les soins ? *</option>
+            <option value="domicile">À domicile</option>
+            <option value="bureau">Dans nos locaux</option>
+            <option value="les deux">À domicile et dans nos locaux</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Régions desservies *</legend>
+          <div class="pt-checks" id="pt-regions">
+            <label class="chk"><input type="checkbox" value="Montréal"> Montréal</label>
+            <label class="chk"><input type="checkbox" value="Laval"> Laval</label>
+            <label class="chk"><input type="checkbox" value="Rive-Sud"> Rive-Sud</label>
+            <label class="chk"><input type="checkbox" value="Rive-Nord"> Rive-Nord</label>
+            <label class="chk"><input type="checkbox" value="Québec–Lévis"> Québec–Lévis</label>
+            <label class="chk"><input type="checkbox" value="Trois-Rivières"> Trois-Rivières</label>
+            <label class="chk"><input type="checkbox" value="Autre région"> Autre région</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Ordre professionnel</legend>
+          <div class="fb-two">
+            <input id="pt-ordre" maxlength="80" placeholder="Ordre (ex. : OIIQ, OPPQ)" aria-label="Ordre professionnel">
+            <input id="pt-permis" maxlength="40" placeholder="Numéro de permis" aria-label="Numéro de permis">
+          </div>
+          <p class="legend">Chaque professionnel affiché est vérifié dans le registre public de son ordre. Une assurance responsabilité professionnelle est exigée.</p>
+        </fieldset>
+        <textarea id="pt-message" rows="3" maxlength="2000" placeholder="Autres précisions (facultatif)" aria-label="Autres précisions"></textarea>
+        <label class="chk pt-ok"><input type="checkbox" id="pt-accord"> J'accepte d'être contacté par Salle d'attente au sujet d'un partenariat. *</label>
+        <input id="pt-trap" name="site_web" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" class="trap">
+        <div class="row"><button type="submit" id="pt-send">Envoyer la demande</button><span id="pt-status" class="legend" role="status"></span></div>
+        <p class="legend">Vos coordonnées servent seulement à vous rappeler au sujet du partenariat. Elles ne sont ni publiées ni vendues.</p>
+      </form>
     </section>
   </div>
   </div>
@@ -1375,9 +1450,39 @@ function fbTypeChanged() {
 }
 document.getElementById("fb-type").addEventListener("change", fbTypeChanged);
 document.getElementById("care-contact").addEventListener("click", () => {
-  document.getElementById("fb-type").value = "partenariat"; fbTypeChanged();
-  document.getElementById("commentaires").scrollIntoView({ behavior: "smooth", block: "start" });
-  setTimeout(() => document.getElementById("fb-name").focus({ preventScroll: true }), 400);
+  document.getElementById("partenaire").scrollIntoView({ behavior: "smooth", block: "start" });
+  setTimeout(() => document.getElementById("pt-entreprise").focus({ preventScroll: true }), 400);
+});
+// Demande de partenariat (Soins privés) : envoyée au propriétaire du site
+document.getElementById("pt-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  const $ = id => document.getElementById(id), st = $("pt-status"), btn = $("pt-send");
+  const checked = id => [...document.querySelectorAll("#" + id + " input:checked")].map(i => i.value);
+  const d = {
+    entreprise: $("pt-entreprise").value.trim(), site: $("pt-site").value.trim(), neq: $("pt-neq").value.trim(),
+    nom: $("pt-nom").value.trim(), telephone: $("pt-tel").value.trim(), courriel: $("pt-courriel").value.trim(),
+    soins: checked("pt-soins"), lieu: $("pt-lieu").value, regions: checked("pt-regions"),
+    ordre: $("pt-ordre").value.trim(), permis: $("pt-permis").value.trim(), message: $("pt-message").value.trim(),
+    accord: $("pt-accord").checked, site_web: $("pt-trap").value,
+  };
+  const fail = (msg, id) => { st.textContent = msg; if (id) $(id).focus(); };
+  if (!d.entreprise) return fail("Indiquez le nom de l'entreprise.", "pt-entreprise");
+  if (!d.nom) return fail("Indiquez votre nom.", "pt-nom");
+  if (d.telephone.replace(/\D/g, "").length < 10) return fail("Indiquez un numéro de téléphone valide.", "pt-tel");
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.courriel)) return fail("Indiquez un courriel valide.", "pt-courriel");
+  if (!d.soins.length) return fail("Cochez au moins un type de soins.");
+  if (!d.lieu) return fail("Indiquez où vous offrez les soins.", "pt-lieu");
+  if (!d.regions.length) return fail("Cochez au moins une région.");
+  if (!d.accord) return fail("Cochez la case d'accord pour être contacté.", "pt-accord");
+  btn.disabled = true; st.textContent = "Envoi…";
+  try {
+    const res = await fetch("/api/partenaires", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d) });
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(json.error || "Envoi impossible pour le moment.");
+    $("pt-form").reset();
+    st.textContent = "Merci ! Votre demande a été envoyée. Nous vous rappellerons bientôt.";
+  } catch (err) { st.textContent = err.message; }
+  btn.disabled = false;
 });
 // Langue : français ou anglais (traduction dans i18n.js). Le choix est gardé sur le téléphone.
 (function () {

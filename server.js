@@ -298,6 +298,42 @@ async function handleFeedback(req, res) {
   json(200, { ok: true });
 }
 
+// ---------- Demandes de partenariat (Soins privés) ----------
+async function handlePartner(req, res) {
+  const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8" }); res.end(JSON.stringify(body)); };
+  if (req.method !== "POST") return json(405, { error: "Méthode non permise" });
+  const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
+  const now = Date.now(), recent = (sent.get("p:" + ip) || []).filter((t) => now - t < 3600e3);
+  if (recent.length >= 5) return json(429, { error: "Trop d'envois. Réessayez dans une heure." });
+  let d;
+  try { d = JSON.parse(await readBody(req, 12000)); } catch (e) { return json(400, { error: "Demande illisible." }); }
+  if (d.site_web) return json(200, { ok: true }); // champ piège pour les robots
+  const t = (v, n) => String(v || "").trim().slice(0, n);
+  const list = (v, allowed) => (Array.isArray(v) ? v : []).map((x) => t(x, 60)).filter((x) => allowed.includes(x));
+  const SOINS = ["Soins infirmiers", "Prélèvements et analyses", "Physiothérapie", "Ergothérapie", "Inhalothérapie", "Soins des pieds", "Aide et soutien à domicile", "Autre"];
+  const REG = ["Montréal", "Laval", "Rive-Sud", "Rive-Nord", "Québec–Lévis", "Trois-Rivières", "Autre région"];
+  const item = {
+    type: "partenaire", entreprise: t(d.entreprise, 150), nom: t(d.nom, 120), telephone: t(d.telephone, 40), courriel: t(d.courriel, 200),
+    site: t(d.site, 200), neq: t(d.neq, 20), soins: list(d.soins, SOINS).join(", "), lieu: ["domicile", "bureau", "les deux"].includes(d.lieu) ? d.lieu : "",
+    regions: list(d.regions, REG).join(", "), ordre: t(d.ordre, 80), permis: t(d.permis, 40), message: t(d.message, 2000),
+    accord: d.accord === true, date: new Date().toISOString(),
+  };
+  if (!item.entreprise || !item.nom) return json(400, { error: "Indiquez le nom de l'entreprise et votre nom." });
+  if (item.telephone.replace(/\D/g, "").length < 10) return json(400, { error: "Indiquez un numéro de téléphone valide." });
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(item.courriel)) return json(400, { error: "Indiquez un courriel valide." });
+  if (!item.soins || !item.lieu || !item.regions) return json(400, { error: "Indiquez les soins offerts, le lieu et les régions desservies." });
+  if (!item.accord) return json(400, { error: "Cochez la case d'accord pour être contacté." });
+  recent.push(now); sent.set("p:" + ip, recent);
+  console.log("PARTENAIRE " + JSON.stringify(item));
+  if (FEEDBACK_URL) {
+    try {
+      const r = await fetch(FEEDBACK_URL, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...item, email: item.courriel, _replyto: item.courriel, _subject: "Salle d'attente : demande de partenariat – " + item.entreprise }), signal: AbortSignal.timeout(15e3) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+    } catch (err) { console.error("Envoi de la demande de partenariat :", err.message); }
+  }
+  json(200, { ok: true });
+}
+
 // ---------- Relais du fichier du ministère ----------
 // Le ministère bloque les serveurs de GitHub, mais pas Render. La collecte automatique
 // (collect.js sur GitHub Actions) lit donc le fichier brut ici : /api/source.csv
@@ -486,6 +522,7 @@ http.createServer(async (req, res) => {
     return;
   }
   if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
+  if (url.pathname === "/api/partenaires") return handlePartner(req, res);
   if (url.pathname === "/api/adresse") return handleGeocode(req, res, url);
   if (url.pathname === "/api/trajet") return handleRoute(req, res, url);
   if (url.pathname === "/api/privees") {

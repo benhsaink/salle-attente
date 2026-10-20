@@ -164,3 +164,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Retenues après relecture : Clinique DCS, RocklandMD centre-ville, Médecine privée – Cité médicale de Charlesbourg, Lacroix Saint-Sauveur, UnionMD Taschereau, Santé + (Vaudreuil-Dorion ; « Coût pour services : Non » mais frais exigés et médecin non participant, comme AxMédic).
 - Écartées à la relecture : GMF (Physimed, Sillery, Cité médicale de Charlesbourg, Pincourt, 3090 Saint-Basile : services publics avec quelques frais), clinique dentaire, physiothérapie, pharmacie. ExcelleMD : fiche sans heures ni services.
 - PointSanté : position ajoutée à la main (champ « position » de la liste), sa fiche n'a pas de lien de carte.
+
+## Formulaire de partenariat (onglet Soins privés, #partenaire)
+- Champs : entreprise*, site, NEQ, nom*, téléphone*, courriel*, soins offerts*, lieu (domicile / locaux / les deux)*, régions desservies*, ordre professionnel et numéro de permis, précisions, accord pour être contacté*.
+- POST /api/partenaires (server.js, handlePartner) : validation, champ piège, 5 envois par heure par IP, ligne « PARTENAIRE » dans les journaux, envoi à FEEDBACK_URL (Formspree) avec le sujet « demande de partenariat » et le courriel du partenaire en réponse (_replyto).
