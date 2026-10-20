@@ -324,6 +324,8 @@ async function getRaw() {
 // openrouteservice pour les 25 urgences les plus proches à vol d'oiseau. Rien n'est conservé à part
 // un cache de 30 minutes par secteur. Clé gratuite : variable ORS_KEY dans Render.
 const ORS_KEY = process.env.ORS_KEY || "";
+// Nouvelle adresse depuis avril 2026 (l'ancienne ferme début novembre 2026) ; l'ancienne reste en secours.
+const ORS_URLS = [process.env.ORS_URL, "https://api.heigit.org/openrouteservice", "https://api.openrouteservice.org"].filter(Boolean);
 const routeCache = new Map(), routeAsked = new Map();
 function haversine(a, b) {
   const R = 6371, rad = (x) => (x * Math.PI) / 180;
@@ -349,14 +351,18 @@ async function handleRoute(req, res, url) {
     const dest = d.all.filter((h) => h.region !== "autre" && typeof h.lat === "number")
       .map((h) => ({ h, d: haversine(origin, h) })).sort((a, b) => a.d - b.d).slice(0, 25).map((x) => x.h);
     if (!dest.length) return json(200, { trajets: {} });
-    const r = await fetch("https://api.openrouteservice.org/v2/matrix/driving-car", {
-      method: "POST",
-      headers: { Authorization: ORS_KEY, "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ locations: [[lon, lat], ...dest.map((h) => [h.lon, h.lat])], sources: [0], destinations: dest.map((_, i) => i + 1), metrics: ["duration", "distance"], units: "km" }),
-      signal: AbortSignal.timeout(15e3),
-    });
-    if (!r.ok) throw new Error("openrouteservice HTTP " + r.status);
-    const m = await r.json();
+    const body0 = JSON.stringify({ locations: [[lon, lat], ...dest.map((h) => [h.lon, h.lat])], sources: [0], destinations: dest.map((_, i) => i + 1), metrics: ["duration", "distance"], units: "km" });
+    let m = null, last = "";
+    for (const base of ORS_URLS) {
+      const r = await fetch(base + "/v2/matrix/driving-car", {
+        method: "POST", body: body0, signal: AbortSignal.timeout(15e3),
+        headers: { Authorization: ORS_KEY, "Content-Type": "application/json", Accept: "application/json" },
+      });
+      if (r.ok) { m = await r.json(); break; }
+      last = base + " HTTP " + r.status;
+      if (![404, 405, 410].includes(r.status)) break; // erreur de clé ou de quota : inutile d'essayer l'autre adresse
+    }
+    if (!m) throw new Error("openrouteservice " + last);
     const trajets = {};
     dest.forEach((h, i) => {
       const sec = m.durations?.[0]?.[i], dist = m.distances?.[0]?.[i];
