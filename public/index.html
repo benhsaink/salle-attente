@@ -107,6 +107,29 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 .feat p{margin:4px 0 0;color:var(--muted);font-size:.86rem}
 .price{font-family:var(--f-display);font-weight:700;color:var(--accent)}
 footer{color:var(--muted);font-size:.78rem}
+.stack{display:flex;flex-direction:column;gap:18px}
+.stack[hidden]{display:none}
+.tabs button{font-size:.95rem;padding:11px 6px}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--surface)}
+.cinfo{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
+.cinfo p{margin:0}
+.cinfo a{color:var(--accent);font-weight:700}
+.s-off{background:var(--line);color:var(--muted)}
+.cl-access{grid-column:2;font-size:.86rem;margin-top:6px}
+.cl-access b{color:var(--ok)}
+.cl-access b.inscrits{color:var(--warn)}
+.cl-book{grid-column:2;margin:6px 0 0;padding:0;list-style:none;font-size:.86rem;display:flex;flex-direction:column;gap:3px}
+.cl-book li span{color:var(--muted)}
+.cl-note{grid-column:2;color:var(--muted);font-size:.8rem;margin:4px 0 0}
+.cl-act{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.cl-act a{font-weight:700;font-size:.84rem;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:5px 10px}
+.cl-act a.main{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+details.wk{grid-column:2;margin-top:10px;border-top:1px solid var(--line);padding-top:8px;font-size:.86rem}
+details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
+.wk ul{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:3px}
+.wk li{display:flex;justify-content:space-between;gap:8px}
+.wk li span{color:var(--muted);text-align:right}
+.wk li.today{font-weight:700}
 /* Fiche par urgence */
 .head h3 a{color:inherit;text-decoration:none}
 .head h3 a:hover{text-decoration:underline}
@@ -141,7 +164,7 @@ footer{color:var(--muted);font-size:.78rem}
 <div class="wrap">
   <header>
     <h1>Salle d'attente</h1>
-    <p class="sub">Trouvez l'urgence la moins remplie dans le Grand Montréal.</p>
+    <p class="sub">Trouvez l'urgence la moins remplie, ou une clinique pour aujourd'hui, dans le Grand Montréal.</p>
   </header>
 
   <div class="sos">
@@ -151,8 +174,12 @@ footer{color:var(--muted);font-size:.78rem}
 
   <section class="fiche" id="fiche" hidden aria-live="polite"></section>
 
-  <div id="listview" style="display:flex;flex-direction:column;gap:18px">
-  <section class="controls" aria-label="Filtres">
+  <div id="main" class="stack">
+  <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
+    <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
+    <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques aujourd'hui</button>
+  </div>
+  <section class="controls" aria-label="Région et position">
     <div class="seg" role="group" aria-label="Région">
       <button id="r-all" data-r="all" aria-pressed="false">Tout</button>
       <button id="r-mtl" data-r="mtl" aria-pressed="false">Montréal</button>
@@ -164,6 +191,10 @@ footer{color:var(--muted);font-size:.78rem}
       <button id="geo-btn" type="button">📍 Trier selon ma position</button>
       <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée.</span>
     </div>
+  </section>
+
+  <div id="listview" class="stack">
+  <section class="controls" aria-label="Filtres des urgences">
     <div class="row">
       <select id="sort" aria-label="Trier">
         <option value="mix" disabled>Proche et peu remplie</option>
@@ -190,7 +221,24 @@ footer{color:var(--muted);font-size:.78rem}
   <p class="legend">Barre : civières occupées par rapport aux civières disponibles. Le trait marque 100 %. « En attente » = personnes pas encore vues par un médecin. « Meilleurs moments » : moyennes des semaines passées, par jour et par heure ; c'est une estimation, pas une garantie. En cas d'urgence grave, n'attendez pas : appelez le 911. Les données sont publiées chaque heure et peuvent changer vite si plusieurs patients arrivent en même temps.</p>
   </div>
 
-  <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
+  <div id="clinicview" class="stack" hidden>
+    <section class="cinfo">
+      <p><b>Consultation le jour même, surtout sur rendez-vous.</b> Ces cliniques (GMF-A/R, les anciennes « super-cliniques ») soignent les problèmes urgents mineurs. Réservez avant d'y aller : les places sont limitées et il n'y a pas de nombre de places en temps réel.</p>
+      <p><b>Sans médecin de famille ?</b> Le Guichet d'accès à la première ligne vous trouve une consultation : <b>811, option 3</b>, ou <a href="https://gap.soinsvirtuels.gouv.qc.ca/fr" target="_blank" rel="noopener">en ligne</a>.</p>
+    </section>
+    <section class="controls" aria-label="Filtres des cliniques">
+      <div class="row">
+        <label class="chk"><input type="checkbox" id="c-open"> Ouvertes maintenant</label>
+        <label class="chk"><input type="checkbox" id="c-all"> Pour tous (sans médecin de famille)</label>
+      </div>
+      <div class="meta"><span id="c-updated">Chargement des cliniques…</span></div>
+    </section>
+    <ol class="list" id="clist"></ol>
+    <p class="legend">Horaires, téléphones et façons de réserver : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Ils peuvent changer sans préavis : téléphonez avant de vous déplacer. Les « Rendez-vous le jour même » réservés aux patients inscrits sont pour les personnes suivies à cette clinique. En cas d'urgence grave, appelez le 911.</p>
+  </div>
+  </div>
+
+  <footer>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
 </div>
 
 <script>
@@ -397,16 +445,17 @@ const rateColor = r => r === null ? "var(--line)" : "var(--" + status(r / 100)[0
 
 function route() {
   const name = ficheName();
-  const fiche = document.getElementById("fiche"), listview = document.getElementById("listview");
+  const fiche = document.getElementById("fiche"), main = document.getElementById("main");
   if (!name) {
     const wasOpen = !fiche.hidden;
-    fiche.hidden = true; listview.style.display = "flex"; shownFiche = null;
+    fiche.hidden = true; main.hidden = false; shownFiche = null;
     document.title = "Salle d'attente";
+    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#urgences" ? "urgences" : view);
     if (wasOpen) window.scrollTo(0, listScroll);
     return;
   }
   if (fiche.hidden) listScroll = window.scrollY;
-  fiche.hidden = false; listview.style.display = "none";
+  fiche.hidden = false; main.hidden = true;
   const first = shownFiche !== name;
   shownFiche = name;
   renderFiche(name);
@@ -416,6 +465,165 @@ function route() {
 function closeFiche() {
   if (history.state && history.state.fromList) history.back();
   else { history.replaceState(null, "", location.pathname + location.search); route(); }
+}
+
+// ---------- Onglets : Urgences / Cliniques ----------
+let view = "urgences";
+try { view = localStorage.getItem("sa-view") === "cliniques" ? "cliniques" : "urgences"; } catch (e) {}
+function setView(v) {
+  view = v;
+  try { localStorage.setItem("sa-view", v); } catch (e) {}
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
+  document.getElementById("listview").hidden = v !== "urgences";
+  document.getElementById("clinicview").hidden = v !== "cliniques";
+  if (v === "cliniques" && !clinics && !clinicsLoading) loadClinics();
+  else if (v === "cliniques") renderClinics();
+}
+
+// ---------- Cliniques ----------
+// Fiches officielles du Répertoire des ressources (Santé Québec), relues chaque matin.
+let clinics = null, clinicsLoading = false;
+const BOOK = { "RVSQ": "Rendez-vous santé Québec", "Bonjour-santé": "Bonjour-santé" };
+const BOOK_URL = { "RVSQ": "https://www.rvsq.gouv.qc.ca/", "Bonjour-santé": "https://bonjour-sante.ca/" };
+const hm = m => { m = ((m % 1440) + 1440) % 1440; const h = Math.floor(m / 60), mn = m % 60; return h + " h" + (mn ? " " + String(mn).padStart(2, "0") : ""); };
+
+// Date et minute actuelles au Québec, peu importe le fuseau du téléphone.
+function quebecNow() {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto", year: "numeric", month: "2-digit", day: "2-digit", hour: "numeric", minute: "numeric", hourCycle: "h23" })
+    .formatToParts(new Date()).map(x => [x.type, x.value]));
+  return { date: `${p.year}-${p.month}-${p.day}`, min: (+p.hour % 24) * 60 + +p.minute };
+}
+
+// État d'ouverture selon l'horaire officiel du jour : [classe, texte, ouverte maintenant ?]
+function openState(c) {
+  const now = quebecNow();
+  const day = (c.jours || []).find(j => j.date === now.date);
+  if (!day) return ["s-off", "Horaire à vérifier", false];
+  if (day.ferme || !day.heures.length) return ["s-off", "Fermée aujourd'hui", false];
+  const cur = day.heures.find(([a, b]) => now.min >= a && now.min < b);
+  if (cur) return ["s-ok", "Ouverte · ferme à " + hm(cur[1]), true];
+  const next = day.heures.find(([a]) => a > now.min);
+  if (next) return ["s-warn", "Ouvre à " + hm(next[0]), false];
+  return ["s-off", "Fermée pour aujourd'hui", false];
+}
+
+async function loadClinics() {
+  clinicsLoading = true;
+  const up = document.getElementById("c-updated");
+  up.textContent = "Chargement des cliniques…";
+  try {
+    const res = await fetch("/api/cliniques");
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error || "Erreur");
+    clinics = json.cliniques;
+    const d = json.generatedAt ? new Date(json.generatedAt).toLocaleDateString("fr-CA", { day: "numeric", month: "long", timeZone: "America/Toronto" }) : null;
+    up.textContent = clinics.length + " cliniques" + (d ? " · fiches officielles relues le " + d : "");
+  } catch (e) {
+    clinics = null;
+    up.textContent = "Liste des cliniques indisponible pour le moment. Réessayez dans quelques minutes.";
+  }
+  clinicsLoading = false;
+  renderClinics();
+}
+
+function clinicCard(c, i) {
+  const [cls, label] = openState(c);
+  const li = el("li", "card");
+  li.appendChild(el("div", "rank", String(i + 1)));
+  const head = el("div", "head");
+  head.append(el("h3", "", c.nom), el("span", "pill " + cls, label));
+  li.appendChild(head);
+  const where = el("div", "where"), d = km(c);
+  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
+  li.appendChild(where);
+
+  // À qui s'adresse la consultation le jour même (selon la fiche officielle)
+  if (c.acces) {
+    const a = el("div", "cl-access");
+    const b = el("b", c.acces === "inscrits" ? "inscrits" : "", c.acces === "tous" ? "Rendez-vous le jour même : pour tous" : "Rendez-vous le jour même : patients inscrits");
+    a.appendChild(b);
+    if (c.acces === "tous") a.appendChild(document.createTextNode(", même sans médecin de famille" + (c.frais ? " (la fiche indique que des frais sont exigés)" : "") + "."));
+    else a.appendChild(document.createTextNode(" à cette clinique. Sinon, appelez pour savoir s'il reste des places."));
+    li.appendChild(a);
+    if (c.accesNote) li.appendChild(el("p", "cl-note", "« " + c.accesNote + " »"));
+  }
+
+  // Comment réserver aujourd'hui
+  const now = quebecNow();
+  const today = (c.jours || []).find(j => j.date === now.date);
+  const ways = today ? today.rdvJour : [];
+  if (ways.length) {
+    const ul = el("ul", "cl-book");
+    const notes = new Set();
+    ways.forEach(w => {
+      const how = w.auto ? "En ligne" + (w.systemes.length ? " (" + w.systemes.filter(s => s !== "Autre").join(", ") + ")" : "") : "Par téléphone";
+      const liw = el("li");
+      liw.append(el("b", "", how.replace(" ()", "") + " : "), el("span", "", (w.heures || "voir la fiche").replace(/^En tout temps$/, "en tout temps")));
+      ul.appendChild(liw);
+      w.notes.forEach(n => notes.add(n));
+    });
+    li.appendChild(ul);
+    [...notes].slice(0, 2).forEach(n => li.appendChild(el("p", "cl-note", n.charAt(0).toUpperCase() + n.slice(1))));
+  }
+
+  // Actions
+  const act = el("div", "cl-act");
+  const systems = Object.keys(c.reservation || {});
+  systems.forEach((s, k) => {
+    const a = el("a", k === 0 ? "main" : "", "Réserver : " + (BOOK[s] || s));
+    a.href = /^https?:\/\/(www\.)?(rvsq\.gouv\.qc\.ca|bonjour-sante\.ca)\//.test(c.reservation[s]) ? c.reservation[s] : BOOK_URL[s];
+    a.target = "_blank"; a.rel = "noopener";
+    act.appendChild(a);
+  });
+  if (c.telephone) {
+    const a = el("a", systems.length ? "" : "main", "📞 " + c.telephone);
+    a.href = "tel:+1" + c.telephone.replace(/\D/g, "");
+    a.setAttribute("aria-label", "Appeler " + c.nom + (c.telephoneSansRdv ? " (ligne des rendez-vous le jour même)" : ""));
+    act.appendChild(a);
+  }
+  li.appendChild(act);
+  const go = goLinks({ name: c.nom, address: [c.adresse.replace(/,? (bureau|unité|local|niveau) .*$/i, ""), c.ville].filter(Boolean).join(", ") });
+  if (go) li.appendChild(go);
+
+  // Horaire de la semaine
+  if ((c.jours || []).length) {
+    const det = el("details", "wk");
+    det.appendChild(el("summary", "", "Horaire des prochains jours"));
+    const ul = el("ul");
+    c.jours.forEach(j => {
+      const [y, m, dd] = j.date.split("-").map(Number);
+      const name = new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+      const row = el("li", j.date === now.date ? "today" : "");
+      row.append(el("b", "", name.charAt(0).toUpperCase() + name.slice(1)), el("span", "", j.ferme ? "Fermée" : j.ouverture || "—"));
+      ul.appendChild(row);
+    });
+    det.appendChild(ul);
+    const src = el("p", "cl-note");
+    const a = el("a", "", "Fiche officielle (Santé Québec)");
+    a.href = c.url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "var(--accent)";
+    src.append(a, document.createTextNode(c.miseAJour ? " · fiche mise à jour le " + c.miseAJour.replace(/,.*$/, "") : ""));
+    if (c.site) { const s = el("a", "", "Site de la clinique"); s.href = c.site; s.target = "_blank"; s.rel = "noopener"; s.style.color = "var(--accent)"; src.append(document.createTextNode(" · "), s); }
+    det.appendChild(src);
+    li.appendChild(det);
+  }
+  return li;
+}
+
+function renderClinics() {
+  const list = document.getElementById("clist");
+  if (!list) return;
+  list.innerHTML = "";
+  if (!clinics) return;
+  const openOnly = document.getElementById("c-open").checked, allOnly = document.getElementById("c-all").checked;
+  let rows = clinics.filter(c => (region === "all" || c.region === region) && (!allOnly || c.acces === "tous"));
+  const st = new Map(rows.map(c => [c, openState(c)]));
+  if (openOnly) rows = rows.filter(c => st.get(c)[2]);
+  // Avec la position : plus proche d'abord. Sinon : ouvertes d'abord, puis pour tous, puis par nom.
+  rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999)
+    : (st.get(b)[2] - st.get(a)[2]) || ((b.acces === "tous") - (a.acces === "tous")) || a.nom.localeCompare(b.nom, "fr"));
+  rows.forEach((c, i) => list.appendChild(clinicCard(c, i)));
+  if (!rows.length) list.appendChild(el("li", "legend", "Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3."));
 }
 
 function renderFiche(name) {
@@ -599,7 +807,7 @@ async function load() {
 }
 
 function render() {
-  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
+  document.querySelectorAll(".seg button[data-r]").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
   const kids = document.getElementById("kids").checked;
   const psy = document.getElementById("psy").checked;
   document.getElementById("psynote").hidden = !psy;
@@ -664,9 +872,10 @@ function render() {
   });
   if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
   if (shownFiche) renderFiche(shownFiche);
+  if (view === "cliniques") renderClinics();
 }
 
-document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+document.querySelectorAll(".seg button[data-r]").forEach(b => b.addEventListener("click", () => {
   region = b.dataset.r; try { localStorage.setItem("sa-region", region); } catch (e) {} render();
 }));
 document.getElementById("sort").addEventListener("change", render);
@@ -683,6 +892,12 @@ document.getElementById("list").addEventListener("click", e => {
   history.pushState({ fromList: true }, "", a.getAttribute("href"));
   route();
 });
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  setView(b.dataset.v);
+  history.replaceState(null, "", location.pathname + location.search + (b.dataset.v === "cliniques" ? "#cliniques" : ""));
+}));
+document.getElementById("c-open").addEventListener("change", renderClinics);
+document.getElementById("c-all").addEventListener("change", renderClinics);
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();

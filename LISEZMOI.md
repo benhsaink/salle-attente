@@ -74,3 +74,11 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Chaque urgence a sa fiche : touche son nom (ou « Voir la fiche ») dans la liste. L'adresse est du type `/#fiche=NOM`, qu'on peut partager.
 - La fiche montre la situation actuelle détaillée, l'itinéraire, les 24 dernières heures (lues dans `data/historique/` par `/api/historique?nom=…`) et la semaine type dès 7 jours d'historique.
 - Aucune information de service (téléphone, horaires, spécialités) n'y est ajoutée sans source officielle.
+
+## Cliniques (onglet « Cliniques aujourd'hui »)
+
+- La liste des cliniques vient de Québec.ca (GMF-A/R, les anciennes « super-cliniques ») : `data/cliniques/liste.json` (nom, numéro de fiche, région).
+- Chaque matin vers 5 h, GitHub Actions (`.github/workflows/repertoire.yml`) lance `repertoire.js` : il lit la fiche officielle de chaque clinique dans le Répertoire des ressources de Santé Québec (par le relais du site, `/api/repertoire`, car GitHub est bloqué) et écrit `data/cliniques/cliniques.json`.
+- On en tire seulement ce que la fiche dit : adresse, position (lien « Comment s'y rendre »), téléphone, horaire des 7 prochains jours, façons de prendre rendez-vous le jour même, et si c'est pour tous ou pour les patients inscrits.
+- Ces fiches ne parlent pas de « sans rendez-vous » au sens strict : ce sont des rendez-vous le jour même. Le site le dit clairement, et il n'y a pas de places en temps réel.
+- Ajouter une clinique : ajouter une ligne dans `liste.json` avec son numéro de fiche (le `nofiche=` de son adresse sur sante.gouv.qc.ca). La lecture se relance toute seule.

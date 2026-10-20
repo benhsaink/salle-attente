@@ -128,6 +128,37 @@ async function recentHistory(name, hours) {
   });
 }
 
+// ---------- Cliniques (data/cliniques/cliniques.json, mis à jour chaque matin sur GitHub) ----------
+const CLINIC_URL = process.env.CLINIC_URL ||
+  "https://raw.githubusercontent.com/benhsaink/salle-attente/main/data/cliniques/cliniques.json";
+let clinics = null, clinicsTime = 0;
+async function getClinics() {
+  if (clinics && Date.now() - clinicsTime < 30 * 60e3) return clinics;
+  clinicsTime = Date.now();
+  let d = null;
+  try {
+    const res = await fetch(CLINIC_URL, { headers: { "User-Agent": "SalleAttente/1.0" }, signal: AbortSignal.timeout(20e3) });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    d = await res.json();
+  } catch (err) {
+    try { d = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "cliniques", "cliniques.json"), "utf8")); }
+    catch (e) { if (!clinics) throw err; return clinics; }
+  }
+  // On garde seulement ce que la page affiche, et l'horaire à partir d'aujourd'hui.
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+  clinics = {
+    generatedAt: d.generatedAt, source: d.source,
+    cliniques: d.cliniques.map((c) => ({
+      nofiche: c.nofiche, nom: c.nom, nomOfficiel: c.nomOfficiel, region: c.region, url: c.url, lu: c.lu, miseAJour: c.miseAJour,
+      adresse: c.adresse, ville: c.ville, codePostal: c.codePostal, lat: c.lat, lon: c.lon,
+      telephone: c.telephone, telephoneSansRdv: c.telephoneSansRdv, site: c.site, reservation: c.reservation,
+      acces: c.acces, accesNote: c.accesNote, frais: c.frais,
+      jours: (c.jours || []).filter((j) => j.date >= today),
+    })),
+  };
+  return clinics;
+}
+
 // ---------- Relais des fiches du Répertoire des ressources ----------
 const fiches = new Map(); // numéro -> { html, time }
 async function getFiche(n) {
@@ -207,6 +238,18 @@ http.createServer(async (req, res) => {
       console.error("Répertoire :", err.message);
       res.writeHead(502, { "Content-Type": "text/plain; charset=utf-8" });
       res.end("Fiche indisponible");
+    }
+    return;
+  }
+  if (url.pathname === "/api/cliniques") {
+    try {
+      const d = await getClinics();
+      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" });
+      res.end(JSON.stringify(d));
+    } catch (err) {
+      console.error("Cliniques :", err.message);
+      res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
+      res.end(JSON.stringify({ error: "Liste des cliniques indisponible pour le moment." }));
     }
     return;
   }
