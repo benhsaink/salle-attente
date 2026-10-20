@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Salle d'attente</title>
 <script src="/i18n.js"></script>
+<script src="/guide.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
 <style>
@@ -172,6 +173,35 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .head h3 a:hover{text-decoration:underline}
 .more{grid-column:2;margin-top:8px;font-size:.86rem;font-weight:700;color:var(--accent);text-decoration:none;justify-self:start}
 .fiche{display:flex;flex-direction:column;gap:14px}
+.fiche[hidden]{display:none}
+.g-links{display:flex;flex-wrap:wrap;gap:8px}
+.g-links a{flex:1 1 auto;text-align:center;text-decoration:none;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:10px 12px}
+.g-levels{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.g-levels li{border:1px solid var(--line);border-left:6px solid var(--c);border-radius:10px;padding:8px 10px}
+.g-levels p{margin:4px 0 0;font-size:.9rem;color:var(--muted)}
+.g-ltop{display:flex;align-items:center;gap:8px}
+.g-num{font-family:var(--f-display);font-weight:800;font-size:1.15rem;min-width:1.2em}
+.g-delay{margin-left:auto;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.g-l1{--c:var(--bad)}.g-l2{--c:var(--bad)}.g-l3{--c:var(--warn)}.g-l4{--c:var(--ok)}.g-l5{--c:var(--line)}
+.g-list,.g-alarm,.g-src{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.g-alarm li{font-weight:600}
+.g-src{font-size:.88rem}
+.g-src a{color:var(--accent)}
+.g-choices,.g-needs{display:flex;flex-direction:column;gap:8px}
+.g-choice{font:inherit;font-weight:700;text-align:left;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:11px 12px;cursor:pointer}
+.g-choice[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.g-red{border-color:var(--bad);color:var(--bad)}
+.g-red[aria-pressed="true"]{background:var(--bad-soft);border-color:var(--bad)}
+.g-out{display:flex;flex-direction:column;gap:14px}
+.g-out:empty{display:none}
+.g-answer{border-color:var(--accent)}
+.g-line{margin:0}
+.g-call,.g-btn{display:inline-block;align-self:flex-start;text-decoration:none;font-weight:700;border-radius:9px;padding:9px 14px}
+.g-call{background:var(--accent);color:var(--surface)}
+.g-btn{background:var(--accent-soft);color:var(--accent)}
+.g-sos{background:var(--bad-soft);border-radius:12px;padding:12px 14px}
+.g-sos p{margin:0}
+.g-sos a.g-call{background:transparent;color:var(--bad);font-weight:800;padding:0;display:inline;text-decoration:underline}
 .back{align-self:flex-start;border:0;background:transparent;color:var(--accent);font:inherit;font-weight:700;padding:4px 0;cursor:pointer}
 .fh{display:flex;flex-direction:column;gap:6px}
 .fh h2{font-size:1.45rem;line-height:1.2}
@@ -214,8 +244,13 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
   </div>
 
   <section class="fiche" id="fiche" hidden aria-live="polite"></section>
+  <section class="fiche" id="infopage" hidden aria-live="polite"></section>
 
   <div id="main" class="stack">
+  <nav class="g-links" aria-label="Aide pour choisir">
+    <a href="#orienter">🧭 Où consulter ?</a>
+    <a href="#triage">Comment fonctionne le triage ?</a>
+  </nav>
   <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
     <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
     <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques</button>
@@ -582,6 +617,15 @@ const rateColor = r => r === null ? "var(--line)" : "var(--" + status(r / 100)[0
 function route() {
   const name = ficheName();
   const fiche = document.getElementById("fiche"), main = document.getElementById("main");
+  const info = document.getElementById("infopage");
+  if (window.SA_GUIDE && SA_GUIDE.pages[location.hash]) {
+    if (info.hidden && fiche.hidden) listScroll = window.scrollY;
+    fiche.hidden = true; main.hidden = true; shownFiche = null;
+    if (info.dataset.page !== location.hash) { SA_GUIDE.render(location.hash, info); info.dataset.page = location.hash; window.scrollTo(0, 0); }
+    info.hidden = false;
+    return;
+  }
+  if (!info.hidden) { info.hidden = true; info.dataset.page = ""; if (!name) { main.hidden = false; setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view); document.title = "Salle d'attente"; window.scrollTo(0, location.hash === "#cliniques" || location.hash === "#urgences" ? 0 : listScroll); return; } }
   if (!name) {
     const wasOpen = !fiche.hidden;
     fiche.hidden = true; main.hidden = false; shownFiche = null;

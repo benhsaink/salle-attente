@@ -141,3 +141,9 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - lib.js : les urgences hors de PLACES prennent leur région du code RSS (r01 Bas-Saint-Laurent… r18 Terres-Cries) ; 03 → qc, 06 → mtl, 13 → lav.
 - Menu « Autres régions du Québec (urgences) » sous les boutons. Cliniques et Privées : pas offertes dans ces régions (message).
 - Avec « Tout » : pas de « Meilleur choix » sans position ; avec la position, seulement une urgence à 75 km ou moins.
+
+## « Comprendre le triage » (#triage) et « Où consulter ? » (#orienter)
+- public/guide.js. Liens en haut de la page, sous le 911 / 811.
+- #triage : les 5 niveaux de l'ÉTG et les délais visés (OIIQ et Collège des médecins, Triage à l'urgence : lignes directrices, 2019), réévaluation pendant l'attente, lien avec les chiffres du site.
+- #orienter : (1) signes d'alarme officiels → 911, « pas sûr » → 911 ; (2) sinon le besoin : Centre antipoison, 9-8-8 / 811 option 2, Info-Santé 811, pharmacien, clinique / 811 option 3, urgences. N'évalue jamais la gravité.
+- Sources : Québec.ca (AVC, urgence ambulance), Canada.ca (crise cardiaque), Santé Québec Laval (911), CIUSSS de la Capitale-Nationale (Où consulter), 988.ca. Consultées le 20 octobre 2026.
