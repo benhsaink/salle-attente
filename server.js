@@ -323,6 +323,12 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", "
 
 http.createServer(async (req, res) => {
   const url = new URL(req.url, "http://x");
+  // Réveil (cron-job.org aux 10 min) : réponse minuscule ; prépare aussi les données en arrière-plan.
+  if (url.pathname === "/api/ping") {
+    getData().catch(() => {});
+    res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" });
+    return res.end("ok");
+  }
   // Relais de la liste des installations (M02, Données Québec) pour installations.js sur GitHub
   if (url.pathname === "/api/installations.csv") {
     try {
