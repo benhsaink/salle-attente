@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T09:09:31.973Z",
+ "generatedAt": "2026-10-20T09:14:52.004Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -11903,6 +11903,414 @@
    "reservation": {
     "RVSQ": "https://rvsq.gouv.qc.ca/"
    }
+  },
+  {
+   "nom": "GMF MAclinique Lévis",
+   "nofiche": 29382,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=29382",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF MACLINIQUE LÉVIS",
+   "adresse": "5801, boulevard Wilfrid-Carrier",
+   "ville": "Lévis",
+   "codePostal": "G6V 0C9",
+   "telephone": "418 833-4977",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 décembre 2025, 13 h 05",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cessation tabagisme",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Diététique",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Fauteuil roulant (location)",
+    "Gynécologie",
+    "Hypertension – Consultation pour le suivi",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Inhalothérapie",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Nutrition",
+    "ORL - Oto-rhino-laryngologie",
+    "Obstétrique",
+    "Omnipratique",
+    "Orthopédie",
+    "Oxygène",
+    "Physiatrie",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychologie",
+    "Radiologie",
+    "Salle d'allaitement",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Suivi CNESST",
+    "Test Pap",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Urgence sociale",
+    "Vaccination",
+    "Visites à domicile",
+    "Équipement spécialisé",
+    "Évaluation de la conduite automobile SAAQ",
+    "Pour l'horaire"
+   ],
+   "lat": 46.78738,
+   "lon": -71.15852,
+   "site": "https://macliniquelevis.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF-A/R Clinique réseau de Trois-Rivières",
+   "nofiche": 854870,
+   "region": "tr",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854870",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF CLINIQUE RÉSEAU DE TROIS-RIVIÈRES (GMF ACCÈS-RÉSEAU CLINIQUE RÉSEAU DE TROIS-RIVIÈRES)",
+   "adresse": "1785, boulevard du Carmel, bureau 246",
+   "ville": "Trois-Rivières",
+   "codePostal": "G8Z 3R8",
+   "telephone": "819 840-3006",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "20 janvier 2026, 16 h 38",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage Test PAP, ITSSS",
+    "Dépistage ITSS sans symptômes",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Prélèvements faits sur place",
+    "Radiologie même édifice",
+    "Soins infirmiers",
+    "Test Pap",
+    "Travail social",
+    "Échographie"
+   ],
+   "lat": 46.35276,
+   "lon": -72.56081,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://www.rvsq.gouv.qc.ca/fr/public/Pages/accueil.aspx"
+   }
+  },
+  {
+   "nom": "GMF-A/R du Cap",
+   "nofiche": 606386,
+   "region": "tr",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=606386",
+   "lu": "2026-10-20",
+   "nomOfficiel": "GMF DU CAP (GMF ACCÈS-RÉSEAU DU CAP)",
+   "adresse": "700, boulevard Thibeau, bureau 110",
+   "ville": "Trois-Rivières",
+   "codePostal": "G8T 7A1",
+   "telephone": "819 373-4551",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "23 janvier 2026, 16 h 45",
+   "telephoneSansRdv": false,
+   "acces": "inscrits",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Ergothérapie",
+    "Hypertension – Consultation pour le suivi",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Retrait de points de suture",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Travail social",
+    "Darling Dalencourt, adjointe administrative responsable de la gestion de l'information",
+    "Tél. : 819-373-4551, poste 205"
+   ],
+   "lat": 46.38358,
+   "lon": -72.54819,
+   "site": null,
+   "reservation": {}
   }
  ]
 }
