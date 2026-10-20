@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T13:41:30.350Z",
+ "generatedAt": "2026-10-20T13:50:39.141Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -6388,6 +6388,349 @@
    "lat": 46.31722,
    "lon": -72.57131,
    "site": "https://ca.linkedin.com/in/kim-b-provencher-9a307b265",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique de santé M (Trois-Rivières)",
+   "nofiche": 854392,
+   "region": "tr",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854392",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE DE SANTÉ M (TROIS-RIVIÈRES)",
+   "adresse": "6560, boulevard des Chenaux",
+   "ville": "Trois-Rivières",
+   "codePostal": "G8Y 5S8",
+   "telephone": "819 841-2555",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h 30",
+     "heures": [
+      [
+       480,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 13 h",
+     "heures": [
+      [
+       540,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 avril 2026, 15 h 12",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": true,
+   "nonParticipant": true,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure Drainage abcès, réparation de plaie",
+    "Clinique de la douleur douleur au cou, torticolis nouveau-né et douleur au dos",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Dépistage ITSS sans symptômes",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Monitoring ambulatoire de la pression artérielle (MAPA)",
+    "Médecine familiale",
+    "Neuropsychologie",
+    "Omnipratique",
+    "Ostéopathie",
+    "Physiothérapie",
+    "Pneumologie",
+    "Pose de sutures / agrafes",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements prélèvements sanguins en clinique et à domicile de 7 h 45 h à 8 h 45",
+    "Prélèvements sanguins / Prise de sang",
+    "Psychologie",
+    "Retrait de points de suture",
+    "SIDEP - Service intégré de dépistage et de prévention des ITSS",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Vaccination contre le zona",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.35654,
+   "lon": -72.61048,
+   "site": "http://cliniquem.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale AxMédic",
+   "nofiche": 1204898,
+   "region": "tr",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1204898",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE MÉDICALE AXMÉDIC",
+   "adresse": "1037, boulevard Thibeau",
+   "ville": "Trois-Rivières",
+   "codePostal": "G8T 7B3",
+   "telephone": "819 300-0902",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 octobre 2025, 17 h 34",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Chiropratique",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Omnipratique",
+    "Services médicaux",
+    "Hormonothérapie",
+    "Soins d'urgences",
+    "Prise en charge complète"
+   ],
+   "lat": 46.39279,
+   "lon": -72.55663,
+   "site": "https://www.axmedic.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale Lacroix (Lévis)",
+   "nofiche": 629768,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=629768",
+   "lu": "2026-10-20",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX (LÉVIS)",
+   "adresse": "880, avenue Taniata, bureau 210",
+   "ville": "Lévis",
+   "codePostal": "G6Z 2E2",
+   "telephone": "418 841-1911",
+   "jours": [
+    {
+     "date": "2026-10-20",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "02 juillet 2026, 18 h 16",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Omnipratique",
+    "Vaccination"
+   ],
+   "lat": 46.72541,
+   "lon": -71.20363,
+   "site": "http://cliniquesmedicaleslacroix.com/",
    "reservation": {}
   }
  ]
