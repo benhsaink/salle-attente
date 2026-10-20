@@ -1,0 +1,1251 @@
+{
+ "verifie": "2026-10-20",
+ "resultats": [
+  {
+   "region": "lav",
+   "codePostal": "H7V3Y7",
+   "adresse": "1515 BOUL CHOMEDEY",
+   "ville": "LAVAL",
+   "noms": [
+    "CENTRE DE SERVICE AMBULATOIRE DE LAVAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7S2M5",
+   "adresse": "1895-1875 MAURICE-GAUVIN",
+   "ville": "LAVAL",
+   "noms": [
+    "CLINIQUE MEDICALE MAURICE-GAUVIN"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7P2P1",
+   "adresse": "200-352 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "CMIL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7P0H9",
+   "adresse": "308-3230 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "AVENIR MD",
+    "CLINIQUE MEDICALE PRIVEE AVENIR MD",
+    "CLINIQUE MEDICALE PRIVEE AVENIR MD - LAVAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7T2Z8",
+   "adresse": "4650 DESSERTE SUD AUTOROUTE LAVAL O",
+   "ville": "LAVAL",
+   "noms": [
+    "CENTRE DE MEDECINE SPORTIVE DE LAVAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "lav",
+   "codePostal": "H7V2T1",
+   "adresse": "610 BOUL CURE-LABELLE",
+   "ville": "LAVAL",
+   "noms": [
+    "MEDI-CENTRE CHOMEDEY"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9G3B9",
+   "adresse": "215-3883 BOUL SAINT-JEAN",
+   "ville": "DOLLARD-DES-ORMEAUX",
+   "noms": [
+    "CLINIQUE REMD SOLUTIONS INC",
+    "REMD SOLUTIONS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9B1Z9",
+   "adresse": "3700 BOUL DES SOURCES",
+   "ville": "DOLLARD-DES-ORMEAUX",
+   "noms": [
+    "CLINIQUE PLACE DU MARCHE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H0A7",
+   "adresse": "200-17001 AUT FELIX-LECLERC",
+   "ville": "KIRKLAND",
+   "noms": [
+    "ACCESSMED"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H5J1",
+   "adresse": "200-17001 RTE TRANS-CANADA",
+   "ville": "KIRKLAND",
+   "noms": [
+    "ACCESS MED",
+    "CLINIQUE ACCESS MED"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H9H5B9",
+   "adresse": "405-3535 BOUL SAINT-CHARLES",
+   "ville": "KIRKLAND",
+   "noms": [
+    "CLINIQUE 360",
+    "CLINIQUE MEDICALE 360"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3R3L5",
+   "adresse": "200-3333 BOUL GRAHAM",
+   "ville": "MONT-ROYAL",
+   "noms": [
+    "CLINIQUE SANTE MEDIC",
+    "SMPRIVE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3P1J7",
+   "adresse": "30 AV JASPER",
+   "ville": "MONT-ROYAL",
+   "noms": [
+    "ALLODOCTEUR.CA"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4L3M8",
+   "adresse": "1-1077 BOUL DECARIE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CITE SANTE SAINT-LAURENT"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1Y3L1",
+   "adresse": "101-4101 RUE MOLSON",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE ANGUS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2J1L3",
+   "adresse": "1141 BOUL SAINT-JOSEPH E",
+   "ville": "MONTREAL",
+   "noms": [
+    "MCIM"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3B3C4",
+   "adresse": "1191 AV UNION",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE MONTREAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4T1Z9",
+   "adresse": "121-6363 RTE TRANSCANADIENNE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CENTRE MEDICALE PHYSIMED",
+    "CLINIQUE PHYSIMED",
+    "GROUPE SANTE PHYSIMED",
+    "PHYSIMED"
+   ],
+   "nofiche": 40941,
+   "nomFiche": "CLINIQUE DENTAIRE PHYSIMED",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui",
+   "signes": [
+    "Coût pour services : Oui"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "6363, route Transcanadienne, bureau 115, Montréal",
+   "miseAJour": "01 avril 2026, 3 h 38"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4T1Z9",
+   "adresse": "121-6363 RTE TRANSCANADIENNE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CENTRE MEDICALE PHYSIMED",
+    "CLINIQUE PHYSIMED",
+    "GROUPE SANTE PHYSIMED",
+    "PHYSIMED"
+   ],
+   "nofiche": 34640,
+   "nomFiche": "GMF PHYSIMED (GROUPE SANTÉ PHYSIMED INC.)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "6363, route Transcanadienne, bureau 121, Montréal",
+   "miseAJour": "31 mai 2025, 23 h 50"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3G1K4",
+   "adresse": "1444 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "SM PRIVE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1L9",
+   "adresse": "1665 RUE SAINTE-CATHERINE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CMIPQ"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3K3G9",
+   "adresse": "1697 RUE SAINT-PATRICK",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE CHLOE"
+   ],
+   "nofiche": 1131746,
+   "nomFiche": "CLINIQUE DCS",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "1693, rue Saint-Patrick, bureau 106, Montréal",
+   "miseAJour": "27 janvier 2025, 18 h 09"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1E8",
+   "adresse": "1980 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICELLE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3H1E3",
+   "adresse": "1980 RUE SHERBROOKE O SUITE 500",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDIC ELLE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2C2K3",
+   "adresse": "200-10690 AV PELOQUIN",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE VARICES & D'OBESITE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3A1Y7",
+   "adresse": "2055 RUE MANSFIELD",
+   "ville": "MONTREAL",
+   "noms": [
+    "CREA-MED CLINIQUE MEDICALE PRIVEE",
+    "CRÉA-MED"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1M3E6",
+   "adresse": "211-6275 RUE BEAUBIEN E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE ECHOVENA - MONTREAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4Z1C3",
+   "adresse": "2700-800 RUE DU SQUARE VICTORIA C.P. 155",
+   "ville": "MONTREAL",
+   "noms": [
+    "QUATUORMD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4R2M6",
+   "adresse": "312-5255 BOUL HENRI-BOURASSA O",
+   "ville": "MONTREAL",
+   "noms": [
+    "GROUPE MEDICAL JEAN TALON"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4C1H1",
+   "adresse": "3451 RUE SAINT-JACQUES",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE FACE MD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2V2R3",
+   "adresse": "383 RUE VILLENEUVE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE VERSAMD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3E1J6",
+   "adresse": "40 PLACE DU COMMERCE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE LE VILLAGE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3Z2Z3",
+   "adresse": "420-4060 SAINTE-CATHERINE OUEST",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE CABOT SQUARE",
+    "CLOUDMED CLINIQUE MEDICALE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3A3C6",
+   "adresse": "500 RUE SHERBROOKE O 11E ETAGE",
+   "ville": "MONTREAL",
+   "noms": [
+    "MEDISYS",
+    "MEDISYS HEALTH GROUP",
+    "SAAQ"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3G1L5",
+   "adresse": "500-1538 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "ROCKLAND MD"
+   ],
+   "nofiche": 788984,
+   "nomFiche": "CLINIQUE MÉDICALE ROCKLANDMD (CENTRE-VILLE)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "1538, rue Sherbrooke Ouest, bureau 500, Montréal",
+   "miseAJour": "20 novembre 2024, 20 h 49"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H1T1N6",
+   "adresse": "5055 RUE SAINT-ZOTIQUE E",
+   "ville": "MONTREAL",
+   "noms": [
+    "PLANISAN- EPIC"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4R0M6",
+   "adresse": "5570 BOUL HENRI BOURASSA SO",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE PRIVEE UNI-MED"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2S3C4",
+   "adresse": "6300 BOUL SAINT-LAURENT",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE EUREKA"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H4A1S9",
+   "adresse": "660-5025 RUE SHERBROOKE O",
+   "ville": "MONTREAL",
+   "noms": [
+    "SAINTE-CATHERINE MED GROUP"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2L1N9",
+   "adresse": "808 RUE ONTARIO E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE MEDICALE LA LICORNE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2S1Y1",
+   "adresse": "908 RUE DE BELLECHASSE",
+   "ville": "MONTREAL",
+   "noms": [
+    "CLINIQUE DE VARICES DE MONTREAL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H2J1K6",
+   "adresse": "916 BOUL SAINT-JOSEPH E",
+   "ville": "MONTREAL",
+   "noms": [
+    "CENTRE DE PHLEBOLOGIE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "mtl",
+   "codePostal": "H3Z2Y5",
+   "adresse": "403-4150 RUE STE CATHERINE OUEST",
+   "ville": "WESTMOUNT",
+   "noms": [
+    "CURAMED"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S2L5",
+   "adresse": "1000 CH SAINTE-FOY",
+   "ville": "QUEBEC",
+   "noms": [
+    "CENTRE MÉDICAL BERGER"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1E7E5",
+   "adresse": "102 RUE ARMAND-BUTEAU",
+   "ville": "QUEBEC",
+   "noms": [
+    "SANS RENDEZ-VOUS BEAUPORT PLUS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1X4T9",
+   "adresse": "1147 CHARLES-ALBANEL",
+   "ville": "QUEBEC",
+   "noms": [
+    "MON DOC"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1T1Z2",
+   "adresse": "1363 AV MAGUIRE SUITE 300",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE DE SILLERY"
+   ],
+   "nofiche": 42292,
+   "nomFiche": "CLINIQUE DE PHYSIOTHÉRAPIE PCN SILLERY",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "1363, avenue Maguire, suite 410, Québec",
+   "miseAJour": "02 mars 2026, 14 h 25"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1T1Z2",
+   "adresse": "1363 AV MAGUIRE SUITE 300",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE DE SILLERY"
+   ],
+   "nofiche": 37948,
+   "nomFiche": "GMF DE SILLERY (CLINIQUE MÉDICALE DE SILLERY)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "1363, avenue Maguire, bureau 300, Québec",
+   "miseAJour": "03 juin 2026, 18 h 28"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S3X6",
+   "adresse": "200-945 AV MARGUERITE-BOURGEOYS",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE MARGUERITE-BOURGEOYS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S1T8",
+   "adresse": "211-915 BOUL RENE-LEVESQUE O",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MED. DR G. PAINCHAUD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1G5X1",
+   "adresse": "250-8500 BOUL HENRI-BOURASSA",
+   "ville": "QUEBEC",
+   "noms": [
+    "CITE MEDICALE"
+   ],
+   "nofiche": 609753,
+   "nomFiche": "GMF LA CITÉ MÉDICALE DE CHARLESBOURG (LA CITÉ MÉDICALE DE CHARLESBOURG)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "8500, boulevard Henri-Bourassa, bureau 250, Québec",
+   "miseAJour": "27 avril 2026, 17 h 14"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1G5X1",
+   "adresse": "250-8500 BOUL HENRI-BOURASSA",
+   "ville": "QUEBEC",
+   "noms": [
+    "CITE MEDICALE"
+   ],
+   "nofiche": 1235049,
+   "nomFiche": "MÉDECINE PRIVÉE – LA CITÉ MÉDICALE DE CHARLESBOURG",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "8500, boulevard Henri-Bourassa, bureau 250, Québec",
+   "miseAJour": "23 juillet 2026, 13 h 25"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G2M0E4",
+   "adresse": "300-795 BOUL DU LAC",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE LACROIX"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1S2L3",
+   "adresse": "303-1000 CHEMIN SAINTE-FOY",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICAL LACROIX"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1V5C7",
+   "adresse": "305-2954 BOUL LAURIER G1V 4T2",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE MEDICALE M.Q."
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "qc",
+   "codePostal": "G1V3V3",
+   "adresse": "985 ROUTE DE L'EGLISE",
+   "ville": "QUEBEC",
+   "noms": [
+    "CLINIQUE M"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7C0W7",
+   "adresse": "596 RANG SAINT-FRANCOIS",
+   "ville": "BLAINVILLE",
+   "noms": [
+    "CLINIQUE DR. YVES BELZIL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7G2E6",
+   "adresse": "333 MONTEE SANCHE",
+   "ville": "BOISBRIAND",
+   "noms": [
+    "DRS TREMBLAY ET OLIVIER CLINIQUE DE VARICE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7R4Z2",
+   "adresse": "1304 BOUL DU LAC",
+   "ville": "DEUX-MONTAGNES",
+   "noms": [
+    "VASECTOMIE 450"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7J2K8",
+   "adresse": "13714 BOUL DU CURE-LABELLE",
+   "ville": "MIRABEL",
+   "noms": [
+    "CLINIQUE MEDICALE DE MIRABEL"
+   ],
+   "nofiche": 40507,
+   "nomFiche": "CLINIQUE MEDICALE DE MIRABEL (SAINT-JANVIER)",
+   "decision": "écartée",
+   "raison": "aucun frais indiqué dans la fiche (Coût pour services : Non)",
+   "signes": [],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "13714, boulevard du Curé-Labelle, bureau 200, cP 1059, Mirabel",
+   "miseAJour": "21 mars 2025, 12 h 57"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7J0T8",
+   "adresse": "300-11800 RUE DE CHAUMONT",
+   "ville": "MIRABEL",
+   "noms": [
+    "CLINIQUE MEDICALE CITE MIRABEL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J8E3H4",
+   "adresse": "447 RUE CHARBONNEAU",
+   "ville": "MONT-TREMBLANT",
+   "noms": [
+    "CLINIQUE LEBLANC + SAVARIA TREMBLANT"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7R1Y2",
+   "adresse": "136 RUE SAINT-LOUIS",
+   "ville": "SAINT-EUSTACHE",
+   "noms": [
+    "CLINIQUE MÉDICALE DU VIEUX SAINT-EUSTACHE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0K2N0",
+   "adresse": "131 RUE SAINTE-ANNE",
+   "ville": "SAINT-GABRIEL-DE-BRANDON",
+   "noms": [
+    "CLINIQUE MEDICALE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7Z7E2",
+   "adresse": "211-200 RUE DURAND",
+   "ville": "SAINT-JEROME",
+   "noms": [
+    "POLYCLINIQUE SAINT-JEROME"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0R1R6",
+   "adresse": "154 RUE PRINCIPALE",
+   "ville": "SAINT-SAUVEUR",
+   "noms": [
+    "CLINIQUE OSTEO SPORT"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0R1R0",
+   "adresse": "C.P.189",
+   "ville": "SAINT-SAUVEUR",
+   "noms": [
+    "CENTRE MEDICAL PLEXUS",
+    "CLINIQUE MEDICALE LACROIX"
+   ],
+   "nofiche": 1101788,
+   "nomFiche": "CLINIQUE MÉDICALE LACROIX -ST-SAUVEUR",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "68-B, avenue de la Gare, bureau 201, Saint-Sauveur",
+   "miseAJour": "02 avril 2026, 17 h 57"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J8A1H1",
+   "adresse": "201-780 CHEMIN DES HAUTEURS",
+   "ville": "ST-HIPPOLYTE",
+   "noms": [
+    "CLINIQUE MEDICALE ST-HIPPOLYTE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J6X4P7",
+   "adresse": "3195 BOUL DE LA PINIERE O BUREAU 101",
+   "ville": "TERREBONNE",
+   "noms": [
+    "EXCELLEMD"
+   ],
+   "nofiche": 1121959,
+   "nomFiche": "CLINIQUE MÉDICALE PRIVÉE EXCELLEMD - TERREBONNE",
+   "decision": "à revoir",
+   "raison": "frais indiqués, mais fiche incomplète : services, heures",
+   "signes": [
+    "mention privée/payante"
+   ],
+   "manque": [
+    "services",
+    "heures"
+   ],
+   "cout": "Non",
+   "ficheAdresse": "3195, boulevard de la Pinière, Terrebonne",
+   "miseAJour": "14 août 2024, 12 h 42"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J7M1T7",
+   "adresse": "5661 BOUL LAURIER",
+   "ville": "TERREBONNE",
+   "noms": [
+    "CENTRE MEDICAL LAURIER"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rn",
+   "codePostal": "J0T2N0",
+   "adresse": "1362 RUE DE L'ACADEMIE J0T 2N0",
+   "ville": "VAL-DAVID",
+   "noms": [
+    "CLINIQUE CMIE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J6K3C3",
+   "adresse": "108-237 BOUL SAINT-JEAN-BAPTISTE",
+   "ville": "CHATEAUGUAY",
+   "noms": [
+    "CENTRE MEDICAL MERCIER-CHATEAUGUAY"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J5R2L2",
+   "adresse": "675 CH DE SAINT-JEAN",
+   "ville": "LA PRAIRIE",
+   "noms": [
+    "COOP SANTE SOLIDARITE LAPRAIRIE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4G2M6",
+   "adresse": "203-505 RUE ADONCOUR",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "CLINIQUE MD PSY"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4K0B9",
+   "adresse": "250-1225 RUE SAINT-CHARLES OUEST",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "CLINIQUE PRIVEE MEDIKA"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4V2H3",
+   "adresse": "3200 BOUL TASCHEREAU",
+   "ville": "LONGUEUIL",
+   "noms": [
+    "UNIONMD"
+   ],
+   "nofiche": 1154018,
+   "nomFiche": "CLINIQUE UNIONMD TASCHEREAU",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "3234, boulevard Taschereau, Longueuil",
+   "miseAJour": "27 avril 2026, 18 h 50"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J6R2B1",
+   "adresse": "101-464 BOUL SAINT-JEAN-BAPTISTE",
+   "ville": "MERCIER",
+   "noms": [
+    "CLINIQUE MEDICALE MERCIER"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J7W5K7",
+   "adresse": "88 5E AVENUE",
+   "ville": "PINCOURT",
+   "noms": [
+    "CENTRE DE SANTE MEDICENTRE PINCOURT"
+   ],
+   "nofiche": 50474,
+   "nomFiche": "GMF PINCOURT (CENTRE DE SANTÉ MÉDICENTRE PINCOURT)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "88, 5e Avenue, Pincourt",
+   "miseAJour": "02 décembre 2025, 15 h 32"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3N1V6",
+   "adresse": "101-275 BOUL SIR-WILFRID-LAURIER",
+   "ville": "SAINT-BASILE-LE-GRAND",
+   "noms": [
+    "CENTRE MEDICAL SAINT-BASILE"
+   ],
+   "nofiche": 43385,
+   "nomFiche": "GMF 3090 (CENTRE MÉDICAL SAINT-BASILE)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "275, boulevard Sir-Wilfrid-Laurier, unité 101, Saint-Basile-le-Grand",
+   "miseAJour": "09 mars 2026, 17 h 43"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3N1V6",
+   "adresse": "101-275 BOUL SIR-WILFRID-LAURIER",
+   "ville": "SAINT-BASILE-LE-GRAND",
+   "noms": [
+    "CENTRE MEDICAL SAINT-BASILE"
+   ],
+   "nofiche": 70545,
+   "nomFiche": "PHARMACIE JEAN-COUTU SONIA GUIMONT ET ISABELLE NORMANDIN (SAINT-BASILE-LE-GRAND)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "275, boulevard Sir-Wilfrid-Laurier, bureau 100, Saint-Basile-le-Grand",
+   "miseAJour": "01 avril 2026, 13 h 49"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J0J1W0",
+   "adresse": "765 RUE PRINCIPALE",
+   "ville": "SAINT-BLAISE-SUR-RICHELIEU",
+   "noms": [
+    "COOP SOLIDARITE SANTE ST-BLAISE-SUR-RICHEL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3T5",
+   "adresse": "1362 RUE DE MONTARVILLE",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "CMIE ST-BRUNO"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3P7",
+   "adresse": "1435 RUE ROBERVAL",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "CENTRE MD PRIVE ST-BRUNO"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3V3V8",
+   "adresse": "1979 RUE MONTARVILLE",
+   "ville": "SAINT-BRUNO-DE-MONTARVILLE",
+   "noms": [
+    "MGH CONSULTANT INC."
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3Y3K7",
+   "adresse": "206-5125 BOULEVARD COUSINEAU",
+   "ville": "SAINT-HUBERT",
+   "noms": [
+    "CENTRE MEDICALE ST.HUBERT"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4R2L1",
+   "adresse": "200 BOUL SIR-WILFRID-LAURIER",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "CLINIQUE PRIVEE BLOUIN-VALOIS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4P1M8",
+   "adresse": "289 BOUL DESAULNIERS",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "CLINIQUE MEDISALUS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4P2K8",
+   "adresse": "597 AV NOTRE-DAME",
+   "ville": "SAINT-LAMBERT",
+   "noms": [
+    "MEDECINE PRIVEE NOTRE DAME"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3G0R2",
+   "adresse": "210-4605 CH DU CREPUSCULE",
+   "ville": "SAINT-MATHIEU-DE-BELOEIL",
+   "noms": [
+    "ELNA SAINT-MATHIEU-DE-BELOEIL"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3E1Y9",
+   "adresse": "104A-1991 RUE LEONARD-DE VINCI",
+   "ville": "SAINTE-JULIE",
+   "noms": [
+    "PHLEBOCENTRE DEVINCI"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J3A1B5",
+   "adresse": "220-870 BOUL DU SEMINAIRE N",
+   "ville": "ST-JEAN-SUR-RICHELIEU",
+   "noms": [
+    "CLINIQUE MARIE-CHANTAL MENARD MD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J4S1H1",
+   "adresse": "309-2035 AV VICTORIA",
+   "ville": "ST-LAMBERT",
+   "noms": [
+    "514 DOCTEUR"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "rs",
+   "codePostal": "J7V0N3",
+   "adresse": "106-11 BOULEVARD CITE DES JEUNES EST",
+   "ville": "VAUDREUIL-DORION",
+   "noms": [
+    "CLINIQUE MEDICALE SANTE +"
+   ],
+   "nofiche": 1091287,
+   "nomFiche": "CLINIQUE MÉDICALE SANTÉ +",
+   "decision": "à revoir",
+   "raison": "contradiction : Coût pour services : Non, mais des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "11, boulevard de la Cité-des-Jeunes, bureau 106, Vaudreuil-Dorion",
+   "miseAJour": "26 mars 2026, 13 h 20"
+  },
+  {
+   "region": "tr",
+   "codePostal": "G8Z1T7",
+   "adresse": "1543 BOUL DES FORGES",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE PRO MD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "tr",
+   "codePostal": "G8T3Z8",
+   "adresse": "155 TOUPIN",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CM CLOUTIER"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "tr",
+   "codePostal": "G9A0A7",
+   "adresse": "201-7110 RUE MARION",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE XO 2"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "tr",
+   "codePostal": "G9C0L8",
+   "adresse": "6535 RUE DES ALPES-SUITE 201",
+   "ville": "TROIS-RIVIERES",
+   "noms": [
+    "CLINIQUE DE SANTE M"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  }
+ ]
+}
