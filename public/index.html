@@ -351,7 +351,7 @@ function render() {
   const psy = document.getElementById("psy").checked;
   document.getElementById("psynote").hidden = !psy;
   const sort = document.getElementById("sort").value;
-  let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? h.kids : true) && (psy ? h.psy : !h.psy));
+  let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? (h.kids || h.peds) : true) && (psy ? h.psy : !h.psy));
   const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999
     : sort === "near" ? h => km(h) ?? 999 : sort === "mix" ? h => score(h) + (km(h) ?? 60) * KM_WEIGHT : score;
   rows.sort((a, b) => key(a) - key(b));
@@ -359,7 +359,7 @@ function render() {
   const best = document.getElementById("best");
   // La bannière ne recommande pas une urgence spécialisée (enfants, cardiologie) à tout le monde :
   // seulement si le filtre correspondant est choisi.
-  const b = rows.find(h => (kids || !h.kids) && !h.cardio) || null;
+  const b = rows.find(h => (kids || !h.kids) && !h.cardio) || null; // h.peds : hôpital général, recommandable à tous
   best.hidden = !b;
   if (b) {
     best.innerHTML = `<small>Meilleur choix selon la dernière mise à jour</small><h3></h3><p></p>`;
@@ -394,6 +394,7 @@ function render() {
     li.querySelector("h3").textContent = h.name;
     if (h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Enfants"; li.querySelector("h3").appendChild(t); }
     if (h.psy) { const t = document.createElement("span"); t.className = "tag psy"; t.textContent = "Psychiatrie"; li.querySelector("h3").appendChild(t); }
+    if (h.peds && !h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Section pédiatrique"; li.querySelector("h3").appendChild(t); }
     if (h.cardio) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Cardiologie"; li.querySelector("h3").appendChild(t); }
     const fc = forecastBlock(h);
     if (fc) li.appendChild(fc);

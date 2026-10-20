@@ -63,3 +63,8 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Le fichier du ministère ne donne que la situation actuelle : l'historique se construit heure par heure. Les « meilleurs moments » s'affichent après 7 jours de données.
 - Le site lit `data/stats.json` sur GitHub (une fois par heure). Il relaie aussi le fichier du ministère sur /api/source.csv, car le ministère bloque GitHub.
 - Les urgences psychiatriques sont cachées par défaut et s'affichent avec la case « Urgences psychiatriques ».
+
+## Section pédiatrique
+
+- La case « Pédiatrique seulement » montre les hôpitaux pour enfants, et aussi les hôpitaux généraux listés dans `PEDS` (lib.js), avec l'étiquette « Section pédiatrique ».
+- `PEDS` est vide pour l'instant : on n'y ajoute un hôpital que s'il est confirmé par une source officielle (lien + date dans la ligne).

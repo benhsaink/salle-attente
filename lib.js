@@ -55,6 +55,11 @@ const PLACES = [
   ["saint-jerome", "rn", "Saint-Jérôme", 45.7790, -74.0040, "290 rue De Montigny, Saint-Jérôme"],
 ];
 const KIDS = ["sainte-justine", "enfants", "children"];
+// Hôpitaux généraux avec une section pédiatrique à l'urgence. N'ajouter une ligne que si c'est
+// confirmé par une source officielle (site de l'hôpital ou du CISSS/CIUSSS), avec le lien et la date :
+//   ["mot-cle du nom", "https://source-officielle", "AAAA-MM-JJ"],
+// Toutes les urgences générales soignent les enfants : cette liste ne sert qu'à signaler une section dédiée.
+const PEDS = [];
 // Urgences psychiatriques : gardées, mais affichées seulement avec le filtre « Psychiatrie ».
 const PSY = ["sante mentale", "psychiatri", "albert-prevost", "albert prevost", "louis-h", "douglas", "pinel"];
 
@@ -167,6 +172,7 @@ function build(records, everywhere) {
       kids: KIDS.some((k) => norm(name).includes(k)),
       psy: PSY.some((k) => norm(name).includes(k)),
       cardio: norm(name).includes("cardiologie"),
+      peds: PEDS.some(([k]) => norm(name).includes(k)),
       stretchers, occ,
       rate: stretchers && occ !== null ? occ / stretchers : null,
       over24: num(r[c.over24]), over48: num(r[c.over48]),
