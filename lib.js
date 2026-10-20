@@ -15,16 +15,44 @@ const SOURCE_API =
 // Pour tester sans Internet : SOURCE_FILE=exemple.csv npm start
 const SOURCE_FILE = process.env.SOURCE_FILE;
 
-// Hôpitaux du Grand Montréal hors de l'île : mot-clé dans le nom -> région et lieu
-const KNOWN = [
-  ["charles-lemoyne", "rs", "Greenfield Park, près de Brossard"],
-  ["pierre-boucher", "rs", "Longueuil"],
-  ["anna-laberge", "rs", "Châteauguay"],
-  ["haut-richelieu", "rs", "Saint-Jean-sur-Richelieu"],
-  ["cite-de-la-sante", "lav", "Laval"],
-  ["saint-eustache", "rn", "Saint-Eustache"],
-  ["le gardeur", "rn", "Terrebonne"],
-  ["saint-jerome", "rn", "Saint-Jérôme"],
+// Urgences du Grand Montréal : mot-clé (nom normalisé) -> région, secteur, position, adresse.
+// Les positions servent au calcul de distance (à vol d'oiseau, précision d'environ 1 km) ;
+// l'itinéraire, lui, utilise l'adresse. Un mot-clé qui commence par « = » doit égaler le nom complet. Le plus précis d'abord (ex. « pour enfants » avant « de montreal »).
+const PLACES = [
+  // Montréal
+  ["centre hospitalier de l universite de montreal", "mtl", "Centre-ville", 45.5113, -73.5574, "1051 rue Sanguinet, Montréal"],
+  ["sainte-justine", "mtl", "Côte-des-Neiges", 45.5030, -73.6243, "3175 chemin de la Côte-Sainte-Catherine, Montréal"],
+  ["montreal pour enfants", "mtl", "Notre-Dame-de-Grâce (site Glen)", 45.4729, -73.6017, "1001 boulevard Décarie, Montréal"],
+  ["royal victoria", "mtl", "Notre-Dame-de-Grâce (site Glen)", 45.4726, -73.6008, "1001 boulevard Décarie, Montréal"],
+  ["general de montreal", "mtl", "Centre-ville", 45.4970, -73.5890, "1650 avenue Cedar, Montréal"],
+  ["institut de cardiologie", "mtl", "Rosemont", 45.5743, -73.5888, "5000 rue Bélanger, Montréal"],
+  ["general juif", "mtl", "Côte-des-Neiges", 45.4973, -73.6303, "3755 chemin de la Côte-Sainte-Catherine, Montréal"],
+  ["st. mary", "mtl", "Côte-des-Neiges", 45.4950, -73.6240, "3830 avenue Lacombe, Montréal"],
+  ["hopital de verdun", "mtl", "Verdun", 45.4615, -73.5700, "4000 boulevard LaSalle, Montréal"],
+  ["=hopital notre-dame", "mtl", "Plateau / Centre-Sud", 45.5260, -73.5604, "1560 rue Sherbrooke Est, Montréal"],
+  ["maisonneuve-rosemont", "mtl", "Rosemont", 45.5750, -73.5583, "5415 boulevard de l'Assomption, Montréal"],
+  ["santa cabrini", "mtl", "Saint-Léonard", 45.5802, -73.5717, "5655 rue Saint-Zotique Est, Montréal"],
+  ["sante mentale de montreal", "mtl", "Mercier–Hochelaga", 45.5886, -73.5290, "7401 rue Hochelaga, Montréal"],
+  ["sacre-coeur", "mtl", "Ahuntsic–Cartierville", 45.5317, -73.7142, "5400 boulevard Gouin Ouest, Montréal"],
+  ["albert-prevost", "mtl", "Ahuntsic–Cartierville", 45.5293, -73.7230, "6555 boulevard Gouin Ouest, Montréal"],
+  ["hopital fleury", "mtl", "Ahuntsic", 45.5719, -73.6475, "2180 rue Fleury Est, Montréal"],
+  ["jean-talon", "mtl", "Villeray", 45.5450, -73.6050, "1385 rue Jean-Talon Est, Montréal"],
+  ["hopital de lasalle", "mtl", "LaSalle", 45.4290, -73.6250, "8585 terrasse Champlain, Montréal"],
+  ["douglas", "mtl", "Verdun", 45.4422, -73.5854, "6875 boulevard LaSalle, Montréal"],
+  ["lakeshore", "mtl", "Pointe-Claire", 45.4480, -73.8340, "160 avenue Stillview, Pointe-Claire"],
+  ["hopital de lachine", "mtl", "Lachine", 45.4410, -73.6770, "650 16e Avenue, Montréal"],
+  // Laval
+  ["cite-de-la-sante", "lav", "Laval", 45.5590, -73.7225, "1755 boulevard René-Laennec, Laval"],
+  // Rive-Sud
+  ["charles-le moyne", "rs", "Greenfield Park, près de Brossard", 45.4930, -73.4740, "3120 boulevard Taschereau, Longueuil"],
+  ["charles-lemoyne", "rs", "Greenfield Park, près de Brossard", 45.4930, -73.4740, "3120 boulevard Taschereau, Longueuil"],
+  ["pierre-boucher", "rs", "Longueuil", 45.5430, -73.4720, "1333 boulevard Jacques-Cartier Est, Longueuil"],
+  ["anna-laberge", "rs", "Châteauguay", 45.3510, -73.7280, "200 boulevard Brisebois, Châteauguay"],
+  ["haut-richelieu", "rs", "Saint-Jean-sur-Richelieu", 45.3240, -73.2760, "920 boulevard du Séminaire Nord, Saint-Jean-sur-Richelieu"],
+  // Rive-Nord
+  ["saint-eustache", "rn", "Saint-Eustache", 45.5590, -73.9030, "520 boulevard Arthur-Sauvé, Saint-Eustache"],
+  ["le gardeur", "rn", "Terrebonne", 45.7140, -73.4870, "911 montée des Pionniers, Terrebonne"],
+  ["saint-jerome", "rn", "Saint-Jérôme", 45.7790, -74.0040, "290 rue De Montigny, Saint-Jérôme"],
 ];
 const KIDS = ["sainte-justine", "enfants", "children"];
 // Urgences psychiatriques : gardées, mais affichées seulement avec le filtre « Psychiatrie ».
@@ -96,10 +124,13 @@ function columns(keys) {
 
 function region(etab, inst) {
   const n = norm(inst), e = norm(etab);
-  for (const [key, reg, area] of KNOWN) if (n.includes(key)) return { reg, area };
-  if (e.includes("laval")) return { reg: "lav", area: "Laval" };
-  if (e.includes("montreal") || e.includes("chum") || e.includes("cusm") || e.includes("muhc") ||
-      e.includes("sainte-justine") || n.includes("montreal"))
+  // Les hôpitaux de Québec (CHU de Québec – Université Laval) ne sont pas à Laval !
+  if (e.includes("universite laval") || e.includes("de quebec")) return null;
+  for (const [key, reg, area, lat, lon, address] of PLACES)
+    if (key.startsWith("=") ? n === key.slice(1) : n.includes(key)) return { reg, area, lat, lon, address };
+  if (/\blaval\b/.test(e)) return { reg: "lav", area: "Laval" };
+  if (e.includes("montreal") || e.includes("mcgill") || e.includes("chum") || e.includes("cusm") ||
+      e.includes("muhc") || e.includes("sainte-justine") || n.includes("montreal"))
     return { reg: "mtl", area: "Montréal" };
   return null; // hors du Grand Montréal
 }
@@ -130,8 +161,12 @@ function build(records, everywhere) {
       establishment: r[c.etab] || "",
       region: where ? where.reg : "autre",
       area: where ? where.area : "",
+      lat: where && where.lat !== undefined ? where.lat : null,
+      lon: where && where.lon !== undefined ? where.lon : null,
+      address: where && where.address ? where.address : null,
       kids: KIDS.some((k) => norm(name).includes(k)),
       psy: PSY.some((k) => norm(name).includes(k)),
+      cardio: norm(name).includes("cardiologie"),
       stretchers, occ,
       rate: stretchers && occ !== null ? occ / stretchers : null,
       over24: num(r[c.over24]), over48: num(r[c.over48]),

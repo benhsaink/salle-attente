@@ -50,6 +50,13 @@ select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid 
 label.chk{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.9rem}
 button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .meta{color:var(--muted);font-size:.82rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.geo{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.geo button{border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:8px 12px;cursor:pointer}
+.geo button.off{background:transparent;color:var(--accent);border:1px solid var(--line);padding:6px 10px;font-size:.85rem}
+.geo span{color:var(--muted);font-size:.84rem;flex:1 1 180px}
+.km{font-weight:700;color:var(--ink)}
+.go{grid-column:2;justify-self:start;margin-top:8px;font-weight:700;font-size:.88rem;color:var(--accent);text-decoration:none}
+.go:hover{text-decoration:underline}
 .linkbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.82rem;border-radius:8px;padding:4px 10px;cursor:pointer}
 .best{background:var(--accent-soft);border-radius:14px;padding:14px 16px}
 .best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.72rem}
@@ -121,9 +128,15 @@ footer{color:var(--muted);font-size:.78rem}
       <button id="r-lav" data-r="lav" aria-pressed="false">Laval</button>
       <button id="r-rn" data-r="rn" aria-pressed="false">Rive-Nord</button>
     </div>
+    <div class="geo" id="geo">
+      <button id="geo-btn" type="button">📍 Trier selon ma position</button>
+      <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée.</span>
+    </div>
     <div class="row">
       <select id="sort" aria-label="Trier">
-        <option value="score">Moins remplie d'abord</option>
+        <option value="mix" disabled>Proche et peu remplie</option>
+        <option value="near" disabled>Plus proche d'abord</option>
+        <option value="score" selected>Moins remplie d'abord</option>
         <option value="pec">Moins de gens en attente</option>
         <option value="dms">Séjour le plus court</option>
       </select>
@@ -162,6 +175,62 @@ function status(r) {
   return ["s-bad", "Débordée"];
 }
 const score = h => (h.rate ?? 2) * 100 + (h.pec ?? 30) * 1.5;
+
+// ---------- Position (seulement si la personne accepte) ----------
+// La position reste dans le navigateur : la distance est calculée ici, rien n'est envoyé au serveur.
+let pos = null;
+const KM_WEIGHT = 4; // « Proche et peu remplie » : 1 km de plus vaut 4 points d'achalandage
+function km(h) {
+  if (!pos || h.lat === null || h.lat === undefined) return null;
+  const R = 6371, rad = x => x * Math.PI / 180;
+  const dLat = rad(h.lat - pos.lat), dLon = rad(h.lon - pos.lon);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(rad(pos.lat)) * Math.cos(rad(h.lat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+const kmText = d => d < 1 ? "à moins de 1 km" : "à " + Math.round(d).toLocaleString("fr-CA") + " km";
+const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
+const mapsLink = addr => isApple
+  ? "https://maps.apple.com/?daddr=" + encodeURIComponent(addr + ", QC")
+  : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(addr + ", QC");
+
+function setGeoUI(state, text) {
+  const btn = document.getElementById("geo-btn"), msg = document.getElementById("geo-msg");
+  const on = state === "on";
+  btn.textContent = on ? "Ne plus utiliser ma position" : state === "wait" ? "Recherche de votre position…" : "📍 Trier selon ma position";
+  btn.className = on ? "off" : "";
+  btn.disabled = state === "wait";
+  msg.textContent = text;
+  document.querySelectorAll('#sort option[value="mix"], #sort option[value="near"]').forEach(o => o.disabled = !on);
+}
+
+function askPosition() {
+  if (!("geolocation" in navigator)) { setGeoUI("off", "Votre navigateur ne permet pas la localisation."); return; }
+  setGeoUI("wait", "Acceptez la demande de votre téléphone pour voir les distances.");
+  navigator.geolocation.getCurrentPosition(p => {
+    pos = { lat: p.coords.latitude, lon: p.coords.longitude };
+    try { localStorage.setItem("sa-geo", "1"); } catch (e) {}
+    setGeoUI("on", "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.");
+    const sort = document.getElementById("sort");
+    if (sort.value === "score") sort.value = "mix";
+    render();
+  }, err => {
+    pos = null;
+    try { localStorage.removeItem("sa-geo"); } catch (e) {}
+    setGeoUI("off", err.code === 1
+      ? "Position refusée. Vous pouvez l'autoriser dans les réglages de votre navigateur, puis réessayer."
+      : "Position introuvable pour le moment. Réessayez dans un instant.");
+    render();
+  }, { enableHighAccuracy: false, timeout: 15000, maximumAge: 5 * 60e3 });
+}
+
+function stopPosition() {
+  pos = null;
+  try { localStorage.removeItem("sa-geo"); } catch (e) {}
+  const sort = document.getElementById("sort");
+  if (sort.value === "mix" || sort.value === "near") sort.value = "score";
+  setGeoUI("off", "Votre position reste sur votre téléphone : elle n'est jamais envoyée.");
+  render();
+}
 
 // ---------- Meilleurs moments ----------
 const MIN_DAYS = 7; // en dessous, trop peu de mesures pour afficher des « meilleurs moments »
@@ -256,7 +325,7 @@ async function load() {
     data = json.hospitals;
     trend = json.trend || null;
     const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
-    up.textContent = "Données du " + (latest || new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
+    up.textContent = "Données " + (latest ? (/^\d{1,2}:\d{2}/.test(latest) ? "de " + latest.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : "du " + latest) : "du " + new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
   } catch (e) {
     data = [];
     up.textContent = "Données indisponibles pour le moment. Réessayez dans quelques minutes ou consultez quebec.ca/SituationUrgences.";
@@ -271,17 +340,22 @@ function render() {
   document.getElementById("psynote").hidden = !psy;
   const sort = document.getElementById("sort").value;
   let rows = data.filter(h => (region === "all" || h.region === region) && (kids ? h.kids : true) && (psy ? h.psy : !h.psy));
-  const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999 : score;
+  const key = sort === "pec" ? h => h.pec ?? 999 : sort === "dms" ? h => h.dmsAmb ?? 999
+    : sort === "near" ? h => km(h) ?? 999 : sort === "mix" ? h => score(h) + (km(h) ?? 60) * KM_WEIGHT : score;
   rows.sort((a, b) => key(a) - key(b));
 
   const best = document.getElementById("best");
-  best.hidden = !rows.length;
-  if (rows.length) {
-    const b = rows[0];
+  // La bannière ne recommande pas une urgence spécialisée (enfants, cardiologie) à tout le monde :
+  // seulement si le filtre correspondant est choisi.
+  const b = rows.find(h => (kids || !h.kids) && !h.cardio) || null;
+  best.hidden = !b;
+  if (b) {
     best.innerHTML = `<small>Meilleur choix selon la dernière mise à jour</small><h3></h3><p></p>`;
     best.querySelector("h3").textContent = b.name;
+    best.querySelector("small").textContent = (sort === "mix" || sort === "near") && pos ? "Meilleur choix près de vous" : "Meilleur choix selon la dernière mise à jour";
+    const d = km(b);
     best.querySelector("p").textContent =
-      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${b.area}`;
+      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${d === null ? b.area : kmText(d) + " · " + b.area}`;
   }
 
   const tn = document.getElementById("trendnote");
@@ -308,9 +382,18 @@ function render() {
     li.querySelector("h3").textContent = h.name;
     if (h.kids) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Enfants"; li.querySelector("h3").appendChild(t); }
     if (h.psy) { const t = document.createElement("span"); t.className = "tag psy"; t.textContent = "Psychiatrie"; li.querySelector("h3").appendChild(t); }
+    if (h.cardio) { const t = document.createElement("span"); t.className = "tag"; t.textContent = "Cardiologie"; li.querySelector("h3").appendChild(t); }
     const fc = forecastBlock(h);
     if (fc) li.appendChild(fc);
-    li.querySelector(".where").textContent = h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "");
+    const where = li.querySelector(".where"), d = km(h);
+    if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = kmText(d) + " · "; where.appendChild(k); }
+    where.appendChild(document.createTextNode(h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "")));
+    if (h.address) {
+      const a = document.createElement("a");
+      a.className = "go"; a.href = mapsLink(h.address); a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "Itinéraire →"; a.setAttribute("aria-label", "Itinéraire vers " + h.name);
+      li.insertBefore(a, li.querySelector(".fc"));
+    }
     list.appendChild(li);
   });
   if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
@@ -322,6 +405,8 @@ document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click"
 document.getElementById("sort").addEventListener("change", render);
 document.getElementById("kids").addEventListener("change", render);
 document.getElementById("psy").addEventListener("change", render);
+document.getElementById("geo-btn").addEventListener("click", () => pos ? stopPosition() : askPosition());
+try { if (localStorage.getItem("sa-geo") === "1") askPosition(); } catch (e) {}
 document.getElementById("refresh").addEventListener("click", load);
 load();
 setInterval(load, 15 * 60e3);
