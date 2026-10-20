@@ -153,3 +153,4 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - server.js (handleRoute) : les 25 urgences les plus proches à vol d'oiseau, une seule requête « matrix » à openrouteservice (driving-car), cache 30 min par secteur, 30 demandes par heure par IP.
 - Clé gratuite à mettre dans Render : variable ORS_KEY. Sans clé, le site garde les distances à vol d'oiseau.
 - Tris « Plus proche » et « Proche et peu remplie » : minutes de route quand elles sont connues.
+- Aussi dans Cliniques et Privées : /api/trajet?type=cliniques|privees (clé = numéro de fiche), 25 plus proches.

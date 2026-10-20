@@ -338,7 +338,8 @@ async function handleRoute(req, res, url) {
   if (!ORS_KEY) return json(503, { error: "Temps de route pas encore activé." });
   const lat = Math.round(Number(url.searchParams.get("lat")) * 100) / 100, lon = Math.round(Number(url.searchParams.get("lon")) * 100) / 100;
   if (!isFinite(lat) || !isFinite(lon) || lat < 44 || lat > 63 || lon < -80 || lon > -56) return json(400, { error: "Position hors du Québec." });
-  const key = lat + "," + lon, hit = routeCache.get(key);
+  const type = ["cliniques", "privees"].includes(url.searchParams.get("type")) ? url.searchParams.get("type") : "urgences";
+  const key = type + ":" + lat + "," + lon, hit = routeCache.get(key);
   if (hit && Date.now() - hit.t < 30 * 60e3) return json(200, hit.body);
   const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
   const now = Date.now(), recent = (routeAsked.get(ip) || []).filter((t) => now - t < 3600e3);
@@ -346,9 +347,12 @@ async function handleRoute(req, res, url) {
   recent.push(now); routeAsked.set(ip, recent);
   if (routeAsked.size > 5000) routeAsked.clear();
   try {
-    const d = await getData();
+    // Urgences : clé = nom ; cliniques : clé = numéro de fiche du Répertoire.
+    const items = type === "urgences" ? (await getData()).all.filter((h) => h.region !== "autre")
+      : type === "cliniques" ? (await getClinics()).cliniques : (await getPrivateComplete()).cliniques;
+    const idOf = (x) => (x.nofiche ? String(x.nofiche) : x.name);
     const origin = { lat, lon };
-    const dest = d.all.filter((h) => h.region !== "autre" && typeof h.lat === "number")
+    const dest = items.filter((h) => typeof h.lat === "number" && typeof h.lon === "number")
       .map((h) => ({ h, d: haversine(origin, h) })).sort((a, b) => a.d - b.d).slice(0, 25).map((x) => x.h);
     if (!dest.length) return json(200, { trajets: {} });
     const body0 = JSON.stringify({ locations: [[lon, lat], ...dest.map((h) => [h.lon, h.lat])], sources: [0], destinations: dest.map((_, i) => i + 1), metrics: ["duration", "distance"], units: "km" });
@@ -366,7 +370,7 @@ async function handleRoute(req, res, url) {
     const trajets = {};
     dest.forEach((h, i) => {
       const sec = m.durations?.[0]?.[i], dist = m.distances?.[0]?.[i];
-      if (typeof sec === "number") trajets[h.name] = { min: Math.max(1, Math.round(sec / 60)), km: Math.round(dist * 10) / 10 };
+      if (typeof sec === "number") trajets[idOf(h)] = { min: Math.max(1, Math.round(sec / 60)), km: Math.round(dist * 10) / 10 };
     });
     const body = { trajets, source: "openrouteservice.org, données © OpenStreetMap" };
     routeCache.set(key, { t: Date.now(), body });

@@ -417,9 +417,12 @@ function km(h) {
 const kmText = d => d < 1 ? "à moins de 1 km" : "à " + Math.round(d).toLocaleString("fr-CA") + " km";
 
 // ---------- Temps de route (seulement si la case est cochée) ----------
-let road = new Map(), roadFor = "", roadOn = false;
+// Une liste de trajets par onglet : urgences (clé = nom), cliniques et privées (clé = numéro de fiche).
+const roads = { urgences: new Map(), cliniques: new Map(), privees: new Map() }, roadFor = { urgences: "", cliniques: "", privees: "" };
+let roadOn = false;
 try { roadOn = localStorage.getItem("sa-road") === "1"; } catch (e) {}
-const roadOf = h => (pos && roadOn && road.get(h.name)) || null;
+const roadOf = h => (pos && roadOn && (h.nofiche ? (roads.cliniques.get(String(h.nofiche)) || roads.privees.get(String(h.nofiche))) : roads.urgences.get(h.name))) || null;
+function clearRoads() { for (const t in roads) { roads[t] = new Map(); roadFor[t] = ""; } }
 // Texte de distance d'une urgence : temps en voiture si calculé, sinon vol d'oiseau.
 function distText(h) {
   const r = roadOf(h);
@@ -429,21 +432,22 @@ function distText(h) {
 }
 // Pour les tris : minutes de route, ou une estimation à partir du vol d'oiseau.
 const travel = h => { const r = roadOf(h); if (r) return r.min; const d = km(h); return d === null ? null : d * 1.2; };
-async function loadRoad() {
-  if (!pos || !roadOn) return;
+async function loadRoad(type) {
+  type = type || (view === "cliniques" || view === "privees" ? view : "urgences");
+  if (!pos || !roadOn || !roads[type]) return;
   const key = pos.lat.toFixed(2) + "," + pos.lon.toFixed(2);
-  if (key === roadFor) return;
-  roadFor = key;
+  if (key === roadFor[type]) return;
+  roadFor[type] = key;
   const note = document.getElementById("road-note");
   note.textContent = "Calcul des temps de route…";
   try {
-    const res = await fetch("/api/trajet?lat=" + pos.lat.toFixed(2) + "&lon=" + pos.lon.toFixed(2));
+    const res = await fetch("/api/trajet?type=" + type + "&lat=" + pos.lat.toFixed(2) + "&lon=" + pos.lon.toFixed(2));
     const json = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(json.error || "Temps de route indisponible pour le moment.");
-    road = new Map(Object.entries(json.trajets || {}));
+    roads[type] = new Map(Object.entries(json.trajets || {}));
     note.textContent = "Temps de route : openrouteservice.org, carte © OpenStreetMap. Pour les urgences les plus proches ; sans circulation. Position arrondie, non conservée.";
   } catch (err) {
-    road = new Map(); roadFor = "";
+    roads[type] = new Map(); roadFor[type] = "";
     note.textContent = err.message + " Distances à vol d'oiseau en attendant.";
   }
   render();
@@ -518,7 +522,7 @@ async function searchAddress(q) {
 
 function stopPosition() {
   document.getElementById("addr").value = "";
-  pos = null; road = new Map(); roadFor = "";
+  pos = null; clearRoads();
   try { localStorage.removeItem("sa-geo"); } catch (e) {}
   const sort = document.getElementById("sort");
   if (sort.value === "mix" || sort.value === "near") sort.value = "score";
@@ -690,6 +694,7 @@ let view = "urgences";
 try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees", "soins"].includes(v) ? v : "urgences"; } catch (e) {}
 function setView(v) {
   view = v;
+  if (v === "cliniques" || v === "privees" || v === "urgences") loadRoad(v);
   try { localStorage.setItem("sa-view", v); } catch (e) {}
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
   document.getElementById("listview").hidden = v !== "urgences";
@@ -762,7 +767,7 @@ function clinicCard(c, i) {
   head.append(h3, pills);
   li.appendChild(head);
   const where = el("div", "where"), d = km(c);
-  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
   li.appendChild(where);
 
@@ -878,7 +883,7 @@ function privateCard(c, i, wanted) {
   head.append(el("h3", "", c.nom), pills);
   li.appendChild(head);
   const where = el("div", "where"), d = km(c);
-  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
   li.appendChild(where);
 
@@ -934,7 +939,7 @@ function renderPrivates() {
   let rows = privates.filter(c => (region === "all" || c.region === region) && (!wanted || c.services.includes(wanted)));
   const st = new Map(rows.map(c => [c, openState(c)]));
   if (openOnly) rows = rows.filter(c => st.get(c)[2]);
-  rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
+  rows.sort((a, b) => pos ? (travel(a) ?? 999) - (travel(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted)));
   if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques privées ne sont pas encore offertes dans cette région. L'onglet Urgences couvre tout le Québec." : "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
 }
@@ -949,7 +954,7 @@ function renderClinics() {
   if (nocov) {
     let rows = NOCOV.slice();
     if (document.getElementById("c-open").checked) rows = rows.filter(c => nocovState(c)[2]);
-    if (pos) rows.sort((a, b) => (km(a) ?? 999) - (km(b) ?? 999));
+    if (pos) rows.sort((a, b) => (travel(a) ?? 999) - (travel(b) ?? 999));
     rows.forEach((c, i) => list.appendChild(nocovCard(c, i)));
     if (!rows.length) list.appendChild(el("li", "legend", "Aucune de ces cliniques n'est ouverte en ce moment. Consultez leurs heures ci-dessous en décochant « Ouvertes maintenant »."));
     return;
@@ -961,7 +966,7 @@ function renderClinics() {
   const st = new Map(rows.map(c => [c, openState(c)]));
   if (openOnly) rows = rows.filter(c => st.get(c)[2]);
   // Avec la position : plus proche d'abord. Sinon : ouvertes d'abord, puis pour tous, puis par nom.
-  rows.sort((a, b) => pos ? (km(a) ?? 999) - (km(b) ?? 999)
+  rows.sort((a, b) => pos ? (travel(a) ?? 999) - (travel(b) ?? 999)
     : (st.get(b)[2] - st.get(a)[2]) || ((b.acces === "tous") - (a.acces === "tous")) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(clinicCard(c, i)));
   if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques ne sont pas encore offertes dans cette région. Pour une consultation : 811, option 3. L'onglet Urgences couvre tout le Québec." : "Aucune clinique pour ces filtres. Essayez une autre région, ou le 811, option 3."));
@@ -1001,7 +1006,7 @@ function nocovCard(c, i) {
   head.append(h3, pills);
   li.appendChild(head);
   const where = el("div", "where"), d = km(c);
-  if (d !== null) where.appendChild(el("span", "km", kmText(d) + " · "));
+  if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode(c.org + " · " + c.adresse + ", " + c.ville));
   li.appendChild(where);
   const ul = el("ul", "cl-book");
@@ -1312,7 +1317,7 @@ document.getElementById("road-opt").addEventListener("change", e => {
   const gm = document.getElementById("geo-msg");
   if (pos) gm.textContent = roadOn ? gm.textContent.replace("Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.", "Distances depuis votre position.").replace("Distances à vol d'oiseau depuis : ", "Distances depuis : ")
     : gm.textContent.replace("Distances depuis votre position.", "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.").replace("Distances depuis : ", "Distances à vol d'oiseau depuis : ");
-  if (!roadOn) { road = new Map(); roadFor = ""; document.getElementById("road-note").textContent = "Si coché, votre position arrondie (environ 1 km) est envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée."; render(); }
+  if (!roadOn) { clearRoads(); document.getElementById("road-note").textContent = "Si coché, votre position arrondie (environ 1 km) est envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée."; render(); }
   else if (pos) loadRoad();
 });
 document.getElementById("addr-form").addEventListener("submit", e => {
