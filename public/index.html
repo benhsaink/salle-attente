@@ -55,8 +55,10 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
 .geo button.off{background:transparent;color:var(--accent);border:1px solid var(--line);padding:6px 10px;font-size:.85rem}
 .geo span{color:var(--muted);font-size:.84rem;flex:1 1 180px}
 .km{font-weight:700;color:var(--ink)}
-.go{grid-column:2;justify-self:start;margin-top:8px;font-weight:700;font-size:.88rem;color:var(--accent);text-decoration:none}
-.go:hover{text-decoration:underline}
+.go{grid-column:2;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px;font-size:.84rem;color:var(--muted)}
+.go a{font-weight:700;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:4px 9px}
+.go a:hover{border-color:var(--accent)}
+.go a.pref{background:var(--accent-soft);border-color:var(--accent-soft)}
 .linkbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.82rem;border-radius:8px;padding:4px 10px;cursor:pointer}
 .best{background:var(--accent-soft);border-radius:14px;padding:14px 16px}
 .best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.72rem}
@@ -189,9 +191,19 @@ function km(h) {
 }
 const kmText = d => d < 1 ? "à moins de 1 km" : "à " + Math.round(d).toLocaleString("fr-CA") + " km";
 const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
-const mapsLink = addr => isApple
-  ? "https://maps.apple.com/?daddr=" + encodeURIComponent(addr + ", QC")
-  : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(addr + ", QC");
+// Applications de navigation : Plans seulement sur les appareils Apple.
+// La dernière choisie est mise en premier (retenue dans ce navigateur seulement).
+const APPS = [
+  { id: "apple", name: "Plans", url: a => "https://maps.apple.com/?daddr=" + encodeURIComponent(a + ", QC"), apple: true },
+  { id: "google", name: "Google Maps", url: a => "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(a + ", QC") },
+  { id: "waze", name: "Waze", url: a => "https://waze.com/ul?q=" + encodeURIComponent(a + ", QC") + "&navigate=yes" },
+];
+let mapsPref = null;
+try { mapsPref = localStorage.getItem("sa-maps"); } catch (e) {}
+function mapsApps() {
+  const list = APPS.filter(m => isApple || !m.apple);
+  return list.sort((a, b) => (b.id === mapsPref) - (a.id === mapsPref));
+}
 
 function setGeoUI(state, text) {
   const btn = document.getElementById("geo-btn"), msg = document.getElementById("geo-msg");
@@ -389,10 +401,18 @@ function render() {
     if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = kmText(d) + " · "; where.appendChild(k); }
     where.appendChild(document.createTextNode(h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "")));
     if (h.address) {
-      const a = document.createElement("a");
-      a.className = "go"; a.href = mapsLink(h.address); a.target = "_blank"; a.rel = "noopener";
-      a.textContent = "Itinéraire →"; a.setAttribute("aria-label", "Itinéraire vers " + h.name);
-      li.insertBefore(a, li.querySelector(".fc"));
+      const go = document.createElement("div");
+      go.className = "go";
+      go.appendChild(document.createTextNode("Itinéraire :"));
+      mapsApps().forEach(m => {
+        const a = document.createElement("a");
+        a.href = m.url(h.address); a.target = "_blank"; a.rel = "noopener";
+        a.textContent = m.name; a.setAttribute("aria-label", "Itinéraire vers " + h.name + " avec " + m.name);
+        if (m.id === mapsPref) a.className = "pref";
+        a.addEventListener("click", () => { mapsPref = m.id; try { localStorage.setItem("sa-maps", m.id); } catch (e) {} });
+        go.appendChild(a);
+      });
+      li.insertBefore(go, li.querySelector(".fc"));
     }
     list.appendChild(li);
   });
