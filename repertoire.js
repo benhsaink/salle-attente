@@ -5,7 +5,7 @@
 //   2) en tire l'adresse, la position (lien « Comment s'y rendre »), le téléphone, l'horaire des 7 prochains jours,
 //      la prise de rendez-vous le jour même et à qui elle s'adresse
 //   3) écrit le tout dans data/cliniques/cliniques.json, que le site affiche
-// Rien n'est deviné : une information absente de la fiche reste vide.
+// Rien n'est deviné : une information absente de la fiche reste vide (et la dernière version lue est gardée en cas de panne).
 
 const fs = require("fs");
 const path = require("path");
