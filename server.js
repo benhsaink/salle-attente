@@ -436,6 +436,35 @@ http.createServer(async (req, res) => {
   }
   // Relais d'une fiche du Répertoire des ressources (Santé Québec), pour la mise à jour des cliniques
   // sur GitHub. Seulement des numéros de fiche ; résultat gardé 1 jour.
+  // Relais de la recherche du Répertoire (cliniques sans rendez-vous près d'un code postal), pour repérer
+  // les numéros de fiche à ajouter aux listes. Paramètres limités : code postal, rayon, page.
+  if (url.pathname === "/api/repertoire-recherche") {
+    const code = (url.searchParams.get("code") || "").toUpperCase().replace(/\s/g, "");
+    const rayon = Math.min(50, Math.max(1, Number(url.searchParams.get("rayon")) || 10)), page = Math.min(30, Math.max(1, Number(url.searchParams.get("page")) || 1));
+    if (!/^[A-Z]\d[A-Z]\d[A-Z]\d$/.test(code)) { res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Code postal invalide"); }
+    try {
+      const u = "https://sante.gouv.qc.ca/repertoire-ressources/consultations-medicales-sans-rendez-vous/?bt_rechCode=1&theme=consultations-medicales-sans-rendez-vous&ch_choixReg=&ch_rayon=" + rayon + "&ch_code=" + code.slice(0, 3) + "+" + code.slice(3) + "&page=" + page;
+      const r = await fetch(u, { headers: { "User-Agent": "SalleAttente/1.0 (donnees publiques)" }, signal: AbortSignal.timeout(30e3) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const html = await r.text();
+      // On ne renvoie que la liste : nom + numéro de fiche (+ texte voisin pour l'adresse).
+      const out = [];
+      const re = /nofiche=(\d+)[^>]*>([\s\S]{0,200}?)<\/a>([\s\S]{0,400}?)(?=nofiche=|$)/g;
+      let m; const seen = new Set();
+      while ((m = re.exec(html))) {
+        if (seen.has(m[1])) continue; seen.add(m[1]);
+        const txt = (s) => s.replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+        out.push({ nofiche: Number(m[1]), nom: txt(m[2]), apres: txt(m[3]).slice(0, 160) });
+      }
+      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=3600" });
+      res.end(JSON.stringify({ code, rayon, page, resultats: out }));
+    } catch (err) {
+      console.error("Recherche Répertoire :", err.message);
+      res.writeHead(502, { "Content-Type": "text/plain; charset=utf-8" });
+      res.end("Recherche indisponible");
+    }
+    return;
+  }
   if (url.pathname === "/api/repertoire") {
     const n = url.searchParams.get("nofiche") || "";
     if (!/^\d{1,9}$/.test(n)) { res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Numéro de fiche invalide"); }
