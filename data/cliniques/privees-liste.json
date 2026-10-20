@@ -247,6 +247,21 @@
    "nom": "Clinique de santé familiale Harmonie",
    "nofiche": 1154030,
    "region": "tr"
+  },
+  {
+   "nom": "Clinique de santé M (Trois-Rivières)",
+   "nofiche": 854392,
+   "region": "tr"
+  },
+  {
+   "nom": "Clinique médicale AxMédic",
+   "nofiche": 1204898,
+   "region": "tr"
+  },
+  {
+   "nom": "Clinique médicale Lacroix (Lévis)",
+   "nofiche": 629768,
+   "region": "qc"
   }
  ]
 }

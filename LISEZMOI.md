@@ -154,3 +154,6 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Clé gratuite à mettre dans Render : variable ORS_KEY. Sans clé, le site garde les distances à vol d'oiseau.
 - Tris « Plus proche » et « Proche et peu remplie » : minutes de route quand elles sont connues.
 - Aussi dans Cliniques et Privées : /api/trajet?type=cliniques|privees (clé = numéro de fiche), 25 plus proches.
+- Relais /api/repertoire-nom?q=NOM : recherche par nom dans le Répertoire (renvoie nom, adresse et numéro de fiche) pour trouver de nouvelles cliniques.
+- Ajoutées le 20 octobre 2026 : Clinique de santé familiale Harmonie (1154030), Clinique de santé M (854392), AxMédic (1204898 ; « des frais sont exigés » pour chaque service, même si « Coût pour services » dit Non) à Trois-Rivières ; Clinique médicale Lacroix (629768, « clinique médicale privée, hors RAMQ ») à Lévis.
+- Écartées : AxMédic 1203796 (sans heures, sans frais), Clinique de santé M Trois-Rivières Ouest 1120582 (fiche vide). Introuvables dans le Répertoire : Clinique XO, Clinique Pro MD, Admedica, 8165 rue du Mistral.
