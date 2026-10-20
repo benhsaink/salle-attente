@@ -289,7 +289,124 @@ function computeStats(rows) {
   return { generatedAt: new Date().toISOString(), from: sorted[0] || null, to: sorted.at(-1) || null, days: dates.size, hospitals };
 }
 
+// ---------- Cliniques : fiches du Répertoire des ressources (Santé Québec) ----------
+
+const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", rsquo: "’", lsquo: "‘", eacute: "é", egrave: "è", agrave: "à", ccedil: "ç", ecirc: "ê", ocirc: "ô", icirc: "î", ucirc: "û", Eacute: "É", ndash: "–", mdash: "—" };
+// Page HTML -> texte, une information par ligne.
+function htmlText(html) {
+  return String(html)
+    .replace(/<(script|style|noscript|svg|nav|header|footer)\b[\s\S]*?<\/\1>/gi, "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(p|li|div|h\d|tr|dt|dd|section|article|address)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(+d))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))
+    .replace(/&([a-z]+);/gi, (m, e) => ENT[e] ?? m)
+    .split("\n").map((l) => l.replace(/[ \t]+/g, " ").trim()).filter(Boolean).join("\n");
+}
+
+const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+const DATE_LINE = new RegExp("^(\\d{1,2}) (" + MOIS.join("|") + ") (\\d{4})$");
+// « 8 h 10 à 20 h 30 » -> [[490, 1230]] (minutes depuis minuit). « En tout temps » -> [[0, 1440]].
+function ranges(s) {
+  if (/en tout temps|24 h sur 24/i.test(s)) return [[0, 1440]];
+  const out = [];
+  for (const m of String(s).matchAll(/(\d{1,2}) h(?: (\d{2}))? à (\d{1,2}) h(?: (\d{2}))?/g)) {
+    const a = +m[1] * 60 + +(m[2] || 0);
+    let b = +m[3] * 60 + +(m[4] || 0);
+    if (b <= a) b += 1440; // passe minuit
+    out.push([a, b]);
+  }
+  return out;
+}
+
+// Texte d'une fiche -> informations utiles. Ne garde que ce qui est écrit dans la fiche.
+function parseFiche(text) {
+  const L = String(text).split("\n").map((l) => l.trim()).filter(Boolean);
+  const at = (re, from = 0) => { for (let i = from; i < L.length; i++) if (re.test(L[i])) return i; return -1; };
+  const out = { nomOfficiel: null, adresse: null, ville: null, codePostal: null, telephone: null, jours: [], systemes: [], miseAJour: null };
+
+  const iCoord = at(/^Coordonnées$/);
+  const t = L.find((l) => / - Trouver une ressource/.test(l));
+  if (t) out.nomOfficiel = t.split(" - Trouver une ressource")[0].trim();
+  if (iCoord >= 0) {
+    out.adresse = L[iCoord + 1] || null;
+    const m = (L[iCoord + 2] || "").match(/^(.*?) \(Québec\)\s*([A-Z]\d[A-Z] ?\d[A-Z]\d)?/);
+    if (m) { out.ville = m[1]; out.codePostal = m[2] || null; }
+  }
+  // Téléphone : le numéro du sans rendez-vous s'il y en a un, sinon le numéro général, sinon le premier.
+  const iTelSec = at(/^Téléphone$/), iTelEnd = at(/^Horaire$/);
+  const phones = [];
+  for (let i = iTelSec + 1; iTelSec >= 0 && i < (iTelEnd < 0 ? L.length : iTelEnd); i++) {
+    const m = L[i].match(/(\d{3} \d{3}-\d{4})/);
+    if (m) phones.push({ num: m[1], walk: /sans rendez-vous|jour même/i.test(L[i]), general: /^Numéro général/i.test(L[i]) });
+  }
+  const ph = phones.find((p) => p.walk) || phones.find((p) => p.general) || phones[0];
+  if (ph) { out.telephone = ph.num; out.telephoneSansRdv = !!ph.walk; }
+  // Service officiel « Consultations médicales le jour même ou dans les jours suivants » : pour qui ?
+  const iServ = at(/^Consultations médicales le jour même ou dans les jours suivants/);
+  out.acces = null; out.accesNote = null;
+  if (iServ >= 0) {
+    const l = L[iServ];
+    out.acces = /\(pour tous\)/i.test(l) ? "tous" : /patients inscrits/i.test(l) ? "inscrits" : null;
+    out.frais = /des frais sont exigés/i.test(l);
+    const note = l.replace(/^Consultations médicales le jour même ou dans les jours suivants\s*(\([^)]*\))?\s*(\(des frais sont exigés\))?\s*/i, "").trim();
+    if (note) out.accesNote = note;
+  }
+  const iMaj = at(/^Dernière mise à jour : /);
+  if (iMaj >= 0) out.miseAJour = L[iMaj].replace(/^Dernière mise à jour : /, "");
+
+  // Horaire : une section par date, jusqu'à « Services offerts ».
+  const iH = at(/^Horaire$/), iEnd = at(/^Services offerts/);
+  let day = null, block = null;
+  for (let i = iH + 1; iH >= 0 && i < (iEnd < 0 ? L.length : iEnd); i++) {
+    const l = L[i], d = l.match(DATE_LINE);
+    if (d) {
+      day = { date: `${d[3]}-${String(MOIS.indexOf(d[2]) + 1).padStart(2, "0")}-${d[1].padStart(2, "0")}`, ferme: false, ouverture: null, heures: [], rdvJour: [] };
+      out.jours.push(day); block = null; continue;
+    }
+    if (!day) continue;
+    if (/^Fermé$/i.test(l)) { day.ferme = true; continue; }
+    if (/^Heures d'ouverture$/i.test(l)) { block = { type: "ouverture" }; continue; }
+    if (/^Heures pour prendre un rendez-vous/i.test(l)) {
+      const jour = /le jour même/i.test(l), auto = /système automatisé/i.test(l);
+      const medecin = /pour (Médecine familiale|médecin|Médecine d'urgence)/i.test(l);
+      block = jour && medecin ? { type: "rdv", entry: { auto, heures: null, plages: [], systemes: [], notes: [] } } : { type: "autre" };
+      if (block.type === "rdv") day.rdvJour.push(block.entry);
+      continue;
+    }
+    if (!block) continue;
+    if (block.type === "ouverture" && !day.ouverture) { day.ouverture = l; day.heures = ranges(l); continue; }
+    if (block.type === "rdv") {
+      const e = block.entry;
+      if (/^Système : /.test(l)) e.systemes = l.replace(/^Système : /, "").split(/\s*,\s*/).filter(Boolean);
+      else if (/^- /.test(l)) e.notes.push(l.slice(2));
+      else if (!e.heures) { e.heures = l; e.plages = ranges(l); }
+    }
+  }
+  out.systemes = [...new Set(out.jours.flatMap((j) => j.rdvJour.flatMap((e) => e.systemes)))];
+  return out;
+}
+
+// Liens de la fiche (HTML) : position (lien « Comment s'y rendre »), site web, réservation en ligne.
+function ficheLinks(html) {
+  const out = { lat: null, lon: null, site: null, reservation: {} };
+  for (const m of String(html).matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>\s*([^<]{1,40})/gi)) {
+    const href = m[1].replace(/&amp;/g, "&"), label = m[2].replace(/&nbsp;|&#160;/g, " ").replace(/&eacute;/g, "é").trim();
+    if (/comment s.y rendre/i.test(label)) {
+      const g = href.match(/@(-?\d{1,3}\.\d+),(-?\d{1,3}\.\d+)/);
+      if (g) { out.lat = Math.round(+g[1] * 1e5) / 1e5; out.lon = Math.round(+g[2] * 1e5) / 1e5; }
+    } else if (/^site web$/i.test(label) && /^https?:/.test(href) && !out.site) out.site = href;
+    else if (/^(RVSQ|Bonjour-santé|Bonjour santé)$/i.test(label) && /^https?:/.test(href)) {
+      const key = /rvsq/i.test(label) ? "RVSQ" : "Bonjour-santé";
+      if (!out.reservation[key]) out.reservation[key] = href;
+    }
+  }
+  return out;
+}
+
 module.exports = {
+  htmlText, parseFiche, ficheLinks, ranges,
   MSSS_CSV, SOURCE_CSV, SOURCE_API, fetchCSV, norm, num, decode, parseCSV, columns, region, build, download,
   parseTime, stampOf, snapshots, computeStats, HISTORY_COLUMNS,
 };

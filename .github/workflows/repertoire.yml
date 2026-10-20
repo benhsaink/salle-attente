@@ -1,12 +1,15 @@
 name: Fiches officielles des cliniques
 
 on:
+  schedule:
+    - cron: "17 9 * * *" # chaque matin vers 5 h (heure du Québec) : l'horaire des 7 prochains jours
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - data/cliniques/liste.json
       - repertoire.js
+      - lib.js
 
 permissions:
   contents: write

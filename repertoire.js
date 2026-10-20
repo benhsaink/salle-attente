@@ -1,16 +1,19 @@
-// Salle d'attente — lecture des fiches officielles des cliniques (Répertoire des ressources, Santé Québec)
-// Lancé par GitHub Actions (.github/workflows/repertoire.yml).
+// Salle d'attente — fiches officielles des cliniques (Répertoire des ressources, Santé Québec)
+// Lancé chaque matin par GitHub Actions (.github/workflows/repertoire.yml).
 // Pour chaque clinique de data/cliniques/liste.json :
 //   1) télécharge sa fiche officielle (directement, sinon par le relais du site sur Render)
-//   2) en garde le texte dans data/cliniques/fiches/<numéro>.txt (pour vérification)
-// Les adresses et heures affichées sur le site viennent ensuite de ces fiches, jamais d'une supposition.
+//   2) en tire l'adresse, la position (lien « Comment s'y rendre »), le téléphone, l'horaire des 7 prochains jours,
+//      la prise de rendez-vous le jour même et à qui elle s'adresse
+//   3) écrit le tout dans data/cliniques/cliniques.json, que le site affiche
+// Rien n'est deviné : une information absente de la fiche reste vide.
 
 const fs = require("fs");
 const path = require("path");
+const { htmlText, parseFiche, ficheLinks } = require("./lib");
 
 const LIST = path.join(__dirname, "data", "cliniques", "liste.json");
-const DIR = path.join(__dirname, "data", "cliniques", "fiches");
-const DIRECT = (n) => "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n;
+const OUT = path.join(__dirname, "data", "cliniques", "cliniques.json");
+const FICHE = (n) => "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n;
 const RELAY = (n) => (process.env.RELAY || "https://salle-attente.onrender.com/api/repertoire?nofiche=") + n;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -20,57 +23,50 @@ async function get(url) {
   return res.text();
 }
 
-const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", rsquo: "’", lsquo: "‘", eacute: "é", egrave: "è", agrave: "à", ccedil: "ç", ecirc: "ê", ocirc: "ô", icirc: "î", ucirc: "û", Eacute: "É", ndash: "–", mdash: "—" };
-function text(html) {
-  return html
-    .replace(/<(script|style|noscript|svg|nav|header|footer)\b[\s\S]*?<\/\1>/gi, "")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/(p|li|div|h\d|tr|dt|dd|section|article|address)>/gi, "\n")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(+d))
-    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))
-    .replace(/&([a-z]+);/gi, (m, e) => ENT[e] ?? m)
-    .split("\n").map((l) => l.replace(/[ \t]+/g, " ").trim()).filter(Boolean).join("\n");
-}
-
+let direct = true; // si l'accès direct est bloqué une fois, on passe au relais pour la suite
 async function fetchFiche(n) {
-  try { return { html: await get(DIRECT(n)), via: "direct" }; }
-  catch (err) {
-    console.warn(`Fiche ${n} : accès direct impossible (${err.message}), essai par le relais`);
+  if (direct) {
+    try { return await get(FICHE(n)); }
+    catch (err) { console.warn(`Accès direct impossible (${err.message}) : passage au relais du site`); direct = false; }
   }
   for (let attempt = 1; attempt <= 6; attempt++) {
-    try { return { html: await get(RELAY(n)), via: "relais" }; }
+    try { return await get(RELAY(n)); }
     catch (err) {
       console.warn(`Fiche ${n} : relais, essai ${attempt} (${err.message})`);
-      await sleep(30e3); // le site peut être en train de se réveiller ou de se redéployer
+      await sleep(30e3); // le site peut être en train de se réveiller
     }
   }
-  throw new Error("fiche " + n + " inaccessible");
+  throw new Error("inaccessible");
 }
 
 async function main() {
-  const { cliniques } = JSON.parse(fs.readFileSync(LIST, "utf8"));
-  fs.mkdirSync(DIR, { recursive: true });
+  const list = JSON.parse(fs.readFileSync(LIST, "utf8"));
+  let previous = {};
+  try { previous = Object.fromEntries(JSON.parse(fs.readFileSync(OUT, "utf8")).cliniques.map((c) => [c.nofiche, c])); } catch (e) {}
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+  const out = [];
   let ok = 0;
-  for (const c of cliniques) {
+  for (const c of list.cliniques) {
     try {
-      const { html, via } = await fetchFiche(c.nofiche);
-      // Une copie brute de la première fiche aide à écrire la lecture automatique.
-      if (c === cliniques[0]) fs.writeFileSync(path.join(DIR, "exemple-brut.html"), html);
-      // Coordonnées éventuellement présentes dans la page (carte)
-      const geo = [...html.matchAll(/(lat(?:itude)?|lng|lon(?:gitude)?)["'\s:=]+(-?\d{2,3}\.\d{3,})/gi)].map((m) => m[1] + "=" + m[2]);
-      const body = `# ${c.nom}\n# Source : ${DIRECT(c.nofiche)} (lu ${new Date().toISOString().slice(0, 10)}, ${via})\n` +
-        (geo.length ? "# Coordonnées trouvées : " + [...new Set(geo)].join(" ") + "\n" : "") + "\n" + text(html) + "\n";
-      fs.writeFileSync(path.join(DIR, c.nofiche + ".txt"), body);
+      const html = await fetchFiche(c.nofiche);
+      const info = parseFiche(htmlText(html));
+      if (!info.adresse) throw new Error("fiche illisible (adresse introuvable)");
+      out.push({ ...c, url: FICHE(c.nofiche), lu: today, ...info, ...ficheLinks(html) });
       ok++;
-      console.log(`OK ${c.nofiche} ${c.nom} (${via})`);
+      console.log(`OK ${c.nofiche} ${c.nom}`);
     } catch (err) {
       console.error(`ÉCHEC ${c.nofiche} ${c.nom} : ${err.message}`);
+      if (previous[c.nofiche]) out.push(previous[c.nofiche]); // on garde la dernière version lue
     }
     await sleep(1500); // poli envers le site du gouvernement
   }
-  console.log(`${ok} fiches lues sur ${cliniques.length}`);
-  if (!ok) process.exit(1);
+  if (!ok) throw new Error("aucune fiche lue");
+  fs.writeFileSync(OUT, JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    source: "Répertoire des ressources en santé et services sociaux (Santé Québec), " + list.source,
+    cliniques: out,
+  }, null, 1));
+  console.log(`${ok} fiches lues sur ${list.cliniques.length}`);
 }
 
-main();
+main().catch((err) => { console.error("Lecture des fiches échouée :", err.message); process.exit(1); });
