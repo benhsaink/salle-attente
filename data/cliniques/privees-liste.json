@@ -81,7 +81,12 @@
   {
    "nom": "PointSanté",
    "nofiche": 1039349,
-   "region": "mtl"
+   "region": "mtl",
+   "position": {
+    "lat": 45.4998,
+    "lon": -73.63055,
+    "source": "OpenStreetMap, d'après l'adresse de la fiche (5950, chemin de la Côte-des-Neiges)"
+   }
   },
   {
    "nom": "ExcelleMD Sanctuaire",
@@ -262,6 +267,36 @@
    "nom": "Clinique médicale Lacroix (Lévis)",
    "nofiche": 629768,
    "region": "qc"
+  },
+  {
+   "nom": "Clinique DCS",
+   "nofiche": 1131746,
+   "region": "mtl"
+  },
+  {
+   "nom": "RocklandMD centre-ville",
+   "nofiche": 788984,
+   "region": "mtl"
+  },
+  {
+   "nom": "Médecine privée – La Cité médicale de Charlesbourg",
+   "nofiche": 1235049,
+   "region": "qc"
+  },
+  {
+   "nom": "Clinique médicale Lacroix – Saint-Sauveur",
+   "nofiche": 1101788,
+   "region": "rn"
+  },
+  {
+   "nom": "UnionMD Taschereau",
+   "nofiche": 1154018,
+   "region": "rs"
+  },
+  {
+   "nom": "Clinique médicale Santé +",
+   "nofiche": 1091287,
+   "region": "rs"
   }
  ]
 }

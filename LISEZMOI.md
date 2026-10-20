@@ -157,3 +157,10 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Relais /api/repertoire-nom?q=NOM : recherche par nom dans le Répertoire (renvoie nom, adresse et numéro de fiche) pour trouver de nouvelles cliniques.
 - Ajoutées le 20 octobre 2026 : Clinique de santé familiale Harmonie (1154030), Clinique de santé M (854392), AxMédic (1204898 ; « des frais sont exigés » pour chaque service, même si « Coût pour services » dit Non) à Trois-Rivières ; Clinique médicale Lacroix (629768, « clinique médicale privée, hors RAMQ ») à Lévis.
 - Écartées : AxMédic 1203796 (sans heures, sans frais), Clinique de santé M Trois-Rivières Ouest 1120582 (fiche vide). Introuvables dans le Répertoire : Clinique XO, Clinique Pro MD, Admedica, 8165 rue du Mistral.
+
+## Vérification en lot des cliniques privées (20 octobre 2026)
+- data/cliniques/privees-candidats.json : 93 adresses de la liste RAMQ (omnipraticiens non participants) sans clinique dans privees-liste.json.
+- verifier-privees.js (Action « Vérifier les cliniques privées candidates ») : recherche par nom dans le Répertoire, même code postal, lecture de la fiche, décision. Journal : data/cliniques/privees-verifications.json.
+- Retenues après relecture : Clinique DCS, RocklandMD centre-ville, Médecine privée – Cité médicale de Charlesbourg, Lacroix Saint-Sauveur, UnionMD Taschereau, Santé + (Vaudreuil-Dorion ; « Coût pour services : Non » mais frais exigés et médecin non participant, comme AxMédic).
+- Écartées à la relecture : GMF (Physimed, Sillery, Cité médicale de Charlesbourg, Pincourt, 3090 Saint-Basile : services publics avec quelques frais), clinique dentaire, physiothérapie, pharmacie. ExcelleMD : fiche sans heures ni services.
+- PointSanté : position ajoutée à la main (champ « position » de la liste), sa fiche n'a pas de lien de carte.

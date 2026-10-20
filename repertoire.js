@@ -55,7 +55,10 @@ async function run(LIST, OUT) {
       const html = await fetchFiche(c.nofiche);
       const info = parseFiche(htmlText(html));
       if (!info.adresse) throw new Error("fiche illisible (adresse introuvable)");
-      out.push({ ...c, url: FICHE(c.nofiche), lu: today, ...info, ...ficheLinks(html) });
+      const links = ficheLinks(html);
+      // Fiche sans lien de carte : position notée à la main dans la liste (adresse officielle, OpenStreetMap).
+      if (links.lat === null && c.position) { links.lat = c.position.lat; links.lon = c.position.lon; }
+      out.push({ ...c, url: FICHE(c.nofiche), lu: today, ...info, ...links });
       ok++;
       console.log(`OK ${c.nofiche} ${c.nom}`);
     } catch (err) {
