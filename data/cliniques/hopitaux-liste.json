@@ -1,0 +1,138 @@
+{
+ "source": "Fiches officielles des hôpitaux, Répertoire des ressources (Santé Québec)",
+ "consulte": "2026-10-20",
+ "cliniques": [
+  {
+   "nom": "CHUM",
+   "cle": "centre hospitalier de l universite de montreal",
+   "nofiche": 1102474,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Glen (Royal Victoria)",
+   "cle": "royal victoria",
+   "nofiche": 753012,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital général de Montréal",
+   "cle": "general de montreal",
+   "nofiche": 326,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital général juif",
+   "cle": "general juif",
+   "nofiche": 192,
+   "region": ""
+  },
+  {
+   "nom": "Centre hospitalier de St. Mary",
+   "cle": "st. mary",
+   "nofiche": 289539,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital de Verdun",
+   "cle": "hopital de verdun",
+   "nofiche": 502,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Notre-Dame",
+   "cle": "=hopital notre-dame",
+   "nofiche": 869391,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Maisonneuve-Rosemont",
+   "cle": "maisonneuve-rosemont",
+   "nofiche": 341,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Santa Cabrini",
+   "cle": "santa cabrini",
+   "nofiche": 167,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital du Sacré-Cœur",
+   "cle": "sacre-coeur",
+   "nofiche": 174,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Fleury",
+   "cle": "hopital fleury",
+   "nofiche": 1171,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Jean-Talon",
+   "cle": "jean-talon",
+   "nofiche": 1172,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital de LaSalle",
+   "cle": "hopital de lasalle",
+   "nofiche": 898,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital général du Lakeshore",
+   "cle": "lakeshore",
+   "nofiche": 1150,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital de Lachine",
+   "cle": "hopital de lachine",
+   "nofiche": 1154,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital de la Cité-de-la-Santé",
+   "cle": "cite-de-la-sante",
+   "nofiche": 1194,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Charles-Le Moyne",
+   "cle": "charles-le moyne",
+   "nofiche": 217,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Pierre-Boucher",
+   "cle": "pierre-boucher",
+   "nofiche": 754149,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Anna-Laberge",
+   "cle": "anna-laberge",
+   "nofiche": 1233,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital du Haut-Richelieu",
+   "cle": "haut-richelieu",
+   "nofiche": 1222,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital de Saint-Eustache",
+   "cle": "saint-eustache",
+   "nofiche": 1204,
+   "region": ""
+  },
+  {
+   "nom": "Hôpital Pierre-Le Gardeur",
+   "cle": "le gardeur",
+   "nofiche": 1130,
+   "region": ""
+  }
+ ]
+}
