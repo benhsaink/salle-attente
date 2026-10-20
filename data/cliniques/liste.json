@@ -1,0 +1,247 @@
+{
+ "source": "https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
+ "consulte": "2026-10-20",
+ "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord.",
+ "cliniques": [
+  {
+   "nom": "GMF Brunswick",
+   "nofiche": 29414,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Reine Elizabeth",
+   "nofiche": 365598,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Métro-Médic Centre Ville",
+   "nofiche": 32208,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF-R Herzl",
+   "nofiche": 534529,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique Médicale Diamant",
+   "nofiche": 55434,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF 1851",
+   "nofiche": 42515,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Métro Monk",
+   "nofiche": 30262,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Sud-Ouest",
+   "nofiche": 42021,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Villeray",
+   "nofiche": 113767,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Cosmopolite de Saint-Laurent",
+   "nofiche": 40842,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Jarry-Lajeunesse",
+   "nofiche": 47611,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Villeray",
+   "nofiche": 32374,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre de médecine familiale Saint-Laurent",
+   "nofiche": 41133,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF 3000",
+   "nofiche": 37965,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Collectif Médica",
+   "nofiche": 34486,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique médicale Angus",
+   "nofiche": 462325,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Viau",
+   "nofiche": 35464,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Maisonneuve-Rosemont",
+   "nofiche": 56984,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Hochelaga",
+   "nofiche": 38893,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique MedNam Lachine",
+   "nofiche": 730879,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique Désy",
+   "nofiche": 37323,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF En Route",
+   "nofiche": 837708,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF District Médical",
+   "nofiche": 988498,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Santé Mont-Royal",
+   "nofiche": 607307,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF ImaSanté",
+   "nofiche": 856635,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Levasseur",
+   "nofiche": 37207,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-être – Succursale de Saint-Léonard",
+   "nofiche": 34589,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale de Saint-Laurent",
+   "nofiche": 1056523,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale d'Anjou",
+   "nofiche": 1068423,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale LaSalle",
+   "nofiche": 791352,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Centre médical Mieux-Être – Succursale Homa",
+   "nofiche": 1011327,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Médicentre Lasalle",
+   "nofiche": 32916,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Novomed",
+   "nofiche": 1134720,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF-R Centre médical Laval",
+   "nofiche": 289949,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-R Concorde",
+   "nofiche": 278827,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-R Médi-Centre Chomedey",
+   "nofiche": 295754,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-R Sainte-Dorothée",
+   "nofiche": 293320,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-A Sainte-Rose",
+   "nofiche": 260245,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-A Polyclinique du Centre de l’Île",
+   "nofiche": 606006,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF-A des Boisés",
+   "nofiche": 126408,
+   "region": "lav"
+  },
+  {
+   "nom": "GMF Clinique Azur",
+   "nofiche": 757507,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Clinique médicale Pierre-Boucher",
+   "nofiche": 49168,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Vaudreuil-Dorion",
+   "nofiche": 45268,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF-A/R Le Trait d'Union",
+   "nofiche": 467420,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF des Trois Lacs",
+   "nofiche": 35000,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Dix30",
+   "nofiche": 40872,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Prévost",
+   "nofiche": 1155047,
+   "region": "rn"
+  },
+  {
+   "nom": "GMF Polyclinique Pierre-Le Gardeur",
+   "nofiche": 55847,
+   "region": "rn"
+  }
+ ]
+}

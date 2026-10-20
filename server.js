@@ -128,6 +128,20 @@ async function recentHistory(name, hours) {
   });
 }
 
+// ---------- Relais des fiches du Répertoire des ressources ----------
+const fiches = new Map(); // numéro -> { html, time }
+async function getFiche(n) {
+  const f = fiches.get(n);
+  if (f && Date.now() - f.time < 24 * 3600e3) return f.html;
+  const res = await fetch("https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n,
+    { headers: { "User-Agent": "SalleAttente/1.0 (donnees publiques)" }, signal: AbortSignal.timeout(30e3) });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  const html = await res.text();
+  if (fiches.size > 200) fiches.clear();
+  fiches.set(n, { html, time: Date.now() });
+  return html;
+}
+
 // ---------- Relais du fichier du ministère ----------
 // Le ministère bloque les serveurs de GitHub, mais pas Render. La collecte automatique
 // (collect.js sur GitHub Actions) lit donc le fichier brut ici : /api/source.csv
@@ -177,6 +191,22 @@ http.createServer(async (req, res) => {
       console.error(err);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
       res.end(JSON.stringify({ error: "Les données du ministère sont indisponibles pour le moment." }));
+    }
+    return;
+  }
+  // Relais d'une fiche du Répertoire des ressources (Santé Québec), pour la mise à jour des cliniques
+  // sur GitHub. Seulement des numéros de fiche ; résultat gardé 1 jour.
+  if (url.pathname === "/api/repertoire") {
+    const n = url.searchParams.get("nofiche") || "";
+    if (!/^\d{1,9}$/.test(n)) { res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Numéro de fiche invalide"); }
+    try {
+      const html = await getFiche(n);
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=86400" });
+      res.end(html);
+    } catch (err) {
+      console.error("Répertoire :", err.message);
+      res.writeHead(502, { "Content-Type": "text/plain; charset=utf-8" });
+      res.end("Fiche indisponible");
     }
     return;
   }
