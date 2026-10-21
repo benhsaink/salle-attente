@@ -1,0 +1,499 @@
+{
+ "verifie": "2026-10-21",
+ "resultats": [
+  {
+   "region": "r02",
+   "codePostal": "G7H0S7",
+   "adresse": "410-484 BOULEVARD DU ROYAUME O",
+   "ville": "CHICOUTIMI",
+   "noms": [
+    "INSTITUT DE CHIRURGIE PLASTIQUE DU SAGUENA",
+    "CLINIQUE GLOBAL MD"
+   ],
+   "nofiche": 1017747,
+   "nomFiche": "GLOBAL MD - (MÉDECINE PRIVÉE ET CHIRURGIE MINEURE)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "484, boulevard du Royaume Ouest, bureau 135, Saguenay",
+   "miseAJour": "24 septembre 2026, 14 h 46"
+  },
+  {
+   "region": "r02",
+   "codePostal": "G0V1A0",
+   "adresse": "5000 ALOUETTE CP5000 - ARCHIVES MEDICALES",
+   "ville": "LA BAIE",
+   "noms": [
+    "BASE FORCE CANADIENNE - BAGOTVILLE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r04",
+   "codePostal": "J2B0H3",
+   "adresse": "103-3525 BOUL SAINT-JOSEPH",
+   "ville": "DRUMMONDVILLE",
+   "noms": [
+    "CLINIQUE MÉDICALE L ACCÈS"
+   ],
+   "nofiche": 680397,
+   "nomFiche": "CLINIQUE MÉDICALE L'ACCÈS",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "3525, boulevard Saint-Joseph, suite 103, Drummondville",
+   "miseAJour": "20 juillet 2026, 12 h 27"
+  },
+  {
+   "region": "r04",
+   "codePostal": "J3T1Z6",
+   "adresse": "1691 BOUL LOUIS-FRECHETTE",
+   "ville": "NICOLET",
+   "noms": [
+    "CLINIQUE MEDICALE DE NICOLET"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r04",
+   "codePostal": "G9T1A6",
+   "adresse": "3451 CH DE SAINTE-FLORE",
+   "ville": "SHAWINIGAN",
+   "noms": [
+    "CLINIQUE LAFERTE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r04",
+   "codePostal": "G6S1B5",
+   "adresse": "62 BOUL LABBÉ S",
+   "ville": "VICTORIAVILLE",
+   "noms": [
+    "OPTION MD",
+    "OPTIONMD"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J2L2K3",
+   "adresse": "101-26 BOUL DE BROMONT",
+   "ville": "BROMONT",
+   "noms": [
+    "CENTRE MEDICAL PAUZE-FERDAIS",
+    "CLINIQUE MEDICALE PAUZE FERDAIS",
+    "CENTRE MEDICAL PAUZE FERDAIS"
+   ],
+   "nofiche": 484713,
+   "nomFiche": "CENTRE MÉDICAL PAUZÉ FERDAIS (BROMONT)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "26, boulevard de Bromont, suite 101, Bromont",
+   "miseAJour": "12 juin 2023, 18 h 43"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J2K2W4",
+   "adresse": "1001-101 RUE ALBERT",
+   "ville": "COWANSVILLE",
+   "noms": [
+    "COWANSVILLE MEDICAL CLINIC"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J2G2S5",
+   "adresse": "77 RUE DRUMMOND",
+   "ville": "GRANBY",
+   "noms": [
+    "SOINS DE SANTÉ S. CORBIN INC."
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J2G8Z9",
+   "adresse": "101-4 RUE ROBINSON N",
+   "ville": "GRANBY",
+   "noms": [
+    "VISEEMED INC"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J2G9M5",
+   "adresse": "15 BOUL MOUNTAIN",
+   "ville": "GRANBY",
+   "noms": [
+    "CLINIQUE SOINS URBAIN"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J0E1V0",
+   "adresse": "273 CH DE KNOWLTON",
+   "ville": "KNOWLTON",
+   "noms": [
+    "CENTRE LUXAETRE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1L1C9",
+   "adresse": "3200A RUE KING O A100",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "DERMAPURE SHERBROOKE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1H4A7",
+   "adresse": "210-65 RUE BELVEDERE N",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "CENTRE MEDICAL PRIVE PAUZE FERDAIS",
+    "CLINIQUE PAUZÉ FERDAIS",
+    "CENTRE MÉDICAL PRIVÉ PAUZÉ FERDAIS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1N2X3",
+   "adresse": "2360 CH STE-CATHERINE",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "CLINIQUE SANTE CONTINUUM"
+   ],
+   "nofiche": 1110776,
+   "nomFiche": "CLINIQUE SANTÉ CONTINUUM",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "2360, chemin Sainte-Catherine, Sherbrooke",
+   "miseAJour": "02 juillet 2026, 12 h 36"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1L0H8",
+   "adresse": "15 RUE J.-A.-BOMBARDIER BUREAU 300",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "CLINIQUE MEDICALE PLATEAU MARQUETTE"
+   ],
+   "nofiche": 29650,
+   "nomFiche": "GMF PLATEAU MARQUETTE (CLINIQUE MÉDICALE DU PLATEAU MARQUETTE)",
+   "decision": "à revoir",
+   "raison": "contradiction : Coût pour services : Non, mais des frais sont exigés",
+   "signes": [
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "15, rue J.-A.-Bombardier, bureau 300, Sherbrooke",
+   "miseAJour": "08 novembre 2024, 18 h 33"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1L2E6",
+   "adresse": "2835 RUE DU MANOIR",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "CLINIQUE SANTE CONTINUUM"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1H5A9",
+   "adresse": "49 RUE WELLINGTON N",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "DERMAPURE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1C1C9",
+   "adresse": "A-100-3200 RUE KING O",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "DERMAPURE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r05",
+   "codePostal": "J1G2E9",
+   "adresse": "632 RUE BOWEN S",
+   "ville": "SHERBROOKE",
+   "noms": [
+    "CLINIQUE DES MEDECINS D'URGENCE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8Y3X4",
+   "adresse": "232 BOUL SAINT-JOSEPH",
+   "ville": "GATINEAU",
+   "noms": [
+    "CLINIQUE SENTINELLE",
+    "CLINIQUE MEDICALE LACROIX",
+    "GROUPE SANTE SENTINELLE",
+    "GROUPE SENTINELLE SANTE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8X2K1",
+   "adresse": "86 PROM DU PORTAGE",
+   "ville": "GATINEAU",
+   "noms": [
+    "UNION MD",
+    "CLINIQUE UNIONMD",
+    "UNIONMD"
+   ],
+   "nofiche": 1086156,
+   "nomFiche": "CLINIQUE UNIONMD GATINEAU",
+   "decision": "à revoir",
+   "raison": "contradiction : Coût pour services : Non, mais des frais sont exigés, médecin non participant ou désengagé",
+   "signes": [
+    "des frais sont exigés",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "86, promenade du Portage, unité 300, Gatineau",
+   "miseAJour": "09 avril 2026, 12 h 21"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8Y3B5",
+   "adresse": "182 RUE MONTCALM",
+   "ville": "GATINEAU",
+   "noms": [
+    "MENOPAUSE-ANDROPAUSE OUTAOUAIS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J9A0A3",
+   "adresse": "300-195 DE L ATMOSPHERE",
+   "ville": "GATINEAU",
+   "noms": [
+    "CLINIQUE MEDICALE DU PLATEAU"
+   ],
+   "nofiche": 52610,
+   "nomFiche": "GMF OMNI-PLATEAU (CLINIQUE MÉDICALE DU PLATEAU)",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "195, rue de l'Atmosphère, suite 300, Gatineau",
+   "miseAJour": "12 janvier 2026, 19 h 09"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8Y2V5",
+   "adresse": "550-4 RUE TASCHEREAU",
+   "ville": "GATINEAU",
+   "noms": [
+    "CLIN. MED. ANTI-DOULEUR OUTAOUAIS"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8Z1T3",
+   "adresse": "1160 BOUL SAINT-JOSEPH",
+   "ville": "GATINEAU",
+   "noms": [
+    "CLINIQUE DU FAUBOURG"
+   ],
+   "nofiche": 38350,
+   "nomFiche": "GMF DE HULL (CLINIQUE MÉDICALE DU FAUBOURG)",
+   "decision": "écartée",
+   "raison": "aucun frais indiqué dans la fiche (Coût pour services : Non)",
+   "signes": [],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "1160, boulevard Saint-Joseph, suite 145, Gatineau",
+   "miseAJour": "02 février 2026, 19 h 12"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J8T3R1",
+   "adresse": "195 BOUL GREBER SUITE 101 B",
+   "ville": "GATINEAU",
+   "noms": [
+    "CLINIQUE MEDICALE LACROIX"
+   ],
+   "nofiche": 36292,
+   "nomFiche": "CLINIQUE MÉDICALE LACROIX- GATINEAU",
+   "decision": "retenue",
+   "raison": "Coût pour services : Oui, des frais sont exigés, mention privée/payante, médecin non participant ou désengagé",
+   "signes": [
+    "Coût pour services : Oui",
+    "des frais sont exigés",
+    "mention privée/payante",
+    "médecin non participant ou désengagé"
+   ],
+   "manque": [],
+   "cout": "Oui",
+   "ficheAdresse": "195, boulevard Gréber, bureau 101-B, Gatineau",
+   "miseAJour": "09 juin 2026, 17 h 29"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J0X3G0",
+   "adresse": "200-895 CH RIVERSIDE",
+   "ville": "WAKEFIELD",
+   "noms": [
+    "CLINIQUE MEDICALE DES COLLINES"
+   ],
+   "nofiche": 911166,
+   "nomFiche": "GMF DES COLLINES (CLINIQUE MÉDICALE DES COLLINES)",
+   "decision": "à revoir",
+   "raison": "contradiction : Coût pour services : Non, mais des frais sont exigés",
+   "signes": [
+    "des frais sont exigés"
+   ],
+   "manque": [],
+   "cout": "Non",
+   "ficheAdresse": "895, chemin Riverside, bureau 200, La Pêche",
+   "miseAJour": "17 juin 2026, 12 h 22"
+  },
+  {
+   "region": "r07",
+   "codePostal": "J0X3G0",
+   "adresse": "200-895 CH RIVERSIDE",
+   "ville": "WAKEFIELD",
+   "noms": [
+    "CLINIQUE MEDICALE DES COLLINES"
+   ],
+   "nofiche": 694846,
+   "nomFiche": "LA MAISON DES COLLINES",
+   "decision": "écartée",
+   "raison": "aucun frais indiqué dans la fiche (Coût pour services : Non)",
+   "signes": [],
+   "manque": [
+    "heures"
+   ],
+   "cout": "Non",
+   "ficheAdresse": "99, chemin Burnside, La Pêche",
+   "miseAJour": "29 novembre 2024, 18 h 27"
+  },
+  {
+   "region": "r08",
+   "codePostal": "J0Z1Y0",
+   "adresse": "2813 BOUL RIDEAU",
+   "ville": "ROUYN-NORANDA",
+   "noms": [
+    "CLINIQUE MEDICALE EVAIN"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r08",
+   "codePostal": "J9P1W3",
+   "adresse": "1731 3EME AVENUE",
+   "ville": "VAL D'OR",
+   "noms": [
+    "CLINIQUE INFIRMIERE DU NORD-OUEST"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r09",
+   "codePostal": "G0G1J0",
+   "adresse": "1 DE L'AQUILON",
+   "ville": "FERMONT",
+   "noms": [
+    "CENTRE DE SANTE DE L'HEMATITE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r11",
+   "codePostal": "G4T0C8",
+   "adresse": "702 CH DU BASSIN",
+   "ville": "BASSIN",
+   "noms": [
+    "CLINIQUE MEDICALE LE DISPENSAIRE DR JACQUE"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  },
+  {
+   "region": "r12",
+   "codePostal": "G0M1C0",
+   "adresse": "137 RUE PRINCIPALE",
+   "ville": "COURCELLES--SAINT-EVARISTE",
+   "noms": [
+    "CLIN MED COURCELLES"
+   ],
+   "decision": "introuvable",
+   "raison": "aucune fiche du Répertoire à ce nom et à ce code postal"
+  }
+ ]
+}
