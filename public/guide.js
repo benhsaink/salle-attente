@@ -247,10 +247,10 @@
       .forEach(t => mis.appendChild(el("p", "g-line", t)));
     const fig = el("p", "g-line");
     fig.append(el("b", "", T("En chiffres : ", "By the numbers: ")),
-      document.createTextNode(T("au début de 2026, Québec visait l'inscription de 500 000 personnes de plus auprès d'un médecin de famille ou d'un GMF d'ici le 30 juin 2026, dont 320 000 qui attendaient au Guichet d'accès à un médecin de famille. ",
-        "in early 2026, Québec aimed to register 500,000 more people with a family doctor or a GMF by June 30, 2026, including 320,000 who were waiting at the family doctor access point (GAMF). ")));
-    const fa = el("a", "", T("Source : Québec.ca, Améliorer l'accès aux soins de santé (4 février 2026)", "Source: Québec.ca, improving access to health care (February 4, 2026)"));
-    fa.href = "https://www.quebec.ca/gouvernement/politiques-orientations/acces-soins-sante"; fa.target = "_blank"; fa.rel = "noopener";
+      document.createTextNode(T("au 1er juillet 2026, 359 061 personnes attendaient encore d'être prises en charge au Guichet d'accès à un médecin de famille (GAMF). Un an plus tôt, elles étaient 655 174. Les personnes inscrites auprès d'un groupe de médecins ne sont pas comptées comme en attente. ",
+        "as of July 1, 2026, 359,061 people were still waiting to be taken on at the family doctor access point (GAMF). A year earlier, there were 655,174. People registered with a group of doctors are not counted as waiting. ")));
+    const fa = el("a", "", T("Source : RAMQ, Évolution du nombre de personnes inscrites au GAMF selon leur statut (mis à jour le 25 août 2026)", "Source: RAMQ, number of people registered at the GAMF by status (updated August 25, 2026)"));
+    fa.href = "https://www.ramq.gouv.qc.ca/fr/media/856"; fa.target = "_blank"; fa.rel = "noopener";
     fig.appendChild(fa);
     mis.appendChild(fig);
     const who = el("p", "g-line");
