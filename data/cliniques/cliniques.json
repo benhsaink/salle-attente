@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T05:14:02.985Z",
+ "generatedAt": "2026-10-21T05:51:17.738Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -12635,6 +12635,3238 @@
    "reservation": {
     "RVSQ": "https://rvsq.gouv.qc.ca/"
    }
+  },
+  {
+   "nom": "GMF Clinique Médicale Step (Clinique Médicale Step)",
+   "nofiche": 1163596,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1163596",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF CLINIQUE MÉDICALE STEP (CLINIQUE MÉDICALE STEP)",
+   "adresse": "5757, boulevard Cavendish, bureau 300",
+   "ville": "Côte-Saint-Luc",
+   "codePostal": "H4W 2W8",
+   "telephone": "514 307-5757",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "17 juin 2026, 19 h 05",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Allergologie",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine familiale",
+    "Pédiatrie"
+   ],
+   "lat": 45.47666,
+   "lon": -73.66152,
+   "site": "https://cliniquestep.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Clinique Médicale Elna Décarie (Cabinet Docteur Nathaniel Mimran)",
+   "nofiche": 1207069,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1207069",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF CLINIQUE MÉDICALE ELNA DÉCARIE (CABINET DOCTEUR NATHANIEL MIMRAN)",
+   "adresse": "6900, boulevard Décarie, bureau 3650-A",
+   "ville": "Côte-Saint-Luc",
+   "codePostal": "H3X 2T8",
+   "telephone": "514 369-9999",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 juillet 2026, 21 h 43",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine familiale",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Pédiatrie",
+    "Urgence mineure (présentation sur place sans rendez-vous)",
+    "Jeune adultes",
+    "Prise en charge",
+    "Sans rendez-vous"
+   ],
+   "lat": 45.49145,
+   "lon": -73.64906,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Clinique Mednam Lachine (Clinique Mednam Lasalle)",
+   "nofiche": 1225603,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225603",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF CLINIQUE MEDNAM LACHINE (CLINIQUE MEDNAM LASALLE)",
+   "adresse": "1500, avenue Dollard, bureau 302",
+   "ville": "Montréal",
+   "codePostal": "H8N 1T5",
+   "telephone": "514 532-0130",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "13 mai 2026, 18 h 05",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine familiale"
+   ],
+   "lat": 45.42705,
+   "lon": -73.62824,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF de Joliette (Clinique Médicale Lanaudière)",
+   "nofiche": 33972,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=33972",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DE JOLIETTE (CLINIQUE MÉDICALE LANAUDIÈRE)",
+   "adresse": "222, rue Bernard",
+   "ville": "Saint-Charles-Borromée",
+   "codePostal": "J6E 2C5",
+   "telephone": "450 755-1033",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h 30",
+     "heures": [
+      [
+       480,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h 30",
+     "heures": [
+      [
+       480,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 juillet 2024, 14 h 40",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Dermatologie",
+    "Médecine familiale",
+    "Omnipratique",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "HORAIRE RÉGULIER",
+    "Les plages horaires",
+    "Téléphone: 450 755-1033",
+    "CLIENTÈLE À LA RECHERCHE D'UN MÉDECIN DE FAMILLE",
+    "par Internet : www.gamf.gouv.qc.ca",
+    "par téléphone : 833-572-2063"
+   ],
+   "lat": 46.03654,
+   "lon": -73.45282,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF de la Matapédia (Centre Médical de la Vallée)",
+   "nofiche": 38864,
+   "region": "r01",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=38864",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DE LA MATAPÉDIA (CENTRE MÉDICAL DE LA VALLÉE)",
+   "adresse": "22, rue du Pont, bureau 1",
+   "ville": "Amqui",
+   "codePostal": "G5J 3T5",
+   "telephone": "418 629-6611",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "04 décembre 2025, 18 h 33",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Omnipratique",
+    "Physiothérapie",
+    "Soins infirmiers",
+    "Travail social",
+    "Vaccination",
+    "CLINIQUE",
+    "Services infirmiers GMF disponibles du lundi au vendredi avec et"
+   ],
+   "lat": 48.4654,
+   "lon": -67.43143,
+   "site": "https://www.facebook.com/Centremedicaldelavallee",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF de la Matapédia (Clinique Médicale Sayabec)",
+   "nofiche": 45525,
+   "region": "r01",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45525",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DE LA MATAPÉDIA (CLINIQUE MÉDICALE SAYABEC)",
+   "adresse": "99-A, rue de l'Église",
+   "ville": "Sayabec",
+   "codePostal": "G0J 3K0",
+   "telephone": "418 536-5438",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 janvier 2026, 19 h 24",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Omnipratique",
+    "Sans rendez-vous à tous les jours pour clientèle inscrite au GMF à partir de 8h"
+   ],
+   "lat": 48.55904,
+   "lon": -67.68515,
+   "site": "https://www.facebook.com/Centremedicaldelavallee",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF de la Rive (Clinique Médicale de la Rive)",
+   "nofiche": 33148,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=33148",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DE LA RIVE (CLINIQUE MÉDICALE DE LA RIVE)",
+   "adresse": "169, rue du Prince-Albert",
+   "ville": "Otterburn Park",
+   "codePostal": "J3H 1L4",
+   "telephone": "450 446-7333",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h 30",
+     "heures": [
+      [
+       450,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "04 juin 2026, 19 h 59",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "quand disponibilité pour patient orphelin et offre de service au GAP",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement Pour la clientèle inscrite seulement",
+    "Chirurgie mineure",
+    "Contraception",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pharmacologie",
+    "Pose et/ou retrait d'un stérilet pour les patientes inscrites seulement",
+    "Pédiatrie",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires pour les patientes inscrites seulement",
+    "Travail social Pour la clientèle inscrite seulement",
+    "Visites à domicile Pour la clientèle inscrite seulement",
+    "HORAIRE"
+   ],
+   "lat": 45.54308,
+   "lon": -73.21411,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF de Montmagny (Clinique Médicale de Montmagny)",
+   "nofiche": 37318,
+   "region": "r12",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37318",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DE MONTMAGNY (CLINIQUE MÉDICALE DE MONTMAGNY)",
+   "adresse": "5, boulevard Taché Ouest",
+   "ville": "Montmagny",
+   "codePostal": "G5V 2Z9",
+   "telephone": "418 248-4933",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h 30",
+     "heures": [
+      [
+       480,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "06 mai 2026, 14 h 24",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "De 8 h à 11 h 30 en semaine.",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Chirurgie mineure",
+    "Contraception",
+    "Diététique",
+    "Kinésiologie",
+    "Médecine familiale",
+    "Nutrition",
+    "Obstétrique",
+    "Omnipratique",
+    "Pharmacologie",
+    "Podiatrie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Psychologie",
+    "Pédiatrie",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Visites à domicile",
+    "HORAIRE"
+   ],
+   "lat": 46.9815,
+   "lon": -70.56489,
+   "site": "https://www.gmfmontmagny.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF des Aurores-Boréales (GMF-U des Aurores-Boréales)",
+   "nofiche": 54117,
+   "region": "r08",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=54117",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DES AURORES-BORÉALES (GMF-U DES AURORES-BORÉALES)",
+   "adresse": "228, 2e Rue Est",
+   "ville": "La Sarre",
+   "codePostal": "J9Z 2G9",
+   "telephone": "819 339-5617",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "03 septembre 2026, 15 h 30",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "sans rendez-vous pour toute clientèle inscrite, pour clientèle non inscrite via le GAP selon la disponibilités des médecins",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Inhalothérapie",
+    "Nutrition",
+    "Omnipratique",
+    "Pharmacologie",
+    "Soins infirmiers Assure suivi conjointement avec le médecin",
+    "Travail social"
+   ],
+   "lat": 48.80582,
+   "lon": -79.20096,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF du Coteau (Clinique Médicale du Coteau)",
+   "nofiche": 45652,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45652",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DU COTEAU (CLINIQUE MÉDICALE DU COTEAU)",
+   "adresse": "440, boulevard Saint-Luc, suite 100",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "codePostal": "J2W 0E2",
+   "telephone": "450 359-6819",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "03 novembre 2025, 14 h 34",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Gynécologie",
+    "Inhalothérapie",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Obstétrique",
+    "Omnipratique",
+    "Pharmacologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Périnatalité",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Évaluation de la conduite automobile SAAQ",
+    "HORAIRE"
+   ],
+   "lat": 45.36136,
+   "lon": -73.30654,
+   "site": "https://www.cliniquemedicaleducoteau.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF du Granit (CSSS du Granit - Point de Service de Lambton)",
+   "nofiche": 819527,
+   "region": "r05",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=819527",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF DU GRANIT (CSSS DU GRANIT - POINT DE SERVICE DE LAMBTON)",
+   "adresse": "310-A, rue Principale",
+   "ville": "Lambton",
+   "codePostal": "G0M 1H0",
+   "telephone": "418 486-7441",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 janvier 2026, 18 h 52",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "mercredi après-midi seulement",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Soins infirmiers",
+    "Travail social"
+   ],
+   "lat": 45.82953,
+   "lon": -71.09595,
+   "site": "https://gmfdugranit.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF le Gardeurois",
+   "nofiche": 46881,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=46881",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF LE GARDEUROIS",
+   "adresse": "155, boulevard Lacombe, bureau 150",
+   "ville": "Repentigny",
+   "codePostal": "J5Z 3C4",
+   "telephone": "450 582-5551",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 14 h 30",
+     "heures": [
+      [
+       480,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 14 h 30",
+     "heures": [
+      [
+       480,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 14 h 30",
+     "heures": [
+      [
+       480,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "19 juin 2026, 12 h 28",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Infirmier/Infirmière auxiliaire Pour patients de la clinique seulement",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Inhalothérapie Pour patients de la clinique seulement",
+    "Médecine familiale",
+    "Obstétrique",
+    "Omnipratique",
+    "Pharmacologie Pour patients de la clinique seulement",
+    "Physiothérapie Pour patients de la clinique seulement",
+    "Prise en charge de nouveaux usagers pour du suivi occasionnellement",
+    "Soins infirmiers Pour patients de la clinique seulement",
+    "Travail social Pour patients de la clinique seulement",
+    "POLITIQUE DE PROTECTION DES RENSEIGNEMENTS PERSONNELS",
+    "Horaire régulier",
+    "Telus Santé – Pomelo",
+    "(Certains de nos médecins affichent des disponibilités sur le WEB)",
+    "Les inscriptions pour les consultations du",
+    "Les plages horaires",
+    "ATTENTION, LES HEURES D'OUVERTURE ET DE FERMETURE PEUVENT VARIER DURANT LA",
+    "CLIENTÈLE À LA RECHERCHE D'UN MÉDECIN DE FAMILLE",
+    "Par Internet : www.gamf.gouv.qc.ca",
+    "Par téléphone: 833 572-2063"
+   ],
+   "lat": 45.74322,
+   "lon": -73.48131,
+   "site": "https://accesrendezvous.telussante.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Centre Médical de Saint-Félicien)",
+   "nofiche": 53487,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53487",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF LES MYRTILLES DU LAC (CENTRE MÉDICAL DE SAINT-FÉLICIEN)",
+   "adresse": "1179, boulevard Saint-Félicien, bureau 201",
+   "ville": "Saint-Félicien",
+   "codePostal": "G8K 3J1",
+   "telephone": "418 679-0943",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "30 septembre 2026, 18 h 35",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Coroner",
+    "Fauteuil roulant (location)",
+    "Gynécologie",
+    "Inhalothérapie",
+    "Kinésiologie",
+    "Médecine familiale",
+    "Obstétrique",
+    "Omnipratique",
+    "Podiatrie",
+    "Podologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Santé communautaire",
+    "Soins infirmiers",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 48.65532,
+   "lon": -72.45943,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Clinique Médicale de Roberval)",
+   "nofiche": 53478,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53478",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLINIQUE MÉDICALE DE ROBERVAL)",
+   "adresse": "714, boulevard Marcotte",
+   "ville": "Roberval",
+   "codePostal": "G8H 1Z6",
+   "telephone": "418 275-3833",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 août 2026, 14 h 47",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine familiale",
+    "Obstétrique",
+    "Omnipratique",
+    "Pédiatrie",
+    "Soins infirmiers",
+    "Vaccination"
+   ],
+   "lat": 48.51366,
+   "lon": -72.22383,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Clinique Médicale Saint-Prime)",
+   "nofiche": 53488,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53488",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLINIQUE MÉDICALE SAINT-PRIME)",
+   "adresse": "581, rue Coulombe",
+   "ville": "Saint-Prime",
+   "codePostal": "G8J 1P2",
+   "telephone": "418 251-9080",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "12 novembre 2024, 15 h 58",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Soins infirmiers",
+    "Visites à domicile"
+   ],
+   "lat": 48.59327,
+   "lon": -72.33322,
+   "site": "http://gmfmyrtillesdulac.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Ma Clinique Zone Santé)",
+   "nofiche": 53480,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53480",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF LES MYRTILLES DU LAC (MA CLINIQUE ZONE SANTÉ)",
+   "adresse": "720, boulevard Saint-Joseph, bureau 202",
+   "ville": "Roberval",
+   "codePostal": "G8H 2L2",
+   "telephone": "418 275-1122",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 septembre 2026, 12 h 19",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Gynécologie",
+    "Hypertension – Consultation pour le suivi",
+    "Immunologie clinique",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Inhalothérapie",
+    "Médecine familiale Suivi de grossesse",
+    "Obstétrique",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Psychologie",
+    "Pédiatrie",
+    "Périnatalité",
+    "Salle d'allaitement",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers GMF",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test Pap",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Travail social",
+    "Vaccination Saisonnière et autre,",
+    "Visites à domicile",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 48.51514,
+   "lon": -72.21961,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Marguerite d'Youville (Clinique Familiale des Hauts-Bois)",
+   "nofiche": 52405,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52405",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF MARGUERITE D'YOUVILLE (CLINIQUE FAMILIALE DES HAUTS-BOIS)",
+   "adresse": "2105, boulevard Armand-Frappier, bureau 301",
+   "ville": "Sainte-Julie",
+   "codePostal": "J3E 3R6",
+   "telephone": "450 649-2490",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h 30",
+     "heures": [
+      [
+       510,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h 30",
+     "heures": [
+      [
+       510,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 octobre 2026, 12 h 32",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Consulter le site : https://www.rvsq.gouv.qc.ca",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Audiologie",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dentisterie",
+    "Dermatologie",
+    "Diététique",
+    "Désintoxication",
+    "Gestion des traitements liés à l'usage des opiacés (Méthadone, Suboxone, Kadian, etc.)",
+    "Hygiène dentaire",
+    "Hypertension – Consultation pour le suivi",
+    "Immunologie clinique",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Kinésiologie",
+    "Médecine familiale",
+    "Neurologie",
+    "Nutrition",
+    "Obstétrique",
+    "Omnipratique",
+    "Oxygène",
+    "Pharmacologie",
+    "Phlébologie",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements Laboratoire privé",
+    "Prévention de dépendance en toxicomanie (alcool, drogues, médicaments)",
+    "Psychologie",
+    "Périnatalité",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test Pap Offert à toutes les clientes inscrites ou non",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Évaluation de la conduite automobile SAAQ",
+    "HORAIRE"
+   ],
+   "lat": 45.57917,
+   "lon": -73.34209,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Médico-Centre Mont-Royal (Clinique Médicale Crescent)",
+   "nofiche": 269691,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=269691",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF MÉDICO-CENTRE MONT-ROYAL (CLINIQUE MÉDICALE CRESCENT)",
+   "adresse": "1198, rue Crescent",
+   "ville": "Montréal",
+   "codePostal": "H3G 2A9",
+   "telephone": "514 933-8383",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "9 h à 17 h",
+       "plages": [
+        [
+         540,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "9 h à 17 h",
+       "plages": [
+        [
+         540,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "26 juin 2026, 20 h 46",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Cardiologie",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie Générale",
+    "Chirurgie mineure",
+    "Chirurgie plastique",
+    "Circoncision",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Diététique",
+    "Dépistage",
+    "Désintoxication",
+    "Fertilité",
+    "Gastroentérologie",
+    "Gynécologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Médecine d'urgence",
+    "Médecine esthétique",
+    "Médecine familiale",
+    "Médecine interne",
+    "Nutrition",
+    "ORL - Oto-rhino-laryngologie",
+    "Obstétrique",
+    "Omnipratique",
+    "Ophtalmologie",
+    "Orthopédie",
+    "Oxygène",
+    "Podologie",
+    "Pose de plâtre",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Psychologie",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins des pieds",
+    "Soins infirmiers",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement des verrues plantaires",
+    "Urologie",
+    "Vaccination",
+    "Vasectomie",
+    "Échographie",
+    "Électromyogramme (EMG)",
+    "Équipement spécialisé",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.49637,
+   "lon": -73.57438,
+   "site": "https://www.cliniquemedicalecrescent.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Medistat (Clinique Médicale Beaconsfield)",
+   "nofiche": 1052030,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1052030",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF MEDISTAT (CLINIQUE MÉDICALE BEACONSFIELD)",
+   "adresse": "445, boulevard Beaconsfield",
+   "ville": "Beaconsfield",
+   "codePostal": "H9W 4C2",
+   "telephone": "514 375-5342",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 13 h",
+     "heures": [
+      [
+       540,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "9 h à 13 h",
+       "plages": [
+        [
+         540,
+         780
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 novembre 2025, 15 h 45",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Adaptation sociale",
+    "Béquilles (location)",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Diététique",
+    "Dépistage",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale Santé publique et médecine préventive",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Périnatalité",
+    "Santé sexuelle",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Suivi de grossesse",
+    "Test Pap",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.42015,
+   "lon": -73.87977,
+   "site": "https://cmbeaconsfield.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Québec-Nord (Centre Médical de Charlesbourg)",
+   "nofiche": 42148,
+   "region": "qc",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42148",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF QUÉBEC-NORD (CENTRE MÉDICAL DE CHARLESBOURG)",
+   "adresse": "14008, boulevard Henri-Bourassa, bureau 200",
+   "ville": "Québec",
+   "codePostal": "G1G 3Y8",
+   "telephone": "418 628-9921",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 15",
+     "heures": [
+      [
+       450,
+       1035
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 21 h",
+     "heures": [
+      [
+       450,
+       1260
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 15",
+     "heures": [
+      [
+       450,
+       1035
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille",
+        "Pour le SANS rendez-vous, clientèle inscrite et non inscrite, du lundi au vendredi, veuillez vous inscrire via le site Rendez-vous santé Québec https://www.rvsq.gouv.qc.ca dès 15 h la veille.",
+        "Pour le SANS rendez-vous, les samedis et dimanches, toutes clientèles - inscrite et non inscrite, veuillez vous inscrire en ligne via le site Web Rendez-vous santé Québec https://www.rvsq.gouv.ca dès 15 h la veille. Prendre note que le SANS rendez-vous a lieu au GMF Le Mesnil (Centre médical Le Mesnil), 1300 Boulevard Lebourgneuf, Bureau 300, 3e étage, Québec G2K 2N1.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille",
+        "Pour le SANS rendez-vous, clientèle inscrite et non inscrite, du lundi au vendredi, veuillez vous inscrire via le site Rendez-vous santé Québec https://www.rvsq.gouv.qc.ca dès 15 h la veille.",
+        "Pour le SANS rendez-vous, les samedis et dimanches, toutes clientèles - inscrite et non inscrite, veuillez vous inscrire en ligne via le site Web Rendez-vous santé Québec https://www.rvsq.gouv.ca dès 15 h la veille. Prendre note que le SANS rendez-vous a lieu au GMF Le Mesnil (Centre médical Le Mesnil), 1300 Boulevard Lebourgneuf, Bureau 300, 3e étage, Québec G2K 2N1.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 21 h",
+     "heures": [
+      [
+       450,
+       1260
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 15",
+     "heures": [
+      [
+       450,
+       1035
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "19 octobre 2026, 14 h 07",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Omnipratique",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Travail social",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 46.87924,
+   "lon": -71.28443,
+   "site": null,
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF Saint-Constant (Clinique Médicale Saint-Constant)",
+   "nofiche": 671719,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671719",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF SAINT-CONSTANT (CLINIQUE MÉDICALE SAINT-CONSTANT)",
+   "adresse": "113, rue Saint-Pierre, bureau 102",
+   "ville": "Saint-Constant",
+   "codePostal": "J5A 0M3",
+   "telephone": "450 632-1630",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 mars 2026, 17 h 42",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Diététique",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements Laboratoire privé",
+    "Soins infirmiers",
+    "Travail social",
+    "Vaccination Régulière, enfant, saisonnière, voyage (autre)"
+   ],
+   "lat": 45.37539,
+   "lon": -73.56796,
+   "site": "https://www.cliniquemedicalest-constant.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Saint-Donat (CLSC de Saint-Donat)",
+   "nofiche": 52169,
+   "region": "r15",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52169",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF SAINT-DONAT (CLSC DE SAINT-DONAT)",
+   "adresse": "377, rue du Foyer",
+   "ville": "Saint-Donat",
+   "codePostal": "J0T 2C0",
+   "telephone": "819 424-1511",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "20 octobre 2025, 13 h 27",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Authentification de la carte d'assurance maladie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception ITSS",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Omnipratique",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test Pap",
+    "Travail social",
+    "Vaccination Aucune vaccination voyage",
+    "Électrocardiogramme (ECG)",
+    "Services de transport / Accompagnement offert par des partenaires",
+    "450 834-5441, poste 7065 ou 1 800 264-5441, poste 7065",
+    "450 834-5434 ou 1 877 834-5434",
+    "450 882-1089 ou 1 888 882-1086",
+    "HORAIRE",
+    "CLIENTÈLE À LA RECHERCHE D'UN MÉDECIN DE FAMILLE",
+    "par Internet : www.gamf.gouv.qc.ca",
+    "par téléphone : 833-572-2063"
+   ],
+   "lat": 46.32217,
+   "lon": -74.22309,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Sainte-Croix/Saint-Patrice (Coopérative de Solidarité Santé du Sud de Lotbinière)",
+   "nofiche": 44626,
+   "region": "r12",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=44626",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF SAINTE-CROIX/SAINT-PATRICE (COOPÉRATIVE DE SOLIDARITÉ SANTÉ DU SUD DE LOTBINIÈRE)",
+   "adresse": "473, rue Principale",
+   "ville": "Saint-Patrice-de-Beaurivage",
+   "codePostal": "G0S 1B0",
+   "telephone": "418 596-2213",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h",
+     "heures": [
+      [
+       510,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h",
+     "heures": [
+      [
+       510,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 septembre 2024, 15 h 08",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Diététique",
+    "Dépistage",
+    "Fauteuil roulant (location)",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Traitement au laser",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination saisonnière, enfant régulière, voyage, autre",
+    "Visites à domicile"
+   ],
+   "lat": 46.4114,
+   "lon": -71.23905,
+   "site": "https://coopsantelotbiniere.com/nous-joindre/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Saint-Luc Saint-Eugène (Clinique Médicale Saint-Luc)",
+   "nofiche": 50518,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=50518",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GMF SAINT-LUC SAINT-EUGÈNE (CLINIQUE MÉDICALE SAINT-LUC)",
+   "adresse": "247, boulevard Saint-Luc, unité 204",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "codePostal": "J2W 0J3",
+   "telephone": "450 348-6124",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 mars 2026, 18 h 59",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Hypertension – Consultation pour le suivi",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Test Pap Offert aux clientes inscrites à la clinique seulement",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination Grippe saisonnière,",
+    "Visites à domicile",
+    "Évaluation de la conduite automobile SAAQ",
+    "HORAIRE",
+    "_______________________________________________"
+   ],
+   "lat": 45.35332,
+   "lon": -73.29397,
+   "site": null,
+   "reservation": {}
   }
  ]
 }
