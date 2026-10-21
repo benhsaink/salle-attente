@@ -200,7 +200,12 @@ async function handle(req, res, url, getData) {
   const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" }); res.end(JSON.stringify(body)); };
   const page = (title, text) => { res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" }); res.end(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><body style="font-family:system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px;line-height:1.5"><h1 style="font-size:1.3rem">${esc(title)}</h1><p>${text}</p><p><a href="/">Salle d'attente</a></p>`); };
   const p = url.pathname;
-  if (p === "/api/alertes/config") return json(200, { actif: store.ready() && (!!VAPID || !!BREVO), push: store.ready() && !!VAPID, courriel: store.ready() && !!BREVO, vapidPublic: VAPID ? VAPID.publicKey : null });
+  if (p === "/api/alertes/config") {
+    let base = store.ready() ? "ok" : "non configurée";
+    // Diagnostic : ?test=1 vérifie la connexion à la base (sans rien révéler des abonnés)
+    if (url.searchParams.get("test") === "1" && store.ready()) { try { await store.count(); } catch (err) { base = "erreur : " + err.message.replace(/sb_[a-z]+_[\w-]+|eyJ[\w.-]+/g, "…").slice(0, 300); } }
+    return json(200, { actif: store.ready() && (!!VAPID || !!BREVO), push: store.ready() && !!VAPID, courriel: store.ready() && !!BREVO, vapidPublic: VAPID ? VAPID.publicKey : null, base });
+  }
   if (!store.ready()) return json(503, { error: "Les alertes ne sont pas encore activées." });
 
   if (p === "/api/alertes/confirmer") {
