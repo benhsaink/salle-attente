@@ -202,8 +202,8 @@
      "In a serious emergency (chest pain, stroke, trouble breathing), do not wait: call 911. If in doubt, 811 will guide you. Figures come from the Ministry of Health and can change quickly."],
     // Cliniques
     ["Consultation le jour même, surtout sur rendez-vous.", "Same-day visits, mostly by appointment."],
-    ["Ces cliniques (GMF-A/R, les anciennes « super-cliniques ») soignent les problèmes urgents mineurs. Réservez avant d'y aller : les places sont limitées et il n'y a pas de nombre de places en temps réel.",
-     "These clinics (GMF-A/R, formerly “super-clinics”) treat minor urgent problems. Book before you go: spots are limited and there is no real-time count of available spots."],
+    ["Ces cliniques (GMF-A/R, les anciennes « super-cliniques », et d'autres GMF qui offrent des rendez-vous le jour même à tous) soignent les problèmes urgents mineurs. Réservez avant d'y aller : les places sont limitées et il n'y a pas de nombre de places en temps réel.",
+     "These clinics (GMF-A/R, formerly “super-clinics”, and other GMFs offering same-day appointments to everyone) treat minor urgent problems. Book before you go: spots are limited and there is no real-time count of available spots."],
     ["Sans médecin de famille ?", "No family doctor?"],
     ["Le Guichet d'accès à la première ligne vous trouve une consultation :", "The Primary Care Access Point (GAP) will find you an appointment:"],
     [", ou", ", or"],

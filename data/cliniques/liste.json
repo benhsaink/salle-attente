@@ -1,7 +1,7 @@
 {
  "source": "https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "consulte": "2026-10-20",
- "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord. Les entrées marquées « enfants » sont des cliniques d'urgence pédiatrique repérées dans le Répertoire des ressources (20 octobre 2026). Lévis est classé avec Québec (qc) ; Trois-Rivières a sa propre région (tr). Autres régions : code r + numéro de région sociosanitaire (r05 Estrie, r07 Outaouais), comme pour les urgences.",
+ "note": "Liste des GMF-A/R (accès/réseau) publiée par Québec.ca. Les régions Montérégie, Laurentides et Lanaudière sont classées Rive-Sud / Rive-Nord. Les entrées marquées « enfants » sont des cliniques d'urgence pédiatrique repérées dans le Répertoire des ressources (20 octobre 2026). Lévis est classé avec Québec (qc) ; Trois-Rivières a sa propre région (tr). Autres régions : code r + numéro de région sociosanitaire (r05 Estrie, r07 Outaouais), comme pour les urgences. Autres GMF ajoutées le 21 octobre 2026 : celles dont la fiche du Répertoire offre des rendez-vous le jour même pour tous (voir gmf-verifications.json).",
  "cliniques": [
   {
    "nom": "GMF Brunswick",
@@ -325,6 +325,126 @@
    "nom": "GMF Delta Santé",
    "nofiche": 1085794,
    "region": "r07"
+  },
+  {
+   "nom": "GMF Clinique Médicale Step (Clinique Médicale Step)",
+   "nofiche": 1163596,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique Médicale Elna Décarie (Cabinet Docteur Nathaniel Mimran)",
+   "nofiche": 1207069,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Clinique Mednam Lachine (Clinique Mednam Lasalle)",
+   "nofiche": 1225603,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF de Joliette (Clinique Médicale Lanaudière)",
+   "nofiche": 33972,
+   "region": "rn"
+  },
+  {
+   "nom": "GMF de la Matapédia (Centre Médical de la Vallée)",
+   "nofiche": 38864,
+   "region": "r01"
+  },
+  {
+   "nom": "GMF de la Matapédia (Clinique Médicale Sayabec)",
+   "nofiche": 45525,
+   "region": "r01"
+  },
+  {
+   "nom": "GMF de la Rive (Clinique Médicale de la Rive)",
+   "nofiche": 33148,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF de Montmagny (Clinique Médicale de Montmagny)",
+   "nofiche": 37318,
+   "region": "r12"
+  },
+  {
+   "nom": "GMF des Aurores-Boréales (GMF-U des Aurores-Boréales)",
+   "nofiche": 54117,
+   "region": "r08"
+  },
+  {
+   "nom": "GMF du Coteau (Clinique Médicale du Coteau)",
+   "nofiche": 45652,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF du Granit (CSSS du Granit - Point de Service de Lambton)",
+   "nofiche": 819527,
+   "region": "r05"
+  },
+  {
+   "nom": "GMF le Gardeurois",
+   "nofiche": 46881,
+   "region": "rn"
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Centre Médical de Saint-Félicien)",
+   "nofiche": 53487,
+   "region": "r02"
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Clinique Médicale de Roberval)",
+   "nofiche": 53478,
+   "region": "r02"
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Clinique Médicale Saint-Prime)",
+   "nofiche": 53488,
+   "region": "r02"
+  },
+  {
+   "nom": "GMF les Myrtilles du Lac (Ma Clinique Zone Santé)",
+   "nofiche": 53480,
+   "region": "r02"
+  },
+  {
+   "nom": "GMF Marguerite d'Youville (Clinique Familiale des Hauts-Bois)",
+   "nofiche": 52405,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Médico-Centre Mont-Royal (Clinique Médicale Crescent)",
+   "nofiche": 269691,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Medistat (Clinique Médicale Beaconsfield)",
+   "nofiche": 1052030,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF Québec-Nord (Centre Médical de Charlesbourg)",
+   "nofiche": 42148,
+   "region": "qc"
+  },
+  {
+   "nom": "GMF Saint-Constant (Clinique Médicale Saint-Constant)",
+   "nofiche": 671719,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF Saint-Donat (CLSC de Saint-Donat)",
+   "nofiche": 52169,
+   "region": "r15"
+  },
+  {
+   "nom": "GMF Sainte-Croix/Saint-Patrice (Coopérative de Solidarité Santé du Sud de Lotbinière)",
+   "nofiche": 44626,
+   "region": "r12"
+  },
+  {
+   "nom": "GMF Saint-Luc Saint-Eugène (Clinique Médicale Saint-Luc)",
+   "nofiche": 50518,
+   "region": "rs"
   }
  ]
 }
