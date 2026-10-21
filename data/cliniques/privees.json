@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T20:22:27.735Z",
+ "generatedAt": "2026-10-21T05:10:37.260Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -7,25 +7,13 @@
    "nofiche": 114688,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=114688",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE ROCKLANDMD (VILLE MONT-ROYAL)",
    "adresse": "100, chemin Rockland, bureau 110",
    "ville": "Mont-Royal",
    "codePostal": "H3P 2V9",
    "telephone": "514 667-3383",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 18 h",
-     "heures": [
-      [
-       450,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -92,6 +80,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -138,40 +138,13 @@
    "nofiche": 800727,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=800727",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE UNIONMD (MONTRÉAL)",
    "adresse": "1191, avenue Union",
    "ville": "Montréal",
    "codePostal": "H3B 3C3",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 17 h",
-     "heures": [
-      [
-       510,
-       1020
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -309,6 +282,33 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h 30 à 17 h",
      "heures": [
@@ -380,25 +380,13 @@
    "nofiche": 1086111,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1086111",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE UNIONMD (JEAN TALON)",
    "adresse": "4175, rue Jean-Talon Ouest",
    "ville": "Montréal",
    "codePostal": "H4P 1W6",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -451,6 +439,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 18 h",
      "heures": [
@@ -502,25 +502,13 @@
    "nofiche": 1044470,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1044470",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE UNIONMD LAVAL",
    "adresse": "3498, boulevard Sainte-Rose (Fabreville)",
    "ville": "Laval",
    "codePostal": "H7P 4K7",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -573,6 +561,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -616,25 +616,13 @@
    "nofiche": 1047504,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1047504",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE LACROIX - LAVAL",
    "adresse": "1500, rue Montgolfier, bureau 300",
    "ville": "Laval",
    "codePostal": "H7T 0A2",
    "telephone": "855 841-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 19 h",
-     "heures": [
-      [
-       480,
-       1140
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -703,6 +691,18 @@
       [
        480,
        990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 19 h",
+     "heures": [
+      [
+       480,
+       1140
       ]
      ],
      "rdvJour": []
@@ -770,25 +770,13 @@
    "nofiche": 1047968,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1047968",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE LEBLANC + SAVARIA (LAVAL)",
    "adresse": "2458, boulevard Curé-Labelle (Chomedey)",
    "ville": "Laval",
    "codePostal": "H7T 1R1",
    "telephone": "450 314-8759",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -850,6 +838,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -902,25 +902,13 @@
    "nofiche": 1017678,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1017678",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE LACROIX (BOUCHERVILLE)",
    "adresse": "556, boulevard de Mortagne, bureau 206",
    "ville": "Boucherville",
    "codePostal": "J4B 5E4",
    "telephone": "450 868-1018",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -987,6 +975,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1043,25 +1043,13 @@
    "nofiche": 667294,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=667294",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRIVAMED BOUCHERVILLE",
    "adresse": "1052, rue Lionel-Daunais, unité 203, suite 203",
    "ville": "Boucherville",
    "codePostal": "J4B 0B2",
    "telephone": "514 360-4416",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1119,6 +1107,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
      "heures": [
@@ -1213,25 +1213,13 @@
    "nofiche": 608534,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=608534",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRIVAMED BROSSARD",
    "adresse": "5955, boulevard Marie-Victorin",
    "ville": "Brossard",
    "codePostal": "J4W 2M2",
    "telephone": "514 360-4416",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1289,6 +1277,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
      "heures": [
@@ -1418,25 +1418,13 @@
    "nofiche": 671829,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671829",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "SERVICE MÉDICAL PRIVÉ",
    "adresse": "1000, boulevard De Montarville, bureau 201",
    "ville": "Boucherville",
    "codePostal": "J4B 5V9",
    "telephone": "450 641-6774",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1503,6 +1491,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1535,25 +1535,13 @@
    "nofiche": 162972,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=162972",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE LEBLANC + SAVARIA (BLAINVILLE)",
    "adresse": "75, boulevard des Châteaux, unité 106, suite 117",
    "ville": "Blainville",
    "codePostal": "J7B 2A4",
    "telephone": "450 434-2009",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h à 17 h",
-     "heures": [
-      [
-       420,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1616,6 +1604,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 17 h",
+     "heures": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "7 h à 17 h",
      "heures": [
@@ -1662,25 +1662,13 @@
    "nofiche": 281429,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=281429",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE MEDICYM (BLAINVILLE)",
    "adresse": "876, boulevard du Curé-Labelle, bureau 205",
    "ville": "Blainville",
    "codePostal": "J7C 2K9",
    "telephone": "450 430-0911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h 30",
-     "heures": [
-      [
-       450,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1742,6 +1730,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1779,25 +1779,13 @@
    "nofiche": 1031026,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1031026",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRAXIS CLINIQUE DE SANTÉ FAMILIALE BLAINVILLE",
    "adresse": "794, boulevard du Curé-Labelle, bureau 201",
    "ville": "Blainville",
    "codePostal": "J7C 2K5",
    "telephone": "450 234-1515",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1869,6 +1857,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1910,25 +1910,13 @@
    "nofiche": 409652,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=409652",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE ACCÈS MD",
    "adresse": "28, chemin du Golf Est, bureau 302, suite 302",
    "ville": "Saint-Charles-Borromée",
    "codePostal": "J6E 2B4",
    "telephone": "450 756-2626",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -1990,6 +1978,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2025,25 +2025,13 @@
    "nofiche": 739205,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=739205",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE 360",
    "adresse": "1, avenue Holiday, bureau 100",
    "ville": "Pointe-Claire",
    "codePostal": "H9R 5N3",
    "telephone": "514 375-2705",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 18 h 30",
-     "heures": [
-      [
-       510,
-       1110
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2105,6 +2093,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 18 h 30",
+     "heures": [
+      [
+       510,
+       1110
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2158,25 +2158,13 @@
     "source": "OpenStreetMap, d'après l'adresse de la fiche (5950, chemin de la Côte-des-Neiges)"
    },
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1039349",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE POINTSANTÉ",
    "adresse": "5950, chemin de la côte des neiges, bureau 250",
    "ville": "Montréal",
    "codePostal": "H3S 1Z6",
    "telephone": "514 665-7029",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "9 h à 12 h",
-     "heures": [
-      [
-       540,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2238,6 +2226,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2270,25 +2270,13 @@
    "nofiche": 1007204,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1007204",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "EXCELLEMD (SANCTUAIRE OUTREMONT MONTRÉAL)",
    "adresse": "6100, avenue du Boisé, unité 113",
    "ville": "Montréal",
    "codePostal": "H3S 2W1",
    "telephone": "450 735-8111",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2341,6 +2329,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -2392,25 +2392,13 @@
    "nofiche": 52196,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52196",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "MD-PLUS CLINIQUE PRIVÉE (MONTRÉAL)",
    "adresse": "1100, avenue Beaumont, bureau 301",
    "ville": "Mont-Royal",
    "codePostal": "H3P 3H5",
    "telephone": "514 738-4445",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2463,6 +2451,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -2513,20 +2513,13 @@
    "nofiche": 1206731,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1206731",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE PRIVEO SANTÉ (MONTRÉAL)",
    "adresse": "3550, chemin de la Côte-des-Neiges, bureau 490",
    "ville": "Montréal",
    "codePostal": "H3H 1V4",
    "telephone": "855 776-7748",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": true,
@@ -2577,6 +2570,13 @@
        990
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -2602,25 +2602,13 @@
    "nofiche": 1127445,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1127445",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE PRIVEO SANTÉ",
    "adresse": "1435, boulevard Saint-Martin Ouest, bureau 425",
    "ville": "Laval",
    "codePostal": "H7S 2C6",
    "telephone": "450 639-1561",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2673,6 +2661,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h 30",
      "heures": [
@@ -2720,25 +2720,13 @@
    "nofiche": 1120805,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1120805",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "MD-PLUS CLINIQUE PRIVÉE (LAVAL)",
    "adresse": "1575, boulevard de l'Avenir",
    "ville": "Laval",
    "codePostal": "H7S 2N5",
    "telephone": "450 933-8303",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2786,6 +2774,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -2827,25 +2827,13 @@
    "nofiche": 978640,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=978640",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE EXCELLEMD (SAINT-EUSTACHE)",
    "adresse": "460, rue du Parc",
    "ville": "Saint-Eustache",
    "codePostal": "J7R 0C9",
    "telephone": "844 735-8111",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h à 20 h",
-     "heures": [
-      [
-       420,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -2917,6 +2905,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2945,25 +2945,13 @@
    "nofiche": 653821,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=653821",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE SERVICE SANTÉ ROSEMÈRE",
    "adresse": "400, chemin de la Grande-Côte",
    "ville": "Rosemère",
    "codePostal": "J7A 1K7",
    "telephone": "450 621-1292",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3025,6 +3013,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3073,25 +3073,13 @@
    "nofiche": 662414,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=662414",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE HUMANI",
    "adresse": "30, rue Bouthillier, suite 120",
    "ville": "Rosemère",
    "codePostal": "J7A 4B4",
    "telephone": "450 970-2718",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3158,6 +3146,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3190,25 +3190,13 @@
    "nofiche": 945627,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=945627",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRAXIS CLINIQUE DE SANTÉ FAMILIALE LA PRAIRIE",
    "adresse": "1650, chemin de Saint-Jean, bureau 101",
    "ville": "La Prairie",
    "codePostal": "J5R 0J1",
    "telephone": "450 287-5050",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3280,6 +3268,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3327,25 +3327,13 @@
    "nofiche": 798878,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=798878",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRAXIS CLINIQUE DE SANTÉ FAMILIALE TERREBONNE",
    "adresse": "1961, chemin Gascon, suite 201",
    "ville": "Terrebonne",
    "codePostal": "J6X 4H2",
    "telephone": "450 312-5050",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3412,6 +3400,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3461,25 +3461,13 @@
    "nofiche": 671861,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671861",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE CMIE (BROSSARD)",
    "adresse": "7055, boulevard Taschereau, bureau 140",
    "ville": "Brossard",
    "codePostal": "J4Z 1A7",
    "telephone": "450 332-2430",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h",
-     "heures": [
-      [
-       510,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3532,6 +3520,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
      "heures": [
@@ -3591,25 +3591,13 @@
    "nofiche": 1159063,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1159063",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "AVENUE MÉDIC",
    "adresse": "515, boulevard Sir-Wilfrid-Laurier, unité 300",
    "ville": "Beloeil",
    "codePostal": "J3G 4H8",
    "telephone": "579 883-1000",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h à 17 h",
-     "heures": [
-      [
-       420,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3671,6 +3659,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 17 h",
+     "heures": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3702,25 +3702,13 @@
    "nofiche": 506659,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=506659",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "MD SIGNATURE CLINIQUE FAMILIALE PRIVÉE (CHAMBLY)",
    "adresse": "1313, boulevard Fréchette, bureau 101",
    "ville": "Chambly",
    "codePostal": "J3L 2Y9",
    "telephone": "450 403-4773",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3787,6 +3775,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3829,25 +3829,13 @@
    "nofiche": 671699,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671699",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MD3",
    "adresse": "6705, boulevard Chevrier, bureau 203",
    "ville": "Brossard",
    "codePostal": "J4Z 3T9",
    "telephone": "450 678-3383",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -3914,6 +3902,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3949,25 +3949,13 @@
    "nofiche": 872678,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=872678",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE REMD SOLUTIONS",
    "adresse": "3943, boulevard Saint-Jean, unité 110",
    "ville": "Dollard-Des Ormeaux",
    "codePostal": "H9G 1X2",
    "telephone": "514 624-7363",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4020,6 +4008,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -4069,38 +4069,13 @@
    "nofiche": 558023,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=558023",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CENTRE MÉDICAL CARDIOGENIX",
    "adresse": "8250, boulevard Décarie (Montréal), bureau 100 410 450",
    "ville": "Montréal",
    "codePostal": "H4P 2P5",
    "telephone": "514 731-2491",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "9 h à 12 h",
-       "plages": [
-        [
-         540,
-         720
-        ]
-       ],
-       "systemes": [],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4192,6 +4167,31 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -4245,25 +4245,13 @@
    "nofiche": 127357,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=127357",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE MD CENTROPOLIS",
    "adresse": "655, promenade du Centropolis, bureau 227",
    "ville": "Laval",
    "codePostal": "H7T 0A3",
    "telephone": "514 316-1357",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4325,6 +4313,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4353,25 +4353,13 @@
    "nofiche": 671723,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671723",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE RACICOT",
    "adresse": "520, rue D'Avaugour, bureau 2000",
    "ville": "Boucherville",
    "codePostal": "J4B 0G6",
    "telephone": "450 449-7525",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4438,6 +4426,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4482,25 +4482,13 @@
    "nofiche": 1170491,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1170491",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "PRIVAMED DIX30",
    "adresse": "1100, rue du Lux, bureau 520, 5e étage",
    "ville": "Brossard",
    "codePostal": "J4Y 0E2",
    "telephone": "514 360-4416",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4562,6 +4550,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4611,25 +4611,13 @@
    "nofiche": 766243,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=766243",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE MEDINORD",
    "adresse": "700, chemin Avila",
    "ville": "Piedmont",
    "codePostal": "J0R 1R3",
    "telephone": "450 744-0733",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 19 h",
-     "heures": [
-      [
-       510,
-       1140
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4696,6 +4684,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 19 h",
+     "heures": [
+      [
+       510,
+       1140
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4723,25 +4723,13 @@
    "nofiche": 1009733,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1009733",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE TELUS SANTÉ (MAISONNEUVE OUEST)",
    "adresse": "600, boulevard De Maisonneuve Ouest, bureau 2100",
    "ville": "Montréal",
    "codePostal": "H3A 3J2",
    "telephone": "514 845-1211",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "6 h 45 à 16 h",
-     "heures": [
-      [
-       405,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4803,6 +4791,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "6 h 45 à 16 h",
+     "heures": [
+      [
+       405,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4838,25 +4838,13 @@
    "nofiche": 420792,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=420792",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CRÉA-MED CLINIQUE DE MÉDECINE PRIVÉE",
    "adresse": "407, rue McGill, bureau 900A",
    "ville": "Montréal",
    "codePostal": "H2Y 2G3",
    "telephone": "514 345-1356",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -4918,6 +4906,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4953,25 +4953,13 @@
    "nofiche": 846325,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=846325",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "EXCELLEM.D. (MARCHÉ CENTRAL)",
    "adresse": "9001, boulevard de l'Acadie, bureau 101",
    "ville": "Montréal",
    "codePostal": "H4N 3H5",
    "telephone": "450 735-8111",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5064,6 +5052,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5109,25 +5109,13 @@
    "nofiche": 1188767,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1188767",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (SAINTE-FOY)",
    "adresse": "1035, avenue Wilfrid-Pelletier, bureau 200",
    "ville": "Québec",
    "codePostal": "G1W 0C5",
    "telephone": "418 871-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5180,6 +5168,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5222,25 +5222,13 @@
    "nofiche": 1188763,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1188763",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (MONTCALM)",
    "adresse": "1000, chemin Sainte-Foy, bureau 303",
    "ville": "Québec",
    "codePostal": "G1S 2L6",
    "telephone": "418 871-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5293,6 +5281,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5347,25 +5347,13 @@
    "nofiche": 553536,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=553536",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (CAP-ROUGE)",
    "adresse": "810, route Jean-Gauvin, bureau 203",
    "ville": "Québec",
    "codePostal": "G1X 0B6",
    "telephone": "418 871-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5427,6 +5415,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -5469,25 +5469,13 @@
    "nofiche": 1138353,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1138353",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUES MÉDICALES LACROIX (DUBERGER)",
    "adresse": "2810, boulevard Père-Lelièvre, 1re étage",
    "ville": "Québec",
    "codePostal": "G1P 2Y1",
    "telephone": "418 841-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5540,6 +5528,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5586,25 +5586,13 @@
    "nofiche": 1149319,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1149319",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE AURELIA",
    "adresse": "1305, boulevard Lebourgneuf, bureau 330, 3e étage",
    "ville": "Québec",
    "codePostal": "G2K 2E4",
    "telephone": "581 628-8166",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5657,6 +5645,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -5736,25 +5736,13 @@
    "nofiche": 1118409,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1118409",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "SECURIMED PLUS (QUÉBEC)",
    "adresse": "1180, rue des Soeurs-du-Bon-Pasteur, bureau 210",
    "ville": "Québec",
    "codePostal": "G1S 0B1",
    "telephone": "819 299-3157",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5807,6 +5795,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5864,25 +5864,13 @@
    "nofiche": 756217,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=756217",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "MEDIC AXION (LEBOURGNEUF)",
    "adresse": "1020, rue Bouvier, bureau 200",
    "ville": "Québec",
    "codePostal": "G2K 0K9",
    "telephone": "418 688-0331",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h 30",
-     "heures": [
-      [
-       450,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -5935,6 +5923,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "7 h 30 à 16 h 30",
      "heures": [
@@ -6040,25 +6040,13 @@
    "nofiche": 1124316,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1124316",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE DE SANTÉ M QUÉBEC",
    "adresse": "2500, rue Beaurevoir, bureau 155",
    "ville": "Québec",
    "codePostal": "G2C 0M4",
    "telephone": "418 476-4750",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6111,6 +6099,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -6192,25 +6192,13 @@
    "nofiche": 506231,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=506231",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE 1900",
    "adresse": "1900, boulevard des Récollets, suite 387B",
    "ville": "Trois-Rivières",
    "codePostal": "G8Z 4K4",
    "telephone": "819 373-3302",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h à 15 h",
-     "heures": [
-      [
-       420,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6272,6 +6260,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6298,25 +6298,13 @@
    "nofiche": 1154030,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154030",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE DE SANTÉ FAMILIALE HARMONIE",
    "adresse": "6500, boulevard Gene-H.-Kruger",
    "ville": "Trois-Rivières",
    "codePostal": "G9A 4P3",
    "telephone": "819 693-5852",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6378,6 +6366,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6400,25 +6400,13 @@
    "nofiche": 854392,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854392",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE DE SANTÉ M (TROIS-RIVIÈRES)",
    "adresse": "6560, boulevard des Chenaux",
    "ville": "Trois-Rivières",
    "codePostal": "G8Y 5S8",
    "telephone": "819 841-2555",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6476,6 +6464,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -6548,25 +6548,13 @@
    "nofiche": 1204898,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1204898",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE AXMÉDIC",
    "adresse": "1037, boulevard Thibeau",
    "ville": "Trois-Rivières",
    "codePostal": "G8T 7B3",
    "telephone": "819 300-0902",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6619,6 +6607,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -6655,20 +6655,13 @@
    "nofiche": 629768,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=629768",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE LACROIX (LÉVIS)",
    "adresse": "880, avenue Taniata, bureau 210",
    "ville": "Lévis",
    "codePostal": "G6Z 2E2",
    "telephone": "418 841-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6719,6 +6712,13 @@
        960
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -6743,20 +6743,13 @@
    "nofiche": 1131746,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1131746",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE DCS",
    "adresse": "1693, rue Saint-Patrick, bureau 106",
    "ville": "Montréal",
    "codePostal": "H3K 3G9",
    "telephone": "514 727-6266",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": true,
@@ -6794,6 +6787,13 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -6823,25 +6823,13 @@
    "nofiche": 788984,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=788984",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE ROCKLANDMD (CENTRE-VILLE)",
    "adresse": "1538, rue Sherbrooke Ouest, bureau 500",
    "ville": "Montréal",
    "codePostal": "H3G 1L5",
    "telephone": "514 667-3383",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -6903,6 +6891,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6937,25 +6937,13 @@
    "nofiche": 1235049,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1235049",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "MÉDECINE PRIVÉE – LA CITÉ MÉDICALE DE CHARLESBOURG",
    "adresse": "8500, boulevard Henri-Bourassa, bureau 250",
    "ville": "Québec",
    "codePostal": "G1G 5X1",
    "telephone": "418 781-0965",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "7 h 30 à 19 h",
-     "heures": [
-      [
-       450,
-       1140
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -7027,6 +7015,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 19 h",
+     "heures": [
+      [
+       450,
+       1140
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7055,25 +7055,13 @@
    "nofiche": 1101788,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1101788",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE LACROIX -ST-SAUVEUR",
    "adresse": "68-B, avenue de la Gare, bureau 201",
    "ville": "Saint-Sauveur",
    "codePostal": "J0R 1R0",
    "telephone": "855 841-1911",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -7135,6 +7123,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7171,25 +7171,13 @@
    "nofiche": 1154018,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154018",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE UNIONMD TASCHEREAU",
    "adresse": "3234, boulevard Taschereau",
    "ville": "Longueuil",
    "codePostal": "J4V 2H3",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 17 h",
-     "heures": [
-      [
-       510,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -7242,6 +7230,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h 30 à 17 h",
      "heures": [
@@ -7280,25 +7280,13 @@
    "nofiche": 1091287,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1091287",
-   "lu": "2026-10-20",
+   "lu": "2026-10-21",
    "nomOfficiel": "CLINIQUE MÉDICALE SANTÉ +",
    "adresse": "11, boulevard de la Cité-des-Jeunes, bureau 106",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 0N3",
    "telephone": "450 319-0339",
    "jours": [
-    {
-     "date": "2026-10-20",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h",
-     "heures": [
-      [
-       510,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-21",
      "ferme": false,
@@ -7351,6 +7339,18 @@
     },
     {
      "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
      "heures": [
