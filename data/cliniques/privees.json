@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T05:10:37.260Z",
+ "generatedAt": "2026-10-21T05:16:13.640Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -7390,6 +7390,731 @@
    "lat": 45.41475,
    "lon": -74.02179,
    "site": "https://cliniquesanteplus.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Global MD – médecine privée",
+   "nofiche": 1017747,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1017747",
+   "lu": "2026-10-21",
+   "nomOfficiel": "GLOBAL MD - (MÉDECINE PRIVÉE ET CHIRURGIE MINEURE)",
+   "adresse": "484, boulevard du Royaume Ouest, bureau 135",
+   "ville": "Saguenay",
+   "codePostal": "G7H 0S7",
+   "telephone": "418 973-6590",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "24 septembre 2026, 14 h 46",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": true,
+   "nonParticipant": true,
+   "services": [
+    "Béquilles (location)",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie Chirurgie mineure",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dépistage",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée Soins de première ligne",
+    "Information sur la sexualité",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Médecine sportive Infiltrations musculosquelettiques",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination",
+    "Vaccination contre le zona",
+    "Vasectomie",
+    "Médecine de première ligne",
+    "Services corporatifs"
+   ],
+   "lat": 48.39148,
+   "lon": -71.08729,
+   "site": "http://cliniqueglobalmd.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale L'Accès",
+   "nofiche": 680397,
+   "region": "r04",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=680397",
+   "lu": "2026-10-21",
+   "nomOfficiel": "CLINIQUE MÉDICALE L'ACCÈS",
+   "adresse": "3525, boulevard Saint-Joseph, suite 103",
+   "ville": "Drummondville",
+   "codePostal": "J2B 0H3",
+   "telephone": "819 472-9494",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "20 juillet 2026, 12 h 27",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "services": [
+    "Chirurgie mineure",
+    "Conseil en cessation du tabagisme et du vapotage",
+    "Contraception",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage du cancer colorectal",
+    "Infiltration cortisone",
+    "Médecine familiale",
+    "Omnipratique",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Santé sexuelle",
+    "Test Pap",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.85635,
+   "lon": -72.46599,
+   "site": "http://cliniquemedicalelacces.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Centre médical Pauzé Ferdais (Bromont)",
+   "nofiche": 484713,
+   "region": "r05",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=484713",
+   "lu": "2026-10-21",
+   "nomOfficiel": "CENTRE MÉDICAL PAUZÉ FERDAIS (BROMONT)",
+   "adresse": "26, boulevard de Bromont, suite 101",
+   "ville": "Bromont",
+   "codePostal": "J2L 2K3",
+   "telephone": "450 919-3911",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "12 juin 2023, 18 h 43",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Contraception",
+    "Dépistage",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Inhalothérapie",
+    "Médecine familiale",
+    "Omnipratique",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Salle d'allaitement",
+    "Santé voyage",
+    "Soins des pieds",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement des verrues plantaires",
+    "Vaccination contre la grippe",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.33059,
+   "lon": -72.6485,
+   "site": "http://pauzeferdais.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique Santé Continuum",
+   "nofiche": 1110776,
+   "region": "r05",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1110776",
+   "lu": "2026-10-21",
+   "nomOfficiel": "CLINIQUE SANTÉ CONTINUUM",
+   "adresse": "2360, chemin Sainte-Catherine",
+   "ville": "Sherbrooke",
+   "codePostal": "J1N 2X3",
+   "telephone": "873 200-0905",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "02 juillet 2026, 12 h 36",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Contraception",
+    "Hormonothérapie",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Orthophonie",
+    "Ostéopathie",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychologie",
+    "Sexologie",
+    "Soins infirmiers",
+    "Test PAP sans prescription",
+    "Test Pap",
+    "Travail social",
+    "Biopsie de l’endomètre"
+   ],
+   "lat": 45.36535,
+   "lon": -71.93438,
+   "site": "https://cliniquesantecontinuum.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale Lacroix – Gatineau",
+   "nofiche": 36292,
+   "region": "r07",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=36292",
+   "lu": "2026-10-21",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX- GATINEAU",
+   "adresse": "195, boulevard Gréber, bureau 101-B",
+   "ville": "Gatineau",
+   "codePostal": "J8T 3R1",
+   "telephone": "819 778-1330",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "9 h à 14 h 30",
+     "heures": [
+      [
+       540,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 juin 2026, 17 h 29",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Allergologie",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Consultation d'une infirmière",
+    "Contraception",
+    "Dermatologie",
+    "Dépistage",
+    "Gynécologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée Santé mentale et première ligne",
+    "Information sur la sexualité",
+    "Lavage d'oreilles",
+    "ORL - Oto-rhino-laryngologie",
+    "Omnipratique",
+    "Orthopédie",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Urologie",
+    "Vaccination",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ",
+    "Évaluation et traitement du trouble du sommeil / clinique du sommeil"
+   ],
+   "lat": 45.47273,
+   "lon": -75.70064,
+   "site": "https://cliniquesmedicaleslacroix.com",
+   "reservation": {}
+  },
+  {
+   "nom": "UnionMD Gatineau",
+   "nofiche": 1086156,
+   "region": "r07",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1086156",
+   "lu": "2026-10-21",
+   "nomOfficiel": "CLINIQUE UNIONMD GATINEAU",
+   "adresse": "86, promenade du Portage, unité 300",
+   "ville": "Gatineau",
+   "codePostal": "J8X 2K1",
+   "telephone": "819 484-1281",
+   "jours": [
+    {
+     "date": "2026-10-21",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-22",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 avril 2026, 12 h 21",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": false,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Cholestérol – Consultation pour le suivi",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dermatologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Information sur la sexualité",
+    "Médecine familiale",
+    "Podiatrie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Soins infirmiers",
+    "Test Pap",
+    "Traitement au laser",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.42498,
+   "lon": -75.7177,
+   "site": "https://unionmd.ca/",
    "reservation": {}
   }
  ]
