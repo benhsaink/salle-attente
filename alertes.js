@@ -21,7 +21,9 @@ const LOCAL = ENV.ALERTES_LOCAL === "1"; // essais seulement : fichier local au 
 const MAX_ABONNES = 5000;
 
 // ---------- Stockage (Supabase, API REST) ----------
-const SB = ENV.SUPABASE_URL && ENV.SUPABASE_KEY ? { url: ENV.SUPABASE_URL.replace(/\/$/, "") + "/rest/v1/abonnements", key: ENV.SUPABASE_KEY } : null;
+// On ne garde que l'origine (https://xxxx.supabase.co), même si l'adresse collée contient /rest/v1/ ou autre chose.
+const sbOrigin = (u) => { try { return new URL(String(u).trim()).origin; } catch (e) { return String(u).trim().replace(/\/.*$/, ""); } };
+const SB = ENV.SUPABASE_URL && ENV.SUPABASE_KEY ? { url: sbOrigin(ENV.SUPABASE_URL) + "/rest/v1/abonnements", key: ENV.SUPABASE_KEY.trim() } : null;
 const LOCAL_FILE = path.join(__dirname, "data-local", "abonnements.json");
 function sbHeaders(extra) {
   const h = { apikey: SB.key, "Content-Type": "application/json", Accept: "application/json", ...extra };
