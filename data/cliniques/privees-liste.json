@@ -297,6 +297,36 @@
    "nom": "Clinique médicale Santé +",
    "nofiche": 1091287,
    "region": "rs"
+  },
+  {
+   "nom": "Global MD – médecine privée",
+   "nofiche": 1017747,
+   "region": "r02"
+  },
+  {
+   "nom": "Clinique médicale L'Accès",
+   "nofiche": 680397,
+   "region": "r04"
+  },
+  {
+   "nom": "Centre médical Pauzé Ferdais (Bromont)",
+   "nofiche": 484713,
+   "region": "r05"
+  },
+  {
+   "nom": "Clinique Santé Continuum",
+   "nofiche": 1110776,
+   "region": "r05"
+  },
+  {
+   "nom": "Clinique médicale Lacroix – Gatineau",
+   "nofiche": 36292,
+   "region": "r07"
+  },
+  {
+   "nom": "UnionMD Gatineau",
+   "nofiche": 1086156,
+   "region": "r07"
   }
  ]
 }

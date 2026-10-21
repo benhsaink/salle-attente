@@ -172,3 +172,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 ## Page « À propos » (#apropos)
 - public/guide.js (apropos). Lien en bas de page : « À propos, sources et confidentialité ».
 - Contenu : projet indépendant (non lié au ministère, à Santé Québec ni à la RAMQ), limites, sources et licences (CC BY 4.0, OpenStreetMap, openrouteservice), confidentialité (position, adresse, préférences, Formspree, journaux de Render, Google Fonts), contact.
+
+## Cliniques dans les autres régions (21 octobre 2026)
+- GMF-A/R : GMF des Grandes-Fourches (Sherbrooke, r05) et GMF Delta Santé (Gatineau, r07), seules GMF-A/R de la liste Québec.ca hors des secteurs déjà couverts.
+- Cliniques privées (privees-candidats-regions.json → privees-verifications-regions.json) : Global MD (Saguenay), L'Accès (Drummondville), Pauzé Ferdais (Bromont), Santé Continuum (Sherbrooke), Lacroix (Gatineau), UnionMD Gatineau (contradiction « Coût : Non » mais frais exigés et médecin non participant, comme AxMédic et Santé +). GMF écartées comme ailleurs.
