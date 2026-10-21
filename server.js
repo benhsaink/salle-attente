@@ -477,7 +477,8 @@ http.createServer(async (req, res) => {
     const q = (url.searchParams.get("q") || "").trim().slice(0, 60);
     const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=3600" }); res.end(JSON.stringify(body)); };
     if (q.length < 2) return json(400, { error: "Nom manquant" });
-    const qs = "?ch_nom=" + encodeURIComponent(q).replace(/%20/g, "+") + "&bt_rechNom=&ch_choixReg=&ch_rayon=0&ch_code=";
+    const page = Math.min(200, Math.max(1, Number(url.searchParams.get("page")) || 1));
+    const qs = "?ch_nom=" + encodeURIComponent(q).replace(/%20/g, "+") + "&bt_rechNom=&ch_choixReg=&ch_rayon=0&ch_code=" + (page > 1 ? "&page=" + page : "");
     const paths = ["/repertoire-ressources/resultats-recherche/", "/repertoire-ressources/resultats/", "/repertoire-ressources/"];
     const essais = [];
     for (const pth of paths) {
@@ -490,7 +491,8 @@ http.createServer(async (req, res) => {
         let m;
         while ((m = re.exec(html))) { if (!seen.has(m[1])) { seen.add(m[1]); out.push({ nofiche: Number(m[1]), nom: txt(m[2]), apres: txt(m[3]).slice(0, 200) }); } }
         essais.push({ chemin: pth, statut: r.status, longueur: html.length, resultats: out.length });
-        if (out.length) return json(200, { q, chemin: pth, resultats: out });
+        const pages = Math.max(page, ...[...html.matchAll(/[?&;]page=(\d+)/g)].map((x) => Number(x[1])));
+        if (out.length) return json(200, { q, page, pages, chemin: pth, resultats: out });
       } catch (err) { essais.push({ chemin: pth, erreur: err.message }); }
     }
     return json(200, { q, resultats: [], essais });
