@@ -128,6 +128,8 @@
     const st = el("p", "legend"); st.setAttribute("role", "status");
     const priv = el("p", "legend", L("Nous gardons seulement ce qu'il faut pour vous envoyer vos alertes (votre choix, la zone, et votre courriel ou l'adresse technique de notification). Rien n'est vendu ni partagé. Désabonnement = suppression.",
       "We keep only what is needed to send your alerts (your choices, the area, and your email or the technical notification address). Nothing is sold or shared. Unsubscribing deletes it."));
+    const pl = el("a", "", L("Politique de confidentialité", "Privacy policy")); pl.href = "#confidentialite";
+    priv.append(" ", pl);
     box.append(send, st, priv);
     sync(); syncC();
 

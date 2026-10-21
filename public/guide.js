@@ -302,6 +302,8 @@
      T("Comme tout site web, l'hébergeur (Render) garde des journaux techniques des visites. Les polices de caractères sont chargées depuis Google Fonts.", "Like any website, the host (Render) keeps technical visit logs. Fonts are loaded from Google Fonts.")]
       .forEach(t => ul3.appendChild(el("li", "", t)));
     priv.appendChild(ul3);
+    const full = el("a", "g-btn", T("Lire la politique de confidentialité complète", "Read the full privacy policy")); full.href = "#confidentialite";
+    priv.appendChild(full);
     box.appendChild(priv);
 
     const c = el("section", "panel");
@@ -314,8 +316,62 @@
     box.append(c, sos());
   }
 
+  // ---------- Politique de confidentialité (Loi 25) ----------
+  function confidentialite(box) {
+    back(box);
+    document.title = T("Politique de confidentialité", "Privacy policy") + " · Salle d'attente";
+    const h = el("div", "fh");
+    h.append(el("h2", "", T("Politique de confidentialité", "Privacy policy")),
+      el("p", "where", T("Comment Salle d'attente recueille, utilise, protège et supprime vos renseignements personnels. En vigueur le 21 octobre 2026.",
+        "How Salle d'attente collects, uses, protects and deletes your personal information. In effect on October 21, 2026.")));
+    box.appendChild(h);
+    const sec = (title, items, after) => {
+      const s = el("section", "panel"); s.appendChild(el("h3", "", title));
+      if (items.length === 1 && !Array.isArray(items[0])) s.appendChild(el("p", "g-line", items[0]));
+      else { const ul = el("ul", "g-list"); items.forEach((t) => ul.appendChild(el("li", "", t))); s.appendChild(ul); }
+      if (after) s.appendChild(after);
+      box.appendChild(s);
+    };
+    sec(T("1. Responsable", "1. Person in charge"), [T("Le responsable de la protection des renseignements personnels de Salle d'attente est son fondateur. Pour toute question, demande d'accès, de correction ou de suppression, écrivez-lui avec le formulaire au bas du site (type « Autre », en indiquant « Confidentialité »). Une réponse vous sera donnée dans les 30 jours.",
+      "The person in charge of the protection of personal information at Salle d'attente is its founder. For any question, or any request for access, correction or deletion, write to them with the form at the bottom of the site (type “Other”, mentioning “Privacy”). You will get an answer within 30 days.")]);
+    sec(T("2. Ce que nous recueillons, et pourquoi", "2. What we collect, and why"), [
+      T("Consulter le site : aucun renseignement personnel n'est demandé. Pas de compte, pas de publicité, pas d'outil de suivi ni de témoins (cookies) de mesure d'audience.", "Browsing the site: no personal information is requested. No account, no advertising, no tracking tools or analytics cookies."),
+      T("Position : utilisée dans votre navigateur seulement, pour calculer les distances. Si vous cochez « Temps de route en voiture », elle est arrondie à environ 1 km et envoyée à notre serveur, puis à openrouteservice, pour calculer les trajets ; elle n'est pas conservée.", "Location: used in your browser only, to calculate distances. If you check “Driving time”, it is rounded to about 1 km and sent to our server, then to openrouteservice, to calculate routes; it is not kept."),
+      T("Adresse ou code postal cherché : envoyé à OpenStreetMap (Nominatim) pour trouver la position ; non conservé.", "Address or postal code searched: sent to OpenStreetMap (Nominatim) to find the location; not kept."),
+      T("Alertes (bêta) : vos choix d'alertes, la zone (région ou position arrondie à environ 1 km), la langue, et votre courriel ou l'adresse technique de notification de votre appareil. Seul but : vous envoyer les alertes demandées.", "Alerts (beta): your alert choices, the area (region or location rounded to about 1 km), the language, and your email or your device's technical notification address. Only purpose: sending you the alerts you asked for."),
+      T("Commentaires et demandes de partenariat : ce que vous écrivez dans le formulaire (et vos coordonnées, si vous les donnez). Seul but : vous répondre et corriger le site.", "Comments and partnership requests: what you write in the form (and your contact details, if you give them). Only purpose: replying to you and fixing the site."),
+      T("Préférences (langue, région, onglet, application de navigation, alertes) : gardées dans votre navigateur seulement (stockage local).", "Preferences (language, region, tab, navigation app, alerts): kept in your browser only (local storage)."),
+    ]);
+    sec(T("3. Consentement", "3. Consent"), [T("Chaque renseignement est donné par vous, pour un but précis : la position seulement si vous l'acceptez sur votre téléphone, les alertes par courriel seulement après confirmation de votre adresse, les notifications seulement si vous les autorisez. Vous pouvez retirer votre consentement en tout temps (désabonnement, réglages du téléphone).",
+      "Each piece of information is given by you, for a specific purpose: location only if you allow it on your phone, email alerts only after you confirm your address, notifications only if you allow them. You can withdraw your consent at any time (unsubscribe, phone settings).")]);
+    sec(T("4. Fournisseurs et lieu des données", "4. Service providers and data location"), [
+      T("Supabase : base de données des alertes, serveurs au Canada (région Canada Central).", "Supabase: alerts database, servers in Canada (Canada Central region)."),
+      T("Render : hébergement du site et journaux techniques des visites (adresse IP, page demandée), à l'extérieur du Québec.", "Render: site hosting and technical visit logs (IP address, page requested), outside Québec."),
+      T("Brevo : envoi des courriels d'alertes (Union européenne).", "Brevo: sending alert emails (European Union)."),
+      T("Formspree : transmission des commentaires et des demandes de partenariat par courriel (États-Unis).", "Formspree: forwarding comments and partnership requests by email (United States)."),
+      T("Services de notification d'Apple, de Google ou de Mozilla, selon votre appareil : livraison des notifications chiffrées.", "Apple, Google or Mozilla notification services, depending on your device: delivery of encrypted notifications."),
+      T("openrouteservice (HeiGIT, Allemagne) et OpenStreetMap (Nominatim) : calcul des trajets et recherche d'adresse, avec une position arrondie ou l'adresse tapée, sans autre renseignement.", "openrouteservice (HeiGIT, Germany) and OpenStreetMap (Nominatim): route calculation and address search, with a rounded location or the typed address, without any other information."),
+      T("Google Fonts : chargement des polices de caractères (votre navigateur contacte Google).", "Google Fonts: loading fonts (your browser contacts Google)."),
+      T("Aucun renseignement n'est vendu, loué ni utilisé à des fins publicitaires.", "No information is sold, rented or used for advertising."),
+    ]);
+    sec(T("5. Conservation et suppression", "5. Retention and deletion"), [
+      T("Alertes : conservées tant que vous êtes abonné ; le désabonnement les efface immédiatement. Une inscription par courriel non confirmée est effacée après 7 jours. Un abonnement aux notifications que votre appareil n'accepte plus est effacé automatiquement.", "Alerts: kept while you are subscribed; unsubscribing deletes them immediately. An unconfirmed email sign-up is deleted after 7 days. A notification subscription your device no longer accepts is deleted automatically."),
+      T("Commentaires et demandes de partenariat : conservés le temps de les traiter, au plus 2 ans.", "Comments and partnership requests: kept while they are handled, for 2 years at most."),
+      T("Journaux techniques de l'hébergeur : selon la durée fixée par Render.", "Host technical logs: for the period set by Render."),
+    ]);
+    sec(T("6. Sécurité", "6. Security"), [T("Connexions chiffrées (HTTPS), notifications chiffrées de bout en bout, base de données accessible seulement par notre serveur, liens personnels de gestion des alertes difficiles à deviner. En cas d'incident de confidentialité présentant un risque de préjudice sérieux, les personnes concernées et la Commission d'accès à l'information seront avisées.",
+      "Encrypted connections (HTTPS), end-to-end encrypted notifications, database reachable only by our server, hard-to-guess personal links to manage alerts. In case of a privacy incident with a risk of serious injury, the people concerned and the Commission d'accès à l'information will be notified.")]);
+    sec(T("7. Vos droits", "7. Your rights"), [
+      T("Savoir quels renseignements nous avons sur vous et en obtenir une copie.", "Know what information we hold about you and get a copy."),
+      T("Les faire corriger ou supprimer, et retirer votre consentement.", "Have it corrected or deleted, and withdraw your consent."),
+      T("Porter plainte à la Commission d'accès à l'information du Québec (cai.gouv.qc.ca) si vous n'êtes pas satisfait de notre réponse.", "File a complaint with the Commission d'accès à l'information du Québec (cai.gouv.qc.ca) if you are not satisfied with our answer."),
+    ]);
+    sec(T("8. Modifications", "8. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 21 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 21, 2026.")]);
+    box.appendChild(sos());
+  }
+
   window.SA_GUIDE = {
-    pages: { "#triage": triage, "#orienter": orienter, "#apropos": apropos },
+    pages: { "#triage": triage, "#orienter": orienter, "#apropos": apropos, "#confidentialite": confidentialite },
     render(hash, box) { box.innerHTML = ""; this.pages[hash](box); },
   };
 })();

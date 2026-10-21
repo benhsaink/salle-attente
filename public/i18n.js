@@ -18,6 +18,7 @@
     ["Québec et Lévis", "Québec City and Lévis"],
     ["Autres régions du Québec", "Other regions of Québec"],
     ["À propos, sources et confidentialité", "About, sources and privacy"],
+    ["Politique de confidentialité", "Privacy policy"],
     ["ℹ️ À propos et notre mission", "ℹ️ About and our mission"],
     ["🔔 Alertes (bêta gratuite)", "🔔 Alerts (free beta)"],
     ["Notre mission :", "Our mission:"],

@@ -51,6 +51,12 @@ const store = {
     if (SB) return sb("PATCH", "?jeton=eq." + encodeURIComponent(jeton), patch);
     const rows = readLocal(), i = rows.findIndex((r) => r.jeton === jeton); if (i >= 0) { rows[i] = { ...rows[i], ...patch }; writeLocal(rows); }
   },
+  // Inscriptions par courriel jamais confirmées : effacées après 7 jours (politique de confidentialité).
+  async purgeUnconfirmed() {
+    const limit = new Date(Date.now() - 7 * 86400e3).toISOString();
+    if (SB) return sb("DELETE", "?confirme=eq.false&cree_le=lt." + encodeURIComponent(limit));
+    writeLocal(readLocal().filter((r) => r.confirme || !r.cree_le || r.cree_le >= limit));
+  },
   async remove(jeton) { if (SB) return sb("DELETE", "?jeton=eq." + encodeURIComponent(jeton)); writeLocal(readLocal().filter((r) => r.jeton !== jeton)); },
 };
 
@@ -108,9 +114,11 @@ async function deliver(sub, msg) {
 }
 
 // ---------- Moteur (appelé toutes les 15 minutes) ----------
+let lastPurge = 0;
 const QUIET = (h) => h >= 23 || h < 7; // pas d'alerte « seuil » ni « meilleure » la nuit
 async function runAlerts(getData, clock) { // clock : { date, hour } pour les essais
   if (!store.ready() || (!VAPID && !BREVO)) return;
+  if (Date.now() - lastPurge > 24 * 3600e3) { lastPurge = Date.now(); store.purgeUnconfirmed().catch((err) => console.error("Purge des inscriptions :", err.message)); }
   let subs, data;
   try { [subs, data] = await Promise.all([store.all(), getData()]); } catch (err) { console.error("Alertes :", err.message); return; }
   const all = data.all, now = clock || quebecNow(), t = Date.now();
