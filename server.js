@@ -8,6 +8,7 @@
 // Aucune dépendance externe : il faut seulement Node.js 18 ou plus récent.
 
 const http = require("http");
+const alertes = require("./alertes");
 const fs = require("fs");
 const path = require("path");
 
@@ -419,7 +420,7 @@ async function handleRoute(req, res, url) {
 }
 
 // ---------- Serveur web ----------
-const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".svg": "image/svg+xml" };
+const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".svg": "image/svg+xml", ".webmanifest": "application/manifest+json", ".json": "application/json" };
 
 http.createServer(async (req, res) => {
   const url = new URL(req.url, "http://x");
@@ -525,6 +526,10 @@ http.createServer(async (req, res) => {
   }
   if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
   if (url.pathname === "/api/partenaires") return handlePartner(req, res);
+  if (url.pathname.startsWith("/api/alertes")) {
+    try { return await alertes.handle(req, res, url, getData); }
+    catch (err) { console.error("Alertes :", err.message); res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" }); return res.end(JSON.stringify({ error: "Service des alertes indisponible pour le moment." })); }
+  }
   if (url.pathname === "/api/adresse") return handleGeocode(req, res, url);
   if (url.pathname === "/api/trajet") return handleRoute(req, res, url);
   if (url.pathname === "/api/privees") {
@@ -560,3 +565,7 @@ http.createServer(async (req, res) => {
     res.end(body);
   });
 }).listen(PORT, () => console.log("Salle d'attente : http://localhost:" + PORT));
+
+// Alertes : vérification toutes les 15 minutes (le site reste éveillé grâce à cron-job.org).
+setTimeout(() => alertes.runAlerts(getData), 60e3);
+setInterval(() => alertes.runAlerts(getData), 15 * 60e3);

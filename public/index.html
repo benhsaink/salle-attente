@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Salle d'attente</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1f5fae">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Salle d'attente">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <script src="/i18n.js"></script>
 <script src="/guide.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -189,6 +197,15 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .fiche[hidden]{display:none}
 .g-links{display:flex;flex-wrap:wrap;gap:8px}
 .foot-link{color:var(--accent);font-weight:700}
+.al-sub{display:flex;flex-direction:column;gap:8px;margin:2px 0 8px 26px}
+.al-sub[hidden]{display:none}
+.al-sub select,.al-sub input:not([type=checkbox]),#infopage .panel>select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:9px 10px;width:100%;min-width:0}
+.al-chips{display:flex;flex-wrap:wrap;gap:6px}
+.al-chip{font:inherit;font-size:.85rem;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:4px 10px;cursor:pointer}
+.al-canal{display:flex;flex-direction:column;gap:6px}
+.al-send{align-self:flex-start;border:0;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;border-radius:9px;padding:11px 18px;cursor:pointer}
+.al-send:disabled{opacity:.6}
+#infopage .panel[hidden]{display:none}
 button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
 .g-links a{flex:1 1 auto;text-align:center;text-decoration:none;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:10px 12px}
 .g-levels{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
@@ -266,6 +283,7 @@ button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
   <nav class="g-links" aria-label="Aide pour choisir">
     <a href="#orienter">🧭 Où consulter ?</a>
     <a href="#triage">Comment fonctionne le triage ?</a>
+    <a href="#alertes">🔔 Alertes (bêta gratuite)</a>
     <a href="#apropos">ℹ️ À propos et notre mission</a>
   </nav>
   <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
@@ -741,10 +759,11 @@ function route() {
   const name = ficheName();
   const fiche = document.getElementById("fiche"), main = document.getElementById("main");
   const info = document.getElementById("infopage");
-  if (window.SA_GUIDE && SA_GUIDE.pages[location.hash]) {
+  const pageKey = location.hash.split("=")[0]; // « #alertes=JETON » : page des alertes, mode gestion
+  if (window.SA_GUIDE && SA_GUIDE.pages[pageKey]) {
     if (info.hidden && fiche.hidden) listScroll = window.scrollY;
     fiche.hidden = true; main.hidden = true; shownFiche = null;
-    if (info.dataset.page !== location.hash) { SA_GUIDE.render(location.hash, info); info.dataset.page = location.hash; window.scrollTo(0, 0); }
+    if (info.dataset.page !== location.hash) { info.innerHTML = ""; SA_GUIDE.pages[pageKey](info); info.dataset.page = location.hash; window.scrollTo(0, 0); }
     info.hidden = false;
     return;
   }
@@ -1505,5 +1524,6 @@ route();
 load();
 setInterval(load, 15 * 60e3);
 </script>
+<script src="/alertes-ui.js"></script>
 </body>
 </html>

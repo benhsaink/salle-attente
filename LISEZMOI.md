@@ -177,3 +177,30 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - GMF-A/R : GMF des Grandes-Fourches (Sherbrooke, r05) et GMF Delta Santé (Gatineau, r07), seules GMF-A/R de la liste Québec.ca hors des secteurs déjà couverts.
 - Cliniques privées (privees-candidats-regions.json → privees-verifications-regions.json) : Global MD (Saguenay), L'Accès (Drummondville), Pauzé Ferdais (Bromont), Santé Continuum (Sherbrooke), Lacroix (Gatineau), UnionMD Gatineau (contradiction « Coût : Non » mais frais exigés et médecin non participant, comme AxMédic et Santé +). GMF écartées comme ailleurs.
 - verifier-gmf.js (Action « Vérifier les GMF ») : parcourt les ~570 GMF du Répertoire, lit chaque fiche, garde celles avec « rendez-vous le jour même pour tous » et une fiche complète (data/cliniques/gmf-verifications.json). 24 ajoutées le 21 octobre 2026, dont Bas-Saint-Laurent (Amqui, Sayabec), Saguenay–Lac-Saint-Jean (Roberval, Saint-Félicien, Saint-Prime), Abitibi (La Sarre), Chaudière-Appalaches (Montmagny, Saint-Patrice), Estrie (Lambton). Région : celle de l'urgence la plus proche.
+
+## Alertes (bêta gratuite) et site installable
+- Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
+- Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
+- alertes.js : 3 alertes (seuil d'occupation pour 1 à 5 urgences ; meilleure urgence de la zone qui change ; résumé quotidien à l'heure choisie). Pas d'alerte seuil/meilleure entre 23 h et 7 h ; seuil : 1 fois par 3 h par urgence ; meilleure : 1 fois par 2 h ; courriel : 4 par jour au maximum. Vérification toutes les 15 min dans server.js.
+- webpush.js : Web Push sans dépendance (RFC 8291 aes128gcm, vérifié avec le vecteur de test officiel ; VAPID ES256).
+- Adresses : GET /api/alertes/config ; POST /api/alertes (création) ; GET/PUT/DELETE /api/alertes?jeton= ; GET /api/alertes/confirmer?jeton= (double confirmation du courriel) ; GET /api/alertes/desabonner?jeton=.
+- Variables Render : SUPABASE_URL, SUPABASE_KEY (clé secrète), VAPID_PUBLIC, VAPID_PRIVATE, VAPID_SUBJECT, BREVO_KEY, ALERT_FROM, SITE_URL. Sans elles, la page dit « bientôt offertes ».
+- Table Supabase (éditeur SQL) :
+```sql
+create table public.abonnements (
+  jeton text primary key,
+  canal text not null check (canal in ('push','courriel')),
+  courriel text,
+  push jsonb,
+  confirme boolean not null default false,
+  langue text not null default 'fr',
+  alertes jsonb not null,
+  zone jsonb,
+  etat jsonb not null default '{}'::jsonb,
+  cree_le timestamptz not null default now(),
+  modifie_le timestamptz not null default now()
+);
+alter table public.abonnements enable row level security;
+grant select, insert, update, delete on public.abonnements to service_role;
+create index on public.abonnements (courriel);
+```

@@ -19,6 +19,7 @@
     ["Autres régions du Québec", "Other regions of Québec"],
     ["À propos, sources et confidentialité", "About, sources and privacy"],
     ["ℹ️ À propos et notre mission", "ℹ️ About and our mission"],
+    ["🔔 Alertes (bêta gratuite)", "🔔 Alerts (free beta)"],
     ["Notre mission :", "Our mission:"],
     ["vous informer correctement et faciliter l'accès aux soins, surtout sans médecin de famille.", "to inform you accurately and make it easier to access care, especially without a family doctor."],
     ["En savoir plus", "Learn more"],

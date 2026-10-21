@@ -293,6 +293,8 @@
     priv.appendChild(el("h3", "", T("Confidentialité", "Privacy")));
     const ul3 = el("ul", "g-list");
     [T("Aucun compte, aucune publicité, aucun outil de suivi des visiteurs.", "No account, no advertising, no visitor tracking tools."),
+     T("Alertes (bêta) : nous gardons seulement vos choix d'alertes, la zone (région ou position arrondie à environ 1 km) et votre courriel ou l'adresse technique de notification de votre appareil. Ces données sont hébergées par Supabase (serveurs au Canada) ; les courriels sont envoyés par Brevo. Le désabonnement efface tout.",
+       "Alerts (beta): we keep only your alert choices, the area (region or location rounded to about 1 km) and your email or your device's technical notification address. This data is hosted by Supabase (servers in Canada); emails are sent by Brevo. Unsubscribing deletes everything."),
      T("Votre position reste sur votre téléphone. Si vous cochez « Temps de route en voiture », elle est arrondie à environ 1 km puis envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée.", "Your location stays on your phone. If you check “Driving time”, it is rounded to about 1 km and sent to our server and to openrouteservice to calculate routes. It is not kept."),
      T("Une adresse ou un code postal cherché est envoyé à OpenStreetMap pour trouver sa position. Il n'est pas conservé.", "An address or postal code you search is sent to OpenStreetMap to find its location. It is not kept."),
      T("Vos choix (langue, région, onglet, application de navigation) sont gardés dans votre navigateur seulement.", "Your choices (language, region, tab, navigation app) are kept in your browser only."),

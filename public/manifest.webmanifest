@@ -1,0 +1,16 @@
+{
+  "name": "Salle d'attente",
+  "short_name": "Salle d'attente",
+  "description": "Urgences du Québec classées de la moins à la plus remplie, cliniques pour aujourd'hui et alertes.",
+  "lang": "fr-CA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#1f5fae",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
