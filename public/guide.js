@@ -245,6 +245,19 @@
      T("Notre objectif : vous informer correctement, à partir de sources officielles, et vous aider à accéder plus facilement aux soins.",
        "Our goal: to inform you accurately, using official sources, and to make it easier for you to access care.")]
       .forEach(t => mis.appendChild(el("p", "g-line", t)));
+    const fig = el("p", "g-line");
+    fig.append(el("b", "", T("En chiffres : ", "By the numbers: ")),
+      document.createTextNode(T("au début de 2026, Québec visait l'inscription de 500 000 personnes de plus auprès d'un médecin de famille ou d'un GMF d'ici le 30 juin 2026, dont 320 000 qui attendaient au Guichet d'accès à un médecin de famille. ",
+        "in early 2026, Québec aimed to register 500,000 more people with a family doctor or a GMF by June 30, 2026, including 320,000 who were waiting at the family doctor access point (GAMF). ")));
+    const fa = el("a", "", T("Source : Québec.ca, Améliorer l'accès aux soins de santé (4 février 2026)", "Source: Québec.ca, improving access to health care (February 4, 2026)"));
+    fa.href = "https://www.quebec.ca/gouvernement/politiques-orientations/acces-soins-sante"; fa.target = "_blank"; fa.rel = "noopener";
+    fig.appendChild(fa);
+    mis.appendChild(fig);
+    const who = el("p", "g-line");
+    who.append(el("b", "", T("Qui est derrière le site : ", "Who is behind the site: ")),
+      document.createTextNode(T("Salle d'attente est créé par un infirmier clinicien, membre de l'Ordre des infirmières et infirmiers du Québec (OIIQ). Le site informe et oriente ; il ne donne pas de consultation et ne remplace pas un avis médical.",
+        "Salle d'attente is created by a clinical nurse, a member of the Ordre des infirmières et infirmiers du Québec (OIIQ). The site informs and guides; it does not provide consultations and does not replace medical advice.")));
+    mis.appendChild(who);
     box.appendChild(mis);
 
     const lim = el("section", "panel");
