@@ -236,6 +236,17 @@
         "Salle d'attente helps you choose where to get care in Québec: the least crowded ER, a clinic with same-day appointments, or a private clinic. It is an independent project, not affiliated with the Ministry of Health, Santé Québec or the RAMQ.")));
     box.appendChild(h);
 
+    const mis = el("section", "panel");
+    mis.appendChild(el("h3", "", T("Notre mission", "Our mission")));
+    [T("Trouver où se faire soigner est devenu difficile, surtout sans médecin de famille. L'information existe, mais elle est éparpillée entre plusieurs sites, et on la cherche souvent au pire moment.",
+       "Finding where to get care has become hard, especially without a family doctor. The information exists, but it is scattered across several sites, and people often look for it at the worst possible moment."),
+     T("Salle d'attente rassemble cette information au même endroit, selon votre besoin : une urgence moins remplie, une clinique avec rendez-vous le jour même, une ressource gratuite sans RAMQ, une clinique privée, ou le bon numéro à appeler.",
+       "Salle d'attente brings this information together in one place, based on your need: a less crowded ER, a clinic with same-day appointments, a free resource without RAMQ, a private clinic, or the right number to call."),
+     T("Notre objectif : vous informer correctement, à partir de sources officielles, et vous aider à accéder plus facilement aux soins.",
+       "Our goal: to inform you accurately, using official sources, and to make it easier for you to access care.")]
+      .forEach(t => mis.appendChild(el("p", "g-line", t)));
+    box.appendChild(mis);
+
     const lim = el("section", "panel");
     lim.appendChild(el("h3", "", T("À savoir", "Good to know")));
     const ul = el("ul", "g-list");
