@@ -10,8 +10,11 @@ const path = require("path");
 const { htmlText, parseFiche, ficheLinks } = require("./lib");
 
 const SITE = process.env.SITE || "https://salle-attente.onrender.com";
-const IN = path.join(__dirname, "data", "cliniques", "privees-candidats.json");
-const OUT = path.join(__dirname, "data", "cliniques", "privees-verifications.json");
+// Chaque fichier privees-candidats*.json donne privees-verifications*.json (sauté s'il existe déjà, sauf FORCE=1).
+const DIR = path.join(__dirname, "data", "cliniques");
+const FILES = fs.readdirSync(DIR).filter((f) => /^privees-candidats.*\.json$/.test(f))
+  .map((f) => ({ IN: path.join(DIR, f), OUT: path.join(DIR, f.replace("candidats", "verifications")) }))
+  .filter((f) => process.env.FORCE === "1" || !fs.existsSync(f.OUT));
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 const cpOf = (s) => String(s || "").toUpperCase().replace(/\s/g, "").match(/[A-Z]\d[A-Z]\d[A-Z]\d/)?.[0] || "";
 
@@ -50,7 +53,8 @@ function decide(text, f, links) {
   return { decision, raison, signes, manque, cout };
 }
 
-(async () => {
+async function run({ IN, OUT }) {
+  console.log("Fichier : " + path.basename(IN));
   const { candidats } = JSON.parse(fs.readFileSync(IN, "utf8"));
   const out = [];
   const seenFiche = new Set();
@@ -85,4 +89,7 @@ function decide(text, f, links) {
   fs.writeFileSync(OUT, JSON.stringify({ verifie: new Date().toISOString().slice(0, 10), resultats: out }, null, 1) + "\n");
   const n = (k) => out.filter((x) => x.decision === k).length;
   console.log(`Retenues ${n("retenue")} · à revoir ${n("à revoir")} · écartées ${n("écartée")} · introuvables ${n("introuvable")}`);
-})().catch((err) => { console.error(err); process.exit(1); });
+}
+
+(async () => { for (const f of FILES) await run(f); if (!FILES.length) console.log("Rien à vérifier"); })()
+  .catch((err) => { console.error(err); process.exit(1); });

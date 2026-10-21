@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - data/cliniques/privees-candidats.json
+      - data/cliniques/privees-candidats*.json
       - verifier-privees.js
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "salle-attente-collecte"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/cliniques/privees-verifications.json
+          git add data/cliniques/privees-verifications*.json
           if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
           git commit -m "Vérification des cliniques privées candidates [skip render]"
           for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
