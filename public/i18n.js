@@ -17,6 +17,7 @@
     ["Québec–Lévis", "Québec City–Lévis"],
     ["Québec et Lévis", "Québec City and Lévis"],
     ["Autres régions du Québec", "Other regions of Québec"],
+    ["À propos, sources et confidentialité", "About, sources and privacy"],
     ["Un partenariat est possible pour figurer dans cette liste. Remplissez le formulaire ci-dessous : nous vous rappellerons pour vous présenter l'offre.", "A partnership is possible to appear in this list. Fill out the form below: we will call you back to present the offer."],
     ["Remplir le formulaire de partenariat", "Fill out the partnership form"],
     ["Demande de partenariat", "Partnership request"],

@@ -168,3 +168,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 ## Formulaire de partenariat (onglet Soins privés, #partenaire)
 - Champs : entreprise*, site, NEQ, nom*, téléphone*, courriel*, soins offerts*, lieu (domicile / locaux / les deux)*, régions desservies*, ordre professionnel et numéro de permis, précisions, accord pour être contacté*.
 - POST /api/partenaires (server.js, handlePartner) : validation, champ piège, 5 envois par heure par IP, ligne « PARTENAIRE » dans les journaux, envoi à FEEDBACK_URL (Formspree) avec le sujet « demande de partenariat » et le courriel du partenaire en réponse (_replyto).
+
+## Page « À propos » (#apropos)
+- public/guide.js (apropos). Lien en bas de page : « À propos, sources et confidentialité ».
+- Contenu : projet indépendant (non lié au ministère, à Santé Québec ni à la RAMQ), limites, sources et licences (CC BY 4.0, OpenStreetMap, openrouteservice), confidentialité (position, adresse, préférences, Formspree, journaux de Render, Google Fonts), contact.

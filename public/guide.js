@@ -226,8 +226,70 @@
     return wrap;
   }
 
+  // ---------- À propos ----------
+  function apropos(box) {
+    back(box);
+    document.title = T("À propos", "About") + " · Salle d'attente";
+    const h = el("div", "fh");
+    h.append(el("h2", "", T("À propos de Salle d'attente", "About Salle d'attente")),
+      el("p", "where", T("Salle d'attente aide à choisir où se faire soigner au Québec : l'urgence la moins remplie, une clinique avec rendez-vous le jour même, ou une clinique privée. C'est un projet indépendant : il n'est pas lié au ministère de la Santé, à Santé Québec ni à la RAMQ.",
+        "Salle d'attente helps you choose where to get care in Québec: the least crowded ER, a clinic with same-day appointments, or a private clinic. It is an independent project, not affiliated with the Ministry of Health, Santé Québec or the RAMQ.")));
+    box.appendChild(h);
+
+    const lim = el("section", "panel");
+    lim.appendChild(el("h3", "", T("À savoir", "Good to know")));
+    const ul = el("ul", "g-list");
+    [T("Ce site ne remplace pas un avis médical et n'évalue pas la gravité de votre état. En cas d'urgence grave, appelez le 911. Pour un conseil, le 811.", "This site does not replace medical advice and does not assess how serious your condition is. In a serious emergency, call 911. For advice, call 811."),
+     T("Les chiffres des urgences sont publiés par le ministère environ chaque heure. Ils peuvent changer vite, et certains établissements ne les transmettent pas toujours (« Inconnu »).", "ER figures are published by the Ministry about every hour. They can change quickly, and some facilities do not always send them (“Unknown”)."),
+     T("Les heures et les services des cliniques viennent de leurs fiches officielles, relues chaque matin. Téléphonez avant de vous déplacer.", "Clinic hours and services come from their official listings, checked every morning. Call before you go."),
+     T("Aucune information médicale ou de service n'est devinée : sans source officielle, elle n'est pas affichée. Seule exception, signalée : l'urgence pédiatrique du CHUL, « à confirmer ».", "No medical or service information is guessed: without an official source, it is not shown. One flagged exception: the CHUL pediatric ER, “to be confirmed”."),
+     T("Les entreprises de soins privés qui deviendront partenaires seront toujours identifiées « Partenaire · Commandité » et ne passeront jamais avant l'information d'urgence.", "Private care companies that become partners will always be labelled “Partner · Sponsored” and will never be shown above emergency information.")]
+      .forEach(t => ul.appendChild(el("li", "", t)));
+    lim.appendChild(ul);
+    box.appendChild(lim);
+
+    const src = el("section", "panel");
+    src.appendChild(el("h3", "", T("Sources des données", "Data sources")));
+    const SRCS = [
+      [T("Ministère de la Santé et des Services sociaux, fichier horaire de la situation à l'urgence, Données Québec (licence CC BY 4.0)", "Ministry of Health and Social Services, hourly ER situation file, Données Québec (CC BY 4.0 licence)"), "https://www.donneesquebec.ca/recherche/dataset/fichier-horaire-des-donnees-de-la-situation-a-l-urgence"],
+      [T("Ministère de la Santé et des Services sociaux, fichiers cartographiques M02 des installations, Données Québec (licence CC BY 4.0) : adresses et positions des urgences", "Ministry of Health and Social Services, M02 facility map files, Données Québec (CC BY 4.0 licence): ER addresses and locations"), "https://www.donneesquebec.ca/recherche/dataset/51998b55-7d4c-4381-8c20-0ac1cd9c1b87"],
+      [T("Santé Québec, Répertoire des ressources en santé et services sociaux : fiches des cliniques (heures, services, frais)", "Santé Québec, health and social services resource directory: clinic listings (hours, services, fees)"), "https://sante.gouv.qc.ca/repertoire-ressources/"],
+      [T("Québec.ca, liste des GMF-A/R (accès-réseau)", "Québec.ca, list of GMF-A/R (access-network clinics)"), "https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique"],
+      [T("RAMQ, liste des professionnels non participants ou désengagés (15 septembre 2026) : repérage des cliniques privées", "RAMQ, list of non-participating or opted-out professionals (September 15, 2026): used to find private clinics"), "https://www.ramq.gouv.qc.ca/"],
+      [T("Médecins du Monde, Clinique pour les personnes migrantes à statut précaire", "Médecins du Monde, clinic for migrants with precarious status"), "https://medecinsdumonde.ca/clinique-migrante/"],
+      [T("Cartes et adresses : © les contributeurs d'OpenStreetMap (recherche Nominatim)", "Maps and addresses: © OpenStreetMap contributors (Nominatim search)"), "https://www.openstreetmap.org/copyright"],
+      [T("Temps de route : openrouteservice (HeiGIT), données © OpenStreetMap", "Driving times: openrouteservice (HeiGIT), data © OpenStreetMap"), "https://openrouteservice.org/"],
+    ];
+    const ul2 = el("ul", "g-src");
+    SRCS.forEach(([t, u]) => { const li = el("li"); const a = el("a", "", t); a.href = u; a.target = "_blank"; a.rel = "noopener"; li.appendChild(a); ul2.appendChild(li); });
+    src.append(ul2, el("p", "fc-note", T("Les pages « Comprendre le triage » et « Où consulter ? » citent leurs propres sources.", "The “Understanding triage” and “Where should I go?” pages cite their own sources.")));
+    box.appendChild(src);
+
+    const priv = el("section", "panel");
+    priv.appendChild(el("h3", "", T("Confidentialité", "Privacy")));
+    const ul3 = el("ul", "g-list");
+    [T("Aucun compte, aucune publicité, aucun outil de suivi des visiteurs.", "No account, no advertising, no visitor tracking tools."),
+     T("Votre position reste sur votre téléphone. Si vous cochez « Temps de route en voiture », elle est arrondie à environ 1 km puis envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée.", "Your location stays on your phone. If you check “Driving time”, it is rounded to about 1 km and sent to our server and to openrouteservice to calculate routes. It is not kept."),
+     T("Une adresse ou un code postal cherché est envoyé à OpenStreetMap pour trouver sa position. Il n'est pas conservé.", "An address or postal code you search is sent to OpenStreetMap to find its location. It is not kept."),
+     T("Vos choix (langue, région, onglet, application de navigation) sont gardés dans votre navigateur seulement.", "Your choices (language, region, tab, navigation app) are kept in your browser only."),
+     T("Les commentaires et les demandes de partenariat sont transmis par courriel au responsable du site, par le service Formspree, seulement pour y répondre.", "Comments and partnership requests are emailed to the site owner through the Formspree service, only to reply to them."),
+     T("Comme tout site web, l'hébergeur (Render) garde des journaux techniques des visites. Les polices de caractères sont chargées depuis Google Fonts.", "Like any website, the host (Render) keeps technical visit logs. Fonts are loaded from Google Fonts.")]
+      .forEach(t => ul3.appendChild(el("li", "", t)));
+    priv.appendChild(ul3);
+    box.appendChild(priv);
+
+    const c = el("section", "panel");
+    c.appendChild(el("h3", "", T("Nous joindre", "Contact us")));
+    c.appendChild(el("p", "g-line", T("Une erreur, une idée, une clinique à ajouter ? Écrivez-nous avec le formulaire au bas de la page. Entreprises de soins privés : voyez l'onglet Soins privés.", "An error, an idea, a clinic to add? Write to us with the form at the bottom of the page. Private care companies: see the Private care tab.")));
+    const b = el("button", "g-btn", T("Écrire un commentaire", "Write a comment")); b.type = "button";
+    b.addEventListener("click", () => document.getElementById("commentaires").scrollIntoView({ behavior: "smooth", block: "start" }));
+    c.appendChild(b);
+    c.appendChild(el("p", "fc-note", T("Page mise à jour le 20 octobre 2026.", "Page updated on October 20, 2026.")));
+    box.append(c, sos());
+  }
+
   window.SA_GUIDE = {
-    pages: { "#triage": triage, "#orienter": orienter },
+    pages: { "#triage": triage, "#orienter": orienter, "#apropos": apropos },
     render(hash, box) { box.innerHTML = ""; this.pages[hash](box); },
   };
 })();
