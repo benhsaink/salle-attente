@@ -553,7 +553,8 @@ http.createServer(async (req, res) => {
   if (!file.startsWith(path.join(__dirname, "public"))) { res.writeHead(403); return res.end(); }
   fs.readFile(file, (err, body) => {
     if (err) { res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Page introuvable"); }
-    res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream" });
+    // no-cache : le navigateur revérifie à chaque visite, pour voir tout de suite la dernière version du site.
+    res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-cache" });
     res.end(body);
   });
 }).listen(PORT, () => console.log("Salle d'attente : http://localhost:" + PORT));
