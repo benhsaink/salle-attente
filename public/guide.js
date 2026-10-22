@@ -309,6 +309,7 @@
     const c = el("section", "panel");
     c.appendChild(el("h3", "", T("Nous joindre", "Contact us")));
     c.appendChild(el("p", "g-line", T("Une erreur, une idée, une clinique à ajouter ? Écrivez-nous avec le formulaire au bas de la page. Entreprises de soins privés : voyez l'onglet Soins privés.", "An error, an idea, a clinic to add? Write to us with the form at the bottom of the page. Private care companies: see the Private care tab.")));
+    c.appendChild(el("p", "g-line", T("Courriel : salle.dattente.qc@gmail.com", "Email: salle.dattente.qc@gmail.com")));
     const b = el("button", "g-btn", T("Écrire un commentaire", "Write a comment")); b.type = "button";
     b.addEventListener("click", () => document.getElementById("commentaires").scrollIntoView({ behavior: "smooth", block: "start" }));
     c.appendChild(b);
@@ -332,8 +333,8 @@
       if (after) s.appendChild(after);
       box.appendChild(s);
     };
-    sec(T("1. Responsable", "1. Person in charge"), [T("Le responsable de la protection des renseignements personnels de Salle d'attente est son fondateur. Pour toute question, demande d'accès, de correction ou de suppression, écrivez-lui avec le formulaire au bas du site (type « Autre », en indiquant « Confidentialité »). Une réponse vous sera donnée dans un délai de 24 à 72 heures.",
-      "The person in charge of the protection of personal information at Salle d'attente is its founder. For any question, or any request for access, correction or deletion, write to them with the form at the bottom of the site (type “Other”, mentioning “Privacy”). You will get an answer within 24 to 72 hours.")]);
+    sec(T("1. Responsable", "1. Person in charge"), [T("Responsable de la protection des renseignements personnels : Karim Benhsain, infirmier clinicien, fondateur de Salle d'attente. Courriel : salle.dattente.qc@gmail.com. Pour toute question, demande d'accès, de correction ou de suppression, écrivez à cette adresse (ou avec le formulaire au bas du site, en indiquant « Confidentialité »). Une réponse vous sera donnée dans un délai de 24 à 72 heures.",
+      "Person in charge of the protection of personal information: Karim Benhsain, clinical nurse, founder of Salle d'attente. Email: salle.dattente.qc@gmail.com. For any question, or any request for access, correction or deletion, write to this address (or use the form at the bottom of the site, mentioning “Privacy”). You will get an answer within 24 to 72 hours.")]);
     sec(T("2. Ce que nous recueillons, et pourquoi", "2. What we collect, and why"), [
       T("Consulter le site : aucun renseignement personnel n'est demandé. Pas de compte, pas de publicité, pas d'outil de suivi ni de témoins (cookies) de mesure d'audience.", "Browsing the site: no personal information is requested. No account, no advertising, no tracking tools or analytics cookies."),
       T("Position : utilisée dans votre navigateur seulement, pour calculer les distances. Si vous cochez « Temps de route en voiture », elle est arrondie à environ 1 km et envoyée à notre serveur, puis à openrouteservice, pour calculer les trajets ; elle n'est pas conservée.", "Location: used in your browser only, to calculate distances. If you check “Driving time”, it is rounded to about 1 km and sent to our server, then to openrouteservice, to calculate routes; it is not kept."),
