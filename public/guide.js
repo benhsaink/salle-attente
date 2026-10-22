@@ -361,21 +361,21 @@
       T("Commentaires et demandes de partenariat : conservés le temps de les traiter, au plus 2 ans.", "Comments and partnership requests: kept while they are handled, for 2 years at most."),
       T("Journaux techniques de l'hébergeur : selon la durée fixée par Render.", "Host technical logs: for the period set by Render."),
     ]);
-    sec(T("Rôles et responsabilités", "Roles and responsibilities"), [T("Seul le responsable de la protection des renseignements personnels a accès aux abonnements, aux commentaires et aux demandes de partenariat. Il veille à l'application de cette politique, aux effacements prévus et au traitement des demandes et des plaintes.",
+    sec(T("6. Rôles et responsabilités", "6. Roles and responsibilities"), [T("Seul le responsable de la protection des renseignements personnels a accès aux abonnements, aux commentaires et aux demandes de partenariat. Il veille à l'application de cette politique, aux effacements prévus et au traitement des demandes et des plaintes.",
       "Only the person in charge of the protection of personal information has access to subscriptions, comments and partnership requests. They ensure this policy is applied, scheduled deletions are made, and requests and complaints are handled.")]);
-    sec(T("Plaintes", "Complaints"), [
+    sec(T("7. Plaintes", "7. Complaints"), [
       T("Écrivez au responsable (section 1) en décrivant votre plainte.", "Write to the person in charge (section 1) describing your complaint."),
       T("Vous recevez une réponse dans un délai de 24 à 72 heures, avec les mesures prises.", "You get an answer within 24 to 72 hours, with the measures taken."),
       T("Si la réponse ne vous satisfait pas, vous pouvez vous adresser à la Commission d'accès à l'information du Québec.", "If you are not satisfied with the answer, you can contact the Commission d'accès à l'information du Québec."),
     ]);
-    sec(T("6. Sécurité", "6. Security"), [T("Connexions chiffrées (HTTPS), notifications chiffrées de bout en bout, base de données accessible seulement par notre serveur, liens personnels de gestion des alertes difficiles à deviner. En cas d'incident de confidentialité présentant un risque de préjudice sérieux, les personnes concernées et la Commission d'accès à l'information seront avisées.",
+    sec(T("8. Sécurité", "8. Security"), [T("Connexions chiffrées (HTTPS), notifications chiffrées de bout en bout, base de données accessible seulement par notre serveur, liens personnels de gestion des alertes difficiles à deviner. En cas d'incident de confidentialité présentant un risque de préjudice sérieux, les personnes concernées et la Commission d'accès à l'information seront avisées.",
       "Encrypted connections (HTTPS), end-to-end encrypted notifications, database reachable only by our server, hard-to-guess personal links to manage alerts. In case of a privacy incident with a risk of serious injury, the people concerned and the Commission d'accès à l'information will be notified.")]);
-    sec(T("7. Vos droits", "7. Your rights"), [
+    sec(T("9. Vos droits", "9. Your rights"), [
       T("Savoir quels renseignements nous avons sur vous et en obtenir une copie.", "Know what information we hold about you and get a copy."),
       T("Les faire corriger ou supprimer, et retirer votre consentement.", "Have it corrected or deleted, and withdraw your consent."),
       T("Porter plainte à la Commission d'accès à l'information du Québec (cai.gouv.qc.ca) si vous n'êtes pas satisfait de notre réponse.", "File a complaint with the Commission d'accès à l'information du Québec (cai.gouv.qc.ca) if you are not satisfied with our answer."),
     ]);
-    sec(T("8. Modifications", "8. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 21 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 21, 2026.")]);
+    sec(T("10. Modifications", "10. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 21 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 21, 2026.")]);
     box.appendChild(sos());
   }
 
