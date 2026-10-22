@@ -83,12 +83,12 @@ function inZone(all, zone) {
 const ficheUrl = (name) => SITE_URL + "/#fiche=" + encodeURIComponent(name);
 
 // ---------- Envoi ----------
-async function sendEmail(to, subject, text, html) {
+async function sendEmail(to, subject, text, html, replyTo) {
   if (!BREVO) throw new Error("Courriels non configurés");
   const r = await fetch("https://api.brevo.com/v3/smtp/email", {
     method: "POST", signal: AbortSignal.timeout(15e3),
     headers: { "api-key": BREVO.key, "Content-Type": "application/json", Accept: "application/json" },
-    body: JSON.stringify({ sender: { name: "Salle d'attente", email: BREVO.from }, to: [{ email: to }], subject, textContent: text, htmlContent: html }),
+    body: JSON.stringify({ sender: { name: "Salle d'attente", email: BREVO.from }, to: [{ email: to }], subject, textContent: text, htmlContent: html, ...(replyTo ? { replyTo: { email: replyTo } } : {}) }),
   });
   if (!r.ok) throw new Error("Brevo HTTP " + r.status + " " + (await r.text()).slice(0, 200));
 }
@@ -299,4 +299,4 @@ async function handle(req, res, url, getData) {
   return json(400, { error: "Choisissez notification ou courriel." });
 }
 
-module.exports = { handle, runAlerts, store, inZone, cleanChoice };
+module.exports = { handle, runAlerts, store, inZone, cleanChoice, sendEmail, brevoReady: () => !!BREVO };

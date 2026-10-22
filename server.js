@@ -258,6 +258,21 @@ async function handleGeocode(req, res, url) {
 // Chaque commentaire est écrit dans les journaux de Render (onglet Logs) et, si FEEDBACK_URL est défini
 // (ex. un formulaire Formspree : https://formspree.io/f/xxxxxx), envoyé par courriel au propriétaire du site.
 const FEEDBACK_URL = process.env.FEEDBACK_URL || "";
+// Transmission au responsable : par Brevo si configuré (fournisseur de l'Union européenne), sinon par Formspree.
+// CONTACT_TO = adresse qui reçoit les messages (par défaut ALERT_FROM).
+async function forwardToOwner(item, subject, replyTo) {
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(replyTo || "")) replyTo = "";
+  const lines = Object.entries(item).filter(([, v]) => v !== "" && v !== null && v !== undefined).map(([k, v]) => k + " : " + v);
+  const to = process.env.CONTACT_TO || process.env.ALERT_FROM;
+  if (alertes.brevoReady() && to) {
+    const esc = (x) => String(x).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]);
+    return alertes.sendEmail(to, subject, lines.join("\n"), "<pre style=\"font-family:Arial,sans-serif;white-space:pre-wrap\">" + esc(lines.join("\n")) + "</pre>", replyTo);
+  }
+  if (!FEEDBACK_URL) return;
+  const r = await fetch(FEEDBACK_URL, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...item, ...(replyTo ? { email: replyTo, _replyto: replyTo } : {}), _subject: subject }), signal: AbortSignal.timeout(15e3) });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+}
+
 const sent = new Map(); // adresse IP -> envois de la dernière heure
 function readBody(req, max = 8000) {
   return new Promise((resolve, reject) => {
@@ -290,12 +305,8 @@ async function handleFeedback(req, res) {
   recent.push(now); sent.set(ip, recent);
   if (sent.size > 5000) sent.clear();
   console.log("COMMENTAIRE " + JSON.stringify(item));
-  if (FEEDBACK_URL) {
-    try {
-      const r = await fetch(FEEDBACK_URL, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...item, _subject: "Salle d'attente : " + item.type }), signal: AbortSignal.timeout(15e3) });
-      if (!r.ok) throw new Error("HTTP " + r.status);
-    } catch (err) { console.error("Envoi du commentaire :", err.message); }
-  }
+  try { await forwardToOwner(item, "Salle d'attente : " + item.type, item.courriel || ""); }
+  catch (err) { console.error("Envoi du commentaire :", err.message); }
   json(200, { ok: true });
 }
 
@@ -326,12 +337,8 @@ async function handlePartner(req, res) {
   if (!item.accord) return json(400, { error: "Cochez la case d'accord pour être contacté." });
   recent.push(now); sent.set("p:" + ip, recent);
   console.log("PARTENAIRE " + JSON.stringify(item));
-  if (FEEDBACK_URL) {
-    try {
-      const r = await fetch(FEEDBACK_URL, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...item, email: item.courriel, _replyto: item.courriel, _subject: "Salle d'attente : demande de partenariat – " + item.entreprise }), signal: AbortSignal.timeout(15e3) });
-      if (!r.ok) throw new Error("HTTP " + r.status);
-    } catch (err) { console.error("Envoi de la demande de partenariat :", err.message); }
-  }
+  try { await forwardToOwner(item, "Salle d'attente : demande de partenariat – " + item.entreprise, item.courriel); }
+  catch (err) { console.error("Envoi de la demande de partenariat :", err.message); }
   json(200, { ok: true });
 }
 

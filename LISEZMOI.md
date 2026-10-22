@@ -210,3 +210,4 @@ create index on public.abonnements (courriel);
 - Responsable : le fondateur, joignable par le formulaire du site (à compléter avec un nom ou un titre et un courriel dédié). Réponse en 24 à 72 heures.
 - Durées : alertes jusqu'au désabonnement ; inscription par courriel non confirmée effacée après 7 jours (alertes.js, purgeUnconfirmed, une fois par jour) ; commentaires et demandes de partenariat 2 ans au plus.
 - Fournisseurs listés : Supabase (Canada), Render, Brevo (UE), Formspree (É.-U.), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap, Google Fonts.
+- Formulaires (commentaires, partenaires) : envoyés par Brevo à CONTACT_TO (ou ALERT_FROM) dès que BREVO_KEY et ALERT_FROM sont réglés ; sinon par Formspree (FEEDBACK_URL). Une fois Brevo en place, FEEDBACK_URL peut être retiré de Render et Formspree supprimé de la politique.
