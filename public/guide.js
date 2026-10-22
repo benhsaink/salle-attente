@@ -345,7 +345,7 @@
     sec(T("3. Consentement", "3. Consent"), [T("Chaque renseignement est donné par vous, pour un but précis : la position seulement si vous l'acceptez sur votre téléphone, les alertes par courriel seulement après confirmation de votre adresse, les notifications seulement si vous les autorisez. Vous pouvez retirer votre consentement en tout temps (désabonnement, réglages du téléphone).",
       "Each piece of information is given by you, for a specific purpose: location only if you allow it on your phone, email alerts only after you confirm your address, notifications only if you allow them. You can withdraw your consent at any time (unsubscribe, phone settings).")]);
     sec(T("4. Fournisseurs et lieu des données", "4. Service providers and data location"), [
-      T("Supabase : base de données des alertes, serveurs au Canada (région Canada Central).", "Supabase: alerts database, servers in Canada (Canada Central region)."),
+      T("Supabase : base de données des alertes, serveurs au Canada (région Canada Central, Montréal).", "Supabase: alerts database, servers in Canada (Canada Central region, Montréal)."),
       T("Render : hébergement du site et journaux techniques des visites (adresse IP, page demandée), à l'extérieur du Québec.", "Render: site hosting and technical visit logs (IP address, page requested), outside Québec."),
       T("Brevo : envoi des courriels d'alertes (Union européenne).", "Brevo: sending alert emails (European Union)."),
       T("Formspree : transmission des commentaires et des demandes de partenariat par courriel (États-Unis).", "Formspree: forwarding comments and partnership requests by email (United States)."),
@@ -353,11 +353,20 @@
       T("openrouteservice (HeiGIT, Allemagne) et OpenStreetMap (Nominatim) : calcul des trajets et recherche d'adresse, avec une position arrondie ou l'adresse tapée, sans autre renseignement.", "openrouteservice (HeiGIT, Germany) and OpenStreetMap (Nominatim): route calculation and address search, with a rounded location or the typed address, without any other information."),
       T("Google Fonts : chargement des polices de caractères (votre navigateur contacte Google).", "Google Fonts: loading fonts (your browser contacts Google)."),
       T("Aucun renseignement n'est vendu, loué ni utilisé à des fins publicitaires.", "No information is sold, rented or used for advertising."),
+      T("Communication à l'extérieur du Québec : certains de ces fournisseurs traitent des renseignements hors du Québec. En utilisant ces fonctions (alertes par courriel, formulaires), vous y consentez. Chaque fournisseur est lié par ses conditions écrites de protection des données ; Salle d'attente reste responsable des renseignements qui lui sont confiés.",
+        "Communication outside Québec: some of these providers process information outside Québec. By using these features (email alerts, forms), you consent to it. Each provider is bound by its written data protection terms; Salle d'attente remains responsible for the information entrusted to it."),
     ]);
     sec(T("5. Conservation et suppression", "5. Retention and deletion"), [
       T("Alertes : conservées tant que vous êtes abonné ; le désabonnement les efface immédiatement. Une inscription par courriel non confirmée est effacée après 7 jours. Un abonnement aux notifications que votre appareil n'accepte plus est effacé automatiquement.", "Alerts: kept while you are subscribed; unsubscribing deletes them immediately. An unconfirmed email sign-up is deleted after 7 days. A notification subscription your device no longer accepts is deleted automatically."),
       T("Commentaires et demandes de partenariat : conservés le temps de les traiter, au plus 2 ans.", "Comments and partnership requests: kept while they are handled, for 2 years at most."),
       T("Journaux techniques de l'hébergeur : selon la durée fixée par Render.", "Host technical logs: for the period set by Render."),
+    ]);
+    sec(T("Rôles et responsabilités", "Roles and responsibilities"), [T("Seul le responsable de la protection des renseignements personnels a accès aux abonnements, aux commentaires et aux demandes de partenariat. Il veille à l'application de cette politique, aux effacements prévus et au traitement des demandes et des plaintes.",
+      "Only the person in charge of the protection of personal information has access to subscriptions, comments and partnership requests. They ensure this policy is applied, scheduled deletions are made, and requests and complaints are handled.")]);
+    sec(T("Plaintes", "Complaints"), [
+      T("Écrivez au responsable (section 1) en décrivant votre plainte.", "Write to the person in charge (section 1) describing your complaint."),
+      T("Vous recevez une réponse dans un délai de 24 à 72 heures, avec les mesures prises.", "You get an answer within 24 to 72 hours, with the measures taken."),
+      T("Si la réponse ne vous satisfait pas, vous pouvez vous adresser à la Commission d'accès à l'information du Québec.", "If you are not satisfied with the answer, you can contact the Commission d'accès à l'information du Québec."),
     ]);
     sec(T("6. Sécurité", "6. Security"), [T("Connexions chiffrées (HTTPS), notifications chiffrées de bout en bout, base de données accessible seulement par notre serveur, liens personnels de gestion des alertes difficiles à deviner. En cas d'incident de confidentialité présentant un risque de préjudice sérieux, les personnes concernées et la Commission d'accès à l'information seront avisées.",
       "Encrypted connections (HTTPS), end-to-end encrypted notifications, database reachable only by our server, hard-to-guess personal links to manage alerts. In case of a privacy incident with a risk of serious injury, the people concerned and the Commission d'accès à l'information will be notified.")]);
