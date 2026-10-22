@@ -207,6 +207,6 @@ create index on public.abonnements (courriel);
 
 ## Politique de confidentialité (#confidentialite)
 - public/guide.js (confidentialite). Liens : bas de page, À propos, page Alertes.
-- Responsable : le fondateur, joignable par le formulaire du site (à compléter avec un nom ou un titre et un courriel dédié). Réponse en 48 heures.
+- Responsable : le fondateur, joignable par le formulaire du site (à compléter avec un nom ou un titre et un courriel dédié). Réponse en 24 à 72 heures.
 - Durées : alertes jusqu'au désabonnement ; inscription par courriel non confirmée effacée après 7 jours (alertes.js, purgeUnconfirmed, une fois par jour) ; commentaires et demandes de partenariat 2 ans au plus.
 - Fournisseurs listés : Supabase (Canada), Render, Brevo (UE), Formspree (É.-U.), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap, Google Fonts.
