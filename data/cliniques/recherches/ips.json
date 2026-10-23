@@ -1,0 +1,752 @@
+{
+ "verifie": "2026-10-23",
+ "recherche": {
+  "id": "ips",
+  "q": [
+   "IPS",
+   "infirmière praticienne",
+   "infirmières praticiennes",
+   "SABSA"
+  ],
+  "garder": "\\bIPS\\b|praticienne|SABSA"
+ },
+ "total": 35,
+ "resultats": [
+  {
+   "nofiche": 1199434,
+   "nom": "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - SAINT-ESPRIT",
+   "adresse": "110, rue Saint-Isidore, Saint-Esprit",
+   "telephone": "450 839-3676",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 juillet 2026, 18 h 45",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - SAINT-ESPRIT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - SAINT-ESPRIT",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1157221,
+   "nom": "CLINIQUE D'IPS DU CIUSSS NIM",
+   "adresse": "1385, rue Jean-Talon Est, bureau E-801, Montréal",
+   "telephone": "",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 avril 2026, 20 h 11",
+   "manque": [
+    "téléphone"
+   ],
+   "lignes": [
+    "CLINIQUE D'IPS DU CIUSSS NIM - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS DU CIUSSS NIM",
+    "Heures pour prendre un rendez-vous par un système automatisé pour Infirmier/Infirmière praticienne spécialisée (pour tous)",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1144196,
+   "nom": "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS)",
+   "adresse": "5811, boulevard Taschereau, bureau 50-1, Brossard",
+   "telephone": "450 445-2122",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL CHARLES-LE MOYNE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "18 décembre 2025, 14 h 48",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1177911,
+   "nom": "CLINIQUE INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS)",
+   "adresse": "50, rue Camirand, Sherbrooke",
+   "telephone": "819 780-2220",
+   "rss": "05",
+   "urgenceProche": "CHUS - HÔTEL-DIEU DE SHERBROOKE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 août 2026, 15 h 58",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Pour la clientèle orpheline (sans md de famille ou d'IPS), elle doit passer obligatoirement par le 811 option 3, soit le GAP. Aucun rendez-vous n'est donné directement pour cette clientèle. Depuis avril 2025, les IPS font de la prise en charge de la clientièle en provenance des listes GACO"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1179419,
+   "nom": "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - LIMOILOU",
+   "adresse": "1405, chemin de la Canardière, Québec",
+   "telephone": "418 529-2572",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL DE L'ENFANT-JÉSUS",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 octobre 2026, 13 h 53",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - LIMOILOU - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - LIMOILOU",
+    "Heures pour prendre un rendez-vous par un système automatisé pour Infirmier/Infirmière praticienne spécialisée (pour tous)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Sans rendez-vous pour des problèmes ponctuels tels que :",
+    "Suivis du développement de l'enfant de 0 à 5 ans."
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1116052,
+   "nom": "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - JOLIETTE",
+   "adresse": "310, boulevard Antonio-Barrette, Notre-Dame-des-Prairies",
+   "telephone": "450 755-9002",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 juillet 2026, 18 h 47",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - JOLIETTE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) - SANTÉ QUÉBEC LANAUDIÈRE - JOLIETTE",
+    "Clinique d'infirmières praticiennes spécialisées (IPS) - CISSS de Lanaudière - Joliette : 450 755-9002",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1237521,
+   "nom": "CLINIQUE D'IPS DELSON",
+   "adresse": "101, rue Lauzon, unité 321, Châteauguay",
+   "telephone": "450 638-3936",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL ANNA-LABERGE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 septembre 2026, 12 h 26",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS DELSON - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS DELSON",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1196800,
+   "nom": "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (LONGUEUIL)",
+   "adresse": "1303, boulevard Jacques-Cartier Est, Longueuil",
+   "telephone": "450 771-3255",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL PIERRE-BOUCHER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "19 mars 2026, 19 h 32",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (LONGUEUIL) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (LONGUEUIL)",
+    "Nous utilisons le même numéro pour les deux sites de la clinique IPS : 450 771-3255",
+    "L'horaire de la clinique incluant les quarts de soirs et de fin de semaine est reparti entre les deux sites de la clinique IPS.",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1239814,
+   "nom": "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-DAMIEN-DE-BUCKLAND",
+   "adresse": "12, rue de l'Église, Saint-Damien-de-Buckland",
+   "telephone": "418 789-0593",
+   "rss": "12",
+   "urgenceProche": "HÔPITAL DE MONTMAGNY",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 octobre 2026, 14 h 25",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-DAMIEN-DE-BUCKLAND - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-DAMIEN-DE-BUCKLAND",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "- Infirmière praticienne spécialisée en santé mentale (IPSSM);",
+    "- Infirmière praticienne spécialisée en soins de première ligne (IPSPL);",
+    "Sans rendez-vous pour des problèmes ponctuels tels que :",
+    "Suivis du développement de l'enfant de 0 à 5 ans."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1226697,
+   "nom": "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - CLSC DE LA BASSE-VILLE (SITE SATELLITE)",
+   "adresse": "50, rue Saint-Joseph Est, Québec",
+   "telephone": "418 529-2572",
+   "rss": "03",
+   "urgenceProche": "L'HÔTEL-DIEU DE QUÉBEC",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 octobre 2026, 13 h 54",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - CLSC DE LA BASSE-VILLE (SITE SATELLITE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - CLSC DE LA BASSE-VILLE (SITE SATELLITE)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Réservé aux usagers qui sont inscrits à la clinique d'IPS Saint-Sauveur ou aux usagers référés par le GAP."
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1211752,
+   "nom": "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - HAUTE-VILLE (SITE SATELLITE)",
+   "adresse": "55, chemin Sainte-Foy, Québec",
+   "telephone": "418 666-7515",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL DU SAINT-SACREMENT",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 octobre 2026, 13 h 53",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - HAUTE-VILLE (SITE SATELLITE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE NATIONALE - HAUTE-VILLE (SITE SATELLITE)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Pour obtenir un sans rendez-vous appeler la veille au 418-666-7515",
+    "Sans rendez-vous pour des problèmes ponctuels tels que (référence par le GAP ou clientèle inscrite):",
+    "Suivis du développement de l'enfant de 0 à 5 ans et accès adapté aux problèmes ponctuels."
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1222081,
+   "nom": "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LAURIER-STATION (SITE SATELLITE)",
+   "adresse": "135, rue de la Station, Laurier-Station",
+   "telephone": "418 830-7496",
+   "rss": "04",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORTIERVILLE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 mars 2026, 19 h 57",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LAURIER-STATION (SITE SATELLITE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LAURIER-STATION (SITE SATELLITE)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Sans rendez-vous pour des problèmes ponctuels tels que :",
+    "Suivis du développement de l'enfant de 0 à 5 ans.",
+    "La Clinique d’IPS de Lévis de Santé Québec Chaudière-Appalaches, selon les services disponibles, s’adressent exclusivement aux personnes :",
+    "- N’ayant pas de médecin de famille ou d’IPS en première ligne;",
+    "- Si vous êtes déjà inscrit auprès d’une IPSPL de la clinique d’IPS, vous pouvez communiquer directement au numéro de téléphone de la clinique d’IPS d’appartenance."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1221712,
+   "nom": "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LÉVIS",
+   "adresse": "1205, boulevard Guillaume, bureau 100, Lévis",
+   "telephone": "418 830-7496",
+   "rss": "12",
+   "urgenceProche": "HÔTEL-DIEU DE LÉVIS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "20 mars 2026, 17 h 34",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LÉVIS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - LÉVIS",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Sans rendez-vous pour des problèmes ponctuels tels que :",
+    "Suivis du développement de l'enfant de 0 à 5 ans.",
+    "La Clinique d’IPS de Lévis de Santé Québec Chaudière-Appalaches, selon les services disponibles, s’adressent exclusivement aux personnes :",
+    "- N’ayant pas de médecin de famille ou d’IPS en première ligne;"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1222082,
+   "nom": "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-LAZARE-DE-BELLECHASSE (SITE SATELLITE)",
+   "adresse": "100, rue Monseigneur-Bilodeau, bureau A, Saint-Lazare-de-Bellechasse",
+   "telephone": "418 830-7496",
+   "rss": "12",
+   "urgenceProche": "HÔTEL-DIEU DE LÉVIS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 mars 2026, 20 h 02",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-LAZARE-DE-BELLECHASSE (SITE SATELLITE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - SANTÉ QUÉBEC CHAUDIÈRE-APPALACHES - SAINT-LAZARE-DE-BELLECHASSE (SITE SATELLITE)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Sans rendez-vous pour des problèmes ponctuels tels que :",
+    "Suivis du développement de l'enfant de 0 à 5 ans.",
+    "La Clinique d’IPS de Lévis de Santé Québec Chaudière-Appalaches, selon les services disponibles, s’adressent exclusivement aux personnes :",
+    "- N’ayant pas de médecin de famille ou d’IPS en première ligne;",
+    "- Si vous êtes déjà inscrit auprès d’une IPSPL de la clinique d’IPS, vous pouvez communiquer directement au numéro de téléphone de la clinique d’IPS d’appartenance."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1171639,
+   "nom": "CLINIQUE IPS - CIUSSS MCQ - DRUMMONDVILLE, (CLSC SAINTE-CROIX)",
+   "adresse": "350, rue Saint-Jean, 2e étage, Drummondville",
+   "telephone": "819 474-2572",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL SAINTE-CROIX",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 avril 2026, 15 h 32",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS - CIUSSS MCQ - DRUMMONDVILLE, (CLSC SAINTE-CROIX) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS - CIUSSS MCQ - DRUMMONDVILLE, (CLSC SAINTE-CROIX)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Urgence mineure (présentation sur place sans rendez-vous)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1107931,
+   "nom": "CLINIQUE IPS - SANTÉ QUÉBEC LAVAL",
+   "adresse": "1515, boulevard Chomedey, unité 1er étage, Laval",
+   "telephone": "450 668-1010",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "07 mai 2026, 20 h 26",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS - SANTÉ QUÉBEC LAVAL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS - SANTÉ QUÉBEC LAVAL",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1232931,
+   "nom": "CLINIQUE IPS - SANTÉ QUÉBEC OUEST-DE-L'ÎLE - PIERREFONDS",
+   "adresse": "13800, boulevard Gouin Ouest, Montréal",
+   "telephone": "514 630-2030",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL DU LAKESHORE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 juillet 2026, 15 h 16",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS - SANTÉ QUÉBEC OUEST-DE-L'ÎLE - PIERREFONDS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS - SANTÉ QUÉBEC OUEST-DE-L'ÎLE - PIERREFONDS",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Consultation en communauté, santé sexuelle, suivi des maladies chroniques ( Diabète, HTA, Choslesterol), GAP ( P4 et P5) , suivi pédiatrique, soins à domicile, dépistage VPH, installation et retrait de stérilets, suivi ménopause."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1215724,
+   "nom": "CLINIQUE IPS + SITE CLSC MÉTRO",
+   "adresse": "1801, boulevard De Maisonneuve Ouest, bureau 3e étage, Montréal",
+   "telephone": "514 731-8531",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL DE MONTRÉAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 octobre 2026, 12 h 10",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS + SITE CLSC MÉTRO - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS + SITE CLSC MÉTRO",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1120021,
+   "nom": "CLINIQUE IPS DE QUARTIER",
+   "adresse": "950, rue Sainte-Thérèse, Drummondville",
+   "telephone": "819 253-0168",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL SAINTE-CROIX",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 avril 2026, 15 h 39",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS DE QUARTIER - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS DE QUARTIER",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Clinique privée d'IPS hors RAMQ"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1228126,
+   "nom": "CLINIQUE IPS DU PALAIS",
+   "adresse": "795, avenue du Palais, Saint-Hyacinthe",
+   "telephone": "579 305-0344",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "14 septembre 2026, 19 h 09",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS DU PALAIS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS DU PALAIS",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Clinique privé d IPS hors RAMQ"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1200510,
+   "nom": "CLINIQUE IPS RIMOUSKI",
+   "adresse": "968, route des Pionniers, Rimouski",
+   "telephone": "418 735-9754",
+   "rss": "01",
+   "urgenceProche": "HÔPITAL RÉGIONAL DE RIMOUSKI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "25 août 2026, 17 h 37",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS RIMOUSKI - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS RIMOUSKI",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1140934,
+   "nom": "CLINIQUE IPS SANTÉ 1ÈRE LIGNE",
+   "adresse": "430, chemin Principal, Les Îles-de-la-Madeleine",
+   "telephone": "418 986-2121",
+   "rss": "11",
+   "urgenceProche": "HÔPITAL DE L'ARCHIPEL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "03 septembre 2026, 14 h 01",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS SANTÉ 1ÈRE LIGNE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS SANTÉ 1ÈRE LIGNE",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1133235,
+   "nom": "CLINIQUE IPS SANTÉ PLUS",
+   "adresse": "3750, boulevard du Royaume, bureau 201, Saguenay",
+   "telephone": "418 758-1851",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL ET CENTRE DE RÉADAPTATION DE JONQUIÈRE",
+   "acces": "tous",
+   "accesNote": "",
+   "frais": true,
+   "miseAJour": "27 août 2026, 12 h 53",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS SANTÉ PLUS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS SANTÉ PLUS",
+    "Des frais sont exigés pour une consultation médicale le jour même ou dans les jours suivants.",
+    "Consultations médicales le jour même ou dans les jours suivants (pour tous) (des frais sont exigés)",
+    "Infirmier/Infirmière praticienne spécialisée (des frais sont exigés)",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM) (des frais sont exigés)"
+   ],
+   "decision": "ajout possible"
+  },
+  {
+   "nofiche": 1122154,
+   "nom": "CLINIQUE IPS+ CLSC VERDUN",
+   "adresse": "400, rue de l'Église, cLSC Verdun, Guichet 5, Montréal",
+   "telephone": "514 766-0546",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DE VERDUN",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 septembre 2026, 15 h 56",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS+ CLSC VERDUN - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS+ CLSC VERDUN",
+    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants pour Infirmier/Infirmière praticienne spécialisée (pour tous)",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1193082,
+   "nom": "CLINIQUE IPS+ SITE CLSC CÔTE-DES-NEIGES",
+   "adresse": "5700, chemin de la Côte-des-Neiges, bureau 1er étage, Montréal",
+   "telephone": "514 731-8531",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL JUIF",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 octobre 2026, 12 h 11",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS+ SITE CLSC CÔTE-DES-NEIGES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS+ SITE CLSC CÔTE-DES-NEIGES",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1171609,
+   "nom": "CLINIQUE IPS+ SITE CLSC PARC-EXTENSION",
+   "adresse": "7085, rue Hutchison, Montréal",
+   "telephone": "514 731-8531",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "11 septembre 2026, 18 h 45",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS+ SITE CLSC PARC-EXTENSION - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS+ SITE CLSC PARC-EXTENSION",
+    "Heures pour prendre un rendez-vous régulier pour Infirmier/Infirmière praticienne spécialisée",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1137822,
+   "nom": "CLINIQUE JENNIFER RYTZ - IPS-PL",
+   "adresse": "250, rue Maskinongé, Saint-Gabriel",
+   "telephone": "579 244-0204",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 juin 2026, 12 h 24",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE JENNIFER RYTZ - IPS-PL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE JENNIFER RYTZ - IPS-PL",
+    "Infirmier/Infirmière praticienne spécialisée (des frais sont exigés)",
+    "Clinique infirmière praticienne spécialisée première (IPS-PL)."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1219232,
+   "nom": "CLINIQUE MÉDICALE IPS",
+   "adresse": "35, rue Notre-Dame Ouest, bureau local 2, Victoriaville",
+   "telephone": "873 242-1144",
+   "rss": "04",
+   "urgenceProche": "HÔTEL-DIEU D'ARTHABASKA",
+   "acces": "tous",
+   "accesNote": "",
+   "frais": true,
+   "miseAJour": "24 avril 2026, 18 h 12",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE MÉDICALE IPS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE MÉDICALE IPS",
+    "Des frais sont exigés pour une consultation médicale le jour même ou dans les jours suivants.",
+    "Heures pour prendre un rendez-vous par un système automatisé pour Infirmière praticienne spécialisée en soins de première ligne (IPSPL) (pour tous)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour tous) (des frais sont exigés)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL) (des frais sont exigés)",
+    "Urgence pédiatrique (des frais sont exigés)",
+    "La clinique Médicale IPS sera située à l’intérieur de la Clinique Dentaire Dr Benoît Bousquet"
+   ],
+   "decision": "ajout possible"
+  },
+  {
+   "nofiche": 1199253,
+   "nom": "CLINIQUE IPS DE CHICOUTIMI",
+   "adresse": "80, rue Racine Est, Saguenay",
+   "telephone": "418 541-4235",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "01 septembre 2026, 12 h 57",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE IPS DE CHICOUTIMI - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE IPS DE CHICOUTIMI",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1078805,
+   "nom": "CLINIQUE SANTÉ IPS",
+   "adresse": "Adresse non disponible.",
+   "telephone": "438 408-5438",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 février 2025, 19 h 51",
+   "manque": [
+    "position"
+   ],
+   "lignes": [
+    "CLINIQUE SANTÉ IPS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE SANTÉ IPS",
+    "Heures pour prendre un rendez-vous régulier par un système automatisé pour Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM) (des frais sont exigés)",
+    "Clinique médicale virtuelle privée d'infirmières praticiennes spécialisées en santé mentale offrant des services d'évaluation de diagnostic et de suivi."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1182973,
+   "nom": "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE-NATIONALE - SAINT-SAUVEUR",
+   "adresse": "205, rue Montmagny, Québec",
+   "telephone": "418 688-0872",
+   "rss": "03",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX CHRIST-ROI",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 octobre 2026, 13 h 52",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE-NATIONALE - SAINT-SAUVEUR - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'IPS - CIUSSS DE LA CAPITALE-NATIONALE - SAINT-SAUVEUR",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Réservé aux usagers qui sont inscrits à la clinique d'IPS Saint-Sauveur ou aux usagers référés par le GAP."
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1219705,
+   "nom": "CSSS MEMPHRÉMAGOG - CLINIQUE IPS 0-5 ANS",
+   "adresse": "50, rue Saint-Patrice Est, Magog",
+   "telephone": "819 843-2572",
+   "rss": "05",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MEMPHRÉMAGOG",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "26 février 2026, 16 h 45",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "CSSS MEMPHRÉMAGOG - CLINIQUE IPS 0-5 ANS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CSSS MEMPHRÉMAGOG - CLINIQUE IPS 0-5 ANS",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1133747,
+   "nom": "IPS DE FAMILLE",
+   "adresse": "2626, rue Allard, Montréal",
+   "telephone": "438 951-2747",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DOUGLAS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "07 novembre 2025, 14 h 10",
+   "manque": [],
+   "lignes": [
+    "IPS DE FAMILLE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "IPS DE FAMILLE",
+    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants par un système automatisé pour Infirmière praticienne spécialisée en soins de première ligne (IPSPL) (pour tous)",
+    "Heures pour prendre un rendez-vous pour Infirmière praticienne spécialisée en soins de première ligne (IPSPL) (pour tous)",
+    "Infirmier/Infirmière praticienne spécialisée (des frais sont exigés)",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL) (des frais sont exigés)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1159642,
+   "nom": "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
+   "adresse": "4050, rue Laval, Lac-Mégantic",
+   "telephone": "418 476-8259",
+   "rss": "05",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU GRANIT",
+   "acces": "tous",
+   "accesNote": "Frais",
+   "frais": false,
+   "miseAJour": "03 mars 2026, 13 h 14",
+   "manque": [],
+   "lignes": [
+    "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
+    "Consultations médicales le jour même ou dans les jours suivants (pour tous) Frais",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "ajout possible"
+  },
+  {
+   "nofiche": 1197214,
+   "nom": "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (SAINT-HYACINTHE)",
+   "adresse": "1005, rue Gauthier, Saint-Hyacinthe",
+   "telephone": "450 771-3255",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "19 mars 2026, 19 h 30",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (SAINT-HYACINTHE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE D'INFIRMIÈRES PRATICIENNES SPÉCIALISÉES (IPS) DU CISSS DE LA MONTÉRÉGIE-EST (SAINT-HYACINTHE)",
+    "Nous utilisons le même numéro pour les deux sites de la clinique IPS : 450 771-3255",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  }
+ ]
+}

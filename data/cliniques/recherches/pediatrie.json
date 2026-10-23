@@ -1,0 +1,2281 @@
+{
+ "verifie": "2026-10-23",
+ "recherche": {
+  "id": "pediatrie",
+  "q": [
+   "pédiatrique",
+   "pédiatrie",
+   "enfants"
+  ],
+  "garder": "p[ée]diatr|enfant|jeunesse|pediatr"
+ },
+ "total": 113,
+ "resultats": [
+  {
+   "nofiche": 115915,
+   "nom": "CENTRE PÉDIATRIQUE MELVILLE",
+   "adresse": "4500, rue Sherbrooke Ouest, Westmount",
+   "telephone": "514 932-4975",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL ROYAL VICTORIA",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 décembre 2025, 16 h 42",
+   "manque": [],
+   "lignes": [
+    "CENTRE PÉDIATRIQUE MELVILLE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE PÉDIATRIQUE MELVILLE",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (patient inscrit seulement)",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 735495,
+   "nom": "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
+   "adresse": "7005, chemin Kildare, bureau 8, Côte-Saint-Luc",
+   "telephone": "514 481-7167",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DE LACHINE",
+   "acces": "tous",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 janvier 2026, 14 h 35",
+   "manque": [],
+   "lignes": [
+    "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (pour tous)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
+    "Pédiatrie",
+    "Patients pédiatriques âgés de 3 mois à 16 ans. Ils doivent appeler notre cabinet avant de s'y rendre."
+   ],
+   "decision": "ajout possible"
+  },
+  {
+   "nofiche": 1168151,
+   "nom": "CENTRE PÉDIATRIQUE LUMI",
+   "adresse": "3883, boulevard Saint-Jean, bureau 215, Dollard-des-Ormeaux",
+   "telephone": "514 534-0471",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL DU LAKESHORE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "12 septembre 2025, 20 h 21",
+   "manque": [],
+   "lignes": [
+    "CENTRE PÉDIATRIQUE LUMI - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE PÉDIATRIQUE LUMI",
+    "Soins pédiatriques 0-18 ans"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1137612,
+   "nom": "CLINIQUE PÉDIATRIQUE PETIT TROT",
+   "adresse": "1055, 12e Avenue Nord, bureau 237, Sherbrooke",
+   "telephone": "819 943-3113",
+   "rss": "05",
+   "urgenceProche": "CHUS - HÔTEL-DIEU DE SHERBROOKE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 octobre 2023, 20 h 27",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE PETIT TROT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE PETIT TROT",
+    "Heures pour prendre un rendez-vous régulier pour Pédiatrie",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 30838,
+   "nom": "CLINIQUE PÉDIATRIQUE AUX PETITS SOINS (MONTRÉAL)",
+   "adresse": "6624, avenue Somerled, bureau 201, Montréal",
+   "telephone": "514 486-6656",
+   "rss": "06",
+   "urgenceProche": "L'HÔPITAL DE MONTRÉAL POUR ENFANTS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "28 février 2025, 20 h 16",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE AUX PETITS SOINS (MONTRÉAL) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE AUX PETITS SOINS (MONTRÉAL)",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 664468,
+   "nom": "CLINIQUE DE RÉADAPTATION PÉDIATRIQUE PAS À PAS",
+   "adresse": "614, rue Bowen Sud, Sherbrooke",
+   "telephone": "819 822-1918",
+   "rss": "05",
+   "urgenceProche": "CHUS - HÔTEL-DIEU DE SHERBROOKE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 septembre 2026, 15 h 43",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE DE RÉADAPTATION PÉDIATRIQUE PAS À PAS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE DE RÉADAPTATION PÉDIATRIQUE PAS À PAS"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1194378,
+   "nom": "CLINIQUE PÉDIATRIQUE ABC",
+   "adresse": "1050, 8e Rue, bureau 014, Shawinigan",
+   "telephone": "819 729-0816",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL DU CENTRE-DE-LA-MAURICIE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 juillet 2026, 17 h 06",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE ABC - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE ABC",
+    "Heures pour prendre un rendez-vous régulier pour Pédiatrie",
+    "Heures pour Pédiatrie (patient inscrit seulement)",
+    "Pédiatrie",
+    "services médicaux spécialisés en pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 48423,
+   "nom": "CLINIQUE PÉDIATRIQUE DE SAINTE-FOY",
+   "adresse": "990, route de l'Église, bureau 304, Québec",
+   "telephone": "418 658-0906",
+   "rss": "03",
+   "urgenceProche": "INSTITUT UNIVERSITAIRE DE CARDIOLOGIE ET DE PNEUMOLOGIE DE QUÉBEC",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 février 2026, 14 h 33",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE DE SAINTE-FOY - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE DE SAINTE-FOY",
+    "Clinique pédiatrique de Sainte-Foy Facebook",
+    "Clinique pédiatrique de Sainte-Foy",
+    "Heures pour prendre un rendez-vous régulier pour Pédiatrie",
+    "Pédiatrie AVEC rendez-vous",
+    "- Pédiatrie Générale"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1099072,
+   "nom": "CLINIQUE PÉDIATRIQUE DE SAINT-JÉRÔME",
+   "adresse": "1000, rue Labelle, bureau 2100, Saint-Jérôme",
+   "telephone": "450 436-9818",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-JÉRÔME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 mars 2024, 13 h 56",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE DE SAINT-JÉRÔME - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE DE SAINT-JÉRÔME",
+    "Pédiatres qui ont déjà leur Clientèle.",
+    "Il n'y a pas de clinique sans rendez-vous."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 35047,
+   "nom": "CLINIQUE PÉDIATRIQUE DOCTEURE LISA ARCHAMBAULT",
+   "adresse": "90, rue Morgan, bureau 14 , centre commercial Plaza, Baie-D'Urfé",
+   "telephone": "514 364-5229",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL DU LAKESHORE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 septembre 2026, 15 h 06",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE DOCTEURE LISA ARCHAMBAULT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE DOCTEURE LISA ARCHAMBAULT",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (patient inscrit seulement)",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 856792,
+   "nom": "CLINIQUE PÉDIATRIQUE ET NÉONATALITÉ DU DOCTEUR FERNANDO VÉLEZ",
+   "adresse": "3, rue Principale, bureau 102, Coteau-du-Lac",
+   "telephone": "450 217-0942",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL DU SUROÎT",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "17 septembre 2025, 18 h 56",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE ET NÉONATALITÉ DU DOCTEUR FERNANDO VÉLEZ - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE ET NÉONATALITÉ DU DOCTEUR FERNANDO VÉLEZ",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 924566,
+   "nom": "CLINIQUE PÉDIATRIQUE GRANDIR SIMPLEMENT",
+   "adresse": "2585, boulevard Henri-Bourassa Est, Montréal",
+   "telephone": "514 600-4235",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL FLEURY",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 novembre 2025, 20 h 57",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE GRANDIR SIMPLEMENT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE GRANDIR SIMPLEMENT",
+    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants par un système automatisé pour Pédiatrie (patient inscrit seulement)",
+    "Ergothérapie (des frais sont exigés) Pédiatrique, évaluation seulement",
+    "Neuropsychologie (des frais sont exigés) Pédiatrique",
+    "Psychoéducation (des frais sont exigés) Pédiatrique",
+    "Pédiatrie",
+    "Éducation spécialisée (des frais sont exigés) Pédiatrique"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1102327,
+   "nom": "CLINIQUE PÉDIATRIQUE HHR",
+   "adresse": "920, boulevard du Séminaire Nord, bureau 1055, Saint-Jean-sur-Richelieu",
+   "telephone": "450 359-5000",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL DU HAUT-RICHELIEU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "20 mai 2026, 19 h 23",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE HHR - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE HHR",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (pour tous)",
+    "Heures pour Pédiatrie (pour tous)",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 31727,
+   "nom": "CLINIQUE PÉDIATRIQUE LE COPAIN",
+   "adresse": "909, boulevard La Vérendrye Ouest, Gatineau",
+   "telephone": "819 966-6165",
+   "rss": "07",
+   "urgenceProche": "HÔPITAL DE GATINEAU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 juillet 2026, 14 h 43",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE LE COPAIN - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE LE COPAIN",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1162369,
+   "nom": "CLINIQUE PÉDIATRIQUE PETITS PAS",
+   "adresse": "544, rue Notre-Dame, bureau 200, Repentigny",
+   "telephone": "450 704-2222",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL PIERRE-LE GARDEUR",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 juillet 2026, 15 h 59",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE PÉDIATRIQUE PETITS PAS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE PÉDIATRIQUE PETITS PAS",
+    "Pédiatrie",
+    "Pédiatres:"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 980800,
+   "nom": "CLINIQUE URGENCES PÉDIATRIQUES DE BLAINVILLE",
+   "decision": "déjà sur le site"
+  },
+  {
+   "nofiche": 48962,
+   "nom": "ORTHOPÉDIE PÉDIATRIQUE",
+   "adresse": "2705, boulevard Laurier, Québec",
+   "telephone": "418 651-2485",
+   "rss": "03",
+   "urgenceProche": "CENTRE HOSPITALIER DE L'UNIVERSITÉ LAVAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 septembre 2026, 15 h 04",
+   "manque": [],
+   "lignes": [
+    "ORTHOPÉDIE PÉDIATRIQUE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ORTHOPÉDIE PÉDIATRIQUE",
+    "Prendre note que la clinique Orthopédie pédiatrique est déménagée dans le CHUL - CHU de Québec UL au 2705 boulevard Laurier, Québec"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 979627,
+   "nom": "SANTE EXPERT SERVICES MEDICAUX (CLINIQUE PEDIATRIQUE)",
+   "adresse": "990, route de l'Église, bureau 402, Québec",
+   "telephone": "418 781-9963",
+   "rss": "03",
+   "urgenceProche": "INSTITUT UNIVERSITAIRE DE CARDIOLOGIE ET DE PNEUMOLOGIE DE QUÉBEC",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "13 juillet 2026, 12 h 19",
+   "manque": [],
+   "lignes": [
+    "SANTE EXPERT SERVICES MEDICAUX (CLINIQUE PEDIATRIQUE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "SANTE EXPERT SERVICES MEDICAUX (CLINIQUE PEDIATRIQUE)",
+    "Vaccination (des frais sont exigés) AVEC rendez-vous : Vaccin pédiatrique et Programme québécois d'immunisation - PQI"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 939234,
+   "nom": "UP CENTRE D'URGENCES PÉDIATRIQUES (BROSSARD)",
+   "decision": "déjà sur le site"
+  },
+  {
+   "nofiche": 1055789,
+   "nom": "ACCROCHE-COEUR, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ GASPÉSIE SUD",
+   "adresse": "188, rue Rodolphe-Lemieux, Chandler",
+   "telephone": "418 689-8545",
+   "rss": "11",
+   "urgenceProche": "HÔPITAL DE CHANDLER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 juin 2026, 19 h 48",
+   "manque": [],
+   "lignes": [
+    "ACCROCHE-COEUR, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ GASPÉSIE SUD - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ACCROCHE-COEUR, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ GASPÉSIE SUD",
+    "Pédiatrie",
+    "Services médicaux, psychosociaux et légaux visant à dépister, réduire ou éliminer les stress toxiques nuisant au développement des enfants.",
+    "OBSL souhaitant accueillir, évaluer, soigner, outiller, accompagner et soutenir les enfants du territoire de la Gaspésie Sud de 0-18 ans en situation de vulnérabilité ainsi que leurs proches et leurs familles.",
+    "Offrir des soins et des services intégrés et personnalisés aux enfants en difficulté par une approche de santé globale intégrant à la médecine la pratique des sciences sociales et du droit."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 124920,
+   "nom": "ATLAS CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE CÔTE-DES-NEIGES",
+   "adresse": "3600, avenue de Kent, Montréal",
+   "telephone": "514 341-2220",
+   "rss": "06",
+   "urgenceProche": "CHU SAINTE-JUSTINE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "11 septembre 2026, 18 h 15",
+   "manque": [],
+   "lignes": [
+    "ATLAS CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE CÔTE-DES-NEIGES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ATLAS CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE CÔTE-DES-NEIGES",
+    "Les enfants doivent être suivis par l'équipe clinique pour avoir accès aux services du suivi-accompagnement.",
+    "Pédiatrie",
+    "- Services gratuits aux enfants en difficulté vivant dans un milieu de vie difficile, du quartier Côte-des-Neiges exclusivement.",
+    "- Pour obtenir un premier rendez-vous clinique d'évaluation-orientation, une pré-évaluation doit être faite par une intervenante, pour déterminer si nos services sont appropriés pour les besoins de l'enfant.",
+    "- Nous ne faisons pas de suivis uniquement médicaux et n'offrons pas de service de sans rendez-vous pour urgence médicale."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1111470,
+   "nom": "AU COIN DE MA RUE, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ RIVIÈRE-DU-NORD",
+   "adresse": "344, rue du Palais, Saint-Jérôme",
+   "telephone": "450 438-5959",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-JÉRÔME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 janvier 2023, 13 h 08",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "AU COIN DE MA RUE, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ RIVIÈRE-DU-NORD - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "AU COIN DE MA RUE, CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ RIVIÈRE-DU-NORD"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1149364,
+   "nom": "CENTRE DE PÉDIATRIE DE MONTRÉAL-NORD",
+   "adresse": "6336, avenue Chartrand, bureau 1, Montréal",
+   "telephone": "514 303-3351",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL FLEURY",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 janvier 2025, 13 h 24",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE DE MONTRÉAL-NORD - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE DE MONTRÉAL-NORD"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1164455,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE CENTRE-SUD",
+   "adresse": "2135, rue Alexandre-DeSève, unité KR-1203, pavillon Mailloux, Local KR-1203, Montréal",
+   "telephone": "514 507-9907",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL NOTRE-DAME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "25 juin 2026, 13 h 22",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE CENTRE-SUD - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE CENTRE-SUD",
+    "Ce Centre de pédiatrie sociale Centre-sud s'adresse aux enfants et familles vulnérable du quartier Centre-Sud de Montréal. Une évaluation des besoins préalable est effectuée avant l'intégration à la clientèle du centre."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1055749,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE COEUR DES LAURENTIDES",
+   "adresse": "10, rue Saint-Antoine, Sainte-Agathe-des-Monts",
+   "telephone": "819 774-8574",
+   "rss": "15",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-AGATHE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "23 décembre 2025, 15 h 35",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE COEUR DES LAURENTIDES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE COEUR DES LAURENTIDES"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1112887,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE COMMUNAUTAIRE DE LACHINE",
+   "adresse": "50, 15e Avenue (Lachine), sous-sol du bâtiment, Montréal",
+   "telephone": "514 364-1414",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DE LACHINE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 octobre 2024, 13 h 33",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE COMMUNAUTAIRE DE LACHINE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE COMMUNAUTAIRE DE LACHINE",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Pédiatrie sociale"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1112498,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE GATINEAU - VIEUX-GATINEAU",
+   "adresse": "321, rue Notre-Dame, Gatineau",
+   "telephone": "819 643-3000",
+   "rss": "07",
+   "urgenceProche": "HÔPITAL DE GATINEAU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "17 juin 2026, 14 h 54",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE GATINEAU - VIEUX-GATINEAU - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE GATINEAU - VIEUX-GATINEAU",
+    "Pour obtenir un premier RDV, une pré-évaluation doit être effectuée par une intervenante afin d'évaluer si nos services sont appropriés pour les besoins de l'enfant.",
+    "- Pour obtenir un premier RDV, une pré-évaluation doit être effectuée par une intervenante afin d'évaluer si nos services sont appropriés pour les besoins de l'enfant."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1170003,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LA HAUTE-YAMASKA",
+   "adresse": "442, rue Saint-Jean, Granby",
+   "telephone": "450 361-6140",
+   "rss": "05",
+   "urgenceProche": "HÔPITAL DE GRANBY",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "26 novembre 2025, 16 h 36",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LA HAUTE-YAMASKA - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LA HAUTE-YAMASKA",
+    "Centre de pédiatrie scoiale de la Haute-Yamska",
+    "Pédiatrie",
+    "Services médico-sociaux et juridiques pour les enfants âgés entre 0 et 17 ans et leur famille, vivant en contexte de vulnérabilité. Prévenir, dépister et limiter l’influence néfaste des problèmes de santé générés par des conditions de vie difficiles en abordant une approche globale de la santé.",
+    "Services aux enfants vivant dans un contexte de grande vulnérabilité",
+    "Aucune consultation ponctuelle ou sans rendez-vous"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1107833,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE L'ENVOL",
+   "adresse": "1550, avenue de l'Église, Longueuil",
+   "telephone": "450 904-4242",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL CHARLES-LE MOYNE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "11 mars 2026, 13 h 21",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE L'ENVOL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE L'ENVOL",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1114083,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE LÉVIS",
+   "adresse": "4950, boulevard Guillaume-Couture, bureau 201, Lévis",
+   "telephone": "418 603-2775",
+   "rss": "12",
+   "urgenceProche": "HÔTEL-DIEU DE LÉVIS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "01 octobre 2024, 17 h 25",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE LÉVIS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE LÉVIS",
+    "Pédiatrie",
+    "Services pédiatriques médicaux et psychosociaux s'adressant aux clientèles vulnérables."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1111760,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE PAPINEAU",
+   "adresse": "360-A, rang Sainte-Julie Est, Saint-André-Avellin",
+   "telephone": "819 516-0706",
+   "rss": "07",
+   "urgenceProche": "CLSC ET CENTRE D'HÉBERGEMENT DE LA PETITE-NATION",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 octobre 2025, 14 h 09",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE PAPINEAU - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE PAPINEAU"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1106862,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE QUÉBEC",
+   "adresse": "2301, 1re Avenue, Québec",
+   "telephone": "418 781-0164",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL SAINT-FRANÇOIS D'ASSISE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 octobre 2026, 14 h 48",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE QUÉBEC - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE QUÉBEC",
+    "Centre de pédiatrie sociale de Québec",
+    "Facebook du Centre de pédiatrie de Québec",
+    "Pédiatrie AVEC rendez-vous",
+    "Aucune consultation ponctuelle ou sans rendez-vous.",
+    "Soutenir les enfants et leur famille en situation de vulnérabilité pour assurer le mieux-être et le développement optimal des enfants, dans le respect de leurs droits et de leurs intérêts.",
+    "La mission du Centre de pédiatrie sociale de Québec consiste à soutenir les enfants et leur famille en situation de vulnérabilité pour assurer le mieux-être et le développement optimal des enfants, dans le respect de leurs droits et de leurs intérêts."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 735127,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE SAINT-LAURENT",
+   "adresse": "1159, avenue Sainte-Croix, Montréal",
+   "telephone": "514 333-8989",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DU SACRÉ-COEUR-DE-MONTRÉAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "07 janvier 2026, 20 h 35",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE SAINT-LAURENT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE SAINT-LAURENT",
+    "Heures pour prendre un rendez-vous régulier pour Pédiatrie",
+    "Aide aux victimes d'actes criminels Enfants, > 6 jours",
+    "Infirmier/Infirmière praticienne spécialisée Seulement pour femmes et enfants très vulnérables",
+    "Pédiatrie Pédiatrie sociale",
+    "Suivi en médecine social pour les enfants de 0 à 18 ans de milieux très défavorisés;",
+    "Activités de soutien et de stimulation pour les enfants et les familles."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 797867,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE TROIS-RIVIÈRES",
+   "adresse": "1240, rue Royale, bureau 200, Trois-Rivières",
+   "telephone": "819 840-7611",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juillet 2026, 16 h 32",
+   "manque": [
+    "position"
+   ],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE TROIS-RIVIÈRES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE TROIS-RIVIÈRES",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1110108,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DES APPALACHES",
+   "adresse": "189, rue Dubé, Thetford Mines",
+   "telephone": "418 755-0497",
+   "rss": "12",
+   "urgenceProche": "HÔPITAL DE THETFORD",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 janvier 2025, 16 h 41",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DES APPALACHES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DES APPALACHES",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1102293,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ANTOINE-LABELLE (MONT-LAURIER)",
+   "adresse": "380, rue de la Madone, bureau 1, Mont-Laurier",
+   "telephone": "819 499-1181",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE MONT-LAURIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juin 2026, 20 h 06",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ANTOINE-LABELLE (MONT-LAURIER) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ANTOINE-LABELLE (MONT-LAURIER)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1107961,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ARGENTEUIL",
+   "adresse": "79, rue Hammond, Lachute",
+   "telephone": "579 791-0134",
+   "rss": "15",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX D'ARGENTEUIL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 décembre 2023, 15 h 41",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ARGENTEUIL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ D'ARGENTEUIL",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 790374,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE DRUMMONDVILLE - LES PETITS BONHEURS",
+   "adresse": "449, rue Notre-Dame, Drummondville",
+   "telephone": "819 850-9519",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL SAINTE-CROIX",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 avril 2026, 13 h 21",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE DRUMMONDVILLE - LES PETITS BONHEURS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE DRUMMONDVILLE - LES PETITS BONHEURS",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1112178,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LANAUDIÈRE",
+   "adresse": "408, rue Fabre, Joliette",
+   "telephone": "579 960-2739",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 avril 2026, 19 h 01",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LANAUDIÈRE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE LANAUDIÈRE",
+    "Pédiatrie sociale",
+    "Le centre de pédiatrie sociale en communauté de Lanaudière offre un programme diversifié de prévention, d’éducation/rééducation, de suivi et de soutien aux enfants, aux adolescents et à leur famille.",
+    "Il s’agit d’une intervention personnalisée en collaboration avec les différents acteurs du milieu de l’enfant (école, garderie, organismes communautaires, etc.).",
+    "Pour obtenir les services du centre de pédiatrie prendre note que les critères de sélection suivants sont nécessaires:"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1110709,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE",
+   "adresse": "202, rue Tessier, bureau A, Rimouski",
+   "telephone": "418 722-0087",
+   "rss": "01",
+   "urgenceProche": "HÔPITAL RÉGIONAL DE RIMOUSKI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 juillet 2026, 18 h 09",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE",
+    "Pédiatrie",
+    "- Évaluation de la santé de l'enfant sur le plan physique, émotionnel, développemental, scolaire et sociétal;",
+    "- Bilan des forces de l'enfant et de sa famille;",
+    "- Mise en place d'interventions avec l'enfant et sa famille pour éliminer ou réduire les effets néfastes du stress sur son développement;",
+    "- Ateliers droits des enfants;",
+    "Nous recevons les enfants de 0 à 12 ans qui vivent de nombreuses situations de vulnérabilité, de façon répétée et sévère. Un accompagnement leur est offert jusqu'à l'âge adulte."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1107971,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE DE VERDUN LES PETITS RENARDS",
+   "adresse": "4400, boulevard LaSalle, bureau 1er étage, Montréal",
+   "telephone": "438 387-7428",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DE VERDUN",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 septembre 2026, 21 h 39",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE DE VERDUN LES PETITS RENARDS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE DE VERDUN LES PETITS RENARDS",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (patient inscrit seulement)",
+    "Pédiatrie",
+    "Pédiatrie sociale"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1217563,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LA SERRE",
+   "adresse": "6855, 16e Avenue (Montréal), annexe École Sainte-Bernadette de Soubirous, Montréal",
+   "telephone": "438 367-7540",
+   "rss": "06",
+   "urgenceProche": "INSTITUT DE CARDIOLOGIE DE MONTRÉAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 janvier 2026, 0 h 41",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LA SERRE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LA SERRE",
+    "Pédiatrie Centre de pédiatrie sociale en communauté",
+    "Le modèle de médecine sociale intégrée unit l’expertise de la médecine, du droit et des sciences sociales, afin de dépister, réduire ou éliminer les sources de stress toxiques ou facteurs de risque qui affectent le développement et le bien-être de l’enfant issu d’un milieu de vie difficile."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1109928,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LE TANDEM",
+   "adresse": "75, rue Saint-David, Magog",
+   "telephone": "819 868-2743",
+   "rss": "05",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MEMPHRÉMAGOG",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juin 2026, 19 h 34",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LE TANDEM - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ LE TANDEM",
+    "Aide aux devoirs Enfants inscrits au Tandem",
+    "Ergothérapie Enfants inscrits au Tandem",
+    "Infirmier/Infirmière clinicienne Enfants inscrits au Tandem",
+    "Intervenant psychosocial Enfants inscrits au Tandem",
+    "Pédiatrie",
+    "Soins infirmiers Enfants inscrits au Tandem"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1157052,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE LES PASSERELLES",
+   "adresse": "129-A, 1re Avenue Est, Saint-Martin",
+   "telephone": "418 382-0255",
+   "rss": "12",
+   "urgenceProche": "HÔPITAL DE SAINT-GEORGES",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "11 juin 2026, 13 h 24",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE LES PASSERELLES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE LES PASSERELLES",
+    "Pédiatrie sociale en communauté où le volet médical et le volet psychosocial sont travaillés en même temps avec l'enfant et la famille. Un médecin et un intervenant social sont toujours présents lors d'une rencontre de suivi concernant l'enfant.",
+    "OBNL relevant de la structure de pédiatrie sociale mise en place par la Fondation du Dr Julien."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1112174,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE GRAND GALOP",
+   "adresse": "1015, rue Dessaulles, Saint-Hyacinthe",
+   "telephone": "450 252-4974",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "02 juin 2026, 20 h",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE GRAND GALOP - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE GRAND GALOP",
+    "Centre de pédiatrie sociale Grand Galop",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1011329,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE LAVAL - CHOMEDEY (ÉTABLISSEMENT 81215)",
+   "adresse": "3600, rue Évariste-Leblanc, appartement 106, Laval",
+   "telephone": "450 682-0277",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "29 juillet 2026, 13 h 33",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE LAVAL - CHOMEDEY (ÉTABLISSEMENT 81215) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE LAVAL - CHOMEDEY (ÉTABLISSEMENT 81215)",
+    "Pédiatrie",
+    "La clinique de Chomedey offre ses services pour les enfants lavallois ayant les codes postaux suivants: H7W et H7V."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1011333,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE LAVAL - PLACE ST-MARTIN (ÉTABLISSEMENT 81165)",
+   "adresse": "1880, avenue Dumouchel, appartement 1, Laval",
+   "telephone": "450 682-0277",
+   "rss": "13",
+   "urgenceProche": "HÔPITAL DE LA CITÉ-DE-LA-SANTÉ",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juillet 2026, 15 h 18",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE LAVAL - PLACE ST-MARTIN (ÉTABLISSEMENT 81165) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE LAVAL - PLACE ST-MARTIN (ÉTABLISSEMENT 81165)",
+    "Pédiatrie",
+    "La clinique de Place St-Martin offre ses services pour les enfants lavallois ayant les codes postaux suivants: H7S et H7M. Pour les autres codes postaux, veuillez vous référer aux 2 autres cliniques: Chomedey (H7W et H7V et Pont-Viau (H7G et H7N)."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1112311,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE LE CERCLE",
+   "adresse": "91, rue Fleury, porte jaune, Saint-Léonard-d'Aston",
+   "telephone": "819 937-2051",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL SAINTE-CROIX",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "20 février 2026, 15 h 45",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE LE CERCLE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE LE CERCLE",
+    "Le Centre de pédiatrie sociale Le Cercle offre des services médicaux-sociaux aux enfants vulnérables de 0-18 ans des MRC Nicolet-Yamaska et Bécancour."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1217561,
+   "nom": "CENTRE DE PÉDIATRIE SOCIALE PEYO",
+   "adresse": "467, avenue Ogilvy, bureau 102, Montréal",
+   "telephone": "514 278-7396",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 janvier 2026, 0 h 03",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE PÉDIATRIE SOCIALE PEYO - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE PÉDIATRIE SOCIALE PEYO"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1150265,
+   "nom": "CENTRE AMBULATOIRE DE PÉDIATRIE CIUSSS DU NORD-DE-L'ILE-DE-MONTRÉAL",
+   "adresse": "1415, rue Jarry Est, bureau D-810, 4e étage, Montréal",
+   "telephone": "514 495-6767",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juin 2026, 21 h 49",
+   "manque": [],
+   "lignes": [
+    "CENTRE AMBULATOIRE DE PÉDIATRIE CIUSSS DU NORD-DE-L'ILE-DE-MONTRÉAL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE AMBULATOIRE DE PÉDIATRIE CIUSSS DU NORD-DE-L'ILE-DE-MONTRÉAL"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 703597,
+   "nom": "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE DE L'OUTAOUAIS",
+   "adresse": "160, boulevard de l'Hôpital, unité 20, Gatineau",
+   "telephone": "819 966-6388",
+   "rss": "07",
+   "urgenceProche": "HÔPITAL DE GATINEAU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 mai 2026, 14 h 58",
+   "manque": [],
+   "lignes": [
+    "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE DE L'OUTAOUAIS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE DE L'OUTAOUAIS",
+    "Infirmier/Infirmière praticienne spécialisée"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 53443,
+   "nom": "CLINIQUE DE PÉDIATRIE DU SAGUENAY",
+   "adresse": "475, boulevard Talbot, Saguenay",
+   "telephone": "418 549-1034",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "10 juin 2026, 16 h 53",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE DE PÉDIATRIE DU SAGUENAY - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE DE PÉDIATRIE DU SAGUENAY",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 56929,
+   "nom": "CLINIQUE DE PEDIATRIE ET D'ADOLESCENCE DE ROUYN-NORANDA",
+   "adresse": "3, 9e Rue, Rouyn-Noranda",
+   "telephone": "819 762-0995",
+   "rss": "08",
+   "urgenceProche": "HÔPITAL DE ROUYN-NORANDA",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "02 mai 2025, 16 h 01",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE DE PEDIATRIE ET D'ADOLESCENCE DE ROUYN-NORANDA - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE DE PEDIATRIE ET D'ADOLESCENCE DE ROUYN-NORANDA",
+    "Pédiatrie",
+    "Il s'agit d'une clinique pédiatrique multidisciplinaire avec spécialiste - cardiologie pédiatrique - Dr TakTak à temps plein.",
+    "gastro pédiatrie",
+    "pneumo pédiatrie",
+    "endocrino pédiatrie",
+    "Le suivi spécialisé clinique de diabète juvénile pédiatrique type I et type II pour une partie de la région MRC La Sarre; MRC Témiscamingue Ville-Marie et MRC Rouyn-Noranda"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 835223,
+   "nom": "CLINIQUE DE PÉDIATRIE JOLIBOURG",
+   "adresse": "1263, boulevard Jolibourg, bureau 117, Laval",
+   "telephone": "450 314-3149",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-EUSTACHE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "11 juin 2024, 16 h 03",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE DE PÉDIATRIE JOLIBOURG - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE DE PÉDIATRIE JOLIBOURG",
+    "Pédiatrie",
+    "Service de consultation d’urgences le jour même, selon les disponibilités. appeler au 450-314-3149 à partir de 7 h 30 pour prendre votre rendez-vous."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 29803,
+   "nom": "CLINIQUE SPÉCIALISÉE EN PÉDIATRIE",
+   "adresse": "2750, boulevard Laframboise, pavillon St-Charles, rez-de-chaussée, Saint-Hyacinthe",
+   "telephone": "450 771-3425",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "tous",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "14 septembre 2026, 12 h 19",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "CLINIQUE SPÉCIALISÉE EN PÉDIATRIE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE SPÉCIALISÉE EN PÉDIATRIE",
+    "Sans rendez-vous : 450 771-3425 , poste 3",
+    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
+    "Pédiatrie",
+    "Les plages horaires SANS rendez-vous sont ouvertes à TOUS les enfants de moins de 18ans. L'horaire varie entre 8h15 et 11h10 et selon la disponibilité du médecin. Il faut téléphoner à 7h30 le matin pour prendre un rendez-vous pour l'avant-midi même.",
+    "La clinique spécialisée de pédiatrie ne prend pas de nouveau patient.",
+    "Si vous devez consulter un pédiatre pour une problématique X, vous devez obtenir une demande de consultation auprès de votre médecin famille et la référence doit être envoyé au CRDS."
+   ],
+   "decision": "pour tous, fiche incomplète"
+  },
+  {
+   "nofiche": 1143611,
+   "nom": "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE CAMIRAND",
+   "adresse": "50, rue Camirand, Sherbrooke",
+   "telephone": "819 780-2222",
+   "rss": "05",
+   "urgenceProche": "CHUS - HÔTEL-DIEU DE SHERBROOKE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "31 août 2026, 12 h 26",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE CAMIRAND - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DE SERVICES AMBULATOIRES EN PÉDIATRIE CAMIRAND"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 724821,
+   "nom": "CLINIQUE EXTERNE DE PÉDIATRIE",
+   "adresse": "1000, rue Labelle, bureau 2100, Saint-Jérôme",
+   "telephone": "450 569-4860",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-JÉRÔME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 mars 2024, 14 h 01",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE EXTERNE DE PÉDIATRIE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE EXTERNE DE PÉDIATRIE"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 54058,
+   "nom": "COMITÉ DE SOUTIEN À LA PÉDIATRIE DE L'ABITIBI-TÉMISCAMINGUE",
+   "adresse": "90, avenue Murdoch, c.P. 2204, Rouyn-Noranda",
+   "telephone": "819 279-7702",
+   "rss": "08",
+   "urgenceProche": "HÔPITAL DE ROUYN-NORANDA",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 février 2026, 19 h 54",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "COMITÉ DE SOUTIEN À LA PÉDIATRIE DE L'ABITIBI-TÉMISCAMINGUE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "COMITÉ DE SOUTIEN À LA PÉDIATRIE DE L'ABITIBI-TÉMISCAMINGUE",
+    "Pédiatrie",
+    "AIDE FINANCIÈRE ET SOUTIEN MORAL AUX PARENTS D'ENFANTS MALADES."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 191438,
+   "nom": "GMF ELNA DÉCARIE (ELNA PEDIATRIE)",
+   "adresse": "6900, boulevard Décarie, bureau M160, Côte-Saint-Luc",
+   "telephone": "514 342-9911",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL JUIF",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "28 août 2026, 15 h 17",
+   "manque": [],
+   "lignes": [
+    "GMF ELNA DÉCARIE (ELNA PEDIATRIE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "GMF ELNA DÉCARIE (ELNA PEDIATRIE)",
+    "- La réservation en ligne n’est pas disponible pour les patients de Dre Barone, Dre Bibas, Dre Leitner, Dre Morrison et Dre Wizman. Pour prendre rendez-vous avec eux, veuillez nous contacter par téléphone ou par e-mail (pediatriedecarie@elnamedical.com).",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1149384,
+   "nom": "LA MAISON CARACOL CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE PIERREFONDS-EST",
+   "adresse": "4799, boulevard Lalande, Montréal",
+   "telephone": "514 545-1977",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "09 juillet 2026, 20 h 40",
+   "manque": [],
+   "lignes": [
+    "LA MAISON CARACOL CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE PIERREFONDS-EST - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA MAISON CARACOL CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ DE PIERREFONDS-EST",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 782350,
+   "nom": "L'ÉTOILE, PÉDIATRIE SOCIALE EN COMMUNAUTÉ DU HAUT-RICHELIEU",
+   "adresse": "212, rue Saint-Jacques, Saint-Jean-sur-Richelieu",
+   "telephone": "450 346-7288",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL DU HAUT-RICHELIEU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 septembre 2025, 18 h 03",
+   "manque": [],
+   "lignes": [
+    "L'ÉTOILE, PÉDIATRIE SOCIALE EN COMMUNAUTÉ DU HAUT-RICHELIEU - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "L'ÉTOILE, PÉDIATRIE SOCIALE EN COMMUNAUTÉ DU HAUT-RICHELIEU",
+    "Agent de relations humaines Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités",
+    "Infirmier/Infirmière clinicienne Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités",
+    "Omnipratique Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités",
+    "Ostéopathie Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités",
+    "Psychoéducation Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités",
+    "Santé communautaire Seul les enfants inscrits à L'Étoile peuvent recevoir cette spécialités"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 34881,
+   "nom": "MAISON DE LA FAMILLE NOUVELLE-BEAUCE ET CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ",
+   "adresse": "392, avenue Proulx, Sainte-Marie",
+   "telephone": "418 387-3585",
+   "rss": "12",
+   "urgenceProche": "CHSLD ET HÔPITAL PAUL-GILBERT",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "03 avril 2025, 14 h 53",
+   "manque": [],
+   "lignes": [
+    "MAISON DE LA FAMILLE NOUVELLE-BEAUCE ET CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "MAISON DE LA FAMILLE NOUVELLE-BEAUCE ET CENTRE DE PÉDIATRIE SOCIALE EN COMMUNAUTÉ"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 508238,
+   "nom": "À HAUTEUR D'ENFANT",
+   "adresse": "691, 2e Avenue, Val-d'Or",
+   "telephone": "819 824-3572",
+   "rss": "08",
+   "urgenceProche": "HÔPITAL DE VAL-D'OR",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "21 avril 2026, 14 h 28",
+   "manque": [],
+   "lignes": [
+    "À HAUTEUR D'ENFANT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "À HAUTEUR D'ENFANT",
+    "- Ateliers de prévention offert dans les milieux de vie des enfants, tels que services de garde, écoles primaires,",
+    "Prévenir toutes les formes de violence faite aux enfants en sensibilisant et outillant les enfants, les adultes qui les entourent ainsi que les milieux de vie."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 29263,
+   "nom": "AIDE AUX ENFANTS HANDICAPÉS DE BLAINVILLE / DEUX-MONTAGNES",
+   "adresse": "Saint-Eustache (Québec) J7R 4K5",
+   "telephone": "450 472-6410",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "31 mars 2021, 15 h 30",
+   "manque": [
+    "position"
+   ],
+   "lignes": [
+    "AIDE AUX ENFANTS HANDICAPÉS DE BLAINVILLE / DEUX-MONTAGNES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "AIDE AUX ENFANTS HANDICAPÉS DE BLAINVILLE / DEUX-MONTAGNES",
+    "https://www.saint-eustache.ca/aide-aux-enfants-han",
+    "Le camp de jour estival est organisé par la Maison des parents d'enfants handicapés des Laurentides et se tient à l'école des Érables à Deux- Montagnes",
+    "Soutenir financièrement la maison des parents d'enfants handicapés / Aider au financement des camps de jour estivaux pour les jeunes handicapés avec une déficience intellectuelle/ AIDE AU CAMP DE JOUR ESTIVAL & SOUTIEN AUX ACTIVITÉS D'INTÉGRATION SOCIALE"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 55705,
+   "nom": "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DE DRUMMOND",
+   "adresse": "1140, rue Cormier, Drummondville",
+   "telephone": "819 477-9377",
+   "rss": "04",
+   "urgenceProche": "HÔPITAL SAINTE-CROIX",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "02 juin 2026, 15 h 10",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DE DRUMMOND - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DE DRUMMOND",
+    "Activités parents/enfants",
+    "Ateliers Parents-Enfant",
+    "Rassembler les parents d'enfants handicapés, les informer et les outiller afin de les soutenir dans leur cheminement de vie."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 35935,
+   "nom": "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPES DES HAUTES-LAURENTIDES",
+   "adresse": "764, rue Labelle Nord, Rivière-Rouge",
+   "telephone": "819 275-3828",
+   "rss": "15",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE RIVIÈRE-ROUGE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 août 2024, 14 h 15",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPES DES HAUTES-LAURENTIDES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPES DES HAUTES-LAURENTIDES",
+    "Présente dans la Vallée de la Rouge depuis 1990, l'Association des parents d'enfants handicapés des Hautes-Laurentides est un organisme de soutien pour les parents dont l'enfant présente des limitations fonctionnelles liées à une déficience, peu importe le type de déficience et l'âge.",
+    "Contribuer au mieux-vivre des familles, proches aidants et personnes en situation de handicap, associée à une déficience, qu'elle soit d'ordre intellectuel, physique, sensoriel, neurologique, troubles du spectre de l'autisme ou autres, et d'âges variés (enfants, adolescents, adultes)."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 548090,
+   "nom": "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DU TÉMISCAMINGUE INC.",
+   "adresse": "3, rue Industrielle, bureau 4, Ville-Marie",
+   "telephone": "819 622-1126",
+   "rss": "08",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE VILLE-MARIE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "12 février 2025, 13 h 35",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DU TÉMISCAMINGUE INC. - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS DU TÉMISCAMINGUE INC."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 42945,
+   "nom": "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS INC. (TROIS-RIVIÈRES)",
+   "adresse": "1900, rue Royale, Trois-Rivières",
+   "telephone": "819 691-0342",
+   "rss": "04",
+   "urgenceProche": "PAVILLON SAINTE-MARIE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "20 octobre 2026, 15 h 41",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS INC. (TROIS-RIVIÈRES) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DES PARENTS D'ENFANTS HANDICAPÉS INC. (TROIS-RIVIÈRES)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 30008,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (AQEPA PROVINCIALE)",
+   "adresse": "2033, rue Sherbrooke Est, Montréal",
+   "telephone": "514 842-8706",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL NOTRE-DAME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 février 2025, 20 h 36",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (AQEPA PROVINCIALE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (AQEPA PROVINCIALE)",
+    "Votre enfant a une surdité?",
+    "Plaisir de lire est un programme de stimulation précoce par la lecture, offert gratuitement à domicile, aux familles ayant un enfant vivant avec une surdité, entre 0 et 5 ans. Pour bénéficier du service écrivez à plaisirdelire@aqepa.org"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 43024,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) ESTRIE (05) INC.",
+   "adresse": "1255, rue Daniel, bureau 207, Sherbrooke",
+   "telephone": "819 829-2737",
+   "rss": "05",
+   "urgenceProche": "CHUS - HÔTEL-DIEU DE SHERBROOKE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "28 mai 2026, 18 h 26",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) ESTRIE (05) INC. - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) ESTRIE (05) INC.",
+    "Contribuer à une meilleure qualité de vie et à une meilleure intégration familiale, sociale, communautaire et scolaire des enfants atteints de problèmes auditifs et favoriser le développement d'une plus grande estime de soi pour ces enfants."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 47329,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) SAGUENAY INC",
+   "adresse": "138, rue Price Ouest, bureau 051, Saguenay",
+   "telephone": "418 718-3344",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "26 janvier 2026, 18 h 17",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) SAGUENAY INC - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (A.Q.E.P.A.) SAGUENAY INC",
+    "Favoriser l'épanouissement et l'intégration des enfants avec problèmes auditifs dans la société. Assurer un impact positif pour la vie en intervenant dès la petite enfance et jusqu'à l'âge adulte. Informer et soutenir les parents tout en faisant la promotion de la cause dans la société."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 28756,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (TROIS-RIVIÈRES)",
+   "adresse": "110, rue des Forges, bureau A, 3e étage, Trois-Rivières",
+   "telephone": "819 370-3558",
+   "rss": "04",
+   "urgenceProche": "PAVILLON SAINTE-MARIE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "17 août 2026, 18 h 29",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (TROIS-RIVIÈRES) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS (TROIS-RIVIÈRES)",
+    "- Assurer l'information et le soutien aux parents d'enfants vivant avec une surdité au moyen de rencontres de soutien mutuel et de la publication de la revue Entendre;",
+    "- Intervenir à titre de porte-parole des parents et de leurs jeunes vivant avec une surdité auprès des instances décisionnelles afin de développer des ressources toujours mieux adaptées aux besoins de ces enfants;"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 426092,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS",
+   "adresse": "2033, rue Sherbrooke Est, Montréal",
+   "telephone": "514 842-3926",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL NOTRE-DAME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "31 août 2026, 23 h 12",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS",
+    "- Assurer l'information et le soutien aux parents d'enfants vivant avec une surdité."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 36915,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS QUÉBEC-MÉTR0 (RÉGION 03 ET 12)",
+   "adresse": "157, rue des Chênes Ouest, bureau 275, Québec",
+   "telephone": "418 623-3232",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL SAINT-FRANÇOIS D'ASSISE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "05 février 2026, 16 h 31",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS QUÉBEC-MÉTR0 (RÉGION 03 ET 12) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS QUÉBEC-MÉTR0 (RÉGION 03 ET 12)",
+    "L'AQEPA est une association dédiée aux enfants vivant avec une surdité et au soutien à leurs parents. L'AQEPA Québec-Métro développe, offre et fait la promotion des services nécessaires au développement du plein potentiel des enfants avec problèmes auditifs."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 507599,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR ABITIBI-TÉMISCAMINGUE INC",
+   "adresse": ", c.P. 344, Rouyn-Noranda",
+   "telephone": "819 917-5399",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "16 juin 2026, 13 h 54",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR ABITIBI-TÉMISCAMINGUE INC - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR ABITIBI-TÉMISCAMINGUE INC"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 567836,
+   "nom": "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR LAC-SAINT-JEAN INC.",
+   "adresse": "Adresse de correspondance",
+   "telephone": "418 344-4992",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "14 novembre 2025, 14 h 11",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR LAC-SAINT-JEAN INC. - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION DU QUÉBEC POUR ENFANTS AVEC PROBLÈMES AUDITIFS SECTEUR LAC-SAINT-JEAN INC.",
+    "Favoriser l’épanouissement et l’intégration des enfants avec problèmes auditifs dans la société. Assurer un impact positif pour la vie en intervenant dès la petite enfance et jusqu’à l’âge adulte. Informer et soutenir les parents tout en faisant la promotion de la cause dans la société."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 37551,
+   "nom": "ASSOCIATION QUÉBÉCOISE DES PARENTS D'ENFANTS HANDICAPÉS VISUELS",
+   "adresse": "10, boulevard Churchill, bureau 203, Longueuil",
+   "telephone": "888 849-8729",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL CHARLES-LE MOYNE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "03 juillet 2019, 19 h 48",
+   "manque": [],
+   "lignes": [
+    "ASSOCIATION QUÉBÉCOISE DES PARENTS D'ENFANTS HANDICAPÉS VISUELS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ASSOCIATION QUÉBÉCOISE DES PARENTS D'ENFANTS HANDICAPÉS VISUELS"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 32530,
+   "nom": "AVANT TOUT LES ENFANTS (QUÉBEC)",
+   "adresse": "6780, 1re Avenue, bureau 130, Québec",
+   "telephone": "418 650-2105",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL DE L'ENFANT-JÉSUS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 avril 2026, 18 h 03",
+   "manque": [],
+   "lignes": [
+    "AVANT TOUT LES ENFANTS (QUÉBEC) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "AVANT TOUT LES ENFANTS (QUÉBEC)",
+    "Protéger et défendre les droits des enfants et des adolescents en difficulté et plus particulièrement des personnes aux prises avec des problèmes découlant de conflits conjugaux et/ou de l'éclatement de la famille.",
+    "- Éduquer le public en offrant des séminaires et ateliers sur des thèmes reliés au bien-être des enfants et la famille."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 442726,
+   "nom": "AVANT TOUT, LES ENFANTS / CHILDREN NOW",
+   "adresse": "5151, jean-Talon Est, bureau 250, Montréal",
+   "telephone": "514 593-4303",
+   "rss": "06",
+   "urgenceProche": "INSTITUT DE CARDIOLOGIE DE MONTRÉAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 juillet 2024, 17 h 39",
+   "manque": [],
+   "lignes": [
+    "AVANT TOUT, LES ENFANTS / CHILDREN NOW - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "AVANT TOUT, LES ENFANTS / CHILDREN NOW",
+    "Éduquer le public en offrant des séminaires et des ateliers sur des thèmes reliés au bien-être des enfants et de la famille.",
+    "Offrir des camps et journées de rêve aux enfants défavorisés."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 52891,
+   "nom": "CARREFOUR PARENFANTS",
+   "adresse": "5021, rue Sainte-Catherine Est, Montréal",
+   "telephone": "514 259-6127",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL MAISONNEUVE-ROSEMONT",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "17 juillet 2026, 12 h 58",
+   "manque": [],
+   "lignes": [
+    "CARREFOUR PARENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CARREFOUR PARENFANTS",
+    "Activités parents/enfants",
+    "Ateliers Parents-Enfant",
+    "Le Carrefour Parenfants est un organisme à but non lucratif qui vise le mieux être des familles en favorisant le développement des enfants et le cheminement des parents dans leur responsabilité parentale et personnelle."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 181686,
+   "nom": "CENTRE DES ENFANTS",
+   "adresse": "522, rue Sainte-Anne, Saguenay",
+   "telephone": "418 602-1834",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 septembre 2026, 12 h 33",
+   "manque": [],
+   "lignes": [
+    "CENTRE DES ENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CENTRE DES ENFANTS",
+    "* Les enfants dans nos services peuvent bénéficier d'une médecine sociale pédiatrique.",
+    "Maximiser le développement des enfants vivant en contexte de vulnérabilité et accompagner leur famille.",
+    "Réduire la détresse psychologique chez les enfants. Favoriser la réussite scolaire. Renforcer les conditions qui favorisent le développement optimal des enfants. Briser l'isolement des parents."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1055406,
+   "nom": "CLINIQUE COURTE ÉCHELLE (RÉADAPTATION POUR ENFANTS)",
+   "adresse": "756, rue d'Alma, Saguenay",
+   "telephone": "418 376-9622",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "23 décembre 2025, 16 h 23",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE COURTE ÉCHELLE (RÉADAPTATION POUR ENFANTS) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE COURTE ÉCHELLE (RÉADAPTATION POUR ENFANTS)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 684142,
+   "nom": "CLINIQUE DES ENFANTS ARC EN CIEL (CHILDREN OF THE RAINBOW CLINIC)",
+   "adresse": "1510, boulevard Henri-Bourassa Ouest, bureau 203, Montréal",
+   "telephone": "514 389-4786",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL DU SACRÉ-COEUR-DE-MONTRÉAL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "05 février 2026, 13 h 09",
+   "manque": [],
+   "lignes": [
+    "CLINIQUE DES ENFANTS ARC EN CIEL (CHILDREN OF THE RAINBOW CLINIC) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CLINIQUE DES ENFANTS ARC EN CIEL (CHILDREN OF THE RAINBOW CLINIC)",
+    "clinique des enfants arc en ciel (francais)",
+    "Heures pour prendre un rendez-vous régulier pour Pédiatrie",
+    "Pédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 42159,
+   "nom": "CORPORATION LES ENFANTS DE MA RUE",
+   "adresse": "638, boulevard de la Base-de-Roc, Joliette",
+   "telephone": "450 752-2608",
+   "rss": "14",
+   "urgenceProche": "HÔPITAL DE LANAUDIÈRE ET CENTRE D'HÉBERGEMENT PARPHILIA-FERLAND",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 août 2026, 15 h 03",
+   "manque": [],
+   "lignes": [
+    "CORPORATION LES ENFANTS DE MA RUE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CORPORATION LES ENFANTS DE MA RUE"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 320024,
+   "nom": "CYBERAIDE-LE SERVICE PANCANADIEN DE SIGNALEMENT D'ENFANTS EXPLOITÉS SEXUELLEMENT SUR INTERNET",
+   "adresse": "Adresse non disponible.",
+   "telephone": "866 658-9022",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "09 mai 2017, 15 h 30",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "CYBERAIDE-LE SERVICE PANCANADIEN DE SIGNALEMENT D'ENFANTS EXPLOITÉS SEXUELLEMENT SUR INTERNET - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "CYBERAIDE-LE SERVICE PANCANADIEN DE SIGNALEMENT D'ENFANTS EXPLOITÉS SEXUELLEMENT SUR INTERNET"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 48341,
+   "nom": "ENFANTS-ADULTES DE FAMILLE DYSFONCTIONNELLE OU ALCOOLIQUE",
+   "adresse": "Adresse non disponible.",
+   "telephone": "514 990-0901",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "24 décembre 2025, 19 h 05",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "ENFANTS-ADULTES DE FAMILLE DYSFONCTIONNELLE OU ALCOOLIQUE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "ENFANTS-ADULTES DE FAMILLE DYSFONCTIONNELLE OU ALCOOLIQUE"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 59825,
+   "nom": "FONDATION DES ENFANTS DE VAUDREUIL-SOULANGES",
+   "adresse": "3031, boulevard de la Gare, Vaudreuil-Dorion",
+   "telephone": "450 455-6171",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL DU SUROÎT",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "21 mai 2026, 18 h 48",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "FONDATION DES ENFANTS DE VAUDREUIL-SOULANGES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "FONDATION DES ENFANTS DE VAUDREUIL-SOULANGES",
+    "Assurer la réussite éducative et sociale de tous les enfants en situation de vulnérabilité dans Vaudreuil-Soulanges.",
+    "Dans une perspective d'égalité des chances pour tous, les enfants de Vaudreuil-Soulanges ont accès à des ressources qui contribuent à leur réussite éducative et sociale."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 47396,
+   "nom": "FONDATION QUÉBÉCOISE POUR LES ENFANTS MALADES DU COEUR",
+   "adresse": "8585, boulevard Saint-Laurent, bureau 310, Montréal",
+   "telephone": "800 362-6387",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "12 janvier 2021, 19 h 41",
+   "manque": [],
+   "lignes": [
+    "FONDATION QUÉBÉCOISE POUR LES ENFANTS MALADES DU COEUR - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "FONDATION QUÉBÉCOISE POUR LES ENFANTS MALADES DU COEUR",
+    "Assistance à la recherche d'aide financière Pour les familles d'enfants malaldes du coeur",
+    "Pédiatrie Clinique mobile de cardiopédiatrie"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 151638,
+   "nom": "FONDATION RÊVES D'ENFANTS (CHIBOUGAMAU)",
+   "adresse": "14, chemin du Lac-Cummings, cP 553, Chibougamau",
+   "telephone": "418 770-7774",
+   "rss": "10",
+   "urgenceProche": "CENTRE DE SANTÉ DE CHIBOUGAMAU",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "13 mars 2026, 17 h 54",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "FONDATION RÊVES D'ENFANTS (CHIBOUGAMAU) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "FONDATION RÊVES D'ENFANTS (CHIBOUGAMAU)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 846705,
+   "nom": "GMF MACLINIQUE POINTE-CLAIRE (LA CLINIQUE POUR ENFANTS À POINTE-CLAIRE)",
+   "adresse": "955, boulevard Saint-Jean, bureau 311, Pointe-Claire",
+   "telephone": "514 459-3433",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL GÉNÉRAL DU LAKESHORE",
+   "acces": "inscrits",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 septembre 2026, 13 h 37",
+   "manque": [],
+   "lignes": [
+    "GMF MACLINIQUE POINTE-CLAIRE (LA CLINIQUE POUR ENFANTS À POINTE-CLAIRE) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "GMF MACLINIQUE POINTE-CLAIRE (LA CLINIQUE POUR ENFANTS À POINTE-CLAIRE)",
+    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants par un système automatisé pour Pédiatrie (patient inscrit seulement)",
+    "Heures pour prendre un rendez-vous pour Pédiatrie (patient inscrit seulement)",
+    "Consultations médicales le jour même ou dans les jours suivants (pour les patients inscrits)",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Pédiatrie"
+   ],
+   "decision": "patients inscrits seulement"
+  },
+  {
+   "nofiche": 1000312,
+   "nom": "GMF REINE ELIZABETH (CLINIQUE POUR ENFANTS SHERBROOKE OUEST)",
+   "adresse": "5025, rue Sherbrooke Ouest, bureau 355, 2e étage, Westmount",
+   "telephone": "438 380-3222",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL ROYAL VICTORIA",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "30 septembre 2026, 17 h 57",
+   "manque": [],
+   "lignes": [
+    "GMF REINE ELIZABETH (CLINIQUE POUR ENFANTS SHERBROOKE OUEST) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "GMF REINE ELIZABETH (CLINIQUE POUR ENFANTS SHERBROOKE OUEST)",
+    "Nos médecins généralistes, traitent toutes les maladies sans spécialisations particulière pour les enfants de 0 à 18 ans."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 225,
+   "nom": "HÔPITAL SHRINERS POUR ENFANTS (QUÉBEC)",
+   "adresse": "1003, boulevard Décarie (Montréal), Montréal",
+   "telephone": "514 842-4464",
+   "rss": "06",
+   "urgenceProche": "L'HÔPITAL DE MONTRÉAL POUR ENFANTS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 janvier 2025, 17 h 10",
+   "manque": [],
+   "lignes": [
+    "HÔPITAL SHRINERS POUR ENFANTS (QUÉBEC) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "HÔPITAL SHRINERS POUR ENFANTS (QUÉBEC)",
+    "HÔPITAL SHRINERS POUR ENFANTS (QUÉBEC) INC.",
+    "Soins pédiatriques neuromusculosquelettiques"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 52958,
+   "nom": "INTÉGRATION SOCIALE DES ENFANTS EN MILIEU DE GARDE",
+   "adresse": "386, rue De Gentilly Ouest, suite 105, Longueuil",
+   "telephone": "450 646-2714",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL PIERRE-BOUCHER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 juillet 2026, 15 h 52",
+   "manque": [],
+   "lignes": [
+    "INTÉGRATION SOCIALE DES ENFANTS EN MILIEU DE GARDE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "INTÉGRATION SOCIALE DES ENFANTS EN MILIEU DE GARDE",
+    "Le service conseil s'adresse à tous les services de garde en milieu scolaire de toutes les régions du Québec qui sont appelés à accueillir ou qui accueillent un ou des enfants ayant une déficience, qu'elle soit visuelle, auditive, intellectuelle, motrice, ou atteints d'autisme ou de dysphasie."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 534311,
+   "nom": "LA FONDATION COCCINELLE POUR LES ENFANTS HANDICAPÉS",
+   "adresse": "6630-A, avenue Papineau, Montréal",
+   "telephone": "514 725-0009",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 août 2026, 14 h 26",
+   "manque": [],
+   "lignes": [
+    "LA FONDATION COCCINELLE POUR LES ENFANTS HANDICAPÉS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA FONDATION COCCINELLE POUR LES ENFANTS HANDICAPÉS",
+    "Offrir des services de loisirs et de stimulation destinés aux personnes (enfant, adulte, 3e âge) ayant des incapacités tant au niveau intellectuel que physique."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 36722,
+   "nom": "LA FONDATION RÊVES D'ENFANTS (DIVISION QUÉBEC OUEST)",
+   "adresse": "4200, boulevard Saint-Laurent, bureau 904, Montréal",
+   "telephone": "514 289-1777",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL NOTRE-DAME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juin 2020, 17 h 29",
+   "manque": [],
+   "lignes": [
+    "LA FONDATION RÊVES D'ENFANTS (DIVISION QUÉBEC OUEST) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA FONDATION RÊVES D'ENFANTS (DIVISION QUÉBEC OUEST)",
+    "Rêves d'enfants"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 38538,
+   "nom": "LA JOIE DES ENFANTS (MONTRÉAL)",
+   "adresse": "8321, rue Clark, Montréal",
+   "telephone": "514 270-0338",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "31 mars 2026, 18 h",
+   "manque": [],
+   "lignes": [
+    "LA JOIE DES ENFANTS (MONTRÉAL) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA JOIE DES ENFANTS (MONTRÉAL)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 47650,
+   "nom": "LA MAISON DALAUZE, CENTRE D'HÉBERGEMENT POUR FEMMES VIOLENTÉES AVEC OU SANS ENFANTS",
+   "adresse": "Adresse de correspondance",
+   "telephone": "866 619-4222",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "28 mai 2026, 18 h 24",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "LA MAISON DALAUZE, CENTRE D'HÉBERGEMENT POUR FEMMES VIOLENTÉES AVEC OU SANS ENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA MAISON DALAUZE, CENTRE D'HÉBERGEMENT POUR FEMMES VIOLENTÉES AVEC OU SANS ENFANTS",
+    "Offrir des services de suivis psychosociaux, des suivis en intervention jeunesse et des suivis en soutien juridique en hébergement et en externe aux femmes violentées et leurs enfants."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 45656,
+   "nom": "LA MAISON DES ENFANTS DE L'ÎLE DE MONTRÉAL",
+   "adresse": "1844, boulevard Pie-IX, Montréal",
+   "telephone": "514 526-9128",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL MAISONNEUVE-ROSEMONT",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "15 juillet 2026, 20 h 18",
+   "manque": [],
+   "lignes": [
+    "LA MAISON DES ENFANTS DE L'ÎLE DE MONTRÉAL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA MAISON DES ENFANTS DE L'ÎLE DE MONTRÉAL",
+    "- Renforcement de l'estime de soi, faire vivre des réussites et des expériences positives à l'enfant;",
+    "- Former des réseaux d'entraide entre les enfants et protéger les liens familiaux."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 29423,
+   "nom": "LA MAISON DES ENFANTS LE DAUPHIN DE LAVAL",
+   "adresse": "799, rue Loranger, Laval",
+   "telephone": "450 978-2664",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL EN SANTÉ MENTALE ALBERT-PRÉVOST",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "22 juillet 2026, 13 h 04",
+   "manque": [],
+   "lignes": [
+    "LA MAISON DES ENFANTS LE DAUPHIN DE LAVAL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA MAISON DES ENFANTS LE DAUPHIN DE LAVAL",
+    "- Par la main (0-5 ans et un de leurs parents) : propose des activités de bricolage, relaxation, motricité globale, causerie, rencontre parents et halte-garderie pour les enfants.",
+    "- Les poissons gigotent pour enfants avec retard de développement affectif, physique ou cognitif. Suivi individuel 2h/semaine selon rythme de l'enfant."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 47118,
+   "nom": "LA MAISON DES PARENTS D'ENFANTS HANDICAPES DES LAURENTIDES",
+   "adresse": "909, rue Guy, Saint-Jérôme",
+   "telephone": "450 431-7428",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-JÉRÔME",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "23 décembre 2025, 16 h",
+   "manque": [],
+   "lignes": [
+    "LA MAISON DES PARENTS D'ENFANTS HANDICAPES DES LAURENTIDES - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LA MAISON DES PARENTS D'ENFANTS HANDICAPES DES LAURENTIDES"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 44628,
+   "nom": "L'ASSOCIATION DES PARENTS DES ENFANTS HANDICAPÉS RICHELIEU-VAL-MASKA",
+   "adresse": "16675, avenue Desrochers, Saint-Hyacinthe",
+   "telephone": "450 261-8556",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "18 mars 2026, 19 h 56",
+   "manque": [],
+   "lignes": [
+    "L'ASSOCIATION DES PARENTS DES ENFANTS HANDICAPÉS RICHELIEU-VAL-MASKA - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "L'ASSOCIATION DES PARENTS DES ENFANTS HANDICAPÉS RICHELIEU-VAL-MASKA"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 39993,
+   "nom": "L'AUTRE ESCALE, CENTRE D'INTERVENTION POUR LES ENFANTS EXPOSÉS À LA VIOLENCE CONJUGALE",
+   "adresse": "Adresse de correspondance",
+   "telephone": "263 380-4223",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "13 mars 2026, 18 h 14",
+   "manque": [
+    "position"
+   ],
+   "lignes": [
+    "L'AUTRE ESCALE, CENTRE D'INTERVENTION POUR LES ENFANTS EXPOSÉS À LA VIOLENCE CONJUGALE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "L'AUTRE ESCALE, CENTRE D'INTERVENTION POUR LES ENFANTS EXPOSÉS À LA VIOLENCE CONJUGALE",
+    "Venir en aide aux enfants et adolescents(es) exposés à la violence conjugale ainsi qu'à leurs mères."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 45221,
+   "nom": "LE PARADOS INC. MAISON D'HÉBERGEMENT POUR FEMMES VIOLENTÉES ET LEURS ENFANTS",
+   "adresse": "Adresse non disponible.",
+   "telephone": "514 637-3529",
+   "rss": "",
+   "urgenceProche": "",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "07 avril 2026, 13 h 14",
+   "manque": [
+    "heures",
+    "position"
+   ],
+   "lignes": [
+    "LE PARADOS INC. MAISON D'HÉBERGEMENT POUR FEMMES VIOLENTÉES ET LEURS ENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LE PARADOS INC. MAISON D'HÉBERGEMENT POUR FEMMES VIOLENTÉES ET LEURS ENFANTS"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 41059,
+   "nom": "LES ENFANTS DE L'ESPOIR DE HULL",
+   "adresse": "107, rue Dollard-Des Ormeaux, Gatineau",
+   "telephone": "343 204-3774",
+   "rss": "07",
+   "urgenceProche": "HÔPITAL DE HULL",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "04 mars 2024, 17 h 13",
+   "manque": [],
+   "lignes": [
+    "LES ENFANTS DE L'ESPOIR DE HULL - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LES ENFANTS DE L'ESPOIR DE HULL",
+    "Favoriser le développement, le soutien et le bien-être des enfants entre 0 et 12 ans.",
+    "Offrir des activités et sorties familiales pour favoriser le lien parent-enfant et permettre aux familles à faible revenu de vivre des expériences enrichissantes."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 35523,
+   "nom": "LES MATINÉES PARENTS-ENFANTS",
+   "adresse": "418, boulevard Sir-Wilfrid-Laurier, Mont-Saint-Hilaire",
+   "telephone": "514 800-6737",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL HONORÉ-MERCIER",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "12 mars 2026, 15 h 11",
+   "manque": [],
+   "lignes": [
+    "LES MATINÉES PARENTS-ENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LES MATINÉES PARENTS-ENFANTS",
+    "Activité parents-enfants",
+    "L'organisme Les Matinées Parents-enfants vise à aider ses membres à:",
+    "Tisser des liens et briser l'isolement, -Bénéficier d'un repos bien mérité, -Jouir d'un lieu d'éducation et de socialisation autant pour le parent que l'enfant, -Valoriser ses compétences parentales, -Favoriser un sentiment d'appartenance et de confiance en soi"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 426086,
+   "nom": "LEUCAN - ABITIBI-TÉMISCAMINGUE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER)",
+   "adresse": "680, 3e Avenue, bureau 201, Val-d'Or",
+   "telephone": "819 825-5200",
+   "rss": "08",
+   "urgenceProche": "HÔPITAL DE VAL-D'OR",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "18 décembre 2025, 13 h 46",
+   "manque": [],
+   "lignes": [
+    "LEUCAN - ABITIBI-TÉMISCAMINGUE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LEUCAN - ABITIBI-TÉMISCAMINGUE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER)",
+    "Massothérapie en pédiatrie",
+    "Pour les enfants, adolescents et jeunes adultes atteints du cancer et leur famille.",
+    "Accroître la confiance en l'avenir des enfants atteints de cancer et de leur famille."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 426173,
+   "nom": "LEUCAN - MONTÉRÉGIE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER)",
+   "adresse": "5, rue de la Place-du-Commerce, bureau 102, Brossard",
+   "telephone": "450 876-0444",
+   "rss": "16",
+   "urgenceProche": "HÔPITAL CHARLES-LE MOYNE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "27 octobre 2025, 15 h 14",
+   "manque": [],
+   "lignes": [
+    "LEUCAN - MONTÉRÉGIE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER) - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LEUCAN - MONTÉRÉGIE (ASSOCIATION POUR LES ENFANTS ATTEINTS DE CANCER)",
+    "Massothérapie En centre hospitalier et à domicile certifié en oncologie pédiatrique",
+    "Pédiatrie",
+    "Leucan s’engage depuis 1978 à soutenir les enfants atteints de cancer et leur famille.",
+    "Favoriser le rétablissement et le mieux-être des enfants atteints de cancer et de leur famille par des services d’accompagnement et de soutien distinctifs et adaptés, à toutes les étapes de la maladie et de ses effets."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 33215,
+   "nom": "L'OASIS DES ENFANTS DE ROSEMONT",
+   "adresse": "2555, rue Holt, Montréal",
+   "telephone": "514 374-9111",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "23 juillet 2026, 20 h 03",
+   "manque": [],
+   "lignes": [
+    "L'OASIS DES ENFANTS DE ROSEMONT - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "L'OASIS DES ENFANTS DE ROSEMONT",
+    "- Les plages horaires du volet enfants sont disponibles de 15 h 00 à 18 h 00 (5 à 12 ans) et de 8 h 00 à 17 h 00 pour les enfants de 0 à 5 ans.",
+    "Ateliers pour parents Pour enfants de 0 à 12 ans - ateliers pour les parents",
+    "Dépannage alimentaire pour familles avec enfants de 12 ans et moins seulement",
+    "L'Oasis des enfants de Rosemont offre un lieu d'accueil, d'écoute et d'accompagnement aux enfants et à leur famille, notamment ceux en situation de vulnérabilité et contribue à leur développement émotif, physique et intellectuel par le biais d'activités et de services accessibles.",
+    "- Fournir un lieu aux enfants de la communauté, défavorisés sur le plan affectif, matériel et/ou physique.",
+    "- Veiller au bien-être des enfants en leur offrant un soutien alimentaire, matériel et moral."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 52071,
+   "nom": "LE MITAN MAISON D'ACCUEIL POUR FEMMES ET ENFANTS VICTIMES DE VIOLENCE CONJUGALE",
+   "adresse": "92, rue Blainville Est, Sainte-Thérèse",
+   "telephone": "450 435-3651",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-EUSTACHE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "06 août 2024, 15 h 34",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "LE MITAN MAISON D'ACCUEIL POUR FEMMES ET ENFANTS VICTIMES DE VIOLENCE CONJUGALE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "LE MITAN MAISON D'ACCUEIL POUR FEMMES ET ENFANTS VICTIMES DE VIOLENCE CONJUGALE",
+    "Maison d'hébergement pour femmes victimes de violence conjugale et leurs enfants 24/7",
+    "Hébergement : Chambre privée avec ou sans enfants. Intervenante présente 24/24- Accompagnement psychosocial en respect de vos choix. - Ateliers différents thèmes en lien avec la violence conjugale. Service jeunesse à l'hébergement."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1199999,
+   "nom": "MAISON DES ENFANTS DE ST-ROCH",
+   "adresse": "792, rue du Roi, Québec",
+   "telephone": "418 906-2324",
+   "rss": "03",
+   "urgenceProche": "L'HÔTEL-DIEU DE QUÉBEC",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "03 juin 2026, 14 h 49",
+   "manque": [],
+   "lignes": [
+    "MAISON DES ENFANTS DE ST-ROCH - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "MAISON DES ENFANTS DE ST-ROCH",
+    "Maison des enfants de St-Roch",
+    "Aide aux devoirs et leçons / tutorat / rattrapage scolaire Pour enfants de l'école Des Berges (1re-4e année du primaire)",
+    "La Maison des Enfants de St-Roch a pour mission d’accompagner les enfants de 6 à 12 ans dans leur cheminement scolaire, personnel et social.",
+    "Aider les enfants à développer leur plein potentiel en leur offrant des activités éducatives et parascolaires ainsi qu’un milieu sécuritaire et d’appartenance."
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1096893,
+   "nom": "MAISON GILLES-CARLE FONDATION POUR ENFANTS MARC DENIS",
+   "adresse": "1176, rue Notre-Dame, Saguenay",
+   "telephone": "418 973-2010",
+   "rss": "02",
+   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "02 mai 2024, 18 h 48",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [
+    "MAISON GILLES-CARLE FONDATION POUR ENFANTS MARC DENIS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "MAISON GILLES-CARLE FONDATION POUR ENFANTS MARC DENIS"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 40751,
+   "nom": "MAKE-A-WISH®/RÊVES D’ENFANTS MD CANADA",
+   "adresse": "625, rue des Rocailles, bureau 200, Québec",
+   "telephone": "888 822-9474",
+   "rss": "03",
+   "urgenceProche": "HÔPITAL SAINT-FRANÇOIS D'ASSISE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "08 décembre 2022, 13 h 07",
+   "manque": [],
+   "lignes": [
+    "MAKE-A-WISH®/RÊVES D’ENFANTS MD CANADA - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "MAKE-A-WISH®/RÊVES D’ENFANTS MD CANADA",
+    "La ressource est fermée les jours fériés.Qui peut référer un enfant' Travailleurs sociaux, infirmières, spécialistes du milieu de l'enfant, familles/amis, éventuel enfant de rêve, autres familles de rêve, communauté ou autres organismes d'aide, médecins"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 28870,
+   "nom": "RESSOURCE PARENFANTS",
+   "adresse": "514, rue du Boisé, cP 117, Les Bergeronnes",
+   "telephone": "418 233-3320",
+   "rss": "09",
+   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DES ESCOUMINS",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "02 décembre 2025, 12 h 48",
+   "manque": [],
+   "lignes": [
+    "RESSOURCE PARENFANTS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
+    "RESSOURCE PARENFANTS",
+    "Page FB Ressource parenfants",
+    "Ressource Parenfants"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  }
+ ]
+}
