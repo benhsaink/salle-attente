@@ -478,24 +478,7 @@
   {
    "nofiche": 1133235,
    "nom": "CLINIQUE IPS SANTÉ PLUS",
-   "adresse": "3750, boulevard du Royaume, bureau 201, Saguenay",
-   "telephone": "418 758-1851",
-   "rss": "02",
-   "urgenceProche": "HÔPITAL ET CENTRE DE RÉADAPTATION DE JONQUIÈRE",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": true,
-   "miseAJour": "27 août 2026, 12 h 53",
-   "manque": [],
-   "lignes": [
-    "CLINIQUE IPS SANTÉ PLUS - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
-    "CLINIQUE IPS SANTÉ PLUS",
-    "Des frais sont exigés pour une consultation médicale le jour même ou dans les jours suivants.",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous) (des frais sont exigés)",
-    "Infirmier/Infirmière praticienne spécialisée (des frais sont exigés)",
-    "Infirmière praticienne spécialisée en santé mentale (IPSSM) (des frais sont exigés)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1122154,
@@ -711,22 +694,7 @@
   {
    "nofiche": 1159642,
    "nom": "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
-   "adresse": "4050, rue Laval, Lac-Mégantic",
-   "telephone": "418 476-8259",
-   "rss": "05",
-   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DU GRANIT",
-   "acces": "tous",
-   "accesNote": "Frais",
-   "frais": false,
-   "miseAJour": "03 mars 2026, 13 h 14",
-   "manque": [],
-   "lignes": [
-    "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
-    "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous) Frais",
-    "Infirmier/Infirmière praticienne spécialisée"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1197214,

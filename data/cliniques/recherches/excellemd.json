@@ -1,0 +1,64 @@
+{
+ "verifie": "2026-10-23",
+ "recherche": {
+  "id": "excellemd",
+  "q": [
+   "ExcelleMD"
+  ],
+  "garder": "EXCELLE"
+ },
+ "total": 3,
+ "resultats": [
+  {
+   "nofiche": 978640,
+   "nom": "CLINIQUE MÉDICALE PRIVÉE EXCELLEMD (SAINT-EUSTACHE)",
+   "adresse": "460, rue du Parc, Saint-Eustache",
+   "telephone": "844 735-8111",
+   "rss": "15",
+   "urgenceProche": "HÔPITAL DE SAINT-EUSTACHE",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "07 février 2025, 14 h 44",
+   "manque": [],
+   "lignes": [],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 1121959,
+   "nom": "CLINIQUE MÉDICALE PRIVÉE EXCELLEMD - TERREBONNE",
+   "adresse": "3195, boulevard de la Pinière, Terrebonne",
+   "telephone": "844 735-8111",
+   "rss": "13",
+   "urgenceProche": "HÔPITAL DE LA CITÉ-DE-LA-SANTÉ",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "14 août 2024, 12 h 42",
+   "manque": [
+    "heures"
+   ],
+   "lignes": [],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  },
+  {
+   "nofiche": 846325,
+   "nom": "EXCELLEM.D. (MARCHÉ CENTRAL)",
+   "adresse": "9001, boulevard de l'Acadie, bureau 101, Montréal",
+   "telephone": "450 735-8111",
+   "rss": "06",
+   "urgenceProche": "HÔPITAL JEAN-TALON",
+   "acces": "",
+   "accesNote": "",
+   "frais": false,
+   "miseAJour": "26 février 2025, 19 h 15",
+   "manque": [],
+   "lignes": [
+    "Horaire du sans rendez-vous pour Médecine familiale (pour tous)",
+    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants pour Médecine familiale (pour tous)",
+    "Infirmier/Infirmière praticienne spécialisée (des frais sont exigés)"
+   ],
+   "decision": "pas de rendez-vous le jour même indiqué"
+  }
+ ]
+}

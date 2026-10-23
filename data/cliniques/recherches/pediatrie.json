@@ -34,24 +34,7 @@
   {
    "nofiche": 735495,
    "nom": "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
-   "adresse": "7005, chemin Kildare, bureau 8, Côte-Saint-Luc",
-   "telephone": "514 481-7167",
-   "rss": "06",
-   "urgenceProche": "HÔPITAL DE LACHINE",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "06 janvier 2026, 14 h 35",
-   "manque": [],
-   "lignes": [
-    "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ - Trouver une ressource - Répertoire des ressources en santé et services sociaux",
-    "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
-    "Heures pour prendre un rendez-vous pour Pédiatrie (pour tous)",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
-    "Pédiatrie",
-    "Patients pédiatriques âgés de 3 mois à 16 ans. Ils doivent appeler notre cabinet avant de s'y rendre."
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1168151,

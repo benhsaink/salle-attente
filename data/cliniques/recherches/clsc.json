@@ -2177,23 +2177,7 @@
   {
    "nofiche": 536856,
    "nom": "CLSC DE MANSFIELD-ET-PONTEFRACT",
-   "adresse": "160, chemin de la Chute, Mansfield-et-Pontefract",
-   "telephone": "819 683-3000",
-   "rss": "07",
-   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE MANSFIELD-ET-PONTEFRACT",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "17 juin 2026, 12 h 26",
-   "manque": [],
-   "lignes": [
-    "Horaire du sans rendez-vous pour Authentification de la carte d'assurance maladie (pour tous)",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
-    "Consultations médicales et soins infirmiers AVEC et SANS rendez-vous.",
-    "HORAIRE DES PRÉLÈVEMENTS SANS RENDEZ-VOUS",
-    "SANS rendez-vous."
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 255234,
@@ -3581,19 +3565,7 @@
   {
    "nofiche": 532,
    "nom": "CLSC DE CHICOUTIMI",
-   "adresse": "80, rue Racine Est, Saguenay",
-   "telephone": "418 543-2221",
-   "rss": "02",
-   "urgenceProche": "HÔPITAL DE CHICOUTIMI",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "09 janvier 2026, 20 h 47",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1554,
@@ -4704,38 +4676,12 @@
   {
    "nofiche": 1149,
    "nom": "CLSC DE PIERREFONDS",
-   "adresse": "13800, boulevard Gouin Ouest, Montréal",
-   "telephone": "514 626-2572",
-   "rss": "06",
-   "urgenceProche": "HÔPITAL GÉNÉRAL DU LAKESHORE",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "09 juillet 2026, 20 h 31",
-   "manque": [],
-   "lignes": [
-    "Horaire du sans rendez-vous pour Authentification de la carte d'assurance maladie (pour tous)",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
-    "- Les plages horaires SANS rendez-vous sont disponibles pour URGENCE SEULEMENT durant les heures d'ouverture."
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 595,
    "nom": "CLSC DE POHÉNÉGAMOOK",
-   "adresse": "1922, rue Saint-Vallier, Pohénégamook",
-   "telephone": "418 859-2450",
-   "rss": "01",
-   "urgenceProche": "CLSC DE POHÉNÉGAMOOK",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "11 février 2026, 20 h 35",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1739,
@@ -5185,19 +5131,7 @@
   {
    "nofiche": 1725,
    "nom": "CLSC DE SAINT-DONAT",
-   "adresse": "377, rue du Foyer, Saint-Donat",
-   "telephone": "819 424-1511",
-   "rss": "15",
-   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE SAINTE-AGATHE",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "22 octobre 2025, 19 h 54",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 277715,
@@ -5301,19 +5235,7 @@
   {
    "nofiche": 635,
    "nom": "CLSC DE SAINT-FABIEN-DE-PANET",
-   "adresse": "10, rue Alphonse, Saint-Fabien-de-Panet",
-   "telephone": "418 249-2572",
-   "rss": "12",
-   "urgenceProche": "HÔPITAL DE MONTMAGNY",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "17 avril 2025, 15 h 05",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1144,
@@ -6555,19 +6477,7 @@
   {
    "nofiche": 540,
    "nom": "CLSC DE SAINT-PAMPHILE",
-   "adresse": "103, rue du Foyer Nord, Saint-Pamphile",
-   "telephone": "418 356-3393",
-   "rss": "01",
-   "urgenceProche": "HÔPITAL NOTRE-DAME-DE-FATIMA",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "09 mars 2026, 13 h 56",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 694646,
@@ -6718,19 +6628,7 @@
   {
    "nofiche": 539,
    "nom": "CLSC DE SAINT-JEAN-PORT-JOLI",
-   "adresse": "430, rue Jean-Leclerc, cP. 250, Saint-Jean-Port-Joli",
-   "telephone": "418 598-3355",
-   "rss": "01",
-   "urgenceProche": "HÔPITAL NOTRE-DAME-DE-FATIMA",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "24 janvier 2025, 18 h 29",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1766,
@@ -7731,18 +7629,21 @@
   {
    "nofiche": 671399,
    "nom": "GMF BAIE-DES-CHALEURS (CLSC MALAUZE : SITE DE SAINT-OMER)",
-   "adresse": "107, route 132 Ouest, Carleton-sur-Mer",
-   "telephone": "418 364-7064",
-   "rss": "11",
-   "urgenceProche": "HÔPITAL ET GROUPE DE MÉDECINE DE FAMILLE UNIVERSITAIRE DE MARIA",
+   "adresse": "",
+   "telephone": "",
+   "rss": "",
+   "urgenceProche": "",
    "acces": "",
    "accesNote": "",
    "frais": false,
-   "miseAJour": "17 juin 2026, 19 h 14",
-   "manque": [],
-   "lignes": [
-    "Le sans rendez-vous est offert les lundi de 16 h 30 à 20 h 00"
+   "miseAJour": "",
+   "manque": [
+    "adresse",
+    "téléphone",
+    "heures",
+    "position"
    ],
+   "lignes": [],
    "decision": "pas de rendez-vous le jour même indiqué"
   },
   {
@@ -7870,21 +7771,7 @@
   {
    "nofiche": 854640,
    "nom": "GMF CLSC DE SAINT-MICHEL (CLSC DE SAINT-MICHEL)",
-   "adresse": "3355, rue Jarry Est, Montréal",
-   "telephone": "514 722-3000",
-   "rss": "06",
-   "urgenceProche": "HÔPITAL JEAN-TALON",
-   "acces": "tous",
-   "accesNote": "Réservez sur RVSQ la veille dès 18 h",
-   "frais": false,
-   "miseAJour": "14 juillet 2026, 19 h 05",
-   "manque": [],
-   "lignes": [
-    "Heures pour prendre un rendez-vous le jour même ou dans les jours suivants par un système automatisé pour Médecine familiale (pour tous)",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous) Réservez sur RVSQ la veille dès 18 h",
-    "Infirmier/Infirmière praticienne spécialisée"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 936121,
@@ -7944,21 +7831,7 @@
   {
    "nofiche": 53638,
    "nom": "GMF DE LAURIER-STATION (CLSC LAURIER-STATION)",
-   "adresse": "135, rue de la Station, Laurier-Station",
-   "telephone": "418 728-3435",
-   "rss": "04",
-   "urgenceProche": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE FORTIERVILLE",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "22 septembre 2025, 12 h 46",
-   "manque": [],
-   "lignes": [
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
-    "Infirmier/Infirmière praticienne spécialisée",
-    "Inscrivez-vous, du lundi au vendredi, aux consultations urgentes (anciennement appelé sans rendez-vous) entre 8 h 30 et 16 h 30 en communiquant au (418) 728-3435 poste 4."
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 1182073,
@@ -8507,22 +8380,7 @@
   {
    "nofiche": 553113,
    "nom": "GMF LES MYRTILLES DU LAC (CLSC DE SAINT-FÉLICIEN)",
-   "adresse": "1228, boulevard du Sacré-Coeur, Saint-Félicien",
-   "telephone": "418 679-5270",
-   "rss": "02",
-   "urgenceProche": "HÔPITAL ET CENTRE D'HÉBERGEMENT DE ROBERVAL",
-   "acces": "tous",
-   "accesNote": "",
-   "frais": false,
-   "miseAJour": "14 novembre 2025, 14 h 12",
-   "manque": [],
-   "lignes": [
-    "* Les plages horaires SANS rendez-vous sont pour tous les types de clientèle (inscrits et non inscrits).",
-    "* Le SANS rendez-vous du samedi de 8 h à 12 h se fait en alternance avec la clinique médicale de Roberval, la clinique médicale St-Prime, Ma Clinique Zone Santé et le Centre médical de St-Félicien.",
-    "Consultations médicales le jour même ou dans les jours suivants (pour tous)",
-    "Vaccination (des frais sont exigés) Avec rendez-vous (Saisonnière, enfant, voyage)"
-   ],
-   "decision": "ajout possible"
+   "decision": "déjà sur le site"
   },
   {
    "nofiche": 258428,
