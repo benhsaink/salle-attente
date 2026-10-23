@@ -164,6 +164,10 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Retenues après relecture : Clinique DCS, RocklandMD centre-ville, Médecine privée – Cité médicale de Charlesbourg, Lacroix Saint-Sauveur, UnionMD Taschereau, Santé + (Vaudreuil-Dorion ; « Coût pour services : Non » mais frais exigés et médecin non participant, comme AxMédic).
 - Écartées à la relecture : GMF (Physimed, Sillery, Cité médicale de Charlesbourg, Pincourt, 3090 Saint-Basile : services publics avec quelques frais), clinique dentaire, physiothérapie, pharmacie. ExcelleMD : fiche sans heures ni services.
 - PointSanté : position ajoutée à la main (champ « position » de la liste), sa fiche n'a pas de lien de carte.
+- Décisions sur les 5 fiches « à revoir » (23 octobre 2026) :
+  - Santé + (Vaudreuil-Dorion, fiche 1091287) et UnionMD Gatineau (fiche 1086156) : gardées. « Coût pour services : Non » contredit « des frais sont exigés », mais le médecin est non participant ou désengagé (liste RAMQ) : les soins sont payants.
+  - ExcelleMD Terrebonne (fiche 1121959) : écartée tant que la fiche n'a ni heures ni services. Relue par verifier-recherche.js (recherche « excellemd »).
+  - GMF Plateau Marquette (Sherbrooke, 29650) et GMF des Collines (Wakefield, 911166) : écartées. Ce sont des GMF (services publics avec quelques frais), comme les autres GMF de la liste RAMQ.
 
 ## Formulaire de partenariat (onglet Soins privés, #partenaire)
 - Champs : entreprise*, site, NEQ, nom*, téléphone*, courriel*, soins offerts*, lieu (domicile / locaux / les deux)*, régions desservies*, ordre professionnel et numéro de permis, précisions, accord pour être contacté*.
@@ -177,6 +181,16 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - GMF-A/R : GMF des Grandes-Fourches (Sherbrooke, r05) et GMF Delta Santé (Gatineau, r07), seules GMF-A/R de la liste Québec.ca hors des secteurs déjà couverts.
 - Cliniques privées (privees-candidats-regions.json → privees-verifications-regions.json) : Global MD (Saguenay), L'Accès (Drummondville), Pauzé Ferdais (Bromont), Santé Continuum (Sherbrooke), Lacroix (Gatineau), UnionMD Gatineau (contradiction « Coût : Non » mais frais exigés et médecin non participant, comme AxMédic et Santé +). GMF écartées comme ailleurs.
 - verifier-gmf.js (Action « Vérifier les GMF ») : parcourt les ~570 GMF du Répertoire, lit chaque fiche, garde celles avec « rendez-vous le jour même pour tous » et une fiche complète (data/cliniques/gmf-verifications.json). 24 ajoutées le 21 octobre 2026, dont Bas-Saint-Laurent (Amqui, Sayabec), Saguenay–Lac-Saint-Jean (Roberval, Saint-Félicien, Saint-Prime), Abitibi (La Sarre), Chaudière-Appalaches (Montmagny, Saint-Patrice), Estrie (Lambton). Région : celle de l'urgence la plus proche.
+
+## Pédiatrie, IPS et CLSC (23 octobre 2026)
+- verifier-recherche.js (Action « Rechercher des cliniques ») : recherches par nom listées dans data/cliniques/recherches.json (modifier ce fichier relance la recherche). Résultats : data/cliniques/recherches/<id>.json. Rien n'est ajouté automatiquement.
+- Première recherche : 575 CLSC, 35 IPS, 113 fiches pédiatriques. Seules les fiches « rendez-vous le jour même (pour tous) » et complètes sont gardées.
+- Ajoutées dans liste.json (région de l'urgence la plus proche) :
+  - CLSC : Mansfield-et-Pontefract, Chicoutimi, Pierrefonds (sans rendez-vous pour l'urgence seulement), Pohénégamook, Saint-Donat, Saint-Fabien-de-Panet, Saint-Pamphile, Saint-Jean-Port-Joli ; GMF CLSC de Saint-Michel (RVSQ la veille dès 18 h), GMF de Laurier-Station (même lieu que le CLSC 546, gardé une fois), GMF Les Myrtilles du Lac (Saint-Félicien).
+  - IPS : Clinique IPS Santé Plus (Saguenay, frais), Justine Lagacé, infirmière praticienne (Lac-Mégantic, frais).
+  - Pédiatrie : Cabinet pédiatrique du Dr Thomas Schwartz (Côte-Saint-Luc, 3 mois à 16 ans, appeler avant), avec "enfants": true.
+- Écartées : CLSC Petite-Nation (« juste à l'urgence »), CLSC de Puvirnituq et Clinique spécialisée en pédiatrie de Saint-Hyacinthe (pas d'heures sur la fiche), Clinique médicale IPS de Victoriaville (fiche au futur : « sera située »).
+- Toutes les autres fiches : patients inscrits seulement ou pas de rendez-vous le jour même indiqué.
 
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).

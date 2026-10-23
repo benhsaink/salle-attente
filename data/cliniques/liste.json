@@ -445,6 +445,77 @@
    "nom": "GMF Saint-Luc Saint-Eugène (Clinique Médicale Saint-Luc)",
    "nofiche": 50518,
    "region": "rs"
+  },
+  {
+   "nom": "CLSC de Mansfield-et-Pontefract",
+   "nofiche": 536856,
+   "region": "r07"
+  },
+  {
+   "nom": "CLSC de Chicoutimi",
+   "nofiche": 532,
+   "region": "r02"
+  },
+  {
+   "nom": "CLSC de Pierrefonds",
+   "nofiche": 1149,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLSC de Pohénégamook",
+   "nofiche": 595,
+   "region": "r01"
+  },
+  {
+   "nom": "CLSC de Saint-Donat",
+   "nofiche": 1725,
+   "region": "r15"
+  },
+  {
+   "nom": "CLSC de Saint-Fabien-de-Panet",
+   "nofiche": 635,
+   "region": "r12"
+  },
+  {
+   "nom": "CLSC de Saint-Pamphile",
+   "nofiche": 540,
+   "region": "r01"
+  },
+  {
+   "nom": "CLSC de Saint-Jean-Port-Joli",
+   "nofiche": 539,
+   "region": "r01"
+  },
+  {
+   "nom": "GMF CLSC de Saint-Michel",
+   "nofiche": 854640,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF de Laurier-Station (CLSC)",
+   "nofiche": 53638,
+   "region": "r04"
+  },
+  {
+   "nom": "GMF Les Myrtilles du Lac (CLSC de Saint-Félicien)",
+   "nofiche": 553113,
+   "region": "r02"
+  },
+  {
+   "nom": "Clinique IPS Santé Plus",
+   "nofiche": 1133235,
+   "region": "r02"
+  },
+  {
+   "nom": "Justine Lagacé, infirmière praticienne",
+   "nofiche": 1159642,
+   "region": "r05"
+  },
+  {
+   "nom": "Cabinet pédiatrique du Dr Thomas Schwartz",
+   "nofiche": 735495,
+   "region": "mtl",
+   "enfants": true
   }
  ]
 }

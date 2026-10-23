@@ -1,8 +1,38 @@
 {
  "note": "Recherches par nom dans le Répertoire des ressources (Santé Québec). Modifier ce fichier relance .github/workflows/verifier-recherche.yml.",
  "recherches": [
-  { "id": "pediatrie", "q": ["pédiatrique", "pédiatrie", "enfants"], "garder": "p[ée]diatr|enfant|jeunesse|pediatr" },
-  { "id": "ips", "q": ["IPS", "infirmière praticienne", "infirmières praticiennes", "SABSA"], "garder": "\\bIPS\\b|praticienne|SABSA" },
-  { "id": "clsc", "q": ["CLSC"], "garder": "\\bCLSC\\b" }
+  {
+   "id": "pediatrie",
+   "q": [
+    "pédiatrique",
+    "pédiatrie",
+    "enfants"
+   ],
+   "garder": "p[ée]diatr|enfant|jeunesse|pediatr"
+  },
+  {
+   "id": "ips",
+   "q": [
+    "IPS",
+    "infirmière praticienne",
+    "infirmières praticiennes",
+    "SABSA"
+   ],
+   "garder": "\\bIPS\\b|praticienne|SABSA"
+  },
+  {
+   "id": "clsc",
+   "q": [
+    "CLSC"
+   ],
+   "garder": "\\bCLSC\\b"
+  },
+  {
+   "id": "excellemd",
+   "q": [
+    "ExcelleMD"
+   ],
+   "garder": "EXCELLE"
+  }
  ]
 }
