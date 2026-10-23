@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T09:41:56.058Z",
+ "generatedAt": "2026-10-23T10:44:43.236Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -14,18 +14,6 @@
    "codePostal": "H9R 5K3",
    "telephone": "514 426-6677",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -78,6 +66,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -196,18 +196,6 @@
    "telephone": "514 481-4343",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -269,6 +257,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -326,18 +326,6 @@
    "telephone": "514 932-2122",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -399,6 +387,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -468,33 +468,6 @@
    "telephone": "514 340-8311",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 20 h 30",
-     "heures": [
-      [
-       510,
-       1230
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 20 h 30",
@@ -631,6 +604,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 20 h 30",
      "heures": [
@@ -712,18 +712,6 @@
    "codePostal": "H3S 2T2",
    "telephone": "514 731-5994",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -826,6 +814,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [
@@ -884,36 +884,6 @@
    "codePostal": "H2K 4L5",
    "telephone": "514 524-7564",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé",
-        "RVSQ"
-       ],
-       "notes": [
-        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -1066,6 +1036,36 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -1154,35 +1154,6 @@
    "telephone": "514 769-9999",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Attention, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -1329,6 +1300,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -1407,49 +1407,6 @@
    "telephone": "514 765-3600",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 10 à 20 h 30",
-     "heures": [
-      [
-       490,
-       1230
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 12 h 30 pour le lendemain"
-       ]
-      },
-      {
-       "auto": false,
-       "heures": "9 h à 12 h",
-       "plages": [
-        [
-         540,
-         720
-        ]
-       ],
-       "systemes": [],
-       "notes": [
-        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 10 à 20 h 30",
@@ -1666,6 +1623,49 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 10 à 20 h 30",
      "heures": [
@@ -1778,35 +1778,6 @@
    "telephone": "514 787-1818",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -1953,6 +1924,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2048,35 +2048,6 @@
    "telephone": "514 337-3171",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 19 h",
-     "heures": [
-      [
-       420,
-       1140
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h à 19 h",
@@ -2223,6 +2194,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h à 19 h",
      "heures": [
@@ -2326,35 +2326,6 @@
    "telephone": "514 277-4111",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h à 20 h",
-       "plages": [
-        [
-         480,
-         1200
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 8h le matin"
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -2501,6 +2472,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2586,18 +2586,6 @@
    "telephone": "514 722-0000",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -2659,6 +2647,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2725,35 +2725,6 @@
    "telephone": "514 747-2555",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -2900,6 +2871,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2998,18 +2998,6 @@
    "telephone": "514 376-7702",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -3097,6 +3085,18 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [
@@ -3163,18 +3163,6 @@
    "telephone": "514 256-5700",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -3236,6 +3224,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -3307,35 +3307,6 @@
    "telephone": "514 807-2333",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -3482,6 +3453,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -3584,35 +3584,6 @@
    "codePostal": "H1R 1X8",
    "telephone": "514 326-7203",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h à 20 h",
-       "plages": [
-        [
-         480,
-         1200
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 17h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3786,6 +3757,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -3864,35 +3864,6 @@
    "codePostal": "H1T 4B3",
    "telephone": "514 257-7000",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4040,6 +4011,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -4122,18 +4122,6 @@
    "telephone": "514 353-8742",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 20 h 30",
-     "heures": [
-      [
-       450,
-       1230
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -4204,6 +4192,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h 30",
+     "heures": [
+      [
+       450,
+       1230
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4264,35 +4264,6 @@
    "codePostal": "H8S 2G4",
    "telephone": "514 780-1873",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4440,6 +4411,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -4530,18 +4530,6 @@
    "telephone": "514 326-9060",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 18 h",
@@ -4612,6 +4600,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4646,8 +4646,8 @@
    "lon": -73.62903,
    "site": "https://cliniquedesy.com/",
    "reservation": {
-    "Bonjour-santé": "https://bonjour-sante.ca/",
-    "RVSQ": "https://rvsq.gouv.qc.ca/"
+    "RVSQ": "https://rvsq.gouv.qc.ca/",
+    "Bonjour-santé": "https://bonjour-sante.ca/"
    }
   },
   {
@@ -4662,18 +4662,6 @@
    "codePostal": "H2X 3Y2",
    "telephone": "514 312-7777",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 20 h",
-     "heures": [
-      [
-       450,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4745,6 +4733,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4802,35 +4802,6 @@
    "codePostal": "H3L 2N4",
    "telephone": "514 832-3333",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4978,6 +4949,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -5061,35 +5061,6 @@
    "codePostal": "H4N 2R1",
    "telephone": "514 819-6649",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -5263,6 +5234,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -5323,33 +5323,6 @@
    "codePostal": "H1K 2G4",
    "telephone": "514 355-8101",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -5511,6 +5484,33 @@
        "notes": []
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
     }
    ],
    "systemes": [
@@ -5571,35 +5571,6 @@
    "codePostal": "H1P 3K2",
    "telephone": "514 383-0559",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "à partir de 17h30 pour le lendemain"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -5747,6 +5718,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -5838,18 +5838,6 @@
    "telephone": "514 255-7755",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -5911,6 +5899,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -6006,35 +6006,6 @@
    "telephone": "514 312-0333",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Prendre rendez-vous pour le lendemain à partir de 17h30."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -6181,6 +6152,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -6274,18 +6274,6 @@
    "telephone": "514 316-0333",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -6381,6 +6369,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -6449,18 +6449,6 @@
    "telephone": "514 787-1818",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -6531,6 +6519,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6587,35 +6587,6 @@
    "codePostal": "H1W 1S5",
    "telephone": "514 524-3731",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -6763,6 +6734,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 18 h",
      "heures": [
@@ -6874,35 +6874,6 @@
    "codePostal": "H8N 1T5",
    "telephone": "514 366-4507",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7076,6 +7047,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -7115,18 +7115,6 @@
    "codePostal": "H3N 1P4",
    "telephone": "514 210-6161",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7189,6 +7177,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7239,18 +7239,6 @@
    "telephone": "450 661-2521",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -7312,6 +7300,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7382,18 +7382,6 @@
    "telephone": "450 667-5312",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -7455,6 +7443,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7507,18 +7507,6 @@
    "telephone": "450 687-6452",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 21 h",
-     "heures": [
-      [
-       510,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 21 h",
@@ -7580,6 +7568,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 21 h",
      "heures": [
@@ -7642,18 +7642,6 @@
    "telephone": "450 689-6334",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 21 h",
@@ -7715,6 +7703,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 21 h",
      "heures": [
@@ -7809,18 +7809,6 @@
    "telephone": "450 622-5110",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -7882,6 +7870,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7943,18 +7943,6 @@
    "telephone": "450 934-7491",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -8016,6 +8004,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8066,18 +8066,6 @@
    "telephone": "450 687-8585",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -8139,6 +8127,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8200,18 +8200,6 @@
    "telephone": "450 878-0449",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -8273,6 +8261,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8349,18 +8349,6 @@
    "telephone": "450 468-6223",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 22 h",
-     "heures": [
-      [
-       480,
-       1320
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -8428,6 +8416,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 22 h",
+     "heures": [
+      [
+       480,
+       1320
       ]
      ],
      "rdvJour": []
@@ -8480,18 +8480,6 @@
    "telephone": "450 319-6242",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -8553,6 +8541,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8621,18 +8621,6 @@
    "telephone": "450 633-0123",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -8703,6 +8691,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8755,33 +8755,6 @@
    "codePostal": "J7V 8C1",
    "telephone": "450 455-3322",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "15 h à 15 h 55",
-       "plages": [
-        [
-         900,
-         955
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -8919,6 +8892,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8988,18 +8988,6 @@
    "codePostal": "J4Y 0E2",
    "telephone": "450 766-0881",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 45 à 14 h 30",
-     "heures": [
-      [
-       465,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -9071,6 +9059,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9106,18 +9106,6 @@
    "codePostal": "J0R 1T0",
    "telephone": "579 995-0789",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -9180,6 +9168,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9243,18 +9243,6 @@
    "telephone": "450 657-1313",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -9316,6 +9304,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 21 h",
      "heures": [
@@ -9390,18 +9390,6 @@
    "telephone": "450 693-0323",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -9463,6 +9451,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9517,18 +9517,6 @@
    "telephone": "450 693-0323",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -9590,6 +9578,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9634,18 +9634,6 @@
    "telephone": "450 818-5008",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -9697,6 +9685,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -9733,33 +9733,6 @@
    "telephone": "418 781-0022",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -9896,6 +9869,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9977,35 +9977,6 @@
    "telephone": "581 814-2701",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -10152,6 +10123,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -10241,42 +10241,6 @@
    "telephone": "581 814-2701",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ",
-        "Autre"
-       ],
-       "notes": [
-        "Urgence mineure ou rendez-vous rapide",
-        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
-        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
-        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
-        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
-        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
-        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -10487,11 +10451,47 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ",
+        "Autre"
+       ],
+       "notes": [
+        "Urgence mineure ou rendez-vous rapide",
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
-    "RVSQ",
-    "Autre"
+    "Autre",
+    "RVSQ"
    ],
    "miseAJour": "22 octobre 2025, 12 h 54",
    "telephoneSansRdv": false,
@@ -10553,35 +10553,6 @@
    "telephone": "418 781-0480",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 20 h",
-     "heures": [
-      [
-       450,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 20 h",
@@ -10740,6 +10711,35 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 20 h",
      "heures": [
@@ -10843,35 +10843,6 @@
    "codePostal": "G2K 2N1",
    "telephone": "418 624-1800",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 20 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -11045,6 +11016,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11100,35 +11100,6 @@
    "codePostal": "G1C 5R9",
    "telephone": "418 663-6345",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "S'inscrire à partir de 17 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -11306,6 +11277,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11364,35 +11364,6 @@
    "codePostal": "G3K 2P8",
    "telephone": "418 843-2473",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "S'inscrire à partir de 19 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -11566,6 +11537,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11611,38 +11611,6 @@
    "codePostal": "G1J 0H4",
    "telephone": "418 661-1413",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 45 à 20 h",
-     "heures": [
-      [
-       465,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "7 h 45 à 20 h",
-       "plages": [
-        [
-         465,
-         1200
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Accessible à toute heure du jour et de la nuit",
-        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
-        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
-        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -11831,6 +11799,38 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 45 à 20 h",
+     "heures": [
+      [
+       465,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "7 h 45 à 20 h",
+       "plages": [
+        [
+         465,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit",
+        "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
+        "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
+        "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11902,18 +11902,6 @@
    "telephone": "418 833-4977",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -11975,6 +11963,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -12054,18 +12054,6 @@
    "telephone": "819 840-3006",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -12127,6 +12115,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -12183,18 +12183,6 @@
    "telephone": "819 373-4551",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -12265,6 +12253,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12309,18 +12309,6 @@
    "codePostal": "J1H 4C6",
    "telephone": "819 780-2222",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h 45",
-     "heures": [
-      [
-       480,
-       1245
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -12392,6 +12380,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h 45",
+     "heures": [
+      [
+       480,
+       1245
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12442,33 +12442,6 @@
    "codePostal": "J8Y 3R1",
    "telephone": "819 282-0997",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 13 h 30",
-     "heures": [
-      [
-       510,
-       810
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h 30 à 13 h 30",
-       "plages": [
-        [
-         510,
-         810
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -12576,6 +12549,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 13 h 30",
+     "heures": [
+      [
+       510,
+       810
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h 30 à 13 h 30",
+       "plages": [
+        [
+         510,
+         810
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 13 h 30",
      "heures": [
@@ -12634,18 +12634,6 @@
    "telephone": "514 307-5757",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -12716,6 +12704,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12748,13 +12748,6 @@
    "codePostal": "H3X 2T8",
    "telephone": "514 369-9999",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": true,
@@ -12805,6 +12798,13 @@
        1020
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -12842,18 +12842,6 @@
    "codePostal": "H8N 1T5",
    "telephone": "514 532-0130",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -12920,6 +12908,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12952,18 +12952,6 @@
    "codePostal": "J6E 2C5",
    "telephone": "450 755-1033",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13035,6 +13023,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13078,18 +13078,6 @@
    "codePostal": "G5J 3T5",
    "telephone": "418 629-6611",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13151,6 +13139,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13188,18 +13188,6 @@
    "codePostal": "G0J 3K0",
    "telephone": "418 536-5438",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": true,
@@ -13256,6 +13244,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13288,18 +13288,6 @@
    "codePostal": "J3H 1L4",
    "telephone": "450 446-7333",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h 30",
-     "heures": [
-      [
-       450,
-       1050
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13371,6 +13359,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13414,18 +13414,6 @@
    "codePostal": "G5V 2Z9",
    "telephone": "418 248-4933",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h 30",
-     "heures": [
-      [
-       480,
-       1110
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13497,6 +13485,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13544,18 +13544,6 @@
    "codePostal": "J9Z 2G9",
    "telephone": "819 339-5617",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13622,6 +13610,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13660,18 +13660,6 @@
    "codePostal": "J2W 0E2",
    "telephone": "450 359-6819",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -13743,6 +13731,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13792,18 +13792,6 @@
    "telephone": "418 486-7441",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 12 h",
-     "heures": [
-      [
-       510,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 12 h",
@@ -13855,6 +13843,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 12 h",
      "heures": [
@@ -13896,18 +13896,6 @@
    "telephone": "450 582-5551",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 14 h 30",
@@ -13969,6 +13957,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -14032,18 +14032,6 @@
    "telephone": "418 679-0943",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -14095,6 +14083,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 12 h",
      "heures": [
@@ -14156,18 +14156,6 @@
    "telephone": "418 275-3833",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -14228,6 +14216,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -14263,18 +14263,6 @@
    "codePostal": "G8J 1P2",
    "telephone": "418 251-9080",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -14336,6 +14324,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -14368,18 +14368,6 @@
    "codePostal": "G8H 2L2",
    "telephone": "418 275-1122",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -14432,6 +14420,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -14498,18 +14498,6 @@
    "telephone": "450 649-2490",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -14571,6 +14559,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -14647,33 +14647,6 @@
    "telephone": "514 933-8383",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "8 h à 20 h",
-       "plages": [
-        [
-         480,
-         1200
-        ]
-       ],
-       "systemes": [],
-       "notes": [
-        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
-       ]
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 20 h",
@@ -14810,6 +14783,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -14907,31 +14907,6 @@
    "codePostal": "H9W 4C2",
    "telephone": "514 375-5342",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "8 h à 17 h",
-       "plages": [
-        [
-         480,
-         1020
-        ]
-       ],
-       "systemes": [],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -15063,6 +15038,31 @@
        "notes": []
       }
      ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
     }
    ],
    "systemes": [],
@@ -15119,35 +15119,6 @@
    "codePostal": "G1G 3Y8",
    "telephone": "418 628-9921",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 21 h",
-     "heures": [
-      [
-       450,
-       1260
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 15 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -15297,6 +15268,35 @@
       [
        450,
        1035
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 21 h",
+     "heures": [
+      [
+       450,
+       1260
       ]
      ],
      "rdvJour": [
@@ -15363,18 +15363,6 @@
    "telephone": "450 632-1630",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -15440,6 +15428,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15483,18 +15483,6 @@
    "codePostal": "J0T 2C0",
    "telephone": "819 424-1511",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 15 à 16 h 30",
-     "heures": [
-      [
-       495,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -15566,6 +15554,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15616,18 +15616,6 @@
    "codePostal": "G0S 1B0",
    "telephone": "418 596-2213",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 20 h 30",
-     "heures": [
-      [
-       510,
-       1230
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -15694,6 +15682,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15744,18 +15744,6 @@
    "codePostal": "J2W 0J3",
    "telephone": "450 348-6124",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 17 h",
-     "heures": [
-      [
-       510,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -15817,6 +15805,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15850,6 +15850,2631 @@
    ],
    "lat": 45.35332,
    "lon": -73.29397,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Mansfield-et-Pontefract",
+   "nofiche": 536856,
+   "region": "r07",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=536856",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE MANSFIELD-ET-PONTEFRACT",
+   "adresse": "160, chemin de la Chute",
+   "ville": "Mansfield-et-Pontefract",
+   "codePostal": "J0X 1R0",
+   "telephone": "819 683-3000",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "17 juin 2026, 12 h 26",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 45.84746,
+   "lon": -76.72971,
+   "site": "https://cisss-outaouais.gouv.qc.ca",
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Chicoutimi",
+   "nofiche": 532,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=532",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE CHICOUTIMI",
+   "adresse": "80, rue Racine Est",
+   "ville": "Saguenay",
+   "codePostal": "G7H 1P6",
+   "telephone": "418 543-2221",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 janvier 2026, 20 h 47",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 48.42759,
+   "lon": -71.06601,
+   "site": "http://www.santesaglac.gouv.qc.ca",
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Pierrefonds",
+   "nofiche": 1149,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1149",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE PIERREFONDS",
+   "adresse": "13800, boulevard Gouin Ouest",
+   "ville": "Montréal",
+   "codePostal": "H8Z 3H6",
+   "telephone": "514 626-2572",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 juillet 2026, 20 h 31",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 45.49721,
+   "lon": -73.84844,
+   "site": "https://www.ciusss-ouestmtl.gouv.qc.ca/installations/clsc/clsc-de-pierrefonds/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Pohénégamook",
+   "nofiche": 595,
+   "region": "r01",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=595",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE POHÉNÉGAMOOK",
+   "adresse": "1922, rue Saint-Vallier",
+   "ville": "Pohénégamook",
+   "codePostal": "G0L 1J0",
+   "telephone": "418 859-2450",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 10 h",
+     "heures": [
+      [
+       480,
+       600
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 10 h",
+     "heures": [
+      [
+       480,
+       600
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 10 h",
+     "heures": [
+      [
+       480,
+       600
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 10 h",
+     "heures": [
+      [
+       480,
+       600
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 février 2026, 20 h 35",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 47.48976,
+   "lon": -69.28133,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Saint-Donat",
+   "nofiche": 1725,
+   "region": "r15",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1725",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE SAINT-DONAT",
+   "adresse": "377, rue du Foyer",
+   "ville": "Saint-Donat",
+   "codePostal": "J0T 2C0",
+   "telephone": "819 424-1511",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 15 à 9 h 30",
+     "heures": [
+      [
+       495,
+       570
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 15 à 9 h 30",
+     "heures": [
+      [
+       495,
+       570
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 15 à 9 h 30",
+     "heures": [
+      [
+       495,
+       570
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 octobre 2025, 19 h 54",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 46.32217,
+   "lon": -74.22309,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Saint-Fabien-de-Panet",
+   "nofiche": 635,
+   "region": "r12",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=635",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE SAINT-FABIEN-DE-PANET",
+   "adresse": "10, rue Alphonse",
+   "ville": "Saint-Fabien-de-Panet",
+   "codePostal": "G0R 2J0",
+   "telephone": "418 249-2572",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 21 h",
+     "heures": [
+      [
+       420,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 21 h",
+     "heures": [
+      [
+       420,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 21 h",
+     "heures": [
+      [
+       420,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 21 h",
+     "heures": [
+      [
+       420,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 21 h",
+     "heures": [
+      [
+       420,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 11 h 35",
+     "heures": [
+      [
+       420,
+       695
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "12 h à 14 h",
+     "heures": [
+      [
+       720,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 11 h 35",
+     "heures": [
+      [
+       420,
+       695
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "17 avril 2025, 15 h 05",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 46.65761,
+   "lon": -70.15244,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Saint-Pamphile",
+   "nofiche": 540,
+   "region": "r01",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=540",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE SAINT-PAMPHILE",
+   "adresse": "103, rue du Foyer Nord",
+   "ville": "Saint-Pamphile",
+   "codePostal": "G0R 3X0",
+   "telephone": "418 356-3393",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 35",
+     "heures": [
+      [
+       420,
+       875
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 35",
+     "heures": [
+      [
+       420,
+       875
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "09 mars 2026, 13 h 56",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 46.96052,
+   "lon": -69.78371,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLSC de Saint-Jean-Port-Joli",
+   "nofiche": 539,
+   "region": "r01",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=539",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLSC DE SAINT-JEAN-PORT-JOLI",
+   "adresse": "430, rue Jean-Leclerc, cP. 250",
+   "ville": "Saint-Jean-Port-Joli",
+   "codePostal": "G0R 3G0",
+   "telephone": "418 598-3355",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 19 h 45",
+     "heures": [
+      [
+       480,
+       1185
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 19 h 45",
+     "heures": [
+      [
+       480,
+       1185
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 10",
+     "heures": [
+      [
+       450,
+       850
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 14 h 10",
+     "heures": [
+      [
+       450,
+       850
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 15 h 15",
+     "heures": [
+      [
+       480,
+       915
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 15 h 15",
+     "heures": [
+      [
+       480,
+       915
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 15 h 15",
+     "heures": [
+      [
+       480,
+       915
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "24 janvier 2025, 18 h 29",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [],
+   "lat": 47.20813,
+   "lon": -70.25789,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF CLSC de Saint-Michel",
+   "nofiche": 854640,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854640",
+   "lu": "2026-10-23",
+   "nomOfficiel": "GMF CLSC DE SAINT-MICHEL (CLSC DE SAINT-MICHEL)",
+   "adresse": "3355, rue Jarry Est",
+   "ville": "Montréal",
+   "codePostal": "H1Z 2E5",
+   "telephone": "514 722-3000",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 18 h 00 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 18 h 00 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 18 h 00 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 18 h 00 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [
+    "RVSQ"
+   ],
+   "miseAJour": "14 juillet 2026, 19 h 05",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Réservez sur RVSQ la veille dès 18 h",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Fauteuil roulant (location)",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Oxygène",
+    "PFSI – Programme Fédéral de Santé Intérimaire",
+    "Pharmacologie",
+    "Pose de plâtre",
+    "Pose de sutures / agrafes",
+    "Prélèvements",
+    "Retrait de points de suture",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test Pap",
+    "Travail social",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG)",
+    "Équipement spécialisé",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.56554,
+   "lon": -73.60815,
+   "site": "https://ciusss-estmtl.gouv.qc.ca/etablissement/clsc-de-saint-michel",
+   "reservation": {
+    "RVSQ": "https://rvsq.gouv.qc.ca/"
+   }
+  },
+  {
+   "nom": "GMF de Laurier-Station (CLSC)",
+   "nofiche": 53638,
+   "region": "r04",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53638",
+   "lu": "2026-10-23",
+   "nomOfficiel": "GMF DE LAURIER-STATION (CLSC LAURIER-STATION)",
+   "adresse": "135, rue de la Station",
+   "ville": "Laurier-Station",
+   "codePostal": "G0S 1N0",
+   "telephone": "418 728-3435",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 septembre 2025, 12 h 46",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Psychologie",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 46.53987,
+   "lon": -71.62967,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF Les Myrtilles du Lac (CLSC de Saint-Félicien)",
+   "nofiche": 553113,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=553113",
+   "lu": "2026-10-23",
+   "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLSC DE SAINT-FÉLICIEN)",
+   "adresse": "1228, boulevard du Sacré-Coeur",
+   "ville": "Saint-Félicien",
+   "codePostal": "G8K 2P8",
+   "telephone": "418 679-5270",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 novembre 2025, 14 h 12",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Ajustement d'appareil",
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Diététique",
+    "Ergothérapie",
+    "Hygiène dentaire",
+    "Hypertension – Consultation pour le suivi",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Oxygène",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Psychologie",
+    "Périnatalité",
+    "Réadaptation physique",
+    "Récupération des seringues et des aiguilles usagées",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins palliatifs / Soins de fin de vie",
+    "Travail social",
+    "Urgence sociale",
+    "Vaccination",
+    "Visites à domicile",
+    "Équipement spécialisé",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 48.64763,
+   "lon": -72.44111,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique IPS Santé Plus",
+   "nofiche": 1133235,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1133235",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CLINIQUE IPS SANTÉ PLUS",
+   "adresse": "3750, boulevard du Royaume, bureau 201",
+   "ville": "Saguenay",
+   "codePostal": "G7X 0A4",
+   "telephone": "418 758-1851",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "7 h 30 à 11 h 30",
+     "heures": [
+      [
+       450,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 août 2026, 12 h 53",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": true,
+   "nonParticipant": false,
+   "services": [
+    "Bilan santé / Examen annuel",
+    "Colle tissulaire",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Hormonothérapie",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Infirmière praticienne spécialisée en santé mentale (IPSSM)",
+    "Lavage d'oreilles",
+    "Omnipratique",
+    "Prélèvements",
+    "Soins infirmiers",
+    "Suivi maladie chronique",
+    "Test du virus du papillome humain (VPH)",
+    "Traitement de l'infection urinaire",
+    "Traitement des verrues / Cryothérapie",
+    "Traitement des verrues plantaires",
+    "Évaluation de la conduite automobile SAAQ",
+    "Consultation médicale privée",
+    "Bilan de santé",
+    "Renouvellement d’ordonnances",
+    "Santé mentale",
+    "Bilan de santé métabolique",
+    "Rapport d’examen médicale SAAQ M-28 (aucun accidenté de la route)",
+    "Infiltration",
+    "Cryothérapie",
+    "Test de streptocoque rapide",
+    "CardioSTAT",
+    "Clinique médicale privée hors RAMQ"
+   ],
+   "lat": 48.42269,
+   "lon": -71.24152,
+   "site": "http://cliniqueipssanteplus.com",
+   "reservation": {}
+  },
+  {
+   "nom": "Justine Lagacé, infirmière praticienne",
+   "nofiche": 1159642,
+   "region": "r05",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1159642",
+   "lu": "2026-10-23",
+   "nomOfficiel": "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
+   "adresse": "4050, rue Laval",
+   "ville": "Lac-Mégantic",
+   "codePostal": "G6B 1B1",
+   "telephone": "418 476-8259",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": false,
+     "ouverture": "9 h 30 à 15 h",
+     "heures": [
+      [
+       570,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "13 h à 16 h",
+     "heures": [
+      [
+       780,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "9 h 30 à 15 h 30",
+     "heures": [
+      [
+       570,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "9 h 30 à 15 h",
+     "heures": [
+      [
+       570,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "03 mars 2026, 13 h 14",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Frais",
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Urgences mineures",
+    "Contraception hormonale",
+    "Installation stérilet intra-utérin, implant contraceptif sous-cutané, biopsie endomètre",
+    "Problèmes complexes (obésité, PrEP, apnée du sommeil, reflux...)",
+    "Douleur musculaire, infiltration intra-articulaire (cortisone, viscosuppléance)",
+    "Hormonothérapie",
+    "Formulaires médicaux, renouvellement permis conduire SAAQ"
+   ],
+   "lat": 45.58534,
+   "lon": -70.89755,
+   "site": "https://justinelagace-infirmierepraticienne.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Cabinet pédiatrique du Dr Thomas Schwartz",
+   "nofiche": 735495,
+   "region": "mtl",
+   "enfants": true,
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=735495",
+   "lu": "2026-10-23",
+   "nomOfficiel": "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
+   "adresse": "7005, chemin Kildare, bureau 8",
+   "ville": "Côte-Saint-Luc",
+   "codePostal": "H4W 1C1",
+   "telephone": "514 481-7167",
+   "jours": [
+    {
+     "date": "2026-10-23",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-24",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "9 h 15 à 14 h 30",
+     "heures": [
+      [
+       555,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "9 h 15 à 14 h 30",
+     "heures": [
+      [
+       555,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "9 h 15 à 14 h 30",
+     "heures": [
+      [
+       555,
+       870
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "9 h 15 à 14 h 30",
+     "heures": [
+      [
+       555,
+       870
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "06 janvier 2026, 14 h 35",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "PFSI – Programme Fédéral de Santé Intérimaire",
+    "Pédiatrie",
+    "Vaccination"
+   ],
+   "lat": 45.47094,
+   "lon": -73.66602,
    "site": null,
    "reservation": {}
   }

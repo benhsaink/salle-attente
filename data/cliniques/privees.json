@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T09:43:33.493Z",
+ "generatedAt": "2026-10-23T10:46:54.181Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -14,18 +14,6 @@
    "codePostal": "H3P 2V9",
    "telephone": "514 667-3383",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 18 h",
-     "heures": [
-      [
-       450,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -92,6 +80,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -145,33 +145,6 @@
    "codePostal": "H3B 3C3",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 17 h",
-     "heures": [
-      [
-       510,
-       1020
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -309,6 +282,33 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 17 h",
      "heures": [
@@ -388,18 +388,6 @@
    "telephone": "514 400-3291",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 18 h",
@@ -451,6 +439,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 18 h",
      "heures": [
@@ -510,18 +510,6 @@
    "telephone": "514 400-3291",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -582,6 +570,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -623,18 +623,6 @@
    "codePostal": "H7T 0A2",
    "telephone": "855 841-1911",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -697,6 +685,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h 30",
      "heures": [
@@ -778,18 +778,6 @@
    "telephone": "450 314-8759",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -841,6 +829,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -910,18 +910,6 @@
    "telephone": "450 868-1018",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -978,6 +966,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -1051,18 +1051,6 @@
    "telephone": "514 360-4416",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
@@ -1119,6 +1107,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
      "heures": [
@@ -1221,18 +1221,6 @@
    "telephone": "514 360-4416",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
@@ -1289,6 +1277,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
      "heures": [
@@ -1426,18 +1426,6 @@
    "telephone": "450 641-6774",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -1503,6 +1491,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1542,18 +1542,6 @@
    "codePostal": "J7B 2A4",
    "telephone": "450 434-2009",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 17 h",
-     "heures": [
-      [
-       420,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -1616,6 +1604,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h à 17 h",
+     "heures": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h à 17 h",
      "heures": [
@@ -1670,18 +1670,6 @@
    "telephone": "450 430-0911",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h 30",
-     "heures": [
-      [
-       450,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 16 h 30",
@@ -1742,6 +1730,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1786,18 +1786,6 @@
    "codePostal": "J7C 2K5",
    "telephone": "450 234-1515",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -1869,6 +1857,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1917,18 +1917,6 @@
    "codePostal": "J6E 2B4",
    "telephone": "450 756-2626",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -1990,6 +1978,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2032,18 +2032,6 @@
    "codePostal": "H9R 5N3",
    "telephone": "514 375-2705",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 18 h 30",
-     "heures": [
-      [
-       510,
-       1110
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -2102,6 +2090,18 @@
       [
        510,
        1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 18 h 30",
+     "heures": [
+      [
+       510,
+       1110
       ]
      ],
      "rdvJour": []
@@ -2166,18 +2166,6 @@
    "telephone": "514 665-7029",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "9 h à 12 h",
-     "heures": [
-      [
-       540,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": true,
      "ouverture": null,
@@ -2238,6 +2226,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2277,18 +2277,6 @@
    "codePostal": "H3S 2W1",
    "telephone": "450 735-8111",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -2341,6 +2329,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -2400,18 +2400,6 @@
    "telephone": "514 738-4445",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -2463,6 +2451,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -2521,18 +2521,6 @@
    "telephone": "855 776-7748",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": true,
      "ouverture": null,
@@ -2577,6 +2565,18 @@
      "ferme": true,
      "ouverture": null,
      "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
      "rdvJour": []
     }
    ],
@@ -2610,18 +2610,6 @@
    "telephone": "450 639-1561",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h 30",
@@ -2673,6 +2661,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h 30",
      "heures": [
@@ -2728,18 +2728,6 @@
    "telephone": "450 933-8303",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": true,
      "ouverture": null,
@@ -2786,6 +2774,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -2835,18 +2835,6 @@
    "telephone": "844 735-8111",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 20 h",
-     "heures": [
-      [
-       420,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h à 16 h",
@@ -2917,6 +2905,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2952,18 +2952,6 @@
    "codePostal": "J7A 1K7",
    "telephone": "450 621-1292",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3016,6 +3004,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h 30",
      "heures": [
@@ -3081,18 +3081,6 @@
    "telephone": "450 970-2718",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -3158,6 +3146,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3197,18 +3197,6 @@
    "codePostal": "J5R 0J1",
    "telephone": "450 287-5050",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3280,6 +3268,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3334,18 +3334,6 @@
    "codePostal": "J6X 4H2",
    "telephone": "450 312-5050",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3403,6 +3391,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -3469,18 +3469,6 @@
    "telephone": "450 332-2430",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h",
-     "heures": [
-      [
-       510,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
@@ -3532,6 +3520,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
      "heures": [
@@ -3599,18 +3599,6 @@
    "telephone": "579 883-1000",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 17 h",
-     "heures": [
-      [
-       420,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -3671,6 +3659,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 17 h",
+     "heures": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3709,18 +3709,6 @@
    "codePostal": "J3L 2Y9",
    "telephone": "450 403-4773",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3787,6 +3775,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3836,18 +3836,6 @@
    "codePostal": "J4Z 3T9",
    "telephone": "450 678-3383",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -3914,6 +3902,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3956,18 +3956,6 @@
    "codePostal": "H9G 1X2",
    "telephone": "514 624-7363",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4020,6 +4008,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -4077,31 +4077,6 @@
    "telephone": "514 731-2491",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "9 h à 12 h",
-       "plages": [
-        [
-         540,
-         720
-        ]
-       ],
-       "systemes": [],
-       "notes": []
-      }
-     ]
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -4192,6 +4167,31 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -4253,18 +4253,6 @@
    "telephone": "514 316-1357",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -4325,6 +4313,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4360,18 +4360,6 @@
    "codePostal": "J4B 0G6",
    "telephone": "450 449-7525",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4438,6 +4426,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4490,18 +4490,6 @@
    "telephone": "514 360-4416",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h",
-     "heures": [
-      [
-       450,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
@@ -4553,6 +4541,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h",
+     "heures": [
+      [
+       450,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 17 h",
      "heures": [
@@ -4619,18 +4619,6 @@
    "telephone": "450 744-0733",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 19 h",
-     "heures": [
-      [
-       510,
-       1140
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
@@ -4696,6 +4684,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 19 h",
+     "heures": [
+      [
+       510,
+       1140
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4730,18 +4730,6 @@
    "codePostal": "H3A 3J2",
    "telephone": "514 845-1211",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "6 h 45 à 16 h",
-     "heures": [
-      [
-       405,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4803,6 +4791,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "6 h 45 à 16 h",
+     "heures": [
+      [
+       405,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4845,18 +4845,6 @@
    "codePostal": "H2Y 2G3",
    "telephone": "514 345-1356",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -4918,6 +4906,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4960,18 +4960,6 @@
    "codePostal": "H4N 3H5",
    "telephone": "450 735-8111",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -5064,6 +5052,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5117,18 +5117,6 @@
    "telephone": "418 871-1911",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -5180,6 +5168,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5230,18 +5230,6 @@
    "telephone": "418 871-1911",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -5293,6 +5281,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5355,18 +5355,6 @@
    "telephone": "418 871-1911",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -5427,6 +5415,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -5476,18 +5476,6 @@
    "codePostal": "G1P 2Y1",
    "telephone": "418 841-1911",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -5540,6 +5528,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5594,18 +5594,6 @@
    "telephone": "581 628-8166",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -5657,6 +5645,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -5744,18 +5744,6 @@
    "telephone": "819 299-3157",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -5807,6 +5795,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -5872,18 +5872,6 @@
    "telephone": "418 688-0331",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h 30",
-     "heures": [
-      [
-       450,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 15 h 30",
@@ -5935,6 +5923,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 16 h 30",
      "heures": [
@@ -6048,18 +6048,6 @@
    "telephone": "418 476-4750",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
@@ -6111,6 +6099,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -6200,18 +6200,6 @@
    "telephone": "819 373-3302",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h à 15 h",
-     "heures": [
-      [
-       420,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h à 12 h",
@@ -6272,6 +6260,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6305,18 +6305,6 @@
    "codePostal": "G9A 4P3",
    "telephone": "819 693-5852",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -6378,6 +6366,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6407,18 +6407,6 @@
    "codePostal": "G8Y 5S8",
    "telephone": "819 841-2555",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h 30",
-     "heures": [
-      [
-       480,
-       1230
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -6482,6 +6470,18 @@
       [
        480,
        1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h 30",
+     "heures": [
+      [
+       480,
+       1230
       ]
      ],
      "rdvJour": []
@@ -6556,18 +6556,6 @@
    "telephone": "819 300-0902",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -6619,6 +6607,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -6663,13 +6663,6 @@
    "telephone": "418 841-1911",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": true,
      "ouverture": null,
@@ -6719,6 +6712,13 @@
        960
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -6751,13 +6751,6 @@
    "telephone": "514 727-6266",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": true,
      "ouverture": null,
@@ -6794,6 +6787,13 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -6831,18 +6831,6 @@
    "telephone": "514 667-3383",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -6900,6 +6888,18 @@
       [
        480,
        960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
       ]
      ],
      "rdvJour": []
@@ -6944,18 +6944,6 @@
    "codePostal": "G1G 5X1",
    "telephone": "418 781-0965",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 19 h",
-     "heures": [
-      [
-       450,
-       1140
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7027,6 +7015,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 19 h",
+     "heures": [
+      [
+       450,
+       1140
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7062,18 +7062,6 @@
    "codePostal": "J0R 1R0",
    "telephone": "855 841-1911",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7135,6 +7123,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7178,18 +7178,6 @@
    "codePostal": "J4V 2H3",
    "telephone": "514 400-3291",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 17 h",
-     "heures": [
-      [
-       510,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7242,6 +7230,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 17 h",
      "heures": [
@@ -7288,18 +7288,6 @@
    "telephone": "450 319-0339",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h",
-     "heures": [
-      [
-       510,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
@@ -7351,6 +7339,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h",
      "heures": [
@@ -7405,18 +7405,6 @@
    "telephone": "418 973-6590",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 12 h",
@@ -7468,6 +7456,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 12 h",
      "heures": [
@@ -7532,18 +7532,6 @@
    "telephone": "819 472-9494",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 13 h",
@@ -7604,6 +7592,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7647,18 +7647,6 @@
    "codePostal": "J2L 2K3",
    "telephone": "450 919-3911",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7711,6 +7699,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 16 h 30",
      "heures": [
@@ -7768,18 +7768,6 @@
    "telephone": "873 200-0905",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h 30",
-     "heures": [
-      [
-       450,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "7 h 30 à 16 h 30",
@@ -7840,6 +7828,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h 30",
+     "heures": [
+      [
+       450,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7884,18 +7884,6 @@
    "codePostal": "J8T 3R1",
    "telephone": "819 778-1330",
    "jours": [
-    {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-23",
      "ferme": false,
@@ -7962,6 +7950,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8015,18 +8015,6 @@
    "telephone": "819 484-1281",
    "jours": [
     {
-     "date": "2026-10-22",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-23",
      "ferme": false,
      "ouverture": "8 h à 17 h",
@@ -8078,6 +8066,18 @@
     },
     {
      "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
