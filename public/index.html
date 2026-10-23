@@ -359,10 +359,10 @@ button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
       <div class="meta"><span id="c-updated">Chargement des cliniques…</span></div>
     </section>
     <section class="cinfo" id="nocovnote" hidden>
-      <p><b>Sans couverture médicale ?</b> Ces cliniques soignent gratuitement des personnes sans RAMQ, sans PFSI et sans assurance privée. Les places sont limitées : téléphonez d'abord.</p>
+      <p><b>Sans couverture médicale ?</b> Ces ressources soignent des personnes sans RAMQ, sans PFSI et sans assurance privée. Les places sont limitées : téléphonez d'abord.</p>
       <p><b>Demandeurs d'asile :</b> vous êtes couverts par le PFSI (Programme fédéral de santé intérimaire).</p>
       <p><b>Enfants :</b> selon Médecins du Monde, les enfants ont droit à la RAMQ. Renseignez-vous auprès de la RAMQ.</p>
-      <p>Région de Québec : aucune ressource vérifiée pour l'instant. En cas d'urgence grave, appelez le 911.</p>
+      <p>Ressources vérifiées : Montréal et Québec. Ailleurs, appelez Info-Santé (811) pour connaître les options. En cas d'urgence grave, appelez le 911.</p>
     </section>
     <ol class="list" id="clist"></ol>
     <p class="legend">Horaires, téléphones et façons de réserver : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Ils peuvent changer sans préavis : téléphonez avant de vous déplacer. Les « Rendez-vous le jour même » réservés aux patients inscrits sont pour les personnes suivies à cette clinique. En cas d'urgence grave, appelez le 911.</p>
@@ -1076,31 +1076,68 @@ function renderClinics() {
 // Ressources gratuites ajoutées à la main, chacune avec sa source officielle et la date de vérification.
 const NOCOV = [{
   nom: "Clinique pour les personnes migrantes à statut précaire",
-  org: "Médecins du Monde",
+  org: "Médecins du Monde", gratuit: true,
   adresse: "6235, rue Saint-Hubert", ville: "Montréal", region: "mtl", lat: 45.53507, lon: -73.60041,
   telephone: "514 281-8998",
-  site: "https://medecinsdumonde.ca/clinique-migrante/", verifie: "2026-10-20",
+  site: "https://medecinsdumonde.ca/clinique-migrante/", source: "site de Médecins du Monde", verifie: "2026-10-20",
   // jour : 0 = dimanche ; minutes depuis minuit, heure du Québec
-  ligne: { jour: 1, de: 17 * 60, a: 20 * 60 },
-  sansRdv: { jour: 4, de: 9 * 60 + 30, a: 12 * 60 },
+  creneaux: [{ type: "tel", jour: 1, de: 17 * 60, a: 20 * 60 }, { type: "sansrdv", jour: 4, de: 9 * 60 + 30, a: 12 * 60 }],
+  lignes: [["Par téléphone :", "lundi de 17 h à 20 h (message vocal possible, rappel en soirée). Rendez-vous le mercredi suivant."],
+    ["Sans rendez-vous :", "jeudi de 9 h 30 à midi. Arrivez tôt : les places sont limitées et la clinique ferme avant midi si elle est complète."]],
+  note: "Une consultation n'est pas garantie : chaque demande est d'abord évaluée.",
+  criteresTitre: "Pour qui ? (tous ces critères)",
   criteres: ["aucune couverture médicale (ni RAMQ, ni PFSI, ni assurance privée)", "pas les moyens de payer une clinique privée", "sans statut ou avec un statut temporaire (ex. : sans papiers, en attente de la résidence permanente)", "vivre au Québec de façon continue (pas en visite ni de passage)"],
   services: ["consultations médicales (première ligne, diagnostic)", "prises de sang et analyses de base, selon le besoin médical", "contraception et dépistage des ITSS, en toute confidentialité", "soutien social : évaluation, références, aide aux démarches"],
   pasOffert: "Pas de certificats ou attestations médicales (démarches, avocat, employeur). Pas de suivi de grossesse ni d'accouchement : appelez pour des ressources.",
+}, {
+  nom: "Clinique SPOT",
+  org: "Clinique SPOT (santé de proximité)",
+  adresse: "485, rue du Pont (Lauberivière) et autres points de service", ville: "Québec", region: "qc", lat: 46.81424, lon: -71.21897,
+  goAdresse: "485, rue du Pont, Québec",
+  telephone: "418 781-2668",
+  site: "https://cliniquespot.bleuoutremer.qc.ca/services/", source: "site de la Clinique SPOT", verifie: "2026-10-23",
+  creneaux: [{ type: "sansrdv", jour: 1, de: 9 * 60, a: 12 * 60, lieu: "L'archipel d'entraide, 190, rue Saint-Joseph Est" },
+    { type: "sansrdv", jour: 2, de: 13 * 60, a: 16 * 60, lieu: "Le Relais d'espérance, 1001, 4e Avenue" },
+    { type: "sansrdv", jour: 2, de: 17 * 60, a: 20 * 60, lieu: "La Dauphine, 33, rue D'Auteuil" },
+    { type: "sansrdv", jour: 3, de: 13 * 60, a: 16 * 60, lieu: "Lauberivière, 485, rue du Pont" },
+    { type: "sansrdv", jour: 4, de: 9 * 60, a: 12 * 60, lieu: "YWCA Québec (pour les femmes), 855, avenue Holland" }],
+  lignes: [["Sans rendez-vous :", "lundi 9 h – 12 h, L'archipel d'entraide (190, rue Saint-Joseph Est) ; mardi 13 h – 16 h, Le Relais d'espérance (1001, 4e Avenue) ; mardi 17 h – 20 h, La Dauphine (33, rue D'Auteuil) ; mercredi 13 h – 16 h, Lauberivière (485, rue du Pont) ; jeudi 9 h – 12 h, YWCA Québec, pour les femmes (855, avenue Holland)."],
+    ["Infirmières :", "418 781-2668 (pairs aidants : option 2)."]],
+  note: "Les lieux et les heures peuvent changer d'une semaine à l'autre : vérifiez sur le site ou la page Facebook de SPOT avant de vous déplacer.",
+  criteresTitre: "Pour qui ?",
+  criteres: ["personnes en situation de marginalisation ou de vulnérabilité : itinérance, travail du sexe, consommation de drogues, statut migratoire précaire, diversité de genre", "pas besoin de carte RAMQ ni de rendez-vous pour les soins réguliers", "suivi de grossesse possible pour les personnes sans assurance santé et en situation de précarité (selon priorisation)"],
+  services: ["évaluation des symptômes et traitement au besoin, par des infirmières, avec des médecins sur place ou à distance", "soutien pour certaines maladies chroniques", "prises de sang, examens et dépistage des ITSS", "réduction des méfaits, écoute et références", "sur évaluation : soins dentaires, physiothérapie, psychologie"],
+  pasOffert: "Pas de vaccination, de soins de plaies ni de points de suture. Pas de deuxième avis ni de prélèvements prescrits par d'autres médecins.",
+}, {
+  nom: "Clinique médicale pour les jeunes de 14 à 25 ans",
+  org: "À deux mains (Head & Hands)",
+  adresse: "3465, avenue Benny", ville: "Montréal", region: "mtl", lat: 45.46568, lon: -73.62803,
+  telephone: "514 481-0277",
+  site: "https://headandhands.ca/programs-services/medical-services/", source: "site d'À deux mains et 211 Grand Montréal", verifie: "2026-10-23",
+  creneaux: [], rdv: true,
+  lignes: [["Sur rendez-vous :", "par téléphone au 514 481-0277 ou par courriel à clinic@headandhands.ca. La clinique tient 1 ou 2 demi-journées par semaine."]],
+  note: "Apportez votre carte RAMQ ou vos informations d'assurance si vous en avez.",
+  criteresTitre: "Pour qui ?",
+  criteres: ["jeunes de 14 à 25 ans", "avec ou sans RAMQ ni assurance maladie"],
+  services: ["soins de santé et éducation à la santé pour les jeunes"],
+  pasOffert: "Liste d'attente pour l'hormonothérapie fermée pour le moment.",
 }];
 function quebecWeekday() { const [y, m, d] = quebecNow().date.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d)).getUTCDay(); }
 function nocovState(c) {
   const wd = quebecWeekday(), min = quebecNow().min;
-  if (wd === c.sansRdv.jour && min >= c.sansRdv.de && min < c.sansRdv.a) return ["s-ok", "Sans rendez-vous · jusqu'à " + hm(c.sansRdv.a) + " (ou complet)", true];
-  if (wd === c.ligne.jour && min >= c.ligne.de && min < c.ligne.a) return ["s-ok", "Ligne téléphonique ouverte · jusqu'à " + hm(c.ligne.a), true];
+  const cur = (c.creneaux || []).find(x => x.jour === wd && min >= x.de && min < x.a);
+  if (cur && cur.type === "sansrdv") return ["s-ok", "Sans rendez-vous · jusqu'à " + hm(cur.a) + (cur.lieu ? "" : " (ou complet)"), true, cur.lieu];
+  if (cur && cur.type === "tel") return ["s-ok", "Ligne téléphonique ouverte · jusqu'à " + hm(cur.a), true];
+  if (c.rdv) return ["s-off", "Sur rendez-vous", false];
   return ["s-off", "Fermée en ce moment", false];
 }
 function nocovCard(c, i) {
-  const [cls, label] = nocovState(c);
+  const [cls, label, , lieu] = nocovState(c);
   const li = el("li", "card");
   li.appendChild(el("div", "rank", String(i + 1)));
   const head = el("div", "head");
   const h3 = el("h3", "", c.nom);
-  h3.appendChild(tag("Gratuit"));
+  h3.appendChild(tag(c.gratuit ? "Gratuit" : "Sans RAMQ"));
   const pills = el("div", "pills");
   pills.appendChild(el("span", "pill " + cls, label));
   head.append(h3, pills);
@@ -1109,28 +1146,27 @@ function nocovCard(c, i) {
   if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode(c.org + " · " + c.adresse + ", " + c.ville));
   li.appendChild(where);
+  if (lieu) li.appendChild(el("p", "cl-note", "Aujourd'hui : " + lieu));
   const ul = el("ul", "cl-book");
-  const l1 = el("li"); l1.append(el("b", "", "Par téléphone : "), el("span", "", "lundi de 17 h à 20 h (message vocal possible, rappel en soirée). Rendez-vous le mercredi suivant."));
-  const l2 = el("li"); l2.append(el("b", "", "Sans rendez-vous : "), el("span", "", "jeudi de 9 h 30 à midi. Arrivez tôt : les places sont limitées et la clinique ferme avant midi si elle est complète."));
-  ul.append(l1, l2);
+  (c.lignes || []).forEach(([b, t]) => { const x = el("li"); x.append(el("b", "", b + " "), el("span", "", t)); ul.appendChild(x); });
   li.appendChild(ul);
-  li.appendChild(el("p", "cl-note", "Une consultation n'est pas garantie : chaque demande est d'abord évaluée."));
-  const who = el("details", "wk"); who.appendChild(el("summary", "", "Pour qui ? (tous ces critères)"));
+  if (c.note) li.appendChild(el("p", "cl-note", c.note));
+  const who = el("details", "wk"); who.appendChild(el("summary", "", c.criteresTitre || "Pour qui ?"));
   const wl = el("ul"); c.criteres.forEach(t => wl.appendChild(el("li", "", t.charAt(0).toUpperCase() + t.slice(1)))); who.appendChild(wl);
   li.appendChild(who);
   const sv = el("details", "wk"); sv.appendChild(el("summary", "", "Services offerts"));
   const sl = el("ul"); c.services.forEach(t => sl.appendChild(el("li", "", t.charAt(0).toUpperCase() + t.slice(1)))); sv.appendChild(sl);
-  sv.appendChild(el("p", "cl-note", c.pasOffert));
+  if (c.pasOffert) sv.appendChild(el("p", "cl-note", c.pasOffert));
   li.appendChild(sv);
   const act = el("div", "cl-act");
   const t = el("a", "main", "📞 " + c.telephone); t.href = "tel:+1" + c.telephone.replace(/\D/g, ""); t.setAttribute("aria-label", "Appeler " + c.org);
   const w = el("a", "", "Site de la clinique"); w.href = c.site; w.target = "_blank"; w.rel = "noopener";
   act.append(t, w);
   li.appendChild(act);
-  const go = goLinks({ name: c.nom, address: c.adresse + ", " + c.ville });
+  const go = goLinks({ name: c.nom, address: c.goAdresse || (c.adresse + ", " + c.ville) });
   if (go) li.appendChild(go);
   const [y, m, dd] = c.verifie.split("-").map(Number);
-  li.appendChild(el("p", "cl-note", "Source : site de " + c.org + ", vérifié le " + new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) + "."));
+  li.appendChild(el("p", "cl-note", "Source : " + c.source + ", vérifié le " + new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) + "."));
   return li;
 }
 
