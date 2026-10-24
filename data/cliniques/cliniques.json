@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T10:44:43.236Z",
+ "generatedAt": "2026-10-24T09:40:33.272Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -7,25 +7,13 @@
    "nofiche": 29414,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=29414",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MACLINIQUE BRUNSWICK (CENTRE MÉDICAL BRUNSWICK)",
    "adresse": "955, boulevard Saint-Jean, bureau 401",
    "ville": "Pointe-Claire",
    "codePostal": "H9R 5K3",
    "telephone": "514 426-6677",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -78,6 +66,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -188,25 +188,13 @@
    "nofiche": 365598,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=365598",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF REINE ÉLIZABETH (QUEEN ELISABETH - URGENT CARE)",
    "adresse": "2111, avenue Northcliffe, bureau 165",
    "ville": "Montréal",
    "codePostal": "H4A 3K6",
    "telephone": "514 481-4343",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -269,6 +257,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -318,25 +318,13 @@
    "nofiche": 32208,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32208",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MÉTRO-MÉDIC CENTRE VILLE (CLINIQUE MÉDICALE MÉTRO-MÉDIC)",
    "adresse": "2020, boulevard Robert-Bourassa, bureau MA01",
    "ville": "Montréal",
    "codePostal": "H3A 2A5",
    "telephone": "514 932-2122",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -399,6 +387,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -460,40 +460,13 @@
    "nofiche": 534529,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=534529",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-R HERZL (CENTRE DE SOINS URGENTS HERZL / HERZL URGENT CARE CENTRE-GMF-R)",
    "adresse": "5858, chemin de la Côte-des-Neiges, bureau 5ème étage, coin de la rue de la Peltrie",
    "ville": "Montréal",
    "codePostal": "H3S 1Z1",
    "telephone": "514 340-8311",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 20 h 30",
-     "heures": [
-      [
-       510,
-       1230
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -631,6 +604,33 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 20 h 30",
+     "heures": [
+      [
+       510,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 30 à 20 h 30",
      "heures": [
@@ -705,25 +705,13 @@
    "nofiche": 55434,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=55434",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MÉDICALE DIAMANT (CLINIQUE MÉDICALE DIAMANT)",
    "adresse": "5885, chemin de la Côte-des-Neiges, bureau 401",
    "ville": "Montréal",
    "codePostal": "H3S 2T2",
    "telephone": "514 731-5994",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -826,6 +814,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [
@@ -877,43 +877,13 @@
    "nofiche": 42515,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42515",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF 1851 (CLINIQUE MÉDICALE 1851)",
    "adresse": "1851, rue Sherbrooke Est, bureau 101",
    "ville": "Montréal",
    "codePostal": "H2K 4L5",
    "telephone": "514 524-7564",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé",
-        "RVSQ"
-       ],
-       "notes": [
-        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -1093,11 +1063,41 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé",
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages ouvrent à 16h00 pour les consultations du lendemain."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
-    "Bonjour-santé",
-    "RVSQ"
+    "RVSQ",
+    "Bonjour-santé"
    ],
    "miseAJour": "28 août 2026, 14 h",
    "telephoneSansRdv": false,
@@ -1137,8 +1137,8 @@
    "lon": -73.5641,
    "site": "https://cliniquemedicale1851.com/",
    "reservation": {
-    "Bonjour-santé": "https://bonjour-sante.ca/",
-    "RVSQ": "https://rvsq.gouv.qc.ca/"
+    "RVSQ": "https://rvsq.gouv.qc.ca/",
+    "Bonjour-santé": "https://bonjour-sante.ca/"
    }
   },
   {
@@ -1146,42 +1146,13 @@
    "nofiche": 30262,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=30262",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MÉTRO MONK (CENTRE MÉDICAL MÉTRO MONK)",
    "adresse": "2529, rue Allard",
    "ville": "Montréal",
    "codePostal": "H4E 2L5",
    "telephone": "514 769-9999",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Attention, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -1329,6 +1300,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -1399,56 +1399,13 @@
    "nofiche": 42021,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42021",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SUD-OUEST (CLINIQUE MÉDICALE DU SUD-OUEST)",
    "adresse": "4475, rue Bannantyne, bureau 103",
    "ville": "Montréal",
    "codePostal": "H4G 1E2",
    "telephone": "514 765-3600",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 10 à 20 h 30",
-     "heures": [
-      [
-       490,
-       1230
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 12 h 30 pour le lendemain"
-       ]
-      },
-      {
-       "auto": false,
-       "heures": "9 h à 12 h",
-       "plages": [
-        [
-         540,
-         720
-        ]
-       ],
-       "systemes": [],
-       "notes": [
-        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -1666,6 +1623,49 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 10 à 20 h 30",
+     "heures": [
+      [
+       490,
+       1230
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 12 h 30 pour le lendemain"
+       ]
+      },
+      {
+       "auto": false,
+       "heures": "9 h à 12 h",
+       "plages": [
+        [
+         540,
+         720
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "à partir de 9 h le jour même pour réserver une des quelques places disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 10 à 20 h 30",
      "heures": [
@@ -1770,42 +1770,13 @@
    "nofiche": 113767,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=113767",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE VILLERAY (CENTRE MÉDICAL MIEUX-ÊTRE VILLERAY)",
    "adresse": "110, boulevard Crémazie Ouest, unité 4",
    "ville": "Montréal",
    "codePostal": "H2P 1B9",
    "telephone": "514 787-1818",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -1953,6 +1924,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "La clientèle inscrite (avec un médecin de famille) peut réserver une place à partir de 17 h 00 la veille."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2040,42 +2040,13 @@
    "nofiche": 40842,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=40842",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF COSMOPOLITE DE SAINT-LAURENT (CLINIQUE MÉDICALE LE PLEIN CIEL)",
    "adresse": "475, boulevard de la Côte-Vertu",
    "ville": "Montréal",
    "codePostal": "H4L 1X7",
    "telephone": "514 337-3171",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h à 19 h",
-     "heures": [
-      [
-       420,
-       1140
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -2223,6 +2194,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour les jours fériés, appeler à la clinique avant tout déplacement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "7 h à 19 h",
      "heures": [
@@ -2318,42 +2318,13 @@
    "nofiche": 47611,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=47611",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF JARRY-LAJEUNESSE (POLYCLINIQUE DU COEUR DE L'ÎLE)",
    "adresse": "529, rue Jarry Est, bureau 201, et bureaux 205, 302, 306.",
    "ville": "Montréal",
    "codePostal": "H2P 1V4",
    "telephone": "514 277-4111",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h à 20 h",
-       "plages": [
-        [
-         480,
-         1200
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 8h le matin"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -2501,6 +2472,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 8h le matin"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2578,25 +2578,13 @@
    "nofiche": 32374,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32374",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF VILLERAY (CITÉ MÉDICALE VILLERAY)",
    "adresse": "8560, rue Saint-Hubert, bureau 200",
    "ville": "Montréal",
    "codePostal": "H2P 1Z7",
    "telephone": "514 722-0000",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -2659,6 +2647,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2717,42 +2717,13 @@
    "nofiche": 41133,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=41133",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE DE MÉDECINE FAMILIALE SAINT-LAURENT (CENTRE D'URGENCE SAINT-LAURENT)",
    "adresse": "1605, boulevard Marcel-Laurin, bureau 200",
    "ville": "Montréal",
    "codePostal": "H4R 0B7",
    "telephone": "514 747-2555",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -2900,6 +2871,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "jours fériés et samedi et dimanche, des plages horaires AVEC rendez-vous sont disponibles."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -2990,25 +2990,13 @@
    "nofiche": 37965,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37965",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF 3000 (CLINIQUE MÉDICALE 3000)",
    "adresse": "3000, rue Bélanger, est",
    "ville": "Montréal",
    "codePostal": "H1Y 1A9",
    "telephone": "514 376-7702",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -3097,6 +3085,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [
@@ -3155,25 +3155,13 @@
    "nofiche": 34486,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34486",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF COLLECTIF MÉDICA (GMF COLLECTIF MÉDICA)",
    "adresse": "5700, rue Saint-Zotique Est, bureau 102-104",
    "ville": "Montréal",
    "codePostal": "H1T 3Y7",
    "telephone": "514 256-5700",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -3236,6 +3224,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -3299,42 +3299,13 @@
    "nofiche": 462325,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=462325",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MÉDICALE ANGUS (CLINIQUE MÉDICALE ANGUS)",
    "adresse": "2601, rue William-Tremblay, bureau 200",
    "ville": "Montréal",
    "codePostal": "H1Y 0E2",
    "telephone": "514 807-2333",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -3482,6 +3453,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "La clientèle doit s'inscrire la veille à partir de 17h00 au 514 360-1433 (Bonjour Santé). Il est possible d'appeler la journée même au cas où il y a des annulations. **Attention, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -3577,42 +3577,13 @@
    "nofiche": 35464,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35464",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF VIAU (CLINIQUE MÉDICALE VIAU)",
    "adresse": "4750, rue Jarry Est, bureau 204",
    "ville": "Montréal",
    "codePostal": "H1R 1X8",
    "telephone": "514 326-7203",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h à 18 h",
-       "plages": [
-        [
-         480,
-         1080
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 17h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -3776,6 +3747,35 @@
         [
          480,
          1200
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 17h la veille"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 18 h",
+       "plages": [
+        [
+         480,
+         1080
         ]
        ],
        "systemes": [
@@ -3857,42 +3857,13 @@
    "nofiche": 56984,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=56984",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MAISONNEUVE-ROSEMONT (CLINIQUE MÉDICALE MAISONNEUVE-ROSEMONT)",
    "adresse": "5345, boulevard de l'Assomption, bureau 60, 340, 360, et rez-de-chaussée",
    "ville": "Montréal",
    "codePostal": "H1T 4B3",
    "telephone": "514 257-7000",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4040,6 +4011,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 16 h 00 la veille, le nombre de places disponibles est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -4114,25 +4114,13 @@
    "nofiche": 38893,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=38893",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF HOCHELAGA (CENTRE MÉDICAL HOCHELAGA)",
    "adresse": "9080, rue Hochelaga, 2e étage",
    "ville": "Montréal",
    "codePostal": "H1L 2N9",
    "telephone": "514 353-8742",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4201,6 +4189,18 @@
       [
        450,
        1230
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -4257,42 +4257,13 @@
    "nofiche": 730879,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=730879",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MEDNAM LACHINE (CLINIQUE MEDNAM LACHINE)",
    "adresse": "2000, rue Notre-Dame, bureau 301",
    "ville": "Montréal",
    "codePostal": "H8S 2G4",
    "telephone": "514 780-1873",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4446,6 +4417,35 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à compter de 18h30 pour obtenir un rendez-vous le lendemain."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
       ]
      ],
      "rdvJour": [
@@ -4522,25 +4522,13 @@
    "nofiche": 37323,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37323",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE DÉSY (CLINIQUE MÉDICALE DÉSY)",
    "adresse": "12421, boulevard Lacordaire, bureau 203, coin Léger et Lacordaire",
    "ville": "Montréal",
    "codePostal": "H1G 4L5",
    "telephone": "514 326-9060",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4612,6 +4600,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4655,25 +4655,13 @@
    "nofiche": 837708,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=837708",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF EN ROUTE (CLINIQUE EN ROUTE COMPLEXE DESJARDINS)",
    "adresse": "150, rue Sainte-Catherine Ouest, niveau 4 Tour Hilton, C.P. 65",
    "ville": "Montréal",
    "codePostal": "H2X 3Y2",
    "telephone": "514 312-7777",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 18 h",
-     "heures": [
-      [
-       450,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4742,6 +4730,18 @@
       [
        450,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h",
+     "heures": [
+      [
+       450,
+       1080
       ]
      ],
      "rdvJour": []
@@ -4795,42 +4795,13 @@
    "nofiche": 988498,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=988498",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DISTRICT MÉDICAL (DISTRICT MÉDICAL)",
    "adresse": "9735, boulevard Saint-Laurent",
    "ville": "Montréal",
    "codePostal": "H3L 2N4",
    "telephone": "514 832-3333",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -4978,6 +4949,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Pour les rendez-vous d'urgence mineure, les disponibilités sont affichées 24 heures à l'avance. De nouvelles plages s'ouvrent toutes les 10 minutes."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -5054,42 +5054,13 @@
    "nofiche": 607307,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=607307",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SANTÉ MONT-ROYAL (CLINIQUE SANTÉ MONT-ROYAL)",
    "adresse": "4480, chemin de la Côte-de-Liesse, bureau 110, entrée située au 2435, rue Manella",
    "ville": "Mont-Royal",
    "codePostal": "H4N 2R1",
    "telephone": "514 819-6649",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -5263,6 +5234,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "- Patients non-GMF: dès 20h00 pour les consultations urgentes du lendemain."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -5316,40 +5316,13 @@
    "nofiche": 856635,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=856635",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF IMASANTÉ (CLINIQUE MÉDICALE IMASANTÉ)",
    "adresse": "8651, rue de Grosbois",
    "ville": "Montréal",
    "codePostal": "H1K 2G4",
    "telephone": "514 355-8101",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h à 16 h",
-       "plages": [
-        [
-         480,
-         960
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -5503,6 +5476,33 @@
         [
          0,
          1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
         ]
        ],
        "systemes": [
@@ -5564,42 +5564,13 @@
    "nofiche": 37207,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37207",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LEVASSEUR (POLYCLINIQUE LEVASSEUR)",
    "adresse": "8000, boulevard Langelier, bureau 601",
    "ville": "Montréal",
    "codePostal": "H1P 3K2",
    "telephone": "514 383-0559",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "à partir de 17h30 pour le lendemain"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -5747,6 +5718,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "à partir de 17h30 pour le lendemain"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -5830,25 +5830,13 @@
    "nofiche": 34589,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34589",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE (CENTRE MÉDICAL MIEUX-ÊTRE SAINT-LÉONARD)",
    "adresse": "7600, boulevard Viau, bureau RP 336",
    "ville": "Montréal",
    "codePostal": "H1S 2P3",
    "telephone": "514 255-7755",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -5911,6 +5899,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -5998,42 +5998,13 @@
    "nofiche": 1056523,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1056523",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE SAINT-LAURENT (CENTRE MÉDICAL MIEUX-ÊTRE SAINT-LAURENT)",
    "adresse": "400, avenue Sainte-Croix, bureau 1360",
    "ville": "Montréal",
    "codePostal": "H4N 3L4",
    "telephone": "514 312-0333",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Prendre rendez-vous pour le lendemain à partir de 17h30."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -6181,6 +6152,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Prendre rendez-vous pour le lendemain à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -6266,25 +6266,13 @@
    "nofiche": 1068423,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1068423",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE ANJOU (CENTRE MÉDICAL MIEUX-ÊTRE ANJOU)",
    "adresse": "7171, rue Jean-Talon Est, bureau 200",
    "ville": "Montréal",
    "codePostal": "H1M 3N2",
    "telephone": "514 316-0333",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -6381,6 +6369,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -6441,25 +6441,13 @@
    "nofiche": 791352,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=791352",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LASALLE (CENTRE MÉDICAL MIEUX-ÊTRE SUCCURSALE LASALLE)",
    "adresse": "2229, avenue Dollard",
    "ville": "Montréal",
    "codePostal": "H8N 1S2",
    "telephone": "514 787-1818",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -6531,6 +6519,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6580,42 +6580,13 @@
    "nofiche": 1011327,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1011327",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CENTRE MÉDICAL MIEUX-ÊTRE - SUCCURSALE HOMA (CENTRE MÉDICAL MIEUX-ÊTRE - SUCCURSALE HOCHELAGA)",
    "adresse": "3841, rue Ontario Est",
    "ville": "Montréal",
    "codePostal": "H1W 1S5",
    "telephone": "514 524-3731",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -6763,6 +6734,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Les plages horaires de rendez-vous sont disponibles à partir de 17h30."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 18 h",
      "heures": [
@@ -6867,42 +6867,13 @@
    "nofiche": 32916,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=32916",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MÉDICENTRE LASALLE (MÉDICENTRE LASALLE)",
    "adresse": "1500, avenue Dollard, bureau 201",
    "ville": "Montréal",
    "codePostal": "H8N 1T5",
    "telephone": "514 366-4507",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Bonjour-santé"
-       ],
-       "notes": [
-        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7076,6 +7047,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Inscription tous les jours dès 19h45 pour les consultations du lendemain."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -7108,25 +7108,13 @@
    "nofiche": 1134720,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1134720",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF NOVOMED (CLINIQUE NOVOMED)",
    "adresse": "940, avenue Ogilvy",
    "ville": "Montréal",
    "codePostal": "H3N 1P4",
    "telephone": "514 210-6161",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7189,6 +7177,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7231,25 +7231,13 @@
    "nofiche": 289949,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=289949",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-R CENTRE MÉDICAL LAVAL (CENTRE MÉDICAL LAVAL) (SUPER-CLINIQUE)",
    "adresse": "1110, boulevard Vanier",
    "ville": "Laval",
    "codePostal": "H7C 2R8",
    "telephone": "450 661-2521",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7312,6 +7300,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7374,25 +7374,13 @@
    "nofiche": 278827,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=278827",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-R CONCORDE (SUPER-CLINIQUE) (POLYCLINIQUE MÉDICALE DE LA CONCORDE)",
    "adresse": "300, boulevard de la Concorde Est, unité 1er étage",
    "ville": "Laval",
    "codePostal": "H7G 2E6",
    "telephone": "450 667-5312",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7455,6 +7443,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -7499,25 +7499,13 @@
    "nofiche": 295754,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=295754",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-R MÉDI-CENTRE CHOMEDEY (SUPER-CLINIQUE)(MÉDI-CENTRE CHOMEDEY)",
    "adresse": "610, boulevard Curé-Labelle (Chomedey)",
    "ville": "Laval",
    "codePostal": "H7V 2T7",
    "telephone": "450 687-6452",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 21 h",
-     "heures": [
-      [
-       510,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7580,6 +7568,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 21 h",
+     "heures": [
+      [
+       510,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 30 à 21 h",
      "heures": [
@@ -7634,25 +7634,13 @@
    "nofiche": 293320,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=293320",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-R SAINTE-DOROTHÉE (CLINIQUE MÉDICALE SAINTE-DOROTHÉE) (SUPER-CLINIQUE)",
    "adresse": "1, boulevard Samson, bureau 102",
    "ville": "Laval",
    "codePostal": "H7X 3S5",
    "telephone": "450 689-6334",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7715,6 +7703,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 21 h",
      "heures": [
@@ -7801,25 +7801,13 @@
    "nofiche": 260245,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=260245",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-A SAINTE-ROSE (SUPER-CLINIQUE) (CLSC SAINTE-ROSE)",
    "adresse": "280, boulevard du Roi-du-Nord",
    "ville": "Laval",
    "codePostal": "H7L 4L2",
    "telephone": "450 622-5110",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -7888,6 +7876,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -7935,25 +7935,13 @@
    "nofiche": 606006,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=606006",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-A POLYCLINIQUE DU CENTRE DE L'ÎLE (SUPER CLINIQUE)",
    "adresse": "3025, boulevard Tessier",
    "ville": "Laval",
    "codePostal": "H7S 2M1",
    "telephone": "450 934-7491",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8016,6 +8004,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8058,25 +8058,13 @@
    "nofiche": 126408,
    "region": "lav",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=126408",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-A DES BOISÉS (SUPER-CLINIQUE) - (CLINIQUE DES BOISÉS)",
    "adresse": "1150, boulevard de l'Avenir, bureau 200",
    "ville": "Laval",
    "codePostal": "H7N 6L2",
    "telephone": "450 687-8585",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8139,6 +8127,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8192,25 +8192,13 @@
    "nofiche": 757507,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=757507",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE AZUR (CLINIQUE MÉDICALE AZUR)",
    "adresse": "2984, boulevard Taschereau, unité 103",
    "ville": "Longueuil",
    "codePostal": "J4V 2G9",
    "telephone": "450 878-0449",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8273,6 +8261,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8341,25 +8341,13 @@
    "nofiche": 49168,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=49168",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MÉDICALE PIERRE-BOUCHER (CLINIQUE MÉDICALE PIERRE BOUCHER)",
    "adresse": "1615, boulevard Jacques-Cartier Est, bureau 110",
    "ville": "Longueuil",
    "codePostal": "J4M 2X1",
    "telephone": "450 468-6223",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8428,6 +8416,18 @@
       [
        480,
        1320
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -8472,25 +8472,13 @@
    "nofiche": 45268,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45268",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF VAUDREUIL-DORION (POLYCLINIQUE MÉDICALE VAUDREUIL)",
    "adresse": "600, boulevard Harwood, bureau 10",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 6A3",
    "telephone": "450 319-6242",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8553,6 +8541,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8613,25 +8613,13 @@
    "nofiche": 467420,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=467420",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF ACCÈS RÉSEAU LE TRAIT D'UNION",
    "adresse": "56, boulevard Marie-Victorin",
    "ville": "Delson",
    "codePostal": "J5B 1A9",
    "telephone": "450 633-0123",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8700,6 +8688,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -8748,40 +8748,13 @@
    "nofiche": 35000,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35000",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DES TROIS LACS (CENTRE MÉDICAL DES TROIS-LACS)",
    "adresse": "65, boulevard de la Cité-des-Jeunes, bureau 300",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 8C1",
    "telephone": "450 455-3322",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "15 h à 15 h 55",
-       "plages": [
-        [
-         900,
-         955
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -8919,6 +8892,33 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "15 h à 15 h 55",
+       "plages": [
+        [
+         900,
+         955
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -8981,25 +8981,13 @@
    "nofiche": 40872,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=40872",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DIX30 (CLINIQUE D'URGENCE AVEC RENDEZ-VOUS DIX30 BROSSARD)",
    "adresse": "1100, rue du Lux, unité 510, ancienne adresse: 9090 boul. Leduc local 510",
    "ville": "Brossard",
    "codePostal": "J4Y 0E2",
    "telephone": "450 766-0881",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 45 à 14 h 30",
-     "heures": [
-      [
-       465,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9071,6 +9059,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 45 à 14 h 30",
+     "heures": [
+      [
+       465,
+       870
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9099,25 +9099,13 @@
    "nofiche": 1155047,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1155047",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF PRÉVOST (CLINIQUE MÉDICALE MÈRES ET MONDE)",
    "adresse": "2432, boulevard du Curé-Labelle, bureau 310",
    "ville": "Prévost",
    "codePostal": "J0R 1T0",
    "telephone": "579 995-0789",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9180,6 +9168,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9235,25 +9235,13 @@
    "nofiche": 55847,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=55847",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF POLYCLINIQUE MÉDICALE PIERRE-LE GARDEUR (GMF-R)",
    "adresse": "1000, montée des Pionniers, bureau 300",
    "ville": "Terrebonne",
    "codePostal": "J6V 1S8",
    "telephone": "450 657-1313",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9322,6 +9310,18 @@
       [
        480,
        1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
       ]
      ],
      "rdvJour": []
@@ -9382,25 +9382,13 @@
    "region": "rs",
    "enfants": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=939234",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "UP CENTRE D'URGENCES PÉDIATRIQUES (BROSSARD)",
    "adresse": "1100, rue du Lux, unité 420",
    "ville": "Brossard",
    "codePostal": "J4Y 0E2",
    "telephone": "450 693-0323",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9463,6 +9451,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9509,25 +9509,13 @@
    "region": "rn",
    "enfants": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1121326",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "UP CENTRE D'URGENCES PÉDIATRIQUES ET SOINS SPÉCIALISÉS (LAURENTIDES)",
    "adresse": "375, avenue Mathers, bureau 200",
    "ville": "Saint-Eustache",
    "codePostal": "J7P 4C1",
    "telephone": "450 693-0323",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9590,6 +9578,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9626,25 +9626,13 @@
    "region": "rn",
    "enfants": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=980800",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLINIQUE URGENCES PÉDIATRIQUES DE BLAINVILLE",
    "adresse": "1120, boulevard du Curé-Labelle",
    "ville": "Blainville",
    "codePostal": "J7C 2M9",
    "telephone": "450 818-5008",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -9697,6 +9685,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -9725,40 +9725,13 @@
    "nofiche": 45032,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45032",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF PROXIMITÉ SAINT-ROCH (CLINIQUE PROXIMITÉ SAINT-ROCH) (ACCÈS)",
    "adresse": "400, boulevard Jean-Lesage, bureau 38, 3e étage Hall Ouest",
    "ville": "Québec",
    "codePostal": "G1K 8W1",
    "telephone": "418 781-0022",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -9896,6 +9869,33 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -9969,42 +9969,13 @@
    "nofiche": 829978,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=829978",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MACLINIQUE LEBOURGNEUF (MACLINIQUE LEBOURGNEUF) (RÉSEAU)",
    "adresse": "725, boulevard Lebourgneuf, bureau 220",
    "ville": "Québec",
    "codePostal": "G2J 0C4",
    "telephone": "581 814-2701",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -10152,6 +10123,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour plus de détails, lire l'encadré Précisions sur l'horaire."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -10233,48 +10233,13 @@
    "nofiche": 1164679,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1164679",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MACLINIQUE LEBOURGNEUF 2 (MACLINIQUE LEBOURGNEUF 2) (RÉSEAU)",
    "adresse": "725, boulevard Lebourgneuf, bureau 120",
    "ville": "Québec",
    "codePostal": "G2J 0C4",
    "telephone": "581 814-2701",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre",
-        "RVSQ"
-       ],
-       "notes": [
-        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
-        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
-        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
-        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
-        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
-        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -10487,11 +10452,46 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre",
+        "RVSQ"
+       ],
+       "notes": [
+        "Pour le SANS rendez-vous, clientèle inscrite, inscrivez-vous par le site Web : reseaumaclinique.com",
+        "Pour une urgence mineure et le SANS rendez-vous, clientèle non inscrite et orpheline, inscrivez-vous via le site Web : rvsq.gouv.qc.ca.",
+        "Pour obtenir un rendez-vous entre 8 h et 12 h, vous devez vous inscrire, à l'ouverture des plages, dès midi la veille.",
+        "Pour obtenir un rendez-vous entre 12 h et 16 h vous devez vous inscrire, à l'ouverture des plages, dès 14 h la veille.",
+        "Pour obtenir un rendez-vous entre 16 h et 20 h, vous devez vous inscrire, à l'ouverture des plages, dès 8 h le jour même.",
+        "Les heures d'ouverture peuvent varier lors des jours fériés. Veuillez communiquer avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
-    "Autre",
-    "RVSQ"
+    "RVSQ",
+    "Autre"
    ],
    "miseAJour": "22 octobre 2025, 12 h 54",
    "telephoneSansRdv": false,
@@ -10545,42 +10545,13 @@
    "nofiche": 213455,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=213455",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LA CITÉ MÉDICALE (LA CITÉ MÉDICALE DE SAINTE-FOY) (ACCÈS)",
    "adresse": "2600, boulevard Laurier, bureau 295, 2e étage",
    "ville": "Québec",
    "codePostal": "G1V 4T3",
    "telephone": "418 781-0480",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 20 h",
-     "heures": [
-      [
-       450,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "Autre"
-       ],
-       "notes": [
-        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -10740,6 +10711,35 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 20 h",
+     "heures": [
+      [
+       450,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Lire les informations - Précisions sur l'horaire - pour plus de détails"
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "7 h 30 à 20 h",
      "heures": [
@@ -10836,42 +10836,13 @@
    "nofiche": 52622,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52622",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LE MESNIL (CENTRE MÉDICAL LE MESNIL) (ACCÈS)",
    "adresse": "1300, boulevard Lebourgneuf, bureau 300, 3e étage",
    "ville": "Québec",
    "codePostal": "G2K 2N1",
    "telephone": "418 624-1800",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 20 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -11045,6 +11016,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 20 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11093,42 +11093,13 @@
    "nofiche": 213131,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=213131",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DU CARREFOUR (CLINIQUE MÉDICALE DES PROMENADES) (ACCÈS)",
    "adresse": "3333, rue du Carrefour, bureau A222, portes 4 ou 5 à l'extérieur",
    "ville": "Québec",
    "codePostal": "G1C 5R9",
    "telephone": "418 663-6345",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "S'inscrire à partir de 17 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -11306,6 +11277,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 17 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11357,42 +11357,13 @@
    "nofiche": 35205,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=35205",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF VAL-BÉLAIR - VALCARTIER - SAINTE-CATHERINE (CLINIQUE MÉDICALE VAL-BÉLAIR) (ACCÈS)",
    "adresse": "1147, boulevard Pie-XI Nord, bureau 202",
    "ville": "Québec",
    "codePostal": "G3K 2P8",
    "telephone": "418 843-2473",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "S'inscrire à partir de 19 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -11566,6 +11537,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "S'inscrire à partir de 19 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -11604,42 +11604,13 @@
    "nofiche": 270097,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=270097",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF-U CLINIQUE MAIZERETS (CLINIQUE MAIZERETS) (ACCÈS)",
    "adresse": "1825, boulevard Henri-Bourassa, bureau 301",
    "ville": "Québec",
    "codePostal": "G1J 0H4",
    "telephone": "418 661-1413",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 45 à 19 h",
-     "heures": [
-      [
-       465,
-       1140
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "Accessible à toute heure du jour et de la nuit"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -11828,6 +11799,35 @@
         "Pour un rendez-vous rapide / dépannage, téléphoner au 418 661-1413, poste 2 entre 7 h 45 et 16h du lundi au vendredi ou via la plateforme rendez-vous santé Québec - RVSQ : www.rvsq.gouv.qc.ca",
         "Les plages horaires pour les consultations médicales AVEC rendez-vous sont offertes à la clientèle inscrite.",
         "Les horaires des jours fériés sont variables. Communiquez avec la ressource avant de vous déplacer."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 45 à 19 h",
+     "heures": [
+      [
+       465,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "Accessible à toute heure du jour et de la nuit"
        ]
       }
      ]
@@ -11894,25 +11894,13 @@
    "nofiche": 29382,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=29382",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MACLINIQUE LÉVIS",
    "adresse": "5801, boulevard Wilfrid-Carrier",
    "ville": "Lévis",
    "codePostal": "G6V 0C9",
    "telephone": "418 833-4977",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -11981,6 +11969,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -12046,25 +12046,13 @@
    "nofiche": 854870,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854870",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE RÉSEAU DE TROIS-RIVIÈRES (GMF ACCÈS-RÉSEAU CLINIQUE RÉSEAU DE TROIS-RIVIÈRES)",
    "adresse": "1785, boulevard du Carmel, bureau 246",
    "ville": "Trois-Rivières",
    "codePostal": "G8Z 3R8",
    "telephone": "819 840-3006",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12133,6 +12121,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -12175,25 +12175,13 @@
    "nofiche": 606386,
    "region": "tr",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=606386",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DU CAP (GMF ACCÈS-RÉSEAU DU CAP)",
    "adresse": "700, boulevard Thibeau, bureau 110",
    "ville": "Trois-Rivières",
    "codePostal": "G8T 7A1",
    "telephone": "819 373-4551",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12256,6 +12244,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -12302,25 +12302,13 @@
    "nofiche": 52535,
    "region": "r05",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52535",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DES GRANDES-FOURCHES (CLSC ET CENTRE DE SERVICES AMBULATOIRES BELVÉDÈRE)",
    "adresse": "1095, rue Belvédère Sud",
    "ville": "Sherbrooke",
    "codePostal": "J1H 4C6",
    "telephone": "819 780-2222",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 30",
-     "heures": [
-      [
-       480,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12389,6 +12377,18 @@
       [
        480,
        1245
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
       ]
      ],
      "rdvJour": []
@@ -12435,40 +12435,13 @@
    "nofiche": 1085794,
    "region": "r07",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1085794",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DELTA SANTÉ (CLINIQUE AVICENNE)",
    "adresse": "10, rue Lois",
    "ville": "Gatineau",
    "codePostal": "J8Y 3R1",
    "telephone": "819 282-0997",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 13 h 30",
-     "heures": [
-      [
-       510,
-       810
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "8 h 30 à 13 h 30",
-       "plages": [
-        [
-         510,
-         810
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12576,6 +12549,33 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 13 h 30",
+     "heures": [
+      [
+       510,
+       810
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "8 h 30 à 13 h 30",
+       "plages": [
+        [
+         510,
+         810
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 30 à 13 h 30",
      "heures": [
@@ -12626,25 +12626,13 @@
    "nofiche": 1163596,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1163596",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MÉDICALE STEP (CLINIQUE MÉDICALE STEP)",
    "adresse": "5757, boulevard Cavendish, bureau 300",
    "ville": "Côte-Saint-Luc",
    "codePostal": "H4W 2W8",
    "telephone": "514 307-5757",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12716,6 +12704,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12741,20 +12741,13 @@
    "nofiche": 1207069,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1207069",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MÉDICALE ELNA DÉCARIE (CABINET DOCTEUR NATHANIEL MIMRAN)",
    "adresse": "6900, boulevard Décarie, bureau 3650-A",
    "ville": "Côte-Saint-Luc",
    "codePostal": "H3X 2T8",
    "telephone": "514 369-9999",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -12802,6 +12795,13 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -12835,25 +12835,13 @@
    "nofiche": 1225603,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225603",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLINIQUE MEDNAM LACHINE (CLINIQUE MEDNAM LASALLE)",
    "adresse": "1500, avenue Dollard, bureau 302",
    "ville": "Montréal",
    "codePostal": "H8N 1T5",
    "telephone": "514 532-0130",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -12920,6 +12908,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12945,25 +12945,13 @@
    "nofiche": 33972,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=33972",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE JOLIETTE (CLINIQUE MÉDICALE LANAUDIÈRE)",
    "adresse": "222, rue Bernard",
    "ville": "Saint-Charles-Borromée",
    "codePostal": "J6E 2C5",
    "telephone": "450 755-1033",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -13035,6 +13023,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13071,25 +13071,13 @@
    "nofiche": 38864,
    "region": "r01",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=38864",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE LA MATAPÉDIA (CENTRE MÉDICAL DE LA VALLÉE)",
    "adresse": "22, rue du Pont, bureau 1",
    "ville": "Amqui",
    "codePostal": "G5J 3T5",
    "telephone": "418 629-6611",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -13151,6 +13139,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13181,20 +13181,13 @@
    "nofiche": 45525,
    "region": "r01",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45525",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE LA MATAPÉDIA (CLINIQUE MÉDICALE SAYABEC)",
    "adresse": "99-A, rue de l'Église",
    "ville": "Sayabec",
    "codePostal": "G0J 3K0",
    "telephone": "418 536-5438",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -13255,6 +13248,13 @@
        720
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -13281,25 +13281,13 @@
    "nofiche": 33148,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=33148",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE LA RIVE (CLINIQUE MÉDICALE DE LA RIVE)",
    "adresse": "169, rue du Prince-Albert",
    "ville": "Otterburn Park",
    "codePostal": "J3H 1L4",
    "telephone": "450 446-7333",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h 30",
-     "heures": [
-      [
-       450,
-       930
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -13368,6 +13356,18 @@
       [
        450,
        1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h 30",
+     "heures": [
+      [
+       450,
+       930
       ]
      ],
      "rdvJour": []
@@ -13407,25 +13407,13 @@
    "nofiche": 37318,
    "region": "r12",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37318",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE MONTMAGNY (CLINIQUE MÉDICALE DE MONTMAGNY)",
    "adresse": "5, boulevard Taché Ouest",
    "ville": "Montmagny",
    "codePostal": "G5V 2Z9",
    "telephone": "418 248-4933",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h 30",
-     "heures": [
-      [
-       480,
-       1110
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -13488,6 +13476,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h 30",
+     "heures": [
+      [
+       480,
+       1110
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 18 h 30",
      "heures": [
@@ -13537,7 +13537,7 @@
    "nofiche": 54117,
    "region": "r08",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=54117",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DES AURORES-BORÉALES (GMF-U DES AURORES-BORÉALES)",
    "adresse": "228, 2e Rue Est",
    "ville": "La Sarre",
@@ -13545,27 +13545,10 @@
    "telephone": "819 339-5617",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 18 h",
-     "heures": [
-      [
-       480,
-       1080
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
-     "ferme": false,
-     "ouverture": "9 h à 16 h",
-     "heures": [
-      [
-       540,
-       960
-      ]
-     ],
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     },
     {
@@ -13622,10 +13605,22 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
-   "miseAJour": "03 septembre 2026, 15 h 30",
+   "miseAJour": "23 octobre 2026, 12 h 48",
    "telephoneSansRdv": false,
    "acces": "tous",
    "accesNote": "sans rendez-vous pour toute clientèle inscrite, pour clientèle non inscrite via le GAP selon la disponibilités des médecins",
@@ -13653,25 +13648,13 @@
    "nofiche": 45652,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45652",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DU COTEAU (CLINIQUE MÉDICALE DU COTEAU)",
    "adresse": "440, boulevard Saint-Luc, suite 100",
    "ville": "Saint-Jean-sur-Richelieu",
    "codePostal": "J2W 0E2",
    "telephone": "450 359-6819",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -13740,6 +13723,18 @@
       [
        480,
        1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -13784,25 +13779,13 @@
    "nofiche": 819527,
    "region": "r05",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=819527",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DU GRANIT (CSSS DU GRANIT - POINT DE SERVICE DE LAMBTON)",
    "adresse": "310-A, rue Principale",
    "ville": "Lambton",
    "codePostal": "G0M 1H0",
    "telephone": "418 486-7441",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 12 h",
-     "heures": [
-      [
-       510,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -13855,6 +13838,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 30 à 12 h",
      "heures": [
@@ -13888,25 +13883,13 @@
    "nofiche": 46881,
    "region": "rn",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=46881",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LE GARDEUROIS",
    "adresse": "155, boulevard Lacombe, bureau 150",
    "ville": "Repentigny",
    "codePostal": "J5Z 3C4",
    "telephone": "450 582-5551",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 14 h 30",
-     "heures": [
-      [
-       480,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -13975,6 +13958,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 14 h 30",
+     "heures": [
+      [
+       480,
+       870
       ]
      ],
      "rdvJour": []
@@ -14024,25 +14019,13 @@
    "nofiche": 53487,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53487",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LES MYRTILLES DU LAC (CENTRE MÉDICAL DE SAINT-FÉLICIEN)",
    "adresse": "1179, boulevard Saint-Félicien, bureau 201",
    "ville": "Saint-Félicien",
    "codePostal": "G8K 3J1",
    "telephone": "418 679-0943",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -14101,6 +14084,18 @@
       [
        480,
        720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -14148,25 +14143,13 @@
    "nofiche": 53478,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53478",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLINIQUE MÉDICALE DE ROBERVAL)",
    "adresse": "714, boulevard Marcotte",
    "ville": "Roberval",
    "codePostal": "G8H 1Z6",
    "telephone": "418 275-3833",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -14225,6 +14208,18 @@
       [
        480,
        1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -14256,25 +14251,13 @@
    "nofiche": 53488,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53488",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLINIQUE MÉDICALE SAINT-PRIME)",
    "adresse": "581, rue Coulombe",
    "ville": "Saint-Prime",
    "codePostal": "G8J 1P2",
    "telephone": "418 251-9080",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -14333,6 +14316,18 @@
       [
        480,
        960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
       ]
      ],
      "rdvJour": []
@@ -14361,25 +14356,13 @@
    "nofiche": 53480,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53480",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LES MYRTILLES DU LAC (MA CLINIQUE ZONE SANTÉ)",
    "adresse": "720, boulevard Saint-Joseph, bureau 202",
    "ville": "Roberval",
    "codePostal": "G8H 2L2",
    "telephone": "418 275-1122",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -14438,6 +14421,18 @@
       [
        480,
        1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -14490,25 +14485,13 @@
    "nofiche": 52405,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52405",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MARGUERITE D'YOUVILLE (CLINIQUE FAMILIALE DES HAUTS-BOIS)",
    "adresse": "2105, boulevard Armand-Frappier, bureau 301",
    "ville": "Sainte-Julie",
    "codePostal": "J3E 3R6",
    "telephone": "450 649-2490",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -14571,6 +14554,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -14639,40 +14634,13 @@
    "nofiche": 269691,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=269691",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MÉDICO-CENTRE MONT-ROYAL (CLINIQUE MÉDICALE CRESCENT)",
    "adresse": "1198, rue Crescent",
    "ville": "Montréal",
    "codePostal": "H3G 2A9",
    "telephone": "514 933-8383",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "8 h à 20 h",
-       "plages": [
-        [
-         480,
-         1200
-        ]
-       ],
-       "systemes": [],
-       "notes": [
-        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -14810,6 +14778,33 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 20 h",
+       "plages": [
+        [
+         480,
+         1200
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Pour prendre rendez-vous pour la journée même, il faut se présenter directement ou appeler la clinique de 8h à 9h."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -14900,38 +14895,13 @@
    "nofiche": 1052030,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1052030",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF MEDISTAT (CLINIQUE MÉDICALE BEACONSFIELD)",
    "adresse": "445, boulevard Beaconsfield",
    "ville": "Beaconsfield",
    "codePostal": "H9W 4C2",
    "telephone": "514 375-5342",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": false,
-       "heures": "8 h à 17 h",
-       "plages": [
-        [
-         480,
-         1020
-        ]
-       ],
-       "systemes": [],
-       "notes": []
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -15063,6 +15033,31 @@
        "notes": []
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 17 h",
+       "plages": [
+        [
+         480,
+         1020
+        ]
+       ],
+       "systemes": [],
+       "notes": []
+      }
+     ]
     }
    ],
    "systemes": [],
@@ -15112,42 +15107,13 @@
    "nofiche": 42148,
    "region": "qc",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42148",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF QUÉBEC-NORD (CENTRE MÉDICAL DE CHARLESBOURG)",
    "adresse": "14008, boulevard Henri-Bourassa, bureau 200",
    "ville": "Québec",
    "codePostal": "G1G 3Y8",
    "telephone": "418 628-9921",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 17 h 15",
-     "heures": [
-      [
-       450,
-       1035
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 15 h la veille"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -15317,6 +15283,35 @@
        ]
       }
      ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 15",
+     "heures": [
+      [
+       450,
+       1035
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 15 h la veille"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -15355,25 +15350,13 @@
    "nofiche": 671719,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671719",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SAINT-CONSTANT (CLINIQUE MÉDICALE SAINT-CONSTANT)",
    "adresse": "113, rue Saint-Pierre, bureau 102",
    "ville": "Saint-Constant",
    "codePostal": "J5A 0M3",
    "telephone": "450 632-1630",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -15440,6 +15423,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15476,25 +15471,13 @@
    "nofiche": 52169,
    "region": "r15",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=52169",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SAINT-DONAT (CLSC DE SAINT-DONAT)",
    "adresse": "377, rue du Foyer",
    "ville": "Saint-Donat",
    "codePostal": "J0T 2C0",
    "telephone": "819 424-1511",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -15566,6 +15549,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15609,25 +15604,13 @@
    "nofiche": 44626,
    "region": "r12",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=44626",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SAINTE-CROIX/SAINT-PATRICE (COOPÉRATIVE DE SOLIDARITÉ SANTÉ DU SUD DE LOTBINIÈRE)",
    "adresse": "473, rue Principale",
    "ville": "Saint-Patrice-de-Beaurivage",
    "codePostal": "G0S 1B0",
    "telephone": "418 596-2213",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 12 h",
-     "heures": [
-      [
-       510,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -15694,6 +15677,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -15737,25 +15732,13 @@
    "nofiche": 50518,
    "region": "rs",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=50518",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF SAINT-LUC SAINT-EUGÈNE (CLINIQUE MÉDICALE SAINT-LUC)",
    "adresse": "247, boulevard Saint-Luc, unité 204",
    "ville": "Saint-Jean-sur-Richelieu",
    "codePostal": "J2W 0J3",
    "telephone": "450 348-6124",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -15814,6 +15797,18 @@
       [
        510,
        1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
       ]
      ],
      "rdvJour": []
@@ -15858,25 +15853,13 @@
    "nofiche": 536856,
    "region": "r07",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=536856",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE MANSFIELD-ET-PONTEFRACT",
    "adresse": "160, chemin de la Chute",
    "ville": "Mansfield-et-Pontefract",
    "codePostal": "J0X 1R0",
    "telephone": "819 683-3000",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -15929,6 +15912,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -15958,7 +15953,7 @@
    "nofiche": 532,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=532",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE CHICOUTIMI",
    "adresse": "80, rue Racine Est",
    "ville": "Saguenay",
@@ -15966,18 +15961,6 @@
    "telephone": "418 543-2221",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": true,
      "ouverture": null,
@@ -16040,7 +16023,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -16113,6 +16096,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -16142,7 +16137,7 @@
    "nofiche": 1149,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1149",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE PIERREFONDS",
    "adresse": "13800, boulevard Gouin Ouest",
    "ville": "Montréal",
@@ -16150,18 +16145,6 @@
    "telephone": "514 626-2572",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": false,
      "ouverture": "8 h à 16 h",
@@ -16229,12 +16212,12 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "7 h à 20 h",
+     "ouverture": "8 h à 20 h",
      "heures": [
       [
-       420,
+       480,
        1200
       ]
      ],
@@ -16297,6 +16280,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "7 h à 20 h",
      "heures": [
@@ -16326,7 +16321,7 @@
    "nofiche": 595,
    "region": "r01",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=595",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE POHÉNÉGAMOOK",
    "adresse": "1922, rue Saint-Vallier",
    "ville": "Pohénégamook",
@@ -16334,18 +16329,6 @@
    "telephone": "418 859-2450",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": true,
      "ouverture": null,
@@ -16408,10 +16391,15 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
      "rdvJour": []
     },
     {
@@ -16474,6 +16462,13 @@
        600
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -16495,7 +16490,7 @@
    "nofiche": 1725,
    "region": "r15",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1725",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE SAINT-DONAT",
    "adresse": "377, rue du Foyer",
    "ville": "Saint-Donat",
@@ -16503,7 +16498,79 @@
    "telephone": "819 424-1511",
    "jours": [
     {
-     "date": "2026-10-23",
+     "date": "2026-10-24",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-25",
+     "ferme": false,
+     "ouverture": "8 h 30 à 15 h 30",
+     "heures": [
+      [
+       510,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 16 h 30",
      "heures": [
@@ -16587,7 +16654,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h 30",
      "heures": [
@@ -16596,85 +16663,6 @@
        990
       ]
      ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-24",
-     "ferme": false,
-     "ouverture": "8 h 30 à 15 h 30",
-     "heures": [
-      [
-       510,
-       930
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-25",
-     "ferme": false,
-     "ouverture": "8 h 30 à 15 h 30",
-     "heures": [
-      [
-       510,
-       930
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-26",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-27",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-28",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-29",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
      "rdvJour": []
     },
     {
@@ -16732,6 +16720,13 @@
        570
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -16753,7 +16748,7 @@
    "nofiche": 635,
    "region": "r12",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=635",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE SAINT-FABIEN-DE-PANET",
    "adresse": "10, rue Alphonse",
    "ville": "Saint-Fabien-de-Panet",
@@ -16761,18 +16756,6 @@
    "telephone": "418 249-2572",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h à 21 h",
-     "heures": [
-      [
-       420,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": true,
      "ouverture": null,
@@ -16835,13 +16818,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "8 h à 12 h",
+     "ouverture": "7 h à 21 h",
      "heures": [
       [
-       480,
-       720
+       420,
+       1260
       ]
      ],
      "rdvJour": []
@@ -16909,13 +16892,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "7 h à 11 h 35",
+     "ouverture": "8 h à 12 h",
      "heures": [
       [
-       420,
-       695
+       480,
+       720
       ]
      ],
      "rdvJour": []
@@ -16973,13 +16956,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "8 h à 11 h",
+     "ouverture": "7 h à 11 h 35",
      "heures": [
       [
-       480,
-       660
+       420,
+       695
       ]
      ],
      "rdvJour": []
@@ -17036,6 +17019,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 11 h",
+     "heures": [
+      [
+       480,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 11 h",
      "heures": [
@@ -17065,7 +17060,7 @@
    "nofiche": 540,
    "region": "r01",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=540",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE SAINT-PAMPHILE",
    "adresse": "103, rue du Foyer Nord",
    "ville": "Saint-Pamphile",
@@ -17073,18 +17068,6 @@
    "telephone": "418 356-3393",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h à 16 h 30",
-     "heures": [
-      [
-       420,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": true,
      "ouverture": null,
@@ -17147,13 +17130,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "8 h à 12 h",
+     "ouverture": "7 h à 16 h 30",
      "heures": [
       [
-       480,
-       720
+       420,
+       990
       ]
      ],
      "rdvJour": []
@@ -17221,10 +17204,15 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
      "rdvJour": []
     },
     {
@@ -17285,15 +17273,10 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 15 h",
-     "heures": [
-      [
-       480,
-       900
-      ]
-     ],
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     },
     {
@@ -17346,6 +17329,18 @@
      "ferme": true,
      "ouverture": null,
      "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
      "rdvJour": []
     }
    ],
@@ -17367,7 +17362,7 @@
    "nofiche": 539,
    "region": "r01",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=539",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLSC DE SAINT-JEAN-PORT-JOLI",
    "adresse": "430, rue Jean-Leclerc, cP. 250",
    "ville": "Saint-Jean-Port-Joli",
@@ -17375,18 +17370,6 @@
    "telephone": "418 598-3355",
    "jours": [
     {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 12 h",
-     "heures": [
-      [
-       480,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-24",
      "ferme": false,
      "ouverture": "8 h à 12 h",
@@ -17459,13 +17442,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": false,
-     "ouverture": "8 h à 16 h",
+     "ouverture": "8 h à 12 h",
      "heures": [
       [
        480,
-       960
+       720
       ]
      ],
      "rdvJour": []
@@ -17543,10 +17526,15 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
      "rdvJour": []
     },
     {
@@ -17602,7 +17590,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -17663,6 +17651,13 @@
        915
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -17684,42 +17679,13 @@
    "nofiche": 854640,
    "region": "mtl",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=854640",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF CLSC DE SAINT-MICHEL (CLSC DE SAINT-MICHEL)",
    "adresse": "3355, rue Jarry Est",
    "ville": "Montréal",
    "codePostal": "H1Z 2E5",
    "telephone": "514 722-3000",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": [
-      {
-       "auto": true,
-       "heures": "En tout temps",
-       "plages": [
-        [
-         0,
-         1440
-        ]
-       ],
-       "systemes": [
-        "RVSQ"
-       ],
-       "notes": [
-        "à partir de 18 h 00 pour le lendemain"
-       ]
-      }
-     ]
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -17842,6 +17808,35 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "RVSQ"
+       ],
+       "notes": [
+        "à partir de 18 h 00 pour le lendemain"
+       ]
+      }
+     ]
     }
    ],
    "systemes": [
@@ -17895,25 +17890,13 @@
    "nofiche": 53638,
    "region": "r04",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53638",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF DE LAURIER-STATION (CLSC LAURIER-STATION)",
    "adresse": "135, rue de la Station",
    "ville": "Laurier-Station",
    "codePostal": "G0S 1N0",
    "telephone": "418 728-3435",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 20 h",
-     "heures": [
-      [
-       480,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -17976,6 +17959,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 20 h",
      "heures": [
@@ -18019,25 +18014,13 @@
    "nofiche": 553113,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=553113",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "GMF LES MYRTILLES DU LAC (CLSC DE SAINT-FÉLICIEN)",
    "adresse": "1228, boulevard du Sacré-Coeur",
    "ville": "Saint-Félicien",
    "codePostal": "G8K 2P8",
    "telephone": "418 679-5270",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -18090,6 +18073,18 @@
     },
     {
      "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
      "ferme": false,
      "ouverture": "8 h à 16 h",
      "heures": [
@@ -18147,25 +18142,13 @@
    "nofiche": 1133235,
    "region": "r02",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1133235",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CLINIQUE IPS SANTÉ PLUS",
    "adresse": "3750, boulevard du Royaume, bureau 201",
    "ville": "Saguenay",
    "codePostal": "G7X 0A4",
    "telephone": "418 758-1851",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "7 h 30 à 11 h 30",
-     "heures": [
-      [
-       450,
-       690
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -18227,6 +18210,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "7 h 30 à 11 h 30",
+     "heures": [
+      [
+       450,
+       690
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -18278,25 +18273,13 @@
    "nofiche": 1159642,
    "region": "r05",
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1159642",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "JUSTINE LAGACÉ - INFIRMIÈRE PRATICIENNE",
    "adresse": "4050, rue Laval",
    "ville": "Lac-Mégantic",
    "codePostal": "G6B 1B1",
    "telephone": "418 476-8259",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": false,
-     "ouverture": "9 h 30 à 15 h",
-     "heures": [
-      [
-       570,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": false,
@@ -18353,6 +18336,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "9 h 30 à 15 h",
+     "heures": [
+      [
+       570,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -18383,20 +18378,13 @@
    "region": "mtl",
    "enfants": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=735495",
-   "lu": "2026-10-23",
+   "lu": "2026-10-24",
    "nomOfficiel": "CABINET PÉDIATRIQUE DU DOCTEUR THOMAS SCHWARTZ",
    "adresse": "7005, chemin Kildare, bureau 8",
    "ville": "Côte-Saint-Luc",
    "codePostal": "H4W 1C1",
    "telephone": "514 481-7167",
    "jours": [
-    {
-     "date": "2026-10-23",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-24",
      "ferme": true,
@@ -18457,6 +18445,13 @@
        870
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
