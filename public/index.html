@@ -691,7 +691,14 @@ function forecastBlock(h) {
     if (!byDay.has(d) || s < byDay.get(d).s) byDay.set(d, { s, slot, c });
   });
   const top = [...byDay.values()].sort((a, b) => a.s - b.s).slice(0, 3);
-  if (top.length) {
+  // Petites urgences souvent vides : plusieurs jours à égalité à 0 → pas de classement arbitraire.
+  const quietDays = [...byDay.values()].filter(t => t.s === 0).length;
+  if (quietDays >= 3) {
+    const t2 = document.createElement("div"); t2.className = "fc-title"; t2.textContent = "Meilleurs créneaux de la semaine";
+    const p = document.createElement("p"); p.className = "fc-note";
+    p.textContent = "Souvent calme : aucune civière occupée et personne en attente à plusieurs moments de la semaine (" + quietDays + " jours sur 7).";
+    body.append(t2, p);
+  } else if (top.length) {
     const t2 = document.createElement("div"); t2.className = "fc-title"; t2.textContent = "Meilleurs créneaux de la semaine";
     const ul = document.createElement("ul"); ul.className = "fc-best";
     top.forEach(t => {
