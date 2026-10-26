@@ -298,7 +298,7 @@
      T("Votre position reste sur votre téléphone. Si vous cochez « Temps de route en voiture », elle est arrondie à environ 1 km puis envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée.", "Your location stays on your phone. If you check “Driving time”, it is rounded to about 1 km and sent to our server and to openrouteservice to calculate routes. It is not kept."),
      T("Une adresse ou un code postal cherché est envoyé à OpenStreetMap pour trouver sa position. Il n'est pas conservé.", "An address or postal code you search is sent to OpenStreetMap to find its location. It is not kept."),
      T("Vos choix (langue, région, onglet, application de navigation) sont gardés dans votre navigateur seulement.", "Your choices (language, region, tab, navigation app) are kept in your browser only."),
-     T("Les commentaires et les demandes de partenariat sont transmis par courriel au responsable du site, par le service Formspree, seulement pour y répondre.", "Comments and partnership requests are emailed to the site owner through the Formspree service, only to reply to them."),
+     T("Les commentaires et les demandes de partenariat sont transmis par courriel au responsable du site (service Brevo, ou Formspree en secours), seulement pour y répondre.", "Comments and partnership requests are emailed to the site owner (Brevo service, or Formspree as a backup), only to reply to them."),
      T("Comme tout site web, l'hébergeur (Render) garde des journaux techniques des visites. Les polices de caractères sont chargées depuis Google Fonts.", "Like any website, the host (Render) keeps technical visit logs. Fonts are loaded from Google Fonts.")]
       .forEach(t => ul3.appendChild(el("li", "", t)));
     priv.appendChild(ul3);
@@ -313,7 +313,7 @@
     const b = el("button", "g-btn", T("Écrire un commentaire", "Write a comment")); b.type = "button";
     b.addEventListener("click", () => document.getElementById("commentaires").scrollIntoView({ behavior: "smooth", block: "start" }));
     c.appendChild(b);
-    c.appendChild(el("p", "fc-note", T("Page mise à jour le 20 octobre 2026.", "Page updated on October 20, 2026.")));
+    c.appendChild(el("p", "fc-note", T("Page mise à jour le 25 octobre 2026.", "Page updated on October 25, 2026.")));
     box.append(c, sos());
   }
 
@@ -347,9 +347,9 @@
       "Each piece of information is given by you, for a specific purpose: location only if you allow it on your phone, email alerts only after you confirm your address, notifications only if you allow them. You can withdraw your consent at any time (unsubscribe, phone settings).")]);
     sec(T("4. Fournisseurs et lieu des données", "4. Service providers and data location"), [
       T("Supabase : base de données des alertes, serveurs au Canada (région Canada Central, Montréal).", "Supabase: alerts database, servers in Canada (Canada Central region, Montréal)."),
-      T("Render : hébergement du site et journaux techniques des visites (adresse IP, page demandée), à l'extérieur du Québec.", "Render: site hosting and technical visit logs (IP address, page requested), outside Québec."),
-      T("Brevo : envoi des courriels d'alertes (Union européenne).", "Brevo: sending alert emails (European Union)."),
-      T("Formspree : transmission des commentaires et des demandes de partenariat par courriel (États-Unis).", "Formspree: forwarding comments and partnership requests by email (United States)."),
+      T("Render : hébergement du site et journaux techniques des visites (adresse IP, page demandée), serveur en Virginie (États-Unis).", "Render: site hosting and technical visit logs (IP address, page requested), server in Virginia (United States)."),
+      T("Brevo : envoi des courriels d'alertes, des commentaires et des demandes de partenariat (Union européenne).", "Brevo: sending alert emails, comments and partnership requests (European Union)."),
+      T("Formspree : transmission des commentaires et des demandes de partenariat, seulement en secours si Brevo n'est pas disponible (États-Unis).", "Formspree: forwarding comments and partnership requests, only as a backup if Brevo is unavailable (United States)."),
       T("Services de notification d'Apple, de Google ou de Mozilla, selon votre appareil : livraison des notifications chiffrées.", "Apple, Google or Mozilla notification services, depending on your device: delivery of encrypted notifications."),
       T("openrouteservice (HeiGIT, Allemagne) et OpenStreetMap (Nominatim) : calcul des trajets et recherche d'adresse, avec une position arrondie ou l'adresse tapée, sans autre renseignement.", "openrouteservice (HeiGIT, Germany) and OpenStreetMap (Nominatim): route calculation and address search, with a rounded location or the typed address, without any other information."),
       T("Google Fonts : chargement des polices de caractères (votre navigateur contacte Google).", "Google Fonts: loading fonts (your browser contacts Google)."),
@@ -376,7 +376,7 @@
       T("Les faire corriger ou supprimer, et retirer votre consentement.", "Have it corrected or deleted, and withdraw your consent."),
       T("Porter plainte à la Commission d'accès à l'information du Québec (cai.gouv.qc.ca) si vous n'êtes pas satisfait de notre réponse.", "File a complaint with the Commission d'accès à l'information du Québec (cai.gouv.qc.ca) if you are not satisfied with our answer."),
     ]);
-    sec(T("10. Modifications", "10. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 21 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 21, 2026.")]);
+    sec(T("10. Modifications", "10. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 25 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 25, 2026.")]);
     box.appendChild(sos());
   }
 
