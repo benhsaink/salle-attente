@@ -192,6 +192,18 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - Écartées : CLSC Petite-Nation (« juste à l'urgence »), CLSC de Puvirnituq et Clinique spécialisée en pédiatrie de Saint-Hyacinthe (pas d'heures sur la fiche), Clinique médicale IPS de Victoriaville (fiche au futur : « sera située »).
 - Toutes les autres fiches : patients inscrits seulement ou pas de rendez-vous le jour même indiqué.
 
+## Ressources sans RAMQ hors Montréal et Québec (25 octobre 2026)
+- Recherche « proximite » (verifier-recherche.js) : 46 fiches (proximité, itinérance, clinique de rue, migrants, réfugiés). Aucune ressource gratuite dont la fiche officielle confirme l'accès sans RAMQ, hors Médecins du Monde.
+- Pas ajoutées faute de source sur la RAMQ : Équipe de soins de proximité de Trois-Rivières (fiche 1167469), cliniques de proximité de la Montérégie (Santé Montérégie, 9 avril 2026), SABSA (Québec : site officiel inaccessible d'ici).
+- Cliniques des réfugiés (Québec, Saint-Jérôme…) : pour les réfugiés couverts par le PFSI ; celle de Saint-Jérôme exclut les personnes sans statut.
+- Ajoutée aux Privées : Clinique médicale de proximité Saint-Wenceslas (fiche 1224401, r04), fiche : « Nous acceptons la clientèle avec et sans RAMQ », frais exigés.
+- Note du filtre sans RAMQ : « Si vous pouvez payer : des cliniques privées reçoivent aussi des personnes sans RAMQ ».
+- ExcelleMD Terrebonne relue : toujours sans heures (écartée).
+
+## Meilleurs moments (25 octobre 2026)
+- 7 jours atteints (stats.json : 19 → 25 oct.). Une mesure par case horaire pour l'instant ; 144 cases sur 168 couvertes, toutes le 26 oct. au soir.
+- Petites urgences souvent vides (≥ 3 jours avec un créneau à 0 % et personne en attente) : message « Souvent calme » au lieu d'un classement arbitraire.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).

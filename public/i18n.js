@@ -17,6 +17,8 @@
     ["Québec–Lévis", "Québec City–Lévis"],
     ["Québec et Lévis", "Québec City and Lévis"],
     ["Autres régions du Québec", "Other regions of Québec"],
+    ["Si vous pouvez payer :", "If you can pay:"],
+    ["des cliniques privées (onglet Privées) reçoivent aussi des personnes sans RAMQ, à leurs frais. Informez-vous du prix et des conditions avant d'y aller.", "some private clinics (Private tab) also see people without RAMQ, at their own cost. Ask about the price and conditions before you go."],
     ["Sans RAMQ", "No RAMQ needed"],
     ["Sur rendez-vous", "By appointment"],
     ["Pour qui ?", "Who is it for?"],
