@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T09:43:08.017Z",
+ "generatedAt": "2026-10-26T01:14:00.862Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -8115,6 +8115,126 @@
    "lat": 45.42498,
    "lon": -75.7177,
    "site": "https://unionmd.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "Clinique médicale de proximité Saint-Wenceslas",
+   "nofiche": 1224401,
+   "region": "r04",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1224401",
+   "lu": "2026-10-25",
+   "nomOfficiel": "CLINIQUE MÉDICALE DE PROXIMITÉ SAINT-WENCESLAS",
+   "adresse": "1124, rue Principale, bureau 2e étage, au 2e étage, en haut de la pharmacie.",
+   "ville": "Saint-Wenceslas",
+   "codePostal": "G0Z 1J0",
+   "telephone": "873 204-3021",
+   "jours": [
+    {
+     "date": "2026-10-25",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-26",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-27",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 septembre 2026, 13 h 42",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": true,
+   "nonParticipant": true,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Dépistage streptocoque groupe A / strep test sans ordonnance",
+    "Dépistage streptocoque tous les groupes",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Médecine interne",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Prélèvements urinaires et selles",
+    "Préposé aux bénéficiaires",
+    "Santé sexuelle",
+    "Santé voyage",
+    "Vaccination",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 46.16856,
+   "lon": -72.31601,
+   "site": "https://www.cliniquedeproximite.com/",
    "reservation": {}
   }
  ]
