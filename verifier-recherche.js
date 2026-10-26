@@ -37,7 +37,7 @@ function km(a, b) {
   fs.mkdirSync(path.join(DIR, "recherches"), { recursive: true });
   const seen = new Map(); // fiches déjà lues (partagées entre recherches)
 
-  for (const R of cfg.recherches) {
+  for (const R of cfg.recherches.filter((r) => r.actif !== false)) {
     const keep = new RegExp(R.garder, "i");
     const found = new Map();
     for (const q of R.q) {
@@ -68,8 +68,8 @@ function km(a, b) {
           if (near) { rss = near.e.rss; urgence = near.e.nom; }
         }
         const lignes = text.split("\n").map((l) => l.trim())
-          .filter((l) => l && l.length < 300 && /sans rendez-vous|jour même|p[ée]diatr|praticienne|\bIPS\b|enfants?\b|0 ?[-àa] ?17 ans|moins de 18 ans/i.test(l))
-          .filter((l, i, a) => a.indexOf(l) === i).slice(0, 8);
+          .filter((l) => l && l.length < 300 && /sans rendez-vous|jour même|p[ée]diatr|praticienne|\bIPS\b|enfants?\b|0 ?[-àa] ?17 ans|moins de 18 ans|RAMQ|assurance maladie|assurance médicaments|sans carte|statut|itin[ée]ran|PFSI|clientèle/i.test(l))
+          .filter((l, i, a) => a.indexOf(l) === i).slice(0, 14);
         const decision = f.acces === "tous" && !manque.length ? "ajout possible"
           : f.acces === "tous" ? "pour tous, fiche incomplète" : f.acces === "inscrits" ? "patients inscrits seulement" : "pas de rendez-vous le jour même indiqué";
         row = { adresse: [f.adresse, f.ville].filter(Boolean).join(", "), telephone: f.telephone || "", rss, urgenceProche: urgence,

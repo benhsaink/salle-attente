@@ -1,5 +1,5 @@
 {
- "note": "Recherches par nom dans le Répertoire des ressources (Santé Québec). Modifier ce fichier relance .github/workflows/verifier-recherche.yml.",
+ "note": "Recherches par nom dans le Répertoire des ressources (Santé Québec). Modifier ce fichier relance .github/workflows/verifier-recherche.yml. « actif »: false = recherche déjà faite, sautée.",
  "recherches": [
   {
    "id": "pediatrie",
@@ -8,7 +8,8 @@
     "pédiatrie",
     "enfants"
    ],
-   "garder": "p[ée]diatr|enfant|jeunesse|pediatr"
+   "garder": "p[ée]diatr|enfant|jeunesse|pediatr",
+   "actif": false
   },
   {
    "id": "ips",
@@ -18,21 +19,38 @@
     "infirmières praticiennes",
     "SABSA"
    ],
-   "garder": "\\bIPS\\b|praticienne|SABSA"
+   "garder": "\\bIPS\\b|praticienne|SABSA",
+   "actif": false
   },
   {
    "id": "clsc",
    "q": [
     "CLSC"
    ],
-   "garder": "\\bCLSC\\b"
+   "garder": "\\bCLSC\\b",
+   "actif": false
   },
   {
    "id": "excellemd",
    "q": [
     "ExcelleMD"
    ],
-   "garder": "EXCELLE"
+   "garder": "EXCELLE",
+   "actif": false
+  },
+  {
+   "id": "proximite",
+   "q": [
+    "proximité",
+    "SABSA",
+    "bas seuil",
+    "itinérance",
+    "clinique de rue",
+    "clinique mobile",
+    "migrant",
+    "réfugiés"
+   ],
+   "garder": "proximit|SABSA|bas seuil|itin[ée]ran|de rue|mobile|migrant|r[ée]fugi"
   }
  ]
 }
