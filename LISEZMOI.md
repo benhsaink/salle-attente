@@ -223,5 +223,5 @@ create index on public.abonnements (courriel);
 - public/guide.js (confidentialite). Liens : bas de page, À propos, page Alertes.
 - Responsable : le fondateur, joignable par le formulaire du site (à compléter avec un nom ou un titre et un courriel dédié). Réponse en 24 à 72 heures.
 - Durées : alertes jusqu'au désabonnement ; inscription par courriel non confirmée effacée après 7 jours (alertes.js, purgeUnconfirmed, une fois par jour) ; commentaires et demandes de partenariat 2 ans au plus.
-- Fournisseurs listés : Supabase (Canada), Render, Brevo (UE), Formspree (É.-U.), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap, Google Fonts.
-- Formulaires (commentaires, partenaires) : envoyés par Brevo à CONTACT_TO (ou ALERT_FROM) dès que BREVO_KEY et ALERT_FROM sont réglés ; sinon par Formspree (FEEDBACK_URL). Une fois Brevo en place, FEEDBACK_URL peut être retiré de Render et Formspree supprimé de la politique.
+- Fournisseurs listés : Supabase (Canada), Render (serveur en Virginie, É.-U.), Brevo (UE), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap, Google Fonts.
+- Formulaires (commentaires, partenaires) : envoyés par Brevo à CONTACT_TO (ou ALERT_FROM) dès que BREVO_KEY et ALERT_FROM sont réglés ; sinon par Formspree (FEEDBACK_URL). Le 25 octobre 2026 : Brevo actif, FEEDBACK_URL retirée de Render et Formspree retiré de la politique de confidentialité. Si Brevo tombe en panne, les messages restent dans les journaux Render (lignes « COMMENTAIRE » et « PARTENAIRE »).
