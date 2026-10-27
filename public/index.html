@@ -3,7 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Salle d'attente</title>
+<title>Salle d'attente – Urgences du Québec en temps réel</title>
+<meta name="description" content="Les urgences du Québec classées de la moins à la plus remplie, mises à jour chaque heure avec les données du ministère. Cliniques sans rendez-vous, ressources sans RAMQ et alertes gratuites.">
+<link rel="canonical" href="https://salle-attente.onrender.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Salle d'attente">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:locale:alternate" content="en_CA">
+<meta property="og:title" content="Salle d'attente – Urgences du Québec en temps réel">
+<meta property="og:description" content="Les urgences du Québec classées de la moins à la plus remplie, mises à jour chaque heure avec les données du ministère. Cliniques sans rendez-vous, ressources sans RAMQ et alertes gratuites.">
+<meta property="og:url" content="https://salle-attente.onrender.com/">
+<meta property="og:image" content="https://salle-attente.onrender.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Salle d'attente : les urgences du Québec, de la moins à la plus remplie">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Salle d'attente","url":"https://salle-attente.onrender.com/","inLanguage":["fr-CA","en-CA"],"description":"Les urgences du Québec classées de la moins à la plus remplie, mises à jour chaque heure avec les données du ministère. Cliniques sans rendez-vous, ressources sans RAMQ et alertes gratuites."}</script>
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -775,11 +790,11 @@ function route() {
     info.hidden = false;
     return;
   }
-  if (!info.hidden) { info.hidden = true; info.dataset.page = ""; if (!name) { main.hidden = false; setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view); document.title = "Salle d'attente"; window.scrollTo(0, location.hash === "#cliniques" || location.hash === "#urgences" ? 0 : listScroll); return; } }
+  if (!info.hidden) { info.hidden = true; info.dataset.page = ""; if (!name) { main.hidden = false; setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view); document.title = (window.SA_T ? SA_T("Salle d'attente – Urgences du Québec en temps réel") : "Salle d'attente – Urgences du Québec en temps réel"); window.scrollTo(0, location.hash === "#cliniques" || location.hash === "#urgences" ? 0 : listScroll); return; } }
   if (!name) {
     const wasOpen = !fiche.hidden;
     fiche.hidden = true; main.hidden = false; shownFiche = null;
-    document.title = "Salle d'attente";
+    document.title = (window.SA_T ? SA_T("Salle d'attente – Urgences du Québec en temps réel") : "Salle d'attente – Urgences du Québec en temps réel");
     setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view);
     if (wasOpen) window.scrollTo(0, listScroll);
     return;
