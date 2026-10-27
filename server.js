@@ -450,8 +450,20 @@ function sendBody(req, res, code, headers, body, etag) {
 }
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".svg": "image/svg+xml", ".webmanifest": "application/manifest+json", ".json": "application/json", ".txt": "text/plain; charset=utf-8", ".xml": "application/xml; charset=utf-8" };
 
+// Adresse publique officielle (ex. https://salle-attente.ca), réglée dans Render : PUBLIC_URL.
+// Si elle est réglée : les pages demandées sur une autre adresse (salle-attente.onrender.com, www.)
+// sont redirigées vers elle (301). Les /api/ restent servies partout (collecte GitHub, cron-job.org).
+const PUBLIC_URL = (process.env.PUBLIC_URL || "").replace(/\/$/, "");
+const PUBLIC_HOST = PUBLIC_URL ? new URL(PUBLIC_URL).host : "";
+const OLD_URL = "https://salle-attente.onrender.com";
+const withPublicUrl = (body, file) => PUBLIC_URL && /\.(html|txt|xml)$/.test(file) ? Buffer.from(body.toString("utf8").split(OLD_URL).join(PUBLIC_URL)) : body;
+
 http.createServer(async (req, res) => {
   const url = new URL(req.url, "http://x");
+  if (PUBLIC_HOST && req.headers.host && req.headers.host !== PUBLIC_HOST && !url.pathname.startsWith("/api/") && !/^(localhost|127\.)/.test(req.headers.host)) {
+    res.writeHead(301, { Location: PUBLIC_URL + url.pathname + url.search, "Cache-Control": "public, max-age=3600" });
+    return res.end();
+  }
   // Réveil (cron-job.org aux 10 min) : réponse minuscule ; prépare aussi les données en arrière-plan.
   if (url.pathname === "/api/ping") {
     getData().catch(() => {});
@@ -587,6 +599,7 @@ http.createServer(async (req, res) => {
   fs.readFile(file, (err, body) => {
     if (err) { res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Page introuvable"); }
     // no-cache : le navigateur revérifie à chaque visite, pour voir tout de suite la dernière version du site.
+    body = withPublicUrl(body, file);
     const etag = '"' + cryptoMod.createHash("sha1").update(body).digest("base64").slice(0, 20) + '"';
     sendBody(req, res, 200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-cache" }, body, etag);
   });

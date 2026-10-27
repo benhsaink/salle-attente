@@ -230,6 +230,16 @@ grant select, insert, update on public.statistiques to service_role;
 - Texte minimum 13 px (pastilles, étiquettes, heures des graphiques, notes) ; cases à cocher 20 px ; « Meilleurs moments », « Voir la fiche » et liens du bas de page plus faciles à toucher ; contour visible au clavier (:focus-visible).
 - server.js : compression gzip (pages, JS, JSON) et ETag (réponse 304 si rien n'a changé). Page d'accueil : environ 420 Ko → 120 Ko transférés ; visite suivante : quelques Ko.
 
+## Nom de domaine salle-attente.ca (26 octobre 2026)
+- Acheté chez WHC.ca (titulaire : Karim Benhsain). Zone DNS chez WHC : A @ → 216.24.57.1 (Render), CNAME www → salle-attente.onrender.com. MX/TXT/emailfwd de WHC gardés (renvoi de courriel gratuit).
+- Render → Settings → Custom Domains : salle-attente.ca et www.salle-attente.ca.
+- Bascule : variable PUBLIC_URL=https://salle-attente.ca dans Render (après « Verified » et « Certificate issued »). Effets (server.js) :
+  - pages demandées sur salle-attente.onrender.com ou www → redirection 301 vers https://salle-attente.ca (le #… est gardé par le navigateur) ;
+  - /api/ servi sur toutes les adresses (collecte GitHub, cron-job.org, relais : rien à changer) ;
+  - canonical, Open Graph, robots.txt et sitemap.xml réécrits avec PUBLIC_URL ;
+  - liens des courriels d'alertes : SITE_URL, sinon PUBLIC_URL.
+- Préférences gardées dans le navigateur (langue, région, jeton des alertes) : propres à chaque adresse ; à refaire une fois sur le .ca. Site installé sur l'écran d'accueil : le réinstaller depuis salle-attente.ca.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
