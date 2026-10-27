@@ -241,6 +241,10 @@ grant select, insert, update on public.statistiques to service_role;
   - liens des courriels d'alertes : SITE_URL, sinon PUBLIC_URL.
 - Préférences gardées dans le navigateur (langue, région, jeton des alertes) : propres à chaque adresse ; à refaire une fois sur le .ca. Site installé sur l'écran d'accueil : le réinstaller depuis salle-attente.ca.
 
+## Pages par région pour Google (27 octobre 2026)
+- pages.js : /urgences (liste des régions) et /urgences/<région> (montreal, laval, rive-sud, rive-nord, quebec-levis, trois-rivieres, bas-saint-laurent, … terres-cries-de-la-baie-james), écrites par le serveur à partir des mêmes données que l'application. Urgences pour tous d'abord (de la moins à la plus remplie), puis « Urgences spécialisées » (enfants, psychiatrie, cardiologie) à part. Rappel 911 / 811, source et licence.
+- sitemap.xml produit par le serveur (accueil + pages de région), adresse PUBLIC_URL. Lien « Urgences par région » en bas de l'accueil.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
