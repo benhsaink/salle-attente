@@ -428,6 +428,26 @@ async function handleRoute(req, res, url) {
 }
 
 // ---------- Serveur web ----------
+// Compression gzip (texte, JSON, JS) et ETag : moins de données sur un réseau cellulaire faible.
+const zlib = require("zlib");
+const cryptoMod = require("crypto");
+const gzCache = new Map(); // ETag -> version compressée (fichiers du site seulement)
+function sendBody(req, res, code, headers, body, etag) {
+  body = Buffer.isBuffer(body) ? body : Buffer.from(String(body));
+  const h = { ...headers, Vary: "Accept-Encoding" };
+  if (etag) {
+    h.ETag = etag;
+    if (req.headers["if-none-match"] === etag) { res.writeHead(304, h); return res.end(); }
+  }
+  const type = String(h["Content-Type"] || "");
+  if (body.length > 1024 && /gzip/.test(req.headers["accept-encoding"] || "") && /text|json|javascript|xml|manifest/.test(type)) {
+    let gz = etag && gzCache.get(etag);
+    if (!gz) { gz = zlib.gzipSync(body, { level: 6 }); if (etag) { if (gzCache.size > 50) gzCache.clear(); gzCache.set(etag, gz); } }
+    h["Content-Encoding"] = "gzip";
+    res.writeHead(code, h); return res.end(gz);
+  }
+  res.writeHead(code, h); res.end(body);
+}
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".svg": "image/svg+xml", ".webmanifest": "application/manifest+json", ".json": "application/json", ".txt": "text/plain; charset=utf-8", ".xml": "application/xml; charset=utf-8" };
 
 http.createServer(async (req, res) => {
@@ -470,8 +490,7 @@ http.createServer(async (req, res) => {
       const everywhere = url.searchParams.get("tout") === "1";
       const list = everywhere ? d.all : d.all.filter((h) => h.region !== "autre");
       const { trend, hospitals } = await withTrends(d, list);
-      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=300" });
-      res.end(JSON.stringify({ source: d.source, fetchedAt: d.fetchedAt, trend, hospitals }));
+      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=300" }, JSON.stringify({ source: d.source, fetchedAt: d.fetchedAt, trend, hospitals }));
     } catch (err) {
       console.error(err);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
@@ -523,8 +542,7 @@ http.createServer(async (req, res) => {
   if (url.pathname === "/api/cliniques") {
     try {
       const d = await getClinics();
-      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" });
-      res.end(JSON.stringify(d));
+      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" }, JSON.stringify(d));
     } catch (err) {
       console.error("Cliniques :", err.message);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
@@ -544,8 +562,7 @@ http.createServer(async (req, res) => {
   if (url.pathname === "/api/privees") {
     try {
       const d = await getPrivateComplete();
-      res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" });
-      res.end(JSON.stringify(d));
+      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" }, JSON.stringify(d));
     } catch (err) {
       console.error("Cliniques privées :", err.message);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
@@ -570,8 +587,8 @@ http.createServer(async (req, res) => {
   fs.readFile(file, (err, body) => {
     if (err) { res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" }); return res.end("Page introuvable"); }
     // no-cache : le navigateur revérifie à chaque visite, pour voir tout de suite la dernière version du site.
-    res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-cache" });
-    res.end(body);
+    const etag = '"' + cryptoMod.createHash("sha1").update(body).digest("base64").slice(0, 20) + '"';
+    sendBody(req, res, 200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-cache" }, body, etag);
   });
 }).listen(PORT, () => console.log("Salle d'attente : http://localhost:" + PORT));
 

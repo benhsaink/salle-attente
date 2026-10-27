@@ -13,7 +13,7 @@
   const D = [
     // En-tête, aide
     ["Salle d'attente", "Salle d'attente"],
-    ["Trouvez l'urgence la moins remplie partout au Québec, ou une clinique pour aujourd'hui dans le Grand Montréal, à Québec–Lévis et à Trois-Rivières.", "Find the least crowded emergency room anywhere in Québec, or a clinic for today in Greater Montréal, Québec City–Lévis and Trois-Rivières."],
+    ["Trouvez l'urgence la moins remplie partout au Québec, ou une clinique où consulter aujourd'hui, même sans médecin de famille.", "Find the least crowded emergency room anywhere in Québec, or a clinic where you can be seen today, even without a family doctor."],
     ["Québec–Lévis", "Québec City–Lévis"],
     ["Québec et Lévis", "Québec City and Lévis"],
     ["Autres régions du Québec", "Other regions of Québec"],

@@ -47,9 +47,9 @@ window.SA_STAT = (function () {
 body{margin:0}
 /* Layout: one mobile column — alert strip, region switch, ranked list of ER cards, then upcoming features */
 :root{
-  --bg:#f3f6f7; --surface:#ffffff; --ink:#132a33; --muted:#5a6f78; --line:#d9e2e5;
+  --bg:#f3f6f7; --surface:#ffffff; --ink:#132a33; --muted:#4d6069; --line:#d9e2e5;
   --accent:#1f5fae; --accent-soft:#e3edf9;
-  --ok:#1d7a4f; --ok-soft:#e1f2e9; --warn:#9a6400; --warn-soft:#fbf0d9; --bad:#b3261e; --bad-soft:#fbe4e2;
+  --ok:#1d7a4f; --ok-soft:#e1f2e9; --warn:#8a5900; --warn-soft:#fbf0d9; --bad:#b3261e; --bad-soft:#fbe4e2;
   --demo:#5b3fa0; --demo-soft:#eee8fa;
   --f-display:"Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
   --f-body:"Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
@@ -75,7 +75,7 @@ h2{font-size:1.15rem;font-weight:600}
 .mission{margin:6px 0 0;font-size:.9rem;color:var(--ink)}
 .mission a{color:var(--accent);font-weight:700}
 .demo{background:var(--demo-soft);color:var(--demo);border-radius:10px;padding:10px 12px;font-size:.88rem}
-.demo b{display:block;text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;margin-bottom:2px}
+.demo b{display:block;text-transform:uppercase;letter-spacing:.06em;font-size:.8125rem;margin-bottom:2px}
 .sos{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .sos div{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:10px 12px}
 .sos strong{font-family:var(--f-display);font-size:1.35rem;display:block}
@@ -102,7 +102,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
 .go a.pref{background:var(--accent-soft);border-color:var(--accent-soft)}
 .linkbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.82rem;border-radius:8px;padding:4px 10px;cursor:pointer}
 .best{background:var(--accent-soft);border-radius:14px;padding:14px 16px}
-.best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.72rem}
+.best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.8125rem}
 .best h3{font-size:1.25rem;margin-top:2px}
 .best p{margin:4px 0 0;color:var(--muted)}
 ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
@@ -111,7 +111,7 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 .head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;min-width:0}
 .head h3{font-size:1.02rem;font-weight:600;min-width:0}
 .where{color:var(--muted);font-size:.84rem;grid-column:2}
-.pill{font-size:.75rem;font-weight:700;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.pill{font-size:.8125rem;font-weight:700;padding:3px 9px;border-radius:99px;white-space:nowrap}
 .s-ok{background:var(--ok-soft);color:var(--ok)} .s-warn{background:var(--warn-soft);color:var(--warn)} .s-bad{background:var(--bad-soft);color:var(--bad)}
 .bar{grid-column:2;height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:6px;position:relative}
 .bar i{display:block;height:100%;border-radius:99px}
@@ -119,8 +119,8 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 .stats{grid-column:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px;font-variant-numeric:tabular-nums}
 .stats div{min-width:0}
 .stats b{font-family:var(--f-display);font-size:1.1rem;display:block}
-.stats span{color:var(--muted);font-size:.74rem;line-height:1.2;display:block}
-.tag{font-size:.72rem;font-weight:700;color:var(--accent);border:1px solid var(--accent-soft);border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px}
+.stats span{color:var(--muted);font-size:.8125rem;line-height:1.2;display:block}
+.tag{font-size:.8125rem;font-weight:700;color:var(--accent);border:1px solid var(--accent-soft);border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px}
 .legend{color:var(--muted);font-size:.8rem}
 .tag.psy{color:var(--demo);border-color:var(--demo-soft)}
 .psynote{background:var(--demo-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:.9rem}
@@ -135,7 +135,7 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 .hours i{display:block;border-radius:4px 4px 2px 2px;min-height:4px}
 .hours i.none{background:var(--line)}
 .hours i.low{outline:2px solid var(--ink);outline-offset:1px}
-.hlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.hlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;font-size:.8125rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
 .fc-best{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
 .fc-best li{display:flex;justify-content:space-between;gap:8px;font-size:.9rem}
 .fc-best b{white-space:nowrap}
@@ -179,10 +179,10 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
 .pill.pay{background:var(--warn-soft);color:var(--warn)}
 .svc{grid-column:2;display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
-.svc span{font-size:.76rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.svc span{font-size:.8125rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
 .svc span.hit{border-color:var(--accent);color:var(--accent);font-weight:700}
 .wk .all{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:4px}
-.wk .all li{font-size:.76rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.wk .all li{font-size:.8125rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
 #p-service{max-width:100%;min-width:0;flex:1 1 220px}
 .feedback{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-direction:column;gap:8px}
 .feedback form{display:flex;flex-direction:column;gap:8px}
@@ -211,7 +211,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .addr{display:flex;gap:8px;flex:1 1 100%;min-width:0}
 .addr input{flex:1 1 auto;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
 .geo .addr button{flex:none}
-.addr-note{color:var(--muted);font-size:.74rem;flex:1 1 100%}
+.addr-note{color:var(--muted);font-size:.8125rem;flex:1 1 100%}
 .road-opt{flex:1 1 100%}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
@@ -279,10 +279,18 @@ button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
 .week{display:grid;grid-template-columns:2.1rem repeat(24,1fr);gap:2px;align-items:center}
 .week i{display:block;aspect-ratio:1/1.3;border-radius:2px;background:var(--line)}
 .week i.now{outline:2px solid var(--ink);outline-offset:0}
-.week small{font-size:.7rem;color:var(--muted)}
-.wkeys{display:flex;gap:12px;flex-wrap:wrap;font-size:.76rem;color:var(--muted)}
+.week small{font-size:.8125rem;color:var(--muted)}
+.wkeys{display:flex;gap:12px;flex-wrap:wrap;font-size:.8125rem;color:var(--muted)}
 .wkeys span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
 .share{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;border-radius:9px;padding:8px 12px;cursor:pointer;align-self:flex-start}
+
+/* Accessibilité : cases à cocher plus grandes, zones à toucher d'au moins 24 px, texte minimal 13 px */
+input[type=checkbox]{width:20px;height:20px;flex:none;accent-color:var(--accent)}
+details.fc summary,details.wk summary{padding:8px 0;min-height:24px}
+.more{padding:6px 0}
+.foot-link{display:inline-block;padding:5px 0}
+small{font-size:max(.8125rem,.85em)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 </style>
 
 </head>
@@ -293,7 +301,7 @@ button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
       <h1>Salle d'attente</h1>
       <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
     </div>
-    <p class="sub">Trouvez l'urgence la moins remplie partout au Québec, ou une clinique pour aujourd'hui dans le Grand Montréal, à Québec–Lévis et à Trois-Rivières.</p>
+    <p class="sub">Trouvez l'urgence la moins remplie partout au Québec, ou une clinique où consulter aujourd'hui, même sans médecin de famille.</p>
     <p class="mission"><b>Notre mission :</b> vous informer correctement et faciliter l'accès aux soins, surtout sans médecin de famille. <a href="#apropos">En savoir plus</a></p>
     <p class="langnote" id="langnote" hidden>Les noms, adresses et services viennent des sources officielles et restent en français.</p>
   </header>
