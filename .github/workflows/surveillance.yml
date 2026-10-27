@@ -1,0 +1,27 @@
+name: Surveillance du site
+
+# Échoue en cas de problème : GitHub envoie alors un courriel au propriétaire du dépôt
+# (Settings → Notifications → Actions : « Send notifications for failed workflows only »).
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - verifier-sante.js
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Vérifier la collecte et le site
+        run: node verifier-sante.js
