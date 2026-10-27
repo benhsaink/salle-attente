@@ -9,6 +9,7 @@
 
 const http = require("http");
 const alertes = require("./alertes");
+const statistiques = require("./statistiques");
 const fs = require("fs");
 const path = require("path");
 
@@ -533,6 +534,7 @@ http.createServer(async (req, res) => {
   }
   if (url.pathname === "/api/commentaires") return handleFeedback(req, res);
   if (url.pathname === "/api/partenaires") return handlePartner(req, res);
+  if (url.pathname === "/api/stat" || url.pathname === "/api/statistiques") return statistiques.handle(req, res, url, readBody);
   if (url.pathname.startsWith("/api/alertes")) {
     try { return await alertes.handle(req, res, url, getData); }
     catch (err) { console.error("Alertes :", err.message); res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" }); return res.end(JSON.stringify({ error: "Service des alertes indisponible pour le moment." })); }

@@ -27,6 +27,18 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Salle d'attente">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<script>
+// Statistiques d'utilisation : un mot-clé par geste, une fois par visite, sans témoin ni identifiant.
+// Respecte « Ne pas suivre » et le contrôle global de confidentialité (GPC).
+window.SA_STAT = (function () {
+  const off = navigator.globalPrivacyControl === true || navigator.doNotTrack === "1";
+  const seen = new Set(), q = []; let t = null;
+  function send() { t = null; if (!q.length) return; const b = q.splice(0).join(" ");
+    try { if (navigator.sendBeacon) navigator.sendBeacon("/api/stat", b); else fetch("/api/stat", { method: "POST", body: b, keepalive: true }); } catch (e) {} }
+  addEventListener("pagehide", send);
+  return function (k) { if (off || !k || seen.has(k)) return; seen.add(k); q.push(String(k).toLowerCase()); if (!t) t = setTimeout(send, 3000); };
+})();
+</script>
 <script src="/i18n.js"></script>
 <script src="/guide.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -597,6 +609,7 @@ function askPosition() {
   setGeoUI("wait", "Acceptez la demande de votre téléphone pour voir les distances.");
   navigator.geolocation.getCurrentPosition(p => {
     pos = { lat: p.coords.latitude, lon: p.coords.longitude };
+    SA_STAT("action:position");
     try { localStorage.setItem("sa-geo", "1"); } catch (e) {}
     setGeoUI("on", roadOn ? "Distances depuis votre position." : "Distances à vol d'oiseau, depuis votre position. Elle reste sur votre téléphone.");
     loadRoad();
@@ -755,7 +768,7 @@ function goLinks(h) {
     a.href = m.url(h.address); a.target = "_blank"; a.rel = "noopener";
     a.textContent = m.name; a.setAttribute("aria-label", "Itinéraire vers " + h.name + " avec " + m.name);
     if (m.id === mapsPref) a.className = "pref";
-    a.addEventListener("click", () => { mapsPref = m.id; try { localStorage.setItem("sa-maps", m.id); } catch (e) {} });
+    a.addEventListener("click", () => { SA_STAT("action:itineraire:" + m.id); mapsPref = m.id; try { localStorage.setItem("sa-maps", m.id); } catch (e) {} });
     go.appendChild(a);
   });
   return go;
@@ -786,6 +799,7 @@ function route() {
   if (window.SA_GUIDE && SA_GUIDE.pages[pageKey]) {
     if (info.hidden && fiche.hidden) listScroll = window.scrollY;
     fiche.hidden = true; main.hidden = true; shownFiche = null;
+    SA_STAT("vue:" + pageKey.slice(1));
     if (info.dataset.page !== location.hash) { info.innerHTML = ""; SA_GUIDE.pages[pageKey](info); info.dataset.page = location.hash; window.scrollTo(0, 0); }
     info.hidden = false;
     return;
@@ -804,6 +818,7 @@ function route() {
   const first = shownFiche !== name;
   shownFiche = name;
   renderFiche(name);
+  SA_STAT("vue:fiche");
   if (first) window.scrollTo(0, 0);
 }
 
@@ -817,6 +832,7 @@ let view = "urgences";
 try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees", "soins"].includes(v) ? v : "urgences"; } catch (e) {}
 function setView(v) {
   view = v;
+  SA_STAT("vue:" + v);
   if (v === "cliniques" || v === "privees" || v === "urgences") loadRoad(v);
   try { localStorage.setItem("sa-view", v); } catch (e) {}
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
@@ -1565,6 +1581,7 @@ document.getElementById("pt-form").addEventListener("submit", async e => {
     if (!res.ok) throw new Error(json.error || "Envoi impossible pour le moment.");
     $("pt-form").reset();
     st.textContent = "Merci ! Votre demande a été envoyée. Nous vous rappellerons bientôt.";
+    SA_STAT("action:partenaire");
   } catch (err) { st.textContent = err.message; }
   btn.disabled = false;
 });
@@ -1577,6 +1594,20 @@ document.getElementById("pt-form").addEventListener("submit", async e => {
   document.getElementById("langnote").hidden = !en;
   btn.addEventListener("click", () => { try { localStorage.setItem("sa-lang", en ? "fr" : "en"); } catch (e) {} location.reload(); });
 })();
+// Statistiques : filtres et gestes utilisés (une fois par visite chacun)
+SA_STAT("visite"); SA_STAT("langue:" + (window.SA_LANG || "fr"));
+if (matchMedia("(display-mode: standalone)").matches || navigator.standalone) SA_STAT("app:installee");
+document.addEventListener("change", e => {
+  const el = e.target, id = el.id || "";
+  if (id === "sort") SA_STAT("tri:" + el.value);
+  else if (id === "r-more" && el.value) SA_STAT("region:" + el.value);
+  else if (id === "p-service" && el.value) SA_STAT("filtre:p-service");
+  else if (["kids", "psy", "c-open", "c-all", "c-kids", "c-nocov", "p-open", "road-opt"].includes(id) && el.checked) SA_STAT("filtre:" + id);
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest(".seg button[data-r]"); if (b) SA_STAT("region:" + b.dataset.r);
+  const tel = e.target.closest('a[href^="tel:"]'); if (tel) SA_STAT("action:telephone");
+});
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();

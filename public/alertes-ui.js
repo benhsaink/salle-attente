@@ -160,6 +160,7 @@
         const j = await r.json().catch(() => ({}));
         if (!r.ok) throw new Error(j.error || L("Envoi impossible pour le moment.", "Cannot send right now."));
         if (j.jeton) setSaved(j.jeton);
+        if (!existing && window.SA_STAT) SA_STAT("action:alertes:" + (body.canal === "push" ? "notification" : "courriel"));
         st.textContent = existing ? L("Vos choix sont enregistrés.", "Your choices are saved.")
           : j.confirmation ? L("Presque fini ! Ouvrez le courriel reçu et touchez « Confirmer mon adresse ».", "Almost done! Open the email you received and tap “Confirm my address”.")
           : L("C'est fait ! Une notification de bienvenue devrait arriver dans un instant.", "Done! A welcome notification should arrive in a moment.");

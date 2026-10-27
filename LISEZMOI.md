@@ -204,6 +204,27 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 - 7 jours atteints (stats.json : 19 → 25 oct.). Une mesure par case horaire pour l'instant ; 144 cases sur 168 couvertes, toutes le 26 oct. au soir.
 - Petites urgences souvent vides (≥ 3 jours avec un créneau à 0 % et personne en attente) : message « Souvent calme » au lieu d'un classement arbitraire.
 
+## Référencement (26 octobre 2026)
+- index.html : titre « Salle d'attente – Urgences du Québec en temps réel », description, adresse canonique, Open Graph (aperçu de partage, public/og-image.png 1200×630), données structurées WebSite.
+- public/robots.txt (tout permis, y compris /api/ pour que Google voie la liste) et public/sitemap.xml.
+- À faire par le responsable : Google Search Console (propriété « préfixe d'URL », vérification par balise HTML), envoyer le sitemap.
+
+## Statistiques d'utilisation sans témoins (26 octobre 2026)
+- statistiques.js : POST /api/stat (mots-clés séparés par des espaces, liste fermée : visite, vue:*, filtre:*, region:*, tri:*, action:*, langue:*, app:*), compteurs par jour seulement. Ni IP, ni identifiant, ni heure. Robots ignorés, 60 envois/min par IP (en mémoire, jamais écrit), 400 clés par jour max.
+- Navigateur (index.html, SA_STAT) : une fois par visite par mot-clé, envoi groupé (sendBeacon) ; rien si « Ne pas suivre » ou GPC.
+- Lecture : /api/statistiques?jours=30 (ajouter &cle=… si STATS_KEY est réglée dans Render).
+- Stockage : table Supabase « statistiques », envoi toutes les 10 min et à l'arrêt du serveur. SQL :
+```sql
+create table public.statistiques (
+  jour date not null,
+  cle text not null,
+  n integer not null default 0,
+  primary key (jour, cle)
+);
+alter table public.statistiques enable row level security;
+grant select, insert, update on public.statistiques to service_role;
+```
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
