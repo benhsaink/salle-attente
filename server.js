@@ -453,8 +453,12 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", "
 // Adresse publique officielle (ex. https://salle-attente.ca), réglée dans Render : PUBLIC_URL.
 // Si elle est réglée : les pages demandées sur une autre adresse (salle-attente.onrender.com, www.)
 // sont redirigées vers elle (301). Les /api/ restent servies partout (collecte GitHub, cron-job.org).
-const PUBLIC_URL = (process.env.PUBLIC_URL || "").replace(/\/$/, "");
-const PUBLIC_HOST = PUBLIC_URL ? new URL(PUBLIC_URL).host : "";
+// Tolère « salle-attente.ca », « https://salle-attente.ca/ » ou des espaces ; une valeur invalide est ignorée.
+let PUBLIC_URL = String(process.env.PUBLIC_URL || "").trim().replace(/\/+$/, "");
+if (PUBLIC_URL && !/^https?:\/\//.test(PUBLIC_URL)) PUBLIC_URL = "https://" + PUBLIC_URL;
+let PUBLIC_HOST = "";
+try { if (PUBLIC_URL) PUBLIC_HOST = new URL(PUBLIC_URL).host; } catch (e) { console.warn("PUBLIC_URL invalide :", PUBLIC_URL); PUBLIC_URL = ""; }
+if (PUBLIC_URL) console.log("Adresse publique :", PUBLIC_URL);
 const OLD_URL = "https://salle-attente.onrender.com";
 const withPublicUrl = (body, file) => PUBLIC_URL && /\.(html|txt|xml)$/.test(file) ? Buffer.from(body.toString("utf8").split(OLD_URL).join(PUBLIC_URL)) : body;
 

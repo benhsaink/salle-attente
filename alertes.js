@@ -14,7 +14,7 @@ const path = require("path");
 const { sendPush } = require("./webpush");
 
 const ENV = process.env;
-const SITE_URL = (ENV.SITE_URL || ENV.PUBLIC_URL || "https://salle-attente.onrender.com").replace(/\/$/, "");
+const SITE_URL = (() => { let u = String(ENV.SITE_URL || ENV.PUBLIC_URL || "https://salle-attente.onrender.com").trim().replace(/\/+$/, ""); return /^https?:\/\//.test(u) ? u : "https://" + u; })();
 const VAPID = ENV.VAPID_PUBLIC && ENV.VAPID_PRIVATE ? { publicKey: ENV.VAPID_PUBLIC, privateKey: ENV.VAPID_PRIVATE, subject: ENV.VAPID_SUBJECT || "mailto:" + (ENV.ALERT_FROM || "alertes@example.com") } : null;
 const BREVO = ENV.BREVO_KEY && ENV.ALERT_FROM ? { key: ENV.BREVO_KEY, from: ENV.ALERT_FROM } : null;
 const LOCAL = ENV.ALERTES_LOCAL === "1"; // essais seulement : fichier local au lieu de Supabase
