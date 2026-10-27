@@ -233,6 +233,7 @@ grant select, insert, update on public.statistiques to service_role;
 ## Nom de domaine salle-attente.ca (26 octobre 2026)
 - Acheté chez WHC.ca (titulaire : Karim Benhsain). Zone DNS chez WHC : A @ → 216.24.57.1 (Render), CNAME www → salle-attente.onrender.com. MX/TXT/emailfwd de WHC gardés (renvoi de courriel gratuit).
 - Render → Settings → Custom Domains : salle-attente.ca et www.salle-attente.ca.
+- 27 octobre 2026 : domaine vérifié par Render (certificat émis), PUBLIC_URL réglée, redirection active. Google Search Console : propriété « Domaine » salle-attente.ca validée par TXT chez WHC ; garder aussi l'ancienne propriété onrender.com.
 - Bascule : variable PUBLIC_URL=https://salle-attente.ca dans Render (après « Verified » et « Certificate issued »). Effets (server.js) :
   - pages demandées sur salle-attente.onrender.com ou www → redirection 301 vers https://salle-attente.ca (le #… est gardé par le navigateur) ;
   - /api/ servi sur toutes les adresses (collecte GitHub, cron-job.org, relais : rien à changer) ;
