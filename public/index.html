@@ -235,7 +235,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .al-send:disabled{opacity:.6}
 #infopage .panel[hidden]{display:none}
 button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
-.g-links a{flex:1 1 auto;text-align:center;text-decoration:none;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:10px 12px}
+.g-links a,.g-links .sharebtn{flex:1 1 auto;border:0;font:inherit;cursor:pointer;text-align:center;text-decoration:none;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:10px 12px}
 .g-levels{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
 .g-levels li{border:1px solid var(--line);border-left:6px solid var(--c);border-radius:10px;padding:8px 10px}
 .g-levels p{margin:4px 0 0;font-size:.9rem;color:var(--muted)}
@@ -262,6 +262,7 @@ button.g-btn{border:0;font:inherit;font-weight:700;cursor:pointer}
 .g-sos{background:var(--bad-soft);border-radius:12px;padding:12px 14px}
 .g-sos p{margin:0}
 .g-sos a.g-call{background:transparent;color:var(--bad);font-weight:800;padding:0;display:inline;text-decoration:underline}
+.fiche-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .back{align-self:flex-start;border:0;background:transparent;color:var(--accent);font:inherit;font-weight:700;padding:4px 0;cursor:pointer}
 .fh{display:flex;flex-direction:column;gap:6px}
 .fh h2{font-size:1.45rem;line-height:1.2}
@@ -321,6 +322,7 @@ small{font-size:max(.8125rem,.85em)}
     <a href="#triage">Comment fonctionne le triage ?</a>
     <a href="#alertes">🔔 Alertes (bêta gratuite)</a>
     <a href="#apropos">ℹ️ À propos et notre mission</a>
+    <button type="button" id="share-site" class="sharebtn">📤 Partager le site</button>
   </nav>
   <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
     <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
@@ -1223,7 +1225,8 @@ function renderFiche(name) {
   box.innerHTML = "";
   const back = el("button", "back", "‹ Retour à la liste");
   back.type = "button"; back.addEventListener("click", closeFiche);
-  box.appendChild(back);
+  const bar0 = el("div", "fiche-top"); bar0.appendChild(back);
+  box.appendChild(bar0);
 
   const h = data.find(x => x.name === name);
   if (!h) {
@@ -1233,6 +1236,11 @@ function renderFiche(name) {
   document.title = h.name + " · Salle d'attente";
   const [cls, label] = status(h.rate);
   const pct = h.rate === null ? null : Math.round(h.rate * 100);
+  const sh = el("button", "back sharelink", "📤 Partager");
+  sh.type = "button";
+  const en = window.SA_LANG === "en";
+  sh.addEventListener("click", () => shareLink(sh, h.name + (pct === null ? "" : en ? ": " + pct + "% of stretchers in use right now" : " : " + pct + " % des civières occupées en ce moment") + (en ? ". Follow it on Salle d'attente." : ". Suivez l'achalandage sur Salle d'attente."), location.href, "fiche"));
+  bar0.appendChild(sh);
 
   // En-tête
   const head = el("div", "fh");
@@ -1617,6 +1625,19 @@ document.addEventListener("click", e => {
   const b = e.target.closest(".seg button[data-r]"); if (b) SA_STAT("region:" + b.dataset.r);
   const tel = e.target.closest('a[href^="tel:"]'); if (tel) SA_STAT("action:telephone");
 });
+// Partager : menu de partage du téléphone, sinon copie du lien
+async function shareLink(btn, text, url, what) {
+  SA_STAT("action:partage:" + what);
+  const old = btn.textContent;
+  const done = msg => { btn.textContent = msg; setTimeout(() => { btn.textContent = old; }, 2500); };
+  if (navigator.share) {
+    try { await navigator.share({ title: "Salle d'attente", text, url }); return; }
+    catch (e) { if (e && e.name === "AbortError") return; }
+  }
+  try { await navigator.clipboard.writeText(url); done("✓ Lien copié"); }
+  catch (e) { done(url); }
+}
+document.getElementById("share-site").addEventListener("click", e => shareLink(e.currentTarget, window.SA_LANG === "en" ? "Québec emergency rooms, from least to most crowded, updated every hour. Free." : "Les urgences du Québec, de la moins à la plus remplie, mises à jour chaque heure. Gratuit.", location.origin + "/", "site"));
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();

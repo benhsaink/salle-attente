@@ -245,6 +245,12 @@ grant select, insert, update on public.statistiques to service_role;
 - pages.js : /urgences (liste des régions) et /urgences/<région> (montreal, laval, rive-sud, rive-nord, quebec-levis, trois-rivieres, bas-saint-laurent, … terres-cries-de-la-baie-james), écrites par le serveur à partir des mêmes données que l'application. Urgences pour tous d'abord (de la moins à la plus remplie), puis « Urgences spécialisées » (enfants, psychiatrie, cardiologie) à part. Rappel 911 / 811, source et licence.
 - sitemap.xml produit par le serveur (accueil + pages de région), adresse PUBLIC_URL. Lien « Urgences par région » en bas de l'accueil.
 
+## Surveillance (27 octobre 2026)
+- verifier-sante.js + .github/workflows/surveillance.yml, toutes les 6 heures : échoue si le dernier relevé de data/historique a plus de 4 h, ou si l'accueil, /api/urgences ou /urgences/montreal ne répondent pas. Un échec déclenche le courriel de GitHub au propriétaire du dépôt (réglage GitHub → Settings → Notifications → Actions).
+
+## Bouton Partager (27 octobre 2026)
+- « 📤 Partager le site » (accueil, avec les liens d'aide) et « 📤 Partager » (fiche d'hôpital, avec l'occupation actuelle dans le texte). Menu de partage du téléphone (navigator.share), sinon lien copié. Statistiques : action:partage:site / action:partage:fiche.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
