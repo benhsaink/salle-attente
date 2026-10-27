@@ -207,7 +207,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 ## Référencement (26 octobre 2026)
 - index.html : titre « Salle d'attente – Urgences du Québec en temps réel », description, adresse canonique, Open Graph (aperçu de partage, public/og-image.png 1200×630), données structurées WebSite.
 - public/robots.txt (tout permis, y compris /api/ pour que Google voie la liste) et public/sitemap.xml.
-- À faire par le responsable : Google Search Console (propriété « préfixe d'URL », vérification par balise HTML), envoyer le sitemap.
+- Google Search Console : propriété « préfixe d'URL » validée le 26 octobre 2026 par balise HTML (google-site-verification dans index.html, à ne pas retirer) ; sitemap envoyé.
 
 ## Statistiques d'utilisation sans témoins (26 octobre 2026)
 - statistiques.js : POST /api/stat (mots-clés séparés par des espaces, liste fermée : visite, vue:*, filtre:*, region:*, tri:*, action:*, langue:*, app:*), compteurs par jour seulement. Ni IP, ni identifiant, ni heure. Robots ignorés, 60 envois/min par IP (en mémoire, jamais écrit), 400 clés par jour max.
