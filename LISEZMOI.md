@@ -225,6 +225,11 @@ alter table public.statistiques enable row level security;
 grant select, insert, update on public.statistiques to service_role;
 ```
 
+## Audit vitesse et accessibilité (26 octobre 2026)
+- Contrastes (mode clair) : --muted #4d6069, --warn #8a5900 (tous les textes ≥ 4,5:1 sur leurs fonds, clair et sombre).
+- Texte minimum 13 px (pastilles, étiquettes, heures des graphiques, notes) ; cases à cocher 20 px ; « Meilleurs moments », « Voir la fiche » et liens du bas de page plus faciles à toucher ; contour visible au clavier (:focus-visible).
+- server.js : compression gzip (pages, JS, JSON) et ETag (réponse 304 si rien n'a changé). Page d'accueil : environ 420 Ko → 120 Ko transférés ; visite suivante : quelques Ko.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
