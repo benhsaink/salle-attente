@@ -229,7 +229,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .topbar{display:flex;flex-direction:column;align-items:center;gap:10px}
 .topbar .topbtns{align-self:flex-end}
 .topbtns{display:flex;gap:8px;flex:none;align-items:center}
-.themebtn{font-size:1rem;line-height:1;padding:6px 10px}
+.themebtn{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:34px;line-height:1;padding:6px 10px}
 .langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
 .langnote{color:var(--muted);font-size:.8rem;margin:4px 0 0}
 /* Fiche par urgence */
@@ -310,6 +310,52 @@ small{font-size:max(.8125rem,.85em)}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .tag.sponsor{color:var(--demo);border-color:var(--demo-soft);background:var(--demo-soft)}
 .brand{display:flex;flex-direction:column;align-items:center;gap:10px;white-space:nowrap;min-width:0;font-size:clamp(2rem,9vw,2.6rem);line-height:1.05;text-align:center;margin-bottom:8px}.brand img{width:84px;height:84px;border-radius:20px;flex:none}.brand .apos{color:var(--ok)}
+/* Accueil (maquette du 28 octobre 2026) */
+[hidden]{display:none!important}
+.ic{flex:none;display:block}
+.brand{font-size:2rem!important}.brand img{width:64px!important;height:64px!important;border-radius:16px!important}
+.sub{text-align:center;font-size:.95rem}
+.sub a{color:var(--accent);font-weight:700}
+.sos{display:grid;grid-template-columns:1fr 1fr;gap:0;border-radius:12px;overflow:hidden;background:var(--bad-soft)}
+.sos a{display:flex;align-items:center;gap:8px;padding:10px 12px;min-height:44px;text-decoration:none;color:var(--ink)}
+.sos a.sos-911{color:var(--bad)}
+.sos a+a{border-left:1px solid var(--bg)}
+.sos b{font-family:var(--f-display);font-size:1.1rem;display:block;line-height:1.1}
+.sos small{display:block;font-size:.8125rem;line-height:1.2}
+.tabs button{display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px}
+.tabs button:first-child{font-size:1.05rem;min-height:46px}
+.regrow{display:flex;gap:8px}
+.regpick{flex:1;min-width:0;position:relative;display:flex;flex-direction:column;justify-content:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px 34px 4px 12px;min-height:44px;cursor:pointer}
+.regpick .regcap{font-size:.78rem;color:var(--muted);line-height:1.1}
+.regpick select{appearance:none;-webkit-appearance:none;border:0;background:transparent;padding:0;font:inherit;font-weight:700;color:var(--ink);width:100%;min-width:0;cursor:pointer;text-overflow:ellipsis}
+.regpick .ic{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.regpick:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.regpick select:focus-visible{outline:0}
+.nearbtn{display:flex;align-items:center;gap:6px;min-height:44px;border:0;border-radius:12px;padding:0 14px;background:var(--accent);color:var(--surface);font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}
+.nearbtn[aria-pressed="true"]{background:var(--ok-soft);color:var(--ok)}
+.privacy summary{cursor:pointer;color:var(--accent);font-size:.84rem;font-weight:700;padding:4px 0}
+.privacy .addr-note{display:block;margin-top:4px}
+.metarow{justify-content:space-between}
+.sortbox summary{list-style:none;display:inline-flex;align-items:center;gap:6px;cursor:pointer;color:var(--accent);font-weight:700;font-size:.9rem;padding:6px 0}
+.sortbox summary::-webkit-details-marker{display:none}
+.sortbox[open] summary{margin-bottom:8px}
+.best-row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.best-row>div{min-width:0}
+.best-pct{text-align:right;flex:none}
+.best-pct b{font-family:var(--f-display);font-size:1.75rem;line-height:1;display:block}
+.best-pct span{color:var(--muted);font-size:.78rem}
+.best-go{display:inline-flex;align-items:center;gap:6px;margin-top:10px;min-height:40px;background:var(--accent);color:var(--surface);border-radius:10px;padding:0 14px;font-weight:700;text-decoration:none}
+.card.er{grid-template-columns:72px minmax(0,1fr);gap:2px 12px}
+.card.er>*{grid-column:2}
+.card.er>.erl{grid-column:1;grid-row:1 / span 3;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.erl b{font-family:var(--f-display);font-size:1.6rem;line-height:1;font-variant-numeric:tabular-nums}
+.erl .rk{font-size:.75rem;color:var(--muted);font-weight:700}
+.card.er .bar{height:6px;margin-top:6px}
+.card.er .where b{color:var(--ink)}
+.g-links{display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.g-links a,.g-links .sharebtn{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:0 14px;text-align:left;background:transparent;border:0;border-radius:0;color:var(--ink);font:inherit;font-weight:700;text-decoration:none;cursor:pointer;width:100%}
+.g-links>*+*{border-top:1px solid var(--line)!important}
+.g-links .ic{color:var(--muted)}
 </style>
 
 </head>
@@ -318,41 +364,37 @@ small{font-size:max(.8125rem,.85em)}
   <header>
     <div class="topbar">
       <div class="topbtns">
-        <button type="button" id="theme-btn" class="langbtn themebtn" aria-label="Passer en mode foncé">🌙</button>
+        <button type="button" id="theme-btn" class="langbtn themebtn" aria-label="Passer en mode foncé"></button>
         <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
       </div>
-      <h1 class="brand" aria-label="Salle d'attente"><img src="/logo.svg" alt="" width="84" height="84"><span aria-hidden="true">salle d<span class="apos">’</span>attente</span></h1>
+      <h1 class="brand" aria-label="Salle d'attente"><img src="/logo.svg" alt="" width="64" height="64"><span aria-hidden="true">salle d<span class="apos">’</span>attente</span></h1>
     </div>
-    <p class="sub">Trouvez l'urgence la moins remplie partout au Québec, ou une clinique où consulter aujourd'hui, même sans médecin de famille.</p>
-    <p class="mission"><b>Notre mission :</b> vous informer correctement et faciliter l'accès aux soins, surtout sans médecin de famille. <a href="#apropos">En savoir plus</a></p>
+    <p class="sub">Les urgences du Québec, de la moins à la plus remplie. <a href="#apropos">À propos</a></p>
     <p class="langnote" id="langnote" hidden>Les noms, adresses et services viennent des sources officielles et restent en français.</p>
   </header>
 
   <div class="sos">
-    <div><strong>911</strong><span>Douleur thoracique, AVC, difficulté à respirer</span></div>
-    <div><strong>811</strong><span>Info-Santé : une infirmière vous oriente</span></div>
+    <a href="tel:911" class="sos-911" aria-label="Appeler le 911 : urgence grave"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><b>911</b><small>Urgence grave</small></span></a>
+    <a href="tel:811" class="sos-811" aria-label="Appeler le 811 : conseil d'une infirmière"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span><b>811</b><small>Conseil d'une infirmière</small></span></a>
   </div>
 
   <section class="fiche" id="fiche" hidden aria-live="polite"></section>
   <section class="fiche" id="infopage" hidden aria-live="polite"></section>
 
   <div id="main" class="stack">
-  <nav class="g-links" aria-label="Aide pour choisir">
-    <a href="#orienter">🧭 Où consulter ?</a>
-    <a href="#triage">Comment fonctionne le triage ?</a>
-    <a href="#alertes">🔔 Alertes (bêta gratuite)</a>
-    <a href="#apropos">ℹ️ À propos et notre mission</a>
-    <button type="button" id="share-site" class="sharebtn">📤 Partager le site</button>
-  </nav>
   <div class="seg tabs" role="tablist" aria-label="Que cherchez-vous ?">
-    <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
-    <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques publiques</button>
-    <button role="tab" id="t-pri" data-v="privees" aria-selected="false">💲 Cliniques privées</button>
-    <button role="tab" id="t-lab" data-v="prelevements" aria-selected="false">🧪 Prélèvements</button>
-    <button role="tab" id="t-soi" data-v="soins" aria-selected="false">🏠 Soins privés</button>
+    <button role="tab" id="t-urg" data-v="urgences" aria-selected="true"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M12 8v6M9 11h6"/></svg><span>Urgences</span></button>
+    <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3v6a5 5 0 0 0 10 0V3M10 14v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="12" r="2"/></svg><span>Cliniques publiques</span></button>
+    <button role="tab" id="t-pri" data-v="privees" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg><span>Cliniques privées</span></button>
+    <button role="tab" id="t-lab" data-v="prelevements" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2h6M10 2v13a2 2 0 0 0 4 0V2M10 10h4M6 22h12"/></svg><span>Prélèvements</span></button>
+    <button role="tab" id="t-soi" data-v="soins" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7M5 9v12h14V9M10 21v-6h4v6"/></svg><span>Soins privés</span></button>
   </div>
   <section class="controls" id="regionctl" aria-label="Région et position">
-    <div class="seg" role="group" aria-label="Région">
+    <div class="regrow">
+      <label class="regpick"><span class="regcap">Région</span><select id="r-pick" aria-label="Région"></select><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></label>
+      <button type="button" id="near-btn" class="nearbtn" aria-expanded="false" aria-controls="geo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="near-label">Près de moi</span></button>
+    </div>
+    <div class="seg" role="group" aria-label="Région" hidden>
       <button id="r-all" data-r="all" aria-pressed="false">Tout</button>
       <button id="r-mtl" data-r="mtl" aria-pressed="false">Montréal</button>
       <button id="r-rs" data-r="rs" aria-pressed="false">Rive-Sud</button>
@@ -361,8 +403,8 @@ small{font-size:max(.8125rem,.85em)}
       <button id="r-qc" data-r="qc" aria-pressed="false">Québec–Lévis</button>
       <button id="r-tr" data-r="tr" aria-pressed="false">Trois-Rivières</button>
     </div>
-    <select id="r-more" aria-label="Autres régions du Québec"><option value="">Autres régions du Québec (urgences)…</option></select>
-    <div class="geo" id="geo">
+    <select id="r-more" aria-label="Autres régions du Québec" hidden><option value="">Autres régions du Québec (urgences)…</option></select>
+    <div class="geo" id="geo" hidden>
       <button id="geo-btn" type="button">📍 Trier selon ma position</button>
       <span id="geo-msg">Votre position reste sur votre téléphone : elle n'est jamais envoyée, sauf pour le temps de route si vous le cochez.</span>
       <form id="addr-form" class="addr" role="search">
@@ -370,13 +412,17 @@ small{font-size:max(.8125rem,.85em)}
         <button type="submit" id="addr-btn">Chercher</button>
       </form>
       <label class="chk road-opt"><input type="checkbox" id="road-opt"> Temps de route en voiture</label>
+      <details class="privacy"><summary>ⓘ Confidentialité de la position</summary>
       <small class="addr-note" id="road-note">Si coché, votre position arrondie (environ 1 km) est envoyée à notre serveur et à openrouteservice pour calculer les trajets. Elle n'est pas conservée.</small>
       <small class="addr-note" id="addr-note">L'adresse cherchée sert seulement à trouver sa position (OpenStreetMap). Elle n'est pas conservée.</small>
+      </details>
     </div>
   </section>
 
   <div id="listview" class="stack">
   <section class="controls" aria-label="Filtres des urgences">
+    <div class="meta metarow"><span id="updated">Chargement des données…</span><button class="linkbtn" id="refresh">Actualiser</button></div>
+    <details class="sortbox" id="sortbox"><summary><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span>Trier et filtrer</span></summary>
     <div class="row">
       <select id="sort" aria-label="Trier">
         <option value="mix" disabled>Proche et peu remplie</option>
@@ -388,7 +434,7 @@ small{font-size:max(.8125rem,.85em)}
       <label class="chk"><input type="checkbox" id="kids"> Pédiatrique seulement</label>
       <label class="chk"><input type="checkbox" id="psy"> Urgences psychiatriques</label>
     </div>
-    <div class="meta"><span id="updated">Chargement des données…</span><button class="linkbtn" id="refresh">Actualiser</button></div>
+    </details>
   </section>
 
   <section class="psynote" id="psynote" hidden>
@@ -547,6 +593,13 @@ small{font-size:max(.8125rem,.85em)}
       </form>
     </section>
   </div>
+  <nav class="g-links" aria-label="Aide pour choisir">
+    <a href="#orienter"><span>Où consulter ?</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+    <a href="#triage"><span>Comment fonctionne le triage ?</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+    <a href="#alertes"><span>Alertes (bêta gratuite)</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+    <a href="#apropos"><span>À propos et notre mission</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+    <button type="button" id="share-site" class="sharebtn"><span>Partager le site</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+  </nav>
   </div>
 
   <section class="feedback" id="commentaires" aria-labelledby="fb-title">
@@ -657,7 +710,9 @@ function mapsApps() {
 function setGeoUI(state, text) {
   const btn = document.getElementById("geo-btn"), msg = document.getElementById("geo-msg");
   const on = state === "on";
-  btn.textContent = on ? "Effacer la position" : state === "wait" ? "Recherche de votre position…" : "📍 Trier selon ma position";
+  btn.textContent = on ? "Effacer la position" : state === "wait" ? "Recherche de votre position…" : "Utiliser ma position";
+  const near = document.getElementById("near-btn");
+  if (near) { near.setAttribute("aria-pressed", on); document.getElementById("near-label").textContent = on ? "Position ✓" : "Près de moi"; }
   btn.className = on ? "off" : "";
   btn.disabled = state === "wait";
   msg.textContent = text;
@@ -1595,6 +1650,19 @@ async function load() {
   render();
 }
 
+// Sélecteur unique de région : régions principales, puis les autres régions qui ont des urgences.
+function fillRegionPick() {
+  const pick = document.getElementById("r-pick"), more = document.getElementById("r-more");
+  pick.innerHTML = "";
+  document.querySelectorAll(".seg button[data-r]").forEach(b => { const o = document.createElement("option"); o.value = b.dataset.r; o.textContent = b.dataset.r === "all" ? "Tout le Québec" : b.textContent; pick.appendChild(o); });
+  const extra = [...more.options].filter(o => o.value);
+  if (extra.length) {
+    const g = document.createElement("optgroup"); g.label = window.SA_T ? SA_T("Autres régions") : "Autres régions";
+    extra.forEach(o => { const x = document.createElement("option"); x.value = o.value; x.textContent = o.textContent; g.appendChild(x); });
+    pick.appendChild(g);
+  }
+  pick.value = region;
+}
 function fillMoreRegions() {
   const sel = document.getElementById("r-more");
   const have = new Set(data.map(h => h.region));
@@ -1602,12 +1670,15 @@ function fillMoreRegions() {
   Object.keys(REGIONS).filter(r => /^r\d/.test(r) && have.has(r)).sort((a, b) => REGIONS[a].localeCompare(REGIONS[b], "fr"))
     .forEach(r => { const o = document.createElement("option"); o.value = r; o.textContent = REGIONS[r]; sel.appendChild(o); });
   if (/^r\d/.test(region) && !have.has(region) && data.length) region = "all";
+  fillRegionPick();
 }
 function render() {
   document.querySelectorAll(".seg button[data-r]").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === region));
   const more = document.getElementById("r-more");
   more.value = /^r\d/.test(region) ? region : "";
   more.classList.toggle("on", !!more.value);
+  const pick = document.getElementById("r-pick");
+  if (pick.options.length && pick.value !== region) pick.value = region;
   const kids = document.getElementById("kids").checked;
   const psy = document.getElementById("psy").checked;
   document.getElementById("psynote").hidden = !psy;
@@ -1627,12 +1698,23 @@ function render() {
   best.hidden = !b && !far;
   if (far) best.innerHTML = `<small>Meilleur choix</small><p>Choisissez une région, ou triez selon votre position, pour voir l'urgence la moins remplie près de chez vous.</p>`;
   if (b) {
-    best.innerHTML = `<small>Meilleur choix selon la dernière mise à jour</small><h3></h3><p></p>`;
+    const [bcls] = status(b.rate);
+    best.innerHTML = `<small></small><div class="best-row"><div><h3></h3><p></p></div><div class="best-pct"><b></b><span>des civières occupées</span></div></div>`;
     best.querySelector("h3").textContent = b.name;
-    best.querySelector("small").textContent = (sort === "mix" || sort === "near") && pos ? "Meilleur choix près de vous" : "Meilleur choix selon la dernière mise à jour";
+    best.querySelector("small").textContent = (sort === "mix" || sort === "near") && pos ? "Meilleur choix près de vous" : "Meilleur choix maintenant";
     const d = km(b);
-    best.querySelector("p").textContent =
-      `${b.rate === null ? "Occupation inconnue" : Math.round(b.rate * 100) + " % des civières occupées"} · ${fmt(b.pec)} en attente · ${d === null ? b.area : distText(b) + " · " + b.area}`;
+    best.querySelector("p").textContent = `${d === null ? b.area : distText(b) + " · " + b.area} · ${fmt(b.pec)} en attente`;
+    const bp = best.querySelector(".best-pct b");
+    bp.textContent = b.rate === null ? "—" : Math.round(b.rate * 100) + " %";
+    bp.style.color = "var(--" + bcls.slice(2) + ")";
+    const app = mapsApps()[0];
+    if (b.address) {
+      const a = document.createElement("a"); a.className = "best-go"; a.href = app.url(b.address); a.target = "_blank"; a.rel = "noopener";
+      a.innerHTML = '<svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>';
+      a.appendChild(document.createTextNode("Itinéraire (" + app.name + ")"));
+      a.addEventListener("click", () => SA_STAT("action:itineraire-meilleur"));
+      best.appendChild(a);
+    }
   }
 
   const tn = document.getElementById("trendnote");
@@ -1645,15 +1727,15 @@ function render() {
     const [cls, label] = status(h.rate);
     const pct = h.rate === null ? null : Math.round(h.rate * 100);
     const li = document.createElement("li");
-    li.className = "card";
+    li.className = "card er";
     li.innerHTML = `
-      <div class="rank">${i + 1}</div>
-      <div class="head"><h3></h3><span class="pill ${cls}">${label}</span></div>
+      <div class="erl"><b style="color:var(--${cls.slice(2)})">${pct === null ? "—" : pct + " %"}</b><span class="pill ${cls}">${label}</span><span class="rk">n° ${i + 1}</span></div>
+      <div class="head"><h3></h3></div>
       <div class="where"></div>
       <div class="bar"><i style="width:${pct === null ? 0 : Math.min(100, pct / 1.5)}%;background:var(--${cls.slice(2)})"></i></div>
       <div class="stats">
-        <div><b>${pct === null ? "—" : pct + " %"}</b><span>civières occupées (${fmt(h.occ)}/${fmt(h.stretchers)})</span></div>
         <div><b>${fmt(h.pec)}</b><span>en attente d'un médecin</span></div>
+        <div><b>${fmt(h.occ)}/${fmt(h.stretchers)}</b><span>civières occupées</span></div>
         <div><b>${h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h"}</b><span>séjour moyen, sans civière (hier)</span></div>
       </div>`;
     const h3 = li.querySelector("h3");
@@ -1690,6 +1772,20 @@ document.querySelectorAll(".seg button[data-r]").forEach(b => b.addEventListener
   region = b.dataset.r; try { localStorage.setItem("sa-region", region); } catch (e) {} render();
 }));
 document.getElementById("sort").addEventListener("change", render);
+document.getElementById("r-pick").addEventListener("change", e => {
+  region = e.target.value || "all"; try { localStorage.setItem("sa-region", region); } catch (err) {} SA_STAT("region:" + region); render();
+});
+// « Près de moi » : ouvre le panneau de position et demande la position la première fois.
+document.getElementById("near-btn").addEventListener("click", () => {
+  const geo = document.getElementById("geo"), btn = document.getElementById("near-btn");
+  const open = geo.hidden;
+  geo.hidden = !open; btn.setAttribute("aria-expanded", open);
+  if (open && !pos) askPosition();
+});
+fillRegionPick();
+// Tri et filtres : ouverts d'office si un filtre est actif.
+(function () { const k = document.getElementById("kids"), p = document.getElementById("psy");
+  if (k.checked || p.checked) document.getElementById("sortbox").open = true; })();
 document.getElementById("kids").addEventListener("change", render);
 document.getElementById("psy").addEventListener("change", render);
 document.getElementById("geo-btn").addEventListener("click", () => pos ? stopPosition() : askPosition());
@@ -1801,7 +1897,9 @@ document.getElementById("pt-form").addEventListener("submit", async e => {
   const T = window.SA_T || (x => x);
   function show() {
     const d = dark();
-    btn.textContent = d ? "☀️" : "🌙";
+    btn.innerHTML = d
+      ? '<svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+      : '<svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
     btn.setAttribute("aria-label", T(d ? "Passer en mode clair" : "Passer en mode foncé"));
     btn.title = btn.getAttribute("aria-label");
   }
@@ -1878,8 +1976,8 @@ function renderPartners() {
 // Partager : menu de partage du téléphone, sinon copie du lien
 async function shareLink(btn, text, url, what) {
   SA_STAT("action:partage:" + what);
-  const old = btn.textContent;
-  const done = msg => { btn.textContent = msg; setTimeout(() => { btn.textContent = old; }, 2500); };
+  const tgt = btn.querySelector("span") || btn, old = tgt.textContent;
+  const done = msg => { tgt.textContent = msg; setTimeout(() => { tgt.textContent = old; }, 2500); };
   if (navigator.share) {
     try { await navigator.share({ title: "Salle d'attente", text, url }); return; }
     catch (e) { if (e && e.name === "AbortError") return; }
