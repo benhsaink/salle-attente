@@ -298,3 +298,11 @@ create index on public.abonnements (courriel);
 - Durées : alertes jusqu'au désabonnement ; inscription par courriel non confirmée effacée après 7 jours (alertes.js, purgeUnconfirmed, une fois par jour) ; commentaires et demandes de partenariat 2 ans au plus.
 - Fournisseurs listés : Supabase (Canada), Render (serveur en Virginie, É.-U.), Brevo (UE), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap.
 - Formulaires (commentaires, partenaires) : envoyés par Brevo à CONTACT_TO (ou ALERT_FROM) dès que BREVO_KEY et ALERT_FROM sont réglés ; sinon par Formspree (FEEDBACK_URL). Le 25 octobre 2026 : Brevo actif, FEEDBACK_URL retirée de Render et Formspree retiré de la politique de confidentialité. Si Brevo tombe en panne, les messages restent dans les journaux Render (lignes « COMMENTAIRE » et « PARTENAIRE »).
+
+## Prélèvements (onglet 🧪)
+
+- Liste : `data/cliniques/prelevements-liste.json` (150 lieux repérés par recherche dans le Répertoire : CLSC et points de service, Biron, Dynacare, CDL, cliniques de prélèvement). Fiches orthopédiques, dentaires et sans service exclues.
+- Relue chaque matin par `repertoire.js` → `data/cliniques/prelevements.json`, servie par `/api/prelevements` (seulement les fiches avec adresse et position).
+- « Sans rendez-vous » : seulement si la fiche officielle le dit (texte cité sur la carte). Les mentions de retour d'échantillons, « AVEC rendez-vous, sauf… », soins infirmiers ou vaccination sont écartées (`lib.parseFiche`, champ `sansRdvTexte`).
+- « Réseau public » : nom contenant CLSC ou « point de service local ». Les autres : « Informez-vous des frais ».
+- Consignes affichées (Clic Santé, ordonnance, carte d'assurance maladie, jeûne de 8 ou 12 h selon la requête) : dépliant du CISSS du Bas-Saint-Laurent, approuvé le 13 mars 2024.

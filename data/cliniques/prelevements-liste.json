@@ -1,0 +1,906 @@
+{
+ "source": "Recherche par nom dans le Répertoire des ressources (prélèvement, laboratoire, Biron, Dynacare, CDL), 28 octobre 2026",
+ "consulte": "2026-10-28",
+ "cliniques": [
+  {
+   "nom": "AU-MÉDIC CENTRE DE SOINS PRÉLÈVEMENTS",
+   "nofiche": 1215353,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "CAS MÉDIC - CENTRE DE PRÉLÈVEMENTS MÉDICAUX",
+   "nofiche": 913087,
+   "region": "lav",
+   "public": false
+  },
+  {
+   "nom": "CENTRE DE PRÉLÈVEMENT (ÉDIFICE MURRAY)",
+   "nofiche": 53015,
+   "region": "r05",
+   "public": false
+  },
+  {
+   "nom": "CENTRE DE PRÉLÈVEMENT DE FERME-NEUVE",
+   "nofiche": 480446,
+   "region": "r15",
+   "public": false
+  },
+  {
+   "nom": "CENTRE DE PRÉLÈVEMENT MÉDI-BOURG",
+   "nofiche": 1219937,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "CENTRE DE PRÉLÈVEMENTS CAROLINE CÔTÉ",
+   "nofiche": 896258,
+   "region": "r16",
+   "public": false
+  },
+  {
+   "nom": "CENTRE DE PRELEVEMENTS CURA",
+   "nofiche": 946000,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (NAPIERVILLE)",
+   "nofiche": 1180487,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (SAINT-CONSTANT)",
+   "nofiche": 1219210,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS ET DE SOINS INFIRMIERS DU BIC",
+   "nofiche": 827380,
+   "region": "r01",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS GLOBULINE (SALABERRY-DE-VALLEYFIELD)",
+   "nofiche": 79438,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS GLOBULINE (VAUDREUIL-DORION)",
+   "nofiche": 671666,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS NR",
+   "nofiche": 1214351,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS RICHELIEU",
+   "nofiche": 29858,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS SANG DÉLAI (MATANE)",
+   "nofiche": 562536,
+   "region": "r01",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS SANG DÉLAI (RIMOUSKI)",
+   "nofiche": 37862,
+   "region": "r01",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ET CENTRE DE PRÉLÈVEMENTS MEDICOSENS",
+   "nofiche": 1200776,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE PRÉLÈVEMENTS ET VACCINATION MULTI-SANTÉ (CHEMN LAROCQUE, VALLEYFIELD) - PHARMACIE CLINIQUE DES BÂTISSEURS JEAN-FRANÇOIS THIBEAULT, ÉMILIE LEFEBVRE ET SANDRA GERGES",
+   "nofiche": 1004751,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "CLSC D'ARMAGH - SITE DE PRÉLÈVEMENTS-ARMAGH",
+   "nofiche": 1037,
+   "region": "r12",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE BAIE-SAINTE-CATHERINE (CENTRE DE PRÉLÈVEMENTS)",
+   "nofiche": 1802,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (RAWDON)",
+   "nofiche": 291363,
+   "region": "rn",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (SAINT-ALPHONSE-RODRIGUEZ)",
+   "nofiche": 291375,
+   "region": "rn",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (SAINT-CÔME)",
+   "nofiche": 291387,
+   "region": "rn",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE PORTNEUF (CENTRE DE PRÉLÈVEMENTS)",
+   "nofiche": 349489,
+   "region": "qc",
+   "public": true
+  },
+  {
+   "nom": "CLSC DE RIVIÈRE-À-PIERRE (CENTRE DE PRÉLÈVEMENTS)",
+   "nofiche": 170481,
+   "region": "qc",
+   "public": true
+  },
+  {
+   "nom": "CENTRE DE PRÉLÈVEMENTS DE VARENNES",
+   "nofiche": 555594,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL - SAINTE-AGATHE-DES-MONTS (PRÉLÈVEMENTS)",
+   "nofiche": 381195,
+   "region": "r15",
+   "public": true
+  },
+  {
+   "nom": "DMPRÉLÈVEMENT",
+   "nofiche": 1232013,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CENTRE DE PRÉLÈVEMENTS DOLLARD-DES-ORMEAUX)",
+   "nofiche": 490596,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CENTRE DE PRÉLÈVEMENTS KIRKLAND)",
+   "nofiche": 490639,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CENTRE DE PRÉLÈVEMENTS POINTE-CLAIRE)",
+   "nofiche": 490664,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "FRANCE DUBOIS PRÉLÈVEMENTS",
+   "nofiche": 689585,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE PRÉLÈVEMENTS LM",
+   "nofiche": 108937,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL - GATINEAU (PRÉLÈVEMENT/VACCINATION/DÉPISTAGE)",
+   "nofiche": 1168589,
+   "region": "r07",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL HULL- (VACCINATION/ PRÉLÈVEMENT)",
+   "nofiche": 1180675,
+   "region": "r07",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL LA POMMERAIE (VACCINATION, PRÉLÈVEMENTS ET DÉPISTAGE)",
+   "nofiche": 1164677,
+   "region": "r05",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL PIERREFONDS (VACCINATION DÉPISTAGE ET PRÉLÈVEMENTS)",
+   "nofiche": 1157775,
+   "region": "mtl",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-MATAPÉDIA 1-DÉPISTAGE-PRÉLÈVEMENT",
+   "nofiche": 1157876,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-KAMOURASKA-PRÉLÈVEMENTS",
+   "nofiche": 1231419,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-MONT-JOLI-VACCINATION,DÉPISTAGE ET PRÉLÈVEMENT",
+   "nofiche": 1157879,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-RIMOUSKI-VACCINATION, DÉPISTAGE ET PRÉLÈVEMENTS",
+   "nofiche": 1154764,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-RIMOUSKI-PRÉLÈVEMENTS",
+   "nofiche": 1231422,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-TÉMISCOUATA-SUR-LE-LAC-VACCINATION, DÉPISTAGE, PRÉLÈVEMENTS",
+   "nofiche": 1157893,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL-TROIS-PISTOLES -VACCINATION , DÉPISTAGE ET PRÉLÈVEMENTS",
+   "nofiche": 1154754,
+   "region": "r01",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC CHICOUTIMI (SAINT-FULGENCE)",
+   "nofiche": 1215693,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC D'ALMA (SAINTE-MONIQUE)",
+   "nofiche": 474681,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC D'ALMA (SAINT-LÉON)",
+   "nofiche": 474693,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC DE L'ASCENSION (SAINT-NAZAIRE)",
+   "nofiche": 918475,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC DE SAINT-FÉLICIEN (LA DORÉ)",
+   "nofiche": 594608,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC DE SAINT-FÉLICIEN (LAC-BOUCHETTE)",
+   "nofiche": 594602,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (GIRARDVILLE)",
+   "nofiche": 474285,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (NOTRE-DAME-DE-LORETTE)",
+   "nofiche": 474313,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (PÉRIBONKA)",
+   "nofiche": 474425,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-AUGUSTIN)",
+   "nofiche": 474324,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINTE-ÉLISABETH-DE-PROULX)",
+   "nofiche": 474406,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINTE-JEANNE-D'ARC)",
+   "nofiche": 474428,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-EUGÈNE D'ARGENTENAY)",
+   "nofiche": 474446,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-LUDGER-DE-MILOT)",
+   "nofiche": 474339,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-STANISLAS)",
+   "nofiche": 474352,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-THOMAS-DIDYME)",
+   "nofiche": 474371,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (CANDIAC)",
+   "nofiche": 857937,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE PRÉLÈVEMENTS ET VACCINATION MULTI-SANTÉ (RUE O'KEEFE,VALLEYFIELD) FAMILIPRIX EXTRA JEAN-FRANÇOIS THIBEAULT, ÉMILIE LEFEBVRE ET SANDRA GERGES",
+   "nofiche": 856393,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL - SAINT-JÉRÔME (PRÉLÈVEMENTS)",
+   "nofiche": 683106,
+   "region": "rn",
+   "public": true
+  },
+  {
+   "nom": "POINT DE SERVICE LOCAL LACHINE (VACCINATION, DÉPISTAGE ET PRÉLÈVEMENTS)",
+   "nofiche": 1157763,
+   "region": "mtl",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC D'ALMA (HÉBERTVILLE)",
+   "nofiche": 474669,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-EDMOND-LES-PLAINES)",
+   "nofiche": 474421,
+   "region": "r02",
+   "public": true
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (LAVAL)",
+   "nofiche": 935270,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (VILLE-ÉMARD)",
+   "nofiche": 1223936,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (ANJOU)",
+   "nofiche": 1223972,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - BEAUPORT",
+   "nofiche": 1223800,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - BROMONT",
+   "nofiche": 1225042,
+   "region": "r05",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PHARMACIE PHARMAPRIX D. MONGRAIN)",
+   "nofiche": 470897,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PIERREFONDS)",
+   "nofiche": 470047,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PLAZA POINTE-CLAIRE)",
+   "nofiche": 469782,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - GRANBY MONTCALM",
+   "nofiche": 1223832,
+   "region": "r05",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - MAGOG",
+   "nofiche": 1223807,
+   "region": "r05",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - POLYCLINIQUE MÉDICALE TERREBONNE",
+   "nofiche": 1225345,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - SHERBROOKE",
+   "nofiche": 1223778,
+   "region": "r05",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - TROIS-RIVIÈRES",
+   "nofiche": 1224166,
+   "region": "tr",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL - VICTORIAVILLE",
+   "nofiche": 1224173,
+   "region": "r04",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (BOUCHERVILLE)",
+   "nofiche": 655846,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (BROSSARD) (SIÈGE SOCIAL)",
+   "nofiche": 680423,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (CLINIQUE FAMILIALE DES HAUTS-BOIS)",
+   "nofiche": 655934,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (CLINIQUE L'ACTUEL)",
+   "nofiche": 1204775,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (COMPLEXE GUY FAVREAU)",
+   "nofiche": 471026,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (LACHENAIE)",
+   "nofiche": 44087,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (MÉDICENTRE LASALLE)",
+   "nofiche": 470870,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (MONTRÉAL CABRINI)",
+   "nofiche": 600783,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (POLYCLINIQUE MÉDICALE FABREVILLE)",
+   "nofiche": 481064,
+   "region": "lav",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (QUARTIER DIX30 BROSSARD)",
+   "nofiche": 42370,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (RENÉ-LAENNEC)",
+   "nofiche": 600767,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (SAINT-HYACINTHE)",
+   "nofiche": 656221,
+   "region": "r16",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (SAINT-LAMBERT)",
+   "nofiche": 656231,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (VARENNES)",
+   "nofiche": 655915,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL (VILLE SAINT-LAURENT)",
+   "nofiche": 471712,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL EXPRESS (CARREFOUR MÉDICAL VALLÉE DU RICHELIEU)",
+   "nofiche": 655790,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL EXPRESS (CARREFOUR SANTÉ LE ST-LAURENT)",
+   "nofiche": 655814,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL EXPRESS (HUDSON MÉDI-CENTRE)",
+   "nofiche": 656200,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON LABORATOIRE MÉDICAL EXPRESS (LA CLINIQUE FORT CHAMBLY)",
+   "nofiche": 655863,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRES CDL (DÉCARIE)",
+   "nofiche": 625271,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "CDL LABORATOIRES",
+   "nofiche": 108822,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CENTRE MÉDICAL RENÉ-LAENNEC)",
+   "nofiche": 490617,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CLINIQUE MÉDICALE DE L'UNIVERSITÉ DE MONTRÉAL)",
+   "nofiche": 490635,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE ST-LAURENT (CLINIQUE MÉDICALE PLEIN CIEL)",
+   "nofiche": 490680,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE GROUPE SANTÉ PHYSIMED",
+   "nofiche": 344592,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE DYNACARE (SAINT-HUBERT)",
+   "nofiche": 800929,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE DYNACARE (VAUDREUIL-DORION)",
+   "nofiche": 800881,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE MÉDICAL LAPOINTE",
+   "nofiche": 472610,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "CLINIQUE INFIRMIÈRES+ LABORATOIRE, SOINS PERSONNALISÉS",
+   "nofiche": 1113216,
+   "region": "r04",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRES CDL (OUEST DE L'ÎLE)",
+   "nofiche": 108836,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRES CDL (CENTRE-VILLE DE MONTRÉAL)",
+   "nofiche": 700062,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRES CDL (DOLLARD-DES-ORMEAUX)",
+   "nofiche": 1146071,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (BOUCHERVILLE)",
+   "nofiche": 885173,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (BROSSARD)",
+   "nofiche": 973275,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (LÉVIS)",
+   "nofiche": 655603,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (LONGUEUIL)",
+   "nofiche": 636557,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (SAGUENAY)",
+   "nofiche": 461606,
+   "region": "r02",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (SAINT-HYACINTHE)",
+   "nofiche": 968976,
+   "region": "r16",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (SAINT-JEAN-SUR-RICHELIEU)",
+   "nofiche": 735824,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (SOREL-TRACY)",
+   "nofiche": 611741,
+   "region": "r16",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (VILLE SAINT-LAURENT)",
+   "nofiche": 655487,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON (ANGUS)",
+   "nofiche": 888357,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON EXPRESS - CLINIQUE DE LA CAPITALE",
+   "nofiche": 1223781,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "BIRON EXPRESS - CLINIQUE MÉDICALE DES AFFLUENTS",
+   "nofiche": 1225343,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON EXPRESS - CLINIQUE MÉDICALE ST-PAUL",
+   "nofiche": 1225333,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "BIRON EXPRESS (WELLINGTON)",
+   "nofiche": 1223958,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON EXPRESS- CARREFOUR SANTÉ AYLMER",
+   "nofiche": 1223891,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "SERVICES SOINS INFIRMIERS - BIRON",
+   "nofiche": 1229705,
+   "region": "rs",
+   "public": false
+  },
+  {
+   "nom": "BIRON GROUPE SANTÉ",
+   "nofiche": 787321,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON - SOINS DU SOMMEIL (POINTE-CLAIRE)",
+   "nofiche": 469751,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "BIRON QUÉBEC (C7235)",
+   "nofiche": 636387,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "BIRON SOINS DU SOMMEIL (RIMOUSKI)",
+   "nofiche": 636634,
+   "region": "r01",
+   "public": false
+  },
+  {
+   "nom": "BIRON SOINS DU SOMMEIL (SAINT-JÉRÔME)",
+   "nofiche": 639876,
+   "region": "rn",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (AVENUE DU BOISÉ)",
+   "nofiche": 1216543,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (BOULEVARD DE LA CITÉ-DES-JEUNES)",
+   "nofiche": 1216553,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (BOULEVARD NOTRE-DAME)",
+   "nofiche": 1216547,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (BOULEVARD SAINT-RAYMOND)",
+   "nofiche": 1216555,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (BOULEVARD SAMSON)",
+   "nofiche": 1216552,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (BOULEVARD TESSIER)",
+   "nofiche": 1216550,
+   "region": "lav",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CENTRE MÉDICAL WESTMOUNT)",
+   "nofiche": 490602,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CHEMIN D'AYLMER)",
+   "nofiche": 1216556,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CHEMIN DE LA CÔTE-DES-NEIGES)",
+   "nofiche": 1216544,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (CLINIQUE MÉDICALE QUORUM)",
+   "nofiche": 1216540,
+   "region": "mtl",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (DE L'ATMOSPHÈRE)",
+   "nofiche": 214350,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (GRÉBER)",
+   "nofiche": 211674,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (L'ANCIENNE-LORETTE)",
+   "nofiche": 1216563,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (MONTCLAIR)",
+   "nofiche": 214260,
+   "region": "r07",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (PIERRE-BERTRAND)",
+   "nofiche": 1216564,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "DYNACARE (RUE DU CARREFOUR)",
+   "nofiche": 1216591,
+   "region": "qc",
+   "public": false
+  },
+  {
+   "nom": "LABORATOIRE DYNACARE (LONGUEUIL)",
+   "nofiche": 800934,
+   "region": "rs",
+   "public": false
+  }
+ ]
+}

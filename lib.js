@@ -446,6 +446,14 @@ function parseFiche(text) {
   out.systemes = [...new Set(out.jours.flatMap((j) => j.rdvJour.flatMap((e) => e.systemes)))];
   // Médecins non participants à la RAMQ (le patient paie) : écrit dans la fiche.
   out.nonParticipant = L.some((l) => /^Médecin non participant à la RAMQ/i.test(l));
+  // Prélèvements : prise de rendez-vous par Clic Santé, et mention écrite d'un accès sans rendez-vous (texte exact de la fiche).
+  out.clicSante = L.some((l) => /Clic sant[ée]/i.test(l));
+  // On écarte ce qui ne parle pas d'un prélèvement sans rendez-vous ici : retour d'échantillons, « AVEC rendez-vous, sauf… »,
+  // soins infirmiers, aide à la connexion. Les lignes qui nomment le prélèvement passent en premier.
+  const srdvAll = L.filter((l) => /sans rendez-vous|entrée (est )?libre/i.test(l) && l.length < 220
+    && !/avec rendez-vous|retour|rapporte|spécimen|échantillon|soins infirmiers|vaccin|authentification|carte d'assurance maladie/i.test(l));
+  const srdv = srdvAll.find((l) => /prél[èe]v|prise de sang|tests?\b|entrée (est )?libre/i.test(l)) || srdvAll[0];
+  out.sansRdvTexte = srdv ? srdv.replace(/^[-–•]\s*/, "") : null;
   // Services et spécialités, tels que listés dans la fiche (sans les mentions de frais).
   const iS = at(/^Services offerts et spécialités$/), iA = at(/^Accessibilité$/, iS + 1);
   out.services = [];

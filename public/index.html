@@ -154,8 +154,9 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 footer{color:var(--muted);font-size:.78rem}
 .stack{display:flex;flex-direction:column;gap:18px}
 .stack[hidden],.controls[hidden]{display:none}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr)}
-@media (max-width:520px){.tabs{grid-template-columns:1fr 1fr}}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr)}
+@media (max-width:720px){.tabs{grid-template-columns:repeat(6,1fr)}.tabs button{grid-column:span 2}.tabs button:nth-child(4),.tabs button:nth-child(5){grid-column:span 3}}
+@media (max-width:400px){.tabs{grid-template-columns:1fr 1fr}.tabs button,.tabs button:nth-child(4){grid-column:auto}.tabs button:nth-child(5){grid-column:span 2}}
 .tabs button{font-size:.95rem;padding:11px 6px}
 .tabs button[aria-selected="true"]{background:var(--accent);color:var(--surface)}
 .cinfo{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
@@ -182,6 +183,7 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .pinfo b{color:var(--warn)}
 .pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
 .pill.pay{background:var(--warn-soft);color:var(--warn)}
+.pill.pub{background:var(--accent-soft);color:var(--accent)}
 .svc{grid-column:2;display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
 .svc span{font-size:.8125rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
 .svc span.hit{border-color:var(--accent);color:var(--accent);font-weight:700}
@@ -333,6 +335,7 @@ small{font-size:max(.8125rem,.85em)}
     <button role="tab" id="t-urg" data-v="urgences" aria-selected="true">🏥 Urgences</button>
     <button role="tab" id="t-cli" data-v="cliniques" aria-selected="false">🩺 Cliniques</button>
     <button role="tab" id="t-pri" data-v="privees" aria-selected="false">💲 Privées</button>
+    <button role="tab" id="t-lab" data-v="prelevements" aria-selected="false">🧪 Prélèvements</button>
     <button role="tab" id="t-soi" data-v="soins" aria-selected="false">🏠 Soins privés</button>
   </div>
   <section class="controls" id="regionctl" aria-label="Région et position">
@@ -426,6 +429,24 @@ small{font-size:max(.8125rem,.85em)}
     </section>
     <ol class="list" id="plist"></ol>
     <p class="legend">Adresses, téléphones, heures et services : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Seules les cliniques dont la fiche est complète sont affichées. Cliniques repérées grâce à la liste des médecins non participants de la RAMQ (septembre 2026). Les heures peuvent changer : téléphonez avant de vous déplacer.</p>
+  </div>
+
+  <div id="labview" class="stack" hidden>
+    <section class="pinfo">
+      <p><b>Prise de sang et autres prélèvements.</b> Dans le réseau public, les prélèvements se font surtout <b>sur rendez-vous</b>, pris sur <a href="https://portal3.clicsante.ca/" target="_blank" rel="noopener">clicsante.ca</a> (service « Prélèvements et prise de sang »). Apportez votre ordonnance (requête) et votre carte d'assurance maladie.</p>
+      <p>À jeun ? Suivez les consignes de votre requête. Par exemple, le CISSS du Bas-Saint-Laurent indique : ne pas boire ni manger 8 ou 12 heures avant, selon la requête (eau et médicaments permis).</p>
+      <p>« Sans rendez-vous » n'apparaît que si la fiche officielle du lieu le dit. Laboratoires privés : service payant, informez-vous des frais.</p>
+    </section>
+    <section class="controls" aria-label="Filtres des prélèvements">
+      <div class="row">
+        <label class="chk"><input type="checkbox" id="l-walk"> Sans rendez-vous seulement</label>
+        <label class="chk"><input type="checkbox" id="l-public"> Réseau public seulement</label>
+        <label class="chk"><input type="checkbox" id="l-open"> Ouverts maintenant</label>
+      </div>
+      <div class="meta"><span id="l-updated">Chargement des centres de prélèvement…</span></div>
+    </section>
+    <ol class="list" id="llist"></ol>
+    <p class="legend">Adresses, téléphones, heures et mentions : fiches officielles du Répertoire des ressources de Santé Québec, relues chaque matin. Consignes : <a href="https://www.cisss-bsl.gouv.qc.ca/sites/default/files/depliant_prelevements_11x85.pdf" target="_blank" rel="noopener">dépliant du CISSS du Bas-Saint-Laurent</a> (approuvé le 13 mars 2024). Les heures et les conditions peuvent changer : vérifiez auprès du lieu avant de vous déplacer.</p>
   </div>
 
   <div id="careview" class="stack" hidden>
@@ -566,7 +587,7 @@ const kmText = d => d < 1 ? "à moins de 1 km" : "à " + Math.round(d).toLocaleS
 
 // ---------- Temps de route (seulement si la case est cochée) ----------
 // Une liste de trajets par onglet : urgences (clé = nom), cliniques et privées (clé = numéro de fiche).
-const roads = { urgences: new Map(), cliniques: new Map(), privees: new Map() }, roadFor = { urgences: "", cliniques: "", privees: "" };
+const roads = { urgences: new Map(), cliniques: new Map(), privees: new Map(), prelevements: new Map() }, roadFor = { urgences: "", cliniques: "", privees: "", prelevements: "" };
 let roadOn = false;
 try { roadOn = localStorage.getItem("sa-road") === "1"; } catch (e) {}
 const roadOf = h => (pos && roadOn && (h.nofiche ? (roads.cliniques.get(String(h.nofiche)) || roads.privees.get(String(h.nofiche))) : roads.urgences.get(h.name))) || null;
@@ -581,7 +602,7 @@ function distText(h) {
 // Pour les tris : minutes de route, ou une estimation à partir du vol d'oiseau.
 const travel = h => { const r = roadOf(h); if (r) return r.min; const d = km(h); return d === null ? null : d * 1.2; };
 async function loadRoad(type) {
-  type = type || (view === "cliniques" || view === "privees" ? view : "urgences");
+  type = type || (view === "cliniques" || view === "privees" || view === "prelevements" ? view : "urgences");
   if (!pos || !roadOn || !roads[type]) return;
   const key = pos.lat.toFixed(2) + "," + pos.lon.toFixed(2);
   if (key === roadFor[type]) return;
@@ -825,12 +846,12 @@ function route() {
     info.hidden = false;
     return;
   }
-  if (!info.hidden) { info.hidden = true; info.dataset.page = ""; if (!name) { main.hidden = false; setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view); document.title = (window.SA_T ? SA_T("Salle d'attente – Urgences du Québec en temps réel") : "Salle d'attente – Urgences du Québec en temps réel"); window.scrollTo(0, location.hash === "#cliniques" || location.hash === "#urgences" ? 0 : listScroll); return; } }
+  if (!info.hidden) { info.hidden = true; info.dataset.page = ""; if (!name) { main.hidden = false; setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#prelevements" ? "prelevements" : location.hash === "#urgences" ? "urgences" : view); document.title = (window.SA_T ? SA_T("Salle d'attente – Urgences du Québec en temps réel") : "Salle d'attente – Urgences du Québec en temps réel"); window.scrollTo(0, location.hash === "#cliniques" || location.hash === "#urgences" ? 0 : listScroll); return; } }
   if (!name) {
     const wasOpen = !fiche.hidden;
     fiche.hidden = true; main.hidden = false; shownFiche = null;
     document.title = (window.SA_T ? SA_T("Salle d'attente – Urgences du Québec en temps réel") : "Salle d'attente – Urgences du Québec en temps réel");
-    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#urgences" ? "urgences" : view);
+    setView(location.hash === "#cliniques" ? "cliniques" : location.hash === "#privees" ? "privees" : location.hash === "#soins" ? "soins" : location.hash === "#prelevements" ? "prelevements" : location.hash === "#urgences" ? "urgences" : view);
     if (wasOpen) window.scrollTo(0, listScroll);
     return;
   }
@@ -850,23 +871,26 @@ function closeFiche() {
 
 // ---------- Onglets : Urgences / Cliniques ----------
 let view = "urgences";
-try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees", "soins"].includes(v) ? v : "urgences"; } catch (e) {}
+try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees", "prelevements", "soins"].includes(v) ? v : "urgences"; } catch (e) {}
 function setView(v) {
   view = v;
   SA_STAT("vue:" + v);
   if (v === "soins") loadPartners();
-  if (v === "cliniques" || v === "privees" || v === "urgences") loadRoad(v);
+  if (v === "cliniques" || v === "privees" || v === "prelevements" || v === "urgences") loadRoad(v);
   try { localStorage.setItem("sa-view", v); } catch (e) {}
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
   document.getElementById("listview").hidden = v !== "urgences";
   document.getElementById("clinicview").hidden = v !== "cliniques";
   document.getElementById("privateview").hidden = v !== "privees";
+  document.getElementById("labview").hidden = v !== "prelevements";
   document.getElementById("careview").hidden = v !== "soins";
   document.getElementById("regionctl").hidden = v === "soins";
   if (v === "cliniques" && !clinics && !clinicsLoading) loadClinics();
   else if (v === "cliniques") renderClinics();
   if (v === "privees" && !privates && !privatesLoading) loadPrivates();
   else if (v === "privees") renderPrivates();
+  if (v === "prelevements" && !labs && !labsLoading) loadLabs();
+  else if (v === "prelevements") renderLabs();
 }
 
 // ---------- Cliniques ----------
@@ -1103,6 +1127,90 @@ function renderPrivates() {
   rows.sort((a, b) => pos ? (travel(a) ?? 999) - (travel(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
   rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted)));
   if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques privées ne sont pas encore offertes dans cette région. L'onglet Urgences couvre tout le Québec." : "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
+}
+
+// ---------- Prélèvements (prise de sang) ----------
+let labs = null, labsLoading = false;
+async function loadLabs() {
+  labsLoading = true;
+  const up = document.getElementById("l-updated");
+  try {
+    const res = await fetch("/api/prelevements");
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error || "Erreur");
+    labs = json.cliniques;
+    const d = json.generatedAt ? new Date(json.generatedAt).toLocaleDateString("fr-CA", { day: "numeric", month: "long", timeZone: "America/Toronto" }) : null;
+    up.textContent = labs.length + " lieux de prélèvement" + (d ? " · fiches officielles relues le " + d : "");
+  } catch (e) {
+    labs = null;
+    up.textContent = "Liste des centres de prélèvement indisponible pour le moment. Réessayez dans quelques minutes.";
+  }
+  labsLoading = false;
+  renderLabs();
+}
+function labCard(c, i) {
+  const [cls, label] = openState(c);
+  const li = el("li", "card");
+  li.appendChild(el("div", "rank", String(i + 1)));
+  const head = el("div", "head"), pills = el("div", "pills");
+  if (c.sansRdvTexte) pills.appendChild(el("span", "pill s-ok", "Sans rendez-vous"));
+  else if (c.clicSante) pills.appendChild(el("span", "pill s-off", "Sur rendez-vous (Clic Santé)"));
+  else pills.appendChild(el("span", "pill s-off", "Rendez-vous : vérifiez auprès du lieu"));
+  pills.appendChild(c.public ? el("span", "pill pub", "Réseau public") : el("span", "pill pay", "💲 Informez-vous des frais"));
+  pills.appendChild(el("span", "pill " + cls, label));
+  head.append(el("h3", "", c.nom), pills);
+  li.appendChild(head);
+  const where = el("div", "where");
+  if (km(c) !== null) where.appendChild(el("span", "km", distText(c) + " · "));
+  where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
+  li.appendChild(where);
+  if (c.sansRdvTexte) li.appendChild(el("p", "cl-note", "Fiche officielle : « " + c.sansRdvTexte + " »"));
+  const act = el("div", "cl-act");
+  if (c.telephone) {
+    const a = el("a", "main", "📞 " + c.telephone);
+    a.href = "tel:+1" + c.telephone.replace(/\D/g, "").slice(-10);
+    a.setAttribute("aria-label", "Appeler " + c.nom);
+    act.appendChild(a);
+  }
+  if (c.clicSante || c.public) { const a = el("a", "", "Rendez-vous Clic Santé"); a.href = "https://portal3.clicsante.ca/"; a.target = "_blank"; a.rel = "noopener"; act.appendChild(a); }
+  if (c.site) { const a = el("a", "", "Site du lieu"); a.href = c.site; a.target = "_blank"; a.rel = "noopener"; act.appendChild(a); }
+  li.appendChild(act);
+  const go = goLinks({ name: c.nom, address: [c.adresse.replace(/,? (bureau|unité|local|niveau|suite) .*$/i, ""), c.ville].filter(Boolean).join(", ") });
+  if (go) li.appendChild(go);
+  const det = el("details", "wk");
+  det.appendChild(el("summary", "", "Heures et services"));
+  const now = quebecNow(), ul = el("ul");
+  (c.jours || []).forEach(j => {
+    const [y, m, dd] = j.date.split("-").map(Number);
+    const name = new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+    const row = el("li", j.date === now.date ? "today" : "");
+    row.append(el("b", "", name.charAt(0).toUpperCase() + name.slice(1)), el("span", "", j.ferme ? "Fermé" : j.ouverture || "—"));
+    ul.appendChild(row);
+  });
+  if (!(c.jours || []).length) ul.appendChild(el("li", "", "Heures non indiquées sur la fiche : téléphonez avant d'y aller."));
+  det.appendChild(ul);
+  if ((c.services || []).length) { const all = el("ul", "all"); c.services.forEach(x => all.appendChild(el("li", "", x))); det.appendChild(all); }
+  const src = el("p", "cl-note"), a = el("a", "", "Fiche officielle (Santé Québec)");
+  a.href = c.url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "var(--accent)";
+  src.append(a, document.createTextNode(c.miseAJour ? " · fiche mise à jour le " + c.miseAJour.replace(/,.*$/, "") : ""));
+  det.appendChild(src);
+  li.appendChild(det);
+  return li;
+}
+function renderLabs() {
+  const list = document.getElementById("llist");
+  if (!list) return;
+  list.innerHTML = "";
+  if (!labs) return;
+  const walk = document.getElementById("l-walk").checked, pub = document.getElementById("l-public").checked, openOnly = document.getElementById("l-open").checked;
+  let rows = labs.filter(c => (region === "all" || c.region === region) && (!walk || c.sansRdvTexte) && (!pub || c.public));
+  const st = new Map(rows.map(c => [c, openState(c)]));
+  if (openOnly) rows = rows.filter(c => st.get(c)[2]);
+  rows.sort((a, b) => pos ? (travel(a) ?? 999) - (travel(b) ?? 999)
+    : (!!b.sansRdvTexte - !!a.sansRdvTexte) || (st.get(b)[2] - st.get(a)[2]) || (b.public - a.public) || a.nom.localeCompare(b.nom, "fr"));
+  rows.slice(0, 60).forEach((c, i) => list.appendChild(labCard(c, i)));
+  if (rows.length > 60) list.appendChild(el("li", "legend", "Les 60 premiers lieux sont affichés. Choisissez une région ou activez votre position pour voir les plus proches."));
+  if (!rows.length) list.appendChild(el("li", "legend", walk ? "Aucun lieu sans rendez-vous indiqué pour ces filtres. La plupart des centres publics fonctionnent sur rendez-vous : clicsante.ca." : "Aucun lieu de prélèvement pour ces filtres. Essayez une autre région."));
 }
 
 function renderClinics() {
@@ -1501,6 +1609,7 @@ function render() {
   if (shownFiche) renderFiche(shownFiche);
   if (view === "cliniques") renderClinics();
   if (view === "privees") renderPrivates();
+  if (view === "prelevements") renderLabs();
   if (view === "soins") renderPartners();
 }
 
@@ -1545,6 +1654,7 @@ document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click
   history.replaceState(null, "", location.pathname + location.search + (b.dataset.v === "urgences" ? "" : "#" + b.dataset.v));
 }));
 document.getElementById("c-open").addEventListener("change", renderClinics);
+["l-walk", "l-public", "l-open"].forEach(id => document.getElementById(id).addEventListener("change", () => { SA_STAT("filtre:" + id); renderLabs(); }));
 document.getElementById("c-all").addEventListener("change", renderClinics);
 document.getElementById("c-kids").addEventListener("change", renderClinics);
 document.getElementById("c-nocov").addEventListener("change", renderClinics);

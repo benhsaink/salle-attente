@@ -178,6 +178,15 @@ function tidyServices(cliniques) {
     services: [...new Set(c.services.map(base).filter((x) => !/frais|RAMQ|\$/i.test(x) && !NOT_SERVICE.test(x)))],
   }));
 }
+// Prélèvements : centres publics (CLSC, points de service) et laboratoires privés, d'après leur fiche officielle.
+const getPrelevRaw = clinicSource("prelevements.json", (c) => ({
+  public: !!c.public, clicSante: !!c.clicSante, sansRdvTexte: c.sansRdvTexte || null,
+  services: [...new Set((c.services || []).map(cleanService).filter((x) => x && !NOT_SERVICE.test(x)))],
+}));
+async function getPrelev() {
+  const d = await getPrelevRaw();
+  return { ...d, cliniques: d.cliniques.filter((c) => c.adresse && c.lat) };
+}
 async function getPrivateComplete() {
   const d = await getPrivate();
   const complete = d.cliniques.filter((c) => c.adresse && c.lat && c.telephone && c.services.length && c.jours.some((j) => j.ferme || j.heures.length));
@@ -400,7 +409,7 @@ async function handleRoute(req, res, url) {
   if (!ORS_KEY) return json(503, { error: "Temps de route pas encore activé." });
   const lat = Math.round(Number(url.searchParams.get("lat")) * 100) / 100, lon = Math.round(Number(url.searchParams.get("lon")) * 100) / 100;
   if (!isFinite(lat) || !isFinite(lon) || lat < 44 || lat > 63 || lon < -80 || lon > -56) return json(400, { error: "Position hors du Québec." });
-  const type = ["cliniques", "privees"].includes(url.searchParams.get("type")) ? url.searchParams.get("type") : "urgences";
+  const type = ["cliniques", "privees", "prelevements"].includes(url.searchParams.get("type")) ? url.searchParams.get("type") : "urgences";
   const key = type + ":" + lat + "," + lon, hit = routeCache.get(key);
   if (hit && Date.now() - hit.t < 30 * 60e3) return json(200, hit.body);
   const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
@@ -411,7 +420,7 @@ async function handleRoute(req, res, url) {
   try {
     // Urgences : clé = nom ; cliniques : clé = numéro de fiche du Répertoire.
     const items = type === "urgences" ? (await getData()).all.filter((h) => h.region !== "autre")
-      : type === "cliniques" ? (await getClinics()).cliniques : (await getPrivateComplete()).cliniques;
+      : type === "cliniques" ? (await getClinics()).cliniques : type === "prelevements" ? (await getPrelev()).cliniques : (await getPrivateComplete()).cliniques;
     const idOf = (x) => (x.nofiche ? String(x.nofiche) : x.name);
     const origin = { lat, lon };
     const dest = items.filter((h) => typeof h.lat === "number" && typeof h.lon === "number")
@@ -592,6 +601,17 @@ http.createServer(async (req, res) => {
   }
   if (url.pathname === "/api/adresse") return handleGeocode(req, res, url);
   if (url.pathname === "/api/trajet") return handleRoute(req, res, url);
+  if (url.pathname === "/api/prelevements") {
+    try {
+      const d = await getPrelev();
+      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=900" }, JSON.stringify(d));
+    } catch (err) {
+      console.error("Prélèvements :", err.message);
+      res.writeHead(502, { "Content-Type": "application/json; charset=utf-8" });
+      res.end(JSON.stringify({ error: "Liste des centres de prélèvement indisponible pour le moment." }));
+    }
+    return;
+  }
   if (url.pathname === "/api/privees") {
     try {
       const d = await getPrivateComplete();
