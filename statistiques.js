@@ -6,7 +6,7 @@
 const ENV = process.env;
 const sbOrigin = (u) => { try { return new URL(String(u).trim()).origin; } catch (e) { return ""; } };
 const SB = ENV.SUPABASE_URL && ENV.SUPABASE_KEY ? { url: sbOrigin(ENV.SUPABASE_URL) + "/rest/v1/statistiques", key: ENV.SUPABASE_KEY.trim() } : null;
-const KEY_RE = /^(visite|vue|filtre|region|tri|action|langue|app)(:[a-z0-9_-]{1,30}){0,2}$/;
+const KEY_RE = /^(visite|vue|filtre|region|tri|action|langue|app|partenaire)(:[a-z0-9_-]{1,30}){0,2}$/;
 const MAX_KEYS_PER_DAY = 400;
 const BOT_RE = /bot|crawl|spider|slurp|preview|monitor|curl|wget|python|node-fetch|headless|lighthouse/i;
 
@@ -71,7 +71,13 @@ async function read(days) {
   for (const x of rows) total[x.cle] = (total[x.cle] || 0) + x.n;
   const parJour = {};
   for (const x of rows) if (x.cle === "visite") parJour[x.jour] = x.n;
-  return { depuis: since, jours: days, total: Object.fromEntries(Object.entries(total).sort((a, b) => b[1] - a[1])), visitesParJour: parJour };
+  // Rapport par partenaire : affichages, appels, clics vers le site, itinéraires (clés « partenaire:<id>:<geste> »)
+  const partenaires = {};
+  for (const [k, n] of Object.entries(total)) {
+    const m = k.match(/^partenaire:([a-z0-9-]+):([a-z]+)$/);
+    if (m) { partenaires[m[1]] = partenaires[m[1]] || { vue: 0, appel: 0, site: 0, itineraire: 0 }; partenaires[m[1]][m[2]] = (partenaires[m[1]][m[2]] || 0) + n; }
+  }
+  return { depuis: since, jours: days, total: Object.fromEntries(Object.entries(total).sort((a, b) => b[1] - a[1])), visitesParJour: parJour, partenaires };
 }
 
 async function handle(req, res, url, readBody) {

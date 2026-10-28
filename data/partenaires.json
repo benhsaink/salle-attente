@@ -1,0 +1,20 @@
+{
+ "note": "Partenaires affichés dans l'onglet Soins privés (mention « Partenaire · Commandité »). Ajouter un partenaire SEULEMENT après vérification (NEQ, ordre professionnel, assurance) ; noter la date dans « verifie ». id : lettres minuscules, chiffres et tirets (sert aux compteurs). regions : mtl, lav, rs, rn, qc, tr, r01…r18 ; vide = tout le Québec. programme : « fondateur » (3 mois gratuits) ou « payant ». actif : false pour masquer sans effacer.",
+ "exemple": {
+  "id": "exemple-soins",
+  "nom": "Soins Exemple inc.",
+  "services": ["Soins infirmiers à domicile", "Prélèvements à domicile"],
+  "regions": ["mtl", "lav"],
+  "lieu": "domicile",
+  "telephone": "514 555-0100",
+  "site": "https://exemple.ca",
+  "adresse": "",
+  "heures": "Lundi au vendredi, 8 h à 18 h",
+  "ordre": "OIIQ",
+  "verifie": "2026-11-01",
+  "debut": "2026-11-01",
+  "programme": "fondateur",
+  "actif": false
+ },
+ "partenaires": []
+}

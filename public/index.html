@@ -293,6 +293,7 @@ details.fc summary,details.wk summary{padding:8px 0;min-height:24px}
 .foot-link{display:inline-block;padding:5px 0}
 small{font-size:max(.8125rem,.85em)}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.tag.sponsor{color:var(--demo);border-color:var(--demo-soft);background:var(--demo-soft)}
 </style>
 
 </head>
@@ -424,6 +425,11 @@ small{font-size:max(.8125rem,.85em)}
   </div>
 
   <div id="careview" class="stack" hidden>
+    <section id="pt-section" hidden aria-labelledby="ptl-title">
+      <h2 id="ptl-title">Prestataires partenaires</h2>
+      <p class="legend">Ces entreprises sont des partenaires commerciaux de Salle d'attente : leur place ici est une mise en avant (mention « Partenaire · Commandité »). Elles ont été vérifiées : entreprise immatriculée, membres d'un ordre professionnel, assurance. Les soins sont à vos frais. En cas d'urgence grave, appelez le 911.</p>
+      <ol class="list" id="pt-list"></ol>
+    </section>
     <section class="devnote" aria-labelledby="care-title">
       <span class="tag">En développement</span>
       <h2 id="care-title">Soins privés à domicile ou en bureau</h2>
@@ -844,6 +850,7 @@ try { const v = localStorage.getItem("sa-view"); view = ["cliniques", "privees",
 function setView(v) {
   view = v;
   SA_STAT("vue:" + v);
+  if (v === "soins") loadPartners();
   if (v === "cliniques" || v === "privees" || v === "urgences") loadRoad(v);
   try { localStorage.setItem("sa-view", v); } catch (e) {}
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === v));
@@ -1490,6 +1497,7 @@ function render() {
   if (shownFiche) renderFiche(shownFiche);
   if (view === "cliniques") renderClinics();
   if (view === "privees") renderPrivates();
+  if (view === "soins") renderPartners();
 }
 
 document.getElementById("r-more").addEventListener("change", e => {
@@ -1625,6 +1633,41 @@ document.addEventListener("click", e => {
   const b = e.target.closest(".seg button[data-r]"); if (b) SA_STAT("region:" + b.dataset.r);
   const tel = e.target.closest('a[href^="tel:"]'); if (tel) SA_STAT("action:telephone");
 });
+// ---------- Partenaires (onglet Soins privés) ----------
+// Liste : data/partenaires.json (GET /api/partenaires). Compteurs anonymes par partenaire :
+// partenaire:<id>:vue (fiche affichée), :appel, :site, :itineraire — une fois par visite chacun.
+let partners = null;
+async function loadPartners() {
+  if (partners === null) {
+    partners = [];
+    try { const r = await fetch("/api/partenaires"); if (r.ok) partners = (await r.json()).partenaires || []; } catch (e) {}
+  }
+  renderPartners();
+}
+function renderPartners() {
+  const sec = document.getElementById("pt-section"), list = document.getElementById("pt-list");
+  if (!sec || !partners) return;
+  const rows = partners.filter(p => region === "all" || !p.regions || !p.regions.length || p.regions.includes(region));
+  sec.hidden = !rows.length;
+  list.innerHTML = "";
+  rows.forEach(p => {
+    SA_STAT("partenaire:" + p.id + ":vue");
+    const li = el("li", "card");
+    const h3 = el("h3", "", p.nom); h3.appendChild(tag("Partenaire · Commandité", "sponsor"));
+    li.appendChild(h3);
+    const meta = [p.lieu === "domicile" ? "À domicile" : p.lieu === "bureau" ? "En clinique" : p.lieu ? "À domicile et en clinique" : "", p.regions && p.regions.length ? p.regions.map(r => REGIONS[r] || r).join(", ") : "Tout le Québec", p.ordre ? "Membres : " + p.ordre : ""].filter(Boolean).join(" · ");
+    li.appendChild(el("div", "where", meta));
+    if (p.services && p.services.length) li.appendChild(el("p", "", p.services.join(" · ")));
+    if (p.heures) li.appendChild(el("p", "legend", p.heures));
+    const row = el("div", "go");
+    if (p.telephone) { const a = el("a", "", "📞 " + p.telephone); a.href = "tel:" + p.telephone.replace(/[^\d+]/g, ""); a.addEventListener("click", () => SA_STAT("partenaire:" + p.id + ":appel")); row.appendChild(a); }
+    if (p.site) { const a = el("a", "", "Site web"); a.href = p.site; a.target = "_blank"; a.rel = "noopener sponsored"; a.addEventListener("click", () => SA_STAT("partenaire:" + p.id + ":site")); row.appendChild(a); }
+    if (p.adresse) { const a = el("a", "", "Itinéraire"); a.href = mapsApps()[0].url(p.adresse); a.target = "_blank"; a.rel = "noopener"; a.addEventListener("click", () => SA_STAT("partenaire:" + p.id + ":itineraire")); row.appendChild(a); }
+    li.appendChild(row);
+    list.appendChild(li);
+  });
+}
+
 // Partager : menu de partage du téléphone, sinon copie du lien
 async function shareLink(btn, text, url, what) {
   SA_STAT("action:partage:" + what);

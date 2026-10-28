@@ -286,6 +286,14 @@ function readBody(req, max = 8000) {
 }
 async function handleFeedback(req, res) {
   const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8" }); res.end(JSON.stringify(body)); };
+  // GET : liste publique des partenaires actifs (data/partenaires.json)
+  if (req.method === "GET") {
+    let list = [];
+    try { list = (JSON.parse(fs.readFileSync(path.join(__dirname, "data", "partenaires.json"), "utf8")).partenaires || []).filter((p) => p && p.actif !== false && /^[a-z0-9-]{1,30}$/.test(p.id || "")); } catch (e) {}
+    const pub = list.map(({ id, nom, services, regions, lieu, telephone, site, adresse, heures, ordre }) => ({ id, nom, services, regions, lieu, telephone, site, adresse, heures, ordre }));
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=600" });
+    return res.end(JSON.stringify({ partenaires: pub }));
+  }
   if (req.method !== "POST") return json(405, { error: "Méthode non permise" });
   const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
   const now = Date.now(), recent = (sent.get(ip) || []).filter((t) => now - t < 3600e3);
@@ -315,6 +323,14 @@ async function handleFeedback(req, res) {
 // ---------- Demandes de partenariat (Soins privés) ----------
 async function handlePartner(req, res) {
   const json = (code, body) => { res.writeHead(code, { "Content-Type": "application/json; charset=utf-8" }); res.end(JSON.stringify(body)); };
+  // GET : liste publique des partenaires actifs (data/partenaires.json)
+  if (req.method === "GET") {
+    let list = [];
+    try { list = (JSON.parse(fs.readFileSync(path.join(__dirname, "data", "partenaires.json"), "utf8")).partenaires || []).filter((p) => p && p.actif !== false && /^[a-z0-9-]{1,30}$/.test(p.id || "")); } catch (e) {}
+    const pub = list.map(({ id, nom, services, regions, lieu, telephone, site, adresse, heures, ordre }) => ({ id, nom, services, regions, lieu, telephone, site, adresse, heures, ordre }));
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=600" });
+    return res.end(JSON.stringify({ partenaires: pub }));
+  }
   if (req.method !== "POST") return json(405, { error: "Méthode non permise" });
   const ip = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim();
   const now = Date.now(), recent = (sent.get("p:" + ip) || []).filter((t) => now - t < 3600e3);

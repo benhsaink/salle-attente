@@ -251,6 +251,13 @@ grant select, insert, update on public.statistiques to service_role;
 ## Bouton Partager (27 octobre 2026)
 - « 📤 Partager le site » (accueil, avec les liens d'aide) et « 📤 Partager » (fiche d'hôpital, avec l'occupation actuelle dans le texte). Menu de partage du téléphone (navigator.share), sinon lien copié. Statistiques : action:partage:site / action:partage:fiche.
 
+## Partenaires (27 octobre 2026)
+- data/partenaires.json : liste des partenaires (gabarit dans « exemple »). Ajouter seulement après vérification (NEQ, ordre professionnel, assurance), avec la date dans « verifie ». actif: false pour masquer. Chaque ajout = un commit, donc un redéploiement.
+- GET /api/partenaires : liste publique des partenaires actifs. POST /api/partenaires : formulaire de demande (inchangé).
+- Onglet Soins privés : section « Prestataires partenaires » (cachée tant qu'il n'y en a aucun), filtrée par région, mention « Partenaire · Commandité », liens téléphone, site (rel="sponsored") et itinéraire.
+- Compteurs anonymes par partenaire (une fois par visite) : partenaire:<id>:vue, :appel, :site, :itineraire. Rapport : /api/statistiques?jours=30 → champ « partenaires ».
+- Document « Devenir partenaire » : programme partenaires fondateurs (3 mois gratuits, puis tarif selon les résultats mesurés, repère 10 à 20 % de la valeur apportée).
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
