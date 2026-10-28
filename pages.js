@@ -106,7 +106,7 @@ function regionPage(base, reg, all) {
   const specialHtml = special.length ? `<h2>Urgences spécialisées</h2>
 <p class="where">Réservées à certains patients : enfants, santé mentale ou problèmes cardiaques déjà suivis. Ne vous y rendez que si elles vous concernent. Détresse psychologique : Info-Social 811 (option 2) ou 9-8-8.</p>
 <ol class="er">${special.map(item).join("\n")}</ol>` : "";
-  const others = REGIONS.filter((r) => r[1] !== slug).map((r) => `<li><a href="/urgences/${r[1]}">${esc(r[2])}</a></li>`).join("");
+  const others = REGIONS.filter((r) => r[1] !== slug && all.some((h) => h.region === r[0])).map((r) => `<li><a href="/urgences/${r[1]}">${esc(r[2])}</a></li>`).join("");
   const titleText = `Urgences ${deName.replace(/ \(.*\)$/, "")} : attente et achalandage en temps réel`;
   const description = `Les ${list.length} urgences ${deName}, de la moins à la plus remplie : civières occupées et personnes en attente d'un médecin, mis à jour chaque heure avec les données du ministère de la Santé.`;
   const body = `<h1>Urgences ${esc(deName)}</h1>
@@ -143,6 +143,7 @@ function render(pathname, base, all) {
   if (m && BY_SLUG.has(m[1])) return regionPage(base, BY_SLUG.get(m[1]), all);
   return null;
 }
-const sitemapPaths = () => ["/urgences", ...REGIONS.map((r) => "/urgences/" + r[1])];
+// Seulement les régions qui ont au moins une urgence dans le fichier du ministère (pas de page vide pour Google).
+const sitemapPaths = (all) => ["/urgences", ...REGIONS.filter((r) => !all || all.some((h) => h.region === r[0])).map((r) => "/urgences/" + r[1])];
 
 module.exports = { render, sitemapPaths, REGIONS };

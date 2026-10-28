@@ -609,8 +609,9 @@ http.createServer(async (req, res) => {
   }
   if (url.pathname === "/sitemap.xml") {
     const base = PUBLIC_URL || OLD_URL;
+    let all = null; try { all = (await getData()).all; } catch (e) {}
     const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-      ["/", ...pages.sitemapPaths()].map((p) => `  <url><loc>${base}${p}</loc><changefreq>hourly</changefreq></url>`).join("\n") + "\n</urlset>\n";
+      ["/", ...pages.sitemapPaths(all)].map((p) => `  <url><loc>${base}${p}</loc><changefreq>hourly</changefreq></url>`).join("\n") + "\n</urlset>\n";
     return sendBody(req, res, 200, { "Content-Type": "application/xml; charset=utf-8", "Cache-Control": "public, max-age=3600" }, xml);
   }
   const file = path.join(__dirname, "public", url.pathname === "/" ? "index.html" : path.normalize(url.pathname));
