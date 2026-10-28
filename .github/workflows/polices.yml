@@ -1,0 +1,36 @@
+name: Télécharger les polices (une fois)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/polices.yml
+
+permissions:
+  contents: write
+
+jobs:
+  polices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Télécharger Familjen Grotesk et Atkinson Hyperlegible (licence SIL OFL)
+        run: |
+          mkdir -p public/fonts
+          base=https://raw.githubusercontent.com/google/fonts/main/ofl
+          curl -fsSL -o "public/fonts/FamiljenGrotesk.ttf" "$base/familjengrotesk/FamiljenGrotesk%5Bwght%5D.ttf"
+          curl -fsSL -o "public/fonts/FamiljenGrotesk-OFL.txt" "$base/familjengrotesk/OFL.txt"
+          curl -fsSL -o "public/fonts/AtkinsonHyperlegible-Regular.ttf" "$base/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf"
+          curl -fsSL -o "public/fonts/AtkinsonHyperlegible-Bold.ttf" "$base/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf"
+          curl -fsSL -o "public/fonts/AtkinsonHyperlegible-OFL.txt" "$base/atkinsonhyperlegible/OFL.txt"
+          ls -la public/fonts
+      - name: Sauvegarder dans le dépôt
+        run: |
+          git config user.name "salle-attente-collecte"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/fonts
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Polices du site (SIL OFL) [skip render]"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
