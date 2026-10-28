@@ -1,0 +1,40 @@
+name: Code QR du site (une fois)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/qr.yml
+
+permissions:
+  contents: write
+
+jobs:
+  qr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Générer les codes QR (segno)
+        run: |
+          pip install segno==1.6.1
+          python - <<'PY'
+          import segno
+          for url, name in [("https://salle-attente.ca/?src=affiche", "qr-affiche"), ("https://salle-attente.ca/", "qr-site")]:
+              q = segno.make(url, error="m")
+              q.save(f"public/{name}.svg", scale=10, border=2, dark="#132a33", light="#ffffff", xmldecl=False, svgns=True, nl=False)
+              q.save(f"public/{name}.png", scale=20, border=2, dark="#132a33", light="#ffffff")
+          PY
+          ls -la public/qr-*
+      - name: Sauvegarder dans le dépôt
+        run: |
+          git config user.name "salle-attente-collecte"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/qr-*
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Codes QR du site [skip render]"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
