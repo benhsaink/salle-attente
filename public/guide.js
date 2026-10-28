@@ -299,7 +299,7 @@
      T("Une adresse ou un code postal cherché est envoyé à OpenStreetMap pour trouver sa position. Il n'est pas conservé.", "An address or postal code you search is sent to OpenStreetMap to find its location. It is not kept."),
      T("Vos choix (langue, région, onglet, application de navigation) sont gardés dans votre navigateur seulement.", "Your choices (language, region, tab, navigation app) are kept in your browser only."),
      T("Les commentaires et les demandes de partenariat sont transmis par courriel au responsable du site (service Brevo), seulement pour y répondre.", "Comments and partnership requests are emailed to the site owner (Brevo service), only to reply to them."),
-     T("Comme tout site web, l'hébergeur (Render) garde des journaux techniques des visites. Les polices de caractères sont chargées depuis Google Fonts.", "Like any website, the host (Render) keeps technical visit logs. Fonts are loaded from Google Fonts.")]
+     T("Comme tout site web, l'hébergeur (Render) garde des journaux techniques des visites. Les polices de caractères sont hébergées sur notre propre serveur.", "Like any website, the host (Render) keeps technical visit logs. Fonts are hosted on our own server.")]
       .forEach(t => ul3.appendChild(el("li", "", t)));
     priv.appendChild(ul3);
     const full = el("a", "g-btn", T("Lire la politique de confidentialité complète", "Read the full privacy policy")); full.href = "#confidentialite";
@@ -352,7 +352,6 @@
       T("Brevo : envoi des courriels d'alertes, des commentaires et des demandes de partenariat (Union européenne).", "Brevo: sending alert emails, comments and partnership requests (European Union)."),
       T("Services de notification d'Apple, de Google ou de Mozilla, selon votre appareil : livraison des notifications chiffrées.", "Apple, Google or Mozilla notification services, depending on your device: delivery of encrypted notifications."),
       T("openrouteservice (HeiGIT, Allemagne) et OpenStreetMap (Nominatim) : calcul des trajets et recherche d'adresse, avec une position arrondie ou l'adresse tapée, sans autre renseignement.", "openrouteservice (HeiGIT, Germany) and OpenStreetMap (Nominatim): route calculation and address search, with a rounded location or the typed address, without any other information."),
-      T("Google Fonts : chargement des polices de caractères (votre navigateur contacte Google).", "Google Fonts: loading fonts (your browser contacts Google)."),
       T("Aucun renseignement n'est vendu, loué ni utilisé à des fins publicitaires.", "No information is sold, rented or used for advertising."),
       T("Communication à l'extérieur du Québec : certains de ces fournisseurs traitent des renseignements hors du Québec. En utilisant ces fonctions (alertes par courriel, formulaires), vous y consentez. Chaque fournisseur est lié par ses conditions écrites de protection des données ; Salle d'attente reste responsable des renseignements qui lui sont confiés.",
         "Communication outside Québec: some of these providers process information outside Québec. By using these features (email alerts, forms), you consent to it. Each provider is bound by its written data protection terms; Salle d'attente remains responsible for the information entrusted to it."),
@@ -377,7 +376,7 @@
       T("Les faire corriger ou supprimer, et retirer votre consentement.", "Have it corrected or deleted, and withdraw your consent."),
       T("Porter plainte à la Commission d'accès à l'information du Québec (cai.gouv.qc.ca) si vous n'êtes pas satisfait de notre réponse.", "File a complaint with the Commission d'accès à l'information du Québec (cai.gouv.qc.ca) if you are not satisfied with our answer."),
     ]);
-    sec(T("10. Modifications", "10. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 26 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 26, 2026.")]);
+    sec(T("10. Modifications", "10. Changes"), [T("Toute modification de cette politique sera publiée sur cette page, avec sa date. Dernière mise à jour : 28 octobre 2026.", "Any change to this policy will be published on this page, with its date. Last updated: October 28, 2026.")]);
     box.appendChild(sos());
   }
 

@@ -175,7 +175,7 @@ Après 2 ou 3 minutes, Render affiche une adresse du genre `https://salle-attent
 
 ## Page « À propos » (#apropos)
 - public/guide.js (apropos). Lien en bas de page : « À propos, sources et confidentialité ».
-- Contenu : projet indépendant (non lié au ministère, à Santé Québec ni à la RAMQ), limites, sources et licences (CC BY 4.0, OpenStreetMap, openrouteservice), confidentialité (position, adresse, préférences, Formspree, journaux de Render, Google Fonts), contact.
+- Contenu : projet indépendant (non lié au ministère, à Santé Québec ni à la RAMQ), limites, sources et licences (CC BY 4.0, OpenStreetMap, openrouteservice), confidentialité (position, adresse, préférences, Formspree, journaux de Render), contact.
 
 ## Cliniques dans les autres régions (21 octobre 2026)
 - GMF-A/R : GMF des Grandes-Fourches (Sherbrooke, r05) et GMF Delta Santé (Gatineau, r07), seules GMF-A/R de la liste Québec.ca hors des secteurs déjà couverts.
@@ -258,6 +258,10 @@ grant select, insert, update on public.statistiques to service_role;
 - Compteurs anonymes par partenaire (une fois par visite) : partenaire:<id>:vue, :appel, :site, :itineraire. Rapport : /api/statistiques?jours=30 → champ « partenaires ».
 - Document « Devenir partenaire » : programme partenaires fondateurs (3 mois gratuits, puis tarif selon les résultats mesurés, repère 10 à 20 % de la valeur apportée).
 
+## Logo et polices (28 octobre 2026)
+- Logo « sa » (piste D) : public/logo.svg (lettres en tracés, Familjen Grotesk 700), favicon.svg, icônes PNG (icon-192/512, icon-maskable-512, apple-touch-icon, favicon-32) et og-image.png refaits. En-tête : logo + « salle d’attente » (apostrophe verte). Maquettes : canevas Claude « Logo Salle d'attente ».
+- Polices hébergées par le site (public/fonts, licence SIL OFL, téléchargées par .github/workflows/polices.yml) : Google Fonts n'est plus appelé ; retiré de la politique de confidentialité.
+
 ## Alertes (bêta gratuite) et site installable
 - Site installable : public/manifest.webmanifest, icônes (icon-192/512, maskable, apple-touch-icon), public/sw.js (reçoit les notifications ; aucune mise en cache).
 - Page #alertes (public/alertes-ui.js) ; #alertes=JETON pour gérer. Jeton gardé dans le navigateur (sa-alertes).
@@ -289,5 +293,5 @@ create index on public.abonnements (courriel);
 - public/guide.js (confidentialite). Liens : bas de page, À propos, page Alertes.
 - Responsable : le fondateur, joignable par le formulaire du site (à compléter avec un nom ou un titre et un courriel dédié). Réponse en 24 à 72 heures.
 - Durées : alertes jusqu'au désabonnement ; inscription par courriel non confirmée effacée après 7 jours (alertes.js, purgeUnconfirmed, une fois par jour) ; commentaires et demandes de partenariat 2 ans au plus.
-- Fournisseurs listés : Supabase (Canada), Render (serveur en Virginie, É.-U.), Brevo (UE), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap, Google Fonts.
+- Fournisseurs listés : Supabase (Canada), Render (serveur en Virginie, É.-U.), Brevo (UE), services de notification Apple/Google/Mozilla, openrouteservice, OpenStreetMap.
 - Formulaires (commentaires, partenaires) : envoyés par Brevo à CONTACT_TO (ou ALERT_FROM) dès que BREVO_KEY et ALERT_FROM sont réglés ; sinon par Formspree (FEEDBACK_URL). Le 25 octobre 2026 : Brevo actif, FEEDBACK_URL retirée de Render et Formspree retiré de la politique de confidentialité. Si Brevo tombe en panne, les messages restent dans les journaux Render (lignes « COMMENTAIRE » et « PARTENAIRE »).

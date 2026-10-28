@@ -40,6 +40,9 @@ function status(r) {
 const score = (h) => (h.rate ?? 2) * 100 + (h.pec ?? 30) * 1.5;
 
 const CSS = `
+@font-face{font-family:"Familjen Grotesk";src:url(/fonts/FamiljenGrotesk.ttf) format("truetype");font-weight:400 700;font-display:swap}
+@font-face{font-family:"Atkinson Hyperlegible";src:url(/fonts/AtkinsonHyperlegible-Regular.ttf) format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:"Atkinson Hyperlegible";src:url(/fonts/AtkinsonHyperlegible-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
 :root{--bg:#f3f6f7;--surface:#fff;--ink:#132a33;--muted:#4d6069;--line:#d9e2e5;--accent:#1f5fae;--ok:#1d7a4f;--ok-soft:#e1f2e9;--warn:#8a5900;--warn-soft:#fbf0d9;--bad:#b3261e;--bad-soft:#fbe4e2}
 @media (prefers-color-scheme:dark){:root{--bg:#0e1a1f;--surface:#15252c;--ink:#e6eef0;--muted:#97aab1;--line:#26393f;--accent:#7fb2ef;--ok:#5fcf97;--ok-soft:#173326;--warn:#f0bd5a;--warn-soft:#352a14;--bad:#f2857d;--bad-soft:#3a1d1b;color-scheme:dark}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Atkinson Hyperlegible","Segoe UI",Arial,sans-serif}
@@ -69,9 +72,9 @@ function page({ base, path, titleText, description, body }) {
 <meta property="og:type" content="website"><meta property="og:site_name" content="Salle d'attente"><meta property="og:locale" content="fr_CA">
 <meta property="og:title" content="${esc(titleText)}"><meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${base}${path}"><meta property="og:image" content="${base}/og-image.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#1f5fae">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#1f5fae">
 <style>${CSS}</style></head><body><main>
-<a class="top" href="/">← Salle d'attente</a>
+<a class="top" href="/" style="display:inline-flex;align-items:center;gap:8px"><img src="/logo.svg" alt="" width="28" height="28" style="border-radius:7px"> ← Salle d'attente</a>
 ${body}
 <footer>
 <p><b>Urgence grave (douleur à la poitrine, AVC, difficulté à respirer) : composez le 911 sans attendre.</b> Besoin d'un conseil : Info-Santé 811.</p>
