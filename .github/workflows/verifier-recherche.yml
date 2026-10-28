@@ -24,14 +24,14 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - name: Lire les fiches trouvées
-        run: node verifier-recherche.js
-      - name: Sauvegarder dans le dépôt
+      - name: Lire les fiches trouvées (une recherche à la fois, sauvegardée au fur et à mesure)
         run: |
           git config user.name "salle-attente-collecte"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/cliniques/recherches
-          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
-          git commit -m "Recherche de cliniques [skip render]"
-          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
-          exit 1
+          for id in $(node -e 'const c=require("./data/cliniques/recherches.json");console.log(c.recherches.filter(r=>r.actif!==false).map(r=>r.id).join(" "))'); do
+            SEULEMENT=$id node verifier-recherche.js || echo "Échec : $id"
+            git add data/cliniques/recherches
+            if git diff --cached --quiet; then continue; fi
+            git commit -m "Recherche de cliniques : $id [skip render]"
+            for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          done

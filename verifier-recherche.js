@@ -37,7 +37,8 @@ function km(a, b) {
   fs.mkdirSync(path.join(DIR, "recherches"), { recursive: true });
   const seen = new Map(); // fiches déjà lues (partagées entre recherches)
 
-  for (const R of cfg.recherches.filter((r) => r.actif !== false)) {
+  const only = process.env.SEULEMENT;
+  for (const R of cfg.recherches.filter((r) => r.actif !== false && (!only || r.id === only))) {
     const keep = new RegExp(R.garder, "i");
     const found = new Map();
     for (const q of R.q) {
