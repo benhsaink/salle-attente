@@ -29,7 +29,7 @@
     ["📤 Partager le site", "📤 Share the site"],
     ["📤 Partager", "📤 Share"],
     ["✓ Lien copié", "✓ Link copied"],
-    ["Urgences par région", "Emergency rooms by region (in French)"],
+    ["Urgences par région", "Emergency rooms by region"],
     ["Salle d'attente – Urgences du Québec en temps réel", "Salle d'attente – Québec emergency rooms in real time"],
     ["Si vous pouvez payer :", "If you can pay:"],
     ["des cliniques privées (onglet Privées) reçoivent aussi des personnes sans RAMQ, à leurs frais. Informez-vous du prix et des conditions avant d'y aller.", "some private clinics (Private tab) also see people without RAMQ, at their own cost. Ask about the price and conditions before you go."],

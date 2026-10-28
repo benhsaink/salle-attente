@@ -616,7 +616,7 @@ http.createServer(async (req, res) => {
   }
   // Fichiers du site
   // Pages par région (texte lisible par Google) et plan du site avec ces pages
-  if (url.pathname === "/urgences" || url.pathname.startsWith("/urgences/")) {
+  if (url.pathname === "/urgences" || url.pathname.startsWith("/urgences/") || url.pathname === "/en/emergency-rooms" || url.pathname.startsWith("/en/emergency-rooms/")) {
     try {
       const d = await getData();
       const html = pages.render(url.pathname, PUBLIC_URL || OLD_URL, d.all);

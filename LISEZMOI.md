@@ -258,6 +258,9 @@ grant select, insert, update on public.statistiques to service_role;
 - Compteurs anonymes par partenaire (une fois par visite) : partenaire:<id>:vue, :appel, :site, :itineraire. Rapport : /api/statistiques?jours=30 → champ « partenaires ».
 - Document « Devenir partenaire » : programme partenaires fondateurs (3 mois gratuits, puis tarif selon les résultats mesurés, repère 10 à 20 % de la valeur apportée).
 
+## Pages par région en anglais (28 octobre 2026)
+- /en/emergency-rooms et /en/emergency-rooms/<région> (montreal, laval, south-shore, north-shore, quebec-city-levis, trois-rivieres, eastern-townships, outaouais, laurentians, gaspesie-magdalen-islands, eeyou-istchee…), même contenu que les pages françaises. Liens hreflang fr-CA / en-CA entre les deux versions, lien « English / Français » en haut. Sitemap : 39 adresses. Lien « Emergency rooms by region » en bas de l'accueil en anglais.
+
 ## Logo et polices (28 octobre 2026)
 - Logo « sa » (piste D) : public/logo.svg (lettres en tracés, Familjen Grotesk 700), favicon.svg, icônes PNG (icon-192/512, icon-maskable-512, apple-touch-icon, favicon-32) et og-image.png refaits. En-tête : logo + « salle d’attente » (apostrophe verte). Maquettes : canevas Claude « Logo Salle d'attente ».
 - Polices hébergées par le site (public/fonts, licence SIL OFL, téléchargées par .github/workflows/polices.yml) : Google Fonts n'est plus appelé ; retiré de la politique de confidentialité.

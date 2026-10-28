@@ -532,7 +532,7 @@ small{font-size:max(.8125rem,.85em)}
     </form>
   </section>
 
-  <footer><a href="/urgences" class="foot-link">Urgences par région</a> · <a href="#apropos" class="foot-link">À propos, sources et confidentialité</a> · <a href="#confidentialite" class="foot-link">Politique de confidentialité</a><br>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
+  <footer><a href="/urgences" id="foot-regions" class="foot-link">Urgences par région</a> · <a href="#apropos" class="foot-link">À propos, sources et confidentialité</a> · <a href="#confidentialite" class="foot-link">Politique de confidentialité</a><br>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
 </div>
 
 <script>
@@ -1685,6 +1685,7 @@ async function shareLink(btn, text, url, what) {
   catch (e) { done(url); }
 }
 document.getElementById("share-site").addEventListener("click", e => shareLink(e.currentTarget, window.SA_LANG === "en" ? "Québec emergency rooms, from least to most crowded, updated every hour. Free." : "Les urgences du Québec, de la moins à la plus remplie, mises à jour chaque heure. Gratuit.", location.origin + "/", "site"));
+if (window.SA_LANG === "en") document.getElementById("foot-regions").href = "/en/emergency-rooms";
 window.addEventListener("popstate", route);
 window.addEventListener("hashchange", route);
 route();
