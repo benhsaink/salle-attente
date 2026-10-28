@@ -290,6 +290,8 @@
     ["Chargement des cliniques privées…", "Loading private clinics…"],
     ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
     ["💲 Payant", "💲 Paid"],
+    ["Passer en mode clair", "Switch to light mode"],
+    ["Passer en mode foncé", "Switch to dark mode"],
     ["Urgences absentes du relevé du ministère", "ERs missing from the ministry's data"],
     ["Ces lieux offrent un service d'urgence selon leur fiche officielle (Répertoire des ressources de Santé Québec, consulté le 28 octobre 2026), mais le ministère ne publie pas leur achalandage. Téléphonez au besoin.", "These sites offer emergency services according to their official listing (Santé Québec resource directory, checked October 28, 2026), but the ministry does not publish how busy they are. Call if needed."],
     ["Achalandage non publié", "Occupancy not published"],
