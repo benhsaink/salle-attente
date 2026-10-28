@@ -154,9 +154,9 @@ details.fc summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:
 footer{color:var(--muted);font-size:.78rem}
 .stack{display:flex;flex-direction:column;gap:18px}
 .stack[hidden],.controls[hidden]{display:none}
-.tabs{display:grid;grid-template-columns:repeat(5,1fr)}
-@media (max-width:720px){.tabs{grid-template-columns:repeat(6,1fr)}.tabs button{grid-column:span 2}.tabs button:nth-child(4),.tabs button:nth-child(5){grid-column:span 3}}
-@media (max-width:400px){.tabs{grid-template-columns:1fr 1fr}.tabs button,.tabs button:nth-child(4){grid-column:auto}.tabs button:nth-child(5){grid-column:span 2}}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr)}
+.tabs button:first-child{grid-column:1/-1}
+@media (max-width:560px){.tabs{grid-template-columns:1fr 1fr}}
 .tabs button{font-size:.95rem;padding:11px 6px}
 .tabs button[aria-selected="true"]{background:var(--accent);color:var(--surface)}
 .cinfo{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
