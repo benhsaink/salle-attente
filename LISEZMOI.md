@@ -311,6 +311,5 @@ create index on public.abonnements (courriel);
 
 - Le relevé horaire du ministère couvre 120 urgences. Recherche dans le Répertoire (28 octobre 2026, `recherches/hopitaux.json`) : seuls ces lieux offrent un service d'urgence sans être dans le relevé.
   - Kateri Memorial (Kahnawake), Pierre-Janet (urgence psychiatrique, Gatineau ; affichée seulement avec le filtre psychiatrique).
-  - Nunavik : hôpitaux de Puvirnituq et de Kuujjuaq (CLSC le jour, ligne d'urgence le soir), 11 dispensaires de village (ligne de garde 819 xxx-9090).
-  - Chisasibi : urgence 24/7 selon la fiche du CLSC ; le 911 n'y est pas offert.
-- Liste `OFFLIST` et `NUNAVIK` dans `public/index.html`, section « Urgences absentes du relevé du ministère » sous la liste des urgences. Aucune donnée d'achalandage.
+  - Nunavik et Chisasibi (territoires où le 911 n'est pas offert) : retirés le 28 octobre 2026, à la demande du fondateur, puisque le site renvoie partout au 911.
+- Liste `OFFLIST` dans `public/index.html`, section « Urgences absentes du relevé du ministère » sous la liste des urgences. Aucune donnée d'achalandage.

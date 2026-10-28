@@ -192,8 +192,6 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .svc span{font-size:.8125rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
 .svc span.hit{border-color:var(--accent);color:var(--accent);font-weight:700}
 .card.off{grid-template-columns:1fr}.card.off>*{grid-column:1/-1}
-.nun{margin:6px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px 12px;font-size:.95rem}
-.nun a{font-weight:700;color:var(--accent);white-space:nowrap}
 .wk .all{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:4px}
 .wk .all li{font-size:.8125rem;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
 #p-service{max-width:100%;min-width:0;flex:1 1 220px}
@@ -1300,19 +1298,13 @@ const FICHE_URL = n => "https://sante.gouv.qc.ca/repertoire-ressources/ressource
 const OFFLIST = [
   { nom: "Centre hospitalier Kateri Memorial (Tehsakotitsén:tha)", region: "rs", adresse: "10, River Road, Kahnawake", tel: "450 638-3930", fiche: 1908, note: "Salle d'urgence." },
   { nom: "Hôpital en santé mentale Pierre-Janet", region: "r07", adresse: "20, rue Pharand, Gatineau", tel: "819 771-7761", fiche: 329, psy: true, note: "Salle d'urgence (urgence psychiatrique)." },
-  { nom: "Hôpital de Puvirnituq (Inuulitsivik)", region: "r10", adresse: "Puvirnituq", tel: "819 988-9090", fiche: 475970, note: "Heures ouvrables : présentez-vous au CLSC. En dehors des heures ouvrables, urgence médicale : 819 988-9090." },
-  { nom: "Hôpital de Kuujjuaq (Tulattavik)", region: "r10", adresse: "Kuujjuaq", tel: "819 964-9090", fiche: 475544, note: "Heures ouvrables : présentez-vous au CLSC. En dehors des heures ouvrables, urgence médicale : 819 964-9090." },
-  { nom: "Hôpital régional de Chisasibi", region: "r10", adresse: "Chisasibi", fiche: 747374, note: "Selon la fiche du CLSC de Chisasibi : l'urgence de l'hôpital est accessible 24 heures sur 24, 7 jours sur 7. Le 911 n'est pas offert sur ce territoire : pour une urgence médicale, appelez les premiers répondants locaux." },
 ];
-// Dispensaires (CLSC) des villages du Nunavik : urgence uniquement, par la ligne de garde du village.
-const NUNAVIK = [["Akulivik", "819 496-9090", 1662], ["Aupaluk", "819 491-9090", 1658], ["Ivujivik", "819 922-9090", 1661], ["Kangiqsualujjuaq", "819 337-9090", 1656], ["Kangiqsujuaq", "819 338-9090", 1659], ["Kangirsuk", "819 935-9090", 1657], ["Kuujjuarapik", "819 929-9090", 1663], ["Quaqtaq", "819 492-9090", 1655], ["Salluit", "819 255-9090", 1665], ["Tasiujaq", "819 633-9090", 1660], ["Umiujaq", "819 331-9090", 1834]];
 function telLink(t, label) { const a = el("a", "main", "📞 " + t); a.href = "tel:+1" + t.replace(/\D/g, ""); if (label) a.setAttribute("aria-label", label); return a; }
 function renderOfflist() {
   const sec = document.getElementById("offlist"), ol = document.getElementById("offlist-ol");
   if (!sec) return;
   const psy = document.getElementById("psy").checked;
   const rows = OFFLIST.filter(o => (region === "all" || o.region === region) && (!o.psy || psy));
-  const nun = region === "all" || region === "r10";
   ol.innerHTML = "";
   rows.forEach(o => {
     const li = el("li", "card off");
@@ -1327,21 +1319,6 @@ function renderOfflist() {
     li.appendChild(act);
     ol.appendChild(li);
   });
-  if (nun) {
-    const li = el("li", "card off");
-    li.appendChild(el("div", "head")).appendChild(el("h3", "", "Villages du Nunavik : dispensaires (CLSC)"));
-    li.appendChild(el("p", "cl-note", "Urgence uniquement : appelez la ligne de garde du village, qui vous dira où vous présenter."));
-    const ul = el("ul", "nun");
-    NUNAVIK.forEach(([v, t, f]) => {
-      const row = el("li");
-      const a = el("a", "", v); a.href = FICHE_URL(f); a.target = "_blank"; a.rel = "noopener"; a.style.color = "var(--accent)";
-      const call = el("a", "", t); call.href = "tel:+1" + t.replace(/\D/g, "");
-      row.append(a, document.createTextNode(" : "), call);
-      ul.appendChild(row);
-    });
-    li.appendChild(ul);
-    ol.appendChild(li);
-  }
   sec.hidden = !ol.children.length || view !== "urgences";
 }
 
