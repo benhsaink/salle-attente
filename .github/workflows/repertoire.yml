@@ -9,6 +9,7 @@ on:
     paths:
       - data/cliniques/liste.json
       - data/cliniques/privees-liste.json
+      - data/cliniques/prelevements-liste.json
       - repertoire.js
       - lib.js
 
@@ -37,5 +38,6 @@ jobs:
           git add data/cliniques
           if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
           git commit -m "Fiches officielles des cliniques [skip render]"
-          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          # En cas de conflit avec une autre lecture, on garde les fiches qu'on vient de lire (les plus récentes).
+          for i in 1 2 3; do (git pull --rebase -X theirs || git rebase --abort) && git push && exit 0; sleep 5; done
           exit 1
