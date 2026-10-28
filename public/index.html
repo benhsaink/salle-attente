@@ -227,7 +227,8 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .addr-note{color:var(--muted);font-size:.8125rem;flex:1 1 100%}
 .road-opt{flex:1 1 100%}
 .topbar{display:flex;flex-direction:column;align-items:center;gap:10px}
-.topbar .topbtns{align-self:flex-end}
+.topbar .topbtns{align-self:stretch}
+.topbtns .sharetop{margin-right:auto}
 .topbtns{display:flex;gap:8px;flex:none;align-items:center}
 .themebtn{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:34px;line-height:1;padding:6px 10px}
 .langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
@@ -369,6 +370,7 @@ small{font-size:max(.8125rem,.85em)}
   <header>
     <div class="topbar">
       <div class="topbtns">
+        <button type="button" id="share-top" class="langbtn themebtn sharetop" aria-label="Partager le site"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg></button>
         <button type="button" id="theme-btn" class="langbtn themebtn" aria-label="Passer en mode foncé"></button>
         <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
       </div>
@@ -1982,8 +1984,8 @@ function renderPartners() {
 // Partager : menu de partage du téléphone, sinon copie du lien
 async function shareLink(btn, text, url, what) {
   SA_STAT("action:partage:" + what);
-  const tgt = btn.querySelector("span") || btn, old = tgt.textContent;
-  const done = msg => { tgt.textContent = msg; setTimeout(() => { tgt.textContent = old; }, 2500); };
+  const tgt = btn.querySelector("span") || btn, old = tgt.innerHTML;
+  const done = msg => { tgt.textContent = msg; setTimeout(() => { tgt.innerHTML = old; }, 2500); };
   if (navigator.share) {
     try { await navigator.share({ title: "Salle d'attente", text, url }); return; }
     catch (e) { if (e && e.name === "AbortError") return; }
@@ -1991,6 +1993,7 @@ async function shareLink(btn, text, url, what) {
   try { await navigator.clipboard.writeText(url); done("✓ Lien copié"); }
   catch (e) { done(url); }
 }
+document.getElementById("share-top").addEventListener("click", e => shareLink(e.currentTarget, window.SA_LANG === "en" ? "Québec emergency rooms, from least to most crowded, updated every hour. Free." : "Les urgences du Québec, de la moins à la plus remplie, mises à jour chaque heure. Gratuit.", location.origin + "/", "site-haut"));
 document.getElementById("share-site").addEventListener("click", e => shareLink(e.currentTarget, window.SA_LANG === "en" ? "Québec emergency rooms, from least to most crowded, updated every hour. Free." : "Les urgences du Québec, de la moins à la plus remplie, mises à jour chaque heure. Gratuit.", location.origin + "/", "site"));
 if (window.SA_LANG === "en") document.getElementById("foot-regions").href = "/en/emergency-rooms";
 window.addEventListener("popstate", route);
