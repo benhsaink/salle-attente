@@ -24,9 +24,9 @@
     box.appendChild(back);
     document.title = L("Alertes", "Alerts") + " · Salle d'attente";
     const head = el("div", "fh");
-    head.append(el("h2", "", L("Alertes (bêta gratuite)", "Alerts (free beta)")),
-      el("p", "where", L("Recevez un avis quand une urgence se vide, quand la meilleure urgence près de chez vous change, ou un résumé chaque jour. Gratuit pendant la bêta.",
-        "Get notified when an ER empties out, when the best ER near you changes, or get a daily summary. Free during the beta.")));
+    head.append(el("h2", "", L("Alertes · gratuit pendant le lancement", "Alerts · free during launch")),
+      el("p", "where", L("Recevez un avis quand une urgence se vide, quand la meilleure urgence près de chez vous change, ou un résumé chaque jour. Gratuit pendant le lancement. Avant tout passage au payant, les inscrits seront avisés au moins 30 jours à l'avance et pourront se désabonner.",
+        "Get notified when an ER empties out, when the best ER near you changes, or get a daily summary. Free during launch. Before any paid plan starts, subscribers will be notified at least 30 days in advance and can unsubscribe.")));
     box.appendChild(head);
 
     const status = el("p", "legend", L("Chargement…", "Loading…")); box.appendChild(status);

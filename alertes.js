@@ -1,4 +1,4 @@
-// Salle d'attente — alertes (bêta gratuite)
+// Salle d'attente — alertes (gratuites pendant le lancement)
 // Trois alertes : « urgence qui se vide » (sous un seuil d'occupation), « meilleure urgence près de moi »
 // (quand elle change) et « résumé quotidien » (à l'heure choisie). Deux canaux : notification (Web Push,
 // site installé sur l'écran d'accueil) ou courriel (Brevo, après confirmation de l'adresse).
@@ -267,7 +267,7 @@ async function handle(req, res, url, getData) {
     const push = { endpoint: String(sub.endpoint).slice(0, 1000), keys: { p256dh: String(sub.keys.p256dh).slice(0, 200), auth: String(sub.keys.auth).slice(0, 100) } };
     const old = await store.byEndpoint(push.endpoint);
     if (old) { await store.update(old.jeton, { alertes: c.alertes, zone: c.zone, langue, etat: {}, push }); return json(200, { ok: true, jeton: old.jeton }); }
-    if ((await store.count()) >= MAX_ABONNES) return json(503, { error: "La bêta est complète pour le moment." });
+    if ((await store.count()) >= MAX_ABONNES) return json(503, { error: "Les inscriptions aux alertes sont complètes pour le moment. Réessayez plus tard." });
     const rec = { jeton: crypto.randomBytes(24).toString("base64url"), canal: "push", push, confirme: true, langue, alertes: c.alertes, zone: c.zone, etat: {} };
     await store.insert(rec);
     try { await deliver(rec, { title: T(langue, "Alertes activées", "Alerts activated"), body: T(langue, "Vous recevrez ici vos alertes Salle d'attente. Urgence grave : 911.", "You will get your Salle d'attente alerts here. Serious emergency: 911."), tag: "bienvenue" }); } catch (err) { console.error("Notification de bienvenue :", err.message); }
@@ -282,7 +282,7 @@ async function handle(req, res, url, getData) {
     let rec = await store.byEmail(courriel);
     if (rec) await store.update(rec.jeton, { alertes: c.alertes, zone: c.zone, langue, etat: {} });
     else {
-      if ((await store.count()) >= MAX_ABONNES) return json(503, { error: "La bêta est complète pour le moment." });
+      if ((await store.count()) >= MAX_ABONNES) return json(503, { error: "Les inscriptions aux alertes sont complètes pour le moment. Réessayez plus tard." });
       rec = { jeton: crypto.randomBytes(24).toString("base64url"), canal: "courriel", courriel, confirme: false, langue, alertes: c.alertes, zone: c.zone, etat: {} };
       await store.insert(rec);
     }
