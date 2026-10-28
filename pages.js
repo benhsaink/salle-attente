@@ -47,25 +47,50 @@ const CSS = `
 @font-face{font-family:"Familjen Grotesk";src:url(/fonts/FamiljenGrotesk.ttf) format("truetype");font-weight:400 700;font-display:swap}
 @font-face{font-family:"Atkinson Hyperlegible";src:url(/fonts/AtkinsonHyperlegible-Regular.ttf) format("truetype");font-weight:400;font-display:swap}
 @font-face{font-family:"Atkinson Hyperlegible";src:url(/fonts/AtkinsonHyperlegible-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
-:root{--bg:#f3f6f7;--surface:#fff;--ink:#132a33;--muted:#4d6069;--line:#d9e2e5;--accent:#1f5fae;--ok:#1d7a4f;--ok-soft:#e1f2e9;--warn:#8a5900;--warn-soft:#fbf0d9;--bad:#b3261e;--bad-soft:#fbe4e2}
-@media (prefers-color-scheme:dark){:root{--bg:#0e1a1f;--surface:#15252c;--ink:#e6eef0;--muted:#97aab1;--line:#26393f;--accent:#7fb2ef;--ok:#5fcf97;--ok-soft:#173326;--warn:#f0bd5a;--warn-soft:#352a14;--bad:#f2857d;--bad-soft:#3a1d1b;color-scheme:dark}}
+:root{--bg:#f3f6f7;--surface:#fff;--ink:#132a33;--muted:#4d6069;--line:#d9e2e5;--accent:#1f5fae;--accent-soft:#e3edf9;--on-accent:#fff;--ok:#1d7a4f;--ok-soft:#e1f2e9;--warn:#8a5900;--warn-soft:#fbf0d9;--bad:#b3261e;--bad-soft:#fbe4e2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1f;--surface:#15252c;--ink:#e6eef0;--muted:#97aab1;--line:#26393f;--accent:#7fb2ef;--accent-soft:#1b2f45;--on-accent:#0e1a1f;--ok:#5fcf97;--ok-soft:#173326;--warn:#f0bd5a;--warn-soft:#352a14;--bad:#f2857d;--bad-soft:#3a1d1b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1a1f;--surface:#15252c;--ink:#e6eef0;--muted:#97aab1;--line:#26393f;--accent:#7fb2ef;--accent-soft:#1b2f45;--on-accent:#0e1a1f;--ok:#5fcf97;--ok-soft:#173326;--warn:#f0bd5a;--warn-soft:#352a14;--bad:#f2857d;--bad-soft:#3a1d1b;color-scheme:dark}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Atkinson Hyperlegible","Segoe UI",Arial,sans-serif}
-main{max-width:760px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-left)) 40px}
-a{color:var(--accent)}h1{font:700 1.6rem/1.2 "Familjen Grotesk","Helvetica Neue",Arial,sans-serif;margin:8px 0 6px;text-wrap:balance}
-h2{font:700 1.15rem/1.3 "Familjen Grotesk","Helvetica Neue",Arial,sans-serif;margin:28px 0 8px}
-.top{font-weight:700;text-decoration:none}.langlink{float:right;font-weight:700}.lead{color:var(--muted);margin:0 0 14px}
-.alert{background:var(--bad-soft);border-radius:10px;padding:10px 12px;margin:12px 0}
-.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;border-radius:10px;padding:10px 14px;margin:6px 0 4px}
-@media (prefers-color-scheme:dark){.cta{color:#0e1a1f}}
-ol.er{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px}
-ol.er li{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-ol.er h3{font-size:1rem;margin:0 0 2px}ol.er h3 a{text-decoration:none}
-.where{color:var(--muted);font-size:.9rem}.nums{margin-top:6px;font-size:.95rem}
-.pill{display:inline-block;font-size:.8125rem;font-weight:700;border-radius:99px;padding:2px 9px;margin-right:6px}
+main{max-width:760px;margin:0 auto;padding:16px max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left));display:flex;flex-direction:column;gap:14px}
+main>*{margin-top:0;margin-bottom:0}
+a{color:var(--accent)}h1{font:700 1.6rem/1.2 "Familjen Grotesk","Helvetica Neue",Arial,sans-serif;margin:8px 0 0;text-wrap:balance}
+h2{font:700 1.15rem/1.3 "Familjen Grotesk","Helvetica Neue",Arial,sans-serif;margin:16px 0 0}
+.ic{flex:none;display:block}
+.topbtns{display:flex;justify-content:flex-end;gap:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:36px;min-width:44px;border:1px solid var(--line);background:var(--surface);color:var(--accent);border-radius:99px;padding:0 14px;font:inherit;font-weight:700;font-size:.85rem;text-decoration:none;cursor:pointer}
+.brand{display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font:700 2rem/1.05 "Familjen Grotesk","Helvetica Neue",Arial,sans-serif;white-space:nowrap;margin-top:-8px}
+.brand img{width:64px;height:64px;border-radius:16px}.brand .apos{color:var(--ok)}
+.sos{display:grid;grid-template-columns:1fr 1fr;border-radius:12px;overflow:hidden;background:var(--bad-soft)}
+.sos a{display:flex;align-items:center;gap:8px;padding:10px 12px;min-height:44px;text-decoration:none;color:var(--ink)}
+.sos a.s911{color:var(--bad)}.sos a+a{border-left:1px solid var(--bg)}
+.sos b{font:700 1.1rem/1.1 "Familjen Grotesk",Arial,sans-serif;display:block}.sos small{display:block;font-size:.8125rem;line-height:1.2}
+.lead{color:var(--muted)}
+.best{background:var(--accent-soft);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.best small{text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--accent);font-size:.75rem}
+.best-row{display:flex;justify-content:space-between;align-items:center;gap:10px}.best-row>div{min-width:0}
+.best h3{margin:0;font:700 1.2rem/1.2 "Familjen Grotesk",Arial,sans-serif}.best h3 a{color:var(--ink);text-decoration:none}
+.best p{margin:2px 0 0;color:var(--muted);font-size:.875rem}
+.best-pct{text-align:right;flex:none}.best-pct b{font:700 1.75rem/1 "Familjen Grotesk",Arial,sans-serif;display:block}.best-pct span{color:var(--muted);font-size:.78rem}
+.alert{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:.92rem}
+.cta{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:44px;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:700;border-radius:12px;padding:0 16px}
+ol.er{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+ol.er li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:72px minmax(0,1fr);gap:2px 12px}
+ol.er li>*{grid-column:2}
+ol.er li>.erl{grid-column:1;grid-row:1 / span 4;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.erl b{font:700 1.6rem/1 "Familjen Grotesk",Arial,sans-serif;font-variant-numeric:tabular-nums}
+ol.er h3{font:600 1rem/1.25 "Familjen Grotesk",Arial,sans-serif;margin:0}ol.er h3 a{text-decoration:none;color:var(--ink)}
+.where{color:var(--muted);font-size:.875rem}.nums{font-size:.875rem;color:var(--muted)}.nums b{color:var(--ink)}
+.bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:6px}.bar i{display:block;height:100%;border-radius:99px}
+.pill{display:inline-block;font-size:.75rem;font-weight:700;border-radius:99px;padding:2px 8px}
 .ok{color:var(--ok);background:var(--ok-soft)}.warn{color:var(--warn);background:var(--warn-soft)}.bad{color:var(--bad);background:var(--bad-soft)}
-.tag{font-size:.8125rem;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px;margin-left:6px;font-weight:400}
-ul.regions{columns:2;padding-left:18px}@media (max-width:480px){ul.regions{columns:1}}
-footer{color:var(--muted);font-size:.875rem;margin-top:30px;border-top:1px solid var(--line);padding-top:12px}`;
+.c-ok{color:var(--ok)}.c-warn{color:var(--warn)}.c-bad{color:var(--bad)}.c-unk{color:var(--muted)}
+.tag{font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px;margin-left:6px;font-weight:400;font-family:"Atkinson Hyperlegible",Arial,sans-serif}
+ul.regions{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+ul.regions li{border-top:1px solid var(--line);margin-top:-1px}ul.regions li:nth-child(odd){border-right:1px solid var(--line)}
+ul.regions a{display:flex;align-items:center;min-height:46px;padding:0 14px;font-weight:700;text-decoration:none;color:var(--ink)}
+@media (max-width:480px){ul.regions{grid-template-columns:1fr}ul.regions li:nth-child(odd){border-right:0}}
+footer{color:var(--muted);font-size:.875rem;margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}`;
 
 function page({ base, lang, path, altPath, titleText, description, body }) {
   return `<!doctype html>
@@ -80,14 +105,22 @@ function page({ base, lang, path, altPath, titleText, description, body }) {
 <meta property="og:title" content="${esc(titleText)}"><meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${base}${path}"><meta property="og:image" content="${base}/og-image.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#1f5fae">
+<script>try{const t=localStorage.getItem("sa-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <style>${CSS}</style></head><body><main>
-<a class="langlink" href="${altPath}" lang="${T(lang, "en", "fr")}">${T(lang, "English", "Français")}</a>
-<a class="top" href="/" style="display:inline-flex;align-items:center;gap:8px"><img src="/logo.svg" alt="" width="28" height="28" style="border-radius:7px"> ← Salle d'attente</a>
+<div class="topbtns"><button type="button" class="btn" id="theme-btn" aria-label="${T(lang, "Changer le thème clair ou foncé", "Switch light or dark theme")}"></button><a class="btn" href="${altPath}" lang="${T(lang, "en", "fr")}">${T(lang, "English", "Français")}</a></div>
+<a class="brand" href="/" aria-label="${T(lang, "Salle d'attente : accueil", "Salle d'attente: home")}"><img src="/logo.svg" alt="" width="64" height="64"><span aria-hidden="true">salle d<span class="apos">’</span>attente</span></a>
+<div class="sos">
+<a href="tel:911" class="s911"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><b>911</b><small>${T(lang, "Urgence grave", "Serious emergency")}</small></span></a>
+<a href="tel:811"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span><b>811</b><small>${T(lang, "Conseil d'une infirmière", "Advice from a nurse")}</small></span></a>
+</div>
 ${body}
 <footer>
 <p><b>${T(lang, "Urgence grave (douleur à la poitrine, AVC, difficulté à respirer) : composez le 911 sans attendre.", "Serious emergency (chest pain, stroke, trouble breathing): call 911 right away.")}</b> ${T(lang, "Besoin d'un conseil : Info-Santé 811.", "For advice: Info-Santé 811.")}</p>
 <p>${T(lang, "Données : ministère de la Santé et des Services sociaux du Québec, relevé horaire des urgences (licence CC BY 4.0). Salle d'attente est un projet indépendant, sans lien avec le ministère ni Santé Québec.", "Data: Québec Ministère de la Santé et des Services sociaux, hourly emergency room report (CC BY 4.0 licence). Salle d'attente is an independent project, not affiliated with the ministry or Santé Québec.")} <a href="/#apropos">${T(lang, "À propos", "About")}</a> · <a href="/#confidentialite">${T(lang, "Confidentialité", "Privacy")}</a></p>
 </footer></main>
+<script>(function(){const b=document.getElementById("theme-btn"),r=document.documentElement,S='<svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',M='<svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+const dark=()=>r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
+const show=()=>{b.innerHTML=dark()?S:M};b.addEventListener("click",()=>{const n=dark()?"light":"dark";r.dataset.theme=n;try{localStorage.setItem("sa-theme",n)}catch(e){}show()});show()})();</script>
 <script>try{navigator.sendBeacon&&!(navigator.globalPrivacyControl===true||navigator.doNotTrack==="1")&&navigator.sendBeacon("/api/stat","visite vue:region-page langue:${lang}")}catch(e){}</script>
 </body></html>`;
 }
@@ -121,9 +154,14 @@ function regionPage(base, reg, all, lang) {
     const occ = pct === null ? T(lang, "Occupation des civières non transmise", "Stretcher occupancy not reported") : T(lang, `${pct} % des civières occupées (${fmt(h.occ)}/${fmt(h.stretchers)})`, `${pct}% of stretchers in use (${fmt(h.occ)}/${fmt(h.stretchers)})`);
     const pec = h.pec === null || h.pec === undefined ? "" : T(lang, ` · ${fmt(h.pec)} en attente d'un médecin`, ` · ${fmt(h.pec)} waiting for a doctor`);
     const o24 = h.over24 ? T(lang, ` · ${fmt(h.over24)} sur civière depuis plus de 24 h`, ` · ${fmt(h.over24)} on a stretcher for over 24 h`) : "";
-    return `<li><h3><a href="/#fiche=${encodeURIComponent(h.name)}">${esc(title(h.name))}</a>${tags}</h3>
+    const c = pct === null ? "unk" : cls;
+    const pecTxt = h.pec === null || h.pec === undefined ? "" : T(lang, `<b>${fmt(h.pec)}</b> en attente d'un médecin`, `<b>${fmt(h.pec)}</b> waiting for a doctor`);
+    const civ = h.stretchers ? T(lang, `${fmt(h.occ)}/${fmt(h.stretchers)} civières occupées`, `${fmt(h.occ)}/${fmt(h.stretchers)} stretchers in use`) : "";
+    return `<li><div class="erl"><b class="c-${c}">${pct === null ? "—" : T(lang, pct + " %", pct + "%")}</b><span class="pill ${cls}">${label}</span></div>
+<h3><a href="/#fiche=${encodeURIComponent(h.name)}">${esc(title(h.name))}</a>${tags}</h3>
 <div class="where">${esc(h.address || h.area || "")}</div>
-<div class="nums"><span class="pill ${cls}">${label}</span>${occ}${pec}${o24}</div></li>`;
+<div class="nums">${pct === null ? T(lang, "Occupation des civières non transmise", "Stretcher occupancy not reported") : [pecTxt, civ].filter(Boolean).join(" · ")}${o24}</div>
+${pct === null ? "" : `<div class="bar"><i class="bg-${cls}" style="width:${Math.min(100, Math.round(pct / 1.5))}%;background:var(--${cls === "ok" ? "ok" : cls === "warn" ? "warn" : "bad"})"></i></div>`}</li>`;
   };
   const items = general.map(item).join("\n");
   const specialHtml = special.length ? `<h2>${T(lang, "Urgences spécialisées", "Specialized emergency rooms")}</h2>
@@ -138,7 +176,7 @@ function regionPage(base, reg, all, lang) {
     : `Les ${list.length} urgences ${deName}, de la moins à la plus remplie : civières occupées et personnes en attente d'un médecin, mis à jour chaque heure avec les données du ministère de la Santé.`;
   const body = en ? `<h1>Emergency rooms ${esc(inName)}</h1>
 <p class="lead">From least to most crowded${updated ? `, as of the ${updated} report` : ""}. Québec Health Ministry data, updated every hour. Hospital names and addresses are shown in French, as published.</p>
-${best ? `<p>Right now, the least crowded emergency room in the region is <b>${bestName}</b> (${Math.round(best.rate * 100)}% of stretchers in use).</p>` : ""}
+${best ? `<section class="best"><small>Best choice right now</small><div class="best-row"><div><h3><a href="/#fiche=${encodeURIComponent(best.name)}">${bestName}</a></h3><p>${esc(best.area || "")}${best.pec === null || best.pec === undefined ? "" : ` · ${fmt(best.pec)} waiting`}</p></div><div class="best-pct"><b class="c-${status(best.rate, lang)[0]}">${Math.round(best.rate * 100)}%</b><span>of stretchers in use</span></div></div></section>` : ""}
 <a class="cta" href="/">See the map, distance and driving time</a>
 <p class="alert">A less crowded emergency room is not always faster for you: triage sees the most serious cases first. <b>Serious emergency: 911.</b> To find out where to go: Info-Santé 811.</p>
 <h2>${n} emergency room${n > 1 ? "s" : ""} open to everyone${unknown ? ` (${unknown} ${unknown > 1 ? "do" : "does"} not report occupancy)` : ""}</h2>
@@ -148,7 +186,7 @@ ${specialHtml}
 <h2>Other regions</h2><ul class="regions">${others}</ul>`
   : `<h1>Urgences ${esc(deName)}</h1>
 <p class="lead">De la moins à la plus remplie${updated ? `, selon le relevé de ${updated}` : ""}. Données du ministère de la Santé, mises à jour chaque heure.</p>
-${best ? `<p>En ce moment, l'urgence la moins remplie de la région est <b>${bestName}</b> (${Math.round(best.rate * 100)} % des civières occupées).</p>` : ""}
+${best ? `<section class="best"><small>Meilleur choix maintenant</small><div class="best-row"><div><h3><a href="/#fiche=${encodeURIComponent(best.name)}">${bestName}</a></h3><p>${esc(best.area || "")}${best.pec === null || best.pec === undefined ? "" : ` · ${fmt(best.pec)} en attente`}</p></div><div class="best-pct"><b class="c-${status(best.rate, lang)[0]}">${Math.round(best.rate * 100)} %</b><span>des civières occupées</span></div></div></section>` : ""}
 <a class="cta" href="/">Voir la carte, la distance et le temps de route</a>
 <p class="alert">Une urgence moins remplie n'est pas toujours la plus rapide pour vous : le triage passe les cas graves en premier. <b>Urgence grave : 911.</b> Pour savoir où consulter : Info-Santé 811.</p>
 <h2>${n} urgence${n > 1 ? "s" : ""} pour tous${unknown ? ` (${unknown} ne transmet${unknown > 1 ? "tent" : ""} pas l'occupation)` : ""}</h2>
