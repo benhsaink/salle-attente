@@ -356,6 +356,11 @@ small{font-size:max(.8125rem,.85em)}
 .g-links a,.g-links .sharebtn{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:0 14px;text-align:left;background:transparent;border:0;border-radius:0;color:var(--ink);font:inherit;font-weight:700;text-decoration:none;cursor:pointer;width:100%}
 .g-links>*+*{border-top:1px solid var(--line)!important}
 .g-links .ic{color:var(--muted)}
+.alertcta{display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 14px;background:var(--accent-soft);color:var(--accent);border-radius:12px;text-decoration:none}
+.alertcta>span{flex:1;min-width:0;color:var(--ink);line-height:1.25}
+.alertcta b{font-family:var(--f-display)}
+.alertcta .beta{font-size:.75rem;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:99px;padding:0 7px;margin-left:4px;vertical-align:1px}
+.alertcta small{display:block;color:var(--muted);font-size:.8125rem}
 </style>
 
 </head>
@@ -389,6 +394,7 @@ small{font-size:max(.8125rem,.85em)}
     <button role="tab" id="t-lab" data-v="prelevements" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2h6M10 2v13a2 2 0 0 0 4 0V2M10 10h4M6 22h12"/></svg><span>Prélèvements</span></button>
     <button role="tab" id="t-soi" data-v="soins" aria-selected="false"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7M5 9v12h14V9M10 21v-6h4v6"/></svg><span>Soins privés</span></button>
   </div>
+  <a href="#alertes" class="alertcta" id="alert-cta"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg><span><b>Alertes</b> <span class="beta">bêta gratuite</span><small>Soyez averti quand une urgence se vide</small></span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
   <section class="controls" id="regionctl" aria-label="Région et position">
     <div class="regrow">
       <label class="regpick"><span class="regcap">Région</span><select id="r-pick" aria-label="Région"></select><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></label>
@@ -596,7 +602,6 @@ small{font-size:max(.8125rem,.85em)}
   <nav class="g-links" aria-label="Aide pour choisir">
     <a href="#orienter"><span>Où consulter ?</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
     <a href="#triage"><span>Comment fonctionne le triage ?</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
-    <a href="#alertes"><span>Alertes (bêta gratuite)</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
     <a href="#apropos"><span>À propos et notre mission</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
     <button type="button" id="share-site" class="sharebtn"><span>Partager le site</span><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
   </nav>
@@ -958,6 +963,7 @@ function setView(v) {
   document.getElementById("labview").hidden = v !== "prelevements";
   document.getElementById("careview").hidden = v !== "soins";
   document.getElementById("regionctl").hidden = v === "soins";
+  document.getElementById("alert-cta").hidden = v !== "urgences";
   if (v === "cliniques" && !clinics && !clinicsLoading) loadClinics();
   else if (v === "cliniques") renderClinics();
   if (v === "privees" && !privates && !privatesLoading) loadPrivates();
