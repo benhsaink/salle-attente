@@ -68,12 +68,16 @@ function km(a, b) {
           if (near) { rss = near.e.rss; urgence = near.e.nom; }
         }
         const lignes = text.split("\n").map((l) => l.trim())
-          .filter((l) => l && l.length < 300 && /sans rendez-vous|jour même|p[ée]diatr|praticienne|\bIPS\b|enfants?\b|0 ?[-àa] ?17 ans|moins de 18 ans|RAMQ|assurance maladie|assurance médicaments|sans carte|statut|itin[ée]ran|PFSI|clientèle/i.test(l))
-          .filter((l, i, a) => a.indexOf(l) === i).slice(0, 14);
+          .filter((l) => l && l.length < 300 && /sans rendez-vous|jour même|p[ée]diatr|praticienne|\bIPS\b|enfants?\b|0 ?[-àa] ?17 ans|moins de 18 ans|RAMQ|assurance maladie|assurance médicaments|sans carte|statut|itin[ée]ran|PFSI|clientèle|urgence|pr[ée]l[èe]v|rendez-vous|Clic Sant|frais|non participant|privé/i.test(l))
+          .filter((l, i, a) => a.indexOf(l) === i).slice(0, 20);
         const decision = f.acces === "tous" && !manque.length ? "ajout possible"
           : f.acces === "tous" ? "pour tous, fiche incomplète" : f.acces === "inscrits" ? "patients inscrits seulement" : "pas de rendez-vous le jour même indiqué";
+        const L = text.split("\n").map((l) => l.trim()).filter(Boolean);
+        const iH = L.findIndex((l) => /^Horaire$/.test(l)), iS = L.findIndex((l) => /^Services offerts/.test(l));
         row = { adresse: [f.adresse, f.ville].filter(Boolean).join(", "), telephone: f.telephone || "", rss, urgenceProche: urgence,
-          acces: f.acces || "", accesNote: f.accesNote || "", frais: !!f.frais, miseAJour: f.miseAJour || "", manque, lignes, decision };
+          acces: f.acces || "", accesNote: f.accesNote || "", frais: !!f.frais, nonParticipant: !!f.nonParticipant, miseAJour: f.miseAJour || "",
+          services: (f.services || []).slice(0, 25), lat: links.lat, lon: links.lon, manque, lignes, decision,
+          ...(R.horaire && iH >= 0 ? { horaireBrut: L.slice(iH + 1, iS > iH ? Math.min(iS, iH + 90) : iH + 90) } : {}) };
         seen.set(nofiche, row);
       }
       out.push({ nofiche, nom, ...row });

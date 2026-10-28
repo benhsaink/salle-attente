@@ -50,7 +50,53 @@
     "migrant",
     "réfugiés"
    ],
-   "garder": "proximit|SABSA|bas seuil|itin[ée]ran|de rue|mobile|migrant|r[ée]fugi"
+   "garder": "proximit|SABSA|bas seuil|itin[ée]ran|de rue|mobile|migrant|r[ée]fugi",
+   "actif": false
+  },
+  {
+   "id": "prelevements",
+   "horaire": true,
+   "q": [
+    "prélèvement",
+    "prélèvements",
+    "centre de prélèvement",
+    "prise de sang",
+    "laboratoire",
+    "Biron",
+    "Dynacare",
+    "CDL",
+    "LifeLabs"
+   ],
+   "garder": "pr[ée]l[èe]v|laboratoire|biron|dynacare|\\bCDL\\b|lifelabs|prise de sang"
+  },
+  {
+   "id": "hopitaux",
+   "q": [
+    "hôpital",
+    "centre hospitalier",
+    "centre de santé",
+    "centre multiservices",
+    "Inuulitsivik",
+    "Tulattavik",
+    "Chisasibi",
+    "dispensaire"
+   ],
+   "garder": "h[ôo]pital|hospitalier|centre de sant[ée]|multiservices|inuulitsivik|tulattavik|chisasibi|dispensaire"
+  },
+  {
+   "id": "cliniques-large",
+   "q": [
+    "clinique médicale",
+    "centre médical",
+    "polyclinique",
+    "médecine familiale",
+    "UMF",
+    "médical",
+    "medical",
+    "MD",
+    "santé"
+   ],
+   "garder": "clinique m[ée]dicale|centre m[ée]dical|polyclinique|m[ée]decine familiale|\\bUMF\\b|m[ée]dical|\\bMD\\b|sant[ée]"
   }
  ]
 }
