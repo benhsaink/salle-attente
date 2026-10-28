@@ -1625,6 +1625,8 @@ document.getElementById("pt-form").addEventListener("submit", async e => {
 })();
 // Statistiques : filtres et gestes utilisés (une fois par visite chacun)
 SA_STAT("visite"); SA_STAT("langue:" + (window.SA_LANG || "fr"));
+// Provenance d'une campagne (?src=affiche, facebook, instagram, linkedin…) : compteur seulement
+try { const src = new URLSearchParams(location.search).get("src"); if (src && /^[a-z0-9-]{1,20}$/.test(src)) SA_STAT("source:" + src); } catch (e) {}
 if (matchMedia("(display-mode: standalone)").matches || navigator.standalone) SA_STAT("app:installee");
 document.addEventListener("change", e => {
   const el = e.target, id = el.id || "";

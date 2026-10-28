@@ -6,7 +6,7 @@
 const ENV = process.env;
 const sbOrigin = (u) => { try { return new URL(String(u).trim()).origin; } catch (e) { return ""; } };
 const SB = ENV.SUPABASE_URL && ENV.SUPABASE_KEY ? { url: sbOrigin(ENV.SUPABASE_URL) + "/rest/v1/statistiques", key: ENV.SUPABASE_KEY.trim() } : null;
-const KEY_RE = /^(visite|vue|filtre|region|tri|action|langue|app|partenaire)(:[a-z0-9_-]{1,30}){0,2}$/;
+const KEY_RE = /^(visite|vue|filtre|region|tri|action|langue|app|partenaire|source)(:[a-z0-9_-]{1,30}){0,2}$/;
 const MAX_KEYS_PER_DAY = 400;
 const BOT_RE = /bot|crawl|spider|slurp|preview|monitor|curl|wget|python|node-fetch|headless|lighthouse/i;
 
