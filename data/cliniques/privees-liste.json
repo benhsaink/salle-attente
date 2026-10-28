@@ -332,6 +332,126 @@
    "nom": "Clinique médicale de proximité Saint-Wenceslas",
    "nofiche": 1224401,
    "region": "r04"
+  },
+  {
+   "nom": "SSMT CLINIQUE MÉDICALE",
+   "nofiche": 48404,
+   "region": "r07"
+  },
+  {
+   "nom": "CMGP - CLINIQUE MÉDICALE DR GUILLAUME PAINCHAUD",
+   "nofiche": 1218550,
+   "region": "qc"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ER PRIVÉE",
+   "nofiche": 1094774,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE IPS",
+   "nofiche": 1219232,
+   "region": "r04"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE DR.NICOLAS GAUTHIER",
+   "nofiche": 381184,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE LEBLANC + SAVARIA (MONT-TREMBLANT)",
+   "nofiche": 1047747,
+   "region": "r15"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE OMNIA",
+   "nofiche": 1174958,
+   "region": "lav"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE PRACTISANTÉ SAINTE-THÉRÈSE",
+   "nofiche": 1190113,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE URGENCE MD (URGENCE MÉDICALE PRIVÉE)",
+   "nofiche": 37825,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE DUOSANTÉ",
+   "nofiche": 1010279,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE DES RÉFUGIÉS ET ÉTUDIANTS ÉTRANGERS DE MONTRÉAL",
+   "nofiche": 1216467,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE ELNA UNI-MED",
+   "nofiche": 857877,
+   "region": "mtl"
+  },
+  {
+   "nom": "GLIF MÉDICAL",
+   "nofiche": 1225969,
+   "region": "mtl"
+  },
+  {
+   "nom": "QUATUOR MD",
+   "nofiche": 1068804,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE PRIVÉE ESPACE SANTÉ IDS",
+   "nofiche": 1115096,
+   "region": "mtl"
+  },
+  {
+   "nom": "LES SOINS DE SANTÉ KLINIK PAM",
+   "nofiche": 1211695,
+   "region": "r07"
+  },
+  {
+   "nom": "CITADELLE SANTÉ",
+   "nofiche": 1182382,
+   "region": "r07"
+  },
+  {
+   "nom": "CLINIQUE PÜR SANTÉ",
+   "nofiche": 1098512,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE SANTÉ 360 ANJOU",
+   "nofiche": 1136621,
+   "region": "mtl"
+  },
+  {
+   "nom": "LES CLINIQUES MAROIS UROLOGIE ET SANTÉ SEXUELLE (QUÉBEC)",
+   "nofiche": 1135050,
+   "region": "qc"
+  },
+  {
+   "nom": "PRAXIS CLINIQUE DE SANTÉ FAMILIALE BOISBRIAND",
+   "nofiche": 436012,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE SANTÉ PLATEAU",
+   "nofiche": 684544,
+   "region": "mtl"
+  },
+  {
+   "nom": "SANTÉ EXPERT SERVICES MÉDICAUX (SILLERY)",
+   "nofiche": 922938,
+   "region": "qc"
+  },
+  {
+   "nom": "SAVANA SANTÉ",
+   "nofiche": 1190906,
+   "region": "mtl"
   }
  ]
 }

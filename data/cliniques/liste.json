@@ -516,6 +516,56 @@
    "nofiche": 735495,
    "region": "mtl",
    "enfants": true
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE DE ORMSTOWN",
+   "nofiche": 1043075,
+   "region": "rs"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE MA SANTÉ MON DOCTEUR",
+   "nofiche": 974118,
+   "region": "r02"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PA JONCAS (BLANC-SABLON)",
+   "nofiche": 162521,
+   "region": "r09"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE URGENCE CAMU LONGUEUIL",
+   "nofiche": 45507,
+   "region": "rs"
+  },
+  {
+   "nom": "GMF SAINTE-ANNE-DES-PLAINES (CLINIQUE MÉDICALE SAINTE-THÉRÈSE)",
+   "nofiche": 38183,
+   "region": "rn"
+  },
+  {
+   "nom": "GMF SANTÉ MÉDIC (CLINIQUE MÉDICALE SANTÉ MEDIC)",
+   "nofiche": 31051,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF DISTRICT MÉDICAL AHUNTSIC (DISTRICT MÉDICAL DE L'OUEST)",
+   "nofiche": 1224532,
+   "region": "mtl"
+  },
+  {
+   "nom": "CENTRE DE SANTÉ DE MASHTEUIATSH",
+   "nofiche": 40841,
+   "region": "r02"
+  },
+  {
+   "nom": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE WINDSOR",
+   "nofiche": 768548,
+   "region": "r05"
+  },
+  {
+   "nom": "SANTE KIXCARE",
+   "nofiche": 1045272,
+   "region": "mtl"
   }
  ]
 }
