@@ -451,7 +451,7 @@ function parseFiche(text) {
   // On écarte ce qui ne parle pas d'un prélèvement sans rendez-vous ici : retour d'échantillons, « AVEC rendez-vous, sauf… »,
   // soins infirmiers, aide à la connexion. Les lignes qui nomment le prélèvement passent en premier.
   const srdvAll = L.filter((l) => /sans rendez-vous|entrée (est )?libre/i.test(l) && l.length < 220
-    && !/avec rendez-vous|retour|rapporte|spécimen|échantillon|soins infirmiers|vaccin|authentification|carte d'assurance maladie/i.test(l));
+    && !/avec rendez-vous|pas de|aucun|retour|rapporte|spécimen|échantillon|soins infirmiers|vaccin|authentification|carte d'assurance maladie/i.test(l));
   const srdv = srdvAll.find((l) => /prél[èe]v|prise de sang|tests?\b|entrée (est )?libre/i.test(l)) || srdvAll[0];
   out.sansRdvTexte = srdv ? srdv.replace(/^[-–•]\s*/, "") : null;
   // Services et spécialités, tels que listés dans la fiche (sans les mentions de frais).

@@ -306,3 +306,11 @@ create index on public.abonnements (courriel);
 - « Sans rendez-vous » : seulement si la fiche officielle le dit (texte cité sur la carte). Les mentions de retour d'échantillons, « AVEC rendez-vous, sauf… », soins infirmiers ou vaccination sont écartées (`lib.parseFiche`, champ `sansRdvTexte`).
 - « Réseau public » : nom contenant CLSC ou « point de service local ». Les autres : « Informez-vous des frais ».
 - Consignes affichées (Clic Santé, ordonnance, carte d'assurance maladie, jeûne de 8 ou 12 h selon la requête) : dépliant du CISSS du Bas-Saint-Laurent, approuvé le 13 mars 2024.
+
+## Urgences absentes du relevé du ministère
+
+- Le relevé horaire du ministère couvre 120 urgences. Recherche dans le Répertoire (28 octobre 2026, `recherches/hopitaux.json`) : seuls ces lieux offrent un service d'urgence sans être dans le relevé.
+  - Kateri Memorial (Kahnawake), Pierre-Janet (urgence psychiatrique, Gatineau ; affichée seulement avec le filtre psychiatrique).
+  - Nunavik : hôpitaux de Puvirnituq et de Kuujjuaq (CLSC le jour, ligne d'urgence le soir), 11 dispensaires de village (ligne de garde 819 xxx-9090).
+  - Chisasibi : urgence 24/7 selon la fiche du CLSC ; le 911 n'y est pas offert.
+- Liste `OFFLIST` et `NUNAVIK` dans `public/index.html`, section « Urgences absentes du relevé du ministère » sous la liste des urgences. Aucune donnée d'achalandage.
