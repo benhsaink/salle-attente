@@ -355,6 +355,18 @@ small{font-size:max(.8125rem,.85em)}
 .g-links a,.g-links .sharebtn{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:0 14px;text-align:left;background:transparent;border:0;border-radius:0;color:var(--ink);font:inherit;font-weight:700;text-decoration:none;cursor:pointer;width:100%}
 .g-links>*+*{border-top:1px solid var(--line)!important}
 .g-links .ic{color:var(--muted)}
+.rgroup details{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.rgroup summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;padding:12px 14px;min-height:56px}
+.rgroup summary::-webkit-details-marker{display:none}
+.rg-top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;min-width:0}
+.rg-top b{font-family:var(--f-display);font-size:1.05rem}
+.rg-n{color:var(--muted);font-size:.84rem}
+.rg-best{grid-column:1;color:var(--muted);font-size:.84rem;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rg-chev{grid-column:2;grid-row:1 / span 2;color:var(--muted);transition:transform .15s}
+.rgroup details[open] .rg-chev{transform:rotate(180deg)}
+.rgroup details[open] summary{border-bottom:1px solid var(--line)}
+.rgroup ol.list{padding:8px}
+.rgroup .card{border-color:var(--line)}
 .alertcta{display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 14px;background:var(--accent-soft);color:var(--accent);border-radius:12px;text-decoration:none}
 .alertcta>span{flex:1;min-width:0;color:var(--ink);line-height:1.25}
 .alertcta b{font-family:var(--f-display)}
@@ -1292,6 +1304,50 @@ function renderLabs() {
   if (!rows.length) list.appendChild(el("li", "legend", walk ? "Aucun lieu sans rendez-vous indiqué pour ces filtres. La plupart des centres publics fonctionnent sur rendez-vous : clicsante.ca." : "Aucun lieu de prélèvement pour ces filtres. Essayez une autre région."));
 }
 
+// ---------- « Tout le Québec » : urgences regroupées par région, repliables ----------
+// Fermées au départ ; avec la position, la région de l'urgence la plus proche s'ouvre une fois.
+const MAIN_REGIONS = ["mtl", "rs", "lav", "rn", "qc", "tr"];
+const openGroups = new Set();
+let groupAutoOpened = false;
+function renderGroups(list, rows, erCard) {
+  const groups = new Map();
+  rows.forEach(h => { const k = h.region || "autre"; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(h); });
+  const near = k => Math.min(...groups.get(k).map(h => travel(h) ?? 1e9));
+  const keys = [...groups.keys()].sort((a, b) => pos ? near(a) - near(b)
+    : ((MAIN_REGIONS.indexOf(a) + 1 || 99) - (MAIN_REGIONS.indexOf(b) + 1 || 99)) || String(REGIONS[a] || a).localeCompare(String(REGIONS[b] || b), "fr"));
+  if (pos && !groupAutoOpened && keys.length) { openGroups.add(keys[0]); groupAutoOpened = true; }
+  keys.forEach(k => {
+    const hs = groups.get(k);
+    const li = el("li", "rgroup");
+    const det = el("details");
+    det.open = openGroups.has(k);
+    const sum = el("summary");
+    const top = el("span", "rg-top");
+    top.append(el("b", "", REGIONS[k] || "Autres"), el("span", "rg-n", hs.length + (hs.length > 1 ? " urgences" : " urgence")));
+    sum.appendChild(top);
+    const best = hs.find(h => !h.kids && !h.psy && !h.cardio && h.rate !== null);
+    if (best) {
+      const [cls] = status(best.rate);
+      const line = el("span", "rg-best");
+      line.append(document.createTextNode("Moins remplie : " + best.name + " · "));
+      const pc = el("b", "", Math.round(best.rate * 100) + " %"); pc.style.color = "var(--" + cls.slice(2) + ")";
+      line.appendChild(pc);
+      sum.appendChild(line);
+    }
+    sum.insertAdjacentHTML("beforeend", '<svg class="ic rg-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>');
+    det.appendChild(sum);
+    const ol = el("ol", "list");
+    const fill = () => { if (!ol.children.length) hs.forEach((h, i) => ol.appendChild(erCard(h, i))); };
+    if (det.open) fill();
+    det.addEventListener("toggle", () => {
+      if (det.open) { openGroups.add(k); fill(); SA_STAT("filtre:region-ouverte"); } else openGroups.delete(k);
+    });
+    det.appendChild(ol);
+    li.appendChild(det);
+    list.appendChild(li);
+  });
+}
+
 // ---------- Urgences hors du relevé horaire du ministère ----------
 // Ajoutées à la main d'après leur fiche officielle (consultée le 28 octobre 2026). Aucune donnée d'achalandage.
 const FICHE_URL = n => "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=" + n;
@@ -1681,7 +1737,7 @@ function render() {
   const far = region === "all" && !pos;
   const b = far ? null : rows.find(h => (kids || !h.kids) && !h.cardio && (region !== "all" || (km(h) ?? 999) <= 75)) || null; // h.peds : hôpital général, recommandable à tous
   best.hidden = !b && !far;
-  if (far) best.innerHTML = `<small>Meilleur choix</small><p>Choisissez une région, ou triez selon votre position, pour voir l'urgence la moins remplie près de chez vous.</p>`;
+  if (far) best.innerHTML = `<small>Meilleur choix</small><p>Touchez « Près de moi », ou ouvrez votre région ci-dessous, pour voir l'urgence la moins remplie près de chez vous.</p>`;
   if (b) {
     const [bcls] = status(b.rate);
     best.innerHTML = `<small></small><div class="best-row"><div><h3></h3><p></p></div><div class="best-pct"><b></b><span>des civières occupées</span></div></div>`;
@@ -1708,7 +1764,7 @@ function render() {
 
   const list = document.getElementById("list");
   list.innerHTML = "";
-  rows.forEach((h, i) => {
+  const erCard = (h, i) => {
     const [cls, label] = status(h.rate);
     const pct = h.rate === null ? null : Math.round(h.rate * 100);
     const li = document.createElement("li");
@@ -1739,8 +1795,10 @@ function render() {
     more.className = "more"; more.href = ficheHref(h); more.textContent = "Voir la fiche ›";
     more.setAttribute("aria-label", "Voir la fiche de " + h.name);
     li.appendChild(more);
-    list.appendChild(li);
-  });
+    return li;
+  };
+  if (region === "all" && rows.length) renderGroups(list, rows, erCard);
+  else rows.forEach((h, i) => list.appendChild(erCard(h, i)));
   if (!rows.length && data.length) list.innerHTML = "<li>Aucune urgence pour ce filtre.</li>";
   if (shownFiche) renderFiche(shownFiche);
   if (view === "cliniques") renderClinics();
