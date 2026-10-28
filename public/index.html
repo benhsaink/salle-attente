@@ -226,7 +226,8 @@ details.wk summary{cursor:pointer;color:var(--accent);font-weight:700}
 .geo .addr button{flex:none}
 .addr-note{color:var(--muted);font-size:.8125rem;flex:1 1 100%}
 .road-opt{flex:1 1 100%}
-.topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.topbar{display:flex;flex-direction:column;align-items:center;gap:10px}
+.topbar .topbtns{align-self:flex-end}
 .topbtns{display:flex;gap:8px;flex:none;align-items:center}
 .themebtn{font-size:1rem;line-height:1;padding:6px 10px}
 .langbtn{border:1px solid var(--line);background:var(--surface);color:var(--accent);font:inherit;font-weight:700;font-size:.85rem;border-radius:99px;padding:6px 12px;cursor:pointer;flex:none}
@@ -308,7 +309,7 @@ details.fc summary,details.wk summary{padding:8px 0;min-height:24px}
 small{font-size:max(.8125rem,.85em)}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .tag.sponsor{color:var(--demo);border-color:var(--demo-soft);background:var(--demo-soft)}
-.brand{display:flex;align-items:center;gap:10px;white-space:nowrap;min-width:0}@media (max-width:430px){.brand{font-size:clamp(1.3rem,6.4vw,1.75rem);gap:8px}.brand img{width:34px!important;height:34px!important}}.brand img{width:40px;height:40px;border-radius:10px;flex:none}.brand .apos{color:var(--ok)}
+.brand{display:flex;flex-direction:column;align-items:center;gap:10px;white-space:nowrap;min-width:0;font-size:clamp(2rem,9vw,2.6rem);line-height:1.05;text-align:center;margin-bottom:8px}.brand img{width:84px;height:84px;border-radius:20px;flex:none}.brand .apos{color:var(--ok)}
 </style>
 
 </head>
@@ -316,11 +317,11 @@ small{font-size:max(.8125rem,.85em)}
 <div class="wrap">
   <header>
     <div class="topbar">
-      <h1 class="brand" aria-label="Salle d'attente"><img src="/logo.svg" alt="" width="40" height="40"><span aria-hidden="true">salle d<span class="apos">’</span>attente</span></h1>
       <div class="topbtns">
         <button type="button" id="theme-btn" class="langbtn themebtn" aria-label="Passer en mode foncé">🌙</button>
         <button type="button" id="lang-btn" class="langbtn" lang="en">English</button>
       </div>
+      <h1 class="brand" aria-label="Salle d'attente"><img src="/logo.svg" alt="" width="84" height="84"><span aria-hidden="true">salle d<span class="apos">’</span>attente</span></h1>
     </div>
     <p class="sub">Trouvez l'urgence la moins remplie partout au Québec, ou une clinique où consulter aujourd'hui, même sans médecin de famille.</p>
     <p class="mission"><b>Notre mission :</b> vous informer correctement et faciliter l'accès aux soins, surtout sans médecin de famille. <a href="#apropos">En savoir plus</a></p>
