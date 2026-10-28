@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T06:42:13.238Z",
+ "generatedAt": "2026-10-28T09:37:40.294Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/gmf-gmf-u-et-super-clinique",
  "cliniques": [
   {
@@ -18681,6 +18681,1333 @@
    "lon": -73.66602,
    "site": null,
    "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE DE ORMSTOWN",
+   "nofiche": 1043075,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1043075",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CLINIQUE MÉDICALE DE ORMSTOWN",
+   "adresse": "55, rue Isabelle, unité 200",
+   "ville": "Ormstown",
+   "codePostal": "J0S 1K0",
+   "telephone": "450 859-9185",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "28 mai 2026, 19 h 50",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Audiologie",
+    "Chirurgie mineure (À venir)",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Nutrition",
+    "Omnipratique",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre Prise et suivi",
+    "Travail social",
+    "Vaccination",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.1187,
+   "lon": -73.98681,
+   "site": "https://ormstownmedicalclinic.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE MA SANTÉ MON DOCTEUR",
+   "nofiche": 974118,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=974118",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CLINIQUE MÉDICALE MA SANTÉ MON DOCTEUR",
+   "adresse": "530, boulevard Saint-Joseph",
+   "ville": "Roberval",
+   "codePostal": "G8H 1B9",
+   "telephone": "581 217-3057",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "24 septembre 2026, 14 h 23",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Périnatalité",
+    "Service de prise de tension artérielle",
+    "Vasectomie",
+    "Visites à domicile"
+   ],
+   "lat": 48.5071,
+   "lon": -72.21846,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PA JONCAS (BLANC-SABLON)",
+   "nofiche": 162521,
+   "region": "r09",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=162521",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CLINIQUE MÉDICALE PA JONCAS (BLANC-SABLON)",
+   "adresse": "21, rue du Bord-de-l'Eau, entré via le stationnement arrière",
+   "ville": "Blanc-Sablon",
+   "codePostal": "G0G 1W0",
+   "telephone": "418 461-3773",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "5 h à 12 h",
+     "heures": [
+      [
+       300,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "5 h à 12 h",
+     "heures": [
+      [
+       300,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "5 h à 12 h",
+     "heures": [
+      [
+       300,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "5 h à 12 h",
+     "heures": [
+      [
+       300,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "5 h à 12 h",
+     "heures": [
+      [
+       300,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 septembre 2026, 12 h 25",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "SIDEP - Service intégré de dépistage et de prévention des ITSS",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Visites à domicile"
+   ],
+   "lat": 51.41208,
+   "lon": -57.20466,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE URGENCE CAMU LONGUEUIL",
+   "nofiche": 45507,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=45507",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CLINIQUE MÉDICALE URGENCE CAMU LONGUEUIL",
+   "adresse": "1144, rue Saint-Laurent Ouest, bureau 100",
+   "ville": "Longueuil",
+   "codePostal": "J4K 1E2",
+   "telephone": "450 969-6977",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "8 h à 13 h",
+     "heures": [
+      [
+       480,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "04 septembre 2026, 12 h 32",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dépistage",
+    "Gastroentérologie",
+    "Gynécologie",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "SIDEP - Service intégré de dépistage et de prévention des ITSS",
+    "Soins infirmiers",
+    "Traitement des verrues plantaires",
+    "Urologie",
+    "Vasectomie",
+    "Évaluation et traitement du trouble du sommeil / clinique du sommeil",
+    "Services Infirmiers complets, disponibles via MonInfirmerie.ca ou ClicSanté.ca",
+    "Vaccination - Clinique Voyageurs",
+    "Nettoyage d'oreilles et Soins de plaies",
+    "Moniteurs Holter",
+    "Cardiostat",
+    "Médecine privée disponible avec un partenaire: MonMedecin.ca et Montrealcirconcision.ca",
+    "HORAIRE",
+    "Lundi au vendredi 8:00 a 15:00",
+    "Samedi 8:00 a 13:00"
+   ],
+   "lat": 45.52255,
+   "lon": -73.51276,
+   "site": "https://www.cliniquecamu.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF SAINTE-ANNE-DES-PLAINES (CLINIQUE MÉDICALE SAINTE-THÉRÈSE)",
+   "nofiche": 38183,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=38183",
+   "lu": "2026-10-28",
+   "nomOfficiel": "GMF SAINTE-ANNE-DES-PLAINES (CLINIQUE MÉDICALE SAINTE-THÉRÈSE)",
+   "adresse": "233, rue Turgeon, suite 101",
+   "ville": "Sainte-Thérèse",
+   "codePostal": "J7E 3J8",
+   "telephone": "450 430-1030",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "31 octobre 2024, 12 h 57",
+   "telephoneSansRdv": true,
+   "acces": "tous",
+   "accesNote": "pour patients inscrits au GMF seulement",
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": "Pour le sans rendez-vous patients avec le médecin de famille à la clinique : 450 430-1030",
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Contraception",
+    "Dentisterie",
+    "Diététique",
+    "Dépistage",
+    "Ergothérapie",
+    "Gynécologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Inhalothérapie",
+    "Médecine familiale",
+    "ORL - Oto-rhino-laryngologie",
+    "Omnipratique",
+    "Orthopédie",
+    "Physiothérapie",
+    "Pose et/ou retrait d'un stérilet pour patients inscrits au GMF seulement",
+    "Radiologie Résonance magnétique",
+    "Service de prise de tension artérielle",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Vaccination",
+    "Échographie",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.63174,
+   "lon": -73.82952,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "GMF SANTÉ MÉDIC (CLINIQUE MÉDICALE SANTÉ MEDIC)",
+   "nofiche": 31051,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=31051",
+   "lu": "2026-10-28",
+   "nomOfficiel": "GMF SANTÉ MÉDIC (CLINIQUE MÉDICALE SANTÉ MEDIC)",
+   "adresse": "3333, boulevard Graham, bureau 220",
+   "ville": "Mont-Royal",
+   "codePostal": "H3R 3L5",
+   "telephone": "514 733-7381",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Communiquer avec la ressource avant de se déplacer. - Pour les jours fériés, les plages horaires AVEC et SANS rendez-vous sont disponibles selon la disponibilité d'un médecin. - Attention, le nombre de places est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 13 h",
+     "heures": [
+      [
+       540,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Communiquer avec la ressource avant de se déplacer. - Pour les jours fériés, les plages horaires AVEC et SANS rendez-vous sont disponibles selon la disponibilité d'un médecin. - Attention, le nombre de places est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": "9 h à 13 h",
+     "heures": [
+      [
+       540,
+       780
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Autre"
+       ],
+       "notes": [
+        "Communiquer avec la ressource avant de se déplacer. - Pour les jours fériés, les plages horaires AVEC et SANS rendez-vous sont disponibles selon la disponibilité d'un médecin. - Attention, le nombre de places est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Communiquer avec la ressource avant de se déplacer. - Pour les jours fériés, les plages horaires AVEC et SANS rendez-vous sont disponibles selon la disponibilité d'un médecin. - Attention, le nombre de places est limité."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Bonjour-santé"
+       ],
+       "notes": [
+        "Communiquer avec la ressource avant de se déplacer. - Pour les jours fériés, les plages horaires AVEC et SANS rendez-vous sont disponibles selon la disponibilité d'un médecin. - Attention, le nombre de places est limité."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Bonjour-santé",
+    "Autre"
+   ],
+   "miseAJour": "17 juin 2026, 18 h 56",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Cardiologie",
+    "Chirurgie",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Dermatologie",
+    "Dépistage",
+    "Endocrinologie",
+    "Fertilité",
+    "Gynécologie",
+    "Médecine familiale",
+    "Médecine interne",
+    "Néphrologie",
+    "Omnipratique",
+    "Orthopédie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Psychiatrie",
+    "Pédiatrie",
+    "Rhumatologie",
+    "Santé voyage",
+    "Travail social",
+    "Urologie",
+    "Vaccination",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.50908,
+   "lon": -73.6613,
+   "site": "https://www.santemedic.ca/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "GMF DISTRICT MÉDICAL AHUNTSIC (DISTRICT MÉDICAL DE L'OUEST)",
+   "nofiche": 1224532,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1224532",
+   "lu": "2026-10-28",
+   "nomOfficiel": "GMF DISTRICT MÉDICAL AHUNTSIC (DISTRICT MÉDICAL DE L'OUEST)",
+   "adresse": "17000, boulevard Hymus, unité 500",
+   "ville": "Kirkland",
+   "codePostal": "H9J 2W2",
+   "telephone": "514 832-3333",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "01 juin 2026, 14 h 01",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Médecine familiale"
+   ],
+   "lat": 45.44892,
+   "lon": -73.85634,
+   "site": "https://www.districtmedical.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE DE SANTÉ DE MASHTEUIATSH",
+   "nofiche": 40841,
+   "region": "r02",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=40841",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CENTRE DE SANTÉ DE MASHTEUIATSH",
+   "adresse": "65, rue Uapakalu",
+   "ville": "Mashteuiatsh",
+   "codePostal": "G0W 2H0",
+   "telephone": "418 275-5386",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 juillet 2026, 15 h 50",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": "* Les plages horaires SANS rendez-vous sont pour tous les types de clientèle (inscrits et non inscrits). Attention, le nombre de plages horaires est limité.",
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Consultations médicales le jour même ou dans les jours suivants",
+    "Contraception",
+    "Diététique",
+    "Dépistage",
+    "Information sur la sexualité",
+    "Médecine familiale",
+    "Omnipratique",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Récupération des seringues et des aiguilles usagées",
+    "Service de prise de tension artérielle",
+    "Soins infirmiers",
+    "Soins palliatifs / Soins de fin de vie",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Travail social",
+    "Vaccination",
+    "Visites à domicile"
+   ],
+   "lat": 48.57877,
+   "lon": -72.22991,
+   "site": "http://santesaglac.com/medias/Vaccination_mening_B/horaire_masht_140508.pdf",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE WINDSOR",
+   "nofiche": 768548,
+   "region": "r05",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=768548",
+   "lu": "2026-10-28",
+   "nomOfficiel": "CENTRE MULTISERVICES DE SANTÉ ET DE SERVICES SOCIAUX DE WINDSOR",
+   "adresse": "23, rue Ambroise-Dearden",
+   "ville": "Windsor",
+   "codePostal": "J1S 1G8",
+   "telephone": "819 542-2777",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "21 novembre 2025, 18 h 27",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": null,
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [],
+   "lat": 45.57061,
+   "lon": -72.00481,
+   "site": "http://www.santeestrie.qc.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "SANTE KIXCARE",
+   "nofiche": 1045272,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1045272",
+   "lu": "2026-10-28",
+   "nomOfficiel": "SANTE KIXCARE",
+   "adresse": "1310, avenue Greene, bureau 810",
+   "ville": "Westmount",
+   "codePostal": "H3Z 2B2",
+   "telephone": "438 896-2662",
+   "jours": [
+    {
+     "date": "2026-10-28",
+     "ferme": false,
+     "ouverture": "9 h à 21 h",
+     "heures": [
+      [
+       540,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-29",
+     "ferme": false,
+     "ouverture": "9 h à 21 h",
+     "heures": [
+      [
+       540,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-30",
+     "ferme": false,
+     "ouverture": "9 h à 21 h",
+     "heures": [
+      [
+       540,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 21 h",
+     "heures": [
+      [
+       540,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 21 h",
+     "heures": [
+      [
+       540,
+       1260
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 mai 2026, 21 h 34",
+   "telephoneSansRdv": false,
+   "acces": "tous",
+   "accesNote": "Pour 17 ans et moins",
+   "frais": false,
+   "nonParticipant": false,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Consultations médicales le jour même ou dans les jours suivants Pour 17 ans et moins",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Pédiatrie",
+    "Téléconsultation",
+    "Urgence pédiatrique enfants, bébés, adolescents"
+   ],
+   "lat": 45.48684,
+   "lon": -73.59025,
+   "site": "https://www.kixcare.com",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
   }
  ]
 }
