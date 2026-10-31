@@ -290,6 +290,8 @@
     ["Chargement des cliniques privées…", "Loading private clinics…"],
     ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
     ["💲 Payant", "💲 Paid"],
+    ["Situation grave ?", "Serious situation?"],
+    ["Appelez le 911 ou allez à l'urgence la plus proche. Les cas graves sont vus en priorité, même si l'urgence est pleine.", "Call 911 or go to the nearest ER. Serious cases are seen first, even when the ER is full."],
     ["Attention : les chiffres du ministère ne sont pas à jour (plus de 24 heures). Ne vous fiez pas au classement.", "Warning: the ministry figures are out of date (over 24 hours). Do not rely on the ranking."],
     ["Urgence grave : 911.", "Serious emergency: 911."],
     ["Cliniques", "Clinics"],
