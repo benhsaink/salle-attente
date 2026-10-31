@@ -290,6 +290,7 @@
     ["Chargement des cliniques privées…", "Loading private clinics…"],
     ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
     ["💲 Payant", "💲 Paid"],
+    ["Prestataires de soins : devenir partenaire", "Care providers: become a partner"],
     ["Alertes", "Alerts"],
     ["gratuit pendant le lancement", "free during launch"],
     ["Soyez averti quand une urgence se vide", "Get notified when an ER empties out"],
