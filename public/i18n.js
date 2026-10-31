@@ -290,6 +290,8 @@
     ["Chargement des cliniques privées…", "Loading private clinics…"],
     ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
     ["💲 Payant", "💲 Paid"],
+    ["La bonne porte, au bon moment.", "The right door, at the right time."],
+    ["Urgences, cliniques et prélèvements près de chez vous, en temps réel.", "ERs, clinics and blood tests near you, in real time."],
     ["personnes en attente d'un médecin", "people waiting for a doctor"],
     ["personne en attente d'un médecin", "person waiting for a doctor"],
     ["Détails et meilleurs moments ›", "Details and best times ›"],
