@@ -356,6 +356,23 @@ small{font-size:max(.8125rem,.85em)}
 .g-links a,.g-links .sharebtn{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:0 14px;text-align:left;background:transparent;border:0;border-radius:0;color:var(--ink);font:inherit;font-weight:700;text-decoration:none;cursor:pointer;width:100%}
 .g-links>*+*{border-top:1px solid var(--line)!important}
 .g-links .ic{color:var(--muted)}
+.al-pick{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.al-search{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box}
+.al-groups{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.al-grp+.al-grp{border-top:1px solid var(--line)}
+.al-grp summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;min-height:46px;padding:0 14px}
+.al-grp summary::-webkit-details-marker{display:none}
+.al-grp summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
+.al-grp[open] summary::after{transform:rotate(-135deg)}
+.al-n{color:var(--muted);font-size:.84rem}
+.al-list{display:flex;flex-direction:column;padding:0 8px 8px}
+.al-er{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:1px;min-height:44px;padding:8px 10px 8px 36px;border:0;border-radius:9px;background:transparent;color:var(--ink);font:inherit;cursor:pointer;position:relative}
+.al-er small{color:var(--muted);font-size:.8rem}
+.al-er::before{content:"";position:absolute;left:10px;top:50%;width:16px;height:16px;margin-top:-9px;border:2px solid var(--line);border-radius:5px}
+.al-er.on{background:var(--accent-soft)}
+.al-er.on::before{background:var(--accent);border-color:var(--accent)}
+.al-er.on::after{content:"";position:absolute;left:16px;top:50%;width:5px;height:9px;margin-top:-7px;border-right:2px solid var(--surface);border-bottom:2px solid var(--surface);transform:rotate(45deg)}
+.al-er:disabled{opacity:.45;cursor:default}
 .rgroup details{background:var(--surface);border:1px solid var(--line);border-radius:14px}
 .rgroup summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;padding:12px 14px;min-height:56px}
 .rgroup summary::-webkit-details-marker{display:none}

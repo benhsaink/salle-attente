@@ -60,20 +60,75 @@
     const pctSel = el("select"); pctSel.setAttribute("aria-label", L("Seuil", "Threshold"));
     [60, 70, 80, 90, 100].forEach((v) => { const o = el("option", "", L("sous ", "below ") + v + " %"); o.value = v; pctSel.appendChild(o); });
     pctSel.value = (A.seuil && A.seuil.pct) || 80;
-    const erSel = el("select"); erSel.setAttribute("aria-label", L("Ajouter une urgence", "Add an ER"));
     const chosen = new Set((A.seuil && A.seuil.urgences) || []);
     const chips = el("div", "al-chips");
+    // Choix des urgences : recherche par nom + urgences regroupées par région, repliables.
+    const pick = el("div", "al-pick");
+    const search = el("input"); search.type = "search"; search.className = "al-search";
+    search.placeholder = L("Chercher une urgence (nom ou ville)", "Search for an ER (name or town)");
+    search.setAttribute("aria-label", L("Chercher une urgence", "Search for an ER"));
+    const groupsBox = el("div", "al-groups");
+    const noHit = el("p", "legend", L("Aucune urgence ne correspond.", "No ER matches.")); noHit.hidden = true;
+    pick.append(search, groupsBox, noHit);
+    const fold = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    const all = (typeof data !== "undefined" ? data : []).filter((h) => !h.psy);
+    const byReg = new Map();
+    all.forEach((h) => { const k = h.region || "autre"; if (!byReg.has(k)) byReg.set(k, []); byReg.get(k).push(h); });
+    const MAIN = ["mtl", "rs", "lav", "rn", "qc", "tr"];
+    const RN = (k) => (typeof REGIONS !== "undefined" && REGIONS[k]) || L("Autres", "Other");
+    const keys = [...byReg.keys()].sort((a, b) => ((MAIN.indexOf(a) + 1 || 99) - (MAIN.indexOf(b) + 1 || 99)) || RN(a).localeCompare(RN(b), "fr"));
+    const cur = typeof region !== "undefined" ? region : "all";
+    const rows = []; // { btn, hay, det }
+    const groups = [];
+    keys.forEach((k) => {
+      const hs = byReg.get(k).sort((a, b) => a.name.localeCompare(b.name, "fr"));
+      const det = el("details", "al-grp");
+      det.open = k === cur || hs.some((h) => chosen.has(h.name));
+      const sum = el("summary");
+      sum.append(el("b", "", RN(k)), el("span", "al-n", String(hs.length)));
+      det.appendChild(sum);
+      const list = el("div", "al-list");
+      hs.forEach((h) => {
+        const b = el("button", "al-er"); b.type = "button";
+        const nm = el("span", "", h.name), area = el("small", "", h.area || "");
+        b.append(nm, area);
+        b.addEventListener("click", () => {
+          if (chosen.has(h.name)) chosen.delete(h.name);
+          else if (chosen.size < 5) chosen.add(h.name);
+          else return;
+          drawChips();
+        });
+        list.appendChild(b);
+        rows.push({ b, name: h.name, hay: fold(h.name + " " + (h.area || "") + " " + (h.address || "")), det });
+      });
+      det.appendChild(list);
+      groupsBox.appendChild(det);
+      groups.push({ det, k, wasOpen: det.open });
+    });
+    function filter() {
+      const q = fold(search.value.trim());
+      let hits = 0;
+      groups.forEach((g) => { g.det.hidden = false; });
+      const seen = new Map();
+      rows.forEach((r) => { const ok = !q || r.hay.includes(q); r.b.hidden = !ok; if (ok) { hits++; seen.set(r.det, (seen.get(r.det) || 0) + 1); } });
+      groups.forEach((g) => {
+        const n = seen.get(g.det) || 0;
+        g.det.hidden = !!q && !n;
+        if (q) g.det.open = n > 0; else g.det.open = g.wasOpen;
+      });
+      noHit.hidden = !q || hits > 0;
+    }
+    groups.forEach((g) => g.det.addEventListener("toggle", () => { if (!search.value.trim()) g.wasOpen = g.det.open; }));
+    search.addEventListener("input", filter);
     function drawChips() {
       chips.innerHTML = "";
-      chosen.forEach((n) => { const b = el("button", "al-chip", n + " ✕"); b.type = "button"; b.addEventListener("click", () => { chosen.delete(n); drawChips(); }); chips.appendChild(b); });
-      if (!chosen.size) chips.appendChild(el("span", "legend", L("Aucune urgence choisie (5 au maximum).", "No ER chosen (5 at most).")));
+      chosen.forEach((n) => { const b = el("button", "al-chip", n + " ✕"); b.type = "button"; b.setAttribute("aria-label", L("Retirer ", "Remove ") + n); b.addEventListener("click", () => { chosen.delete(n); drawChips(); }); chips.appendChild(b); });
+      if (!chosen.size) chips.appendChild(el("span", "legend", L("Aucune urgence choisie : touchez-en une dans la liste (5 au maximum).", "No ER chosen: tap one in the list (5 at most).")));
+      else if (chosen.size >= 5) chips.appendChild(el("span", "legend", L("Maximum de 5 urgences atteint.", "Maximum of 5 ERs reached.")));
+      rows.forEach((r) => { const on = chosen.has(r.name); r.b.classList.toggle("on", on); r.b.setAttribute("aria-pressed", on); r.b.disabled = !on && chosen.size >= 5; });
     }
-    const names = (typeof data !== "undefined" ? data : []).filter((h) => !h.psy).map((h) => h.name).sort((a, b) => a.localeCompare(b, "fr"));
-    erSel.appendChild(Object.assign(el("option", "", L("+ Ajouter une urgence…", "+ Add an ER…")), { value: "" }));
-    names.forEach((n) => { const o = el("option", "", n); o.value = n; erSel.appendChild(o); });
-    erSel.addEventListener("change", () => { if (erSel.value && chosen.size < 5) chosen.add(erSel.value); erSel.value = ""; drawChips(); });
     drawChips();
-    seuilBox.append(pctSel, erSel, chips);
+    seuilBox.append(pctSel, chips, pick);
     const [l2, c2] = chk(L("La meilleure urgence près de moi change", "The best ER near me changes"), A.meilleure && A.meilleure.actif);
     const [l3, c3] = chk(L("Un résumé chaque jour", "A daily summary"), A.resume && A.resume.actif);
     const hSel = el("select"); hSel.setAttribute("aria-label", L("Heure du résumé", "Summary time"));
