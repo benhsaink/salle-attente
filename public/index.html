@@ -403,6 +403,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .slogan{font-size:1.12rem;margin-top:4px}
 .sub{font-size:.9rem;margin-top:2px}
 .tabs .short{display:none}
+.erl b.calm{font-size:1.25rem}
+details.panel.fold>summary{list-style:none;cursor:pointer;font-family:var(--f-display);font-weight:600;font-size:1.05rem;display:flex;align-items:center;justify-content:space-between;min-height:28px}
+details.panel.fold>summary::-webkit-details-marker{display:none}
+details.panel.fold>summary::after{content:"";width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);transition:transform .15s;margin-right:4px}
+details.panel.fold[open]>summary::after{transform:rotate(-135deg)}
+details.panel.fold[open]>summary{margin-bottom:10px}
+.foot-nav{display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:8px}
+.foot-nav a{font-weight:700}
+.foot-src{margin:0}
 .grave{display:flex;align-items:flex-start;gap:10px;margin:0;background:var(--surface);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:10px 12px;font-size:.92rem;line-height:1.4}.grave .ic{color:var(--bad);margin-top:2px}.grave b{color:var(--ink)}
 .verif{grid-column:2;color:var(--muted);font-size:.78rem}
 .stale{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap;background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:10px 12px;margin:0;font-size:.9rem}.stale .ic{color:var(--warn);margin-top:2px}.stale span{flex:1 1 200px}
@@ -692,7 +701,7 @@ button.best-go{border:0;font:inherit;font-weight:700;cursor:pointer}
     </form>
   </section>
 
-  <footer><a href="/urgences" id="foot-regions" class="foot-link">Urgences par région</a> · <a href="#apropos" class="foot-link">À propos, sources et confidentialité</a> · <a href="#confidentialite" class="foot-link">Politique de confidentialité</a> · <a href="#soins" class="foot-link">Prestataires de soins : devenir partenaire</a><br>Source : Ministère de la Santé et des Services sociaux, Fichier horaire des données de la situation à l'urgence, Données Québec (licence CC BY 4.0). Cliniques : Répertoire des ressources en santé et services sociaux, Santé Québec. Cette application ne remplace pas un avis médical. En cas de doute, appelez le 811.</footer>
+  <footer><nav class="foot-nav" aria-label="Liens du site"><a href="#apropos" class="foot-link">À propos</a><a href="#confidentialite" class="foot-link">Confidentialité</a><a href="#soins" class="foot-link">Devenir partenaire</a><a href="/urgences" id="foot-regions" class="foot-link">Urgences par région</a></nav><p class="foot-src">Données : ministère de la Santé et des Services sociaux (Données Québec, licence CC BY 4.0) et Répertoire des ressources de Santé Québec. Ne remplace pas un avis médical : en cas de doute, appelez le 811.</p></footer>
 </div>
 
 <script>
@@ -1103,7 +1112,8 @@ function clinicCard(c, i) {
   const where = el("div", "where"), d = km(c);
   if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
+  li.appendChild(where);
+  const extra = []; // détails repliés : réservation, notes, date de vérification
 
   // À qui s'adresse la consultation le jour même (selon la fiche officielle)
   if (c.acces) {
@@ -1113,7 +1123,7 @@ function clinicCard(c, i) {
     if (c.acces === "tous") a.appendChild(document.createTextNode(", même sans médecin de famille" + (c.frais ? " (la fiche indique que des frais sont exigés)" : "") + "."));
     else a.appendChild(document.createTextNode(" à cette clinique. Sinon, appelez pour savoir s'il reste des places."));
     li.appendChild(a);
-    if (c.accesNote) li.appendChild(el("p", "cl-note", "« " + c.accesNote + " »"));
+    if (c.accesNote) extra.push(el("p", "cl-note", "« " + c.accesNote + " »"));
   }
 
   // Comment réserver aujourd'hui
@@ -1130,9 +1140,10 @@ function clinicCard(c, i) {
       ul.appendChild(liw);
       w.notes.forEach(n => notes.add(n));
     });
-    li.appendChild(ul);
-    [...notes].slice(0, 2).forEach(n => li.appendChild(el("p", "cl-note", n.charAt(0).toUpperCase() + n.slice(1))));
+    extra.push(el("div", "fc-title", "Réserver aujourd'hui"), ul);
+    [...notes].slice(0, 2).forEach(n => extra.push(el("p", "cl-note", n.charAt(0).toUpperCase() + n.slice(1))));
   }
+  { const vf = verifLine(c); if (vf) extra.push(vf); }
 
   // Actions
   const act = el("div", "cl-act");
@@ -1153,19 +1164,20 @@ function clinicCard(c, i) {
   const go = goLinks({ name: c.nom, address: [c.adresse.replace(/,? (bureau|unité|local|niveau) .*$/i, ""), c.ville].filter(Boolean).join(", ") });
   if (go) li.appendChild(go);
 
-  // Horaire de la semaine
-  if ((c.jours || []).length) {
+  // Horaire de la semaine et détails (repliés)
+  if ((c.jours || []).length || extra.length) {
     const det = el("details", "wk");
-    det.appendChild(el("summary", "", "Horaire des prochains jours"));
+    det.appendChild(el("summary", "", "Heures, réservation et détails"));
+    extra.forEach(x => det.appendChild(x));
     const ul = el("ul");
-    c.jours.forEach(j => {
+    (c.jours || []).forEach(j => {
       const [y, m, dd] = j.date.split("-").map(Number);
       const name = new Date(Date.UTC(y, m - 1, dd)).toLocaleDateString("fr-CA", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
       const row = el("li", j.date === now.date ? "today" : "");
       row.append(el("b", "", name.charAt(0).toUpperCase() + name.slice(1)), el("span", "", j.ferme ? "Fermée" : j.ouverture || "—"));
       ul.appendChild(row);
     });
-    det.appendChild(ul);
+    if ((c.jours || []).length) { det.appendChild(el("div", "fc-title", "Heures des prochains jours")); det.appendChild(ul); }
     const src = el("p", "cl-note");
     const a = el("a", "", "Fiche officielle (Santé Québec)");
     a.href = c.url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "var(--accent)";
@@ -1219,7 +1231,7 @@ function privateCard(c, i, wanted) {
   const where = el("div", "where"), d = km(c);
   if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
+  li.appendChild(where);
 
   // Services : celui qu'on cherche d'abord, puis les premiers de la fiche.
   const svc = el("div", "svc");
@@ -1242,6 +1254,7 @@ function privateCard(c, i, wanted) {
 
   const det = el("details", "wk");
   det.appendChild(el("summary", "", "Heures et tous les services"));
+  { const vf = verifLine(c); if (vf) det.appendChild(vf); }
   const now = quebecNow();
   const ul = el("ul");
   (c.jours || []).forEach(j => {
@@ -1312,7 +1325,7 @@ function labCard(c, i) {
   const where = el("div", "where");
   if (km(c) !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
+  li.appendChild(where);
   if (c.sansRdvTexte) li.appendChild(el("p", "cl-note", "Fiche officielle : « " + c.sansRdvTexte + " »"));
   const act = el("div", "cl-act");
   if (c.telephone) {
@@ -1328,6 +1341,7 @@ function labCard(c, i) {
   if (go) li.appendChild(go);
   const det = el("details", "wk");
   det.appendChild(el("summary", "", "Heures et services"));
+  { const vf = verifLine(c); if (vf) det.appendChild(vf); }
   const now = quebecNow(), ul = el("ul");
   (c.jours || []).forEach(j => {
     const [y, m, dd] = j.date.split("-").map(Number);
@@ -1604,17 +1618,22 @@ function renderFiche(name) {
     stat(fmt(h.pec), "en attente d'un médecin"),
     stat(fmt(h.present), "personnes présentes à l'urgence"),
     stat(fmt(h.occ) + " / " + fmt(h.stretchers), "civières occupées / fonctionnelles"),
+  );
+  const moreNums = el("details", "fc"); moreNums.appendChild(el("summary", "", "Plus de chiffres"));
+  const g2 = el("div", "grid2");
+  g2.append(
     stat(fmt(h.over24), "sur civière depuis plus de 24 h"),
     stat(fmt(h.over48), "sur civière depuis plus de 48 h"),
     stat(h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h", "séjour moyen sans civière (hier)"),
     stat(h.dmsCiv === null ? "—" : fmt(h.dmsCiv, 1) + " h", "séjour moyen sur civière (hier)"),
   );
+  moreNums.appendChild(g2);
   // Rang parmi les urgences du même type dans la région
   const peers = data.filter(x => x.region === h.region && !!x.psy === !!h.psy && x.rate !== null).sort((a, b) => score(a) - score(b));
   const rank = peers.indexOf(h);
-  if (rank >= 0 && REGIONS[h.region]) g.append(stat((rank + 1) + (rank ? "e" : "re") + " sur " + peers.length, "moins remplie, " + REGIONS[h.region]));
+  if (rank >= 0 && REGIONS[h.region]) g2.append(stat((rank + 1) + (rank ? "e" : "re") + " sur " + peers.length, "moins remplie, " + REGIONS[h.region]));
   const upd = el("p", "fc-note", h.updated ? "Mise à jour du ministère : " + (/^\d{1,2}:\d{2}/.test(h.updated) ? h.updated.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : h.updated) : "");
-  now.append(t, big, bar, g, upd);
+  now.append(t, big, bar, g, moreNums, upd);
   box.appendChild(now);
 
   // Y aller
@@ -1626,16 +1645,16 @@ function renderFiche(name) {
   }
 
   // Dernières 24 heures (historique enregistré par le site)
-  const recent = el("section", "panel");
-  recent.append(el("h3", "", "Dernières 24 heures"));
+  const recent = el("details", "panel fold");
+  recent.append(el("summary", "", "Dernières 24 heures"));
   const rbody = el("div", "recent"); rbody.appendChild(el("p", "fc-note", "Chargement…"));
   recent.appendChild(rbody);
   box.appendChild(recent);
   loadHistory(h.name).then(points => { if (shownFiche === h.name) drawRecent(rbody, points); });
 
   // Semaine type et meilleurs moments
-  const wk = el("section", "panel");
-  wk.appendChild(el("h3", "", "Meilleurs moments pour y aller"));
+  const wk = el("details", "panel fold");
+  wk.appendChild(el("summary", "", "Meilleurs moments pour y aller"));
   if (h.forecast && trend && trend.days >= MIN_DAYS) {
     const fc = forecastBlock(h);
     if (fc) { fc.open = true; fc.querySelector("summary").style.display = "none"; fc.style.borderTop = "0"; fc.style.marginTop = "0"; fc.style.paddingTop = "0"; wk.appendChild(fc); }
@@ -1730,6 +1749,13 @@ function weekGrid(f) {
   return wrap;
 }
 
+// Minutes écoulées depuis le relevé du ministère (« AAAA-MM-JJ HH:00 », heure du Québec).
+function minutesSince(dataAt) {
+  const m = String(dataAt || "").match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):/);
+  if (!m) return null;
+  const now = quebecNow(), [y, mo, d] = now.date.split("-").map(Number);
+  return Date.UTC(y, mo - 1, d) / 60000 + now.min - (Date.UTC(+m[1], +m[2] - 1, +m[3]) / 60000 + (+m[4]) * 60);
+}
 // Avertissement si le relevé du ministère a plus de 3 heures (heure du Québec).
 function showStale(dataAt) {
   const box = document.getElementById("stale");
@@ -1760,7 +1786,9 @@ async function load() {
     trend = json.trend || null;
     const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
     showStale(json.dataAt);
-    up.textContent = "Données " + (latest ? (/^\d{1,2}:\d{2}/.test(latest) ? "de " + latest.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : "du " + latest) : "du " + new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
+    const ago = minutesSince(json.dataAt);
+    if (ago !== null && ago >= 0) { up.textContent = ago < 60 ? "Mis à jour il y a " + Math.max(1, ago) + " min" : "Mis à jour il y a " + Math.floor(ago / 60) + " h"; up.title = "Relevé du ministère de la Santé et des Services sociaux"; }
+    else up.textContent = "Données " + (latest ? (/^\d{1,2}:\d{2}/.test(latest) ? "de " + latest.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : "du " + latest) : "du " + new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
   } catch (e) {
     data = [];
     up.textContent = "Données indisponibles pour le moment. Réessayez dans quelques minutes ou consultez quebec.ca/SituationUrgences.";
@@ -1830,7 +1858,7 @@ function render() {
     const d = km(b);
     best.querySelector("p").textContent = `${d === null ? b.area : distText(b) + " · " + b.area} · ${fmt(b.pec)} en attente`;
     const bp = best.querySelector(".best-pct b");
-    bp.textContent = b.rate === null ? "—" : Math.round(b.rate * 100) + " %";
+    bp.textContent = b.rate === null ? "—" : Math.round(b.rate * 100) === 0 ? "Calme" : Math.round(b.rate * 100) + " %";
     bp.style.color = "var(--" + bcls.slice(2) + ")";
     const app = mapsApps()[0];
     if (b.address) {
@@ -1854,7 +1882,7 @@ function render() {
     const li = document.createElement("li");
     li.className = "card er";
     li.innerHTML = `
-      <div class="erl"><b style="color:var(--${cls.slice(2)})">${pct === null ? "—" : pct + " %"}</b><span class="pill ${cls}">${label}</span><span class="rk">n° ${i + 1}</span></div>
+      <div class="erl">${pct === 0 ? `<b class="calm" style="color:var(--ok)">Calme</b><span class="pill s-ok">0 %</span>` : `<b style="color:var(--${cls.slice(2)})">${pct === null ? "—" : pct + " %"}</b><span class="pill ${cls}">${label}</span>`}<span class="rk">n° ${i + 1}</span></div>
       <div class="head"><h3></h3></div>
       <div class="where"></div>
       <div class="bar"><i style="width:${pct === null ? 0 : Math.min(100, pct / 1.5)}%;background:var(--${cls.slice(2)})"></i></div>`;
