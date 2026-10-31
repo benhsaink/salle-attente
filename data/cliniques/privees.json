@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T09:51:39.749Z",
+ "generatedAt": "2026-10-31T15:36:59.070Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Cliniques privées repérées dans la liste RAMQ des médecins non participants (15 septembre 2026), puis retrouvées dans le Répertoire des ressources de Santé Québec",
  "cliniques": [
   {
@@ -11459,6 +11459,4261 @@
    "lat": 45.53252,
    "lon": -73.65601,
    "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ABIKHZER",
+   "nofiche": 114616,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=114616",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE ABIKHZER",
+   "adresse": "5950, chemin de la Côte-des-Neiges, bureau 350",
+   "ville": "Montréal",
+   "codePostal": "H3S 1Z6",
+   "telephone": "514 733-9192",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 14 h",
+     "heures": [
+      [
+       540,
+       840
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 mars 2026, 16 h 05",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": "Horaire du sans rendez-vous pour Médecine familiale (pour tous)",
+   "services": [
+    "Contraception AVEC rendez vous",
+    "Médecine familiale",
+    "Omnipratique",
+    "PFSI – Programme Fédéral de Santé Intérimaire",
+    "Prise en charge de nouveaux usagers pour du suivi Hors RAMQ seulement",
+    "Prélèvements",
+    "Soins infirmiers",
+    "Test Pap",
+    "Évaluation de la conduite automobile SAAQ AVEC rendez vous",
+    "Examens médicaux d’immigration"
+   ],
+   "lat": 45.49976,
+   "lon": -73.6305,
+   "site": "https://cliniqueabikhzer.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE CMIE (SAINT-BRUNO)",
+   "nofiche": 856693,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=856693",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE CMIE (SAINT-BRUNO)",
+   "adresse": "1362, rue Montarville",
+   "ville": "Saint-Bruno-de-Montarville",
+   "codePostal": "J3V 3T5",
+   "telephone": "450 332-2430",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 juillet 2026, 19 h 20",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Audiologie",
+    "Audioprothésie",
+    "Cannabis à des fins médicales ou thérapeutiques",
+    "Chirurgie",
+    "Chirurgie mineure",
+    "Contraception",
+    "Dépistage",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Naturopathie",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Soins des pieds",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement au laser",
+    "Traitement des verrues plantaires",
+    "Visites à domicile",
+    "Médecine générale",
+    "Hormonothérapie",
+    "Médecine fonctionnelle",
+    "Médecinte métabolique",
+    "Compulsion et dépendance alimentaire",
+    "Prise de sang au privé",
+    "Santé mentale"
+   ],
+   "lat": 45.5298,
+   "lon": -73.34484,
+   "site": "https://www.clinique-cmie.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE CONTACT M.D.",
+   "nofiche": 1143028,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1143028",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE CONTACT M.D.",
+   "adresse": "579-A, rue Notre-Dame",
+   "ville": "Repentigny",
+   "codePostal": "J6A 7L4",
+   "telephone": "450 697-0777",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 14 h",
+     "heures": [
+      [
+       540,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 17 h",
+     "heures": [
+      [
+       510,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "25 août 2026, 13 h 38",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Infirmier/Infirmière auxiliaire",
+    "Médecine familiale",
+    "Médecine musculosquelettique",
+    "Prélèvements",
+    "Soins de plaies",
+    "Suivi CNESST",
+    "Test Pap",
+    "Urgence mineure",
+    "Psychiatrie",
+    "Nutrition",
+    "Thérapeute en relation d'aide",
+    "Soins infirmiers",
+    "Prélèvements sanguin",
+    "Dépistage ITSS"
+   ],
+   "lat": 45.74701,
+   "lon": -73.43754,
+   "site": "https://cliniquecontactmd.com/ ",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ILUMI",
+   "nofiche": 987864,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=987864",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE ILUMI",
+   "adresse": "150, boulevard de la Côte-Vertu, bureau 304",
+   "ville": "Montréal",
+   "codePostal": "H4N 1C6",
+   "telephone": "514 317-3433",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Clic santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Clic santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Clic santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Clic santé"
+       ],
+       "notes": []
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": true,
+       "heures": "En tout temps",
+       "plages": [
+        [
+         0,
+         1440
+        ]
+       ],
+       "systemes": [
+        "Clic santé"
+       ],
+       "notes": []
+      }
+     ]
+    }
+   ],
+   "systemes": [
+    "Clic santé"
+   ],
+   "miseAJour": "06 octobre 2026, 16 h 08",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": true,
+   "sansRdvTexte": null,
+   "services": [
+    "Cardiologie",
+    "Changement et/ou suivi de pansement",
+    "Contraception",
+    "Dermatologie",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Endocrinologie",
+    "Fertilité",
+    "Gynécologie",
+    "Médecine familiale",
+    "Omnipratique",
+    "Phlébologie",
+    "Pneumologie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Soins infirmiers",
+    "Test Pap",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Traitement des verrues plantaires",
+    "Visites à domicile",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.52902,
+   "lon": -73.66833,
+   "site": "https://www.cliniqueilumi.com/",
+   "reservation": {
+    "Bonjour-santé": "https://bonjour-sante.ca/"
+   }
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX (SAINT-JEAN-SUR-RICHELIEU)",
+   "nofiche": 1120850,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1120850",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX (SAINT-JEAN-SUR-RICHELIEU)",
+   "adresse": "900, boulevard du Séminaire Nord, bureau 420",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "codePostal": "J3A 1C3",
+   "telephone": "855 841-1911",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "08 septembre 2026, 15 h 11",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Bilan santé / Examen annuel",
+    "Changement et/ou suivi de pansement",
+    "Contraception",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Dépistage streptocoque groupe A / strep test avec ordonnance",
+    "Infirmier/Infirmière clinicienne",
+    "Lavage d'oreilles",
+    "Médecine familiale"
+   ],
+   "lat": 45.33094,
+   "lon": -73.26873,
+   "site": "https://cliniquesmedicaleslacroix.com",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX - WEST ISLAND",
+   "nofiche": 1169287,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1169287",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX - WEST ISLAND",
+   "adresse": "1105, rue Hyman, bureau 201",
+   "ville": "Dollard-des-Ormeaux",
+   "codePostal": "H9B 1M5",
+   "telephone": "855 841-1911",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 septembre 2026, 20 h 04",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie",
+    "Dermatologie",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage du cancer colorectal",
+    "Infirmier/Infirmière clinicienne",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Médecine interne",
+    "Neurologie",
+    "Orthopédie",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Prélèvements urinaires et selles",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Vaccination"
+   ],
+   "lat": 45.49761,
+   "lon": -73.78459,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX - VILLERAY",
+   "nofiche": 962098,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=962098",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE LACROIX - VILLERAY",
+   "adresse": "8127, boulevard Saint-Laurent",
+   "ville": "Montréal",
+   "codePostal": "H2P 2M1",
+   "telephone": "514 437-8911",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 septembre 2026, 13 h 20",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Cholestérol – Consultation pour le suivi",
+    "Contraception",
+    "Dépistage",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage du cancer colorectal",
+    "Gastroentérologie",
+    "Gynécologie",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Information sur la sexualité",
+    "Médecine d'urgence",
+    "Médecine familiale",
+    "Omnipratique",
+    "Orthopédie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Pédiatrie",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Test Pap",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Vaccination contre le zona",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.53925,
+   "lon": -73.63179,
+   "site": "https://cliniquesmedicaleslacroix.com/fr/cliniques/lacroix-express/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE MEDIPLEX",
+   "nofiche": 684217,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=684217",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE MEDIPLEX",
+   "adresse": "15610, boulevard Gouin Ouest",
+   "ville": "Montréal",
+   "codePostal": "H9H 1C4",
+   "telephone": "514 675-4554",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 février 2025, 19 h 18",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Dépistage",
+    "Médecine interne",
+    "Prise en charge de nouveaux usagers pour du suivi"
+   ],
+   "lat": 45.48293,
+   "lon": -73.86731,
+   "site": "https://www.cliniquemediplex.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE OPTIONMD",
+   "nofiche": 464306,
+   "region": "r04",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=464306",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE OPTIONMD",
+   "adresse": "62, boulevard Labbé Sud",
+   "ville": "Victoriaville",
+   "codePostal": "G6S 1B5",
+   "telephone": "819 751-1515",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 mai 2026, 19 h 54",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": "Les patients doivent appeler la journée même pour le SANS rendez-vous. Nous priorisons les patients déjà connu.",
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Chirurgie mineure",
+    "Contraception",
+    "Dépistage ITSS, Apnée du sommeil",
+    "Dépistage ITSS sans symptômes",
+    "Infiltration cortisone",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Omnipratique",
+    "Pose de sutures / agrafes",
+    "Retrait de points de suture",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Soutien / Aide technique",
+    "Test Pap",
+    "Test de glycémie ou ajustement du glucomètre",
+    "Vaccination",
+    "Électrocardiogramme (ECG)",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 46.06368,
+   "lon": -71.9372,
+   "site": "https://www.optionmd.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE VITAMED",
+   "nofiche": 1068616,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1068616",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE VITAMED",
+   "adresse": "3232, rue Bélanger, bureau 101",
+   "ville": "Montréal",
+   "codePostal": "H1Y 3H5",
+   "telephone": "438 384-3350",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "12 h à 16 h",
+     "heures": [
+      [
+       720,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 15 h",
+     "heures": [
+      [
+       540,
+       900
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "01 décembre 2024, 3 h 20",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie mineure",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Médecine familiale",
+    "Prise en charge de nouveaux usagers pour du suivi"
+   ],
+   "lat": 45.55668,
+   "lon": -73.59409,
+   "site": "https://www.cliniquevitamed.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE DE MONTRÉAL",
+   "nofiche": 1220627,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1220627",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE PRIVÉE DE MONTRÉAL",
+   "adresse": "1100, avenue Beaumont, bureau 302",
+   "ville": "Mont-Royal",
+   "codePostal": "H3P 3H5",
+   "telephone": "514 548-7444",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 mars 2026, 12 h 46",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Bilan santé / Examen annuel",
+    "Médecine familiale",
+    "Vaccination"
+   ],
+   "lat": 45.52267,
+   "lon": -73.62313,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE DRE ANNE-MARIE LANDRY",
+   "nofiche": 1150422,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1150422",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE DRE ANNE-MARIE LANDRY",
+   "adresse": "3333, boulevard du Souvenir, bureau 304",
+   "ville": "Laval",
+   "codePostal": "H7V 1X1",
+   "telephone": "438 865-7715",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "27 avril 2026, 16 h 02",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Médecine familiale Soins de santé mentale et du TDAH",
+    "Téléconsultation"
+   ],
+   "lat": 45.55295,
+   "lon": -73.74434,
+   "site": "https://www.drannemarielandry.com",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE BRISSON CARECCIA MÉDICALE PRIVÉE",
+   "nofiche": 1163999,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1163999",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE BRISSON CARECCIA MÉDICALE PRIVÉE",
+   "adresse": "4725, boulevard Métropolitain, bureau 206",
+   "ville": "Montréal",
+   "codePostal": "H1R 0C1",
+   "telephone": "514 852-2002",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 18 h",
+     "heures": [
+      [
+       480,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "31 janvier 2025, 21 h 25",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie mineure",
+    "Dermatologie",
+    "Médecine familiale",
+    "Podiatrie",
+    "Vaccination"
+   ],
+   "lat": 45.57751,
+   "lon": -73.59476,
+   "site": "https://cliniquebrissoncareccia.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE 360 OGILVY",
+   "nofiche": 1196241,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1196241",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MÉDICALE 360 OGILVY",
+   "adresse": "405, avenue Ogilvy, bureau 109",
+   "ville": "Montréal",
+   "codePostal": "H3N 1M3",
+   "telephone": "514 370-0456",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 janvier 2026, 17 h 56",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Bilan sanguin",
+    "Bilan santé / Examen annuel",
+    "Contraception",
+    "Contraception orale d'urgence",
+    "Dépistage",
+    "Dépistage ITSS avec symptômes",
+    "Dépistage ITSS sans symptômes",
+    "Dépistage des symptômes de l'infection urinaire",
+    "Hormonothérapie",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Information sur la sexualité",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvement et traitement de la mycose des ongles",
+    "Prélèvement gynécologique",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Retrait de points de suture",
+    "Soins infirmiers",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.53108,
+   "lon": -73.6257,
+   "site": "https://www.clinique360.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "POLYCLINIQUE CENTRE-VILLE ORL ET SPÉCIALITÉS MÉDICALES",
+   "nofiche": 650345,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=650345",
+   "lu": "2026-10-31",
+   "nomOfficiel": "POLYCLINIQUE CENTRE-VILLE ORL ET SPÉCIALITÉS MÉDICALES",
+   "adresse": "450, rue Saint-Antoine Est, bureau 102",
+   "ville": "Montréal",
+   "codePostal": "H2Y 1A5",
+   "telephone": "514 507-7722",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 19 h 30",
+     "heures": [
+      [
+       480,
+       1170
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 30",
+     "heures": [
+      [
+       480,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "12 février 2025, 14 h 10",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Allergologie",
+    "Cardiologie",
+    "Chirurgie plastique",
+    "Dépistage Maladies infectieuses",
+    "Endocrinologie",
+    "Kinésiologie",
+    "Microbiologie médicale et infectiologie",
+    "Médecine esthétique",
+    "Neurologie",
+    "Neuropsychologie",
+    "ORL - Oto-rhino-laryngologie",
+    "Ostéopathie",
+    "Physiothérapie",
+    "Pneumologie",
+    "Vaccination"
+   ],
+   "lat": 45.51158,
+   "lon": -73.55365,
+   "site": "https://www.pcvmontreal.com",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE MÉDICAL DE PNEUMOLOGIE",
+   "nofiche": 1170683,
+   "region": "lav",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1170683",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CENTRE MÉDICAL DE PNEUMOLOGIE",
+   "adresse": "1545, boulevard de l'Avenir, bureau 101",
+   "ville": "Laval",
+   "codePostal": "H7S 2N5",
+   "telephone": "514 416-3456",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h",
+     "heures": [
+      [
+       510,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "15 juin 2026, 16 h 44",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Cessation tabagisme",
+    "Inhalothérapie",
+    "Pneumologie",
+    "Suivi maladie chronique",
+    "Téléconsultation",
+    "Évaluation et traitement du trouble du sommeil / clinique du sommeil",
+    "Clinique médicale hors RAMQ"
+   ],
+   "lat": 45.56468,
+   "lon": -73.72393,
+   "site": "http://www.pneumologie.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE MÉDICAL DOCTEUR KANEVSKY WELL CENTER",
+   "nofiche": 1142145,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1142145",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CENTRE MÉDICAL DOCTEUR KANEVSKY WELL CENTER",
+   "adresse": "2070, rue Peel",
+   "ville": "Montréal",
+   "codePostal": "H3A 1W6",
+   "telephone": "438 469-9362",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "12 février 2025, 20 h 50",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Médecine familiale",
+    "Téléconsultation"
+   ],
+   "lat": 45.5011,
+   "lon": -73.57583,
+   "site": "https://centremedical.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "GROUPE MÉDICAL JEAN TALON",
+   "nofiche": 684431,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=684431",
+   "lu": "2026-10-31",
+   "nomOfficiel": "GROUPE MÉDICAL JEAN TALON",
+   "adresse": "5255, boulevard Henri-Bourassa Ouest, bureau 312",
+   "ville": "Montréal",
+   "codePostal": "H4R 2M6",
+   "telephone": "514 495-2555",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h 30 à 13 h 30",
+     "heures": [
+      [
+       570,
+       810
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h 30 à 13 h 30",
+     "heures": [
+      [
+       570,
+       810
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h 30 à 13 h 30",
+     "heures": [
+      [
+       570,
+       810
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h 30 à 13 h 30",
+     "heures": [
+      [
+       570,
+       810
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h 30 à 13 h 30",
+     "heures": [
+      [
+       570,
+       810
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "28 septembre 2026, 20 h 44",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Contraception",
+    "Gynécologie",
+    "Médecine familiale",
+    "Omnipratique",
+    "Test Pap"
+   ],
+   "lat": 45.52118,
+   "lon": -73.7106,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CABINET MÉDICAL PRIVÉ RIVE-SUD",
+   "nofiche": 1162001,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1162001",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CABINET MÉDICAL PRIVÉ RIVE-SUD",
+   "adresse": "1, rue Daragon",
+   "ville": "Saint-Basile-le-Grand",
+   "codePostal": "J3N 1L5",
+   "telephone": "450 482-3441",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 octobre 2026, 14 h 30",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Médecine familiale",
+    "MÉDECINE FAMILIALE - 1 MÉDECIN"
+   ],
+   "lat": 45.52784,
+   "lon": -73.2881,
+   "site": "https://cabinetmedicalprive.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE MÉDICAL VILLE MARIE",
+   "nofiche": 48192,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=48192",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CENTRE MÉDICAL VILLE MARIE",
+   "adresse": "1538, rue Sherbrooke Ouest, bureau 1000",
+   "ville": "Montréal",
+   "codePostal": "H3G 1L5",
+   "telephone": "514 933-2778",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 16 h 30",
+     "heures": [
+      [
+       420,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 janvier 2025, 18 h 21",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie générale",
+    "Chirurgie mineure",
+    "Contraception",
+    "Doppler",
+    "Dépistage",
+    "Endocrinologie",
+    "Gynécologie",
+    "Mammographie clinique spécialisée dans la prévention du cancer du sein",
+    "Médecine interne",
+    "Obstétrique",
+    "Oncologie",
+    "Ostéodensitométrie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Suivi de grossesse",
+    "Test Pap",
+    "Vaccination",
+    "Échographie seins, thyroïde, gynécologique (endovaginal, pelvienne)",
+    "Équipement spécialisé"
+   ],
+   "lat": 45.49658,
+   "lon": -73.58113,
+   "site": "https://www.vmmed.com",
+   "reservation": {}
+  },
+  {
+   "nom": "COMPLEXE MÉDICAL NORD-DE-L'ÎLE",
+   "nofiche": 899292,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=899292",
+   "lu": "2026-10-31",
+   "nomOfficiel": "COMPLEXE MÉDICAL NORD-DE-L'ÎLE",
+   "adresse": "5777, boulevard Gouin Ouest, bureau 370",
+   "ville": "Montréal",
+   "codePostal": "H4J 1E3",
+   "telephone": "514 331-1400",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 11 h 30",
+     "heures": [
+      [
+       510,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 12 h",
+     "heures": [
+      [
+       540,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "16 décembre 2024, 16 h 36",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Neurochirurgie",
+    "Orthopédie",
+    "Prise en charge de nouveaux usagers pour du suivi"
+   ],
+   "lat": 45.53241,
+   "lon": -73.72017,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "ELNA MÉDICAL – CARRÉ DÉCARIE (LOCAL M-160)",
+   "nofiche": 1179990,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1179990",
+   "lu": "2026-10-31",
+   "nomOfficiel": "ELNA MÉDICAL – CARRÉ DÉCARIE (LOCAL M-160)",
+   "adresse": "6900, boulevard Décarie, bureau M-160",
+   "ville": "Côte-Saint-Luc",
+   "codePostal": "H3X 2T8",
+   "telephone": "514 373-3562",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "28 août 2026, 14 h 11",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Endocrinologie",
+    "Gastroentérologie",
+    "Gynécologie",
+    "Hématologie",
+    "Néphrologie",
+    "ORL - Oto-rhino-laryngologie",
+    "Obstétrique",
+    "Urologie"
+   ],
+   "lat": 45.49145,
+   "lon": -73.64906,
+   "site": "https://elnamedical.com/cliniques/elna-medical-decarie-square-suite-m-160/",
+   "reservation": {}
+  },
+  {
+   "nom": "VITA MÉDICALE",
+   "nofiche": 1181355,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1181355",
+   "lu": "2026-10-31",
+   "nomOfficiel": "VITA MÉDICALE",
+   "adresse": "1665, rue Sainte-Catherine Ouest, réception 2",
+   "ville": "Montréal",
+   "codePostal": "H3H 1L9",
+   "telephone": "514 292-0801",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "12 juin 2026, 20 h 53",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Bilan santé / Examen annuel",
+    "Dépistage ITSS avec symptômes",
+    "Infirmier/Infirmière clinicienne",
+    "Médecine familiale",
+    "Test Pap",
+    "Clinique médicale privée"
+   ],
+   "lat": 45.49429,
+   "lon": -73.57944,
+   "site": "https://vitamedicale.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE EXCEPTION MD",
+   "nofiche": 748492,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=748492",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE EXCEPTION MD",
+   "adresse": "1605, boulevard Marcel-Laurin, bureau 230",
+   "ville": "Montréal",
+   "codePostal": "H4R 0B7",
+   "telephone": "514 509-2000",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "20 décembre 2024, 20 h 38",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie",
+    "Chirurgie mineure AVEC rendez vous",
+    "Chirurgie plastique",
+    "Médecine sportive",
+    "Orthopédie",
+    "Prise en charge de nouveaux usagers pour du suivi AVEC rendez vous",
+    "Échographie",
+    "Équipement spécialisé AVEC rendez vous"
+   ],
+   "lat": 45.51578,
+   "lon": -73.69554,
+   "site": "https://www.drbrutus.com/fr/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MD DIRECTE",
+   "nofiche": 1112878,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1112878",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MD DIRECTE",
+   "adresse": "5151, rue Jean-Talon E, bureau 270",
+   "ville": "Montréal",
+   "codePostal": "H1S 1K8",
+   "telephone": "514 667-6900",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "11 février 2026, 22 h 06",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie mineure",
+    "Dépistage grippe / influenza",
+    "Dépistage streptocoque tous les groupes",
+    "Injection de médicaments",
+    "Lavage d'oreilles",
+    "Médecine familiale",
+    "Électrocardiogramme (ECG)"
+   ],
+   "lat": 45.5776,
+   "lon": -73.58313,
+   "site": "https://cliniquemddirecte.ca/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE MICHEL GAGNER MD",
+   "nofiche": 1008316,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1008316",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE MICHEL GAGNER MD",
+   "adresse": "4, carré Westmount, bureau 250",
+   "ville": "Westmount",
+   "codePostal": "H3Z 2S6",
+   "telephone": "514 922-5055",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 17 h",
+     "heures": [
+      [
+       540,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "05 décembre 2024, 20 h 56",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie Générale, bariatrique, orthopédique",
+    "Chirurgie mineure",
+    "Prise en charge de nouveaux usagers pour du suivi"
+   ],
+   "lat": 45.48723,
+   "lon": -73.58856,
+   "site": "https://cliniquemichelgagner.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE DE SANTÉ SAINT-PIERRE",
+   "nofiche": 51319,
+   "region": "r16",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=51319",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CENTRE DE SANTÉ SAINT-PIERRE",
+   "adresse": "2095, rue Saint-Pierre Ouest, unité 2",
+   "ville": "Saint-Hyacinthe",
+   "codePostal": "J2T 1P8",
+   "telephone": "450 773-7770",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "23 mars 2026, 17 h 20",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Omnipratique",
+    "Vaccination",
+    "HORAIRE"
+   ],
+   "lat": 45.62018,
+   "lon": -72.94767,
+   "site": null,
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE PRIVEO SANTÉ (LONGUEUIL)",
+   "nofiche": 1192474,
+   "region": "rs",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1192474",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE PRIVEO SANTÉ (LONGUEUIL)",
+   "adresse": "5125, boulevard Cousineau, bureau 208",
+   "ville": "Longueuil",
+   "codePostal": "J3Y 3K7",
+   "telephone": "855 776-7748",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "24 juillet 2026, 18 h 10",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Médecine familiale",
+    "Vaccination"
+   ],
+   "lat": 45.50246,
+   "lon": -73.42743,
+   "site": "https://priveosante.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE PRIVEO SANTÉ (BLAINVILLE)",
+   "nofiche": 1240284,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1240284",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE PRIVEO SANTÉ (BLAINVILLE)",
+   "adresse": "1099, boulevard du Curé-Labelle, bureau 201",
+   "ville": "Blainville",
+   "codePostal": "J7C 2M2",
+   "telephone": "855 776-7748",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "22 septembre 2026, 15 h 27",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Médecine familiale",
+    "Santé voyage",
+    "Vaccination",
+    "Urgences mineures",
+    "Santé mentale",
+    "Bilan de santé",
+    "Santé Voyage",
+    "Pédiatrie",
+    "Traitement contre l'obésité",
+    "Hormonothérapie",
+    "Clinique médeicale privée à Blainivlle"
+   ],
+   "lat": 45.67756,
+   "lon": -73.8875,
+   "site": "https://priveosante.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE SANTÉ 360 L'ASSOMPTION",
+   "nofiche": 1173247,
+   "region": "rn",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1173247",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE SANTÉ 360 L'ASSOMPTION",
+   "adresse": "831, boulevard de l'Ange-Gardien Nord, bureau 305",
+   "ville": "L'Assomption",
+   "codePostal": "J5W 1P5",
+   "telephone": "450 589-6360",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "8 h à 12 h",
+     "heures": [
+      [
+       480,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "6 h à 18 h",
+     "heures": [
+      [
+       360,
+       1080
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "7 h à 19 h",
+     "heures": [
+      [
+       420,
+       1140
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "6 h à 16 h",
+     "heures": [
+      [
+       360,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 16 h",
+     "heures": [
+      [
+       420,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 16 h",
+     "heures": [
+      [
+       420,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "29 octobre 2026, 17 h 55",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": "Urgence mineure (présentation sur place sans rendez-vous) (des frais sont exigés)",
+   "services": [
+    "Changement et/ou suivi de pansement",
+    "Contraception",
+    "Dépistage",
+    "Dépistage anonyme",
+    "Infiltration cortisone",
+    "Infirmier/Infirmière auxiliaire",
+    "Infirmier/Infirmière clinicienne",
+    "Infirmier/Infirmière praticienne spécialisée",
+    "Lavage d'oreilles",
+    "Médecine du travail",
+    "Médecine esthétique",
+    "Médecine familiale",
+    "Médecine musculosquelettique",
+    "Omnipratique",
+    "Pose et/ou retrait d'un stérilet",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Prélèvements",
+    "Prélèvements sanguins / Prise de sang",
+    "Santé voyage",
+    "Soins infirmiers",
+    "Suivi CNESST",
+    "Suivi post-covid-19 ou covid longue",
+    "Traitement des verrues / Cryothérapie",
+    "Téléconsultation",
+    "Urgence mineure (présentation sur place sans rendez-vous)",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Vaccination contre la rage",
+    "Vaccination contre le zona"
+   ],
+   "lat": 45.83897,
+   "lon": -73.41453,
+   "site": "https://www.cliniquesante360.com",
+   "reservation": {}
+  },
+  {
+   "nom": "CLINIQUE SANTÉ CONTINUUM",
+   "nofiche": 1179100,
+   "region": "r04",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1179100",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CLINIQUE SANTÉ CONTINUUM",
+   "adresse": "122, rue Saint-Jean",
+   "ville": "Drummondville",
+   "codePostal": "J2B 5K8",
+   "telephone": "873 200-0905",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 15 à 16 h 30",
+     "heures": [
+      [
+       495,
+       990
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "21 juillet 2026, 13 h 06",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Infirmière praticienne spécialisée en soins de première ligne (IPSPL)",
+    "Médecine d'urgence",
+    "Médecine familiale"
+   ],
+   "lat": 45.87969,
+   "lon": -72.4805,
+   "site": "https://cliniquesantecontinuum.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "CYCLONE SANTÉ",
+   "nofiche": 34760,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34760",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CYCLONE SANTÉ",
+   "adresse": "1470, rue Peel, unité 850",
+   "ville": "Montréal",
+   "codePostal": "H3A 1T1",
+   "telephone": "866 419-5652",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 17 h 30",
+     "heures": [
+      [
+       450,
+       1050
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "19 juin 2026, 22 h 40",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie plastique",
+    "Médecine du travail",
+    "Médecine familiale",
+    "Neurologie",
+    "Omnipratique",
+    "Orthopédie",
+    "Prise en charge de nouveaux usagers pour du suivi",
+    "Psychiatrie",
+    "Psychologie",
+    "Rhumatologie",
+    "Suivi CNESST",
+    "Suivi SAAQ/ Formulaires",
+    "Services d'expertises médicales"
+   ],
+   "lat": 45.50047,
+   "lon": -73.57448,
+   "site": "https://www.cyclonesante.com",
+   "reservation": {}
+  },
+  {
+   "nom": "CENTRE DGL HORMONOTHÉRAPIE, MÉDICO-ESTHÉTIQUE ET SANTÉ SEXUELLE",
+   "nofiche": 1239807,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1239807",
+   "lu": "2026-10-31",
+   "nomOfficiel": "CENTRE DGL HORMONOTHÉRAPIE, MÉDICO-ESTHÉTIQUE ET SANTÉ SEXUELLE",
+   "adresse": "407, rue McGill, bureau 900B",
+   "ville": "Montréal",
+   "codePostal": "H2Y 2G3",
+   "telephone": "514 766-6669",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "18 septembre 2026, 12 h 22",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Hormonothérapie",
+    "Médecine esthétique",
+    "PrEP - Prophylaxie préexposition",
+    "Santé sexuelle",
+    "Traitement au laser"
+   ],
+   "lat": 45.50047,
+   "lon": -73.55734,
+   "site": "https://drgabriellelandry.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GESTION ACCÈS SANTÉ INC.",
+   "nofiche": 1001444,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1001444",
+   "lu": "2026-10-31",
+   "nomOfficiel": "GESTION ACCÈS SANTÉ INC.",
+   "adresse": "1130, avenue Beaumont, bureau 100",
+   "ville": "Mont-Royal",
+   "codePostal": "H3P 3E5",
+   "telephone": "514 742-5022",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "10 juin 2025, 16 h 38",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Chirurgie Chirurgie orthopédie",
+    "Chirurgie mineure",
+    "Infiltration de cortisone sous échographie",
+    "Médecine sportive",
+    "Échographie"
+   ],
+   "lat": 45.52207,
+   "lon": -73.62268,
+   "site": "https://www.beauchamportho.com/",
+   "reservation": {}
+  },
+  {
+   "nom": "GMF PHYSIMED (GROUPE SANTÉ PHYSIMED INC.)",
+   "nofiche": 34640,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=34640",
+   "lu": "2026-10-31",
+   "nomOfficiel": "GMF PHYSIMED (GROUPE SANTÉ PHYSIMED INC.)",
+   "adresse": "6363, route Transcanadienne, bureau 121",
+   "ville": "Montréal",
+   "codePostal": "H4T 1Z9",
+   "telephone": "514 747-8888",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Clinique d'urgence sur rendez-vous seulement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Clinique d'urgence sur rendez-vous seulement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Clinique d'urgence sur rendez-vous seulement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 20 h",
+     "heures": [
+      [
+       480,
+       1200
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Clinique d'urgence sur rendez-vous seulement."
+       ]
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 19 h",
+     "heures": [
+      [
+       480,
+       1140
+      ]
+     ],
+     "rdvJour": [
+      {
+       "auto": false,
+       "heures": "8 h à 16 h",
+       "plages": [
+        [
+         480,
+         960
+        ]
+       ],
+       "systemes": [],
+       "notes": [
+        "Clinique d'urgence sur rendez-vous seulement."
+       ]
+      }
+     ]
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "31 mai 2025, 23 h 50",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Acupuncture",
+    "Audiologie",
+    "Cardiologie",
+    "Changement et/ou suivi de pansement",
+    "Chirurgie générale",
+    "Chirurgie mineure",
+    "Contraception",
+    "Dentisterie",
+    "Denturologie",
+    "Diététique",
+    "Doppler",
+    "Dépistage",
+    "Endocrinologie",
+    "Ergothérapie",
+    "Gastroentérologie",
+    "Gynécologie",
+    "Hygiène dentaire",
+    "Immunologie clinique",
+    "Infirmier/Infirmière auxiliaire",
+    "Kinésiologie",
+    "Mammographie",
+    "Massothérapie",
+    "Médecine d'urgence",
+    "Médecine esthétique",
+    "Médecine familiale",
+    "Médecine interne",
+    "Médecine sportive",
+    "Neurologie",
+    "Nutrition",
+    "ORL - Oto-rhino-laryngologie",
+    "Omnipratique",
+    "Orthopédie",
+    "Ostéodensitométrie",
+    "Ostéopathie",
+    "Oxygène",
+    "Phlébologie",
+    "Physiothérapie",
+    "Pneumologie",
+    "Podiatrie",
+    "Pose et/ou retrait d'un stérilet",
+    "Prélèvements",
+    "Psychologie",
+    "Pédiatrie",
+    "Rhumatologie",
+    "Résonance magnétique",
+    "Santé voyage",
+    "Service de prise de tension artérielle",
+    "Soins des pieds",
+    "Soins infirmiers",
+    "Test Pap",
+    "Test de cholestérol sans ordonnance (capillaire par bandelettes)",
+    "Tomodensitométrie / Scanner",
+    "Traitement des verrues plantaires",
+    "Vaccination",
+    "Vaccination contre la grippe",
+    "Échographie",
+    "Électrocardiogramme (ECG)",
+    "Électromyogramme (EMG)",
+    "Équipement spécialisé",
+    "Évaluation de la conduite automobile SAAQ"
+   ],
+   "lat": 45.49567,
+   "lon": -73.68649,
+   "site": "https://www.physimed.com",
+   "reservation": {}
+  },
+  {
+   "nom": "GTR SANTÉ MONTRÉAL",
+   "nofiche": 1172930,
+   "region": "mtl",
+   "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1172930",
+   "lu": "2026-10-31",
+   "nomOfficiel": "GTR SANTÉ MONTRÉAL",
+   "adresse": "1312, rue Sainte-Catherine Ouest, 2e étage",
+   "ville": "Montréal",
+   "codePostal": "H3G 1P6",
+   "telephone": "514 547-3122",
+   "jours": [
+    {
+     "date": "2026-10-31",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 14 h",
+     "heures": [
+      [
+       480,
+       840
+      ]
+     ],
+     "rdvJour": []
+    }
+   ],
+   "systemes": [],
+   "miseAJour": "14 avril 2026, 17 h 51",
+   "telephoneSansRdv": false,
+   "acces": null,
+   "accesNote": null,
+   "nonParticipant": true,
+   "clicSante": false,
+   "sansRdvTexte": null,
+   "services": [
+    "Bilan sanguin",
+    "Bilan santé / Examen annuel",
+    "Médecine familiale",
+    "Naturopathie",
+    "Nutrition",
+    "Prélèvements sanguins / Prise de sang",
+    "Soins infirmiers",
+    "Soins à domicile",
+    "Téléconsultation",
+    "Vaccination"
+   ],
+   "lat": 45.49755,
+   "lon": -73.57499,
+   "site": "https://www.gtrsante.com/",
    "reservation": {}
   }
  ]
