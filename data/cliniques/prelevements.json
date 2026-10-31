@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T10:08:06.240Z",
+ "generatedAt": "2026-10-31T09:56:48.689Z",
  "source": "Répertoire des ressources en santé et services sociaux (Santé Québec), Recherche par nom dans le Répertoire des ressources (prélèvement, laboratoire, Biron, Dynacare, CDL), 28 octobre 2026",
  "cliniques": [
   {
@@ -8,20 +8,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1215353",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "AU-MÉDIC CENTRE DE SOINS PRÉLÈVEMENTS",
    "adresse": "7777-12, boulevard Guillaume-Couture",
    "ville": "Lévis",
    "codePostal": "G6V 6Z1",
    "telephone": "418 577-6096",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -59,6 +52,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": null,
      "heures": [],
@@ -93,25 +93,13 @@
    "region": "lav",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=913087",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CAS MÉDIC - CENTRE DE PRÉLÈVEMENTS MÉDICAUX",
    "adresse": "1768-B, boulevard des Laurentides (Vimont)",
    "ville": "Laval",
    "codePostal": "H7M 2P6",
    "telephone": "888 575-0855",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -169,6 +157,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -205,25 +205,13 @@
    "region": "r05",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=53015",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRÉLÈVEMENT (ÉDIFICE MURRAY)",
    "adresse": "500, rue Murray, bureau 0110",
    "ville": "Sherbrooke",
    "codePostal": "J1G 2K6",
    "telephone": "819 346-1110",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 14 h 30",
-     "heures": [
-      [
-       420,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -285,6 +273,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 14 h 30",
+     "heures": [
+      [
+       420,
+       870
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -309,20 +309,13 @@
    "region": "r15",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=480446",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRÉLÈVEMENT DE FERME-NEUVE",
    "adresse": "70, 12e Rue",
    "ville": "Ferme-Neuve",
    "codePostal": "J0W 1C0",
    "telephone": "819 767-2488",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -369,6 +362,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -391,25 +391,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1219937",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRÉLÈVEMENT MÉDI-BOURG",
    "adresse": "5000, 3e Avenue Ouest, bureau M",
    "ville": "Québec",
    "codePostal": "G1H 7J1",
    "telephone": "418 623-3522",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "9 h à 20 h",
-     "heures": [
-      [
-       540,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -481,6 +469,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "9 h à 20 h",
+     "heures": [
+      [
+       540,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -510,20 +510,13 @@
    "region": "r16",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=896258",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRÉLÈVEMENTS CAROLINE CÔTÉ",
    "adresse": "400-A, route Marie-Victorin",
    "ville": "Sorel-Tracy",
    "codePostal": "J3R 1K7",
    "telephone": "450 855-7264",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -585,6 +578,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -610,25 +610,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=946000",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRELEVEMENTS CURA",
    "adresse": "4475, route de Fossambault, bureau 202",
    "ville": "Sainte-Catherine-de-la-Jacques-Cartier",
    "codePostal": "G3N 2Z6",
    "telephone": "418 875-4555",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 13 h",
-     "heures": [
-      [
-       360,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -690,6 +678,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h à 13 h",
+     "heures": [
+      [
+       360,
+       780
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -735,25 +735,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1180487",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (NAPIERVILLE)",
    "adresse": "210, rue Saint-Nicolas",
    "ville": "Napierville",
    "codePostal": "J0J 1L0",
    "telephone": "579 536-5959",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 17 h",
-     "heures": [
-      [
-       360,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -806,6 +794,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h à 17 h",
+     "heures": [
+      [
+       360,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h à 17 h",
      "heures": [
@@ -841,25 +841,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1219210",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (SAINT-CONSTANT)",
    "adresse": "227, rue Sainte-Catherine, unité 101, situé dans la PHARMACIE PROXIM MAXIME PRIMEAU ET MICHAEL AOMARI",
    "ville": "Saint-Constant",
    "codePostal": "J5A 2J5",
    "telephone": "450 635-8383",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 8 h 30",
-     "heures": [
-      [
-       450,
-       510
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -901,6 +889,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 8 h 30",
+     "heures": [
+      [
+       450,
+       510
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -929,20 +929,13 @@
    "region": "r01",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=827380",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS ET DE SOINS INFIRMIERS DU BIC",
    "adresse": "159, rue de Sainte-Cécile-du-Bic, bureau 106",
    "ville": "Rimouski",
    "codePostal": "G0L 1B0",
    "telephone": "418 736-4338",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -994,6 +987,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1036,25 +1036,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=79438",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS GLOBULINE (SALABERRY-DE-VALLEYFIELD)",
    "adresse": "140, rue Maden",
    "ville": "Salaberry-de-Valleyfield",
    "codePostal": "J6S 3V6",
    "telephone": "450 373-4200",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "5 h 45 à 11 h",
-     "heures": [
-      [
-       345,
-       660
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1107,6 +1095,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "5 h 45 à 11 h",
+     "heures": [
+      [
+       345,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "5 h 45 à 11 h",
      "heures": [
@@ -1145,25 +1145,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=671666",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS GLOBULINE (VAUDREUIL-DORION)",
    "adresse": "168, avenue Saint-Charles",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 2L1",
    "telephone": "450 424-8444",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 11 h 30",
-     "heures": [
-      [
-       360,
-       690
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1216,6 +1204,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h à 11 h 30",
+     "heures": [
+      [
+       360,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h à 11 h 30",
      "heures": [
@@ -1251,7 +1251,7 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1214351",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS NR",
    "adresse": "774-D, rue Étienne-Raymond",
    "ville": "Sainte-Marie",
@@ -1282,25 +1282,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=29858",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS RICHELIEU",
    "adresse": "1111, chemin des Patriotes",
    "ville": "Richelieu",
    "codePostal": "J3L 4W6",
    "telephone": "450 447-6767",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "5 h à 11 h",
-     "heures": [
-      [
-       300,
-       660
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1353,6 +1341,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "5 h à 11 h",
+     "heures": [
+      [
+       300,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "5 h à 11 h",
      "heures": [
@@ -1387,20 +1387,13 @@
    "region": "r01",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=562536",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS SANG DÉLAI (MATANE)",
    "adresse": "548, avenue du Phare Est, bureau 102",
    "ville": "Matane",
    "codePostal": "G4W 1A7",
    "telephone": "418 562-2212",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1438,6 +1431,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": null,
      "heures": [],
@@ -1471,25 +1471,13 @@
    "region": "r01",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=37862",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS SANG DÉLAI (RIMOUSKI)",
    "adresse": "160, rue de l'Évêché Ouest, bureau 101",
    "ville": "Rimouski",
    "codePostal": "G5L 4H9",
    "telephone": "418 721-2212",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 14 h",
-     "heures": [
-      [
-       390,
-       840
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1542,6 +1530,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 14 h",
      "heures": [
@@ -1580,25 +1580,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1200776",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE MÉDICALE ET CENTRE DE PRÉLÈVEMENTS MEDICOSENS",
    "adresse": "9, rue de l'Église, bureau 200",
    "ville": "Sainte-Thérèse",
    "codePostal": "J7E 3K9",
    "telephone": "450 508-2168",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 9 h",
-     "heures": [
-      [
-       360,
-       540
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1660,6 +1648,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h à 9 h",
+     "heures": [
+      [
+       360,
+       540
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1686,25 +1686,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1004751",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE PRÉLÈVEMENTS ET VACCINATION MULTI-SANTÉ (CHEMN LAROCQUE, VALLEYFIELD) - PHARMACIE CLINIQUE DES BÂTISSEURS JEAN-FRANÇOIS THIBEAULT, ÉMILIE LEFEBVRE ET SANDRA GERGES",
    "adresse": "616, chemin Larocque, unité 110",
    "ville": "Salaberry-de-Valleyfield",
    "codePostal": "J6T 4C5",
    "telephone": "450 377-4445",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 14 h 30",
-     "heures": [
-      [
-       480,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -1766,6 +1754,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 14 h 30",
+     "heures": [
+      [
+       480,
+       870
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -1799,7 +1799,7 @@
    "region": "r12",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1037",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC D'ARMAGH - SITE DE PRÉLÈVEMENTS-ARMAGH",
    "adresse": "72, rue Principale",
    "ville": "Armagh",
@@ -1807,7 +1807,49 @@
    "telephone": "418 883-2227",
    "jours": [
     {
-     "date": "2026-10-30",
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -1856,49 +1898,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-31",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-01",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-02",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-03",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-04",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-05",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -1925,7 +1925,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1802",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE BAIE-SAINTE-CATHERINE (CENTRE DE PRÉLÈVEMENTS)",
    "adresse": "308, rue Leclerc",
    "ville": "Baie-Sainte-Catherine",
@@ -1933,7 +1933,49 @@
    "telephone": "418 638-2369",
    "jours": [
     {
-     "date": "2026-10-30",
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -1982,49 +2024,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-31",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-01",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-02",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-03",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-04",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-05",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -2051,25 +2051,13 @@
    "region": "rn",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=291363",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (RAWDON)",
    "adresse": "3733, rue Charbonneau",
    "ville": "Rawdon",
    "codePostal": "J0K 1S0",
    "telephone": "450 882-2488",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 9 h 30",
-     "heures": [
-      [
-       450,
-       570
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2112,6 +2100,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 9 h 30",
+     "heures": [
+      [
+       450,
+       570
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 9 h 30",
      "heures": [
@@ -2143,20 +2143,13 @@
    "region": "rn",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=291375",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (SAINT-ALPHONSE-RODRIGUEZ)",
    "adresse": "100, rue de la Plage",
    "ville": "Saint-Alphonse-Rodriguez",
    "codePostal": "J0K 1W0",
    "telephone": "450 882-1054",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2203,6 +2196,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2225,20 +2225,13 @@
    "region": "rn",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=291387",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE CHERTSEY - UNITÉ MOBILE DE PRÉLÈVEMENTS (SAINT-CÔME)",
    "adresse": "1673, 55e Rue",
    "ville": "Saint-Côme",
    "codePostal": "J0K 2B0",
    "telephone": "450 882-1054",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2285,6 +2278,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2307,7 +2307,7 @@
    "region": "qc",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=349489",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE PORTNEUF (CENTRE DE PRÉLÈVEMENTS)",
    "adresse": "230, rue Siméon-Delisle",
    "ville": "Portneuf",
@@ -2315,7 +2315,49 @@
    "telephone": "000 000-0000",
    "jours": [
     {
-     "date": "2026-10-30",
+     "date": "2026-10-31",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-01",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-02",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-03",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-04",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -2364,49 +2406,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-10-31",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-01",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-02",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-03",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-04",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
-    {
-     "date": "2026-11-05",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -2433,20 +2433,13 @@
    "region": "qc",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=170481",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLSC DE RIVIÈRE-À-PIERRE (CENTRE DE PRÉLÈVEMENTS)",
    "adresse": "830, rue Principale",
    "ville": "Rivière-à-Pierre",
    "codePostal": "G0A 3A0",
    "telephone": "000 000-0000",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2490,8 +2483,8 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
-     "ferme": false,
+     "date": "2026-11-06",
+     "ferme": true,
      "ouverture": null,
      "heures": [],
      "rdvJour": []
@@ -2542,6 +2535,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -2564,7 +2564,7 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=555594",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CENTRE DE PRÉLÈVEMENTS DE VARENNES",
    "adresse": "2022, place du 350e, unité 111, salle Robert Provost",
    "ville": "Varennes",
@@ -2572,18 +2572,6 @@
    "telephone": "450 677-2917",
    "jours": [
     {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
-    {
      "date": "2026-10-31",
      "ferme": true,
      "ouverture": null,
@@ -2636,13 +2624,13 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": false,
-     "ouverture": "7 h à 9 h 30",
+     "ouverture": "7 h à 12 h",
      "heures": [
       [
        420,
-       570
+       720
       ]
      ],
      "rdvJour": []
@@ -2694,6 +2682,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 9 h 30",
+     "heures": [
+      [
+       420,
+       570
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 9 h 30",
      "heures": [
@@ -2725,25 +2725,13 @@
    "region": "r15",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=381195",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL - SAINTE-AGATHE-DES-MONTS (PRÉLÈVEMENTS)",
    "adresse": "118, rue Principale Est",
    "ville": "Sainte-Agathe-des-Monts",
    "codePostal": "J8C 1K1",
    "telephone": "866 495-5833",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2796,6 +2784,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 12 h",
      "heures": [
@@ -2830,20 +2830,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1232013",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DMPRÉLÈVEMENT",
    "adresse": "1875, rue Notre-Dame, bureau 50",
    "ville": "L'Ancienne-Lorette",
    "codePostal": "G2E 4K1",
    "telephone": "581 984-0213",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2894,6 +2887,13 @@
        630
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -2920,25 +2920,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490596",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CENTRE DE PRÉLÈVEMENTS DOLLARD-DES-ORMEAUX)",
    "adresse": "3675, boulevard des Sources, bureau 202",
    "ville": "Dollard-Des Ormeaux",
    "codePostal": "H9B 2K4",
    "telephone": "514 683-9131",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 13 h",
-     "heures": [
-      [
-       450,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -2991,6 +2979,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 13 h",
+     "heures": [
+      [
+       450,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 13 h",
      "heures": [
@@ -3031,25 +3031,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490639",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CENTRE DE PRÉLÈVEMENTS KIRKLAND)",
    "adresse": "17000, boulevard Hymus",
    "ville": "Kirkland",
    "codePostal": "H9J 2W2",
    "telephone": "514 697-6011",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 13 h",
-     "heures": [
-      [
-       420,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -3102,6 +3090,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 13 h",
+     "heures": [
+      [
+       420,
+       780
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 13 h",
      "heures": [
@@ -3143,25 +3143,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490664",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CENTRE DE PRÉLÈVEMENTS POINTE-CLAIRE)",
    "adresse": "175, avenue Stillview, bureau 156",
    "ville": "Pointe-Claire",
    "codePostal": "H9R 4S3",
    "telephone": "514 787-6261",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 18 h 30",
-     "heures": [
-      [
-       450,
-       1110
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -3233,6 +3221,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 18 h 30",
+     "heures": [
+      [
+       450,
+       1110
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3270,25 +3270,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=689585",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "FRANCE DUBOIS PRÉLÈVEMENTS",
    "adresse": "3221, desserte nord Autoroute Laval Ouest, bureau 205",
    "ville": "Laval",
    "codePostal": "H7P 5P2",
    "telephone": "450 625-7054",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -3341,6 +3329,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "8 h 30 à 16 h 30",
      "heures": [
@@ -3378,25 +3378,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=108937",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE PRÉLÈVEMENTS LM",
    "adresse": "1400, cours Le Corbusier, bureau 202",
    "ville": "Boisbriand",
    "codePostal": "J7G 3E8",
    "telephone": "514 891-9607",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 21 h",
-     "heures": [
-      [
-       480,
-       1260
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -3468,6 +3456,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 21 h",
+     "heures": [
+      [
+       480,
+       1260
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3492,20 +3492,13 @@
    "region": "r07",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1168589",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL - GATINEAU (PRÉLÈVEMENT/VACCINATION/DÉPISTAGE)",
    "adresse": "80, avenue Gatineau",
    "ville": "Gatineau",
    "codePostal": "J8T 4J3",
    "telephone": "819 776-6116",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -3543,6 +3536,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": null,
      "heures": [],
@@ -3591,25 +3591,13 @@
    "region": "r07",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1180675",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL HULL- (VACCINATION/ PRÉLÈVEMENT)",
    "adresse": "107, rue Crémazie",
    "ville": "Gatineau",
    "codePostal": "J8Y 0A2",
    "telephone": "819 776-6116",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "9 h 30 à 17 h",
-     "heures": [
-      [
-       570,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -3672,6 +3660,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h 30 à 17 h",
+     "heures": [
+      [
+       570,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "9 h 30 à 17 h",
      "heures": [
@@ -3717,25 +3717,13 @@
    "region": "r05",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1164677",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL LA POMMERAIE (VACCINATION, PRÉLÈVEMENTS ET DÉPISTAGE)",
    "adresse": "175, rue Principale, services de vaccination, prélèvements et de dépistage / détection",
    "ville": "Cowansville",
    "codePostal": "J2K 3L9",
    "telephone": "833 255-1995",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 11 h 30",
-     "heures": [
-      [
-       420,
-       690
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -3797,6 +3785,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 11 h 30",
+     "heures": [
+      [
+       420,
+       690
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3832,25 +3832,13 @@
    "region": "mtl",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1157775",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL PIERREFONDS (VACCINATION DÉPISTAGE ET PRÉLÈVEMENTS)",
    "adresse": "13800, boulevard Gouin Ouest",
    "ville": "Montréal",
    "codePostal": "H8Z 3H6",
    "telephone": "514 630-2123",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 16 h",
-     "heures": [
-      [
-       360,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -3917,6 +3905,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h à 16 h",
+     "heures": [
+      [
+       360,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -3962,7 +3962,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1157876",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-MATAPÉDIA 1-DÉPISTAGE-PRÉLÈVEMENT",
    "adresse": "135, avenue Gaétan-Archambault",
    "ville": "Amqui",
@@ -4001,7 +4001,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1231419",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-KAMOURASKA-PRÉLÈVEMENTS",
    "adresse": "1201, 6e avenue Pilote",
    "ville": "La Pocatière",
@@ -4034,7 +4034,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1157879",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-MONT-JOLI-VACCINATION,DÉPISTAGE ET PRÉLÈVEMENT",
    "adresse": "800, avenue du Sanatorium",
    "ville": "Mont-Joli",
@@ -4081,7 +4081,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154764",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-RIMOUSKI-VACCINATION, DÉPISTAGE ET PRÉLÈVEMENTS",
    "adresse": "217, avenue Léonidas Sud",
    "ville": "Rimouski",
@@ -4128,7 +4128,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1231422",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-RIMOUSKI-PRÉLÈVEMENTS",
    "adresse": "150, avenue Rouleau",
    "ville": "Rimouski",
@@ -4161,7 +4161,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1157893",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-TÉMISCOUATA-SUR-LE-LAC-VACCINATION, DÉPISTAGE, PRÉLÈVEMENTS",
    "adresse": "58, rue de l'Église",
    "ville": "Témiscouata-sur-le-Lac",
@@ -4206,7 +4206,7 @@
    "region": "r01",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1154754",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL-TROIS-PISTOLES -VACCINATION , DÉPISTAGE ET PRÉLÈVEMENTS",
    "adresse": "550, rue Notre-Dame Est",
    "ville": "Trois-Pistoles",
@@ -4252,20 +4252,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1215693",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC CHICOUTIMI (SAINT-FULGENCE)",
    "adresse": "257, rue du Saguenay",
    "ville": "Saint-Fulgence",
    "codePostal": "G0V 1S0",
    "telephone": "833 704-0087",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4312,6 +4305,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4334,20 +4334,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474681",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC D'ALMA (SAINTE-MONIQUE)",
    "adresse": "138, rue de Honfleur",
    "ville": "Sainte-Monique",
    "codePostal": "G0W 2T0",
    "telephone": "418 669-2000",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4391,7 +4384,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4439,6 +4432,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4465,20 +4465,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474693",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC D'ALMA (SAINT-LÉON)",
    "adresse": "1410, rue Principale",
    "ville": "Labrecque",
    "codePostal": "G0W 2S0",
    "telephone": "418 669-2000",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4522,7 +4515,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4574,6 +4567,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4596,20 +4596,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=918475",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC DE L'ASCENSION (SAINT-NAZAIRE)",
    "adresse": "174, rue Principale",
    "ville": "Saint-Nazaire",
    "codePostal": "G0W 2V0",
    "telephone": "418 669-2000",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4647,6 +4640,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4673,20 +4673,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=594608",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC DE SAINT-FÉLICIEN (LA DORÉ)",
    "adresse": "4951, rue des Peupliers",
    "ville": "La Doré",
    "codePostal": "G8J 1E7",
    "telephone": "418 679-5270",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4730,7 +4723,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4782,6 +4775,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4804,20 +4804,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=594602",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC DE SAINT-FÉLICIEN (LAC-BOUCHETTE)",
    "adresse": "99, route de l'Ermitage",
    "ville": "Lac-Bouchette",
    "codePostal": "G0W 1V0",
    "telephone": "418 275-0110",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4866,7 +4859,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -4918,6 +4911,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -4940,20 +4940,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474285",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (GIRARDVILLE)",
    "adresse": "615, avenue de la Fabrique",
    "ville": "Girardville",
    "codePostal": "G0W 1R0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -4991,6 +4984,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5017,20 +5017,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474313",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (NOTRE-DAME-DE-LORETTE)",
    "adresse": "22, rue Principale",
    "ville": "Notre-Dame-de-Lorette",
    "codePostal": "G0W 1B0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5068,6 +5061,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5094,20 +5094,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474425",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (PÉRIBONKA)",
    "adresse": "300, rue Édouard-Niquet",
    "ville": "Péribonka",
    "codePostal": "G0W 2G0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5150,6 +5143,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5176,20 +5176,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474324",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-AUGUSTIN)",
    "adresse": "686, rue Principale",
    "ville": "Saint-Augustin",
    "codePostal": "G0W 1K0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5227,6 +5220,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5253,20 +5253,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474406",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINTE-ÉLISABETH-DE-PROULX)",
    "adresse": "1254, rue Principale",
    "ville": "Passes-Dangereuses",
    "codePostal": "G8L 8A5",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5304,6 +5297,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5330,20 +5330,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474428",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINTE-JEANNE-D'ARC)",
    "adresse": "400, rue Verreault",
    "ville": "Sainte-Jeanne-d'Arc",
    "codePostal": "G0W 1E0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5381,6 +5374,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5407,20 +5407,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474446",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-EUGÈNE D'ARGENTENAY)",
    "adresse": "469, rue du Pont",
    "ville": "Saint-Eugène-d'Argentenay",
    "codePostal": "G0W 1B0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5462,6 +5455,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -5484,20 +5484,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474339",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-LUDGER-DE-MILOT)",
    "adresse": "733, rue Gaudreault",
    "ville": "Saint-Ludger-de-Milot",
    "codePostal": "G0W 2B0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5546,7 +5539,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5598,6 +5591,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -5620,20 +5620,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474352",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-STANISLAS)",
    "adresse": "953, rue Principale",
    "ville": "Saint-Stanislas",
    "codePostal": "G8L 7B4",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5671,6 +5664,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5697,20 +5697,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474371",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-THOMAS-DIDYME)",
    "adresse": "9, avenue du Moulin",
    "ville": "Saint-Thomas-Didyme",
    "codePostal": "G0W 1P0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5748,6 +5741,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -5774,25 +5774,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=857937",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE DE PRÉLÈVEMENTS CHAKIA (CANDIAC)",
    "adresse": "215-203, boulevard Jean-Leman",
    "ville": "Candiac",
    "codePostal": "J5R 6Z8",
    "telephone": "514 274-3777",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 17 h",
-     "heures": [
-      [
-       360,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5845,6 +5833,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h à 17 h",
+     "heures": [
+      [
+       360,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h à 17 h",
      "heures": [
@@ -5880,20 +5880,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=856393",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE PRÉLÈVEMENTS ET VACCINATION MULTI-SANTÉ (RUE O'KEEFE,VALLEYFIELD) FAMILIPRIX EXTRA JEAN-FRANÇOIS THIBEAULT, ÉMILIE LEFEBVRE ET SANDRA GERGES",
    "adresse": "70, rue O'Keefe, unité 100",
    "ville": "Salaberry-de-Valleyfield",
    "codePostal": "J6S 5C6",
    "telephone": "450 377-4443",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -5955,6 +5948,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -5987,25 +5987,13 @@
    "region": "rn",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=683106",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL - SAINT-JÉRÔME (PRÉLÈVEMENTS)",
    "adresse": "425, boulevard Jean-Paul-Hogue",
    "ville": "Saint-Jérôme",
    "codePostal": "J7Z 7A5",
    "telephone": "866 495-5833",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 14 h 30",
-     "heures": [
-      [
-       390,
-       870
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6067,6 +6055,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h 30",
+     "heures": [
+      [
+       390,
+       870
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6092,25 +6092,13 @@
    "region": "mtl",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1157763",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "POINT DE SERVICE LOCAL LACHINE (VACCINATION, DÉPISTAGE ET PRÉLÈVEMENTS)",
    "adresse": "3320-A, rue Notre-Dame",
    "ville": "Montréal",
    "codePostal": "H8T 1W8",
    "telephone": "514 630-2123",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 16 h",
-     "heures": [
-      [
-       360,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -6177,6 +6165,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h à 16 h",
+     "heures": [
+      [
+       360,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6221,20 +6221,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474669",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC D'ALMA (HÉBERTVILLE)",
    "adresse": "640, rue Villeneuve",
    "ville": "Hébertville",
    "codePostal": "G8N 1G6",
    "telephone": "418 669-2000",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6278,7 +6271,7 @@
      "rdvJour": []
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -6330,6 +6323,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6352,20 +6352,13 @@
    "region": "r02",
    "public": true,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=474421",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "PRÉLÈVEMENTS - CLSC LES JARDINS DU MONASTÈRE (SAINT-EDMOND-LES-PLAINES)",
    "adresse": "561, chemin Principal",
    "ville": "Saint-Edmond-les-Plaines",
    "codePostal": "G0W 2M0",
    "telephone": "418 276-1234",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6407,6 +6400,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6429,25 +6429,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=935270",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (LAVAL)",
    "adresse": "3030, boulevard Le Carrefour, bureau 301",
    "ville": "Laval",
    "codePostal": "H7T 2P5",
    "telephone": "514 866-5005",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 15 h",
-     "heures": [
-      [
-       390,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -6514,6 +6502,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 15 h",
+     "heures": [
+      [
+       390,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6547,25 +6547,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223936",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (VILLE-ÉMARD)",
    "adresse": "2529, rue Allard",
    "ville": "Montréal",
    "codePostal": "H4E 2L5",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6627,6 +6615,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6661,20 +6661,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223972",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (ANJOU)",
    "adresse": "7999, boulevard des Galeries-d'Anjou, unité 7",
    "ville": "Montréal",
    "codePostal": "H1M 1W9",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -6736,6 +6729,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -6767,25 +6767,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223800",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - BEAUPORT",
    "adresse": "3100, avenue du Bourg-Royal, bureau 104",
    "ville": "Québec",
    "codePostal": "G1C 5S7",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 12 h",
-     "heures": [
-      [
-       390,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6838,6 +6826,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 12 h",
+     "heures": [
+      [
+       390,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 12 h",
      "heures": [
@@ -6880,25 +6880,13 @@
    "region": "r05",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225042",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - BROMONT",
    "adresse": "10, chemin de Gaspé",
    "ville": "Bromont",
    "codePostal": "J2L 2N8",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -6951,6 +6939,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -6990,20 +6990,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=470897",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PHARMACIE PHARMAPRIX D. MONGRAIN)",
    "adresse": "1, place Ville-Marie, bureau 11230",
    "ville": "Montréal",
    "codePostal": "H3B 3Y1",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -7059,6 +7052,13 @@
        1020
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -7087,25 +7087,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=470047",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PIERREFONDS)",
    "adresse": "14770, boulevard de Pierrefonds, bureau 104",
    "ville": "Montréal",
    "codePostal": "H9H 4Y6",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 17 h",
-     "heures": [
-      [
-       480,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -7158,6 +7146,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 17 h",
+     "heures": [
+      [
+       480,
+       1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "8 h à 17 h",
      "heures": [
@@ -7203,25 +7203,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=469782",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - EXPRESS (PLAZA POINTE-CLAIRE)",
    "adresse": "269, boulevard Saint-Jean, bureau 206",
    "ville": "Pointe-Claire",
    "codePostal": "H9R 3J1",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 16 h",
-     "heures": [
-      [
-       390,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -7288,6 +7276,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 16 h",
+     "heures": [
+      [
+       390,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7321,25 +7321,13 @@
    "region": "r05",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223832",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - GRANBY MONTCALM",
    "adresse": "215, boulevard Montcalm, bureau 220",
    "ville": "Granby",
    "codePostal": "J2G 5C2",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 15 h",
-     "heures": [
-      [
-       420,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -7406,6 +7394,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 15 h",
+     "heures": [
+      [
+       420,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7438,20 +7438,13 @@
    "region": "r05",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223807",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - MAGOG",
    "adresse": "2377, rue Principale Ouest, bureau 130",
    "ville": "Magog",
    "codePostal": "J1X 0J4",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -7503,6 +7496,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7525,25 +7525,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225345",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - POLYCLINIQUE MÉDICALE TERREBONNE",
    "adresse": "901, boulevard des Seigneurs, bureau 303",
    "ville": "Terrebonne",
    "codePostal": "J6W 1T8",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 14 h",
-     "heures": [
-      [
-       390,
-       840
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -7615,6 +7603,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 14 h",
+     "heures": [
+      [
+       390,
+       840
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7649,25 +7649,13 @@
    "region": "r05",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223778",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - SHERBROOKE",
    "adresse": "1000, boulevard Lionel-Groulx, bureau 102",
    "ville": "Sherbrooke",
    "codePostal": "J1L 0H5",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 14 h",
-     "heures": [
-      [
-       420,
-       840
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -7714,6 +7702,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 14 h",
+     "heures": [
+      [
+       420,
+       840
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -7747,7 +7747,7 @@
    "region": "tr",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1224166",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - TROIS-RIVIÈRES",
    "adresse": "1900, boulevard des Récollets, bureau B387",
    "ville": "Trois-Rivières",
@@ -7781,7 +7781,7 @@
    "region": "r04",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1224173",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL - VICTORIAVILLE",
    "adresse": "141, rue Notre-Dame Est",
    "ville": "Victoriaville",
@@ -7817,25 +7817,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655846",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (BOUCHERVILLE)",
    "adresse": "550, boulevard de Mortagne, bureau 300",
    "ville": "Boucherville",
    "codePostal": "J4B 5E4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 12 h 30",
-     "heures": [
-      [
-       390,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -7878,6 +7866,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 12 h 30",
+     "heures": [
+      [
+       390,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 12 h 30",
      "heures": [
@@ -7918,25 +7918,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=680423",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (BROSSARD) (SIÈGE SOCIAL)",
    "adresse": "4105, boulevard Matte, porte F",
    "ville": "Brossard",
    "codePostal": "J4Y 2P4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 15 à 16 h",
-     "heures": [
-      [
-       375,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8008,6 +7996,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 15 à 16 h",
+     "heures": [
+      [
+       375,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8041,25 +8041,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655934",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (CLINIQUE FAMILIALE DES HAUTS-BOIS)",
    "adresse": "2105, boulevard Armand-Frappier",
    "ville": "Sainte-Julie",
    "codePostal": "J3E 3R6",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h",
-     "heures": [
-      [
-       450,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8117,6 +8105,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 16 h",
      "heures": [
@@ -8157,25 +8157,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1204775",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (CLINIQUE L'ACTUEL)",
    "adresse": "1001, boulevard De Maisonneuve Est",
    "ville": "Montréal",
    "codePostal": "H2L 4P9",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 13 h",
-     "heures": [
-      [
-       450,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8244,6 +8232,18 @@
       [
        450,
        945
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 13 h",
+     "heures": [
+      [
+       450,
+       780
       ]
      ],
      "rdvJour": []
@@ -8282,25 +8282,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=471026",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (COMPLEXE GUY FAVREAU)",
    "adresse": "200, boulevard René-Lévesque Ouest, bureau 13",
    "ville": "Montréal",
    "codePostal": "H2Z 1X4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 16 h",
-     "heures": [
-      [
-       420,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -8353,6 +8341,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 16 h",
+     "heures": [
+      [
+       420,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 16 h",
      "heures": [
@@ -8398,25 +8398,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=44087",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (LACHENAIE)",
    "adresse": "950, montée des Pionniers, bureau 380",
    "ville": "Terrebonne",
    "codePostal": "J6V 1S8",
    "telephone": "514 866-6146",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 11 h",
-     "heures": [
-      [
-       420,
-       660
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -8473,6 +8461,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8502,25 +8502,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=470870",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (MÉDICENTRE LASALLE)",
    "adresse": "1500, avenue Dollard, bureau 400",
    "ville": "Montréal",
    "codePostal": "H8N 1T5",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h",
-     "heures": [
-      [
-       450,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8587,6 +8575,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h",
+     "heures": [
+      [
+       450,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8620,25 +8620,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=600783",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (MONTRÉAL CABRINI)",
    "adresse": "5700, r. Saint-Zotique, bureau 109",
    "ville": "Montréal",
    "codePostal": "H1T 3Y7",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 13 h",
-     "heures": [
-      [
-       420,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8705,6 +8693,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 13 h",
+     "heures": [
+      [
+       420,
+       780
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8744,25 +8744,13 @@
    "region": "lav",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=481064",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (POLYCLINIQUE MÉDICALE FABREVILLE)",
    "adresse": "380, boulevard Curé-Labelle (Fabreville), bureau 2e etage",
    "ville": "Laval",
    "codePostal": "H7P 5L3",
    "telephone": "514 866-6146",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 12 h 30",
-     "heures": [
-      [
-       390,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8834,6 +8822,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 12 h 30",
+     "heures": [
+      [
+       390,
+       750
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8860,25 +8860,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=42370",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (QUARTIER DIX30 BROSSARD)",
    "adresse": "1100, rue du Lux, bureau 180B",
    "ville": "Brossard",
    "codePostal": "J4Y 0E2",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 16 h",
-     "heures": [
-      [
-       450,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -8945,6 +8933,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 16 h",
+     "heures": [
+      [
+       450,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -8976,25 +8976,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=600767",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (RENÉ-LAENNEC)",
    "adresse": "1100, avenue Beaumont, bureau 108",
    "ville": "Montréal",
    "codePostal": "H3P 3H5",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 13 h 30",
-     "heures": [
-      [
-       420,
-       810
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9051,6 +9039,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 13 h 30",
+     "heures": [
+      [
+       420,
+       810
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9086,25 +9086,13 @@
    "region": "r16",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=656221",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (SAINT-HYACINTHE)",
    "adresse": "1220, bd Casavant E, bureau 103",
    "ville": "Saint-Hyacinthe",
    "codePostal": "J2S 7Y6",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 16 h",
-     "heures": [
-      [
-       420,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -9156,6 +9144,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 16 h",
+     "heures": [
+      [
+       420,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9189,25 +9189,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=656231",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (SAINT-LAMBERT)",
    "adresse": "299, boulevard Sir-Wilfrid-Laurier, bureau 28",
    "ville": "Saint-Lambert",
    "codePostal": "J4R 2L1",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 17 h",
-     "heures": [
-      [
-       390,
-       1020
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9274,6 +9262,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 17 h",
+     "heures": [
+      [
+       390,
+       1020
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9304,20 +9304,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655915",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (VARENNES)",
    "adresse": "303, boulevard de la Marine, bureau 101",
    "ville": "Varennes",
    "codePostal": "J3X 2G6",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9364,6 +9357,13 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9394,25 +9394,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=471712",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL (VILLE SAINT-LAURENT)",
    "adresse": "1605, boulevard Marcel-Laurin, bureau 292",
    "ville": "Montréal",
    "codePostal": "H4R 0B7",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 16 h",
-     "heures": [
-      [
-       390,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9484,6 +9472,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 16 h",
+     "heures": [
+      [
+       390,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9518,25 +9518,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655790",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL EXPRESS (CARREFOUR MÉDICAL VALLÉE DU RICHELIEU)",
    "adresse": "665, boulevard Sir-Wilfrid-Laurier",
    "ville": "Beloeil",
    "codePostal": "J3G 4J1",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 45 à 16 h",
-     "heures": [
-      [
-       465,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9603,6 +9591,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 45 à 16 h",
+     "heures": [
+      [
+       465,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9633,25 +9633,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655814",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL EXPRESS (CARREFOUR SANTÉ LE ST-LAURENT)",
    "adresse": "5300, boulevard Saint-Laurent, bureau 140",
    "ville": "Sainte-Catherine",
    "codePostal": "J5C 1A8",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 8 h",
-     "heures": [
-      [
-       390,
-       480
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -9693,6 +9681,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h 30 à 8 h",
+     "heures": [
+      [
+       390,
+       480
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9722,25 +9722,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=656200",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL EXPRESS (HUDSON MÉDI-CENTRE)",
    "adresse": "465, rue Main, bureau 201",
    "ville": "Hudson",
    "codePostal": "J0P 1H0",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h",
-     "heures": [
-      [
-       450,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9807,6 +9795,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h",
+     "heures": [
+      [
+       450,
+       900
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9836,25 +9836,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655863",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON LABORATOIRE MÉDICAL EXPRESS (LA CLINIQUE FORT CHAMBLY)",
    "adresse": "1101, boulevard Brassard, bureau 205",
    "ville": "Chambly",
    "codePostal": "J3L 5R4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 11 h 45",
-     "heures": [
-      [
-       450,
-       705
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -9901,6 +9889,18 @@
      "ouverture": null,
      "heures": [],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 11 h 45",
+     "heures": [
+      [
+       450,
+       705
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -9930,25 +9930,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=625271",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRES CDL (DÉCARIE)",
    "adresse": "6900, boulevard Décarie, bureau M-196",
    "ville": "Côte-Saint-Luc",
    "codePostal": "H3X 2T8",
    "telephone": "514 341-1777",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10010,6 +9998,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -10047,25 +10047,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=108822",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CDL LABORATOIRES",
    "adresse": "5990, chemin de la Côte-des-Neiges",
    "ville": "Montréal",
    "codePostal": "H3S 1Z5",
    "telephone": "514 344-8022",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 20 h",
-     "heures": [
-      [
-       420,
-       1200
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10132,6 +10120,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 20 h",
+     "heures": [
+      [
+       420,
+       1200
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -10182,25 +10182,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490617",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CENTRE MÉDICAL RENÉ-LAENNEC)",
    "adresse": "1100, avenue Beaumont, bureau 301, À l’intérieur de la Clinique privée MD-plus",
    "ville": "Mont-Royal",
    "codePostal": "H3P 3H5",
    "telephone": "514 343-4333",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h 30",
-     "heures": [
-      [
-       450,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10262,6 +10250,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h 30",
+     "heures": [
+      [
+       450,
+       750
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -10295,25 +10295,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490635",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CLINIQUE MÉDICALE DE L'UNIVERSITÉ DE MONTRÉAL)",
    "adresse": "2101, boulevard Édouard-Montpetit, bureau 013",
    "ville": "Montréal",
    "codePostal": "H3T 1J3",
    "telephone": "514 356-6806",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 12 h 30",
-     "heures": [
-      [
-       480,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10366,6 +10354,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 12 h 30",
+     "heures": [
+      [
+       480,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "8 h à 12 h 30",
      "heures": [
@@ -10406,25 +10406,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490680",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE ST-LAURENT (CLINIQUE MÉDICALE PLEIN CIEL)",
    "adresse": "475, boulevard de la Côte-Vertu",
    "ville": "Montréal",
    "codePostal": "H4L 1X7",
    "telephone": "514 748-1060",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h 30",
-     "heures": [
-      [
-       450,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10477,6 +10465,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h 30",
+     "heures": [
+      [
+       450,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h 30",
      "heures": [
@@ -10520,25 +10520,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=344592",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE GROUPE SANTÉ PHYSIMED",
    "adresse": "6363, route Transcanadienne, bureau 122",
    "ville": "Montréal",
    "codePostal": "H4T 1Z9",
    "telephone": "514 747-8888",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 16 h",
-     "heures": [
-      [
-       390,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10591,6 +10579,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 16 h",
+     "heures": [
+      [
+       390,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 16 h",
      "heures": [
@@ -10632,25 +10632,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=800929",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE DYNACARE (SAINT-HUBERT)",
    "adresse": "5125, boulevard Cousineau",
    "ville": "Longueuil",
    "codePostal": "J3Y 3K7",
    "telephone": "450 656-0446",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10703,6 +10691,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -10742,25 +10742,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=800881",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE DYNACARE (VAUDREUIL-DORION)",
    "adresse": "600, boulevard Harwood",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 6A3",
    "telephone": "514 356-6802",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h 30",
-     "heures": [
-      [
-       450,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10813,6 +10801,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h 30",
+     "heures": [
+      [
+       450,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h 30",
      "heures": [
@@ -10851,25 +10851,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=472610",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE MÉDICAL LAPOINTE",
    "adresse": "2100, avenue de Marlowe, bureau 105",
    "ville": "Montréal",
    "codePostal": "H4A 3L5",
    "telephone": "514 485-5109",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 13 h",
-     "heures": [
-      [
-       450,
-       780
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -10931,6 +10919,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 13 h",
+     "heures": [
+      [
+       450,
+       780
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -10956,20 +10956,13 @@
    "region": "r04",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1113216",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "CLINIQUE INFIRMIÈRES+ LABORATOIRE, SOINS PERSONNALISÉS",
    "adresse": "401-b+c, rue Principale",
    "ville": "Saint-Narcisse",
    "codePostal": "G0X 2Y0",
    "telephone": "819 995-1389",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11012,6 +11005,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": null,
      "heures": [],
@@ -11060,25 +11060,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=108836",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRES CDL (OUEST DE L'ÎLE)",
    "adresse": "12774, boulevard Gouin Ouest, bureau 115",
    "ville": "Montréal",
    "codePostal": "H8Z 1W5",
    "telephone": "514 684-8460",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h 30",
-     "heures": [
-      [
-       450,
-       930
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11131,6 +11119,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h 30",
+     "heures": [
+      [
+       450,
+       930
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 15 h 30",
      "heures": [
@@ -11175,25 +11175,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=700062",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRES CDL (CENTRE-VILLE DE MONTRÉAL)",
    "adresse": "666, rue Sherbrooke Ouest, bureau 1900, 19ème étage",
    "ville": "Montréal",
    "codePostal": "H3A 1E7",
    "telephone": "514 982-9696",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 12 h",
-     "heures": [
-      [
-       510,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11252,6 +11240,18 @@
       [
        510,
        1020
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 12 h",
+     "heures": [
+      [
+       510,
+       720
       ]
      ],
      "rdvJour": []
@@ -11288,25 +11288,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1146071",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRES CDL (DOLLARD-DES-ORMEAUX)",
    "adresse": "3400, rue du Marché, bureau 103",
    "ville": "Dollard-des-Ormeaux",
    "codePostal": "H9B 2Y1",
    "telephone": "514 360-9269",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "9 h à 16 h",
-     "heures": [
-      [
-       540,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11359,6 +11347,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "9 h à 16 h",
+     "heures": [
+      [
+       540,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "9 h à 16 h",
      "heures": [
@@ -11402,25 +11402,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=885173",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (BOUCHERVILLE)",
    "adresse": "550, boulevard de Mortagne, unité 300",
    "ville": "Boucherville",
    "codePostal": "J4B 5E4",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 16 h",
-     "heures": [
-      [
-       480,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11482,6 +11470,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h",
+     "heures": [
+      [
+       480,
+       960
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -11512,25 +11512,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=973275",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (BROSSARD)",
    "adresse": "4105, boulevard Matte, porte F",
    "ville": "Brossard",
    "codePostal": "J4Y 2P4",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 16 h 15",
-     "heures": [
-      [
-       480,
-       975
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11592,6 +11580,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 16 h 15",
+     "heures": [
+      [
+       480,
+       975
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -11624,20 +11624,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655603",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (LÉVIS)",
    "adresse": "5700, boulevard Étienne-Dallaire, unité 110",
    "ville": "Lévis",
    "codePostal": "G6V 8R8",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11699,6 +11692,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -11729,25 +11729,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=636557",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (LONGUEUIL)",
    "adresse": "1215, chemin Du Tremblay, bureau 170",
    "ville": "Longueuil",
    "codePostal": "J4N 1R4",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 15 h 45",
-     "heures": [
-      [
-       480,
-       945
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11809,6 +11797,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 15 h 45",
+     "heures": [
+      [
+       480,
+       945
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -11843,25 +11843,13 @@
    "region": "r02",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=461606",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (SAGUENAY)",
    "adresse": "475, boulevard Talbot, bureau 260",
    "ville": "Saguenay",
    "codePostal": "G7H 4A3",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -11923,6 +11911,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -11953,25 +11953,13 @@
    "region": "r16",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=968976",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (SAINT-HYACINTHE)",
    "adresse": "1220, bd Casavant E, bureau 103",
    "ville": "Saint-Hyacinthe",
    "codePostal": "J2S 7Y6",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 15 h 45",
-     "heures": [
-      [
-       420,
-       945
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12033,6 +12021,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 15 h 45",
+     "heures": [
+      [
+       420,
+       945
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12064,25 +12064,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=735824",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (SAINT-JEAN-SUR-RICHELIEU)",
    "adresse": "870, boulevard du Séminaire Nord, unité 300",
    "ville": "Saint-Jean-sur-Richelieu",
    "codePostal": "J3A 1B5",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 15",
-     "heures": [
-      [
-       510,
-       975
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12139,6 +12127,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 15",
+     "heures": [
+      [
+       510,
+       975
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12170,20 +12170,13 @@
    "region": "r16",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=611741",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (SOREL-TRACY)",
    "adresse": "330-B, avenue de l'Hôtel-Dieu",
    "ville": "Sorel-Tracy",
    "codePostal": "J3P 1N4",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12240,6 +12233,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -12271,25 +12271,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=655487",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (VILLE SAINT-LAURENT)",
    "adresse": "1605, boulevard Marcel-Laurin, bureau 225",
    "ville": "Montréal",
    "codePostal": "H4R 0B7",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 15 h 45",
-     "heures": [
-      [
-       420,
-       945
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12342,6 +12330,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 15 h 45",
+     "heures": [
+      [
+       420,
+       945
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 15 h 45",
      "heures": [
@@ -12384,25 +12384,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=888357",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON (ANGUS)",
    "adresse": "2815, rue Sherbrooke Est, bureau 240",
    "ville": "Montréal",
    "codePostal": "H2K 1H2",
    "telephone": "514 866-2344",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 11 h",
-     "heures": [
-      [
-       420,
-       660
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12440,6 +12428,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 11 h",
+     "heures": [
+      [
+       420,
+       660
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 11 h",
      "heures": [
@@ -12479,20 +12479,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223781",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON EXPRESS - CLINIQUE DE LA CAPITALE",
    "adresse": "4205, 4e Avenue Ouest, bureau 102",
    "ville": "Québec",
    "codePostal": "G1H 7A6",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12548,6 +12541,13 @@
        920
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -12582,20 +12582,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225343",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON EXPRESS - CLINIQUE MÉDICALE DES AFFLUENTS",
    "adresse": "333, boulevard Brien",
    "ville": "Repentigny",
    "codePostal": "J5Z 2J1",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12646,6 +12639,13 @@
        600
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -12681,25 +12681,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1225333",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON EXPRESS - CLINIQUE MÉDICALE ST-PAUL",
    "adresse": "447, rue Saint-Paul, unité 105",
    "ville": "Repentigny",
    "codePostal": "J5Z 0C9",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h à 10 h 30",
-     "heures": [
-      [
-       360,
-       630
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -12755,6 +12743,18 @@
      "ferme": true,
      "ouverture": null,
      "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "6 h à 10 h 30",
+     "heures": [
+      [
+       360,
+       630
+      ]
+     ],
      "rdvJour": []
     }
    ],
@@ -12788,25 +12788,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223958",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON EXPRESS (WELLINGTON)",
    "adresse": "1000, rue Wellington",
    "ville": "Montréal",
    "codePostal": "H3C 1V4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 15 h",
-     "heures": [
-      [
-       480,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12852,6 +12840,18 @@
      "ferme": true,
      "ouverture": null,
      "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 15 h",
+     "heures": [
+      [
+       480,
+       900
+      ]
+     ],
      "rdvJour": []
     }
    ],
@@ -12886,25 +12886,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1223891",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON EXPRESS- CARREFOUR SANTÉ AYLMER",
    "adresse": "362, chemin d'Aylmer, unité 300",
    "ville": "Gatineau",
    "codePostal": "J9H 1A6",
    "telephone": "833 590-2715",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 13 h 30",
-     "heures": [
-      [
-       390,
-       810
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -12952,6 +12940,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 13 h 30",
+     "heures": [
+      [
+       390,
+       810
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 13 h 30",
      "heures": [
@@ -12991,25 +12991,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1229705",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "SERVICES SOINS INFIRMIERS - BIRON",
    "adresse": "4105-F, boulevard Matte, la même adresse que le laboratoire Biron",
    "ville": "Brossard",
    "codePostal": "J4Y 2P4",
    "telephone": "514 866-5005",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "6 h 30 à 16 h",
-     "heures": [
-      [
-       390,
-       960
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -13072,6 +13060,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "6 h 30 à 16 h",
+     "heures": [
+      [
+       390,
+       960
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "6 h 30 à 16 h",
      "heures": [
@@ -13124,25 +13124,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=787321",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON GROUPE SANTÉ",
    "adresse": "1150, boulevard de l'Avenir",
    "ville": "Laval",
    "codePostal": "H7N 6L2",
    "telephone": "514 866-5005",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 14 h 45",
-     "heures": [
-      [
-       510,
-       885
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13204,6 +13192,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 14 h 45",
+     "heures": [
+      [
+       510,
+       885
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13226,25 +13226,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=469751",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON - SOINS DU SOMMEIL (POINTE-CLAIRE)",
    "adresse": "269, boulevard Saint-Jean, plaza Pointe-Claire",
    "ville": "Pointe-Claire",
    "codePostal": "H9R 3J1",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 15 h 45",
-     "heures": [
-      [
-       480,
-       945
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13306,6 +13294,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h à 15 h 45",
+     "heures": [
+      [
+       480,
+       945
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13339,20 +13339,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=636387",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON QUÉBEC (C7235)",
    "adresse": "965, avenue de Bourgogne, bureau 300",
    "ville": "Québec",
    "codePostal": "G1W 2L4",
    "telephone": "833 590-2712",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13414,6 +13407,13 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13462,25 +13462,13 @@
    "region": "r01",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=636634",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON SOINS DU SOMMEIL (RIMOUSKI)",
    "adresse": "822, boulevard Sainte-Anne, bureau 106",
    "ville": "Rimouski",
    "codePostal": "G5M 1J5",
    "telephone": "833 590-2713",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 15 à 15 h 30",
-     "heures": [
-      [
-       495,
-       930
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13542,6 +13530,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 15 à 15 h 30",
+     "heures": [
+      [
+       495,
+       930
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13575,25 +13575,13 @@
    "region": "rn",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=639876",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "BIRON SOINS DU SOMMEIL (SAINT-JÉRÔME)",
    "adresse": "305, rue du Docteur-Charles-Léonard, bureau 301",
    "ville": "Saint-Jérôme",
    "codePostal": "J7Y 0M9",
    "telephone": "866 341-4975",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h 30 à 16 h 30",
-     "heures": [
-      [
-       510,
-       990
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13655,6 +13643,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "8 h 30 à 16 h 30",
+     "heures": [
+      [
+       510,
+       990
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -13684,25 +13684,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216543",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (AVENUE DU BOISÉ)",
    "adresse": "6100, avenue du Boisé, bureau 203",
    "ville": "Montréal",
    "codePostal": "H3S 2W1",
    "telephone": "514 738-5463",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h 30",
-     "heures": [
-      [
-       420,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13755,6 +13743,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 12 h 30",
+     "heures": [
+      [
+       420,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 12 h 30",
      "heures": [
@@ -13792,25 +13792,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216553",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (BOULEVARD DE LA CITÉ-DES-JEUNES)",
    "adresse": "3, boulevard de la Cité-des-Jeunes",
    "ville": "Vaudreuil-Dorion",
    "codePostal": "J7V 3N9",
    "telephone": "514 933-1166",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -13863,6 +13851,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 12 h",
      "heures": [
@@ -13905,20 +13905,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216547",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (BOULEVARD NOTRE-DAME)",
    "adresse": "3826, boulevard Notre-Dame",
    "ville": "Laval",
    "codePostal": "H7V 1R9",
    "telephone": "450 669-2850",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -13966,6 +13959,13 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": true,
      "ouverture": null,
      "heures": [],
@@ -14000,25 +14000,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216555",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (BOULEVARD SAINT-RAYMOND)",
    "adresse": "165, boulevard Saint-Raymond, bureau 111",
    "ville": "Gatineau",
    "codePostal": "J8Y 0A7",
    "telephone": "819 770-6901",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 11 h 30",
-     "heures": [
-      [
-       420,
-       690
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14071,6 +14059,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 11 h 30",
+     "heures": [
+      [
+       420,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 11 h 30",
      "heures": [
@@ -14111,25 +14111,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216552",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (BOULEVARD SAMSON)",
    "adresse": "3, boulevard Samson, bureau 1er étage",
    "ville": "Laval",
    "codePostal": "H7X 3S5",
    "telephone": "450 689-9527",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14191,6 +14179,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -14220,25 +14220,13 @@
    "region": "lav",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216550",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (BOULEVARD TESSIER)",
    "adresse": "3025, boulevard Tessier, bureau 104",
    "ville": "Laval",
    "codePostal": "H7S 2M1",
    "telephone": "450 681-6939",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h 30",
-     "heures": [
-      [
-       450,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": false,
@@ -14305,6 +14293,18 @@
       ]
      ],
      "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h 30",
+     "heures": [
+      [
+       450,
+       750
+      ]
+     ],
+     "rdvJour": []
     }
    ],
    "systemes": [],
@@ -14331,25 +14331,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=490602",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CENTRE MÉDICAL WESTMOUNT)",
    "adresse": "5025, rue Sherbrooke Ouest, bureau 440",
    "ville": "Westmount",
    "codePostal": "H4A 1S9",
    "telephone": "514 482-5521",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h 30",
-     "heures": [
-      [
-       450,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14402,6 +14390,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h 30",
+     "heures": [
+      [
+       450,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h 30",
      "heures": [
@@ -14443,25 +14443,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216556",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CHEMIN D'AYLMER)",
    "adresse": "204, chemin d'Aylmer, bureau 101, À l’intérieur de la clinique du Vieux Aylmer, en face du Tigre Géant.",
    "ville": "Gatineau",
    "codePostal": "J9H 1A1",
    "telephone": "819 682-8591",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14514,6 +14502,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -14549,25 +14549,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216544",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CHEMIN DE LA CÔTE-DES-NEIGES)",
    "adresse": "5845, chemin de la Côte-des-Neiges, bureau 370",
    "ville": "Montréal",
    "codePostal": "H3S 1Z4",
    "telephone": "514 353-9882",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "8 h à 12 h 30",
-     "heures": [
-      [
-       480,
-       750
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14620,6 +14608,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "8 h à 12 h 30",
+     "heures": [
+      [
+       480,
+       750
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "8 h à 12 h 30",
      "heures": [
@@ -14658,20 +14658,13 @@
    "region": "mtl",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216540",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (CLINIQUE MÉDICALE QUORUM)",
    "adresse": "800, boulevard De Maisonneuve Est, bureau RC1",
    "ville": "Montréal",
    "codePostal": "H2L 4L8",
    "telephone": "514 285-4164",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": true,
-     "ouverture": null,
-     "heures": [],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14727,6 +14720,13 @@
        750
       ]
      ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
+     "ferme": true,
+     "ouverture": null,
+     "heures": [],
      "rdvJour": []
     }
    ],
@@ -14753,25 +14753,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=214350",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (DE L'ATMOSPHÈRE)",
    "adresse": "195, rue de l'Atmosphère, bureau 300",
    "ville": "Gatineau",
    "codePostal": "J9A 0A3",
    "telephone": "819 776-4477",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h",
-     "heures": [
-      [
-       450,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14824,6 +14812,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h",
+     "heures": [
+      [
+       450,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 15 h",
      "heures": [
@@ -14858,25 +14858,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=211674",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (GRÉBER)",
    "adresse": "520, boulevard de l'Hôpital, unité 3A",
    "ville": "Gatineau",
    "codePostal": "J8V 2P5",
    "telephone": "819 568-2975",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 15 h",
-     "heures": [
-      [
-       450,
-       900
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -14929,6 +14917,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 15 h",
+     "heures": [
+      [
+       450,
+       900
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 15 h",
      "heures": [
@@ -14962,25 +14962,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216563",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (L'ANCIENNE-LORETTE)",
    "adresse": "6385, boulevard Wilfrid-Hamel, bureau 204",
    "ville": "L'Ancienne-Lorette",
    "codePostal": "G2E 5W2",
    "telephone": "418 872-7766",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 11 h 30",
-     "heures": [
-      [
-       420,
-       690
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -15033,6 +15021,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 11 h 30",
+     "heures": [
+      [
+       420,
+       690
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 11 h 30",
      "heures": [
@@ -15072,25 +15072,13 @@
    "region": "r07",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=214260",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (MONTCLAIR)",
    "adresse": "15, boulevard Montclair, bureau suite 202, suite 202",
    "ville": "Gatineau",
    "codePostal": "J8Y 2E2",
    "telephone": "819 770-1321",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -15143,6 +15131,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -15176,25 +15176,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216564",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (PIERRE-BERTRAND)",
    "adresse": "303, boulevard Pierre-Bertrand, bureau 201",
    "ville": "Québec",
    "codePostal": "G1M 3L7",
    "telephone": "418 683-4561",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -15247,6 +15235,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -15285,25 +15285,13 @@
    "region": "qc",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=1216591",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "DYNACARE (RUE DU CARREFOUR)",
    "adresse": "3333, rue du Carrefour, bureau A 222, dans la clinique médicale des Promenades au bureau #21",
    "ville": "Québec",
    "codePostal": "G1C 5R9",
    "telephone": "418 663-6348",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h 30 à 12 h",
-     "heures": [
-      [
-       450,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -15356,6 +15344,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h 30 à 12 h",
+     "heures": [
+      [
+       450,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h 30 à 12 h",
      "heures": [
@@ -15393,25 +15393,13 @@
    "region": "rs",
    "public": false,
    "url": "https://sante.gouv.qc.ca/repertoire-ressources/ressource/?nofiche=800934",
-   "lu": "2026-10-30",
+   "lu": "2026-10-31",
    "nomOfficiel": "LABORATOIRE DYNACARE (LONGUEUIL)",
    "adresse": "1760, boulevard Jacques-Cartier Est",
    "ville": "Longueuil",
    "codePostal": "J4N 1C2",
    "telephone": "450 616-2345",
    "jours": [
-    {
-     "date": "2026-10-30",
-     "ferme": false,
-     "ouverture": "7 h à 12 h",
-     "heures": [
-      [
-       420,
-       720
-      ]
-     ],
-     "rdvJour": []
-    },
     {
      "date": "2026-10-31",
      "ferme": true,
@@ -15464,6 +15452,18 @@
     },
     {
      "date": "2026-11-05",
+     "ferme": false,
+     "ouverture": "7 h à 12 h",
+     "heures": [
+      [
+       420,
+       720
+      ]
+     ],
+     "rdvJour": []
+    },
+    {
+     "date": "2026-11-06",
      "ferme": false,
      "ouverture": "7 h à 12 h",
      "heures": [
