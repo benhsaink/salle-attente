@@ -403,6 +403,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .slogan{font-size:1.12rem;margin-top:4px}
 .sub{font-size:.9rem;margin-top:2px}
 .tabs .short{display:none}
+.verif{grid-column:2;color:var(--muted);font-size:.78rem}
+.stale{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap;background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:10px 12px;margin:0;font-size:.9rem}.stale .ic{color:var(--warn);margin-top:2px}.stale span{flex:1 1 200px}
 .regrow{flex-wrap:wrap}.regpick{flex:1 1 11rem}.nearbtn{flex:1 0 auto;justify-content:center}
 button.best-go{border:0;font:inherit;font-weight:700;cursor:pointer}
 @media (max-width:560px){
@@ -506,6 +508,7 @@ button.best-go{border:0;font:inherit;font-weight:700;cursor:pointer}
     <p>Idées suicidaires : <b>9-8-8</b>, par téléphone ou texto. Danger immédiat : <b>911</b>.</p>
   </section>
 
+  <p class="stale" id="stale" role="status" hidden><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg><span></span> <b>Urgence grave : 911.</b></p>
   <section class="best" id="best" aria-live="polite"></section>
 
   <ol class="list" id="list"></ol>
@@ -1076,6 +1079,13 @@ async function loadClinics() {
   renderClinics();
 }
 
+// « Vérifiée le … » : date à laquelle la fiche officielle a été relue (chaque matin).
+function verifLine(c) {
+  if (!c.lu || !/^\d{4}-\d{2}-\d{2}$/.test(c.lu)) return null;
+  const [y, m, d] = c.lu.split("-").map(Number);
+  const txt = new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("fr-CA", { day: "numeric", month: "long", timeZone: "UTC" });
+  return el("div", "verif", "Fiche officielle vérifiée le " + txt);
+}
 function clinicCard(c, i) {
   const [cls, label] = openState(c);
   const li = el("li", "card");
@@ -1091,7 +1101,7 @@ function clinicCard(c, i) {
   const where = el("div", "where"), d = km(c);
   if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where);
+  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
 
   // À qui s'adresse la consultation le jour même (selon la fiche officielle)
   if (c.acces) {
@@ -1207,7 +1217,7 @@ function privateCard(c, i, wanted) {
   const where = el("div", "where"), d = km(c);
   if (d !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where);
+  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
 
   // Services : celui qu'on cherche d'abord, puis les premiers de la fiche.
   const svc = el("div", "svc");
@@ -1300,7 +1310,7 @@ function labCard(c, i) {
   const where = el("div", "where");
   if (km(c) !== null) where.appendChild(el("span", "km", distText(c) + " · "));
   where.appendChild(document.createTextNode([c.adresse, c.ville].filter(Boolean).join(", ")));
-  li.appendChild(where);
+  li.appendChild(where); const vf = verifLine(c); if (vf) li.appendChild(vf);
   if (c.sansRdvTexte) li.appendChild(el("p", "cl-note", "Fiche officielle : « " + c.sansRdvTexte + " »"));
   const act = el("div", "cl-act");
   if (c.telephone) {
@@ -1718,6 +1728,24 @@ function weekGrid(f) {
   return wrap;
 }
 
+// Avertissement si le relevé du ministère a plus de 3 heures (heure du Québec).
+function showStale(dataAt) {
+  const box = document.getElementById("stale");
+  if (!box) return;
+  const m = String(dataAt || "").match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):/);
+  if (!m) { box.hidden = true; return; }
+  const now = quebecNow();
+  const [y, mo, d] = now.date.split("-").map(Number);
+  const nowMin = Date.UTC(y, mo - 1, d) / 60000 + now.min;
+  const dataMin = Date.UTC(+m[1], +m[2] - 1, +m[3]) / 60000 + (+m[4]) * 60;
+  const hours = Math.floor((nowMin - dataMin) / 60);
+  if (hours < 3) { box.hidden = true; return; }
+  box.querySelector("span").textContent = hours >= 24
+    ? "Attention : les chiffres du ministère ne sont pas à jour (plus de 24 heures). Ne vous fiez pas au classement."
+    : "Attention : les chiffres du ministère datent de " + hours + " heures. Le classement peut avoir changé.";
+  box.hidden = false;
+}
+
 async function load() {
   const up = document.getElementById("updated");
   up.textContent = "Chargement des données…";
@@ -1729,6 +1757,7 @@ async function load() {
     fillMoreRegions();
     trend = json.trend || null;
     const latest = data.map(h => h.updated).filter(Boolean).sort().pop();
+    showStale(json.dataAt);
     up.textContent = "Données " + (latest ? (/^\d{1,2}:\d{2}/.test(latest) ? "de " + latest.replace(/^(\d{1,2}):(\d{2}).*/, "$1 h $2") : "du " + latest) : "du " + new Date(json.fetchedAt).toLocaleString("fr-CA")) + " · source : " + json.source;
   } catch (e) {
     data = [];

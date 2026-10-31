@@ -17,7 +17,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 const CACHE_MINUTES = 10;
 
-const { MSSS_CSV, build, download, snapshots, computeStats, parseCSV, num, cleanService, NOT_SERVICE } = require("./lib");
+const { MSSS_CSV, build, download, snapshots, computeStats, parseCSV, num, cleanService, NOT_SERVICE, columns, stampOf } = require("./lib");
 
 // Tendances calculées par la collecte automatique (GitHub Actions), lues directement sur GitHub.
 const STATS_URL = process.env.STATS_URL ||
@@ -34,7 +34,10 @@ async function getData() {
         // Les 7 jours du fichier donnent déjà des tendances, en attendant l'historique complet.
         let live = null;
         try { live = computeStats(snapshots(records)); } catch (e) { console.warn("Tendances 7 jours :", e.message); }
-        cache = { source, fetchedAt: new Date().toISOString(), all: build(records, true), live };
+        // Heure du relevé le plus récent (« AAAA-MM-JJ HH:00 », heure du Québec), pour avertir si les chiffres sont en retard.
+        let dataAt = null;
+        try { const c = columns(Object.keys(records[0] || {})); for (const r of records) { const st = stampOf(r, c); if (st && (!dataAt || st.stamp > dataAt)) dataAt = st.stamp; } } catch (e) {}
+        cache = { source, fetchedAt: new Date().toISOString(), dataAt, all: build(records, true), live };
         cacheTime = Date.now();
         return cache;
       })
@@ -532,7 +535,7 @@ http.createServer(async (req, res) => {
       const everywhere = url.searchParams.get("tout") === "1";
       const list = everywhere ? d.all : d.all.filter((h) => h.region !== "autre");
       const { trend, hospitals } = await withTrends(d, list);
-      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=300" }, JSON.stringify({ source: d.source, fetchedAt: d.fetchedAt, trend, hospitals }));
+      sendBody(req, res, 200, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", "Cache-Control": "public, max-age=300" }, JSON.stringify({ source: d.source, fetchedAt: d.fetchedAt, dataAt: d.dataAt, trend, hospitals }));
     } catch (err) {
       console.error(err);
       res.writeHead(502, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
