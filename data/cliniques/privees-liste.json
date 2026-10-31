@@ -452,6 +452,186 @@
    "nom": "SAVANA SANTÉ",
    "nofiche": 1190906,
    "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ABIKHZER",
+   "nofiche": 114616,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE CMIE (SAINT-BRUNO)",
+   "nofiche": 856693,
+   "region": "rs"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE CONTACT M.D.",
+   "nofiche": 1143028,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE ILUMI",
+   "nofiche": 987864,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX (SAINT-JEAN-SUR-RICHELIEU)",
+   "nofiche": 1120850,
+   "region": "rs"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX - WEST ISLAND",
+   "nofiche": 1169287,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE LACROIX - VILLERAY",
+   "nofiche": 962098,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE MEDIPLEX",
+   "nofiche": 684217,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE OPTIONMD",
+   "nofiche": 464306,
+   "region": "r04"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE VITAMED",
+   "nofiche": 1068616,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE PRIVÉE DE MONTRÉAL",
+   "nofiche": 1220627,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE DRE ANNE-MARIE LANDRY",
+   "nofiche": 1150422,
+   "region": "lav"
+  },
+  {
+   "nom": "CLINIQUE BRISSON CARECCIA MÉDICALE PRIVÉE",
+   "nofiche": 1163999,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MÉDICALE 360 OGILVY",
+   "nofiche": 1196241,
+   "region": "mtl"
+  },
+  {
+   "nom": "POLYCLINIQUE CENTRE-VILLE ORL ET SPÉCIALITÉS MÉDICALES",
+   "nofiche": 650345,
+   "region": "mtl"
+  },
+  {
+   "nom": "CENTRE MÉDICAL DE PNEUMOLOGIE",
+   "nofiche": 1170683,
+   "region": "lav"
+  },
+  {
+   "nom": "CENTRE MÉDICAL DOCTEUR KANEVSKY WELL CENTER",
+   "nofiche": 1142145,
+   "region": "mtl"
+  },
+  {
+   "nom": "GROUPE MÉDICAL JEAN TALON",
+   "nofiche": 684431,
+   "region": "mtl"
+  },
+  {
+   "nom": "CABINET MÉDICAL PRIVÉ RIVE-SUD",
+   "nofiche": 1162001,
+   "region": "rs"
+  },
+  {
+   "nom": "CENTRE MÉDICAL VILLE MARIE",
+   "nofiche": 48192,
+   "region": "mtl"
+  },
+  {
+   "nom": "COMPLEXE MÉDICAL NORD-DE-L'ÎLE",
+   "nofiche": 899292,
+   "region": "mtl"
+  },
+  {
+   "nom": "ELNA MÉDICAL – CARRÉ DÉCARIE (LOCAL M-160)",
+   "nofiche": 1179990,
+   "region": "mtl"
+  },
+  {
+   "nom": "VITA MÉDICALE",
+   "nofiche": 1181355,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE EXCEPTION MD",
+   "nofiche": 748492,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MD DIRECTE",
+   "nofiche": 1112878,
+   "region": "mtl"
+  },
+  {
+   "nom": "CLINIQUE MICHEL GAGNER MD",
+   "nofiche": 1008316,
+   "region": "mtl"
+  },
+  {
+   "nom": "CENTRE DE SANTÉ SAINT-PIERRE",
+   "nofiche": 51319,
+   "region": "r16"
+  },
+  {
+   "nom": "CLINIQUE PRIVEO SANTÉ (LONGUEUIL)",
+   "nofiche": 1192474,
+   "region": "rs"
+  },
+  {
+   "nom": "CLINIQUE PRIVEO SANTÉ (BLAINVILLE)",
+   "nofiche": 1240284,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE SANTÉ 360 L'ASSOMPTION",
+   "nofiche": 1173247,
+   "region": "rn"
+  },
+  {
+   "nom": "CLINIQUE SANTÉ CONTINUUM",
+   "nofiche": 1179100,
+   "region": "r04"
+  },
+  {
+   "nom": "CYCLONE SANTÉ",
+   "nofiche": 34760,
+   "region": "mtl"
+  },
+  {
+   "nom": "CENTRE DGL HORMONOTHÉRAPIE, MÉDICO-ESTHÉTIQUE ET SANTÉ SEXUELLE",
+   "nofiche": 1239807,
+   "region": "mtl"
+  },
+  {
+   "nom": "GESTION ACCÈS SANTÉ INC.",
+   "nofiche": 1001444,
+   "region": "mtl"
+  },
+  {
+   "nom": "GMF PHYSIMED (GROUPE SANTÉ PHYSIMED INC.)",
+   "nofiche": 34640,
+   "region": "mtl"
+  },
+  {
+   "nom": "GTR SANTÉ MONTRÉAL",
+   "nofiche": 1172930,
+   "region": "mtl"
   }
  ]
 }

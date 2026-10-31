@@ -566,6 +566,7 @@ button.best-go{border:0;font:inherit;font-weight:700;cursor:pointer}
       <div class="row">
         <select id="p-service" aria-label="Service ou spécialité"><option value="">Tous les services et spécialités</option></select>
         <label class="chk"><input type="checkbox" id="p-open"> Ouvertes maintenant</label>
+        <label class="chk"><input type="checkbox" id="p-kids"> Pédiatrie (enfants)</label>
       </div>
       <div class="meta"><span id="p-updated">Chargement des cliniques privées…</span></div>
     </section>
@@ -1283,11 +1284,14 @@ function renderPrivates() {
   list.innerHTML = "";
   if (!privates) return;
   const wanted = document.getElementById("p-service").value, openOnly = document.getElementById("p-open").checked;
-  let rows = privates.filter(c => (region === "all" || c.region === region) && (!wanted || c.services.includes(wanted)));
+  const kidsOnly = document.getElementById("p-kids").checked;
+  // Pédiatrie : seulement si la fiche officielle nomme la pédiatrie dans ses services (ex. « Pédiatrie », « Urgence pédiatrique »).
+  const isPeds = c => c.services.some(x => /p[ée]diatr/i.test(x));
+  let rows = privates.filter(c => (region === "all" || c.region === region) && (!wanted || c.services.includes(wanted)) && (!kidsOnly || isPeds(c)));
   const st = new Map(rows.map(c => [c, openState(c)]));
   if (openOnly) rows = rows.filter(c => st.get(c)[2]);
   rows.sort((a, b) => pos ? (travel(a) ?? 999) - (travel(b) ?? 999) : (st.get(b)[2] - st.get(a)[2]) || a.nom.localeCompare(b.nom, "fr"));
-  rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted)));
+  rows.forEach((c, i) => list.appendChild(privateCard(c, i, wanted || (kidsOnly ? (c.services.find(x => /p[ée]diatr/i.test(x)) || "") : ""))));
   if (!rows.length) list.appendChild(el("li", "legend", /^r\d/.test(region) ? "Les cliniques privées ne sont pas encore offertes dans cette région. L'onglet Urgences couvre tout le Québec." : "Aucune clinique privée pour ces filtres. Essayez une autre région ou un autre service."));
 }
 
@@ -1978,6 +1982,7 @@ document.getElementById("c-all").addEventListener("change", renderClinics);
 document.getElementById("c-kids").addEventListener("change", renderClinics);
 document.getElementById("c-nocov").addEventListener("change", renderClinics);
 document.getElementById("p-open").addEventListener("change", renderPrivates);
+document.getElementById("p-kids").addEventListener("change", renderPrivates);
 document.getElementById("p-service").addEventListener("change", () => { try { localStorage.setItem("sa-pservice", document.getElementById("p-service").value); } catch (e) {} renderPrivates(); });
 // Commentaires : envoyés au propriétaire du site
 document.getElementById("fb-form").addEventListener("submit", async e => {
@@ -2085,7 +2090,7 @@ document.addEventListener("change", e => {
   if (id === "sort") SA_STAT("tri:" + el.value);
   else if (id === "r-more" && el.value) SA_STAT("region:" + el.value);
   else if (id === "p-service" && el.value) SA_STAT("filtre:p-service");
-  else if (["kids", "psy", "c-open", "c-all", "c-kids", "c-nocov", "p-open", "road-opt"].includes(id) && el.checked) SA_STAT("filtre:" + id);
+  else if (["kids", "psy", "c-open", "c-all", "c-kids", "c-nocov", "p-open", "p-kids", "road-opt"].includes(id) && el.checked) SA_STAT("filtre:" + id);
 });
 document.addEventListener("click", e => {
   const b = e.target.closest(".seg button[data-r]"); if (b) SA_STAT("region:" + b.dataset.r);

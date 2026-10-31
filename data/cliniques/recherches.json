@@ -67,7 +67,8 @@
     "CDL",
     "LifeLabs"
    ],
-   "garder": "pr[ée]l[èe]v|laboratoire|biron|dynacare|\\bCDL\\b|lifelabs|prise de sang"
+   "garder": "pr[ée]l[èe]v|laboratoire|biron|dynacare|\\bCDL\\b|lifelabs|prise de sang",
+   "actif": false
   },
   {
    "id": "hopitaux",
@@ -81,7 +82,8 @@
     "Chisasibi",
     "dispensaire"
    ],
-   "garder": "h[ôo]pital|hospitalier|centre de sant[ée]|multiservices|inuulitsivik|tulattavik|chisasibi|dispensaire"
+   "garder": "h[ôo]pital|hospitalier|centre de sant[ée]|multiservices|inuulitsivik|tulattavik|chisasibi|dispensaire",
+   "actif": false
   },
   {
    "id": "cliniques-large",
@@ -96,7 +98,27 @@
     "MD",
     "santé"
    ],
-   "garder": "clinique m[ée]dicale|centre m[ée]dical|polyclinique|m[ée]decine familiale|\\bUMF\\b|m[ée]dical|\\bMD\\b|sant[ée]"
+   "garder": "clinique m[ée]dicale|centre m[ée]dical|polyclinique|m[ée]decine familiale|\\bUMF\\b|m[ée]dical|\\bMD\\b|sant[ée]",
+   "actif": false
+  },
+  {
+   "id": "cliniques-complement",
+   "q": [
+    "GMF",
+    "groupe de médecine",
+    "coopérative de santé",
+    "coopérative de solidarité santé",
+    "clinique",
+    "urgence mineure",
+    "sans rendez-vous",
+    "médecine",
+    "docteur",
+    "Dr",
+    "pédiatre",
+    "pédiatrique privée",
+    "enfants"
+   ],
+   "garder": "^(?!.*(dentaire|dentist|denturo|physio|chiro|optom|lunet|vision|podiat|v[ée]t[ée]rin|orthoth|orthop[ée]d|audio|masso|psycho|ost[ée]o|acupun|naturo|esth[ée]ti|pharmac|ergoth|orthophon|di[ée]t|nutrition|laser|capillaire|beaut[ée]|spa\\b|yoga|sommeil)).*(clinique|\\bGMF\\b|m[ée]decine|m[ée]dical|coop[ée]rative|urgence|p[ée]diatr|\\bdr\\b|docteur|enfant)"
   }
  ]
 }

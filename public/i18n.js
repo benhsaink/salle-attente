@@ -290,6 +290,7 @@
     ["Chargement des cliniques privées…", "Loading private clinics…"],
     ["Liste des cliniques privées indisponible pour le moment. Réessayez dans quelques minutes.", "Private clinic list unavailable right now. Try again in a few minutes."],
     ["💲 Payant", "💲 Paid"],
+    ["Pédiatrie (enfants)", "Pediatrics (children)"],
     ["Calme", "Quiet"],
     ["0 % occupé", "0% in use"],
     ["Plus de chiffres", "More figures"],
