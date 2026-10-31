@@ -352,6 +352,7 @@ small{font-size:max(.8125rem,.85em)}
 .erl .rk{font-size:.75rem;color:var(--muted);font-weight:700}
 .card.er .bar{height:6px;margin-top:6px}
 .card.er .where b{color:var(--ink)}
+.waitline{font-size:.9rem;margin-top:4px}.waitline b{font-family:var(--f-display);font-size:1.05rem}
 .g-links{display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .g-links a,.g-links .sharebtn{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:0 14px;text-align:left;background:transparent;border:0;border-radius:0;color:var(--ink);font:inherit;font-weight:700;text-decoration:none;cursor:pointer;width:100%}
 .g-links>*+*{border-top:1px solid var(--line)!important}
@@ -1791,12 +1792,7 @@ function render() {
       <div class="erl"><b style="color:var(--${cls.slice(2)})">${pct === null ? "—" : pct + " %"}</b><span class="pill ${cls}">${label}</span><span class="rk">n° ${i + 1}</span></div>
       <div class="head"><h3></h3></div>
       <div class="where"></div>
-      <div class="bar"><i style="width:${pct === null ? 0 : Math.min(100, pct / 1.5)}%;background:var(--${cls.slice(2)})"></i></div>
-      <div class="stats">
-        <div><b>${fmt(h.pec)}</b><span>en attente d'un médecin</span></div>
-        <div><b>${fmt(h.occ)}/${fmt(h.stretchers)}</b><span>civières occupées</span></div>
-        <div><b>${h.dmsAmb === null ? "—" : fmt(h.dmsAmb, 1) + " h"}</b><span>séjour moyen, sans civière (hier)</span></div>
-      </div>`;
+      <div class="bar"><i style="width:${pct === null ? 0 : Math.min(100, pct / 1.5)}%;background:var(--${cls.slice(2)})"></i></div>`;
     const h3 = li.querySelector("h3");
     const title = document.createElement("a");
     title.href = ficheHref(h); title.textContent = h.name;
@@ -1804,13 +1800,16 @@ function render() {
     tagsFor(h).forEach(t => h3.appendChild(t));
     const where = li.querySelector(".where"), d = km(h);
     if (d !== null) { const k = document.createElement("span"); k.className = "km"; k.textContent = distText(h) + " · "; where.appendChild(k); }
-    where.appendChild(document.createTextNode(h.area + (h.over24 ? ` · ${fmt(h.over24)} sur civière depuis plus de 24 h` : "")));
+    where.appendChild(document.createTextNode(h.area));
+    // Carte simplifiée : pourcentage, personnes en attente, itinéraire. Le détail (civières, séjour, meilleurs moments) est dans la fiche.
+    if (h.pec !== null && h.pec !== undefined) {
+      const w = el("div", "waitline"); const wb = el("b", "", fmt(h.pec)); w.append(wb, document.createTextNode(h.pec > 1 ? " personnes en attente d'un médecin" : " personne en attente d'un médecin"));
+      li.appendChild(w);
+    }
     const go = goLinks(h);
     if (go) li.appendChild(go);
-    const fc = forecastBlock(h);
-    if (fc) li.appendChild(fc);
     const more = document.createElement("a");
-    more.className = "more"; more.href = ficheHref(h); more.textContent = "Voir la fiche ›";
+    more.className = "more"; more.href = ficheHref(h); more.textContent = "Détails et meilleurs moments ›";
     more.setAttribute("aria-label", "Voir la fiche de " + h.name);
     li.appendChild(more);
     return li;
